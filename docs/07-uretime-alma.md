@@ -86,15 +86,20 @@ kullanıcı adı ve dosya yolları ziyaretçiye gösterilir.
 
 ---
 
-## 2. İlk kurulum (sunucuda, sırayla)
+## 2. İlk kurulum — konteyner kendi yapıyor
 
-```bash
-# APP_KEY zaten .env'de — key:generate'e gerek yok.
-php artisan migrate --force          # --seed YOK: üretime pilot içerik gitmez
-php artisan config:cache
-php artisan route:cache
-php artisan event:cache
-```
+Coolify'da uygulamayı **Dockerfile** tipiyle oluştur. Konteyner her açılışta
+`php artisan app:provision` çalıştırır ve şunları kendisi halleder:
+
+- veritabanını bekler (uygulama DB'den önce ayağa kalkabilir)
+- `migrate --force`
+- müfredat iskeletini yükler — **yalnızca boşsa**
+- `config:cache`, `route:cache`, `event:cache`
+
+İkinci açılışta "Yapı verisi zaten yüklü" der ve geçer. Elle çalıştırılacak
+tek şey aşağıdaki yönetici hesabıdır.
+
+Provision'ı atlamak gerekirse: `SKIP_PROVISION=true`.
 
 ### İlk yönetici hesabı
 
@@ -102,43 +107,33 @@ Seeder üretimde çalışmadığı için panelde hiç hesap yok ve `POST /admins
 zaten oturum açmış bir süper yönetici istiyor. Bu döngü tek komutla kırılır:
 
 ```bash
+# Coolify terminalinden, bir kez:
 php artisan admin:create --name="Ad Soyad" --email="sen@ornek.com"
 # şifre gizli sorulacak (komut geçmişine düşmesin diye)
 ```
 
-Sonraki hesapları panelden aç.
+Sonraki hesapları panelden aç. Provision, yönetici yoksa açılış logunda
+uyarı basar — atlanması zor.
 
 ### İçerik
 
-`migrate --force` boş bir veritabanı bırakır — **21 ders bile yok**. Müfredat
-iskeletini yüklemek için:
+Provision **yapı** verisini yükler: 1 sınav, 3 oturum, 5 alan varyantı,
+21 ders, 61 müfredat eşlemesi, 2 deneme, 2 şablon, 8 rozet.
 
-```bash
-php artisan db:seed --class="App\Modules\Curriculum\Database\Seeders\YksExamSeeder" --force
-php artisan db:seed --class="App\Modules\Catalog\Database\Seeders\SubjectSeeder" --force
-php artisan db:seed --class="App\Modules\Catalog\Database\Seeders\YksCourseSeeder" --force
-php artisan db:seed --class="App\Modules\Curriculum\Database\Seeders\YksCurriculumMapSeeder" --force
-php artisan db:seed --class="App\Modules\Curriculum\Database\Seeders\YksBlueprintSeeder" --force
-php artisan db:seed --class="App\Modules\Catalog\Database\Seeders\UnitTemplateSeeder" --force
-php artisan db:seed --class="App\Modules\Gamification\Database\Seeders\BadgeSeeder" --force
-```
-
-Bunlar **yapı** verisidir (sınav, ders, şablon, rozet), pilot soru değil.
-`PilotContentSeeder`'ı çalıştırma — o test içeriği.
+**Soru yüklemez.** `PilotContentSeeder` bilerek dışarıda — o test içeriği.
+Gerçek sorular panelden veya içerik paketi içe aktarmayla girer.
 
 ---
 
-## 3. Cron — atlanırsa sessizce bozulur
+## 3. Cron GEREKMİYOR
 
-```
-* * * * * cd /app && php artisan schedule:run >> /dev/null 2>&1
-```
+Zamanlayıcı konteynerin içinde `schedule:work` olarak çalışıyor
+(supervisor'da `scheduler` süreci). Harici cron kurmana gerek yok.
 
-Coolify'da "Scheduled Task" olarak da tanımlanabilir.
+Sebebi: cron kurulmayı unutulan bir şeydir ve unutulduğunda lig haftaları
+sessizce kapanmaz — hata da vermez. Konteyner ayaktaysa zamanlayıcı da ayakta.
 
-Bu kurulmazsa **lig haftaları hiç kapanmaz**: kimse terfi etmez, sıralama
-donar ve hata da vermez. Kontrol:
-
+Kontrol:
 ```bash
 php artisan schedule:list
 # 0 21 * * 0  php artisan league:close   (Pazartesi 00:00 Europe/Istanbul)
@@ -146,20 +141,26 @@ php artisan schedule:list
 
 ---
 
-## 4. Kuyruk işçisi
+## 4. Konteyner içinde ne çalışıyor
 
-Şu an kuyruğa iş atan bir kod **yok** (rozet ve lig eşzamanlı işleniyor).
-İşçi olmadan da çalışır. İleride push bildirimleri eklendiğinde gerekecek:
+`supervisord` dört süreç yönetiyor:
 
-```bash
-php artisan queue:work --tries=3 --max-time=3600
-```
+| Süreç | İş |
+|---|---|
+| `nginx` | 8080 portu, belge kökü `public/` |
+| `php-fpm` | PHP işleyici |
+| `scheduler` | `schedule:work` — lig kapanışı |
+| `queue` | `queue:work` — şu an boşta, push bildirimleri için hazır |
+
+Kuyruk işçisi saatte bir yeniden başlar (`--max-time=3600`); uzun ömürlü
+PHP süreçleri bellek sızdırır, periyodik yeniden başlatma standart çözümdür.
 
 ---
 
 ## 5. Sağlık kontrolü
 
-`GET /up` — Laravel'in yerleşik ucu. Coolify healthcheck olarak bunu kullan.
+`GET /up` — Dockerfile'da `HEALTHCHECK` olarak da tanımlı, Coolify bunu
+otomatik kullanır.
 
 ---
 
@@ -194,9 +195,9 @@ curl -s -X POST https://bilginbackend.cryptoping.io/api/admin/v1/auth/login \
 |---|---|---|
 | DB şifresi rotasyonu | Sohbette paylaşıldı, değiştirilmeli | **Evet** |
 | `APP_KEY` | Üretildi, `.env`'e yazılacak | **Evet** |
-| Cron kaydı | Yoksa lig kapanmaz | **Evet** |
+| Cron kaydı | Konteyner içinde halloldu | Hayır |
 | İlk yönetici hesabı | `admin:create` hazır | **Evet** |
-| İçerik | Yalnızca yapı verisi var, soru yok | Öğrenci için evet |
+| İçerik | Yapı verisi otomatik; **soru yok** | Öğrenci için evet |
 | RevenueCat sırrı | Boşsa satın alma çalışmaz | Premium için evet |
 | Apple/Google audience | Boşsa sosyal giriş kapalı | Misafir giriş yeterliyse hayır |
 | AdMob | Ödüllü reklam çalışmaz | Hayır |
