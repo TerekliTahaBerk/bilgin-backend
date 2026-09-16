@@ -18,6 +18,25 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->alias(['auth.optional' => OptionalAuthentication::class]);
+
+        /*
+         | Ters vekil (reverse proxy) arkasında çalışıyoruz.
+         |
+         | Bu ayar olmadan $request->ip() vekilin IP'sini döner: rate limit
+         | herkesi tek kullanıcı sayar (bir kişi tüm giriş denemelerini
+         | tüketir) ve denetim kaydındaki IP anlamsız olur. Ayrıca üretilen
+         | URL'ler http kalır — sağlayıcılara verdiğimiz webhook adresleri
+         | dahil.
+         |
+         | TRUSTED_PROXIES boşsa hiçbir vekil güvenilmez; "*" yalnızca
+         | uygulamaya YALNIZCA vekil üzerinden erişilebiliyorsa doğrudur
+         | (Coolify/Traefik kurulumu böyledir).
+         */
+        $middleware->trustProxies(
+            at: env('TRUSTED_PROXIES') === '*' ? '*' : array_values(array_filter(
+                explode(',', (string) env('TRUSTED_PROXIES', ''))
+            )),
+        );
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         // Oyun döngüsünün beklenen hataları API hata zarfına çevrilir;

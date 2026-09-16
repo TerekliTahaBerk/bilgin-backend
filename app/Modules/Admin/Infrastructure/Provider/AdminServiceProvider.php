@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Modules\Admin\Infrastructure\Provider;
 
+use App\Modules\Admin\Console\CreateAdminCommand;
 use App\Modules\Admin\Http\Middleware\EnsureAdminRole;
 use App\Shared\Http\ModuleRoutes;
 use Illuminate\Routing\Router;
@@ -16,6 +17,10 @@ final class AdminServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/../../Database/Migrations');
 
         $router->aliasMiddleware('admin.can', EnsureAdminRole::class);
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([CreateAdminCommand::class]);
+        }
 
         ModuleRoutes::api(__DIR__.'/../../Routes/api.php');
     }
