@@ -9,7 +9,7 @@ Hedef: `https://bilginbackend.cryptoping.io` · Coolify (Docker + Traefik)
 ```env
 APP_NAME=Tekrarla
 APP_ENV=production
-APP_KEY=                      # ← php artisan key:generate ile üret, BOŞ BIRAKMA
+APP_KEY=base64:mPQ+xDOfzAO7Dh0fgvBKxLn9lFXQmIKLPf/etAPz+vc=
 APP_DEBUG=false               # ← true kalırsa hata sayfaları yığın izini ve
                               #    veritabanı bilgilerini ziyaretçiye gösterir
 APP_URL=https://bilginbackend.cryptoping.io
@@ -27,8 +27,9 @@ DB_PASSWORD=<coolify'dan yeni şifre>
 # --- Vekil ve CORS ------------------------------------------------------
 # Coolify/Traefik arkasında: uygulamaya yalnızca vekil üzerinden erişiliyor.
 TRUSTED_PROXIES=*
-# Panelin alan adı. Panel henüz yayında değilse şimdilik boş bırakılabilir.
-CORS_ALLOWED_ORIGINS=https://panel.cryptoping.io
+# Boş veya "*" = her kaynağa açık. Bearer token kullandığımız ve cookie
+# göndermediğimiz için bu kurulumda güvenli; korumayı token sağlıyor.
+CORS_ALLOWED_ORIGINS=*
 
 # --- Oturum / kuyruk / önbellek ------------------------------------------
 # Redis servisi yoksa veritabanı sürücüleri yeterli. Trafik artınca
@@ -72,9 +73,13 @@ Sonuç: giriş rate limit'i (5/dk) tüm kullanıcıları tek sayar, yani bir ki�
 herkesin giriş hakkını tüketir. Denetim kaydındaki IP'ler de anlamsız olur.
 Ayrıca üretilen URL'ler `http://` kalır.
 
-**`CORS_ALLOWED_ORIGINS`** — Boşsa panel API'ye erişemez. `*` yazma: kimlik
-doğrulamalı bir API'de her kaynağa izin vermek, herhangi bir sitenin
-kullanıcının token'ıyla istek atabilmesi demek.
+**`CORS_ALLOWED_ORIGINS`** — `*` bu kurulumda güvenli: kimlik doğrulama
+Bearer token ile yapılıyor, cookie ile değil. Tarayıcı token'ı kendiliğinden
+eklemediği için başka bir sitenin JS'i kullanıcı adına istek atamaz.
+
+Tek istisna: ileride Sanctum'un cookie tabanlı SPA moduna geçilirse
+(`supports_credentials: true`), `*` derhal gerçek alan adlarıyla
+değiştirilmeli — o zaman tarayıcı oturum cookie'sini otomatik ekler.
 
 **`APP_DEBUG=false`** — `true` kalırsa bir istisna anında veritabanı adresi,
 kullanıcı adı ve dosya yolları ziyaretçiye gösterilir.
@@ -84,7 +89,7 @@ kullanıcı adı ve dosya yolları ziyaretçiye gösterilir.
 ## 2. İlk kurulum (sunucuda, sırayla)
 
 ```bash
-php artisan key:generate --force
+# APP_KEY zaten .env'de — key:generate'e gerek yok.
 php artisan migrate --force          # --seed YOK: üretime pilot içerik gitmez
 php artisan config:cache
 php artisan route:cache
@@ -188,7 +193,7 @@ curl -s -X POST https://bilginbackend.cryptoping.io/api/admin/v1/auth/login \
 | Konu | Durum | Engel mi? |
 |---|---|---|
 | DB şifresi rotasyonu | Sohbette paylaşıldı, değiştirilmeli | **Evet** |
-| `APP_KEY` üretimi | Komut hazır | **Evet** |
+| `APP_KEY` | Üretildi, `.env`'e yazılacak | **Evet** |
 | Cron kaydı | Yoksa lig kapanmaz | **Evet** |
 | İlk yönetici hesabı | `admin:create` hazır | **Evet** |
 | İçerik | Yalnızca yapı verisi var, soru yok | Öğrenci için evet |

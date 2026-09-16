@@ -3,12 +3,18 @@
 declare(strict_types=1);
 
 /*
- | Panel (Next.js) API'den FARKLI bir alan adında çalışacak; tarayıcı
- | isteklerini CORS olmadan engeller.
+ | Panel (Next.js) ve mobil istemci API'den farklı kaynaklardan çağırıyor.
  |
- | allowed_origins ASLA '*' olmamalı: kimlik doğrulamalı bir API'de her
- | kaynağa izin vermek, herhangi bir sitenin kullanıcının token'ıyla
- | istek atabilmesi demek. Alan adları ortam değişkeninden gelir.
+ | Varsayılan '*' — ve bu kurulumda GÜVENLİ, çünkü kimlik doğrulama
+ | Bearer token ile yapılıyor, cookie ile değil (supports_credentials
+ | false). Tarayıcı token'ı kendiliğinden eklemediği için başka bir
+ | sitenin JS'i kullanıcı adına istek atamaz; korumayı CORS değil
+ | token'ın kendisi sağlıyor.
+ |
+ | TEK İSTİSNA: ileride Sanctum'un cookie tabanlı SPA moduna geçilirse
+ | (supports_credentials true), '*' derhal gerçek alan adlarıyla
+ | değiştirilmeli — o zaman tarayıcı oturum cookie'sini otomatik ekler
+ | ve CSRF yüzeyi açılır.
  */
 
 return [
@@ -16,9 +22,9 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => array_values(array_filter(
-        explode(',', (string) env('CORS_ALLOWED_ORIGINS', ''))
-    )),
+    'allowed_origins' => ($origins = array_values(array_filter(
+        explode(',', (string) env('CORS_ALLOWED_ORIGINS', '*'))
+    ))) === [] ? ['*'] : $origins,
 
     'allowed_origins_patterns' => [],
 
