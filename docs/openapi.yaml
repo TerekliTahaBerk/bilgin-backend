@@ -1,0 +1,1609 @@
+openapi: 3.0.3
+
+# Bu dosya İSTEMCİ SÖZLEŞMESİDİR ve elle yazılır.
+#
+# Koddan üretmek yerine elle tutulmasının sebebi: Flutter ve Next.js ekipleri
+# buna göre paralel çalışacak, dolayısıyla sözleşme kodun peşinden gitmemeli;
+# kod sözleşmeye uymalı. Uyumu ApiContractTest koruyor — her uç gerçek istekle
+# çağrılıp yanıtı bu şemaya karşı doğrulanıyor, ayrıca belgesiz uç kalırsa test
+# kırmızıya döner.
+#
+# 3.1 yerine 3.0.3: doğrulama araç zinciri (osteel/openapi-httpfoundation-testing)
+# 3.0 üzerinde çalışıyor. Şema içeriği açısından fark yok.
+
+info:
+  title: Tekrarla API
+  version: '1.0.0'
+  description: |
+    Sınav hazırlık uygulamasının istemci API'si (YKS · TYT + AYT).
+
+    **Temel kurallar**
+    - Tüm yanıtlar `{ data, meta }` veya `{ error }` zarfındadır.
+    - İstemci hata **koduna** göre dallanır, mesaja göre değil. Mesaj kullanıcıya
+      gösterilebilir Türkçe metindir ve sunucu deploy'u olmadan değişebilir.
+    - Doğru cevap, XP, can ve seri **yalnızca sunucuda** üretilir. İstemciden
+      gelen böyle bir değer hiçbir zaman kabul edilmez.
+    - Egzersizin cevap anahtarı oturum yanıtında **yer almaz**; ancak soru
+      cevaplandıktan sonra `POST /sessions/{session}/answers` ile döner.
+
+servers:
+  - url: http://localhost:8000/api
+    description: Yerel geliştirme
+  - url: https://api.tekrarla.app/api
+    description: Production
+
+tags:
+  - name: Kimlik
+    description: Misafir giriş ve onboarding
+  - name: İçerik
+    description: Ders listesi ve ünite yolu
+  - name: Oyun
+    description: Çalışma oturumu döngüsü
+  - name: Can
+    description: Can bakiyesi
+  - name: Premium
+    description: Abonelik ve haklar
+  - name: Profil
+    description: İstatistikler, rozetler, konu analizi
+  - name: Lig
+    description: Haftalık yarış
+  - name: Reklam
+    description: Reklam politikası ve ödüllü reklam
+
+security:
+  - bearerAuth: []
+
+paths:
+  /v1/auth/guest:
+    post:
+      tags: [Kimlik]
+      summary: Misafir giriş
+      description: |
+        Tasarımdaki "Başla" butonu. Kayıt ekranı yoktur; kullanıcı önce oynar,
+        hesabını sonra bağlar. Aynı cihazdan ikinci çağrı yeni hesap açmaz,
+        mevcut misafir hesabı döner.
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [device_identifier, platform]
+              properties:
+                device_identifier:
+                  type: string
+                  maxLength: 191
+                  example: 7f3a9c1e-device
+                platform:
+                  type: string
+                  enum: [ios, android, web]
+                app_version:
+                  type: string
+                  nullable: true
+                  example: '1.0.0'
+      responses:
+        '201':
+          description: Misafir hesap açıldı (veya mevcut hesap döndü)
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [token, user]
+                    properties:
+                      token:
+                        type: string
+                        description: Sanctum bearer token
+                      user: { $ref: '#/components/schemas/User' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+        '429': { $ref: '#/components/responses/Error' }
+
+  /v1/auth/social:
+    post:
+      tags: [Kimlik]
+      summary: Apple / Google ile giriş
+      description: |
+        Sağlayıcının kimlik token'ı sunucuda doğrulanır (imza, izleyici, süre).
+        İstemcinin "ben şu kullanıcıyım" iddiası tek başına kabul edilmez.
+
+        **Misafir token'ıyla çağrılırsa** mevcut ilerleme kalıcı hesaba taşınır
+        (`guest_upgraded: true`).
+
+        **Bu kimlikle zaten bir hesap varsa ve misafirin de ilerlemesi varsa**
+        `409 ACCOUNT_ALREADY_LINKED` döner ve iki hesabın özeti verilir.
+        Hiçbir ilerleme sorulmadan silinmez; kullanıcı seçtikten sonra istemci
+        `discard_guest_progress: true` ile tekrar gönderir.
+      security: []
+      parameters:
+        - name: Authorization
+          in: header
+          required: false
+          description: 'Misafir token''ı — gönderilirse ilerleme taşınır.'
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [provider, identity_token]
+              properties:
+                provider: { type: string, enum: [apple, google] }
+                identity_token:
+                  type: string
+                  maxLength: 4096
+                  description: 'Sağlayıcıdan alınan OpenID Connect kimlik token''ı (JWT).'
+                discard_guest_progress:
+                  type: boolean
+                  description: 'Çakışmada kullanıcı "mevcut hesabımla devam et" derse true.'
+      responses:
+        '200':
+          description: Mevcut hesaba giriş yapıldı (veya misafir yükseltildi)
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/SocialAuthResult' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '201':
+          description: Yeni hesap açıldı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/SocialAuthResult' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401':
+          description: Token doğrulanamadı (`SOCIAL_VERIFICATION_FAILED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '409':
+          description: |
+            Çakışma (`ACCOUNT_ALREADY_LINKED`). `details.guest_account` ve
+            `details.existing_account` ile iki ilerleme karşılaştırılabilir.
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+
+  /v1/auth/logout:
+    post:
+      tags: [Kimlik]
+      summary: Çıkış — mevcut token'ı iptal eder
+      responses:
+        '200':
+          description: Çıkış yapıldı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [logged_out]
+                    properties:
+                      logged_out: { type: boolean }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/me:
+    get:
+      tags: [Kimlik]
+      summary: Oturum açmış kullanıcı
+      responses:
+        '200':
+          description: Kullanıcı profili
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/User' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/onboarding:
+    post:
+      tags: [Kimlik]
+      summary: Onboarding — sınav, alan, sınıf, hedef ve günlük hedef
+      description: |
+        Onboarding'in 7 adımının çıktısı tek istekte gönderilir.
+
+        `exam_code` + `field` sunucuda **tek bir sınav varyantına** çözülür
+        (`yks` + `say` → `yks_say`). Ders listesi, sekmeler ve paywall bundan
+        sonra tamamen veriden türer.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [exam_code, field]
+              properties:
+                exam_code:
+                  type: string
+                  example: yks
+                field:
+                  type: string
+                  enum: [say, ea, soz, dil, undecided]
+                  description: '"undecided" (Henüz bilmiyorum) geçerli bir varyanttır; yalnızca TYT derslerine eşlenir.'
+                grade:
+                  type: string
+                  enum: ['8', '9', '10', '11', '12', mezun]
+                  nullable: true
+                target_exam_year:
+                  type: integer
+                  minimum: 2026
+                  maximum: 2040
+                  nullable: true
+                target_exam_month:
+                  type: integer
+                  minimum: 1
+                  maximum: 12
+                  nullable: true
+                name:
+                  type: string
+                  minLength: 2
+                  maxLength: 20
+                  nullable: true
+                  description: Lig sıralamasında görünen ad
+                avatar_key: { type: string, nullable: true }
+                acquisition_source: { type: string, nullable: true }
+                daily_goal_rounds:
+                  type: integer
+                  enum: [1, 3, 6]
+                  description: 'Sakin / Düzenli / Sınav modu'
+                reminder_enabled: { type: boolean }
+                reminder_time:
+                  type: string
+                  pattern: '^\d{2}:\d{2}$'
+                  nullable: true
+                  example: '20:00'
+      responses:
+        '201':
+          description: Onboarding tamamlandı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [user, next_step]
+                    properties:
+                      user: { $ref: '#/components/schemas/User' }
+                      next_step:
+                        type: string
+                        enum: [placement, home]
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+
+  /v1/me/enrollment:
+    patch:
+      tags: [Kimlik]
+      summary: Alan değiştir (ör. Sayısal → Eşit Ağırlık)
+      description: |
+        Öğrenciler alan değiştirir ve bu ilerlemeyi silmenin mazereti olamaz.
+
+        Tüm ilerleme `course_id`'ye bağlı olduğu için bu işlem tek satırlık bir
+        güncellemedir: TYT'nin tamamı ve ortak AYT dersleri olduğu gibi kalır,
+        yalnızca görünen ders listesi değişir.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [field]
+              properties:
+                field:
+                  type: string
+                  enum: [say, ea, soz, dil, undecided]
+      responses:
+        '200':
+          description: Alan değişti, ilerleme korundu
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [exam_variant, progress_preserved]
+                    properties:
+                      exam_variant: { $ref: '#/components/schemas/ExamVariant' }
+                      progress_preserved:
+                        type: boolean
+                        description: Daima true — sözleşmenin açık taahhüdü.
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+
+  /v1/me/courses:
+    get:
+      tags: [İçerik]
+      summary: Ders listesi — TYT / AYT sekmeleri
+      description: |
+        Tasarımdaki "Öğren · ders seçimi" ekranı. Dersler sınav oturumuna göre
+        gruplanır (sekmeler) ve alana göre sıralanır.
+
+        Yayınlanmamış dersler listeden düşmez; `coming_soon` ile görünür —
+        öğrenciye yol haritasını anlatır.
+      responses:
+        '200':
+          description: Kullanıcının varyantına ait ders listesi
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [exam_variant, sections]
+                    properties:
+                      exam_variant: { $ref: '#/components/schemas/ExamVariant' }
+                      sections:
+                        type: array
+                        items: { $ref: '#/components/schemas/CourseSection' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '409':
+          description: Onboarding yapılmamış (`ONBOARDING_REQUIRED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/courses/{course}/path:
+    get:
+      tags: [İçerik]
+      summary: Ünite yolu (imza ekran)
+      description: |
+        Üniteler öğrencinin sınıfına göre sıralanır (`path_strategy`); node
+        kilitleri içerik ekibinin kurguladığı kurallardan ve kullanıcının
+        ilerlemesinden hesaplanır.
+      parameters:
+        - name: course
+          in: path
+          required: true
+          schema: { type: integer }
+      responses:
+        '200':
+          description: Dersin ünite yolu
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [course, units]
+                    properties:
+                      course: { $ref: '#/components/schemas/CourseHeader' }
+                      units:
+                        type: array
+                        items: { $ref: '#/components/schemas/Unit' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404':
+          description: Ders yayında değil (`CONTENT_NOT_AVAILABLE`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/sessions:
+    post:
+      tags: [Oyun]
+      summary: Çalışma turu başlat
+      description: |
+        Node'un soru seçim kuralı çalıştırılır ve seçilen sorular oturuma
+        **dondurulur** (snapshot): içerik ekibi araya düzeltme yapsa bile
+        devam eden tur bozulmaz.
+
+        `Idempotency-Key` gönderilmesi önerilir; ağ hatasında tekrar edilen
+        istek ikinci tur açmaz.
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: false
+          schema: { type: string, maxLength: 191 }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [node_id]
+              properties:
+                node_id: { type: integer }
+      responses:
+        '201':
+          description: Tur başladı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/Session' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '409':
+          description: Can bitti (`HEARTS_DEPLETED`) — `details.next_heart_at` döner
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+        '503':
+          description: Havuz yetersiz (`POOL_INSUFFICIENT`) — alarm üretir
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/exam-simulations:
+    get:
+      tags: [Oyun]
+      summary: Denemeler (sınav provası) listesi
+      description: Öğrencinin alanına uygun denemeler ve varyanttan bağımsız genel denemeler.
+      responses:
+        '200':
+          description: Deneme listesi
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/Blueprint' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '409':
+          description: Onboarding yapılmamış (`ONBOARDING_REQUIRED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+    post:
+      tags: [Oyun]
+      summary: Deneme başlat
+      description: |
+        Normal turdan üç farkı var:
+        **can harcamaz** (gerçek sınav havası bozulmasın), üniteye bağlı
+        değildir (sorular blueprint'e göre birden çok dersten gelir) ve
+        sonucu doğruluk değil **nettir**.
+
+        Cevaplama ve tamamlama normal oturumla aynı uçlardan devam eder:
+        `/v1/sessions/{session}/answers` ve `/v1/sessions/{session}/complete`.
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: false
+          schema: { type: string, maxLength: 191 }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [blueprint_id]
+              properties:
+                blueprint_id: { type: integer }
+      responses:
+        '201':
+          description: Deneme başladı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/Session' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+        '503':
+          description: Havuz yetersiz (`POOL_INSUFFICIENT`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/sessions/{session}/answers:
+    post:
+      tags: [Oyun]
+      summary: Tek bir cevabı gönder
+      description: |
+        Değerlendirme sunucuda yapılır. Yanlış cevapta can düşer (turun
+        `consumes_hearts` değeri true ise).
+
+        Aynı soru ikinci kez gönderilirse ilk sonuç aynen döner ve can tekrar
+        düşmez (`idempotent_replay: true`). Offline'dan dönen istemcinin
+        tetiklediği bu durum bir hata değil, beklenen davranıştır.
+      parameters:
+        - name: session
+          in: path
+          required: true
+          schema: { type: string, format: uuid }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [exercise_id, answer]
+              properties:
+                exercise_id: { type: integer }
+                answer:
+                  type: object
+                  description: |
+                    Şekli egzersiz tipine göre değişir:
+                    `{"option_id":"b"}` · `{"value":true}` · `{"blanks":["Töre"]}` ·
+                    `{"pairs":{"1":"a"}}` · `{"order":["1","2"]}` ·
+                    `{"value":375}` · `{"known":true}` · `{"labels":{"s1":"çekirdek"}}`
+                  additionalProperties: true
+                elapsed_ms:
+                  type: integer
+                  minimum: 0
+                  maximum: 3600000
+                  description: Sorunun ekranda kaldığı süre; hile tespitinde kullanılır.
+      responses:
+        '200':
+          description: Cevap değerlendirildi
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/AnswerResult' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404':
+          description: Oturum bulunamadı (`SESSION_NOT_FOUND`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '409':
+          description: Tur zaten tamamlandı (`SESSION_ALREADY_COMPLETED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '410':
+          description: Turun süresi doldu (`SESSION_EXPIRED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '422': { $ref: '#/components/responses/ValidationError' }
+
+  /v1/sessions/{session}/complete:
+    post:
+      tags: [Oyun]
+      summary: Turu tamamla — sonuç ekranının tamamı
+      description: |
+        Tek yanıt; sonuç ekranı için ek istek gerekmez. XP dökümü, level
+        çubuğu, seri animasyonu, ünite yüzdesi ve "yeni node açıldı" rozetinin
+        hepsi buradadır — kutlama animasyonu ağ gecikmesine takılmasın diye.
+      parameters:
+        - name: session
+          in: path
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200':
+          description: Tur tamamlandı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/SessionSummary' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404':
+          description: Oturum bulunamadı (`SESSION_NOT_FOUND`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+        '409':
+          description: Tur zaten tamamlandı (`SESSION_ALREADY_COMPLETED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/sessions/{session}/abandon:
+    post:
+      tags: [Oyun]
+      summary: Turu yarıda bırak
+      description: Harcanan can iade edilmez — yarım bırakmak bir kaçış yolu olmamalı.
+      parameters:
+        - name: session
+          in: path
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        '200':
+          description: Tur bırakıldı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [status]
+                    properties:
+                      status:
+                        type: string
+                        enum: [active, completed, abandoned, expired]
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '404':
+          description: Oturum bulunamadı (`SESSION_NOT_FOUND`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/me/entitlements:
+    get:
+      tags: [Premium]
+      summary: Kullanıcının hakları
+      description: |
+        İstemci paywall'ı ve özellik kapılarını buna göre çizer.
+
+        Premium durumu **yalnızca sunucuda** belirlenir; kaynak, sağlayıcı
+        webhook'uyla yazılmış abonelik kaydıdır. İstemcinin "ben premium'um"
+        demesi hiçbir kapıyı açmaz.
+      responses:
+        '200':
+          description: Haklar
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/Entitlements' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/premium/offerings:
+    get:
+      tags: [Premium]
+      summary: Paywall içeriği
+      description: |
+        **Fiyat burada yoktur.** Mağaza fiyatı ülkeye, para birimine ve
+        kampanyaya göre değişir; tek doğru kaynağı store SDK'sıdır. Sunucu
+        yalnızca ürün kimliklerini ve neyin dahil olduğunu söyler.
+      responses:
+        '200':
+          description: Paywall verisi
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/Offerings' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/webhooks/revenuecat:
+    post:
+      tags: [Premium]
+      summary: RevenueCat webhook (sunucudan sunucuya)
+      description: |
+        İstemci bu ucu **çağırmaz**. Sağlayıcıdan gelir ve `Authorization`
+        başlığındaki paylaşılan sır ile doğrulanır.
+
+        Bilinmeyen kullanıcı ya da ilgilenilmeyen olay tipi hata değildir;
+        kaydedilir ve 200 dönülür — 500 dönmek sağlayıcının saatlerce
+        yeniden denemesine yol açar.
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                event:
+                  type: object
+                  additionalProperties: true
+      responses:
+        '200':
+          description: Alındı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [outcome]
+                    properties:
+                      outcome:
+                        type: string
+                        enum: [processed, duplicate, ignored]
+                      detail: { type: string, nullable: true }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401':
+          description: Geçersiz imza
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/me/stats:
+    get:
+      tags: [Profil]
+      summary: Profil istatistikleri
+      responses:
+        '200':
+          description: İstatistikler
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/ProfileStats' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/me/badges:
+    get:
+      tags: [Profil]
+      summary: Rozetler
+      description: |
+        Kazanılmış ve kilitli rozetler bir arada. Kilitlilerde **ilerleme**
+        döner — "100 doğru" rozetinin 73'te olduğunu görmek, hiçbir bilgi
+        vermeyen gri bir ikondan çok daha güçlü bir motivasyon.
+      responses:
+        '200':
+          description: Rozet ızgarası
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/BadgeGrid' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/me/topics:
+    get:
+      tags: [Profil]
+      summary: Zayıf / güçlü konu analizi
+      description: |
+        Ücretsiz planda **özet** (kaç zayıf, kaç güçlü + en zayıf konunun adı),
+        premium'da konu konu **detay**.
+
+        Konular ders değil *subject* seviyesinde olduğu için TYT ve AYT
+        ustalığı birleşiktir; `course_id` filtresi dersin subject'i üzerinden
+        çalışır.
+      parameters:
+        - name: course_id
+          in: query
+          required: false
+          schema: { type: integer }
+      responses:
+        '200':
+          description: Analiz
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/TopicAnalysis' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/league/current:
+    get:
+      tags: [Lig]
+      summary: Bu haftanın lig tablosu
+      description: |
+        Tasarımdaki "Zümrüt Lig" ekranı.
+
+        Lige katılım **tembeldir**: kullanıcı haftanın ilk XP'sini kazandığında
+        atanır. Henüz katılmamışsa `joined: false` döner — hata değil, istemci
+        "bir tur yap, lige katıl" ekranını gösterir.
+      responses:
+        '200':
+          description: Lig tablosu veya henüz katılmadı bilgisi
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    oneOf:
+                      - $ref: '#/components/schemas/LeagueStandings'
+                      - $ref: '#/components/schemas/LeagueNotJoined'
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/league/history:
+    get:
+      tags: [Lig]
+      summary: Lig geçmişi
+      description: Profil ekranındaki "Lig Geçmişim" — kapanmış haftalar.
+      responses:
+        '200':
+          description: Geçmiş haftalar (en yeniden eskiye, en fazla 20)
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/LeagueHistoryEntry' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/ads/policy:
+    get:
+      tags: [Reklam]
+      summary: Reklam politikası
+      description: |
+        **Ne gösterileceğine sunucu karar verir.** İstemcide "premium mi?"
+        kontrolü yapmak, eski uygulama sürümlerinin premium kullanıcıya reklam
+        göstermeye devam etmesi demek — uygulama güncellemesi kullanıcı isteğine
+        bağlıdır ve haftalar sürer.
+
+        Sıklık ayarları da burada: A/B testi için sunucudan değiştirilebilmeli.
+      responses:
+        '200':
+          description: Politika
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/AdPolicy' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+  /v1/webhooks/admob/ssv:
+    get:
+      tags: [Reklam]
+      summary: AdMob sunucu tarafı doğrulama (SSV)
+      description: |
+        İstemci bu ucu **çağırmaz**. Ödüllü reklam izlendiğinde AdMob çağırır
+        ve sorgu dizesini ECDSA ile imzalar; imza `&signature=` parametresine
+        kadar olan HAM dize üzerinde doğrulanır.
+
+        Bilinmeyen kullanıcı, günlük limit aşımı veya premium kullanıcı
+        durumlarında da 200 döner — reddedilme sebebi kayda yazılır. 500 dönmek
+        AdMob'un yeniden deneme kuyruğunu tıkardı.
+      security: []
+      parameters:
+        - { name: transaction_id, in: query, required: true, schema: { type: string } }
+        - { name: user_id, in: query, required: true, schema: { type: string, format: uuid } }
+        - { name: signature, in: query, required: true, schema: { type: string } }
+        - { name: key_id, in: query, required: true, schema: { type: integer } }
+        - { name: custom_data, in: query, required: false, schema: { type: string, enum: [heart_refill, streak_freeze] } }
+        - { name: reward_amount, in: query, required: false, schema: { type: integer } }
+        - { name: timestamp, in: query, required: false, schema: { type: integer } }
+      responses:
+        '200':
+          description: Alındı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [outcome]
+                    properties:
+                      outcome: { type: string, enum: [granted, duplicate, rejected] }
+                      detail: { type: string }
+                      hearts: { type: integer }
+                      remaining_today: { type: integer }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401':
+          description: İmza doğrulanamadı (`AD_VERIFICATION_FAILED`)
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  /v1/hearts:
+    get:
+      tags: [Can]
+      summary: Can bakiyesi
+      description: |
+        Rejenerasyon okuma anında hesaplanır; ayrı bir "canlarımı yenile"
+        çağrısı yoktur. Premium kullanıcıda `unlimited: true` döner.
+      responses:
+        '200':
+          description: Can bakiyesi
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data: { $ref: '#/components/schemas/Hearts' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+
+  responses:
+    Unauthorized:
+      description: Kimlik doğrulanamadı
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              message: { type: string }
+    ValidationError:
+      description: Doğrulama hatası
+      content:
+        application/json:
+          schema:
+            type: object
+            required: [message]
+            properties:
+              message: { type: string }
+              errors:
+                type: object
+                additionalProperties:
+                  type: array
+                  items: { type: string }
+    Error:
+      description: Hata
+      content:
+        application/json:
+          schema: { $ref: '#/components/schemas/ErrorEnvelope' }
+
+  schemas:
+    Meta:
+      type: object
+      required: [server_time]
+      properties:
+        server_time:
+          type: string
+          format: date-time
+
+    ErrorEnvelope:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: object
+          required: [code, message]
+          properties:
+            code:
+              type: string
+              description: |
+                İstemci buna göre dallanır. Bilinen kodlar:
+                `ONBOARDING_REQUIRED`, `CONTENT_NOT_AVAILABLE`, `HEARTS_DEPLETED`,
+                `NODE_LOCKED`, `PREMIUM_REQUIRED`, `SESSION_NOT_FOUND`,
+                `SESSION_ALREADY_COMPLETED`, `SESSION_EXPIRED`,
+                `EXERCISE_NOT_IN_SESSION`, `POOL_INSUFFICIENT`
+              example: HEARTS_DEPLETED
+            message:
+              type: string
+              description: Kullanıcıya gösterilebilir Türkçe metin.
+            details:
+              type: object
+              additionalProperties: true
+
+    SocialAuthResult:
+      type: object
+      required: [token, user, account_created, guest_upgraded]
+      properties:
+        token: { type: string }
+        user: { $ref: '#/components/schemas/User' }
+        account_created: { type: boolean }
+        guest_upgraded:
+          type: boolean
+          description: 'true ise istemci "ilerlemen hesabına taşındı" mesajını gösterir.'
+
+    ExamVariant:
+      type: object
+      required: [code, name, field]
+      properties:
+        code: { type: string, example: yks_say }
+        name: { type: string, example: 'YKS · Sayısal' }
+        field:
+          type: string
+          enum: [say, ea, soz, dil, undecided]
+        description: { type: string, nullable: true }
+
+    User:
+      type: object
+      required: [id, is_guest, timezone]
+      properties:
+        id: { type: string, format: uuid }
+        name: { type: string, nullable: true }
+        avatar_key: { type: string, nullable: true }
+        is_guest: { type: boolean }
+        timezone: { type: string, example: Europe/Istanbul }
+        enrollment:
+          type: object
+          nullable: true
+          required: [exam_variant]
+          properties:
+            exam_variant: { $ref: '#/components/schemas/ExamVariant' }
+        profile:
+          type: object
+          nullable: true
+          required: [daily_goal_rounds, onboarding_completed]
+          properties:
+            grade: { type: string, nullable: true }
+            target_exam_year: { type: integer, nullable: true }
+            daily_goal_rounds: { type: integer, enum: [1, 3, 6] }
+            reminder_enabled: { type: boolean }
+            reminder_time: { type: string, nullable: true }
+            onboarding_completed: { type: boolean }
+
+    CourseSection:
+      type: object
+      required: [code, name, courses]
+      properties:
+        code: { type: string, example: tyt }
+        name: { type: string, example: TYT }
+        duration_min: { type: integer, nullable: true }
+        question_count: { type: integer, nullable: true }
+        courses:
+          type: array
+          items: { $ref: '#/components/schemas/CourseCard' }
+
+    CourseCard:
+      type: object
+      required: [id, code, name, access]
+      properties:
+        id: { type: integer }
+        code: { type: string, example: tyt_matematik }
+        name: { type: string, description: 'Kart üzerinde görünen kısa ad' }
+        full_name: { type: string }
+        color: { type: string, nullable: true }
+        icon: { type: string, nullable: true }
+        scope: { type: string, enum: [tyt, ayt, ydt, lgs, kpss, ales, yds] }
+        access: { type: string, enum: [free, premium] }
+        exam_weight:
+          type: integer
+          nullable: true
+          description: Bu varyantta sınavda çıkan soru adedi
+        coming_soon: { type: boolean, description: 'Yalnızca true iken bulunur' }
+        placeholder_label: { type: string, nullable: true, example: Yakında }
+        locked: { type: boolean, description: 'Yalnızca true iken bulunur' }
+        lock_reason: { type: string, example: PREMIUM_REQUIRED }
+
+    CourseHeader:
+      type: object
+      required: [id, code, name, scope, path_strategy]
+      properties:
+        id: { type: integer }
+        code: { type: string }
+        name: { type: string }
+        short_name: { type: string, nullable: true }
+        color: { type: string, nullable: true }
+        scope: { type: string }
+        completed_units: { type: integer }
+        total_units: { type: integer }
+        path_strategy:
+          type: string
+          enum: [sequential, grade_aware]
+          description: Ünitelerin hangi mantıkla sıralandığı
+
+    Unit:
+      type: object
+      required: [id, title, state, completion_percent, nodes]
+      properties:
+        id: { type: integer }
+        title: { type: string }
+        grade_level: { type: integer, nullable: true }
+        estimated_minutes: { type: integer, nullable: true }
+        state:
+          type: string
+          enum: [locked, available, in_progress, completed]
+        lock_reason: { type: string, nullable: true }
+        completion_percent: { type: integer, minimum: 0, maximum: 100 }
+        completed_nodes: { type: integer }
+        total_nodes: { type: integer }
+        nodes:
+          type: array
+          items: { $ref: '#/components/schemas/Node' }
+
+    Node:
+      type: object
+      required: [id, title, type, difficulty, state, exercise_count, xp_reward, access]
+      properties:
+        id: { type: integer }
+        title: { type: string }
+        type:
+          type: string
+          enum: [study, matching, mini_challenge, unit_challenge, quick_review, exam_sim]
+        difficulty:
+          type: string
+          enum: [kolay, kolay_orta, orta, orta_zor, zor, sinav_provasi]
+        state:
+          type: string
+          enum: [locked, available, completed]
+        lock_reason:
+          type: string
+          nullable: true
+          enum:
+            - PREVIOUS_NODE_INCOMPLETE
+            - PREVIOUS_UNIT_INCOMPLETE
+            - UNIT_INCOMPLETE
+            - ACCURACY_TOO_LOW
+            - PREMIUM_REQUIRED
+        exercise_count: { type: integer }
+        time_limit_sec: { type: integer, nullable: true }
+        consumes_hearts: { type: boolean }
+        xp_reward: { type: integer }
+        access: { type: string, enum: [free, premium] }
+        preview_label: { type: string, nullable: true }
+        best_accuracy: { type: integer, nullable: true }
+
+    Hearts:
+      type: object
+      required: [hearts, max]
+      properties:
+        hearts: { type: integer, minimum: 0 }
+        max: { type: integer }
+        unlimited: { type: boolean, description: 'Premium — yalnızca true iken bulunur' }
+        next_heart_at: { type: string, format: date-time, nullable: true }
+        full_at: { type: string, format: date-time, nullable: true }
+
+    Blueprint:
+      type: object
+      required: [id, code, name, duration_min, question_count, penalty_ratio]
+      properties:
+        id: { type: integer }
+        code: { type: string, example: tyt_genel_deneme }
+        name: { type: string, example: 'TYT Genel Deneme' }
+        duration_min: { type: integer, example: 165 }
+        question_count: { type: integer, example: 120 }
+        penalty_ratio:
+          type: number
+          description: 'Yanlışın götürdüğü doğru oranı. 0.25 = 4 yanlış 1 doğru. İstemci uyarı metnini buradan yazar.'
+          example: 0.25
+
+    ExamResult:
+      type: object
+      required: [correct, wrong, blank, net, estimated_score]
+      properties:
+        correct: { type: integer }
+        wrong: { type: integer }
+        blank:
+          type: integer
+          description: 'Boş, yanlıştan farklıdır ve net hesabını doğrudan etkiler.'
+        net: { type: number }
+        estimated_score:
+          type: number
+          description: |
+            **Tahmindir.** Gerçek ÖSYM puanı yıllık katsayılara ve standart
+            sapmaya bağlıdır; istemci bunu "tahmini" olarak etiketlemelidir.
+
+    ProfileStats:
+      type: object
+      required: [level, streak, activity]
+      properties:
+        level:
+          type: object
+          required: [current, total_xp, level_start_xp, next_level_xp]
+          properties:
+            current: { type: integer }
+            total_xp: { type: integer }
+            level_start_xp: { type: integer, description: 'İlerleme çubuğunun alt sınırı.' }
+            next_level_xp: { type: integer, description: 'İlerleme çubuğunun üst sınırı.' }
+        streak:
+          type: object
+          required: [current, longest]
+          properties:
+            current: { type: integer }
+            longest: { type: integer }
+            last_study_date: { type: string, format: date, nullable: true }
+        activity:
+          type: object
+          required: [total_sessions, perfect_sessions, total_correct, completed_units, completed_nodes, study_minutes]
+          properties:
+            total_sessions: { type: integer }
+            perfect_sessions: { type: integer }
+            total_correct: { type: integer }
+            completed_units: { type: integer }
+            completed_nodes: { type: integer }
+            study_minutes: { type: integer }
+
+    BadgeGrid:
+      type: object
+      required: [earned_count, total_count, badges]
+      properties:
+        earned_count: { type: integer }
+        total_count: { type: integer }
+        badges:
+          type: array
+          items: { $ref: '#/components/schemas/BadgeStatus' }
+
+    BadgeStatus:
+      type: object
+      required: [code, name, description, tier, earned]
+      properties:
+        code: { type: string, example: dogru_100 }
+        name: { type: string, example: '100 Doğru' }
+        description: { type: string }
+        icon: { type: string, nullable: true }
+        tier: { type: string, enum: [bronze, silver, gold] }
+        earned: { type: boolean }
+        earned_at: { type: string, format: date-time }
+        progress:
+          type: object
+          description: 'Yalnızca kilitli rozetlerde bulunur.'
+          required: [current, target, percent]
+          properties:
+            current: { type: integer }
+            target: { type: integer }
+            percent: { type: integer, minimum: 0, maximum: 100 }
+
+    TopicAnalysis:
+      type: object
+      required: [summary, detailed]
+      properties:
+        summary:
+          type: object
+          required: [weak, developing, strong, total]
+          properties:
+            weak: { type: integer, description: 'Doğruluk %50 altı.' }
+            developing: { type: integer, description: '%50–79.' }
+            strong: { type: integer, description: '%80 ve üstü.' }
+            total: { type: integer }
+        detailed:
+          type: boolean
+          description: 'Premium''da true; konu konu liste döner.'
+        weakest_topic:
+          type: string
+          nullable: true
+          description: 'Ücretsiz planda tek örnek — premium''un ne verdiğini somut kılar.'
+        topics:
+          type: array
+          description: 'Yalnızca premium.'
+          items:
+            type: object
+            required: [topic_id, topic, accuracy, mastery]
+            properties:
+              topic_id: { type: integer }
+              topic: { type: string }
+              subject: { type: string }
+              color: { type: string, nullable: true }
+              attempts: { type: integer }
+              correct: { type: integer }
+              accuracy: { type: integer }
+              mastery: { type: string, enum: [weak, developing, strong, unknown] }
+              last_practiced_at: { type: string, nullable: true }
+
+    LeagueNotJoined:
+      type: object
+      required: [joined, message]
+      properties:
+        joined: { type: boolean, enum: [false] }
+        message: { type: string }
+
+    LeagueStandings:
+      type: object
+      required: [joined, tier, name, week_start, ends_at, my_rank, promotion_zone, members]
+      properties:
+        joined: { type: boolean, enum: [true] }
+        tier:
+          type: string
+          enum: [bronze, silver, gold, emerald, sapphire, diamond, champion]
+        name: { type: string, example: 'Zümrüt Lig' }
+        week_start: { type: string, format: date }
+        ends_at:
+          type: string
+          format: date-time
+          description: 'Haftanın bitişi — Pazartesi 00:00 Europe/Istanbul.'
+        my_rank: { type: integer }
+        promotion_zone:
+          type: integer
+          description: 'İlk kaç kişi üst lige çıkar.'
+        demotion_zone_starts_at:
+          type: integer
+          nullable: true
+          description: 'Düşme bölgesinin başladığı sıra. Kohort küçükse bölge daralır, küçükse null.'
+        xp_to_promotion:
+          type: integer
+          nullable: true
+          description: 'Yükselme bölgesine kalan XP. Zaten bölgedeyse bulunmaz.'
+        members:
+          type: array
+          items: { $ref: '#/components/schemas/LeagueMember' }
+
+    LeagueMember:
+      type: object
+      required: [rank, weekly_xp]
+      properties:
+        rank: { type: integer }
+        name: { type: string, nullable: true }
+        avatar_key: { type: string, nullable: true }
+        weekly_xp: { type: integer }
+        streak: { type: integer, description: 'Yalnızca sıfırdan büyükse bulunur.' }
+        is_me: { type: boolean, description: 'Yalnızca true iken bulunur.' }
+
+    LeagueHistoryEntry:
+      type: object
+      required: [week_start, tier, tier_label, rank, weekly_xp, result]
+      properties:
+        week_start: { type: string, format: date }
+        tier: { type: string }
+        tier_label: { type: string }
+        rank: { type: integer }
+        weekly_xp: { type: integer }
+        result: { type: string, enum: [promoted, demoted, stayed] }
+
+    AdPolicy:
+      type: object
+      required: [show_ads, rewarded, interstitial]
+      properties:
+        show_ads:
+          type: boolean
+          description: 'Premium kullanıcıda false — premium''un en güçlü satış noktası.'
+        rewarded:
+          type: object
+          required: [enabled]
+          properties:
+            enabled: { type: boolean }
+            remaining_today:
+              type: integer
+              description: 'Bugün kaç ödüllü reklam hakkı kaldı (günlük limit).'
+            placements:
+              type: array
+              items: { type: string, enum: [heart_refill, streak_freeze] }
+        interstitial:
+          type: object
+          required: [enabled]
+          properties:
+            enabled:
+              type: boolean
+              description: 'Yeni hesaplarda kapalı — ilk günlerde reklam retention''ı düşürür.'
+            every_n_sessions: { type: integer }
+            min_interval_seconds: { type: integer }
+        banner:
+          type: object
+          description: 'Banner kullanılmıyor — UX''i bozar.'
+          properties:
+            enabled: { type: boolean }
+
+    Entitlements:
+      type: object
+      required: [premium, limits]
+      properties:
+        premium:
+          type: object
+          required: [active, in_trial]
+          properties:
+            active: { type: boolean }
+            plan: { type: string, nullable: true, enum: [monthly, yearly] }
+            status:
+              type: string
+              nullable: true
+              enum: [trial, active, grace, expired, cancelled, refunded]
+            expires_at: { type: string, format: date-time, nullable: true }
+            in_trial: { type: boolean }
+        limits:
+          type: object
+          required: [unlimited_hearts, ads]
+          properties:
+            max_enrollments:
+              type: integer
+              nullable: true
+              description: 'null = sınırsız (premium)'
+            unlimited_hearts: { type: boolean }
+            ads: { type: boolean, description: 'Reklam gösterilecek mi' }
+
+    Offerings:
+      type: object
+      required: [products, trial_days, comparison, not_for_sale]
+      properties:
+        products:
+          type: array
+          items:
+            type: object
+            required: [id, plan, label]
+            properties:
+              id: { type: string, description: 'Store ürün kimliği' }
+              plan: { type: string, enum: [monthly, yearly] }
+              label: { type: string }
+              recommended: { type: boolean }
+        trial_days: { type: integer }
+        comparison:
+          type: array
+          items:
+            type: object
+            required: [feature, free, premium]
+            properties:
+              feature: { type: string }
+              free: { type: string }
+              premium: { type: string }
+        not_for_sale:
+          type: array
+          description: 'Satın alınamayan şeyler — paywall''da aynen gösterilir.'
+          items: { type: string }
+
+    Session:
+      type: object
+      required: [session_id, kind, consumes_hearts, expires_at, hearts, items]
+      properties:
+        session_id: { type: string, format: uuid }
+        kind:
+          type: string
+          enum: [study, exam_simulation]
+          description: |
+            Oturum ya bir node'a (çalışma turu) ya bir blueprint'e (deneme)
+            aittir. `study` ise `node_id`, `exam_simulation` ise `blueprint_id` bulunur.
+        node_id: { type: integer, description: 'Yalnızca kind=study' }
+        blueprint_id: { type: integer, description: 'Yalnızca kind=exam_simulation' }
+        consumes_hearts: { type: boolean }
+        time_limit_sec: { type: integer, nullable: true }
+        expires_at: { type: string, format: date-time }
+        hearts: { $ref: '#/components/schemas/Hearts' }
+        items:
+          type: array
+          items: { $ref: '#/components/schemas/SessionItem' }
+
+    SessionItem:
+      type: object
+      required: [position, exercise_id, type, content, answered]
+      description: 'Cevap anahtarı burada YOKTUR ve olmayacaktır.'
+      properties:
+        position: { type: integer }
+        exercise_id: { type: integer }
+        type:
+          type: string
+          enum:
+            - multiple_choice
+            - fill_blank
+            - matching
+            - ordering
+            - flashcard
+            - true_false
+            - word_order
+            - numeric_input
+            - image_hotspot
+            - diagram_label
+        content:
+          type: object
+          description: Şekli tipe göre değişir; render motoru buna göre bileşen seçer.
+          additionalProperties: true
+        answered: { type: boolean }
+
+    AnswerResult:
+      type: object
+      required: [is_correct, partial_score, correct_answer, progress]
+      properties:
+        is_correct: { type: boolean }
+        partial_score:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          description: 'Eşleştirme ve sıralamada kısmi puan; diğerlerinde 0 veya 1.'
+        correct_answer:
+          type: object
+          description: Yalnızca cevap verildikten sonra döner.
+          additionalProperties: true
+        explanation: { type: string, nullable: true }
+        hearts:
+          allOf: [{ $ref: '#/components/schemas/Hearts' }]
+          nullable: true
+          description: Yalnızca can harcandığında bulunur.
+        hearts_depleted: { type: boolean, description: 'Yalnızca true iken bulunur' }
+        progress:
+          type: object
+          required: [answered, total]
+          properties:
+            answered: { type: integer }
+            total: { type: integer }
+        suspicious:
+          type: boolean
+          description: 'İnsan-dışı hızda cevap; XP üretmez. Yalnızca true iken bulunur.'
+        idempotent_replay:
+          type: boolean
+          description: 'Aynı cevabın tekrarı; yan etki üretilmedi. Yalnızca true iken bulunur.'
+
+    SessionSummary:
+      type: object
+      required: [score, xp, level, streak, unlocked_nodes, badges_earned, hearts]
+      properties:
+        score:
+          type: object
+          required: [correct, total, accuracy, is_perfect, passed]
+          properties:
+            correct: { type: integer }
+            total: { type: integer }
+            accuracy: { type: integer, minimum: 0, maximum: 100 }
+            is_perfect: { type: boolean }
+            passed:
+              type: boolean
+              description: Tamamlama eşiğini (%80) geçti mi
+        xp:
+          type: object
+          required: [total, breakdown]
+          properties:
+            total: { type: integer }
+            breakdown:
+              type: object
+              description: '"Neden bu kadar XP aldım" sorusunun cevabı: base, perfect, first_completion, replay, below_threshold'
+              additionalProperties: { type: integer }
+        level:
+          type: object
+          required: [before, after, leveled_up, total_xp, next_level_xp]
+          properties:
+            before: { type: integer }
+            after: { type: integer }
+            leveled_up: { type: boolean }
+            total_xp: { type: integer }
+            next_level_xp: { type: integer }
+        streak:
+          type: object
+          required: [days, longest, extended_today]
+          properties:
+            days: { type: integer }
+            longest: { type: integer }
+            extended_today: { type: boolean }
+            milestone:
+              type: integer
+              nullable: true
+              description: '7, 12, 30, 100 veya 365 — kutlama ekranı tetikler'
+        unit:
+          type: object
+          description: 'Yalnızca çalışma turlarında bulunur — deneme bir üniteye ait değildir.'
+          required: [id, completion_percent, completed]
+          properties:
+            id: { type: integer }
+            completion_percent: { type: integer }
+            completed: { type: boolean }
+        unlocked_nodes:
+          type: array
+          description: '"Yeni node açıldı" animasyonu için'
+          items: { type: integer }
+        badges_earned:
+          type: array
+          description: 'Bu turda kazanılan rozetler — kutlama aynı yanıtta.'
+          items:
+            type: object
+            required: [code, name, tier]
+            properties:
+              code: { type: string }
+              name: { type: string }
+              icon: { type: string, nullable: true }
+              tier: { type: string }
+        hearts: { $ref: '#/components/schemas/Hearts' }
+        exam:
+          allOf: [{ $ref: '#/components/schemas/ExamResult' }]
+          description: 'Yalnızca deneme (sınav provası) oturumlarında bulunur.'

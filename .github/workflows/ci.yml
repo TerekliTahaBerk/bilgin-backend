@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      # SQLite ile test etmiyoruz: jsonb sorguları ve kısmi indeksler
+      # sürücüye bağlı; production neyse CI de o olmalı.
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: tekrarla_test
+          POSTGRES_USER: tekrarla
+          POSTGRES_PASSWORD: secret
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+      redis:
+        image: redis:7
+        ports: ['6379:6379']
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      DB_CONNECTION: pgsql
+      DB_HOST: 127.0.0.1
+      DB_PORT: 5432
+      DB_DATABASE: tekrarla_test
+      DB_USERNAME: tekrarla
+      DB_PASSWORD: secret
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+          extensions: pdo_pgsql, mbstring, bcmath, intl
+          coverage: none
+
+      - name: Composer bağımlılıkları
+        run: composer install --prefer-dist --no-interaction --no-progress
+
+      - name: Ortam hazırlığı
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+
+      - name: Kod stili (Pint)
+        run: ./vendor/bin/pint --test
+
+      - name: Statik analiz (PHPStan level 8)
+        run: ./vendor/bin/phpstan analyse --no-progress --memory-limit=1G
+
+      - name: Migration + seed
+        run: |
+          php artisan migrate --force
+          php artisan db:seed --force
+
+      # Yayın kapısı: bir içerik değişikliği node'ların soru havuzunu
+      # yetersiz bırakıyorsa production'a çıkmadan burada yakalanır.
+      - name: İçerik doğrulama (yayın kapısı)
+        run: php artisan content:validate
+
+      # Sözleşme testi ayrı adım: kırıldığında "API değişti, istemci
+      # ekiplerine haber ver" mesajı CI çıktısında net görünsün.
+      - name: API sözleşmesi (docs/openapi.yaml)
+        run: ./vendor/bin/pest tests/Feature/ApiContractTest.php --colors=always
+
+      - name: Testler (birim + feature + mimari)
+        run: ./vendor/bin/pest --colors=always

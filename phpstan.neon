@@ -1,0 +1,10 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    level: 8
+    paths:
+        - app
+        - database/seeders
+    excludePaths:
+        - app/Modules/*/Database/Migrations/*

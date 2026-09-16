@@ -1,0 +1,1484 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "tyt_tarih",
+  "subject": "tarih",
+  "unit": {
+    "title": "İlk ve Orta Çağlarda Türk Dünyası",
+    "template": "standart_unite",
+    "sort_order": 2,
+    "grade_level": 9,
+    "difficulty_band": "giris",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "ilk_turk_devletleri",
+      "name": "İlk Türk Devletleri",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "turk_kultur_medeniyeti",
+      "name": "Türk Kültür ve Medeniyeti",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "turklerin_islamiyete_gecisi",
+      "name": "Türklerin İslamiyet'e Geçişi",
+      "grade_level": 9,
+      "exam_weight": 1
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "Orhun Yazıtları hangi Türk devletine aittir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "b",
+            "text": "II. Göktürk Devleti"
+          },
+          {
+            "id": "c",
+            "text": "Uygur Devleti"
+          },
+          {
+            "id": "d",
+            "text": "Avarlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Orhun Yazıtları, II. Göktürk (Kutluk) Devleti döneminde Bilge Kağan, Kültigin ve Tonyukuk adına dikilmiştir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Bilinen ilk Türk devleti aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "b",
+            "text": "Göktürk Devleti"
+          },
+          {
+            "id": "c",
+            "text": "Uygur Devleti"
+          },
+          {
+            "id": "d",
+            "text": "Hazarlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Tarihte bilinen ilk Türk devleti Asya Hun Devleti'dir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Orduda onluk sistemi uygulayan Asya Hun hükümdarı kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "b",
+            "text": "Mete Han"
+          },
+          {
+            "id": "c",
+            "text": "Bilge Kağan"
+          },
+          {
+            "id": "d",
+            "text": "Attila"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Mete Han orduyu onluk sisteme göre düzenlemiştir; bu sistem sonraki Türk devletlerini de etkilemiştir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Yerleşik hayata geçen ilk Türk devleti hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "b",
+            "text": "Göktürkler"
+          },
+          {
+            "id": "c",
+            "text": "Asya Hunları"
+          },
+          {
+            "id": "d",
+            "text": "Kırgızlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Uygurlar tarım ve ticaretle uğraşarak yerleşik hayata geçen ilk Türk devletidir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "552 yılında I. Göktürk Devleti'ni kuran hükümdar kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "b",
+            "text": "İlteriş Kutluk Kağan"
+          },
+          {
+            "id": "c",
+            "text": "Mete Han"
+          },
+          {
+            "id": "d",
+            "text": "Kültigin"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "I. Göktürk Devleti 552'de Bumin Kağan tarafından kurulmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kendi adına para bastıran ilk Türk devleti olarak bilinen devlet hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Türgişler"
+          },
+          {
+            "id": "b",
+            "text": "Hazarlar"
+          },
+          {
+            "id": "c",
+            "text": "Avarlar"
+          },
+          {
+            "id": "d",
+            "text": "Peçenekler"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Türgiş hükümdarı Baga Tarkan (Sulu Kağan) kendi adına para bastırmıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "Museviliği resmî din olarak benimseyen Türk devleti hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hazarlar"
+          },
+          {
+            "id": "b",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "c",
+            "text": "Bulgarlar"
+          },
+          {
+            "id": "d",
+            "text": "Kırgızlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Hazar yönetici sınıfı Museviliği benimsemiştir. Hazarların hâkim olduğu dönem 'Hazar Barış Dönemi' olarak anılır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "Uygur Devleti'ne 840 yılında son veren Türk topluluğu hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kırgızlar"
+          },
+          {
+            "id": "b",
+            "text": "Karluklar"
+          },
+          {
+            "id": "c",
+            "text": "Basmiller"
+          },
+          {
+            "id": "d",
+            "text": "Oğuzlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "840 yılında Kırgızlar Uygur Devleti'ne son vermiştir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kavimler Göçü'nün ardından Avrupa'da kurulan Hun devletinin en tanınmış hükümdarı kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Attila"
+          },
+          {
+            "id": "b",
+            "text": "Mete Han"
+          },
+          {
+            "id": "c",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "d",
+            "text": "Bayan Kağan"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Avrupa Hun Devleti'nin en güçlü dönemi Attila zamanıdır."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İlk Türk devletlerinde devlet işlerinin görüşüldüğü meclise ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kurultay"
+          },
+          {
+            "id": "b",
+            "text": "Töre"
+          },
+          {
+            "id": "c",
+            "text": "Kut"
+          },
+          {
+            "id": "d",
+            "text": "Balbal"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Kurultay (toy), devlet işlerinin görüşüldüğü meclistir."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "İlk Türk devletlerinde yönetme yetkisinin Tanrı tarafından kağana verildiği inancına ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kut"
+          },
+          {
+            "id": "b",
+            "text": "Töre"
+          },
+          {
+            "id": "c",
+            "text": "Yuğ"
+          },
+          {
+            "id": "d",
+            "text": "Kurgan"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Kut anlayışına göre yönetme yetkisi Tanrı tarafından verilir ve kağanın soyundan gelenlerde bulunur."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "İlk Türk devletlerinde ölen kişinin ardından düzenlenen cenaze törenine ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yuğ"
+          },
+          {
+            "id": "b",
+            "text": "Toy"
+          },
+          {
+            "id": "c",
+            "text": "Şölen"
+          },
+          {
+            "id": "d",
+            "text": "Kurultay"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Cenaze törenine yuğ, mezara ise kurgan denir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "İslamiyet'i resmen kabul eden ilk Türk devleti hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Karahanlılar"
+          },
+          {
+            "id": "b",
+            "text": "Gazneliler"
+          },
+          {
+            "id": "c",
+            "text": "Büyük Selçuklu Devleti"
+          },
+          {
+            "id": "d",
+            "text": "Tolunoğulları"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Satuk Buğra Han döneminde İslamiyet'i resmen kabul eden Karahanlılar, ilk Müslüman Türk devletidir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "751 Talas Savaşı'nın sonuçları arasında aşağıdakilerden hangisi gösterilemez?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Anadolu'nun kapıları Türklere açılmıştır"
+          },
+          {
+            "id": "b",
+            "text": "Türkler ile Araplar arasındaki ilişkiler olumlu yönde değişmiştir"
+          },
+          {
+            "id": "c",
+            "text": "Kâğıt üretimi Orta Asya üzerinden Batı'ya yayılmıştır"
+          },
+          {
+            "id": "d",
+            "text": "Orta Asya'da Çin egemenliği kurulması engellenmiştir"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Anadolu'nun kapılarının Türklere açılması 1071 Malazgirt Savaşı'nın sonucudur, Talas'ın değil."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "multiple_choice",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Büyük Selçuklu Devleti'nin kuruluşunu kesinleştiren ve Gaznelilere karşı kazanılan savaş hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dandanakan Savaşı"
+          },
+          {
+            "id": "b",
+            "text": "Malazgirt Savaşı"
+          },
+          {
+            "id": "c",
+            "text": "Pasinler Savaşı"
+          },
+          {
+            "id": "d",
+            "text": "Talas Savaşı"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "1040 Dandanakan Savaşı ile Büyük Selçuklu Devleti resmen kurulmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Uygurlar yerleşik hayata geçen ilk Türk devletidir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Uygurlar tarım ve ticaretle uğraşarak şehirler kurmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Orhun Yazıtları Uygur alfabesiyle yazılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Orhun Yazıtları Göktürk (Orhun) alfabesiyle yazılmıştır."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Töre, ilk Türk devletlerinde yazısız hukuk kurallarını ifade eder."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Töre sözlü hukuk kurallarıdır ve kağan dahil herkesi bağlar."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kurultay yalnızca askerî konuların görüşüldüğü bir kuruldur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kurultayda siyasi, ekonomik, sosyal ve askerî konular birlikte görüşülürdü."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Talas Savaşı Türkler ile Çinliler arasında doğrudan yapılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Talas Savaşı Abbasiler ile Çin (Tang) arasında yapılmış, Karluklar Abbasilerin yanında yer almıştır."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türklerde yazısız hukuk kurallarına {{0}} denir.",
+        "choices": [
+          "Töre",
+          "Kurultay",
+          "Toy",
+          "Yuğ"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Töre"
+        ]
+      },
+      "explanation": "Töre, yazısız hukuk kurallarının bütünüdür."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Devlet işlerinin görüşüldüğü meclise {{0}} adı verilir.",
+        "choices": [
+          "Kurultay",
+          "Töre",
+          "Kut",
+          "Balbal"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kurultay"
+        ]
+      },
+      "explanation": "Kurultay, toy olarak da bilinen devlet meclisidir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "I. Göktürk Devleti {{0}} yılında Bumin Kağan tarafından kurulmuştur.",
+        "choices": [
+          "552",
+          "745",
+          "375",
+          "751"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "552"
+        ]
+      },
+      "explanation": "I. Göktürk Devleti 552'de kurulmuştur."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İslamiyet'i kabul eden ilk Türk devleti {{0}}'dır.",
+        "choices": [
+          "Karahanlılar",
+          "Gazneliler",
+          "Selçuklular",
+          "Uygurlar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Karahanlılar"
+        ]
+      },
+      "explanation": "Karahanlılar, Satuk Buğra Han döneminde İslamiyet'i kabul etmiştir."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İlk Türk devletlerinde mezarlara {{0}} adı verilir.",
+        "choices": [
+          "kurgan",
+          "balbal",
+          "yuğ",
+          "ötüken"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kurgan"
+        ]
+      },
+      "explanation": "Mezara kurgan, mezar başına dikilen taşlara balbal denir."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kurultay"
+          },
+          {
+            "id": "2",
+            "text": "Töre"
+          },
+          {
+            "id": "3",
+            "text": "Kut"
+          },
+          {
+            "id": "4",
+            "text": "Yuğ"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Devlet meclisi"
+          },
+          {
+            "id": "b",
+            "text": "Yazısız hukuk kuralları"
+          },
+          {
+            "id": "c",
+            "text": "Tanrı'nın verdiği yönetme yetkisi"
+          },
+          {
+            "id": "d",
+            "text": "Cenaze töreni"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kurultay meclis, töre hukuk, kut yönetme yetkisi, yuğ cenaze törenidir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Devleti hükümdarıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk Devleti"
+          },
+          {
+            "id": "3",
+            "text": "Avrupa Hun Devleti"
+          },
+          {
+            "id": "4",
+            "text": "II. Göktürk Devleti"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Mete Han"
+          },
+          {
+            "id": "b",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "c",
+            "text": "Attila"
+          },
+          {
+            "id": "d",
+            "text": "İlteriş Kutluk Kağan"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "II. Göktürk Devleti İlteriş Kutluk Kağan tarafından yeniden kurulmuştur."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Terimi anlamıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Balbal"
+          },
+          {
+            "id": "2",
+            "text": "Kurgan"
+          },
+          {
+            "id": "3",
+            "text": "Ötüken"
+          },
+          {
+            "id": "4",
+            "text": "Toy"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Mezar başına dikilen taş"
+          },
+          {
+            "id": "b",
+            "text": "Mezar"
+          },
+          {
+            "id": "c",
+            "text": "Kutsal kabul edilen yönetim merkezi"
+          },
+          {
+            "id": "d",
+            "text": "Şölen, ziyafet"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Ötüken, Göktürkler ve Uygurlar için kutsal sayılan yönetim merkezidir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Eseri yazarıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kutadgu Bilig"
+          },
+          {
+            "id": "2",
+            "text": "Divanü Lügati't-Türk"
+          },
+          {
+            "id": "3",
+            "text": "Divan-ı Hikmet"
+          },
+          {
+            "id": "4",
+            "text": "Atabetü'l-Hakayık"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Yusuf Has Hacip"
+          },
+          {
+            "id": "b",
+            "text": "Kaşgarlı Mahmud"
+          },
+          {
+            "id": "c",
+            "text": "Ahmet Yesevi"
+          },
+          {
+            "id": "d",
+            "text": "Edip Ahmet Yükneki"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dördü de Karahanlılar dönemi Türk-İslam edebiyatının temel eserleridir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Devleti ayırt edici özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "2",
+            "text": "Hazarlar"
+          },
+          {
+            "id": "3",
+            "text": "Türgişler"
+          },
+          {
+            "id": "4",
+            "text": "Kırgızlar"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Yerleşik hayata geçen ilk Türk devleti"
+          },
+          {
+            "id": "b",
+            "text": "Museviliği benimseyen Türk devleti"
+          },
+          {
+            "id": "c",
+            "text": "Kendi adına para bastıran ilk Türk devleti"
+          },
+          {
+            "id": "d",
+            "text": "Uygur Devleti'ne son veren topluluk"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her devletin ayırt edici bir 'ilk'i sınavda sık sorulur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk devletlerini kuruluş sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk Devleti"
+          },
+          {
+            "id": "3",
+            "text": "Uygur Devleti"
+          },
+          {
+            "id": "4",
+            "text": "Karahanlılar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Asya Hun (MÖ 3. yy) → I. Göktürk (552) → Uygur (744) → Karahanlılar (840)."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayları kronolojik sıraya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Talas Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Dandanakan Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Malazgirt Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": "Talas 751, Dandanakan 1040, Malazgirt 1071."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayları kronolojik sıraya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kavimler Göçü"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk Devleti'nin kurulması"
+          },
+          {
+            "id": "3",
+            "text": "Uygur Devleti'nin kurulması"
+          },
+          {
+            "id": "4",
+            "text": "Kırgızların Uygur Devleti'ne son vermesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "375 → 552 → 744 → 840."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk devlet teşkilatında yönetim kademelerini yukarıdan aşağıya sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kağan"
+          },
+          {
+            "id": "2",
+            "text": "Hatun"
+          },
+          {
+            "id": "3",
+            "text": "Ayguci (vezir)"
+          },
+          {
+            "id": "4",
+            "text": "Buyruk (bakan)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Kağan devletin başıdır; hatun yönetimde söz sahibidir, ayguci ve buyruklar yürütmede görev alır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hükümdarları dönemlerine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Mete Han"
+          },
+          {
+            "id": "2",
+            "text": "Attila"
+          },
+          {
+            "id": "3",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "4",
+            "text": "Bilge Kağan"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Mete Han (MÖ 2. yy) → Attila (5. yy) → Bumin Kağan (6. yy) → Bilge Kağan (8. yy)."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Kavimler Göçü hangi yılda gerçekleşmiştir?",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 375,
+        "tolerance": 0
+      },
+      "explanation": "375 yılındaki Kavimler Göçü, İlk Çağ'ın sonu kabul edilir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Talas Savaşı hangi yılda yapılmıştır?",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 751,
+        "tolerance": 0
+      },
+      "explanation": "751 Talas Savaşı, Türk-Arap ilişkilerinde dönüm noktasıdır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "stem": "Malazgirt Savaşı hangi yılda yapılmıştır?",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 1071,
+        "tolerance": 0
+      },
+      "explanation": "1071 Malazgirt Savaşı ile Anadolu'nun kapıları Türklere açılmıştır."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Kut",
+        "back": "Yönetme yetkisinin Tanrı tarafından kağana verildiği inancı."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Kut anlayışı, hükümdarın meşruiyetinin kaynağıdır."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Balbal",
+        "back": "Ölen kişinin mezarı başına dikilen taşlar."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Balballar, ölen kişinin sağlığında yendiği düşmanları temsil ettiği kabul edilir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Kutadgu Bilig",
+        "back": "Yusuf Has Hacip'in yazdığı, Türk-İslam siyasetnamesi niteliğindeki ilk eser."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Karahanlılar döneminde yazılmıştır; 'mutluluk veren bilgi' anlamına gelir."
+    },
+    {
+      "topic": "turk_kultur_medeniyeti",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Türklerde"
+          },
+          {
+            "id": "2",
+            "text": "yazısız"
+          },
+          {
+            "id": "3",
+            "text": "hukuk"
+          },
+          {
+            "id": "4",
+            "text": "kurallarına"
+          },
+          {
+            "id": "5",
+            "text": "töre"
+          },
+          {
+            "id": "6",
+            "text": "denir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "Türklerde yazısız hukuk kurallarına töre denir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Orhun"
+          },
+          {
+            "id": "2",
+            "text": "Yazıtları"
+          },
+          {
+            "id": "3",
+            "text": "Türk"
+          },
+          {
+            "id": "4",
+            "text": "adının"
+          },
+          {
+            "id": "5",
+            "text": "geçtiği"
+          },
+          {
+            "id": "6",
+            "text": "ilk"
+          },
+          {
+            "id": "7",
+            "text": "Türkçe"
+          },
+          {
+            "id": "8",
+            "text": "belgedir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Orhun Yazıtları Türk adının geçtiği ilk Türkçe belgedir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt",
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayı yılıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kavimler Göçü"
+          },
+          {
+            "id": "2",
+            "text": "Talas Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Dandanakan Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Malazgirt Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "375"
+          },
+          {
+            "id": "b",
+            "text": "751"
+          },
+          {
+            "id": "c",
+            "text": "1040"
+          },
+          {
+            "id": "d",
+            "text": "1071"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört tarih TYT ve AYT'de en sık sorulan kronoloji çapalarıdır."
+    }
+  ]
+}

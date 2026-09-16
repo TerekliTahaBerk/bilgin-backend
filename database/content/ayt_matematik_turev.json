@@ -1,0 +1,306 @@
+{
+  "_note": "PİLOT İÇERİK — AYT yolunun (alan filtresi, sekme, blueprint, paywall) uçtan uca çalıştığını ispatlamak için. Yayına çıkmadan önce branş öğretmeni gözden geçirmelidir.",
+  "course": "ayt_matematik",
+  "subject": "matematik",
+  "unit": {
+    "title": "Türev",
+    "template": "hafif_unite",
+    "sort_order": 1,
+    "grade_level": 12,
+    "difficulty_band": "ileri",
+    "estimated_minutes": 20,
+    "status": "published"
+  },
+  "topics": [
+    { "code": "turev_kavrami", "name": "Türev Kavramı", "grade_level": 12, "exam_weight": 2 },
+    { "code": "turev_kurallari", "name": "Türev Alma Kuralları", "grade_level": 12, "exam_weight": 3 },
+    { "code": "turev_uygulamalari", "name": "Türevin Uygulamaları", "grade_level": 12, "exam_weight": 3 }
+  ],
+  "exercises": [
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 1, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = x³ fonksiyonunun türevi aşağıdakilerden hangisidir?",
+        "options": [
+          { "id": "a", "text": "3x²" },
+          { "id": "b", "text": "x²" },
+          { "id": "c", "text": "3x" },
+          { "id": "d", "text": "x⁴/4" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Kuvvet kuralı: (xⁿ)' = n·xⁿ⁻¹ olduğundan (x³)' = 3x²."
+    },
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 1, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = 7 sabit fonksiyonunun türevi kaçtır?",
+        "options": [
+          { "id": "a", "text": "0" },
+          { "id": "b", "text": "7" },
+          { "id": "c", "text": "1" },
+          { "id": "d", "text": "7x" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Sabit fonksiyonun değişim hızı sıfırdır, türevi 0'dır."
+    },
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 2, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = sin x fonksiyonunun türevi hangisidir?",
+        "options": [
+          { "id": "a", "text": "cos x" },
+          { "id": "b", "text": "−cos x" },
+          { "id": "c", "text": "−sin x" },
+          { "id": "d", "text": "tan x" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "(sin x)' = cos x."
+    },
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 2, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = cos x fonksiyonunun türevi hangisidir?",
+        "options": [
+          { "id": "a", "text": "−sin x" },
+          { "id": "b", "text": "sin x" },
+          { "id": "c", "text": "cos x" },
+          { "id": "d", "text": "−cos x" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "(cos x)' = −sin x."
+    },
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 2, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = 1/x fonksiyonunun türevi hangisidir?",
+        "options": [
+          { "id": "a", "text": "−1/x²" },
+          { "id": "b", "text": "1/x²" },
+          { "id": "c", "text": "ln x" },
+          { "id": "d", "text": "−1/x" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "1/x = x⁻¹ yazılır; (x⁻¹)' = −1·x⁻² = −1/x²."
+    },
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = (2x + 1)⁵ fonksiyonunun türevi hangisidir?",
+        "options": [
+          { "id": "a", "text": "10(2x + 1)⁴" },
+          { "id": "b", "text": "5(2x + 1)⁴" },
+          { "id": "c", "text": "2(2x + 1)⁴" },
+          { "id": "d", "text": "10(2x + 1)⁵" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Zincir kuralı: dış türev 5(2x+1)⁴, iç türev 2 → 10(2x+1)⁴."
+    },
+    {
+      "topic": "turev_kurallari", "type": "multiple_choice", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = √x fonksiyonunun türevi hangisidir?",
+        "options": [
+          { "id": "a", "text": "1/(2√x)" },
+          { "id": "b", "text": "2√x" },
+          { "id": "c", "text": "1/√x" },
+          { "id": "d", "text": "√x/2" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "√x = x^(1/2); türevi (1/2)x^(−1/2) = 1/(2√x)."
+    },
+    {
+      "topic": "turev_kavrami", "type": "multiple_choice", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "stem": "Bir f fonksiyonunun x = a noktasındaki türevi f'(a), geometrik olarak neyi ifade eder?",
+        "options": [
+          { "id": "a", "text": "Grafiğin (a, f(a)) noktasındaki teğetinin eğimini" },
+          { "id": "b", "text": "Grafiğin altında kalan alanı" },
+          { "id": "c", "text": "Fonksiyonun a noktasındaki değerini" },
+          { "id": "d", "text": "Grafiğin x eksenini kestiği noktayı" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Türev, o noktadaki anlık değişim hızıdır ve teğetin eğimine eşittir."
+    },
+    {
+      "topic": "turev_uygulamalari", "type": "multiple_choice", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "stem": "Bir aralıkta f'(x) > 0 ise f fonksiyonu bu aralıkta nasıl davranır?",
+        "options": [
+          { "id": "a", "text": "Artandır" },
+          { "id": "b", "text": "Azalandır" },
+          { "id": "c", "text": "Sabittir" },
+          { "id": "d", "text": "Süreksizdir" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Pozitif türev, fonksiyonun o aralıkta arttığını gösterir."
+    },
+    {
+      "topic": "turev_uygulamalari", "type": "multiple_choice", "difficulty": 4, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = x² − 4x + 3 fonksiyonu hangi x değerinde yerel minimum yapar?",
+        "options": [
+          { "id": "a", "text": "2" },
+          { "id": "b", "text": "−2" },
+          { "id": "c", "text": "4" },
+          { "id": "d", "text": "0" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "f'(x) = 2x − 4 = 0 → x = 2. f''(x) = 2 > 0 olduğundan burada yerel minimum vardır."
+    },
+    {
+      "topic": "turev_uygulamalari", "type": "multiple_choice", "difficulty": 5, "scopes": ["ayt"],
+      "content": {
+        "stem": "f(x) = x³ − 3x fonksiyonunun kritik noktaları hangileridir?",
+        "options": [
+          { "id": "a", "text": "x = −1 ve x = 1" },
+          { "id": "b", "text": "x = 0 ve x = 3" },
+          { "id": "c", "text": "x = −3 ve x = 3" },
+          { "id": "d", "text": "Yalnızca x = 0" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "f'(x) = 3x² − 3 = 0 → x² = 1 → x = ±1."
+    },
+    {
+      "topic": "turev_kurallari", "type": "true_false", "difficulty": 1, "scopes": ["ayt"],
+      "content": { "statement": "Sabit bir fonksiyonun türevi sıfırdır." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Sabit fonksiyon değişmediği için değişim hızı sıfırdır."
+    },
+    {
+      "topic": "turev_kurallari", "type": "true_false", "difficulty": 2, "scopes": ["ayt"],
+      "content": { "statement": "İki fonksiyonun çarpımının türevi, türevlerinin çarpımına eşittir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Çarpım kuralı (u·v)' = u'·v + u·v' şeklindedir."
+    },
+    {
+      "topic": "turev_kavrami", "type": "true_false", "difficulty": 2, "scopes": ["ayt"],
+      "content": { "statement": "Bir noktada türevi olan fonksiyon o noktada süreklidir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Türevlenebilirlik sürekliliği gerektirir; tersi her zaman doğru değildir."
+    },
+    {
+      "topic": "turev_kurallari", "type": "fill_blank", "difficulty": 2, "scopes": ["ayt"],
+      "content": {
+        "template": "(xⁿ)' = n·x^{{0}} eşitliği kuvvet kuralı olarak bilinir.",
+        "choices": ["n−1", "n", "n+1", "1−n"]
+      },
+      "answer_key": { "blanks": ["n−1"] },
+      "explanation": "Kuvvet kuralında üs bir azalır ve eski üs katsayı olur."
+    },
+    {
+      "topic": "turev_kurallari", "type": "fill_blank", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "template": "f(x) = eˣ fonksiyonunun türevi {{0}}'dir.",
+        "choices": ["eˣ", "x·eˣ⁻¹", "ln x", "1/x"]
+      },
+      "answer_key": { "blanks": ["eˣ"] },
+      "explanation": "eˣ, türevi kendisine eşit olan fonksiyondur."
+    },
+    {
+      "topic": "turev_kurallari", "type": "fill_blank", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "template": "f(x) = ln x fonksiyonunun türevi {{0}}'dir.",
+        "choices": ["1/x", "ln x", "x", "eˣ"]
+      },
+      "answer_key": { "blanks": ["1/x"] },
+      "explanation": "(ln x)' = 1/x (x > 0 için)."
+    },
+    {
+      "topic": "turev_kurallari", "type": "matching", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "instruction": "Fonksiyonu türeviyle eşleştir.",
+        "left": [
+          { "id": "1", "text": "sin x" },
+          { "id": "2", "text": "cos x" },
+          { "id": "3", "text": "eˣ" },
+          { "id": "4", "text": "ln x" }
+        ],
+        "right": [
+          { "id": "a", "text": "cos x" },
+          { "id": "b", "text": "−sin x" },
+          { "id": "c", "text": "eˣ" },
+          { "id": "d", "text": "1/x" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" }, "partial_credit": true },
+      "explanation": "Temel türevler ezberlenmesi gereken çekirdek bilgidir."
+    },
+    {
+      "topic": "turev_kurallari", "type": "matching", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kuralı formülüyle eşleştir.",
+        "left": [
+          { "id": "1", "text": "Çarpım kuralı" },
+          { "id": "2", "text": "Bölüm kuralı" },
+          { "id": "3", "text": "Zincir kuralı" }
+        ],
+        "right": [
+          { "id": "a", "text": "u'·v + u·v'" },
+          { "id": "b", "text": "(u'·v − u·v') / v²" },
+          { "id": "c", "text": "f'(g(x)) · g'(x)" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "c" }, "partial_credit": true },
+      "explanation": "Üç temel kuralın karıştırılması sınavda en sık yapılan hatadır."
+    },
+    {
+      "topic": "turev_kurallari", "type": "numeric_input", "difficulty": 2, "scopes": ["ayt"],
+      "content": { "stem": "f(x) = x² + 3x − 1 ise f'(2) kaçtır?" },
+      "answer_key": { "value": 7, "tolerance": 0 },
+      "explanation": "f'(x) = 2x + 3 → f'(2) = 4 + 3 = 7."
+    },
+    {
+      "topic": "turev_kurallari", "type": "numeric_input", "difficulty": 3, "scopes": ["ayt"],
+      "content": { "stem": "f(x) = 3x² + 2x ise f'(1) kaçtır?" },
+      "answer_key": { "value": 8, "tolerance": 0 },
+      "explanation": "f'(x) = 6x + 2 → f'(1) = 6 + 2 = 8."
+    },
+    {
+      "topic": "turev_uygulamalari", "type": "numeric_input", "difficulty": 4, "scopes": ["ayt"],
+      "content": { "stem": "f(x) = x⁴ − 2x² fonksiyonu için f'(1) kaçtır?" },
+      "answer_key": { "value": 0, "tolerance": 0 },
+      "explanation": "f'(x) = 4x³ − 4x → f'(1) = 4 − 4 = 0. Bu nokta kritik noktadır."
+    },
+    {
+      "topic": "turev_kavrami", "type": "flashcard", "difficulty": 2, "scopes": ["ayt"],
+      "content": { "front": "Türevin geometrik anlamı", "back": "f'(a), grafiğin (a, f(a)) noktasındaki teğetinin eğimidir." },
+      "answer_key": { "self_assessed": true },
+      "explanation": "Teğetin eğimi = anlık değişim hızı."
+    },
+    {
+      "topic": "turev_uygulamalari", "type": "ordering", "difficulty": 3, "scopes": ["ayt"],
+      "content": {
+        "instruction": "f(x) = x² için türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          { "id": "1", "text": "f'(1)" },
+          { "id": "2", "text": "f'(2)" },
+          { "id": "3", "text": "f'(3)" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3"] },
+      "explanation": "f'(x) = 2x olduğundan f'(1)=2, f'(2)=4, f'(3)=6."
+    }
+  ]
+}
