@@ -50,8 +50,10 @@ RUN mkdir -p storage/framework/{cache,sessions,views} storage/logs bootstrap/cac
 
 EXPOSE 8080
 
-# Coolify healthcheck'i de bu ucu kullanabilir.
-HEALTHCHECK --interval=30s --timeout=5s --start-period=40s --retries=3 \
+# start-period, provision'ın veritabanını bekleme süresinden (en fazla 60sn)
+# UZUN olmalı. Kısa olursa nginx daha ayağa kalkmadan healthcheck başlar ve
+# "connection refused" görülür — asıl sorun veritabanıyken yanlış yere bakılır.
+HEALTHCHECK --interval=15s --timeout=5s --start-period=120s --retries=5 \
   CMD wget -qO- http://127.0.0.1:8080/up || exit 1
 
 ENTRYPOINT ["entrypoint"]

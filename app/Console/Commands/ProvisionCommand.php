@@ -54,8 +54,6 @@ final class ProvisionCommand extends Command
     public function handle(): int
     {
         if (! $this->waitForDatabase()) {
-            $this->error('Veritabanına ulaşılamadı.');
-
             return self::FAILURE;
         }
 
@@ -96,19 +94,54 @@ final class ProvisionCommand extends Command
      *
      * Docker'da uygulama konteyneri veritabanından önce ayağa kalkabilir;
      * beklemeden başlamak açılışta kırılmak demek.
+     *
+     * Başarısız olursa GERÇEK hatayı ve bağlanmaya çalıştığı adresi basar.
+     * "Veritabanına ulaşılamadı" tek başına hiçbir şey anlatmıyor: ağ mı,
+     * şifre mi, isim çözümlemesi mi — ayırt edilemiyordu.
      */
     private function waitForDatabase(int $attempts = 30): bool
     {
+        $connection = (string) config('database.default');
+        $config = (array) config("database.connections.{$connection}");
+
+        $target = sprintf(
+            '%s://%s@%s:%s/%s',
+            $connection,
+            $config['username'] ?? '?',
+            $config['host'] ?? '?',
+            $config['port'] ?? '?',
+            $config['database'] ?? '?',
+        );
+
+        $lastError = null;
+
         for ($i = 1; $i <= $attempts; $i++) {
             try {
                 DB::connection()->getPdo();
 
                 return true;
             } catch (Throwable $e) {
-                $i === 1 && $this->components->info('Veritabanı bekleniyor…');
+                $lastError = $e;
+
+                if ($i === 1) {
+                    $this->components->info("Veritabanı bekleniyor: {$target}");
+                }
+
                 sleep(2);
             }
         }
+
+        $this->newLine();
+        $this->components->error('Veritabanına ulaşılamadı.');
+        $this->components->twoColumnDetail('Hedef', $target);
+        $this->components->twoColumnDetail('Hata', $lastError?->getMessage() ?? 'bilinmiyor');
+
+        $this->newLine();
+        $this->line('  Sık görülen sebepler:');
+        $this->line('  • Uygulama ve veritabanı AYNI Docker ağında değil');
+        $this->line('    (Coolify: Advanced → "Connect To Predefined Network" açık olmalı)');
+        $this->line('  • DB_HOST yanlış — Coolify\'de veritabanının iç servis adı kullanılmalı');
+        $this->line('  • DB_PASSWORD hatalı ya da env "Runtime only" işaretli değil');
 
         return false;
     }

@@ -207,7 +207,42 @@ curl -s -X POST https://bilginbackend.cryptoping.io/api/admin/v1/auth/login \
 
 ---
 
-## 8. Riskli noktalar
+## 8. Sorun giderme
+
+### "Veritabanına ulaşılamadı"
+
+Provision artık hedefi ve gerçek PDO hatasını basıyor; önce ona bak:
+
+```
+Hedef .... pgsql://postgres@dcosgg8k04cowccccco04oks:5432/postgres
+Hata ..... SQLSTATE[08006] could not translate host name ...
+```
+
+| Hata metni | Sebep | Çözüm |
+|---|---|---|
+| `could not translate host name` | Uygulama ve veritabanı **farklı Docker ağında**; iç servis adı çözülemiyor | Coolify → uygulama → **Advanced → "Connect To Predefined Network"** aç, yeniden deploy et |
+| `Connection refused` | Ağ doğru ama veritabanı henüz ayakta değil ya da port yanlış | Postgres kaynağının çalıştığını ve portun 5432 olduğunu doğrula |
+| `password authentication failed` | Şifre yanlış ya da env konteynere ulaşmıyor | Coolify'da `DB_PASSWORD` **Build Variable değil**, runtime env olmalı |
+| `database ... does not exist` | `DB_DATABASE` yanlış | Coolify'daki veritabanı adıyla eşleştir |
+
+Coolify'da veritabanı kaynağı varsayılan olarak `coolify` ağındadır;
+uygulamalar ise kendi ağlarında açılır. İç servis adıyla (`dcosgg8k...`)
+bağlanmak için ikisinin aynı ağda olması gerekir — "Connect To Predefined
+Network" tam olarak bunu yapar.
+
+Alternatif: Postgres kaynağının **public** bağlantısını açıp `DB_HOST`
+olarak sunucunun adresini vermek. Daha kolay ama veritabanını internete
+açar; iç ağ tercih edilmeli.
+
+### Healthcheck "connection refused" diyor
+
+Bu genellikle **asıl sorun değildir**. Provision veritabanını beklerken
+nginx henüz başlamamıştır; healthcheck de doğal olarak bağlanamaz.
+Konteyner loglarındaki provision çıktısına bak — gerçek sebep orada.
+
+---
+
+## 9. Riskli noktalar
 
 **Veritabanı `postgres` kullanıcısı ve `postgres` veritabanı.** Uygulamaya
 süper kullanıcı vermek gereksiz geniş yetki. Coolify varsayılanı böyle ama

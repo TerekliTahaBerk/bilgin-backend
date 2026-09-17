@@ -1,7 +1,10 @@
-# Yerel geliştirme ve imajı denemek için.
+# YALNIZCA yerel geliştirme ve imajı denemek için.
 #
-# Coolify'da bu dosya KULLANILMAZ — orada Postgres ve Redis ayrı birer
-# kaynak olarak eklenir, uygulama yalnızca env ile onlara bağlanır.
+# Adı bilerek "docker-compose.yml" DEĞİL: Coolify repo'da o adı görünce
+# Compose dağıtımını önerir ve seçilirse buradaki Postgres'i ayağa kaldırır —
+# yani üretim, içinde "local-parola" yazan bir veritabanıyla açılırdı.
+#
+# Çalıştırmak için:  docker compose -f docker-compose.local.yml up -d
 services:
   app:
     build: .
