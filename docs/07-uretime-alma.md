@@ -18,7 +18,9 @@ APP_LOCALE=tr
 
 # --- Veritabanı ---------------------------------------------------------
 DB_CONNECTION=pgsql
-DB_HOST=dcosgg8k04cowccccco04oks
+# Coolify'ın gösterdiği KISA uuid değil, konteynerin TAM adı. Docker DNS'i
+# yalnızca tam adı çözer; kısa hâliyle "ad çözülemedi" alınır.
+DB_HOST=postgresql-database-dcosgg8k04cowccccco04oks
 DB_PORT=5432
 DB_DATABASE=postgres
 DB_USERNAME=postgres
@@ -211,34 +213,57 @@ curl -s -X POST https://bilginbackend.cryptoping.io/api/admin/v1/auth/login \
 
 ### "Veritabanına ulaşılamadı"
 
-Provision artık hedefi ve gerçek PDO hatasını basıyor; önce ona bak:
+Provision hedefi ve **teşhis edilmiş** sebebi basar. Önce ona bak:
 
 ```
-Hedef .... pgsql://postgres@dcosgg8k04cowccccco04oks:5432/postgres
-Hata ..... SQLSTATE[08006] could not translate host name ...
+Hedef .... pgsql://postgres@postgresql-database-dcosgg8k...:5432/postgres
+Sebep .... 'postgresql-database-...' adı çözülemedi — uygulama ve
+           veritabanı aynı Docker ağında değil. ...
 ```
 
-| Hata metni | Sebep | Çözüm |
+| Sebep satırı | Anlamı | Çözüm |
 |---|---|---|
-| `could not translate host name` | Uygulama ve veritabanı **farklı Docker ağında**; iç servis adı çözülemiyor | Coolify → uygulama → **Advanced → "Connect To Predefined Network"** aç, yeniden deploy et |
-| `Connection refused` | Ağ doğru ama veritabanı henüz ayakta değil ya da port yanlış | Postgres kaynağının çalıştığını ve portun 5432 olduğunu doğrula |
-| `password authentication failed` | Şifre yanlış ya da env konteynere ulaşmıyor | Coolify'da `DB_PASSWORD` **Build Variable değil**, runtime env olmalı |
-| `database ... does not exist` | `DB_DATABASE` yanlış | Coolify'daki veritabanı adıyla eşleştir |
+| `adı çözülemedi` | Uygulama ve veritabanı **farklı Docker ağında** | Advanced → **"Connect To Predefined Network"** aç, yeniden deploy et. `DB_HOST` tam konteyner adı mı? |
+| `port kapalı (Connection refused)` | Ağ doğru, veritabanı ayakta değil ya da port yanlış | Postgres kaynağının çalıştığını ve portun 5432 olduğunu doğrula |
+| `paketler dönmüyor` | Ad çözülüyor ama TCP kurulamıyor | Neredeyse her zaman ağ ayrımı; yukarıdaki ayarı kontrol et |
+| `Şifre reddedildi` | `DB_PASSWORD` yanlış **ya da** env çalışma anında yok | Coolify'da değişken **Build Variable değil**, runtime olmalı |
+| `DB_DATABASE yanlış` | Veritabanı adı eşleşmiyor | Coolify'daki adla eşleştir |
 
 Coolify'da veritabanı kaynağı varsayılan olarak `coolify` ağındadır;
-uygulamalar ise kendi ağlarında açılır. İç servis adıyla (`dcosgg8k...`)
-bağlanmak için ikisinin aynı ağda olması gerekir — "Connect To Predefined
-Network" tam olarak bunu yapar.
+uygulamalar ise kendi ağlarında açılır. İç adla bağlanmak için ikisinin
+aynı ağda olması gerekir — "Connect To Predefined Network" tam olarak
+bunu yapar.
+
+`DB_HOST` **tam konteyner adı** olmalı (`postgresql-database-<uuid>`).
+Coolify'ın gösterdiği bağlantı adresinde kısa uuid geçiyor ama Docker DNS'i
+onu çözmez.
 
 Alternatif: Postgres kaynağının **public** bağlantısını açıp `DB_HOST`
 olarak sunucunun adresini vermek. Daha kolay ama veritabanını internete
 açar; iç ağ tercih edilmeli.
 
-### Healthcheck "connection refused" diyor
+### Kurulum başarısız olursa uygulama yine de açılır
 
-Bu genellikle **asıl sorun değildir**. Provision veritabanını beklerken
-nginx henüz başlamamıştır; healthcheck de doğal olarak bağlanamaz.
-Konteyner loglarındaki provision çıktısına bak — gerçek sebep orada.
+Bu bilinçli. Eskiden veritabanı sorununda konteyner açılmadan ölüyordu:
+healthcheck "connection refused" diyor, dağıtım geri alınıyor ve sebebi
+yazan log satırına hiç erişilemiyordu — sorunu gösteren tek yer, sorun
+yüzünden kayboluyordu.
+
+Şimdi `/up` yanıt verir, konteyner ayakta kalır, log okunabilir. Veritabanına
+bağlı uçlar 500 döner; hata gizlenmiyor, yalnızca **teşhis edilebilir**
+hâle geliyor. Log'da şu kutu varsa uygulama kısıtlı moddadır:
+
+```
+ UYGULAMA KISITLI MODDA BAŞLIYOR
+```
+
+Sorun giderildikten sonra konteyneri yeniden başlat — provision idempotent.
+
+Bekleme üst sınırı ~40 saniyedir (10 deneme × 2sn yoklama + 2sn bekleme).
+Sınır şart: PDO'ya zaman aşımı veremiyoruz (Laravel'in pgsql DSN'i
+`connect_timeout` yazmıyor, libpq süresiz bekler), bu yüzden bağlantı önce
+ham TCP ile yoklanıyor. Aksi hâlde komut dakikalarca asılır ve hatayı yazan
+satıra hiç sıra gelmez.
 
 ---
 

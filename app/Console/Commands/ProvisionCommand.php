@@ -95,55 +95,122 @@ final class ProvisionCommand extends Command
      * Docker'da uygulama konteyneri veritabanından önce ayağa kalkabilir;
      * beklemeden başlamak açılışta kırılmak demek.
      *
-     * Başarısız olursa GERÇEK hatayı ve bağlanmaya çalıştığı adresi basar.
-     * "Veritabanına ulaşılamadı" tek başına hiçbir şey anlatmıyor: ağ mı,
-     * şifre mi, isim çözümlemesi mi — ayırt edilemiyordu.
+     * Başarısız olursa hedefi ve GERÇEK sebebi basar. "Veritabanına
+     * ulaşılamadı" tek başına hiçbir şey anlatmıyor: ağ mı, şifre mi,
+     * isim çözümlemesi mi — ayırt edilemiyordu.
+     *
+     * 10 deneme × (2sn yoklama + 2sn bekleme) ≈ en fazla 40sn. Üst sınırın
+     * olması şart: dağıtım aracı konteyneri sağlıksız sayıp öldürürse hatayı
+     * yazan satıra hiç sıra gelmez ve sorun görünmez kalır.
      */
-    private function waitForDatabase(int $attempts = 30): bool
+    private function waitForDatabase(int $attempts = 10): bool
     {
         $connection = (string) config('database.default');
         $config = (array) config("database.connections.{$connection}");
+
+        $host = (string) ($config['host'] ?? '');
+        $port = (int) ($config['port'] ?? 5432);
 
         $target = sprintf(
             '%s://%s@%s:%s/%s',
             $connection,
             $config['username'] ?? '?',
-            $config['host'] ?? '?',
-            $config['port'] ?? '?',
+            $host !== '' ? $host : '?',
+            $port,
             $config['database'] ?? '?',
         );
 
-        $lastError = null;
+        $reason = null;
 
         for ($i = 1; $i <= $attempts; $i++) {
-            try {
-                DB::connection()->getPdo();
+            $reason = $this->probeDatabase($host, $port);
 
+            if ($reason === null) {
                 return true;
-            } catch (Throwable $e) {
-                $lastError = $e;
-
-                if ($i === 1) {
-                    $this->components->info("Veritabanı bekleniyor: {$target}");
-                }
-
-                sleep(2);
             }
+
+            if ($i === 1) {
+                $this->components->info("Veritabanı bekleniyor: {$target}");
+            }
+
+            sleep(2);
         }
 
         $this->newLine();
         $this->components->error('Veritabanına ulaşılamadı.');
         $this->components->twoColumnDetail('Hedef', $target);
-        $this->components->twoColumnDetail('Hata', $lastError?->getMessage() ?? 'bilinmiyor');
-
-        $this->newLine();
-        $this->line('  Sık görülen sebepler:');
-        $this->line('  • Uygulama ve veritabanı AYNI Docker ağında değil');
-        $this->line('    (Coolify: Advanced → "Connect To Predefined Network" açık olmalı)');
-        $this->line('  • DB_HOST yanlış — Coolify\'de veritabanının iç servis adı kullanılmalı');
-        $this->line('  • DB_PASSWORD hatalı ya da env "Runtime only" işaretli değil');
+        $this->components->twoColumnDetail('Sebep', $reason ?? 'bilinmiyor');
 
         return false;
+    }
+
+    /**
+     * Tek bağlantı denemesi. Başarılıysa null, değilse okunur sebep döner.
+     *
+     * Önce ham TCP yoklaması yapılıyor çünkü PDO'ya zaman aşımı veremiyoruz:
+     * Laravel'in pgsql DSN üreticisi `connect_timeout` yazmıyor, libpq da
+     * varsayılanda süresiz bekliyor. Ulaşılamayan bir adreste `getPdo()`
+     * dakikalarca asılır — ve o sırada hata satırı hiç basılamaz.
+     *
+     * fsockopen'ın ayrıca teşhis değeri var: ad çözülemedi / bağlantı
+     * reddedildi / zaman aşımı birbirinden ayrılıyor, üçü de farklı sorun.
+     */
+    private function probeDatabase(string $host, int $port): ?string
+    {
+        $errno = 0;
+        $errstr = '';
+
+        $socket = @fsockopen($host, $port, $errno, $errstr, 2.0);
+
+        if ($socket === false) {
+            return $this->explainUnreachable($errstr, $host);
+        }
+
+        fclose($socket);
+
+        // Port açık; buradan sonrası hızlı başarısız olur — kimlik doğrulama
+        // ve "veritabanı yok" hataları bağlantı kurulduktan sonra anında döner.
+        try {
+            DB::connection()->getPdo();
+
+            return null;
+        } catch (Throwable $e) {
+            return $this->explainPdoError($e->getMessage());
+        }
+    }
+
+    /** TCP hiç kurulamadı: ağ katmanında ne olduğunu söyler. */
+    private function explainUnreachable(string $errstr, string $host): string
+    {
+        $raw = trim($errstr) !== '' ? trim($errstr) : 'yanıt yok';
+
+        if (str_contains($errstr, 'getaddrinfo') || str_contains($errstr, 'Name or service not known')) {
+            return "'{$host}' adı çözülemedi — uygulama ve veritabanı aynı Docker ağında değil. "
+                .'Coolify → uygulama → Advanced → "Connect To Predefined Network" aç, yeniden deploy et.';
+        }
+
+        if (str_contains($errstr, 'refused')) {
+            return "{$host} çözüldü ama port kapalı ({$raw}) — veritabanı konteyneri çalışmıyor "
+                .'ya da DB_PORT yanlış.';
+        }
+
+        return "{$host} adresine ulaşılamadı ({$raw}) — ad çözülüyor ama paketler dönmüyor. "
+            .'Genellikle iki kaynağın farklı ağlarda olmasından kaynaklanır.';
+    }
+
+    /** TCP kuruldu ama oturum açılamadı: kimlik ya da veritabanı adı sorunu. */
+    private function explainPdoError(string $message): string
+    {
+        if (str_contains($message, 'password authentication failed')) {
+            return 'Şifre reddedildi — DB_PASSWORD yanlış, ya da Coolify\'de '
+                .'"Build Variable" işaretli olduğu için çalışma anında görünmüyor.';
+        }
+
+        if (str_contains($message, 'does not exist')) {
+            return "DB_DATABASE yanlış: {$message}";
+        }
+
+        return $message;
     }
 
     /**

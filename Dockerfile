@@ -50,10 +50,12 @@ RUN mkdir -p storage/framework/{cache,sessions,views} storage/logs bootstrap/cac
 
 EXPOSE 8080
 
-# start-period, provision'ın veritabanını bekleme süresinden (en fazla 60sn)
-# UZUN olmalı. Kısa olursa nginx daha ayağa kalkmadan healthcheck başlar ve
+# start-period, provision'ın veritabanını bekleme süresinden (~40sn) uzun
+# olmalı; kısa olursa nginx daha ayağa kalkmadan healthcheck başlar ve
 # "connection refused" görülür — asıl sorun veritabanıyken yanlış yere bakılır.
-HEALTHCHECK --interval=15s --timeout=5s --start-period=120s --retries=5 \
+# Kurulum başarısız olsa bile nginx başladığı için healthcheck sonunda geçer:
+# konteyner ayakta kalır ve hatayı yazan log erişilebilir olur.
+HEALTHCHECK --interval=15s --timeout=5s --start-period=75s --retries=5 \
   CMD wget -qO- http://127.0.0.1:8080/up || exit 1
 
 ENTRYPOINT ["entrypoint"]

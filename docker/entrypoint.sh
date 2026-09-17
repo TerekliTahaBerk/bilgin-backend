@@ -8,7 +8,27 @@ set -e
 # İdempotent: ikinci açılışta migration'lar zaten uygulanmış, seed yalnızca
 # müfredat boşsa çalışır.
 if [ "${SKIP_PROVISION:-false}" != "true" ]; then
-    php /app/artisan app:provision --no-interaction
+    # Kurulum başarısız olsa BİLE web sunucusu başlar.
+    #
+    # Aksi hâlde veritabanı sorununda konteyner açılmadan ölüyor: healthcheck
+    # "connection refused" diyor, dağıtım geri alınıyor ve sebebi yazan log
+    # satırına erişilemiyor. Yani sorunu gösteren tek yer, sorun yüzünden
+    # kayboluyordu.
+    #
+    # Bu hâlde /up yanıt verir, konteyner ayakta kalır, log okunabilir.
+    # Veritabanına bağlı uçlar 500 döner — bu DOĞRU davranış: hata
+    # gizlenmiyor, yalnızca teşhis edilebilir hâle geliyor.
+    if ! php /app/artisan app:provision --no-interaction; then
+        echo
+        echo '================================================================'
+        echo ' UYGULAMA KISITLI MODDA BAŞLIYOR'
+        echo
+        echo ' Kurulum tamamlanamadı — sebep yukarıdaki "Sebep" satırında.'
+        echo ' /up yanıt verir, veritabanına bağlı uçlar 500 döner.'
+        echo ' Sorun giderildikten sonra konteyneri yeniden başlat.'
+        echo '================================================================'
+        echo
+    fi
 fi
 
 exec "$@"
