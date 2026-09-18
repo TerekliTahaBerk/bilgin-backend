@@ -286,6 +286,17 @@ Premium durumu **yalnızca** webhook + RevenueCat doğrulamasıyla belirlenir; i
 
 ---
 
+### Denemede cevap yanıtı farklıdır
+
+`POST /sessions/{id}/answers` çalışma turunda `is_correct`, `partial_score`,
+`correct_answer` ve `explanation` döndürür. **Deneme (sınav provası)
+oturumlarında bu dört alan hiç gönderilmez**; yalnızca `progress` kalır.
+
+Sebep: sınav provasında her sorudan sonra sonucu görmek denemenin amacını
+bozar. İstemcinin göstermemesi yetmez — yanıtta duran cevap anahtarı, araya
+giren biri tarafından okunabilir. Sonuç `POST /sessions/{id}/complete`
+yanıtındaki `exam` alanında (net, doğru/yanlış/boş, tahmini puan) dönüyor.
+
 ## 8. Admin API (`/admin/v1`) — Next.js panel
 
 Ayrı guard, rol bazlı (`spatie/laravel-permission`): `super_admin`, `content_editor`,

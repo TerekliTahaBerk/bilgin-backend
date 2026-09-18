@@ -98,6 +98,7 @@ final readonly class SubmitAnswer
                 answered: $session->answeredCount(),
                 total: $session->items()->count(),
                 suspicious: $suspicious,
+                revealsAnswer: ! $session->isExam(),
             );
         });
     }
@@ -152,6 +153,7 @@ final readonly class SubmitAnswer
             total: $session->items()->count(),
             suspicious: $item->is_suspicious,
             idempotentReplay: $replayed,
+            revealsAnswer: ! $session->isExam(),
         );
     }
 }

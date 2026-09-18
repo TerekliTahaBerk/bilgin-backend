@@ -7,6 +7,7 @@ namespace Database\Seeders;
 use App\Modules\Admin\Database\Seeders\AdminUserSeeder;
 use App\Modules\Catalog\Database\Seeders\PilotContentSeeder;
 use App\Modules\Catalog\Database\Seeders\SubjectSeeder;
+use App\Modules\Catalog\Database\Seeders\TopicSeeder;
 use App\Modules\Catalog\Database\Seeders\UnitTemplateSeeder;
 use App\Modules\Catalog\Database\Seeders\YksCourseSeeder;
 use App\Modules\Curriculum\Database\Seeders\YksBlueprintSeeder;
@@ -25,7 +26,8 @@ final class DatabaseSeeder extends Seeder
     {
         $this->call([
             YksExamSeeder::class,        // Curriculum: sınav, oturum, alan varyantları
-            SubjectSeeder::class,        // Catalog: kavramsal dersler
+            SubjectSeeder::class,
+            TopicSeeder::class,        // Catalog: kavramsal dersler
             YksCourseSeeder::class,      // Catalog: 21 ders
             YksCurriculumMapSeeder::class, // Curriculum: hangi alan hangi dersi görür
             YksBlueprintSeeder::class,   // Curriculum: deneme kompozisyonları

@@ -120,7 +120,12 @@ uyarı basar — atlanması zor.
 ### İçerik
 
 Provision **yapı** verisini yükler: 1 sınav, 3 oturum, 5 alan varyantı,
-21 ders, 61 müfredat eşlemesi, 2 deneme, 2 şablon, 8 rozet.
+21 ders, **11 dersin konu listesi (~250 konu)**, 61 müfredat eşlemesi,
+2 deneme, 2 şablon, 8 rozet.
+
+Konular içerik değil müfredat yapısıdır (MEB kazanım başlıkları) ve panel
+bunlar olmadan çalışamaz: hem `POST /exercises` hem `POST /units` var olan
+bir `topic_id` istiyor.
 
 **Soru yüklemez.** `PilotContentSeeder` bilerek dışarıda — o test içeriği.
 Gerçek sorular panelden veya içerik paketi içe aktarmayla girer.

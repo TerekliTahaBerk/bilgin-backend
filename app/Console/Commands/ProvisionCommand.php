@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Console\Commands;
 
 use App\Modules\Catalog\Database\Seeders\SubjectSeeder;
+use App\Modules\Catalog\Database\Seeders\TopicSeeder;
 use App\Modules\Catalog\Database\Seeders\UnitTemplateSeeder;
 use App\Modules\Catalog\Database\Seeders\YksCourseSeeder;
 use App\Modules\Curriculum\Database\Seeders\YksBlueprintSeeder;
@@ -44,6 +45,9 @@ final class ProvisionCommand extends Command
     private const STRUCTURE_SEEDERS = [
         YksExamSeeder::class,
         SubjectSeeder::class,
+        // Konular derslerden hemen sonra: ünite şablonları ve içerik
+        // oluşturma bunlara bağlı.
+        TopicSeeder::class,
         YksCourseSeeder::class,
         YksCurriculumMapSeeder::class,
         YksBlueprintSeeder::class,

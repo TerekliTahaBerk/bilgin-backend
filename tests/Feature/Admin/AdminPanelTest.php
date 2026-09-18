@@ -81,7 +81,11 @@ it('yönetici token\'ı öğrenci API\'sine giremez', function (): void {
 });
 
 it('editör ünite şablondan kurabilir', function (): void {
-    $topics = Topic::query()->limit(2)->pluck('id')->all();
+    // Konular DERSE göre seçilmeli: `tyt_tarih` kursunun subject'i Tarih.
+    // Rastgele ilk iki konuyu almak başka bir dersin konusunu gönderir ve
+    // sunucu bunu TOPIC_MISMATCH ile haklı olarak reddeder.
+    $subjectId = Course::query()->where('code', 'tyt_tarih')->value('subject_id');
+    $topics = Topic::query()->where('subject_id', $subjectId)->limit(2)->pluck('id')->all();
 
     $response = asAdmin('editor')
         ->postJson('/api/admin/v1/units', [
@@ -238,7 +242,8 @@ it('müfredat eşlemesi panelden düzenlenebilir', function (): void {
 });
 
 it('yönetici eylemleri denetim kaydına yazılır', function (): void {
-    $topics = Topic::query()->limit(1)->pluck('id')->all();
+    $subjectId = Course::query()->where('code', 'tyt_tarih')->value('subject_id');
+    $topics = Topic::query()->where('subject_id', $subjectId)->limit(1)->pluck('id')->all();
 
     asAdmin('editor')
         ->postJson('/api/admin/v1/units', [

@@ -113,6 +113,18 @@ final class StudySession extends Model
         return $this->hasMany(SessionItem::class)->orderBy('position');
     }
 
+    /**
+     * Deneme (sınav provası) oturumu mu.
+     *
+     * Bir oturum ya bir node'a ya bir blueprint'e aittir; ikisine birden
+     * değil. Ayrı bir `kind` sütunu tutmak, iki alanla çelişebilecek üçüncü
+     * bir doğruluk kaynağı yaratırdı.
+     */
+    public function isExam(): bool
+    {
+        return $this->exam_blueprint_id !== null;
+    }
+
     public function isActive(): bool
     {
         return $this->status === 'active';

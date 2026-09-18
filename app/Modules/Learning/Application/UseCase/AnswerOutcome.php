@@ -20,6 +20,14 @@ final readonly class AnswerOutcome
         public int $total,
         public bool $suspicious = false,
         public bool $idempotentReplay = false,
+        /**
+         * Doğru cevap istemciye gösterilsin mi.
+         *
+         * Denemede FALSE. Sınav provasında her sorudan sonra sonucu görmek
+         * denemenin amacını bozar; ayrıca cevap anahtarını yanıtta göndermek,
+         * arayüz göstermese bile araya giren birinin okumasına açık bırakır.
+         */
+        public bool $revealsAnswer = true,
     ) {}
 
     public function heartsDepleted(): bool

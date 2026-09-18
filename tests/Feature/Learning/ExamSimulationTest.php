@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+use App\Modules\Catalog\Infrastructure\Eloquent\Model\Course;
+use App\Modules\Catalog\Infrastructure\Eloquent\Model\UnitNode;
 use App\Modules\Learning\Infrastructure\Eloquent\Model\StudySession;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Support\Facades\DB;
@@ -78,6 +80,66 @@ it('deneme birden çok dersten soru toplar', function (): void {
     expect($courseIds)->not->toBeEmpty();
 });
 
+it('denemede doğru cevap İSTEMCİYE GÖNDERİLMEZ', function (): void {
+    // Sınav provasında her sorudan sonra sonucu görmek denemenin amacını
+    // bozar. Arayüzün göstermemesi yetmez: yanıtta duran cevap anahtarı,
+    // araya giren biri tarafından okunabilir.
+    $session = startSimulation();
+    $item = StudySession::query()->where('uuid', $session['session_id'])->firstOrFail()->items()->first();
+
+    $result = $this->withToken($this->token)
+        ->postJson("/api/v1/sessions/{$session['session_id']}/answers", [
+            'exercise_id' => $item->exercise_id,
+            'answer' => ['option_id' => 'yanlis', 'value' => 'yanlis'],
+            'elapsed_ms' => 30000,
+        ])->assertOk()->json('data');
+
+    expect($result)->not->toHaveKey('is_correct')
+        ->and($result)->not->toHaveKey('correct_answer')
+        ->and($result)->not->toHaveKey('explanation')
+        ->and($result)->not->toHaveKey('partial_score')
+        // İlerleme bilgisi kalmalı: kaçıncı sorudayım, bu sonuç değil.
+        ->and($result['progress']['total'])->toBeGreaterThan(0);
+});
+
+it('çalışma turunda doğru cevap GÖSTERİLİR', function (): void {
+    // Denemedeki gizleme, normal turu etkilememeli: öğrenme tam da
+    // yanlışın doğrusunu görmekle oluyor.
+    $token = $this->postJson('/api/v1/auth/guest', [
+        'device_identifier' => 'tur-geri-bildirim', 'platform' => 'ios',
+    ])->json('data.token');
+
+    $this->withToken($token)->postJson('/api/v1/onboarding', [
+        'exam_code' => 'yks', 'field' => 'soz', 'grade' => '11',
+    ]);
+
+    $course = Course::query()->where('code', 'tyt_tarih')->firstOrFail();
+    $node = UnitNode::query()
+        ->whereIn('unit_id', $course->units()->pluck('id'))
+        ->orderBy('sort_order')
+        ->firstOrFail();
+
+    app('auth')->forgetGuards();
+
+    $sessionId = $this->withToken($token)
+        ->postJson('/api/v1/sessions', ['node_id' => $node->id])
+        ->json('data.session_id');
+
+    $item = StudySession::query()->where('uuid', $sessionId)->firstOrFail()->items()->first();
+
+    app('auth')->forgetGuards();
+
+    $result = $this->withToken($token)
+        ->postJson("/api/v1/sessions/{$sessionId}/answers", [
+            'exercise_id' => $item->exercise_id,
+            'answer' => ['option_id' => 'yanlis', 'value' => 'yanlis'],
+            'elapsed_ms' => 30000,
+        ])->assertOk()->json('data');
+
+    expect($result)->toHaveKey('is_correct')
+        ->and($result)->toHaveKey('correct_answer');
+});
+
 it('denemede yanlış cevap can düşürmez', function (): void {
     $session = startSimulation();
     $item = StudySession::query()->where('uuid', $session['session_id'])->firstOrFail()->items()->first();
@@ -89,8 +151,9 @@ it('denemede yanlış cevap can düşürmez', function (): void {
             'elapsed_ms' => 30000,
         ])->assertOk()->json('data');
 
-    expect($result['is_correct'])->toBeFalse()
-        ->and($result)->not->toHaveKey('hearts')
+    // `is_correct` denemede artık gönderilmiyor; bu testin asıl iddiası
+    // zaten canların düşmemesiydi.
+    expect($result)->not->toHaveKey('hearts')
         ->and(DB::table('user_hearts')->value('hearts'))->toBe(5);
 });
 

@@ -204,8 +204,11 @@ it('konu listesi soru formunu besler', function (): void {
         ->assertOk()
         ->json('data');
 
-    expect($data['topics'])->toHaveCount(3)
-        ->and($data['topics'][0])->toHaveKeys(['id', 'code', 'name', 'exercise_count']);
+    // Sayıya bağlanmıyoruz: konu listesi müfredat verisi ve büyüyecek.
+    // Önemli olan, listenin dolu ve panelin beklediği biçimde olması.
+    expect($data['topics'])->not->toBeEmpty()
+        ->and($data['topics'][0])->toHaveKeys(['id', 'code', 'name', 'exercise_count'])
+        ->and($data['course']['id'])->toBe($course->id);
 });
 
 it('şablon listesi ünite formunu besler', function (): void {

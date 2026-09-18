@@ -12,12 +12,16 @@ final readonly class AnswerResource
     /** @return array<string, mixed> */
     public static function toArray(AnswerOutcome $outcome): array
     {
+        // Denemede sonuç bilgisi HİÇ gönderilmiyor. İstemcinin göstermemesi
+        // yetmez: yanıtta duran cevap anahtarı, araya giren biri tarafından
+        // okunabilir. Sınav bitince `complete` zaten net ve puanı döndürüyor.
+        $reveals = $outcome->revealsAnswer;
+
         return array_filter([
-            'is_correct' => $outcome->isCorrect,
-            'partial_score' => round($outcome->partialScore, 3),
-            // Doğru cevap ancak cevap verildikten SONRA gösterilir.
-            'correct_answer' => $outcome->correctAnswer,
-            'explanation' => $outcome->explanation,
+            'is_correct' => $reveals ? $outcome->isCorrect : null,
+            'partial_score' => $reveals ? round($outcome->partialScore, 3) : null,
+            'correct_answer' => $reveals ? $outcome->correctAnswer : null,
+            'explanation' => $reveals ? $outcome->explanation : null,
             'hearts' => $outcome->hearts !== null ? HeartResource::toArray($outcome->hearts) : null,
             'hearts_depleted' => $outcome->heartsDepleted() ?: null,
             'progress' => ['answered' => $outcome->answered, 'total' => $outcome->total],
