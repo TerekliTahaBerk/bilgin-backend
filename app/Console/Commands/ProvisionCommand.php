@@ -37,22 +37,33 @@ final class ProvisionCommand extends Command
     protected $description = 'Migration, yapı verisi ve önbellekleri hazırlar (konteyner açılışı)';
 
     /**
-     * Müfredat iskeleti. PilotContentSeeder BİLEREK yok — o test içeriği
-     * ve üretime gitmemeli.
+     * Müfredat iskeleti: seeder → doldurduğu tablo.
      *
-     * @var list<class-string<Seeder>>
+     * Her seeder KENDİ tablosu boşsa çalışıyor, hepsi birden değil.
+     *
+     * Önceden tek bir kapı vardı ("exams doluysa hiçbirini çalıştırma") ve
+     * bu, sonradan eklenen bir seeder'ın var olan kurulumlarda ASLA
+     * çalışmaması demekti — konu listesi tam bu yüzden üretime inmedi.
+     *
+     * Tabloya bakmak, "her açılışta hepsini koştur"dan da iyi: içerik ekibi
+     * panelden bir konunun adını düzeltirse, sonraki dağıtım onu geri
+     * almıyor.
+     *
+     * PilotContentSeeder BİLEREK yok — o test içeriği ve üretime gitmemeli.
+     *
+     * @var array<class-string<Seeder>, string>
      */
     private const STRUCTURE_SEEDERS = [
-        YksExamSeeder::class,
-        SubjectSeeder::class,
+        YksExamSeeder::class => 'exams',
+        SubjectSeeder::class => 'subjects',
         // Konular derslerden hemen sonra: ünite şablonları ve içerik
         // oluşturma bunlara bağlı.
-        TopicSeeder::class,
-        YksCourseSeeder::class,
-        YksCurriculumMapSeeder::class,
-        YksBlueprintSeeder::class,
-        UnitTemplateSeeder::class,
-        BadgeSeeder::class,
+        TopicSeeder::class => 'topics',
+        YksCourseSeeder::class => 'courses',
+        YksCurriculumMapSeeder::class => 'exam_variant_courses',
+        YksBlueprintSeeder::class => 'exam_blueprints',
+        UnitTemplateSeeder::class => 'unit_templates',
+        BadgeSeeder::class => 'badges',
     ];
 
     public function handle(): int
@@ -218,25 +229,41 @@ final class ProvisionCommand extends Command
     }
 
     /**
-     * Müfredat iskeletini yükler — yalnızca boşsa.
+     * Müfredat iskeletini yükler — her seeder yalnızca kendi tablosu boşsa.
      *
-     * "Boşsa" kontrolü, her açılışta seeder koşturmanın maliyetini ve
-     * beklenmedik veri değişikliği riskini ortadan kaldırır.
+     * Tablo bazında kontrol, sonradan eklenen bir seeder'ın var olan
+     * kurulumlarda da çalışmasını sağlıyor; toplu bir kapı bunu engelliyordu.
      */
     private function seedStructure(): void
     {
-        if (DB::table('exams')->exists()) {
-            $this->components->twoColumnDetail('Yapı verisi', '<fg=gray>zaten yüklü</>');
+        $ran = false;
 
-            return;
-        }
+        foreach (self::STRUCTURE_SEEDERS as $seeder => $table) {
+            $name = class_basename($seeder);
 
-        foreach (self::STRUCTURE_SEEDERS as $seeder) {
-            $this->components->task(class_basename($seeder), function () use ($seeder): bool {
+            if (! Schema::hasTable($table)) {
+                $this->components->twoColumnDetail($name, '<fg=yellow>tablo yok, atlandı</>');
+
+                continue;
+            }
+
+            if (DB::table($table)->exists()) {
+                $this->components->twoColumnDetail($name, '<fg=gray>zaten yüklü</>');
+
+                continue;
+            }
+
+            $ran = true;
+
+            $this->components->task($name, function () use ($seeder): bool {
                 $this->callSilent('db:seed', ['--class' => $seeder, '--force' => true]);
 
                 return true;
             });
+        }
+
+        if (! $ran) {
+            $this->components->twoColumnDetail('Yapı verisi', '<fg=gray>eksiksiz</>');
         }
     }
 

@@ -95,11 +95,16 @@ Coolify'da uygulamayı **Dockerfile** tipiyle oluştur. Konteyner her açılış
 
 - veritabanını bekler (uygulama DB'den önce ayağa kalkabilir)
 - `migrate --force`
-- müfredat iskeletini yükler — **yalnızca boşsa**
+- müfredat iskeletini yükler — **her seeder, kendi tablosu boşsa**
 - `config:cache`, `route:cache`, `event:cache`
 
-İkinci açılışta "Yapı verisi zaten yüklü" der ve geçer. Elle çalıştırılacak
-tek şey aşağıdaki yönetici hesabıdır.
+İkinci açılışta dolu tablolar için "zaten yüklü" der ve geçer. Elle
+çalıştırılacak tek şey aşağıdaki yönetici hesabıdır.
+
+Kontrolün tablo bazında olması önemli: eskiden tek bir kapı vardı
+("`exams` doluysa hiçbirini çalıştırma") ve bu, sonradan eklenen bir
+seeder'ın var olan kurulumlarda **asla** çalışmaması demekti. Konu listesi
+tam bu yüzden ilk denemede üretime inmemişti.
 
 Provision'ı atlamak gerekirse: `SKIP_PROVISION=true`.
 
