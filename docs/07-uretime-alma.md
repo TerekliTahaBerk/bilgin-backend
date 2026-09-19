@@ -132,8 +132,13 @@ Konular içerik değil müfredat yapısıdır (MEB kazanım başlıkları) ve pa
 bunlar olmadan çalışamaz: hem `POST /exercises` hem `POST /units` var olan
 bir `topic_id` istiyor.
 
-**Soru yüklemez.** `PilotContentSeeder` bilerek dışarıda — o test içeriği.
-Gerçek sorular panelden veya içerik paketi içe aktarmayla girer.
+**Soruları da yükler.** `database/content` altındaki paketler
+(`ContentPackageSeeder`) — şu an 4 ünite, 148 soru. Soru tablosu doluysa
+çalışmaz, yani panelden girilen içeriği ezmez.
+
+Paketler `ContentPackageTest` ile sınanıyor: konu kodları kanonik mi,
+ünite yayın kapısından geçiyor mu, her sorunun açıklaması var mı. Üretime
+inmeden önce bu üç soru cevaplanmış oluyor.
 
 ---
 
@@ -209,7 +214,7 @@ curl -s -X POST https://bilginbackend.cryptoping.io/api/admin/v1/auth/login \
 | `APP_KEY` | Üretildi, `.env`'e yazılacak | **Evet** |
 | Cron kaydı | Konteyner içinde halloldu | Hayır |
 | İlk yönetici hesabı | `admin:create` hazır | **Evet** |
-| İçerik | Yapı verisi otomatik; **soru yok** | Öğrenci için evet |
+| İçerik | 4 ünite · 148 soru yüklü | Pilot için hayır, lansman için evet |
 | RevenueCat sırrı | Boşsa satın alma çalışmaz | Premium için evet |
 | Apple/Google audience | Boşsa sosyal giriş kapalı | Misafir giriş yeterliyse hayır |
 | AdMob | Ödüllü reklam çalışmaz | Hayır |

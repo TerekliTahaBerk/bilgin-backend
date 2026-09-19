@@ -19,7 +19,7 @@
       "exam_weight": 2
     },
     {
-      "code": "turk_kultur_medeniyeti",
+      "code": "turk_kultur_ve_medeniyeti",
       "name": "Türk Kültür ve Medeniyeti",
       "grade_level": 9,
       "exam_weight": 2
@@ -345,7 +345,7 @@
       "explanation": "Avrupa Hun Devleti'nin en güçlü dönemi Attila zamanıdır."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "multiple_choice",
       "difficulty": 2,
       "scopes": [
@@ -379,7 +379,7 @@
       "explanation": "Kurultay (toy), devlet işlerinin görüşüldüğü meclistir."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "multiple_choice",
       "difficulty": 3,
       "scopes": [
@@ -414,7 +414,7 @@
       "explanation": "Kut anlayışına göre yönetme yetkisi Tanrı tarafından verilir ve kağanın soyundan gelenlerde bulunur."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "multiple_choice",
       "difficulty": 4,
       "scopes": [
@@ -582,7 +582,7 @@
       "explanation": "Yanlış. Orhun Yazıtları Göktürk (Orhun) alfabesiyle yazılmıştır."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "true_false",
       "difficulty": 2,
       "scopes": [
@@ -597,7 +597,7 @@
       "explanation": "Doğru. Töre sözlü hukuk kurallarıdır ve kağan dahil herkesi bağlar."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "true_false",
       "difficulty": 2,
       "scopes": [
@@ -627,7 +627,7 @@
       "explanation": "Yanlış. Talas Savaşı Abbasiler ile Çin (Tang) arasında yapılmış, Karluklar Abbasilerin yanında yer almıştır."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "fill_blank",
       "difficulty": 2,
       "scopes": [
@@ -650,7 +650,7 @@
       "explanation": "Töre, yazısız hukuk kurallarının bütünüdür."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "fill_blank",
       "difficulty": 2,
       "scopes": [
@@ -719,7 +719,7 @@
       "explanation": "Karahanlılar, Satuk Buğra Han döneminde İslamiyet'i kabul etmiştir."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "fill_blank",
       "difficulty": 3,
       "scopes": [
@@ -742,7 +742,7 @@
       "explanation": "Mezara kurgan, mezar başına dikilen taşlara balbal denir."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "matching",
       "difficulty": 2,
       "scopes": [
@@ -857,7 +857,7 @@
       "explanation": "II. Göktürk Devleti İlteriş Kutluk Kağan tarafından yeniden kurulmuştur."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "matching",
       "difficulty": 3,
       "scopes": [
@@ -1141,7 +1141,7 @@
       "explanation": "375 → 552 → 744 → 840."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "ordering",
       "difficulty": 3,
       "scopes": [
@@ -1269,7 +1269,7 @@
       "explanation": "1071 Malazgirt Savaşı ile Anadolu'nun kapıları Türklere açılmıştır."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "flashcard",
       "difficulty": 2,
       "scopes": [
@@ -1285,7 +1285,7 @@
       "explanation": "Kut anlayışı, hükümdarın meşruiyetinin kaynağıdır."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "flashcard",
       "difficulty": 2,
       "scopes": [
@@ -1317,7 +1317,7 @@
       "explanation": "Karahanlılar döneminde yazılmıştır; 'mutluluk veren bilgi' anlamına gelir."
     },
     {
-      "topic": "turk_kultur_medeniyeti",
+      "topic": "turk_kultur_ve_medeniyeti",
       "type": "word_order",
       "difficulty": 3,
       "scopes": [

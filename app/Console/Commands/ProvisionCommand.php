@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Console\Commands;
 
+use App\Modules\Catalog\Database\Seeders\ContentPackageSeeder;
 use App\Modules\Catalog\Database\Seeders\SubjectSeeder;
 use App\Modules\Catalog\Database\Seeders\TopicSeeder;
 use App\Modules\Catalog\Database\Seeders\UnitTemplateSeeder;
@@ -49,7 +50,11 @@ final class ProvisionCommand extends Command
      * panelden bir konunun adını düzeltirse, sonraki dağıtım onu geri
      * almıyor.
      *
-     * PilotContentSeeder BİLEREK yok — o test içeriği ve üretime gitmemeli.
+     * Soru paketleri de burada: `database/content` altındaki içerik gerçek
+     * ve ContentPackageTest tarafından sınanıyor (konu kodları kanonik mi,
+     * ünite yayın kapısından geçiyor mu, her sorunun açıklaması var mı).
+     *
+     * Soru tablosu doluysa çalışmaz; panelden girilen içeriği ezmez.
      *
      * @var array<class-string<Seeder>, string>
      */
@@ -64,6 +69,7 @@ final class ProvisionCommand extends Command
         YksBlueprintSeeder::class => 'exam_blueprints',
         UnitTemplateSeeder::class => 'unit_templates',
         BadgeSeeder::class => 'badges',
+        ContentPackageSeeder::class => 'exercises',
     ];
 
     public function handle(): int

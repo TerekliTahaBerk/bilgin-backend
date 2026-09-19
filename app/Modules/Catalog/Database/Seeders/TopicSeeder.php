@@ -14,8 +14,7 @@ use Illuminate\Support\Str;
  *
  * Konular İÇERİK DEĞİL, müfredat yapısıdır: başlıklar MEB kazanım
  * listesinden geliyor ve yıldan yıla neredeyse hiç değişmiyor. Bu yüzden
- * yapı seeder'larının arasında duruyor, `PilotContentSeeder` gibi
- * local'e kapatılmıyor.
+ * yapı seeder'larının arasında duruyor.
  *
  * Bunlar olmadan panel çalışamıyor: hem `POST /exercises` hem `POST /units`
  * var olan bir `topic_id` istiyor. Konu tablosu boşken içerik ekibi tek bir
@@ -219,7 +218,9 @@ final class TopicSeeder extends Seeder
             'Tarih Bilimi',
             'İlk ve Orta Çağlarda Türk Dünyası',
             'İlk Türk Devletleri',
+            'Türk Kültür ve Medeniyeti',
             'İslam Tarihi ve Uygarlığı',
+            'Türklerin İslamiyet\'e Geçişi',
             'Türk-İslam Devletleri',
             'Türkiye Tarihi ve Anadolu Selçuklu',
             'Beylikten Devlete Osmanlı',

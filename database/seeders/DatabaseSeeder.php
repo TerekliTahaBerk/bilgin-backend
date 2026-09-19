@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Database\Seeders;
 
 use App\Modules\Admin\Database\Seeders\AdminUserSeeder;
-use App\Modules\Catalog\Database\Seeders\PilotContentSeeder;
+use App\Modules\Catalog\Database\Seeders\ContentPackageSeeder;
 use App\Modules\Catalog\Database\Seeders\SubjectSeeder;
 use App\Modules\Catalog\Database\Seeders\TopicSeeder;
 use App\Modules\Catalog\Database\Seeders\UnitTemplateSeeder;
@@ -32,7 +32,7 @@ final class DatabaseSeeder extends Seeder
             YksCurriculumMapSeeder::class, // Curriculum: hangi alan hangi dersi görür
             YksBlueprintSeeder::class,   // Curriculum: deneme kompozisyonları
             UnitTemplateSeeder::class,   // Catalog: ünite şablonları
-            PilotContentSeeder::class,   // Catalog: pilot üniteler + soru havuzu
+            ContentPackageSeeder::class,   // Catalog: soru paketleri (database/content)
             BadgeSeeder::class,          // Gamification: rozet tanımları
         ]);
 
