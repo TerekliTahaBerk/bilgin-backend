@@ -19,6 +19,15 @@ use InvalidArgumentException;
  * kural kullanıcısız kuru çalıştırılır, gelen soru sayısı sayılır.
  *
  * Sessiz kırpma yoktur — eksik havuz bir hatadır, "idare eder" değildir.
+ *
+ * YAYIN ADAYI ANLAMI: bu kuru çalıştırma, yayınlanmaya çalışılan ünitenin
+ * kendi arşivlenmemiş sorularını da aday sayar. Aksi hâlde soruları henüz
+ * taslak olan bir ünite kendi sorularını sayamaz ve İLK yayın hiçbir zaman
+ * mümkün olmazdı. Arşivlenmiş sorular aday değildir.
+ *
+ * Bu gevşeme yalnızca buradan geçer: çalışma anı bağlamını kuran kod
+ * publicationUnitId'yi doldurmaz, dolayısıyla öğrenci havuzu yayındaki
+ * sorularla sınırlı kalır.
  */
 final readonly class ValidateSelectionRule
 {
@@ -52,6 +61,7 @@ final readonly class ValidateSelectionRule
             unitId: $unit->id,
             unitTopicIds: $this->unitTopics->topicIdsForUnit($unit->id),
             courseScope: $unit->course->scope->value,
+            publicationUnitId: $unit->id,
         );
 
         $result = $this->selectors->for($rule->mode)->select($rule, $context);
