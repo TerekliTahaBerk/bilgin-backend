@@ -216,7 +216,17 @@ final class ContentController extends AdminController
      */
     public function previewSelection(UnitNode $node, ValidateSelectionRule $validate): JsonResponse
     {
+        // İKİ SAYI, ÇÜNKÜ İKİ SORU VAR.
+        //
+        // `available`  : yayınlarsam kural doyuyor mu — yayın kararı budur.
+        // `live_*`     : öğrenci ŞU AN ne alıyor.
+        //
+        // Yayınlanmış bir ünitede ikisi ayrışabilir: bir soru arşivlenip
+        // yerine taslak yazıldığında aday sayısı yeterli görünür ama öğrenciye
+        // giden azalır. Tek sayı göstermek, hangisini seçersek seçelim
+        // editörü yanıltıyordu.
         $report = $validate($node);
+        $live = $validate($node, includeUnitDrafts: false);
 
         return ApiResponse::data([
             'node_id' => $report->nodeId,
@@ -226,6 +236,12 @@ final class ContentController extends AdminController
             'relaxed' => $report->relaxed,
             'passes' => $report->passes(),
             'message' => $report->message(),
+            'live_available' => $live->available,
+            'live_passes' => $live->passes(),
+            'live_warning' => $live->available < $report->available && ! $live->passes()
+                ? "Öğrenciler şu an {$live->available} soru alıyor; {$report->required} gerekiyor. "
+                    .'Farkı ünitenin yayınlanmamış soruları kapatıyor — yayınlamadan düzelmez.'
+                : null,
         ]);
     }
 

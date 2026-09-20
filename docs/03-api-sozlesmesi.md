@@ -310,7 +310,7 @@ Ayrı guard, rol bazlı (`spatie/laravel-permission`): `super_admin`, `content_e
 - `POST /exercises/{id}/validate` — tipe göre JSON şema doğrulaması (panelde anlık önizleme)
 - `GET /units/{id}/nodes` — ünitenin adımları (kimlik, sıra, gereken soru sayısı); panelin yayın hazırlığı bloğu önce bunu okur, sonra her adım için kural önizlemesi çağırır
 - `GET /curriculum/options` — eşleme ekranının varyant ve sınav oturumu seçenekleri; panelde sabit kimlik yazmayı gereksiz kılar
-- `POST /nodes/{id}/preview-selection` — **`selection_rule` kuru çalıştırma**: kural kaç soru getiriyor, hangi konulardan? Yayın kapısı bunu kullanır
+- `GET /nodes/{id}/preview-selection` — **`selection_rule` kuru çalıştırma**. İKİ sayı döner: `available`/`passes` yayın kararını verir (ünitenin kendi taslakları aday sayılır), `live_available`/`live_passes` öğrencinin ŞU AN aldığını söyler. Ayrıştıklarında `live_warning` dolu gelir — yayınlanmış bir ünitede soru arşivlenip yerine taslak yazıldığında aday yeterli görünürken öğrenciye giden azalır; panel bu uyarıyı göstermeli
 - `POST /units/{id}/submit-review` → `POST /units/{id}/publish` — draft → review → published. Yayın doğrulaması ünitenin KENDİ arşivlenmemiş sorularını aday sayar (aksi hâlde ilk yayın imkânsızdı); arşivlenmiş sorular ne aday olur ne de yayına döner
 - `POST /content/releases` — sürüm yayınla, manifest hash üret
 - `GET /users`, `GET /users/{id}` (destek ekranı), `POST /users/{id}/grant-hearts`

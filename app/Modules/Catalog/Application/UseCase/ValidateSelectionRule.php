@@ -28,6 +28,12 @@ use InvalidArgumentException;
  * Bu gevşeme yalnızca buradan geçer: çalışma anı bağlamını kuran kod
  * publicationUnitId'yi doldurmaz, dolayısıyla öğrenci havuzu yayındaki
  * sorularla sınırlı kalır.
+ *
+ * ADAY SAYMAK KAPATILABİLİR. Yayın kararı için aday kipi doğrudur; ama
+ * "öğrenci ŞU AN ne alıyor?" sorusunun cevabı farklıdır ve yayınlanmış bir
+ * ünitede ikisi ayrışabilir: soru arşivlenip yerine taslak yazıldığında aday
+ * sayısı yeterli görünürken öğrenciye giden azalır. Önizleme ikisini birden
+ * sorar; tek sayı hangisi olursa olsun editörü yanıltırdı.
  */
 final readonly class ValidateSelectionRule
 {
@@ -36,7 +42,14 @@ final readonly class ValidateSelectionRule
         private UnitTopicReader $unitTopics,
     ) {}
 
-    public function __invoke(UnitNode $node): SelectionRuleReport
+    /**
+     * @param  bool  $includeUnitDrafts  Ünitenin kendi arşivlenmemiş soruları
+     *                                   aday sayılsın mı. Yayın kapısı için
+     *                                   true (yayınlayınca zaten yayına
+     *                                   geçecekler); "öğrenci şu an ne
+     *                                   alıyor" sorusu için false.
+     */
+    public function __invoke(UnitNode $node, bool $includeUnitDrafts = true): SelectionRuleReport
     {
         try {
             $rule = SelectionRule::fromArray($node->selection_rule ?? []);
@@ -61,7 +74,7 @@ final readonly class ValidateSelectionRule
             unitId: $unit->id,
             unitTopicIds: $this->unitTopics->topicIdsForUnit($unit->id),
             courseScope: $unit->course->scope->value,
-            publicationUnitId: $unit->id,
+            publicationUnitId: $includeUnitDrafts ? $unit->id : null,
         );
 
         $result = $this->selectors->for($rule->mode)->select($rule, $context);
