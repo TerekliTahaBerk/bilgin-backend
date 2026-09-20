@@ -21,6 +21,7 @@ use App\Shared\Domain\Enum\PublishStatus;
 use App\Shared\Http\ApiResponse;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use InvalidArgumentException;
 
 /**
@@ -209,6 +210,9 @@ final class ContentController extends AdminController
      *
      * Havuz modelinin tek gerçek riski kuralın yetersiz soru getirmesidir.
      * Bu uç, editörün yayınlamadan önce görmesini sağlar.
+     *
+     * KALICI YAZMA YOK. Önizleme, soruları geçici yayınlayıp geri almaz;
+     * aday havuzu okuma sorgusu seviyesinde çözülür (bkz. PoolCriteria).
      */
     public function previewSelection(UnitNode $node, ValidateSelectionRule $validate): JsonResponse
     {
@@ -286,11 +290,23 @@ final class ContentController extends AdminController
             );
         }
 
-        $unit->update(['status' => PublishStatus::Published, 'published_at' => now()]);
-        $unit->nodes()->update(['status' => PublishStatus::Published]);
-        Exercise::query()->where('owner_unit_id', $unit->id)->update(['status' => PublishStatus::Published]);
+        // Tek işlem: doğrulama geçtikten sonra yazmalardan biri düşerse ünite
+        // "yayında ama soruları taslak" hâlinde kalırdı. Denetim kaydı da
+        // içeride: yayın olup kaydı olmayan bir değişiklik, sorunun ne zaman
+        // bozulduğunu araştıran kişi için görünmez olurdu.
+        DB::transaction(function () use ($request, $unit, $audit, $before): void {
+            $unit->update(['status' => PublishStatus::Published, 'published_at' => now()]);
+            $unit->nodes()->update(['status' => PublishStatus::Published]);
 
-        $audit($this->adminId($request), 'unit.published', $unit, $before, $request->ip());
+            // Arşiv yayına DÖNMEZ. Filtresiz toplu update, editörün bilinçle
+            // arşivlediği soruyu bir sonraki yayında geri diriltirdi.
+            Exercise::query()
+                ->where('owner_unit_id', $unit->id)
+                ->where('status', '!=', PublishStatus::Archived)
+                ->update(['status' => PublishStatus::Published]);
+
+            $audit($this->adminId($request), 'unit.published', $unit, $before, $request->ip());
+        });
 
         return ApiResponse::data([
             'id' => $unit->id,

@@ -308,8 +308,10 @@ Ayrı guard, rol bazlı (`spatie/laravel-permission`): `super_admin`, `content_e
 - `POST /units` `{template_code, topic_ids}` — şablondan 6 node'u kural ve XP'siyle üretir
 - `POST /exercises/bulk-import` — Excel/CSV toplu soru girişi (binlerce soru gerçeği)
 - `POST /exercises/{id}/validate` — tipe göre JSON şema doğrulaması (panelde anlık önizleme)
+- `GET /units/{id}/nodes` — ünitenin adımları (kimlik, sıra, gereken soru sayısı); panelin yayın hazırlığı bloğu önce bunu okur, sonra her adım için kural önizlemesi çağırır
+- `GET /curriculum/options` — eşleme ekranının varyant ve sınav oturumu seçenekleri; panelde sabit kimlik yazmayı gereksiz kılar
 - `POST /nodes/{id}/preview-selection` — **`selection_rule` kuru çalıştırma**: kural kaç soru getiriyor, hangi konulardan? Yayın kapısı bunu kullanır
-- `POST /units/{id}/submit-review` → `POST /units/{id}/publish` — draft → review → published
+- `POST /units/{id}/submit-review` → `POST /units/{id}/publish` — draft → review → published. Yayın doğrulaması ünitenin KENDİ arşivlenmemiş sorularını aday sayar (aksi hâlde ilk yayın imkânsızdı); arşivlenmiş sorular ne aday olur ne de yayına döner
 - `POST /content/releases` — sürüm yayınla, manifest hash üret
 - `GET /users`, `GET /users/{id}` (destek ekranı), `POST /users/{id}/grant-hearts`
 - `GET /analytics/overview` — DAU, tamamlama oranı, reklam/dönüşüm hunisi
