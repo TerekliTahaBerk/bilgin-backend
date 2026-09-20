@@ -60,6 +60,7 @@ final readonly class PoolSelector implements ExerciseSelector
             difficultyMax: $rule->difficultyMax,
             types: $rule->types,
             excludeExerciseIds: $context->excludeExerciseIds,
+            publicationUnitId: $context->publicationUnitId,
         );
     }
 
@@ -78,6 +79,7 @@ final readonly class PoolSelector implements ExerciseSelector
                 $criteria->difficultyMax,
                 $criteria->types,
                 [...$criteria->excludeExerciseIds, ...$have],
+                $criteria->publicationUnitId,
             ),
             $target - count($picked),
         );

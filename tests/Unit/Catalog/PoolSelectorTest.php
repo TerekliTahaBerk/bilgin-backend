@@ -33,7 +33,7 @@ function fakePool(array $exercises): ExercisePool
             return array_slice($this->filter($criteria), 0, max(0, $limit));
         }
 
-        public function findPublishedByIds(array $ids): array
+        public function findSelectableByIds(array $ids, ?int $publicationUnitId = null): array
         {
             return array_values(array_map(
                 fn (array $r): ExerciseRef => $this->toRef($r),

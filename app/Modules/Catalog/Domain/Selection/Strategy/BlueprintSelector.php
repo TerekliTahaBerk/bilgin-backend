@@ -50,7 +50,7 @@ final readonly class BlueprintSelector implements ExerciseSelector
         $selected = [];
 
         foreach ($blueprint->items as $item) {
-            $selected = [...$selected, ...$this->selectForItem($item, $selected)];
+            $selected = [...$selected, ...$this->selectForItem($item, $selected, $context->publicationUnitId)];
         }
 
         return new SelectionResult($selected, $blueprint->totalQuestions());
@@ -60,7 +60,7 @@ final readonly class BlueprintSelector implements ExerciseSelector
      * @param  list<ExerciseRef>  $alreadySelected
      * @return list<ExerciseRef>
      */
-    private function selectForItem(BlueprintItemSpec $item, array $alreadySelected): array
+    private function selectForItem(BlueprintItemSpec $item, array $alreadySelected, ?int $publicationUnitId): array
     {
         $topicIds = $item->topicId !== null
             ? [$item->topicId]
@@ -85,6 +85,7 @@ final readonly class BlueprintSelector implements ExerciseSelector
                 difficultyMin: $difficulty,
                 difficultyMax: $difficulty,
                 excludeExerciseIds: [...$exclude, ...array_column($picked, 'id')],
+                publicationUnitId: $publicationUnitId,
             ), $count);
 
             $picked = [...$picked, ...$refs];
@@ -100,6 +101,7 @@ final readonly class BlueprintSelector implements ExerciseSelector
                 topicIds: $topicIds,
                 scope: 'tyt',
                 excludeExerciseIds: [...$exclude, ...array_column($picked, 'id')],
+                publicationUnitId: $publicationUnitId,
             ), $missing)];
         }
 

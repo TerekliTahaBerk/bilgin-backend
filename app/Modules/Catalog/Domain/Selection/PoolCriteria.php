@@ -7,6 +7,12 @@ namespace App\Modules\Catalog\Domain\Selection;
 /**
  * Havuzdan soru çekme ölçütü. Saf veri — Eloquent tanımaz.
  *
+ * $publicationUnitId YAYIN DOĞRULAMA kipini açar. Null olduğunda havuz
+ * yalnızca yayındaki soruları görür; öğrenci çalışma anı her zaman böyledir.
+ * Bir ünite kimliği verildiğinde, o üniteye ait arşivlenmemiş sorular da
+ * aday sayılır — yayın kapısı, yayınlamaya çalıştığı ünitenin kendi taslak
+ * sorularını sayamazsa ilk yayın imkânsız olurdu.
+ *
  * @param  list<int>  $topicIds
  * @param  list<string>  $types  ExerciseType değerleri; boşsa tip filtresi yok
  * @param  list<int>  $excludeExerciseIds
@@ -25,6 +31,7 @@ final readonly class PoolCriteria
         public int $difficultyMax = 5,
         public array $types = [],
         public array $excludeExerciseIds = [],
+        public ?int $publicationUnitId = null,
     ) {}
 
     /** Havuz yetersizse zorluk aralığını genişletir (fallback: relax_difficulty). */
@@ -37,6 +44,7 @@ final readonly class PoolCriteria
             5,
             $this->types,
             $this->excludeExerciseIds,
+            $this->publicationUnitId,
         );
     }
 
@@ -50,6 +58,7 @@ final readonly class PoolCriteria
             $this->difficultyMax,
             [],
             $this->excludeExerciseIds,
+            $this->publicationUnitId,
         );
     }
 }

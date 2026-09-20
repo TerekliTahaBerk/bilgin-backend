@@ -6,6 +6,7 @@ namespace App\Modules\Admin\Http\Controller\Api\V1;
 
 use App\Modules\Admin\Application\UseCase\RecordAudit;
 use App\Modules\Admin\Http\Controller\AdminController;
+use App\Modules\Curriculum\Infrastructure\Eloquent\Model\ExamSection;
 use App\Modules\Curriculum\Infrastructure\Eloquent\Model\ExamVariant;
 use App\Shared\Http\ApiResponse;
 use Illuminate\Http\JsonResponse;
@@ -22,6 +23,52 @@ use Illuminate\Support\Facades\DB;
  */
 final class CurriculumMapController extends AdminController
 {
+    /**
+     * Eşleme ekranının seçenek kaynağı: varyantlar ve sınav oturumları.
+     *
+     * Panelin bu uca ihtiyacı var çünkü varyant ve oturum kimlikleri tohum
+     * verisinden gelir ve ortamdan ortama değişir. Panelde sabit kimlik
+     * yazmak, yanlış varyantın müfredatını sessizce ezmekle biterdi.
+     *
+     * Öğrenci ucu kullanılmaz: o uç kayıtlı öğrenciye göre filtreler ve
+     * panelin görmesi gereken pasif varyantları gizler.
+     */
+    public function options(): JsonResponse
+    {
+        $variants = ExamVariant::query()
+            ->orderBy('exam_id')
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get()
+            ->map(fn (ExamVariant $v): array => [
+                'id' => $v->id,
+                'exam_id' => $v->exam_id,
+                'code' => $v->code,
+                'name' => $v->name,
+                'field_code' => $v->field_code->value,
+                'sort_order' => $v->sort_order,
+                'is_active' => $v->is_active,
+            ]);
+
+        $sections = ExamSection::query()
+            ->orderBy('exam_id')
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get()
+            ->map(fn (ExamSection $s): array => [
+                'id' => $s->id,
+                'exam_id' => $s->exam_id,
+                'code' => $s->code,
+                'name' => $s->name,
+                'sort_order' => $s->sort_order,
+            ]);
+
+        return ApiResponse::data([
+            'variants' => $variants->all(),
+            'sections' => $sections->all(),
+        ]);
+    }
+
     public function show(ExamVariant $variant): JsonResponse
     {
         $rows = DB::table('exam_variant_courses as evc')

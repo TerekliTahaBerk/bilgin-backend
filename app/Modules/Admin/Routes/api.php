@@ -28,6 +28,7 @@ Route::prefix('admin/v1')->group(function (): void {
         Route::get('unit-templates', [ContentController::class, 'templates'])->name('admin.templates');
         Route::get('nodes/{node}/preview-selection', [ContentController::class, 'previewSelection'])
             ->name('admin.nodes.preview');
+        Route::get('units/{unit}/nodes', [ContentController::class, 'unitNodes'])->name('admin.units.nodes');
         Route::get('units/{unit}/exercises', [ExerciseController::class, 'index'])->name('admin.exercises.index');
         Route::get('exercises/{exercise}', [ExerciseController::class, 'show'])->name('admin.exercises.show');
 
@@ -54,6 +55,8 @@ Route::prefix('admin/v1')->group(function (): void {
             Route::post('admins', [AdminUserController::class, 'store'])->name('admin.admins.store');
             Route::patch('admins/{admin}', [AdminUserController::class, 'update'])->name('admin.admins.update');
 
+            Route::get('curriculum/options', [CurriculumMapController::class, 'options'])
+                ->name('admin.curriculum.options');
             Route::get('exam-variants/{variant}/courses', [CurriculumMapController::class, 'show'])
                 ->name('admin.curriculum.show');
             Route::put('exam-variants/{variant}/courses', [CurriculumMapController::class, 'update'])

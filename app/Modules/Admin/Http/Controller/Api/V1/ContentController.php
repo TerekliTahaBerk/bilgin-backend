@@ -21,6 +21,7 @@ use App\Shared\Domain\Enum\PublishStatus;
 use App\Shared\Http\ApiResponse;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use InvalidArgumentException;
 
 /**
@@ -91,6 +92,42 @@ final class ContentController extends AdminController
             ]);
 
         return ApiResponse::data($units->all());
+    }
+
+    /**
+     * Ünitenin adımları — panelin "yayın hazırlığı" bloğu buradan beslenir.
+     *
+     * Ayrı bir uç olmasının sebebi: ünite listesi yalnızca node SAYISINI
+     * veriyordu, kimliklerini değil. Panel, her adımın kural önizlemesini
+     * çağırabilmek için önce adımların kimliğini bilmek zorunda.
+     *
+     * Kural ve kilit JSON'ları bilinçli olarak dışarıda: panelin ihtiyacı
+     * olan şey kuralın içeriği değil, kuralın sonucudur — onu da
+     * preview-selection verir.
+     */
+    public function unitNodes(Unit $unit): JsonResponse
+    {
+        $nodes = $unit->nodes()
+            ->orderBy('sort_order')
+            ->get()
+            ->map(fn (UnitNode $n): array => [
+                'id' => $n->id,
+                'title' => $n->title,
+                'type' => $n->node_type->value,
+                'difficulty' => $n->difficulty->value,
+                'sort_order' => $n->sort_order,
+                'exercise_count' => $n->exercise_count,
+                'status' => $n->status->value,
+            ]);
+
+        return ApiResponse::data([
+            'unit' => [
+                'id' => $unit->id,
+                'title' => $unit->title,
+                'status' => $unit->status->value,
+            ],
+            'nodes' => $nodes->all(),
+        ]);
     }
 
     /**
@@ -174,6 +211,9 @@ final class ContentController extends AdminController
      *
      * Havuz modelinin tek gerçek riski kuralın yetersiz soru getirmesidir.
      * Bu uç, editörün yayınlamadan önce görmesini sağlar.
+     *
+     * KALICI YAZMA YOK. Önizleme, soruları geçici yayınlayıp geri almaz;
+     * aday havuzu okuma sorgusu seviyesinde çözülür (bkz. PoolCriteria).
      */
     public function previewSelection(UnitNode $node, ValidateSelectionRule $validate): JsonResponse
     {
@@ -251,9 +291,19 @@ final class ContentController extends AdminController
             );
         }
 
-        $unit->update(['status' => PublishStatus::Published, 'published_at' => now()]);
-        $unit->nodes()->update(['status' => PublishStatus::Published]);
-        Exercise::query()->where('owner_unit_id', $unit->id)->update(['status' => PublishStatus::Published]);
+        // Tek işlem: doğrulama geçtikten sonra üç tablodan biri yazılıp diğeri
+        // yazılmazsa ünite "yayında ama soruları taslak" hâlinde kalırdı.
+        DB::transaction(function () use ($unit): void {
+            $unit->update(['status' => PublishStatus::Published, 'published_at' => now()]);
+            $unit->nodes()->update(['status' => PublishStatus::Published]);
+
+            // Arşiv yayına DÖNMEZ. Filtre olmadan toplu update, editörün
+            // bilinçle arşivlediği soruyu bir sonraki yayında geri diriltirdi.
+            Exercise::query()
+                ->where('owner_unit_id', $unit->id)
+                ->where('status', '!=', PublishStatus::Archived)
+                ->update(['status' => PublishStatus::Published]);
+        });
 
         $audit($this->adminId($request), 'unit.published', $unit, $before, $request->ip());
 

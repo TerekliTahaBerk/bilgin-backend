@@ -38,7 +38,7 @@ final readonly class ReviewQueueSelector implements ExerciseSelector
             ? $this->queue->dueExerciseIds($context->userId, $context->unitId, $rule->count)
             : [];
 
-        $selected = $this->pool->findPublishedByIds($dueIds);
+        $selected = $this->pool->findSelectableByIds($dueIds, $context->publicationUnitId);
 
         if (count($selected) < $rule->count) {
             $selected = [...$selected, ...$this->pool->pick(
@@ -46,6 +46,7 @@ final readonly class ReviewQueueSelector implements ExerciseSelector
                     topicIds: $context->unitTopicIds,
                     scope: $context->courseScope,
                     excludeExerciseIds: [...$context->excludeExerciseIds, ...array_column($selected, 'id')],
+                    publicationUnitId: $context->publicationUnitId,
                 ),
                 $rule->count - count($selected),
             )];
