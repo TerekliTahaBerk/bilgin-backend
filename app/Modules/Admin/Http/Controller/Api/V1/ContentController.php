@@ -94,6 +94,41 @@ final class ContentController extends AdminController
     }
 
     /**
+     * Ünitenin adımları — panelin "yayın hazırlığı" bloğu buradan beslenir.
+     *
+     * Ayrı bir uç olmasının sebebi: ünite listesi yalnızca node SAYISINI
+     * veriyordu, kimliklerini değil. Panel, her adımın kural önizlemesini
+     * çağırabilmek için önce adımların kimliğini bilmek zorunda.
+     *
+     * selection_rule / unlock_rule bilinçli olarak dışarıda: panelin ihtiyacı
+     * kuralın içeriği değil, kuralın SONUCU — onu da preview-selection verir.
+     */
+    public function unitNodes(Unit $unit): JsonResponse
+    {
+        $nodes = $unit->nodes()
+            ->orderBy('sort_order')
+            ->get()
+            ->map(fn (UnitNode $n): array => [
+                'id' => $n->id,
+                'title' => $n->title,
+                'type' => $n->node_type->value,
+                'difficulty' => $n->difficulty->value,
+                'sort_order' => $n->sort_order,
+                'exercise_count' => $n->exercise_count,
+                'status' => $n->status->value,
+            ]);
+
+        return ApiResponse::data([
+            'unit' => [
+                'id' => $unit->id,
+                'title' => $unit->title,
+                'status' => $unit->status->value,
+            ],
+            'nodes' => $nodes->all(),
+        ]);
+    }
+
+    /**
      * Dersin konuları — soru ve ünite formlarının konu seçici verisi.
      *
      * Konular ders değil SUBJECT seviyesinde tutuluyor; bu yüzden liste
