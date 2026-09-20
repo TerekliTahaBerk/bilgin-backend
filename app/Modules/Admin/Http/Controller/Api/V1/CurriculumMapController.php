@@ -6,6 +6,7 @@ namespace App\Modules\Admin\Http\Controller\Api\V1;
 
 use App\Modules\Admin\Application\UseCase\RecordAudit;
 use App\Modules\Admin\Http\Controller\AdminController;
+use App\Modules\Curriculum\Infrastructure\Eloquent\Model\ExamSection;
 use App\Modules\Curriculum\Infrastructure\Eloquent\Model\ExamVariant;
 use App\Shared\Http\ApiResponse;
 use Illuminate\Http\JsonResponse;
@@ -22,6 +23,42 @@ use Illuminate\Support\Facades\DB;
  */
 final class CurriculumMapController extends AdminController
 {
+    public function options(): JsonResponse
+    {
+        $variants = ExamVariant::query()
+            ->orderBy('exam_id')
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get()
+            ->map(fn (ExamVariant $variant): array => [
+                'id' => $variant->id,
+                'exam_id' => $variant->exam_id,
+                'code' => $variant->code,
+                'name' => $variant->name,
+                'field_code' => $variant->field_code->value,
+                'sort_order' => $variant->sort_order,
+                'is_active' => $variant->is_active,
+            ]);
+
+        $sections = ExamSection::query()
+            ->orderBy('exam_id')
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get()
+            ->map(fn (ExamSection $section): array => [
+                'id' => $section->id,
+                'exam_id' => $section->exam_id,
+                'code' => $section->code,
+                'name' => $section->name,
+                'sort_order' => $section->sort_order,
+            ]);
+
+        return ApiResponse::data([
+            'variants' => $variants->all(),
+            'sections' => $sections->all(),
+        ]);
+    }
+
     public function show(ExamVariant $variant): JsonResponse
     {
         $rows = DB::table('exam_variant_courses as evc')

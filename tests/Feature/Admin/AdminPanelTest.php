@@ -2,7 +2,12 @@
 
 declare(strict_types=1);
 
+use App\Modules\Catalog\Domain\Enum\SelectionMode;
+use App\Modules\Catalog\Domain\Selection\SelectionContext;
+use App\Modules\Catalog\Domain\Selection\SelectionRule;
+use App\Modules\Catalog\Domain\Selection\SelectorRegistry;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\Course;
+use App\Modules\Catalog\Infrastructure\Eloquent\Model\Exercise;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\Topic;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\Unit;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\UnitNode;
@@ -189,6 +194,145 @@ it('kural önizlemesi kaç soru geldiğini söyler', function (): void {
         ->and($response->json('data.passes'))->toBeTrue();
 });
 
+it('ünite node keşfi yalnız doğru ünitenin sıralı node listesini döner', function (): void {
+    $unit = Unit::query()->with('nodes')->firstOrFail();
+    $other = Unit::query()->whereKeyNot($unit->id)->with('nodes')->firstOrFail();
+
+    $response = asAdmin('editor')
+        ->getJson("/api/admin/v1/units/{$unit->id}/nodes")
+        ->assertOk()
+        ->assertJsonPath('data.unit.id', $unit->id);
+
+    $ids = collect($response->json('data.nodes'))->pluck('id');
+    expect($ids->all())->toBe($unit->nodes->sortBy('sort_order')->pluck('id')->values()->all())
+        ->and($ids->intersect($other->nodes->pluck('id')))->toBeEmpty();
+
+    app('auth')->forgetGuards();
+    $this->withHeaders(['Authorization' => ''])
+        ->getJson("/api/admin/v1/units/{$unit->id}/nodes")
+        ->assertUnauthorized();
+});
+
+it('yayın önizlemesi üniteye ait taslak fixed-list sorusunu görür ama runtime görmez', function (): void {
+    $unit = Unit::query()->with('course')->firstOrFail();
+    $node = $unit->nodes()->firstOrFail();
+    $draft = Exercise::query()->firstOrFail()->replicate(['uuid']);
+    $draft->owner_unit_id = $unit->id;
+    $draft->status = PublishStatus::Draft;
+    $draft->save();
+
+    $node->update([
+        'exercise_count' => 1,
+        'selection_rule' => ['mode' => 'fixed', 'count' => 1, 'exercise_ids' => [$draft->id]],
+    ]);
+
+    asAdmin('editor')->getJson("/api/admin/v1/nodes/{$node->id}/preview-selection")
+        ->assertOk()
+        ->assertJsonPath('data.available', 1)
+        ->assertJsonPath('data.passes', true);
+
+    $rule = SelectionRule::fromArray($node->fresh()->selection_rule);
+    $runtime = app(SelectorRegistry::class)->for(SelectionMode::Fixed)->select($rule, new SelectionContext(
+        unitId: $unit->id,
+        unitTopicIds: $unit->topics()->pluck('topics.id')->map(fn ($id): int => (int) $id)->all(),
+        courseScope: $unit->course->scope->value,
+    ));
+
+    expect($runtime->exercises)->toBeEmpty()
+        ->and($draft->fresh()->status)->toBe(PublishStatus::Draft);
+});
+
+it('yayın önizlemesi üniteye ait taslak pool sorularını görür ve kalıcı durum değiştirmez', function (): void {
+    $unit = Unit::query()->with('course')->firstOrFail();
+    $node = $unit->nodes()->firstOrFail();
+    $draft = Exercise::query()->where('owner_unit_id', $unit->id)->firstOrFail();
+    $draft->update(['status' => PublishStatus::Draft]);
+
+    $node->update([
+        'exercise_count' => 1,
+        'selection_rule' => [
+            'mode' => 'pool', 'count' => 1,
+            'filters' => [
+                'topics' => [$draft->topic_id],
+                'difficulty' => ['min' => $draft->difficulty, 'max' => $draft->difficulty],
+                'types' => [$draft->type->value],
+            ],
+            'fallback' => 'none',
+        ],
+    ]);
+
+    asAdmin('editor')->getJson("/api/admin/v1/nodes/{$node->id}/preview-selection")
+        ->assertOk()
+        ->assertJsonPath('data.passes', true);
+
+    expect($draft->fresh()->status)->toBe(PublishStatus::Draft);
+});
+
+it('başarısız yayın hiçbir durumu kısmen değiştirmez', function (): void {
+    $unit = Unit::query()->firstOrFail();
+    $unit->update(['status' => PublishStatus::Review]);
+    $unit->nodes()->update([
+        'status' => PublishStatus::Review,
+        'exercise_count' => 1,
+        'selection_rule' => ['mode' => 'fixed', 'count' => 1, 'exercise_ids' => [999999999]],
+    ]);
+    $exercise = Exercise::query()->where('owner_unit_id', $unit->id)->firstOrFail();
+    $exercise->update(['status' => PublishStatus::Review]);
+
+    asAdmin('denetci')->postJson("/api/admin/v1/units/{$unit->id}/publish")
+        ->assertStatus(422)
+        ->assertJsonPath('error.code', 'CONTENT_NOT_PUBLISHABLE');
+
+    expect($unit->fresh()->status)->toBe(PublishStatus::Review)
+        ->and($unit->nodes()->where('status', 'review')->count())->toBe($unit->nodes()->count())
+        ->and($exercise->fresh()->status)->toBe(PublishStatus::Review);
+});
+
+it('başarılı yayın taslak ve incelemedeki soruları yayınlar, arşivleneni korur', function (): void {
+    $unit = Unit::query()->firstOrFail();
+    $draft = Exercise::query()->where('owner_unit_id', $unit->id)->firstOrFail();
+    $draft->update(['status' => PublishStatus::Draft]);
+    $review = Exercise::query()->where('owner_unit_id', $unit->id)->whereKeyNot($draft->id)->firstOrFail();
+    $review->update(['status' => PublishStatus::Review]);
+    $archived = Exercise::query()->where('owner_unit_id', $unit->id)
+        ->whereNotIn('id', [$draft->id, $review->id])->firstOrFail();
+    $archived->update(['status' => PublishStatus::Archived]);
+
+    $unit->update(['status' => PublishStatus::Review]);
+    $unit->nodes()->update([
+        'status' => PublishStatus::Review,
+        'exercise_count' => 2,
+        'selection_rule' => [
+            'mode' => 'fixed', 'count' => 2, 'exercise_ids' => [$draft->id, $review->id],
+        ],
+    ]);
+
+    asAdmin('denetci')->postJson("/api/admin/v1/units/{$unit->id}/publish")
+        ->assertOk()
+        ->assertJsonPath('data.status', 'published');
+
+    expect($unit->fresh()->status)->toBe(PublishStatus::Published)
+        ->and($unit->nodes()->where('status', 'published')->count())->toBe($unit->nodes()->count())
+        ->and($draft->fresh()->status)->toBe(PublishStatus::Published)
+        ->and($review->fresh()->status)->toBe(PublishStatus::Published)
+        ->and($archived->fresh()->status)->toBe(PublishStatus::Archived);
+});
+
+it('yayın önizlemesi izin verilen global yayınlanmış soruyu sayar', function (): void {
+    $unit = Unit::query()->firstOrFail();
+    $node = $unit->nodes()->firstOrFail();
+    $global = Exercise::query()->where('status', PublishStatus::Published)->firstOrFail();
+    $global->update(['owner_unit_id' => null]);
+    $node->update([
+        'exercise_count' => 1,
+        'selection_rule' => ['mode' => 'fixed', 'count' => 1, 'exercise_ids' => [$global->id]],
+    ]);
+
+    asAdmin('editor')->getJson("/api/admin/v1/nodes/{$node->id}/preview-selection")
+        ->assertOk()
+        ->assertJsonPath('data.passes', true);
+});
+
 it('yalnızca süper yönetici müfredat eşlemesini değiştirebilir', function (): void {
     $variantId = DB::table('exam_variants')->where('code', 'yks_say')->value('id');
 
@@ -200,6 +344,25 @@ it('yalnızca süper yönetici müfredat eşlemesini değiştirebilir', function
         ->getJson("/api/admin/v1/exam-variants/{$variantId}/courses")
         ->assertOk()
         ->assertJsonPath('data.exam_variant.code', 'yks_say');
+});
+
+it('müfredat seçenekleri source-driven variant ve section kimliklerini döner', function (): void {
+    asAdmin('editor')->getJson('/api/admin/v1/curriculum/options')->assertForbidden();
+    app('auth')->forgetGuards();
+    $this->withHeaders(['Authorization' => ''])
+        ->getJson('/api/admin/v1/curriculum/options')
+        ->assertUnauthorized();
+
+    $response = asAdmin('admin')->getJson('/api/admin/v1/curriculum/options')->assertOk();
+    $variant = DB::table('exam_variants')->orderBy('exam_id')->orderBy('sort_order')->first();
+    $section = DB::table('exam_sections')->orderBy('exam_id')->orderBy('sort_order')->first();
+
+    expect($response->json('data.variants.0.id'))->toBe($variant->id)
+        ->and($response->json('data.variants.0.code'))->toBe($variant->code)
+        ->and($response->json('data.variants.0.name'))->toBe($variant->name)
+        ->and($response->json('data.sections.0.id'))->toBe($section->id)
+        ->and($response->json('data.sections.0.exam_id'))->toBe($section->exam_id)
+        ->and($response->json('data.sections.0.code'))->toBe($section->code);
 });
 
 it('müfredat eşlemesi panelden düzenlenebilir', function (): void {

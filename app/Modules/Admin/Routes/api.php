@@ -24,6 +24,7 @@ Route::prefix('admin/v1')->group(function (): void {
         // Okuma: içerik gören her rol
         Route::get('courses', [ContentController::class, 'courses'])->name('admin.courses');
         Route::get('courses/{course}/units', [ContentController::class, 'units'])->name('admin.units');
+        Route::get('units/{unit}/nodes', [ContentController::class, 'unitNodes'])->name('admin.units.nodes');
         Route::get('courses/{course}/topics', [ContentController::class, 'topics'])->name('admin.topics');
         Route::get('unit-templates', [ContentController::class, 'templates'])->name('admin.templates');
         Route::get('nodes/{node}/preview-selection', [ContentController::class, 'previewSelection'])
@@ -50,6 +51,8 @@ Route::prefix('admin/v1')->group(function (): void {
 
         // Yönetici hesapları ve müfredat eşlemesi: yalnızca süper yönetici
         Route::middleware('admin.can:curriculum')->group(function (): void {
+            Route::get('curriculum/options', [CurriculumMapController::class, 'options'])
+                ->name('admin.curriculum.options');
             Route::get('admins', [AdminUserController::class, 'index'])->name('admin.admins.index');
             Route::post('admins', [AdminUserController::class, 'store'])->name('admin.admins.store');
             Route::patch('admins/{admin}', [AdminUserController::class, 'update'])->name('admin.admins.update');

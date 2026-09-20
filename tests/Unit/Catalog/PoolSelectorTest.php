@@ -33,12 +33,22 @@ function fakePool(array $exercises): ExercisePool
             return array_slice($this->filter($criteria), 0, max(0, $limit));
         }
 
+        public function pickForPublication(PoolCriteria $criteria, int $limit, int $unitId): array
+        {
+            return $this->pick($criteria, $limit);
+        }
+
         public function findPublishedByIds(array $ids): array
         {
             return array_values(array_map(
                 fn (array $r): ExerciseRef => $this->toRef($r),
                 array_filter($this->rows, fn (array $r): bool => in_array($r['id'], $ids, true)),
             ));
+        }
+
+        public function findForPublicationByIds(array $ids, int $unitId): array
+        {
+            return $this->findPublishedByIds($ids);
         }
 
         /** @return list<ExerciseRef> */

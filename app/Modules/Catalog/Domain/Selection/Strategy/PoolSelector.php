@@ -32,15 +32,15 @@ final readonly class PoolSelector implements ExerciseSelector
     {
         $criteria = $this->criteriaFor($rule, $context);
 
-        $picked = $this->pool->pick($criteria, $rule->count);
+        $picked = $this->pick($criteria, $rule->count, $context);
         $relaxed = false;
 
         if (count($picked) < $rule->count && $rule->allowsRelaxing()) {
             $relaxed = true;
-            $picked = $this->topUp($picked, $criteria->relaxed(), $rule->count);
+            $picked = $this->topUp($picked, $criteria->relaxed(), $rule->count, $context);
 
             if (count($picked) < $rule->count) {
-                $picked = $this->topUp($picked, $criteria->relaxed()->withoutTypeFilter(), $rule->count);
+                $picked = $this->topUp($picked, $criteria->relaxed()->withoutTypeFilter(), $rule->count, $context);
             }
         }
 
@@ -67,10 +67,10 @@ final readonly class PoolSelector implements ExerciseSelector
      * @param  list<ExerciseRef>  $picked
      * @return list<ExerciseRef>
      */
-    private function topUp(array $picked, PoolCriteria $criteria, int $target): array
+    private function topUp(array $picked, PoolCriteria $criteria, int $target, SelectionContext $context): array
     {
         $have = array_column($picked, 'id');
-        $extra = $this->pool->pick(
+        $extra = $this->pick(
             new PoolCriteria(
                 $criteria->topicIds,
                 $criteria->scope,
@@ -80,8 +80,17 @@ final readonly class PoolSelector implements ExerciseSelector
                 [...$criteria->excludeExerciseIds, ...$have],
             ),
             $target - count($picked),
+            $context,
         );
 
         return [...$picked, ...$extra];
+    }
+
+    /** @return list<ExerciseRef> */
+    private function pick(PoolCriteria $criteria, int $limit, SelectionContext $context): array
+    {
+        return $context->publicationValidation
+            ? $this->pool->pickForPublication($criteria, $limit, $context->unitId)
+            : $this->pool->pick($criteria, $limit);
     }
 }

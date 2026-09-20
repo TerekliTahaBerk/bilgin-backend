@@ -21,6 +21,7 @@ use App\Shared\Domain\Enum\PublishStatus;
 use App\Shared\Http\ApiResponse;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use InvalidArgumentException;
 
 /**
@@ -91,6 +92,31 @@ final class ContentController extends AdminController
             ]);
 
         return ApiResponse::data($units->all());
+    }
+
+    public function unitNodes(Unit $unit): JsonResponse
+    {
+        $nodes = $unit->nodes()
+            ->orderBy('sort_order')
+            ->get()
+            ->map(fn (UnitNode $node): array => [
+                'id' => $node->id,
+                'title' => $node->title,
+                'type' => $node->node_type->value,
+                'difficulty' => $node->difficulty->value,
+                'sort_order' => $node->sort_order,
+                'exercise_count' => $node->exercise_count,
+                'status' => $node->status->value,
+            ]);
+
+        return ApiResponse::data([
+            'unit' => [
+                'id' => $unit->id,
+                'title' => $unit->title,
+                'status' => $unit->status->value,
+            ],
+            'nodes' => $nodes->all(),
+        ]);
     }
 
     /**
@@ -231,36 +257,39 @@ final class ContentController extends AdminController
      */
     public function publishUnit(Request $request, Unit $unit, ValidateSelectionRule $validate, RecordAudit $audit): JsonResponse
     {
-        $before = $unit->getAttributes();
+        return DB::transaction(function () use ($request, $unit, $validate, $audit): JsonResponse {
+            $before = $unit->getAttributes();
+            $blocking = $unit->nodes()->orderBy('sort_order')->get()
+                ->map(fn (UnitNode $node) => $validate($node))
+                ->reject->passes();
 
-        $blocking = $unit->nodes()
-            ->get()
-            ->map(fn (UnitNode $node) => $validate($node))
-            ->reject->passes();
+            if ($blocking->isNotEmpty()) {
+                return ApiResponse::error(
+                    'CONTENT_NOT_PUBLISHABLE',
+                    'Bazı adımlar yeterli soru getirmiyor.',
+                    422,
+                    ['blocking' => $blocking->map(fn ($r): array => [
+                        'node_id' => $r->nodeId,
+                        'node_title' => $r->nodeTitle,
+                        'message' => $r->message(),
+                    ])->values()->all()],
+                );
+            }
 
-        if ($blocking->isNotEmpty()) {
-            return ApiResponse::error(
-                'CONTENT_NOT_PUBLISHABLE',
-                'Bazı adımlar yeterli soru getirmiyor.',
-                422,
-                ['blocking' => $blocking->map(fn ($r): array => [
-                    'node_id' => $r->nodeId,
-                    'node_title' => $r->nodeTitle,
-                    'message' => $r->message(),
-                ])->values()->all()],
-            );
-        }
+            $unit->update(['status' => PublishStatus::Published, 'published_at' => now()]);
+            $unit->nodes()->update(['status' => PublishStatus::Published]);
+            Exercise::query()
+                ->where('owner_unit_id', $unit->id)
+                ->whereIn('status', [PublishStatus::Draft, PublishStatus::Review, PublishStatus::Published])
+                ->update(['status' => PublishStatus::Published]);
 
-        $unit->update(['status' => PublishStatus::Published, 'published_at' => now()]);
-        $unit->nodes()->update(['status' => PublishStatus::Published]);
-        Exercise::query()->where('owner_unit_id', $unit->id)->update(['status' => PublishStatus::Published]);
+            $audit($this->adminId($request), 'unit.published', $unit, $before, $request->ip());
 
-        $audit($this->adminId($request), 'unit.published', $unit, $before, $request->ip());
-
-        return ApiResponse::data([
-            'id' => $unit->id,
-            'status' => $unit->status->value,
-            'published_nodes' => $unit->nodes()->count(),
-        ]);
+            return ApiResponse::data([
+                'id' => $unit->id,
+                'status' => $unit->status->value,
+                'published_nodes' => $unit->nodes()->count(),
+            ]);
+        });
     }
 }

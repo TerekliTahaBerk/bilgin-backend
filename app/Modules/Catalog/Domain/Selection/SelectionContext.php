@@ -26,5 +26,6 @@ final readonly class SelectionContext
         public string $courseScope,
         public ?int $userId = null,
         public array $excludeExerciseIds = [],
+        public bool $publicationValidation = false,
     ) {}
 }

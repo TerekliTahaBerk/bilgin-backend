@@ -52,6 +52,7 @@ final readonly class ValidateSelectionRule
             unitId: $unit->id,
             unitTopicIds: $this->unitTopics->topicIdsForUnit($unit->id),
             courseScope: $unit->course->scope->value,
+            publicationValidation: true,
         );
 
         $result = $this->selectors->for($rule->mode)->select($rule, $context);

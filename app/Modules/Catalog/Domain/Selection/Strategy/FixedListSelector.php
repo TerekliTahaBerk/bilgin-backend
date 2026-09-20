@@ -28,7 +28,9 @@ final readonly class FixedListSelector implements ExerciseSelector
 
     public function select(SelectionRule $rule, SelectionContext $context): SelectionResult
     {
-        $found = $this->pool->findPublishedByIds($rule->exerciseIds);
+        $found = $context->publicationValidation
+            ? $this->pool->findForPublicationByIds($rule->exerciseIds, $context->unitId)
+            : $this->pool->findPublishedByIds($rule->exerciseIds);
 
         // Kuraldaki sırayı koru — yayınlanmamış olanlar listeden düşer.
         $byId = [];

@@ -32,6 +32,20 @@ final class EloquentExercisePool implements ExercisePool
         return $this->toRefs($rows);
     }
 
+    public function pickForPublication(PoolCriteria $criteria, int $limit, int $unitId): array
+    {
+        if ($limit <= 0) {
+            return [];
+        }
+
+        $rows = $this->query($criteria, $unitId)
+            ->inRandomOrder()
+            ->limit($limit)
+            ->get(['id', 'uuid', 'type', 'difficulty', 'topic_id', 'version']);
+
+        return $this->toRefs($rows);
+    }
+
     /**
      * @param  list<int>  $ids
      * @return list<ExerciseRef>
@@ -50,16 +64,44 @@ final class EloquentExercisePool implements ExercisePool
         return $this->toRefs($rows);
     }
 
-    /** @return Builder<Exercise> */
-    private function query(PoolCriteria $criteria): Builder
+    public function findForPublicationByIds(array $ids, int $unitId): array
     {
-        return Exercise::query()
-            ->published()
+        if ($ids === []) {
+            return [];
+        }
+
+        $rows = $this->publicationCandidates($unitId)
+            ->whereIn('id', $ids)
+            ->get(['id', 'uuid', 'type', 'difficulty', 'topic_id', 'version']);
+
+        return $this->toRefs($rows);
+    }
+
+    /** @return Builder<Exercise> */
+    private function query(PoolCriteria $criteria, ?int $publicationUnitId = null): Builder
+    {
+        $query = $publicationUnitId === null
+            ? Exercise::query()->published()
+            : $this->publicationCandidates($publicationUnitId);
+
+        return $query
             ->when($criteria->topicIds !== [], fn (Builder $q) => $q->whereIn('topic_id', $criteria->topicIds))
             ->whereBetween('difficulty', [$criteria->difficultyMin, $criteria->difficultyMax])
             ->when($criteria->types !== [], fn (Builder $q) => $q->whereIn('type', $criteria->types))
             ->when($criteria->excludeExerciseIds !== [], fn (Builder $q) => $q->whereNotIn('id', $criteria->excludeExerciseIds))
             ->forScope($criteria->scope);
+    }
+
+    /** @return Builder<Exercise> */
+    private function publicationCandidates(int $unitId): Builder
+    {
+        return Exercise::query()->where(function (Builder $query) use ($unitId): void {
+            $query->where('status', 'published')
+                ->orWhere(function (Builder $owned) use ($unitId): void {
+                    $owned->where('owner_unit_id', $unitId)
+                        ->whereIn('status', ['draft', 'review', 'published']);
+                });
+        });
     }
 
     /**

@@ -23,8 +23,22 @@ interface ExercisePool
     public function pick(PoolCriteria $criteria, int $limit): array;
 
     /**
+     * Runtime havuzunu değiştirmeden, yayın kapısına global yayınlanmış
+     * sorularla birlikte hedef ünitenin arşivlenmemiş adaylarını verir.
+     *
+     * @return list<ExerciseRef>
+     */
+    public function pickForPublication(PoolCriteria $criteria, int $limit, int $unitId): array;
+
+    /**
      * @param  list<int>  $ids
      * @return list<ExerciseRef>
      */
     public function findPublishedByIds(array $ids): array;
+
+    /**
+     * @param  list<int>  $ids
+     * @return list<ExerciseRef>
+     */
+    public function findForPublicationByIds(array $ids, int $unitId): array;
 }
