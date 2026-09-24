@@ -133,7 +133,7 @@ bunlar olmadan çalışamaz: hem `POST /exercises` hem `POST /units` var olan
 bir `topic_id` istiyor.
 
 **Soruları da yükler.** `database/content` altındaki paketler
-(`ContentPackageSeeder`) — şu an 4 ünite, 148 soru. Soru tablosu doluysa
+(`ContentPackageSeeder`) — şu an 10 ünite, ~390 soru. Soru tablosu doluysa
 çalışmaz, yani panelden girilen içeriği ezmez.
 
 Paketler `ContentPackageTest` ile sınanıyor: konu kodları kanonik mi,
@@ -300,3 +300,32 @@ kullanıcı girmeden önce otomatik yedek ayarlanmalı.
 **`config:cache` sonrası `env()` çalışmaz.** Kodda `env()` yalnızca `config/`
 altında kullanılıyor — bu kurala uyuluyor, mimari testi de var. Yeni kod
 yazarken bozma.
+
+---
+
+## 10. Test için demo verisi
+
+Boş bir kurulumda lig tablosu tek kişilik, profil sıfır, seri yok — yani
+ekranların yarısı gerçekte nasıl görüneceğini göstermiyor. Test eden kişi
+"çalışıyor mu" sorusunu ancak dolu ekranda cevaplayabilir.
+
+```bash
+php artisan demo:seed                # 14 sahte öğrenci, dağılmış XP
+php artisan demo:seed --students=8
+php artisan demo:clear               # hepsini geri alır
+```
+
+Üretimde `--force` ister; bilerek çalıştırılmadan sahte kullanıcı üretmez.
+
+**XP gerçek yoldan veriliyor:** `XpAwarded` olayı yayımlanıyor ve lig
+üyeliğini her zamanki dinleyici kuruyor. Doğrudan satır yazmak, üretimde
+asla oluşmayacak bir veri şekli üretir ve test edilen şey uygulama olmaktan
+çıkardı.
+
+Demo kullanıcıları `demo-ogrenci-` önekli cihaz kimliğiyle işaretli ve
+`demo:clear` onları **kalıcı** siliyor (`forceDelete`). Yumuşak silme,
+lig üyeliğini ve XP defterini bırakır; "temizledim" denip hiçbir şeyin
+temizlenmemesi demektir.
+
+XP dağılımı bilerek eşitsiz: hepsine aynı XP vermek lig ekranını test
+etmez, yükselme ve düşme bölgeleri ancak farklı değerlerle ayırt edilir.

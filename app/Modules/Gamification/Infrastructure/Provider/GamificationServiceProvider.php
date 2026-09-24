@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Modules\Gamification\Infrastructure\Provider;
 
+use App\Modules\Gamification\Console\ClearDemoDataCommand;
+use App\Modules\Gamification\Console\SeedDemoDataCommand;
 use App\Modules\Gamification\Domain\Xp\LevelCurve;
 use App\Modules\Gamification\Domain\Xp\XpCalculator;
 use App\Shared\Http\ModuleRoutes;
@@ -29,6 +31,10 @@ final class GamificationServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadMigrationsFrom(__DIR__.'/../../Database/Migrations');
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([SeedDemoDataCommand::class, ClearDemoDataCommand::class]);
+        }
 
         ModuleRoutes::api(__DIR__.'/../../Routes/api.php');
     }

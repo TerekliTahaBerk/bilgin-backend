@@ -1,0 +1,1337 @@
+{
+  "_note": "TYT Biyoloji · Hücre ve Canlıların Yapısı. 9. sınıf ilk ünitesi: ortak özellikler, temel bileşenler, organeller ve zardan madde geçişi.",
+  "course": "tyt_biyoloji",
+  "subject": "biyoloji",
+  "unit": {
+    "title": "Hücre ve Canlıların Yapısı",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 9,
+    "difficulty_band": "giris",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "canlilarin_ortak_ozellikleri",
+      "name": "Canlıların Ortak Özellikleri",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "canlilarin_temel_bilesenleri",
+      "name": "Canlıların Temel Bileşenleri",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "hucre_ve_organeller",
+      "name": "Hücre ve Organeller",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "hucre_zarindan_madde_gecisi",
+      "name": "Hücre Zarından Madde Geçişi",
+      "grade_level": 9,
+      "exam_weight": 3
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi bilinen tüm canlıların ortak özelliğidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kloroplast bulundurma"
+          },
+          {
+            "id": "b",
+            "text": "Hücresel yapıya sahip olma"
+          },
+          {
+            "id": "c",
+            "text": "Yer değiştirerek hareket etme"
+          },
+          {
+            "id": "d",
+            "text": "Akciğerlerle solunum yapma"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Bakteriden insana kadar bütün canlılar en az bir hücreden oluşur. Kloroplast yalnızca fotosentez yapan ökaryotlarda, akciğer yalnızca bazı hayvanlarda bulunur; aktif yer değiştirme ise bitkilerde görülmez."
+    },
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi canlıların ortak özelliklerinden biri DEĞİLDİR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Beslenme"
+          },
+          {
+            "id": "b",
+            "text": "Boşaltım"
+          },
+          {
+            "id": "c",
+            "text": "Fotosentez yapma"
+          },
+          {
+            "id": "d",
+            "text": "Üreme"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "Fotosentez yalnızca klorofil taşıyan canlılarda görülür; hayvanlar ve mantarlar fotosentez yapamaz. Beslenme, boşaltım ve üreme ise istisnasız tüm canlılarda vardır."
+    },
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Hücre teorisinin temel yargılarından biri aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hücreler cansız maddelerden kendiliğinden oluşur"
+          },
+          {
+            "id": "b",
+            "text": "Her hücre, kendinden önce var olan bir hücrenin bölünmesiyle meydana gelir"
+          },
+          {
+            "id": "c",
+            "text": "Yalnızca hayvanlar hücrelerden oluşur"
+          },
+          {
+            "id": "d",
+            "text": "Bir hücrede yalnızca tek bir organel çeşidi bulunur"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Hücre teorisi kendiliğinden oluş (abiyogenez) görüşünü reddeder; Redi ve Pasteur'ün deneyleriyle canlının ancak var olan bir canlıdan oluştuğu gösterilmiştir. Bitkiler de hücrelerden oluşur ve bir hücrede çok sayıda organel çeşidi bulunur."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Bir hücrenin yapısında en fazla bulunan madde aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Su"
+          },
+          {
+            "id": "b",
+            "text": "Protein"
+          },
+          {
+            "id": "c",
+            "text": "Yağ"
+          },
+          {
+            "id": "d",
+            "text": "Karbonhidrat"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Hücre ağırlığının yaklaşık %70-90'ı sudur. Su, tepkimelerin geçtiği ortamı sağladığı ve maddeleri çözdüğü için bu oran canlılık açısından zorunludur; organik maddeler içinde en fazla bulunan ise proteindir."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Enzimlerin temel yapısını oluşturan organik bileşik aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Karbonhidrat"
+          },
+          {
+            "id": "b",
+            "text": "Yağ"
+          },
+          {
+            "id": "c",
+            "text": "Protein"
+          },
+          {
+            "id": "d",
+            "text": "Vitamin"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "Enzimler amino asitlerin peptit bağlarıyla bağlanmasıyla oluşmuş protein yapılı moleküllerdir. Bu nedenle sıcaklık ve pH değişimi enzimin üç boyutlu yapısını bozarak işlevini kaybettirir."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Hücrede enerji ihtiyacı karşılanırken ilk sırada kullanılan organik bileşik hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Protein"
+          },
+          {
+            "id": "b",
+            "text": "Karbonhidrat"
+          },
+          {
+            "id": "c",
+            "text": "Yağ"
+          },
+          {
+            "id": "d",
+            "text": "Nükleik asit"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Karbonhidratlar hızlı parçalandığı için ilk enerji kaynağıdır; yağlar depo enerji olarak ikinci sırada kullanılır. Proteinler ancak karbonhidrat ve yağ tükendiğinde yakıt olur, nükleik asitler ise enerji vermez."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Nişasta, glikojen ve selülozun ortak yapı birimi aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Fruktoz"
+          },
+          {
+            "id": "b",
+            "text": "Galaktoz"
+          },
+          {
+            "id": "c",
+            "text": "Maltoz"
+          },
+          {
+            "id": "d",
+            "text": "Glikoz"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "d"
+      },
+      "explanation": "Üçü de glikoz monomerlerinden oluşan polisakkarittir; aralarındaki fark glikozların bağlanma biçimi ve dallanmasıdır. Bu yüzden selülozu sindiremeyen insan, nişastayı glikoza kadar parçalayabilir."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdaki vitaminlerden hangisi suda çözünür?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A vitamini"
+          },
+          {
+            "id": "b",
+            "text": "D vitamini"
+          },
+          {
+            "id": "c",
+            "text": "C vitamini"
+          },
+          {
+            "id": "d",
+            "text": "K vitamini"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "A, D, E ve K yağda çözünen vitaminlerdir ve vücutta depolanabilir. C ve B grubu vitaminler suda çözündüğü için fazlası idrarla atılır, bu nedenle düzenli alınmaları gerekir."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Protein sentezinin gerçekleştiği organel aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ribozom"
+          },
+          {
+            "id": "b",
+            "text": "Lizozom"
+          },
+          {
+            "id": "c",
+            "text": "Golgi aygıtı"
+          },
+          {
+            "id": "d",
+            "text": "Koful"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Ribozom, mRNA'daki şifreye göre amino asitleri birleştirerek protein üretir. Lizozom sindirim, Golgi paketleme, koful ise depolama görevlidir."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Oksijenli solunumun son aşamalarının gerçekleştiği ve bol miktarda ATP üretilen organel hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kloroplast"
+          },
+          {
+            "id": "b",
+            "text": "Sentrozom"
+          },
+          {
+            "id": "c",
+            "text": "Mitokondri"
+          },
+          {
+            "id": "d",
+            "text": "Ribozom"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "Krebs döngüsü ve elektron taşıma sistemi mitokondride yürütülür. Kas ve karaciğer gibi enerji ihtiyacı yüksek hücrelerde mitokondri sayısının fazla olması bu görevin kanıtıdır."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Hücre içi sindirimi sağlayan, hidrolitik (sindirim) enzim taşıyan organel hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Lizozom"
+          },
+          {
+            "id": "b",
+            "text": "Ribozom"
+          },
+          {
+            "id": "c",
+            "text": "Sentrozom"
+          },
+          {
+            "id": "d",
+            "text": "Kloroplast"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Lizozomun içindeki hidrolitik enzimler yaşlanmış organelleri ve hücreye alınan besinleri parçalar. Zarı yırtılırsa hücre kendi kendini sindirir; bu olaya otoliz denir."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi bitki hücresinde bulunduğu hâlde hayvan hücresinde bulunmaz?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ribozom"
+          },
+          {
+            "id": "b",
+            "text": "Mitokondri"
+          },
+          {
+            "id": "c",
+            "text": "Golgi aygıtı"
+          },
+          {
+            "id": "d",
+            "text": "Kloroplast"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "d"
+      },
+      "explanation": "Kloroplast ve selüloz çeperi yalnızca bitki hücresine özgüdür. Ribozom, mitokondri ve Golgi her iki hücre tipinde de görev yapar."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Prokaryot bir hücrede aşağıdaki yapılardan hangisi bulunur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Çekirdek zarı"
+          },
+          {
+            "id": "b",
+            "text": "Ribozom"
+          },
+          {
+            "id": "c",
+            "text": "Mitokondri"
+          },
+          {
+            "id": "d",
+            "text": "Golgi aygıtı"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Prokaryotlarda zarlı organel yoktur; ancak zarsız bir yapı olan ribozom bulunur ve protein sentezi bu ribozomlarda yapılır. Kalıtım maddesi de zarla çevrili olmadan sitoplazmada bulunur."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Maddelerin çok yoğun ortamdan az yoğun ortama, enerji harcanmadan geçmesine ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Aktif taşıma"
+          },
+          {
+            "id": "b",
+            "text": "Difüzyon"
+          },
+          {
+            "id": "c",
+            "text": "Endositoz"
+          },
+          {
+            "id": "d",
+            "text": "Ekzositoz"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Difüzyon derişim farkından kaynaklanır ve madde kendi yoğunluk eğimi yönünde hareket ettiği için ATP gerekmez. Aktif taşıma ve endositoz-ekzositoz ise enerji ister."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Suyun, yarı geçirgen bir zardan az yoğun çözeltiden çok yoğun çözeltiye geçmesine ne denir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Osmoz"
+          },
+          {
+            "id": "b",
+            "text": "Aktif taşıma"
+          },
+          {
+            "id": "c",
+            "text": "Fagositoz"
+          },
+          {
+            "id": "d",
+            "text": "Pinositoz"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Osmoz, suyun difüzyonudur: su, çözünen maddenin az olduğu yerden çok olduğu yere geçerek derişimleri eşitlemeye çalışır. Enerji harcanmaz, yalnızca su molekülleri hareket eder."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Hipertonik (derişik) bir çözeltiye konulan bitki hücresinde aşağıdakilerden hangisi gözlenir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Turgor basıncı artar"
+          },
+          {
+            "id": "b",
+            "text": "Hücre patlar"
+          },
+          {
+            "id": "c",
+            "text": "Sitoplazma çeperden ayrılarak büzülür"
+          },
+          {
+            "id": "d",
+            "text": "Hücre su alarak şişer"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "Hücre osmozla su kaybeder ve sitoplazma çeperden ayrılır; bu olaya plazmoliz denir. Bitki hücresi çeper sayesinde patlamaz; patlama (hemoliz) çepersiz hayvan hücrelerinde, aşırı su alımında görülür."
+    },
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Virüsler hücresel yapıya sahip olmadıkları için tam anlamıyla canlı kabul edilmezler."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Virüslerin hücre yapısı, organeli ve metabolizması yoktur; ancak bir konak hücrenin içinde çoğalabildikleri için canlı ile cansız arasında kabul edilirler."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Mineraller hücrede enerji verici olarak kullanılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Mineraller yapıya katılır ve düzenleyici görev üstlenir (örneğin kalsiyum kemikte, demir hemoglobinde). Enerji veren bileşikler karbonhidrat, yağ ve gerektiğinde proteinlerdir."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ribozom zarsız bir organeldir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Ribozom rRNA ve proteinden oluşan iki alt birimden yapılıdır, zarla çevrili değildir. Zarsız olduğu için hem prokaryot hem ökaryot hücrelerde bulunabilir."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Hayvan hücrelerinde hücre duvarı (çeper) bulunur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Çeper bitki, mantar ve bakterilerde bulunur; hayvan hücresinin en dış sınırı hücre zarıdır. Bu yüzden hayvan hücreleri belirgin bir geometrik şekil almaz."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Aktif taşımada madde, az yoğun ortamdan çok yoğun ortama ATP harcanarak taşınır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Taşıma derişim eğimine ters yönde olduğu için enerji ve taşıyıcı protein gerekir. Böbrek tüplerinde glikozun geri emilimi bunun tipik örneğidir."
+    },
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Canlıların değişen çevre koşullarına rağmen iç ortamlarını dengede tutmasına {{0}} denir.",
+        "choices": [
+          "homeostazi",
+          "metabolizma",
+          "adaptasyon",
+          "boşaltım"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "homeostazi"
+        ]
+      },
+      "explanation": "Homeostazi, vücut sıcaklığı, kan şekeri ve su dengesi gibi değerlerin sabit tutulmasıdır. Metabolizma tepkimelerin tümünü, adaptasyon ise kalıtsal uyumu anlatır."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Proteinlerin yapı birimi olan moleküllere {{0}} denir.",
+        "choices": [
+          "amino asit",
+          "yağ asidi",
+          "glikoz",
+          "nükleotit"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "amino asit"
+        ]
+      },
+      "explanation": "Canlılarda 20 çeşit amino asit peptit bağlarıyla birleşerek proteinleri oluşturur. Glikoz karbonhidratların, nükleotit ise nükleik asitlerin birimidir."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bitki hücrelerinde fotosentez {{0}} adlı organelde gerçekleşir.",
+        "choices": [
+          "kloroplast",
+          "mitokondri",
+          "ribozom",
+          "lizozom"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kloroplast"
+        ]
+      },
+      "explanation": "Kloroplastın içindeki klorofil pigmenti ışık enerjisini soğurur ve bu enerjiyle su ile karbondioksitten besin üretilir. Mitokondri ise üretilen besini parçalayarak ATP sağlar."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hücrede üretilen salgıların paketlenip zarla çevrili keseciklerle taşınmasını sağlayan organel {{0}} aygıtıdır.",
+        "choices": [
+          "Golgi",
+          "sentrozom",
+          "lizozom",
+          "ribozom"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Golgi"
+        ]
+      },
+      "explanation": "Golgi, endoplazmik retikulumdan gelen maddeleri işler, paketler ve salgı kesecikleri hâlinde zara yönlendirir. Bu nedenle tükürük bezi gibi salgı yapan hücrelerde çok gelişmiştir."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bazı maddelerin geçişine izin verip bazılarını geçirmediği için hücre zarı {{0}} yapıdadır.",
+        "choices": [
+          "seçici geçirgen",
+          "tam geçirgen",
+          "geçirgen olmayan",
+          "tek katlı"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "seçici geçirgen"
+        ]
+      },
+      "explanation": "Zarın yapısındaki yağ tabakası ve taşıyıcı proteinler, molekülün büyüklüğüne, yüküne ve yağda çözünürlüğüne göre geçişe karar verir. Tam geçirgen olsaydı hücre iç dengesini koruyamazdı."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Organelleri temel görevleriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ribozom"
+          },
+          {
+            "id": "2",
+            "text": "Mitokondri"
+          },
+          {
+            "id": "3",
+            "text": "Lizozom"
+          },
+          {
+            "id": "4",
+            "text": "Kloroplast"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Protein sentezi"
+          },
+          {
+            "id": "b",
+            "text": "Oksijenli solunumla ATP üretimi"
+          },
+          {
+            "id": "c",
+            "text": "Hücre içi sindirim"
+          },
+          {
+            "id": "d",
+            "text": "Fotosentezle besin üretimi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Ribozom sentez, mitokondri yıkım (enerji üretimi), lizozom sindirim, kloroplast ise üretim organelidir. Mitokondri ile kloroplastın karıştırılmaması için biri besini harcar, diğeri besini üretir diye düşünmek yeterlidir."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Organik bileşikleri yapı birimleriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Protein"
+          },
+          {
+            "id": "2",
+            "text": "Nişasta"
+          },
+          {
+            "id": "3",
+            "text": "Yağ"
+          },
+          {
+            "id": "4",
+            "text": "DNA"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Amino asit"
+          },
+          {
+            "id": "b",
+            "text": "Glikoz"
+          },
+          {
+            "id": "c",
+            "text": "Gliserol ve yağ asidi"
+          },
+          {
+            "id": "d",
+            "text": "Nükleotit"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her polimer kendi monomerinden oluşur: proteinler amino asitten, polisakkaritler glikozdan, yağlar bir gliserol ile üç yağ asidinden, nükleik asitler ise nükleotitlerden."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Madde geçiş olaylarını tanımlarıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Difüzyon"
+          },
+          {
+            "id": "2",
+            "text": "Osmoz"
+          },
+          {
+            "id": "3",
+            "text": "Aktif taşıma"
+          },
+          {
+            "id": "4",
+            "text": "Fagositoz"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Çözünen maddenin çok yoğundan az yoğuna enerjisiz geçişi"
+          },
+          {
+            "id": "b",
+            "text": "Suyun yarı geçirgen zardan geçişi"
+          },
+          {
+            "id": "c",
+            "text": "ATP harcanarak az yoğundan çok yoğuna taşıma"
+          },
+          {
+            "id": "d",
+            "text": "Büyük katı besinin yalancı ayaklarla hücre içine alınması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Difüzyon ve osmoz pasif olduğu için ATP istemez; aktif taşıma ve fagositoz ise enerji harcar. Fagositozda madde zardan geçemeyecek kadar büyük olduğundan kesecikle alınır."
+    },
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramları tanımlarıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Metabolizma"
+          },
+          {
+            "id": "2",
+            "text": "Homeostazi"
+          },
+          {
+            "id": "3",
+            "text": "Adaptasyon"
+          },
+          {
+            "id": "4",
+            "text": "Uyarılma"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Hücredeki yapım ve yıkım tepkimelerinin tümü"
+          },
+          {
+            "id": "b",
+            "text": "İç ortam dengesinin korunması"
+          },
+          {
+            "id": "c",
+            "text": "Canlının yaşadığı ortama kalıtsal uyumu"
+          },
+          {
+            "id": "d",
+            "text": "Çevredeki değişimi algılayıp tepki verme"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Metabolizma anabolizma ve katabolizmanın toplamıdır. Homeostazi bir denge durumunu, adaptasyon kuşaklar boyunca aktarılan kalıtsal uyumu, uyarılma ise anlık tepkiyi anlatır."
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Yapıları küçükten büyüğe doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Ribozom"
+          },
+          {
+            "id": "2",
+            "text": "Mitokondri"
+          },
+          {
+            "id": "3",
+            "text": "Çekirdek"
+          },
+          {
+            "id": "4",
+            "text": "Hücre"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Ribozom yaklaşık 20-30 nanometre, mitokondri 1-2 mikrometre, çekirdek 5-10 mikrometredir; hepsi hücrenin içinde yer aldığı için en büyük yapı hücrenin kendisidir."
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Protein oluşum basamaklarını doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Amino asit"
+          },
+          {
+            "id": "2",
+            "text": "Dipeptit"
+          },
+          {
+            "id": "3",
+            "text": "Polipeptit"
+          },
+          {
+            "id": "4",
+            "text": "Protein"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "İki amino asit peptit bağıyla birleşince dipeptit, çok sayıda amino asit birleşince polipeptit oluşur. Polipeptit zinciri üç boyutlu şeklini aldığında işlevsel protein hâline gelir."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Fagositoz olayının aşamalarını doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hücre, besine doğru yalancı ayak uzatır"
+          },
+          {
+            "id": "2",
+            "text": "Besin, zarla çevrili bir kesecik içine alınır"
+          },
+          {
+            "id": "3",
+            "text": "Kesecik lizozomla birleşir"
+          },
+          {
+            "id": "4",
+            "text": "Sindirim ürünleri sitoplazmaya geçer"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Fagositozda önce madde kuşatılır, sonra kesecik hâlinde içeri alınır; sindirim ancak lizozom enzimleri keseciğe boşaldıktan sonra başlar ve en sonunda küçük moleküller sitoplazmaya karışır."
+    },
+    {
+      "topic": "canlilarin_ortak_ozellikleri",
+      "type": "ordering",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Çok hücreli bir canlıdaki organizasyon düzeylerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hücre"
+          },
+          {
+            "id": "2",
+            "text": "Doku"
+          },
+          {
+            "id": "3",
+            "text": "Organ"
+          },
+          {
+            "id": "4",
+            "text": "Sistem"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Aynı görevi yapan hücreler dokuyu, farklı dokular organı, birlikte çalışan organlar ise sistemi oluşturur. Bu sıralama canlıdaki yapısal karmaşıklığın artış yönünü gösterir."
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri anlamlı bir cümle oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "geçirgen"
+          },
+          {
+            "id": "2",
+            "text": "Hücre"
+          },
+          {
+            "id": "3",
+            "text": "sahiptir"
+          },
+          {
+            "id": "4",
+            "text": "zarı"
+          },
+          {
+            "id": "5",
+            "text": "seçici"
+          },
+          {
+            "id": "6",
+            "text": "yapıya"
+          },
+          {
+            "id": "7",
+            "text": "bir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "1",
+          "7",
+          "6",
+          "3"
+        ]
+      }
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri anlamlı bir cümle oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "sorumlu"
+          },
+          {
+            "id": "2",
+            "text": "protein"
+          },
+          {
+            "id": "3",
+            "text": "Ribozomlar"
+          },
+          {
+            "id": "4",
+            "text": "organellerdir"
+          },
+          {
+            "id": "5",
+            "text": "sentezinden"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "5",
+          "1",
+          "4"
+        ]
+      }
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri anlamlı bir cümle oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "protein"
+          },
+          {
+            "id": "2",
+            "text": "Enzimlerin"
+          },
+          {
+            "id": "3",
+            "text": "oluşur"
+          },
+          {
+            "id": "4",
+            "text": "yapısı"
+          },
+          {
+            "id": "5",
+            "text": "moleküllerinden"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      }
+    },
+    {
+      "topic": "hucre_zarindan_madde_gecisi",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Osmoz",
+        "back": "Suyun, yarı geçirgen zardan az yoğun çözeltiden çok yoğun çözeltiye doğru enerji harcanmadan geçişi."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "hucre_ve_organeller",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Lizozom",
+        "back": "Hidrolitik enzim taşıyan, hücre içi sindirimi sağlayan tek zarlı organel. Zarı yırtılırsa otoliz görülür."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "canlilarin_temel_bilesenleri",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "ATP",
+        "back": "Hücrenin kullanılabilir enerji birimi. Adenin, riboz ve üç fosfattan oluşur; son fosfat bağı koptuğunda enerji açığa çıkar."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    }
+  ]
+}

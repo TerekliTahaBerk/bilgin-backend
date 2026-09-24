@@ -1,0 +1,1252 @@
+{
+  "_note": "TYT Kimya · Atom ve Periyodik Sistem. Ağırlık atom yapısı ve periyodik özelliklerde; kimya bilimi, türler arası etkileşimler ve maddenin hâlleri destek konu olarak serpiştirildi.",
+  "course": "tyt_kimya",
+  "subject": "kimya",
+  "unit": {
+    "title": "Atom ve Periyodik Sistem",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 9,
+    "difficulty_band": "giris",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "kimya_bilimi",
+      "name": "Kimya Bilimi",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "atom_ve_periyodik_sistem",
+      "name": "Atom ve Periyodik Sistem",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "kimyasal_turler_arasi_etkilesimler",
+      "name": "Kimyasal Türler Arası Etkileşimler",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "maddenin_halleri",
+      "name": "Maddenin Hâlleri",
+      "grade_level": 9,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Bir atomun çekirdeğinde hangi tanecikler bulunur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Proton ve nötron"
+          },
+          {
+            "id": "b",
+            "text": "Proton ve elektron"
+          },
+          {
+            "id": "c",
+            "text": "Nötron ve elektron"
+          },
+          {
+            "id": "d",
+            "text": "Yalnızca elektron"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Atomun kütlesinin neredeyse tamamını oluşturan proton ve nötronlar çekirdektedir; elektronlar çekirdeğin çevresindeki katmanlarda dolanır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "³⁵₁₇Cl atomunun nötron sayısı kaçtır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "18"
+          },
+          {
+            "id": "b",
+            "text": "17"
+          },
+          {
+            "id": "c",
+            "text": "35"
+          },
+          {
+            "id": "d",
+            "text": "52"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Nötron sayısı = kütle numarası − atom numarası. 35 − 17 = 18 bulunur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "²⁴₁₂Mg²⁺ iyonunun elektron sayısı kaçtır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10"
+          },
+          {
+            "id": "b",
+            "text": "12"
+          },
+          {
+            "id": "c",
+            "text": "14"
+          },
+          {
+            "id": "d",
+            "text": "24"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Nötr Mg atomunda 12 elektron vardır. 2+ yükü, 2 elektron verildiğini gösterir: 12 − 2 = 10."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Periyodik tabloda bir elementin bulunduğu periyot numarası neyi gösterir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Elektronlarının bulunduğu en yüksek katman (baş kuantum) numarasını"
+          },
+          {
+            "id": "b",
+            "text": "Değerlik elektron sayısını"
+          },
+          {
+            "id": "c",
+            "text": "Çekirdeğindeki nötron sayısını"
+          },
+          {
+            "id": "d",
+            "text": "Kütle numarasını"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Periyot, elektron diziliminde ulaşılan en yüksek katman numarasıdır. Değerlik elektron sayısı ise A gruplarında grup numarasını verir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Elektron dizilimi 1s² 2s² 2p⁶ 3s² 3p⁴ olan nötr bir element periyodik tabloda nerededir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "3. periyot, 6A grubu"
+          },
+          {
+            "id": "b",
+            "text": "3. periyot, 4A grubu"
+          },
+          {
+            "id": "c",
+            "text": "4. periyot, 6A grubu"
+          },
+          {
+            "id": "d",
+            "text": "2. periyot, 6A grubu"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "En yüksek katman 3 olduğu için 3. periyottur. Son katmandaki elektronlar 3s² 3p⁴ yani 6 tanedir; s ve p bloğunda değerlik elektron sayısı grup numarasını verir: 6A."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İzotop atomlar için aşağıdakilerden hangisi doğrudur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Proton sayıları aynı, nötron sayıları farklıdır"
+          },
+          {
+            "id": "b",
+            "text": "Nötron sayıları aynı, proton sayıları farklıdır"
+          },
+          {
+            "id": "c",
+            "text": "Kütle numaraları aynı, proton sayıları farklıdır"
+          },
+          {
+            "id": "d",
+            "text": "Proton sayıları aynı, kütle numaraları da aynıdır"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "İzotoplar aynı elementin farklı türleridir; element kimliğini proton sayısı belirlediği için o sabittir, değişen nötron sayısı kütle numarasını farklılaştırır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Periyodik tabloda aynı periyotta soldan sağa gidildikçe aşağıdakilerden hangisi gözlenir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Atom yarıçapı küçülür, iyonlaşma enerjisi artar"
+          },
+          {
+            "id": "b",
+            "text": "Atom yarıçapı büyür, iyonlaşma enerjisi azalır"
+          },
+          {
+            "id": "c",
+            "text": "Atom yarıçapı da iyonlaşma enerjisi de artar"
+          },
+          {
+            "id": "d",
+            "text": "Atom yarıçapı da iyonlaşma enerjisi de azalır"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Katman sayısı sabit kalırken çekirdek yükü artar; çekirdeğin değerlik elektronlarına çekimi güçlendiği için yarıçap küçülür ve elektron koparmak zorlaşır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "₁₁Na, ₁₂Mg, ₁₃Al ve ₁₇Cl elementlerinden birinci iyonlaşma enerjisi en büyük olanı hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "₁₇Cl"
+          },
+          {
+            "id": "b",
+            "text": "₁₁Na"
+          },
+          {
+            "id": "c",
+            "text": "₁₂Mg"
+          },
+          {
+            "id": "d",
+            "text": "₁₃Al"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Dördü de 3. periyottadır. Periyotta sağa gidildikçe çekirdek yükü arttığı için elektron koparmak zorlaşır; en sağdaki Cl en yüksek iyonlaşma enerjisine sahiptir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Rutherford'un altın levha (alfa saçılma) deneyinin en önemli sonucu aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Atomun kütlesinin büyük kısmı çok küçük hacimli, pozitif yüklü bir çekirdekte toplanmıştır"
+          },
+          {
+            "id": "b",
+            "text": "Atom, içine elektronların gömüldüğü türdeş pozitif bir küredir"
+          },
+          {
+            "id": "c",
+            "text": "Elektronlar çekirdek çevresinde yalnızca belirli enerji düzeylerinde dolanır"
+          },
+          {
+            "id": "d",
+            "text": "Atom, parçalanamayan içi dolu berk bir küredir"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Alfa taneciklerinin çok azının büyük açılarla sapması, atomun büyük ölçüde boşluklu olduğunu ve pozitif yükün küçük bir çekirdekte yoğunlaştığını gösterdi. Diğer seçenekler sırasıyla Thomson, Bohr ve Dalton modellerine aittir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "₂₀Ca elementi periyodik tabloda hangi periyot ve gruptadır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "4. periyot, 2A grubu"
+          },
+          {
+            "id": "b",
+            "text": "3. periyot, 2A grubu"
+          },
+          {
+            "id": "c",
+            "text": "4. periyot, 2B grubu"
+          },
+          {
+            "id": "d",
+            "text": "2. periyot, 4A grubu"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Dizilim 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² şeklindedir. En yüksek katman 4, son katmandaki elektron sayısı 2 olduğundan 4. periyot 2A (toprak alkali) grubudur."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Bir gözlemi açıklamak için ortaya atılan, deneyle sınanabilen geçici açıklamaya ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hipotez"
+          },
+          {
+            "id": "b",
+            "text": "Teori"
+          },
+          {
+            "id": "c",
+            "text": "Yasa"
+          },
+          {
+            "id": "d",
+            "text": "Veri"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Hipotez, sınanmayı bekleyen geçici bir açıklamadır. Teori, defalarca doğrulanmış geniş bir açıklama modeli; yasa ise doğadaki düzenliliğin kısa ifadesidir."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Laboratuvarda belirli ve duyarlı bir sıvı hacmini aktarmak için aşağıdaki araçlardan hangisi kullanılır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pipet"
+          },
+          {
+            "id": "b",
+            "text": "Beher"
+          },
+          {
+            "id": "c",
+            "text": "Erlen"
+          },
+          {
+            "id": "d",
+            "text": "Huni"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Pipet hacim ölçmek için derecelendirilmiş, duyarlı bir aktarma aracıdır. Beher ve erlen karıştırma/kaba ölçüm kabıdır, huni ise aktarma ve süzme amaçlıdır."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "NaCl bileşiğini oluşturan bağ türü aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "İyonik bağ"
+          },
+          {
+            "id": "b",
+            "text": "Apolar kovalent bağ"
+          },
+          {
+            "id": "c",
+            "text": "Metalik bağ"
+          },
+          {
+            "id": "d",
+            "text": "Hidrojen bağı"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Na bir metal, Cl bir ametaldir. Aralarındaki büyük elektronegatiflik farkı elektron alışverişine yol açar; oluşan Na⁺ ve Cl⁻ iyonları elektrostatik çekimle bir arada durur."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Suyun kaynama noktasının, aynı grupta yer alan ve molekül kütlesi daha büyük olan H₂S'ye göre çok daha yüksek olmasının nedeni nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Su molekülleri arasında hidrojen bağı bulunması"
+          },
+          {
+            "id": "b",
+            "text": "Su molekülünün iyonik yapıda olması"
+          },
+          {
+            "id": "c",
+            "text": "Sudaki O–H bağlarının iyonlaşmış olması"
+          },
+          {
+            "id": "d",
+            "text": "Su moleküllerinin apolar olması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Molekül kütlesi büyüdükçe kaynama noktasının artması beklenir; su bu beklentiyi tersine çevirir. Oksijenin elektronegatifliği çok yüksek olduğundan H₂O molekülleri arasında güçlü hidrojen bağları kurulur; kükürt yeterince elektronegatif olmadığı için H₂S molekülleri arasında bu güçte bir çekim oluşmaz. Kaynamak için bu ek bağların da koparılması gerektiğinden suyun kaynama noktası beklenenin çok üstündedir."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Naftalinin katı hâlden doğrudan gaz hâline geçmesi olayına ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Süblimleşme"
+          },
+          {
+            "id": "b",
+            "text": "Kırağılaşma"
+          },
+          {
+            "id": "c",
+            "text": "Buharlaşma"
+          },
+          {
+            "id": "d",
+            "text": "Yoğuşma"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Süblimleşme, sıvı hâlden geçilmeden katıdan gaza doğrudan geçiştir. Bunun tersi (gazdan katıya) kırağılaşmadır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Saf bir katı sabit basınçta ısıtılırken erime devam ettiği sürece sıcaklığı nasıl değişir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sabit kalır"
+          },
+          {
+            "id": "b",
+            "text": "Düzgün biçimde artar"
+          },
+          {
+            "id": "c",
+            "text": "Önce artar sonra azalır"
+          },
+          {
+            "id": "d",
+            "text": "Sürekli azalır"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Hâl değişimi sırasında verilen ısı, tanecikler arası çekimleri yenmek için harcanır; tanecik hızları ortalama olarak değişmediğinden sıcaklık sabit kalır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Nötr bir atomda proton sayısı elektron sayısına eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Atomun yüksüz olabilmesi için pozitif yük sayısı (proton) ile negatif yük sayısının (elektron) birbirini dengelemesi gerekir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İzotop atomların kimyasal özellikleri büyük ölçüde aynıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Kimyasal özellikleri belirleyen değerlik elektron dizilimidir; izotoplarda proton ve elektron sayısı aynı olduğundan bu dizilim değişmez, yalnızca kütleye bağlı fiziksel özellikler farklılaşır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Periyodik tabloda bir grupta yukarıdan aşağıya inildikçe atom yarıçapı küçülür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Aşağı inildikçe katman sayısı arttığı için atom yarıçapı büyür; artan çekirdek yükünün etkisi iç katmanların perdelemesiyle azalır."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir teori yeterince kanıtla desteklendiğinde yasaya dönüşür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Teori ve yasa farklı görevlere sahiptir: yasa olayın 'nasıl' gerçekleştiğini özetler, teori ise 'neden' gerçekleştiğini açıklar. Biri diğerine terfi etmez."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Yoğuşma sırasında madde çevresine ısı verir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Gaz tanecikleri sıvı hâle geçerken birbirlerine yaklaşıp enerjilerinin bir kısmını kaybeder; buharlaşmada alınan ısı yoğuşmada geri verilir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir atomun kütle numarası, proton sayısı ile {{0}} sayısının toplamına eşittir.",
+        "choices": [
+          "nötron",
+          "elektron",
+          "değerlik elektron",
+          "periyot"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "nötron"
+        ]
+      },
+      "explanation": "Kütleye katkısı olan tanecikler çekirdekteki proton ve nötronlardır; elektronun kütlesi protonun yaklaşık 1/1836'sı olduğu için ihmal edilir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Periyodik tabloda 1A grubunda yer alan ve son katmanında 1 elektron bulunduran elementlere {{0}} metalleri denir.",
+        "choices": [
+          "alkali",
+          "toprak alkali",
+          "geçiş",
+          "lantanit"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "alkali"
+        ]
+      },
+      "explanation": "1A grubu alkali metallerdir (H hariç). Toprak alkaliler 2A grubunda olup son katmanlarında 2 elektron taşır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Gaz hâlindeki nötr bir atomdan en gevşek bağlı elektronu koparmak için gereken en az enerjiye birinci {{0}} enerjisi denir.",
+        "choices": [
+          "iyonlaşma",
+          "elektron ilgisi",
+          "bağ",
+          "aktifleşme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "iyonlaşma"
+        ]
+      },
+      "explanation": "Elektron koparma enerji gerektirir ve bu süreç iyonlaşma enerjisiyle ölçülür. Elektron ilgisi ise atomun elektron aldığında ortaya çıkan enerji değişimidir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Metal atomları ile ametal atomları arasında elektron alışverişiyle oluşan bağa {{0}} bağ denir.",
+        "choices": [
+          "iyonik",
+          "kovalent",
+          "metalik",
+          "apolar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "iyonik"
+        ]
+      },
+      "explanation": "Metal elektron vererek katyon, ametal elektron alarak anyon olur; zıt yüklü iyonlar arasındaki elektrostatik çekim iyonik bağı oluşturur. Kovalent bağda ise elektronlar ortaklaşa kullanılır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir maddenin sıvı hâlden gaz hâline geçmesine {{0}} denir.",
+        "choices": [
+          "buharlaşma",
+          "yoğuşma",
+          "erime",
+          "kırağılaşma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "buharlaşma"
+        ]
+      },
+      "explanation": "Buharlaşmada tanecikler ısı alarak birbirinden uzaklaşır. Tersi olan gazdan sıvıya geçiş yoğuşmadır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Elementi ait olduğu grup adıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "₁₁Na"
+          },
+          {
+            "id": "2",
+            "text": "₁₂Mg"
+          },
+          {
+            "id": "3",
+            "text": "₁₇Cl"
+          },
+          {
+            "id": "4",
+            "text": "₁₈Ar"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Alkali metal (1A)"
+          },
+          {
+            "id": "b",
+            "text": "Toprak alkali metal (2A)"
+          },
+          {
+            "id": "c",
+            "text": "Halojen (7A)"
+          },
+          {
+            "id": "d",
+            "text": "Soy gaz (8A)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Değerlik elektron sayıları sırasıyla 1, 2, 7 ve 8'dir; A gruplarında bu sayı doğrudan grup numarasını verdiği için grup adları buradan okunur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramı doğru açıklamasıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Proton"
+          },
+          {
+            "id": "2",
+            "text": "Nötron"
+          },
+          {
+            "id": "3",
+            "text": "Elektron"
+          },
+          {
+            "id": "4",
+            "text": "Atom numarası"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Çekirdekte bulunur, yükü +1'dir"
+          },
+          {
+            "id": "b",
+            "text": "Çekirdekte bulunur, yüksüzdür"
+          },
+          {
+            "id": "c",
+            "text": "Katmanlarda bulunur, yükü −1'dir"
+          },
+          {
+            "id": "d",
+            "text": "Proton sayısına eşittir ve elementin kimliğini belirler"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Yük ve konum bilgisi taneciği tek başına tanımlar; atom numarası bir tanecik değil, çekirdekteki proton sayısını bildiren sayıdır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Nötr atomu elektron dizilimiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "₆C"
+          },
+          {
+            "id": "2",
+            "text": "₈O"
+          },
+          {
+            "id": "3",
+            "text": "₁₀Ne"
+          },
+          {
+            "id": "4",
+            "text": "₁₁Na"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "1s² 2s² 2p²"
+          },
+          {
+            "id": "b",
+            "text": "1s² 2s² 2p⁴"
+          },
+          {
+            "id": "c",
+            "text": "1s² 2s² 2p⁶"
+          },
+          {
+            "id": "d",
+            "text": "1s² 2s² 2p⁶ 3s¹"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Nötr atomda elektron sayısı atom numarasına eşittir ve elektronlar düşük enerjili orbitalden başlanarak yerleştirilir; üslerin toplamı her zaman atom numarasını verir."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hâl değişimini karşılık gelen geçişle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Erime"
+          },
+          {
+            "id": "2",
+            "text": "Yoğuşma"
+          },
+          {
+            "id": "3",
+            "text": "Süblimleşme"
+          },
+          {
+            "id": "4",
+            "text": "Kırağılaşma"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Katı → Sıvı"
+          },
+          {
+            "id": "b",
+            "text": "Gaz → Sıvı"
+          },
+          {
+            "id": "c",
+            "text": "Katı → Gaz"
+          },
+          {
+            "id": "d",
+            "text": "Gaz → Katı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Erime ve süblimleşme ısı alan (endotermik), yoğuşma ve kırağılaşma ısı veren (ekzotermik) geçişlerdir; ok yönü taneciklerin düzeninin artıp azaldığını gösterir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Orbitalleri elektronların doldurulma (artan enerji) sırasına göre sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "3p"
+          },
+          {
+            "id": "2",
+            "text": "4s"
+          },
+          {
+            "id": "3",
+            "text": "3d"
+          },
+          {
+            "id": "4",
+            "text": "4p"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Aufbau ilkesine göre orbitaller n + l değeri küçük olandan başlanarak dolar; n + l eşitse küçük n önce gelir. 3p ve 4s için n + l = 4'tür, eşitlik n küçük olduğu için 3p lehine bozulur. 3d ve 4p için n + l = 5'tir; yine n küçük olan 3d önce dolar. Böylece 4s orbitali 3d'den önce dolmuş olur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "1A grubundaki elementleri atom yarıçapı küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "₃Li"
+          },
+          {
+            "id": "2",
+            "text": "₁₁Na"
+          },
+          {
+            "id": "3",
+            "text": "₁₉K"
+          },
+          {
+            "id": "4",
+            "text": "₃₇Rb"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Aynı grupta aşağı inildikçe katman sayısı arttığı için atom yarıçapı büyür: Li 2, Na 3, K 4, Rb 5 katmanlıdır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Atom modellerini ortaya atıldıkları tarihe göre eskiden yeniye sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Dalton atom modeli"
+          },
+          {
+            "id": "2",
+            "text": "Thomson atom modeli"
+          },
+          {
+            "id": "3",
+            "text": "Rutherford atom modeli"
+          },
+          {
+            "id": "4",
+            "text": "Bohr atom modeli"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Her model bir öncekinin açıklayamadığı deneysel bulguyu gidermiştir: Dalton (1803) içi dolu küre, Thomson (1904) elektronu ekler, Rutherford (1911) çekirdeği bulur, Bohr (1913) enerji düzeylerini tanımlar."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "−10 °C'deki buz sabit hızla ısıtıldığında gerçekleşen aşamaları sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Buzun sıcaklığının 0 °C'ye yükselmesi"
+          },
+          {
+            "id": "2",
+            "text": "Buzun erimesi"
+          },
+          {
+            "id": "3",
+            "text": "Suyun sıcaklığının 100 °C'ye yükselmesi"
+          },
+          {
+            "id": "4",
+            "text": "Suyun kaynaması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Isıtma grafiğinde sıcaklığın arttığı eğimli bölümler tek hâlde ısınmayı, yatay bölümler ise hâl değişimini gösterir; bu ikisi sırayla birbirini izler."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "³⁹₁₉K⁺ iyonunun nötron sayısı kaçtır?",
+        "suffix": ""
+      },
+      "answer_key": {
+        "value": 20,
+        "tolerance": 0
+      },
+      "explanation": "İyon yükü elektron sayısını değiştirir, çekirdeği etkilemez. Nötron sayısı = 39 − 19 = 20'dir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "₁₆S atomunun değerlik elektron sayısı kaçtır?",
+        "suffix": "elektron"
+      },
+      "answer_key": {
+        "value": 6,
+        "tolerance": 0
+      },
+      "explanation": "Dizilim 1s² 2s² 2p⁶ 3s² 3p⁴ olduğundan en dış katmanda (3. katman) 2 + 4 = 6 elektron bulunur; bu yüzden kükürt 6A grubundadır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "₃₅Br elementi periyodik tabloda kaçıncı periyottadır?",
+        "suffix": ""
+      },
+      "answer_key": {
+        "value": 4,
+        "tolerance": 0
+      },
+      "explanation": "Dizilim 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁵ biçimindedir. En yüksek katman numarası 4 olduğundan brom 4. periyottadır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "İzotop",
+        "back": "Proton sayıları aynı, nötron (dolayısıyla kütle) sayıları farklı atomlar. Örnek: ¹²C ve ¹⁴C."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Elektronegatiflik",
+        "back": "Bir atomun bağdaki ortak elektronları kendine çekme gücü. Periyotta sağa gidildikçe artar, grupta aşağı inildikçe azalır; en yüksek olan element flordur."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Değerlik elektron",
+        "back": "Atomun en dış katmanındaki elektronlar. Kimyasal davranışı ve bağ yapma eğilimini belirler; A gruplarında sayısı grup numarasına eşittir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    }
+  ]
+}

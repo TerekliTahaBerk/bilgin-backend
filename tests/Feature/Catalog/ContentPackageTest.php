@@ -132,3 +132,84 @@ it('her sorunun açıklaması ya da kendi kendine değerlendirmesi var', functio
         }
     }
 });
+
+it('bozuk içerik İÇE AKTARILMAZ', function (): void {
+    // Panelden soru eklerken şema doğrulanıyordu ama içe aktarma bu kapıyı
+    // atlıyordu: aynı veri farklı kapıdan girince denetimsiz kalıyordu.
+    // Bozuk bir soru öğrenciye ancak tur ortasında görünür.
+    $package = contentPackages()[0]['package'];
+
+    $package['exercises'] = [
+        [
+            'topic' => $package['topics'][0]['code'],
+            'type' => 'multiple_choice',
+            'difficulty' => 2,
+            'scopes' => ['tyt'],
+            // Doğru şık listede YOK.
+            'content' => ['stem' => 'Bozuk soru', 'options' => [
+                ['id' => 'a', 'text' => 'A'],
+                ['id' => 'b', 'text' => 'B'],
+            ]],
+            'answer_key' => ['correct_option_id' => 'z'],
+            'explanation' => 'x',
+        ],
+    ];
+
+    expect(fn () => app(ImportContentPackage::class)($package))
+        ->toThrow(RuntimeException::class);
+});
+
+it('bozuk paket HİÇBİR ŞEY yazmaz', function (): void {
+    // Doğrulama yazmadan ÖNCE çalışıyor: yarım aktarılmış bir paket,
+    // ünitesi açılmış ama soruları eksik bir içerik bırakırdı.
+    $package = contentPackages()[0]['package'];
+    $package['unit']['title'] = 'Yazılmaması Gereken Ünite';
+    $package['exercises'][0]['answer_key'] = [];  // tipe göre geçersiz
+
+    $unitsBefore = DB::table('units')->count();
+    $exercisesBefore = DB::table('exercises')->count();
+
+    try {
+        app(ImportContentPackage::class)($package);
+    } catch (RuntimeException) {
+        // beklenen
+    }
+
+    expect(DB::table('units')->count())->toBe($unitsBefore)
+        ->and(DB::table('exercises')->count())->toBe($exercisesBefore)
+        ->and(DB::table('units')->where('title', 'Yazılmaması Gereken Ünite')->exists())
+        ->toBeFalse();
+});
+
+it('doğrulama hatası TÜM sorunları tek seferde listeler', function (): void {
+    // 40 soruluk bir pakette teker teker hata almak, içerik yazanı kırk
+    // tur döndürür.
+    $package = contentPackages()[0]['package'];
+    $topic = $package['topics'][0]['code'];
+
+    $package['exercises'] = [
+        [
+            'topic' => $topic, 'type' => 'true_false', 'difficulty' => 1,
+            'scopes' => ['tyt'],
+            'content' => ['statement' => 'Bir ifade'],
+            'answer_key' => ['value' => 'true'],   // dize, boolean değil
+            'explanation' => 'x',
+        ],
+        [
+            'topic' => $topic, 'type' => 'fill_blank', 'difficulty' => 2,
+            'scopes' => ['tyt'],
+            'content' => ['template' => 'Boşluksuz şablon', 'choices' => ['A', 'B']],
+            'answer_key' => ['blanks' => ['A']],   // şablonda {{0}} yok
+            'explanation' => 'x',
+        ],
+    ];
+
+    try {
+        app(ImportContentPackage::class)($package);
+        expect(false)->toBeTrue('doğrulama hatası bekleniyordu');
+    } catch (RuntimeException $e) {
+        // İki sorunun da mesajda geçmesi gerekiyor.
+        expect($e->getMessage())->toContain('#0')
+            ->and($e->getMessage())->toContain('#1');
+    }
+});

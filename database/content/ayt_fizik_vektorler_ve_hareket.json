@@ -1,0 +1,1258 @@
+{
+  "_note": "AYT Fizik · Vektörler ve Hareket. Tüm çözümlerde hava direnci ihmal edilmiş ve g = 10 m/s² alınmıştır.",
+  "course": "ayt_fizik",
+  "subject": "fizik",
+  "unit": {
+    "title": "Vektörler ve Hareket",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 11,
+    "difficulty_band": "giris",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "vektorler",
+      "name": "Vektörler",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "bagil_hareket",
+      "name": "Bağıl Hareket",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "atislar",
+      "name": "Atışlar",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "itme_ve_momentum",
+      "name": "İtme ve Momentum",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "cembersel_hareket",
+      "name": "Çembersel Hareket",
+      "grade_level": 9,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "vektorler",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Büyüklükleri 3 birim ve 4 birim olan iki vektör birbirine diktir. Bileşke vektörün büyüklüğü kaç birimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "5"
+          },
+          {
+            "id": "b",
+            "text": "7"
+          },
+          {
+            "id": "c",
+            "text": "1"
+          },
+          {
+            "id": "d",
+            "text": "12"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Dik vektörlerde bileşke, dik üçgenin hipotenüsü gibi bulunur: R = √(3² + 4²) = √25 = 5 birim. 7 sonucu ancak vektörler aynı doğrultuda ve aynı yönlü olsaydı çıkardı."
+    },
+    {
+      "topic": "vektorler",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Büyüklükleri 6 birim ve 8 birim olan iki vektörün bileşkesinin büyüklüğü en az kaç birim olabilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "2"
+          },
+          {
+            "id": "b",
+            "text": "0"
+          },
+          {
+            "id": "c",
+            "text": "10"
+          },
+          {
+            "id": "d",
+            "text": "14"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Bileşkenin alabileceği değerler |A − B| ile A + B arasındadır. En küçük değer vektörler zıt yönlüyken elde edilir: 8 − 6 = 2 birim. Bileşkenin sıfır olması ancak eşit büyüklükte zıt vektörlerde mümkündür."
+    },
+    {
+      "topic": "vektorler",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Büyüklüğü 10 birim olan bir vektör, +x ekseni ile 60° açı yapmaktadır. Bu vektörün x bileşeninin büyüklüğü kaç birimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "5"
+          },
+          {
+            "id": "b",
+            "text": "5√3"
+          },
+          {
+            "id": "c",
+            "text": "10"
+          },
+          {
+            "id": "d",
+            "text": "20"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "x bileşeni Vx = V·cos60° = 10·(1/2) = 5 birimdir. 5√3 sonucu y bileşenidir (10·sin60°); açı eksenden ölçüldüğü için kosinüs yatayla ilişkilidir."
+    },
+    {
+      "topic": "vektorler",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Büyüklükleri 10'ar birim olan iki vektör arasındaki açı 120°'dir. Bileşke vektörün büyüklüğü kaç birimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10"
+          },
+          {
+            "id": "b",
+            "text": "20"
+          },
+          {
+            "id": "c",
+            "text": "0"
+          },
+          {
+            "id": "d",
+            "text": "10√3"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "R = √(A² + B² + 2AB·cosθ) bağıntısında cos120° = −1/2 alınır: R = √(100 + 100 − 100) = √100 = 10 birim. Eşit iki vektör 120° açı yaptığında bileşke, vektörlerden birine eşit büyüklükte çıkar."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Aynı yönde giden iki araçtan birinin sürati 80 km/h, diğerininki 50 km/h'dir. Hızlı aracın yavaş araca göre bağıl hızının büyüklüğü kaç km/h'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "30"
+          },
+          {
+            "id": "b",
+            "text": "130"
+          },
+          {
+            "id": "c",
+            "text": "65"
+          },
+          {
+            "id": "d",
+            "text": "15"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Bağıl hız vektörel farktır: v(A/B) = vA − vB. Aynı yönlü hareketlerde büyüklükler çıkarılır: 80 − 50 = 30 km/h. 130 değeri zıt yönlü hareket için geçerli olurdu."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Doğu yönünde 60 km/h ile giden bir otomobil ile batı yönünde 40 km/h ile giden bir kamyon aynı yol üzerinde birbirine yaklaşmaktadır. Otomobilin kamyona göre bağıl hızının büyüklüğü kaç km/h'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "100"
+          },
+          {
+            "id": "b",
+            "text": "20"
+          },
+          {
+            "id": "c",
+            "text": "50"
+          },
+          {
+            "id": "d",
+            "text": "60"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Zıt yönlü hızlarda vektörel fark alındığında büyüklükler toplanır: 60 − (−40) = 100 km/h. Bu yüzden birbirine yaklaşan araçlar arasındaki mesafe, hızların toplamı kadar hızla azalır."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Genişliği 60 m olan bir nehirde akıntının sürati 3 m/s'dir. Durgun suda 5 m/s ile yüzebilen bir yüzücü, kıyıya dik doğrultuda yüzerek karşıya geçiyor. Yüzücünün karşı kıyıya ulaşma süresi kaç saniyedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "12"
+          },
+          {
+            "id": "b",
+            "text": "20"
+          },
+          {
+            "id": "c",
+            "text": "15"
+          },
+          {
+            "id": "d",
+            "text": "7,5"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Akıntı hızı kıyıya paralel olduğu için karşıya geçiş doğrultusundaki hareketi etkilemez. Süre yalnızca dik bileşenden bulunur: t = 60/5 = 12 s. Akıntı, yüzücüyü sadece akıntı yönünde 36 m sürükler."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Yağmur damlaları yere göre düşey doğrultuda 4 m/s ile düşmektedir. Doğuya doğru 3 m/s sabit süratle yürüyen bir gözlemciye göre yağmurun hızının büyüklüğü kaç m/s'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "5"
+          },
+          {
+            "id": "b",
+            "text": "7"
+          },
+          {
+            "id": "c",
+            "text": "1"
+          },
+          {
+            "id": "d",
+            "text": "4"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Gözlemciye göre yağmurun hızı v(yağmur) − v(gözlemci) olur; düşey 4 m/s ile batıya doğru 3 m/s birbirine diktir. Büyüklük √(4² + 3²) = 5 m/s'dir. Bu yüzden yürürken yağmur eğik geliyormuş gibi görünür."
+    },
+    {
+      "topic": "atislar",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "45 m yükseklikten yatay olarak atılan bir cisim kaç saniye sonra yere çarpar? (g = 10 m/s², hava direnci ihmal ediliyor)",
+        "options": [
+          {
+            "id": "a",
+            "text": "3"
+          },
+          {
+            "id": "b",
+            "text": "4,5"
+          },
+          {
+            "id": "c",
+            "text": "9"
+          },
+          {
+            "id": "d",
+            "text": "1,5"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Yatay atışta düşey hareket serbest düşmedir: h = ½gt² → 45 = 5t² → t² = 9 → t = 3 s. Düşme süresi atış hızından bağımsızdır, yalnızca yüksekliğe bağlıdır."
+    },
+    {
+      "topic": "atislar",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "80 m yükseklikten 20 m/s yatay hızla atılan bir cisim, atıldığı noktanın düşeyinden kaç metre uzağa düşer? (g = 10 m/s²)",
+        "options": [
+          {
+            "id": "a",
+            "text": "80"
+          },
+          {
+            "id": "b",
+            "text": "40"
+          },
+          {
+            "id": "c",
+            "text": "160"
+          },
+          {
+            "id": "d",
+            "text": "20"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Önce düşme süresi: 80 = 5t² → t = 4 s. Yatay doğrultuda ivme olmadığı için hareket düzgün doğrusaldır: x = 20·4 = 80 m."
+    },
+    {
+      "topic": "atislar",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Yerden düşey doğrultuda yukarı doğru 30 m/s hızla atılan bir cismin çıkabileceği maksimum yükseklik kaç metredir? (g = 10 m/s²)",
+        "options": [
+          {
+            "id": "a",
+            "text": "45"
+          },
+          {
+            "id": "b",
+            "text": "90"
+          },
+          {
+            "id": "c",
+            "text": "30"
+          },
+          {
+            "id": "d",
+            "text": "22,5"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "En üst noktada hız sıfırdır: v² = v₀² − 2gh → 0 = 900 − 20h → h = 45 m. 90 m hatası, süreyi (3 s) doğrudan hızla çarpmaktan doğar; oysa hareket yavaşlayan bir harekettir."
+    },
+    {
+      "topic": "atislar",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Eğik atış yapan bir cisim için yörüngenin en yüksek noktasında aşağıdakilerden hangisi doğrudur? (hava direnci ihmal ediliyor)",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hızın düşey bileşeni sıfır, yatay bileşeni sıfırdan farklıdır."
+          },
+          {
+            "id": "b",
+            "text": "Hızın hem yatay hem düşey bileşeni sıfırdır."
+          },
+          {
+            "id": "c",
+            "text": "Cismin ivmesi sıfırdır."
+          },
+          {
+            "id": "d",
+            "text": "Hızın yatay bileşeni sıfır, düşey bileşeni en büyüktür."
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Yatay doğrultuda kuvvet olmadığı için Vx hareket boyunca sabit kalır; düşey bileşen ise yer çekimiyle azalıp tepe noktada sıfırlanır. İvme ise tepe noktada da g kadardır ve aşağı yöneliktir."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kütlesi 2 kg olan bir cisim 5 m/s sabit hızla hareket ettiğine göre momentumunun büyüklüğü kaç kg·m/s'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10"
+          },
+          {
+            "id": "b",
+            "text": "2,5"
+          },
+          {
+            "id": "c",
+            "text": "25"
+          },
+          {
+            "id": "d",
+            "text": "7"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Momentum p = m·v ile hesaplanır: 2·5 = 10 kg·m/s. 25 değeri kinetik enerjiye (½mv²) karşılık gelir; momentum hızın birinci kuvvetiyle orantılıdır."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Sürtünmesiz yatay düzlemde 3 m/s hızla giden 4 kg'lık bir cisim, durmakta olan 2 kg'lık bir cisme çarpıp ona yapışarak birlikte hareket ediyor. Ortak hızın büyüklüğü kaç m/s'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "2"
+          },
+          {
+            "id": "b",
+            "text": "3"
+          },
+          {
+            "id": "c",
+            "text": "1,5"
+          },
+          {
+            "id": "d",
+            "text": "6"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Çarpışmalarda toplam momentum korunur: 4·3 + 2·0 = (4+2)·v → 12 = 6v → v = 2 m/s. Cisimler yapıştığı için çarpışma tam esnek değildir ve kinetik enerjinin bir kısmı kaybolur, ama momentum yine korunur."
+    },
+    {
+      "topic": "cembersel_hareket",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Düzgün çembersel hareket yapan bir cisim 20 saniyede 5 tam tur atmaktadır. Hareketin periyodu kaç saniyedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "4"
+          },
+          {
+            "id": "b",
+            "text": "0,25"
+          },
+          {
+            "id": "c",
+            "text": "5"
+          },
+          {
+            "id": "d",
+            "text": "100"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Periyot bir tam turun süresidir: T = toplam süre / tur sayısı = 20/5 = 4 s. 0,25 değeri ise frekanstır (0,25 Hz) ve periyodun tersidir."
+    },
+    {
+      "topic": "cembersel_hareket",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Yarıçapı 3 m olan çembersel bir yörüngede 6 m/s sabit süratle dönen bir cismin merkezcil ivmesinin büyüklüğü kaç m/s²'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "12"
+          },
+          {
+            "id": "b",
+            "text": "2"
+          },
+          {
+            "id": "c",
+            "text": "18"
+          },
+          {
+            "id": "d",
+            "text": "36"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Merkezcil ivme a = v²/r bağıntısıyla bulunur: 36/3 = 12 m/s². Sürat sabit olsa da hızın yönü değiştiği için ivme sıfır değildir."
+    },
+    {
+      "topic": "vektorler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bir vektörün büyüklüğü negatif bir sayı olabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Büyüklük bir uzunluk ölçüsüdür ve sıfır ya da pozitiftir; negatif işaret büyüklüğü değil, seçilen eksene göre yönü belirtir."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Aynı yönde eşit süratle giden iki aracın birbirine göre bağıl hızı sıfırdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hız vektörleri özdeş olduğundan farkları sıfır çıkar; bu yüzden araçlar birbirine göre duruyormuş gibi görünür ve aralarındaki uzaklık değişmez."
+    },
+    {
+      "topic": "atislar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Yatay atışta, hava direnci ihmal edildiğinde cismin yatay hızı hareket boyunca sabit kalır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Yatay doğrultuda cisme etki eden net kuvvet yoktur; yer çekimi yalnızca düşey doğrultuda ivmelendirir. Bu nedenle yatay hareket düzgün doğrusaldır."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Esnek olmayan çarpışmalarda sistemin toplam kinetik enerjisi korunur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Esnek olmayan çarpışmada momentum korunur ama kinetik enerjinin bir bölümü şekil değişimi, ısı ve ses gibi yollarla kaybolur. Kinetik enerjinin de korunduğu durum tam esnek çarpışmadır."
+    },
+    {
+      "topic": "cembersel_hareket",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Düzgün çembersel harekette sürat sabit olmasına rağmen hız vektörü sürekli değişir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hız her noktada çembere teğettir, dolayısıyla yönü her an değişir. Yön değişimi de bir hız değişimidir ve merkeze yönelmiş bir ivme gerektirir."
+    },
+    {
+      "topic": "vektorler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Aynı doğrultuda ve aynı yönlü iki vektörün bileşkesinin büyüklüğü, vektörlerin büyüklüklerinin {{0}} eşittir.",
+        "choices": [
+          "toplamına",
+          "farkına",
+          "çarpımına",
+          "oranına"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "toplamına"
+        ]
+      },
+      "explanation": "Aralarındaki açı 0° olduğunda cos0° = 1 olur ve R = √(A² + B² + 2AB) = A + B çıkar. Fark durumu ise zıt yönlü vektörlerde geçerlidir."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "A cisminin B cismine göre bağıl hızı, A'nın hızından B'nin hızı {{0}} bulunur.",
+        "choices": [
+          "vektörel olarak çıkarılarak",
+          "vektörel olarak toplanarak",
+          "skaler olarak bölünerek",
+          "skaler olarak çarpılarak"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "vektörel olarak çıkarılarak"
+        ]
+      },
+      "explanation": "v(A/B) = vA − vB'dir. İşlem vektörel olduğu için yönler de hesaba katılır; bu yüzden zıt yönlü hareketlerde büyüklükler toplanmış gibi bir sonuç çıkar."
+    },
+    {
+      "topic": "atislar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Yatay atış yapan bir cismin düşey doğrultudaki hareketi {{0}} hareketidir.",
+        "choices": [
+          "serbest düşme",
+          "düzgün doğrusal",
+          "sabit hızlı",
+          "düzgün çembersel"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "serbest düşme"
+        ]
+      },
+      "explanation": "Cisme düşey doğrultuda yalnızca yer çekimi etki eder ve başlangıçtaki düşey hız sıfırdır; bu tam olarak serbest düşme koşuludur. Düzgün doğrusal olan ise yatay bileşendir."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bir cisme etki eden net kuvvetin, etki süresiyle çarpımına {{0}} denir.",
+        "choices": [
+          "itme",
+          "momentum",
+          "iş",
+          "güç"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "itme"
+        ]
+      },
+      "explanation": "İtme (impuls) I = F·Δt'dir ve cismin momentumundaki değişime eşittir. Kuvvetin yol ile çarpımı ise işi verir."
+    },
+    {
+      "topic": "cembersel_hareket",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Düzgün çembersel harekette merkezcil ivme daima {{0}} yöneliktir.",
+        "choices": [
+          "çemberin merkezine",
+          "hız vektörü ile aynı yöne",
+          "çembere teğet doğrultuda dışa",
+          "yer çekimi yönünde"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çemberin merkezine"
+        ]
+      },
+      "explanation": "İvme, hız vektörünün değişim yönündedir; sürat sabit olduğunda bu değişim yalnızca yön değişimidir ve merkeze doğrudur. Hıza teğet bir ivme olsaydı sürat de değişirdi."
+    },
+    {
+      "topic": "vektorler",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Vektör çiftini bileşkesinin büyüklüğü ile eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "3 br ve 4 br, aralarında 90°"
+          },
+          {
+            "id": "2",
+            "text": "5 br ve 5 br, aynı yönlü"
+          },
+          {
+            "id": "3",
+            "text": "7 br ve 3 br, zıt yönlü"
+          },
+          {
+            "id": "4",
+            "text": "6 br ve 6 br, aralarında 120°"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "5 br"
+          },
+          {
+            "id": "b",
+            "text": "10 br"
+          },
+          {
+            "id": "c",
+            "text": "4 br"
+          },
+          {
+            "id": "d",
+            "text": "6 br"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dik vektörlerde Pisagor, aynı yönlülerde toplam, zıt yönlülerde fark kullanılır. 120°'lik durumda cos120° = −1/2 olduğu için R = √(36 + 36 − 36) = 6 br çıkar."
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Verilen durumu, araçlar arasındaki bağıl hızın büyüklüğü ile eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Aynı yönde 90 km/h ve 60 km/h"
+          },
+          {
+            "id": "2",
+            "text": "Zıt yönde 90 km/h ve 60 km/h"
+          },
+          {
+            "id": "3",
+            "text": "Aynı yönde 70 km/h ve 70 km/h"
+          },
+          {
+            "id": "4",
+            "text": "Duran gözlemci ve 45 km/h ile giden araç"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "30 km/h"
+          },
+          {
+            "id": "b",
+            "text": "150 km/h"
+          },
+          {
+            "id": "c",
+            "text": "0 km/h"
+          },
+          {
+            "id": "d",
+            "text": "45 km/h"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Aynı yönlü hareketlerde büyüklükler çıkarılır, zıt yönlülerde toplanır. Gözlemci duruyorsa bağıl hız, aracın yere göre hızına eşittir."
+    },
+    {
+      "topic": "atislar",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Atış durumunu sonucuyla eşleştir. (g = 10 m/s², hava direnci ihmal ediliyor)",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yatay atışta 3 s sonundaki düşey hız"
+          },
+          {
+            "id": "2",
+            "text": "20 m/s yatay hızla 2 s'de alınan yatay yol"
+          },
+          {
+            "id": "3",
+            "text": "Düşey yukarı 20 m/s ile atılan cismin tepe noktaya çıkma süresi"
+          },
+          {
+            "id": "4",
+            "text": "Düşey yukarı 30 m/s ile atılan cismin maksimum yüksekliği"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "30 m/s"
+          },
+          {
+            "id": "b",
+            "text": "40 m"
+          },
+          {
+            "id": "c",
+            "text": "2 s"
+          },
+          {
+            "id": "d",
+            "text": "45 m"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Sırasıyla Vy = g·t = 30 m/s, x = V·t = 40 m, t = V₀/g = 2 s ve h = V₀²/(2g) = 45 m kullanılır. Yatay ve düşey hareketler birbirinden bağımsız çözülür."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Cismin kütle ve hız değerlerini momentumunun büyüklüğü ile eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "10 kg, 0,5 m/s"
+          },
+          {
+            "id": "2",
+            "text": "3 kg, 4 m/s"
+          },
+          {
+            "id": "3",
+            "text": "2 kg, 10 m/s"
+          },
+          {
+            "id": "4",
+            "text": "5 kg, 6 m/s"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "5 kg·m/s"
+          },
+          {
+            "id": "b",
+            "text": "12 kg·m/s"
+          },
+          {
+            "id": "c",
+            "text": "20 kg·m/s"
+          },
+          {
+            "id": "d",
+            "text": "30 kg·m/s"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her durumda p = m·v çarpımı alınır. Büyük kütleli bir cismin momentumu, hızı küçükse küçük kütleli hızlı bir cisimden daha az olabilir."
+    },
+    {
+      "topic": "vektorler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Bileşke vektörlerin büyüklüklerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "6 br ve 8 br, zıt yönlü"
+          },
+          {
+            "id": "2",
+            "text": "3 br ve 4 br, aralarında 90°"
+          },
+          {
+            "id": "3",
+            "text": "5 br ve 5 br, aynı yönlü"
+          },
+          {
+            "id": "4",
+            "text": "10 br ve 5 br, aynı yönlü"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Bileşkeler sırasıyla 2, 5, 10 ve 15 birimdir. Zıt yönlü toplamada fark, aynı yönlüde toplam, dik durumda ise Pisagor bağıntısı kullanılır."
+    },
+    {
+      "topic": "atislar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yatay atış yapılan yüksekliklere karşılık gelen düşme sürelerini kısadan uzuna sırala. (g = 10 m/s²)",
+        "items": [
+          {
+            "id": "1",
+            "text": "5 m yükseklik"
+          },
+          {
+            "id": "2",
+            "text": "20 m yükseklik"
+          },
+          {
+            "id": "3",
+            "text": "45 m yükseklik"
+          },
+          {
+            "id": "4",
+            "text": "125 m yükseklik"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "h = 5t² bağıntısından süreler 1 s, 2 s, 3 s ve 5 s çıkar. Süre yükseklikle doğru değil, yüksekliğin kareköküyle orantılıdır; yükseklik 4 katına çıkınca süre 2 katına çıkar."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "ordering",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Cisimlerin momentum büyüklüklerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "1 kg kütleli cisim, 2 m/s"
+          },
+          {
+            "id": "2",
+            "text": "2 kg kütleli cisim, 3 m/s"
+          },
+          {
+            "id": "3",
+            "text": "3 kg kütleli cisim, 4 m/s"
+          },
+          {
+            "id": "4",
+            "text": "4 kg kütleli cisim, 5 m/s"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "p = m·v çarpımları 2, 6, 12 ve 20 kg·m/s'dir. Hem kütle hem hız arttığı için momentum her adımda büyür."
+    },
+    {
+      "topic": "cembersel_hareket",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Düzgün çembersel hareket yapan cisimlerin periyotlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "20 s'de 10 tur atan cisim"
+          },
+          {
+            "id": "2",
+            "text": "20 s'de 5 tur atan cisim"
+          },
+          {
+            "id": "3",
+            "text": "30 s'de 5 tur atan cisim"
+          },
+          {
+            "id": "4",
+            "text": "40 s'de 5 tur atan cisim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "T = süre / tur sayısı bağıntısıyla periyotlar 2 s, 4 s, 6 s ve 8 s bulunur. Aynı sürede daha çok tur atan cismin periyodu daha küçüktür."
+    },
+    {
+      "topic": "atislar",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Yerden düşey doğrultuda yukarı 40 m/s hızla atılan bir cisim, atıldığı noktaya kaç saniye sonra geri döner? (g = 10 m/s², hava direnci ihmal ediliyor)",
+        "suffix": "s"
+      },
+      "answer_key": {
+        "value": 8,
+        "tolerance": 0
+      },
+      "explanation": "Tepe noktada hız sıfırlandığı için çıkış süresi t = V₀/g = 40/10 = 4 s'dir. İvme hareket boyunca sabit olduğundan iniş, çıkışın simetriğidir ve aynı sürede tamamlanır; toplam uçuş süresi 2·4 = 8 s olur."
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kütlesi 0,2 kg olan bir top, duvara dik olarak 10 m/s hızla çarpıyor ve aynı büyüklükte hızla geri dönüyor. Topun momentum değişiminin büyüklüğü kaç kg·m/s'dir?",
+        "suffix": "kg·m/s"
+      },
+      "answer_key": {
+        "value": 4,
+        "tolerance": 0
+      },
+      "explanation": "Momentum vektöreldir; yön değiştiği için Δp = m·v_son − m·v_ilk = 0,2·(−10) − 0,2·(10) = −4 kg·m/s olur ve büyüklüğü 4 kg·m/s'dir. Sadece hız büyüklüklerine bakıp sıfır demek yanlış olur."
+    },
+    {
+      "topic": "cembersel_hareket",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Düzgün çembersel hareket yapan bir cisim yarıçapı 5 m olan yörüngede 10 saniyede 1 tam tur atmaktadır. Cismin çizgisel süratinin büyüklüğü kaç m/s'dir? (π = 3 alınız)",
+        "suffix": "m/s"
+      },
+      "answer_key": {
+        "value": 3,
+        "tolerance": 0
+      },
+      "explanation": "Bir turda alınan yol çemberin çevresidir: 2πr = 2·3·5 = 30 m. Çizgisel sürat v = çevre / periyot = 30/10 = 3 m/s bulunur."
+    },
+    {
+      "topic": "vektorler",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Aralarında θ açısı bulunan iki vektörün bileşkesi",
+        "back": "R = √(A² + B² + 2AB·cosθ). θ = 0° için R = A + B, θ = 90° için R = √(A² + B²), θ = 180° için R = |A − B|."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "bagil_hareket",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Bağıl hız",
+        "back": "v(A/B) = vA − vB. A'nın B'ye göre hızı, iki hız vektörünün farkıdır."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "itme_ve_momentum",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "İtme–momentum teoremi",
+        "back": "F·Δt = Δp = m·v_son − m·v_ilk. Aynı momentum değişimi daha uzun sürede gerçekleşirse cisme etkiyen kuvvet küçülür (hava yastığı mantığı)."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    }
+  ]
+}

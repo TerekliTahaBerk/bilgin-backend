@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Modules\Catalog\Application\UseCase;
 
+use App\Modules\Catalog\Domain\Enum\ExerciseType;
+use App\Modules\Catalog\Domain\Validation\ValidatorRegistry;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\Course;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\Exercise;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\Subject;
@@ -23,7 +25,10 @@ use RuntimeException;
  */
 final readonly class ImportContentPackage
 {
-    public function __construct(private CreateUnitFromTemplate $createUnit) {}
+    public function __construct(
+        private CreateUnitFromTemplate $createUnit,
+        private ValidatorRegistry $validators,
+    ) {}
 
     /** @param  array<string, mixed>  $package */
     public function __invoke(array $package): ImportReport
@@ -34,6 +39,14 @@ final readonly class ImportContentPackage
 
             $course = Course::query()->where('code', $package['course'])->first()
                 ?? throw new RuntimeException("Course bulunamadı: {$package['course']}");
+
+            // İÇERİK ÖNCE DOĞRULANIYOR, sonra hiçbir şey yazılıyor.
+            //
+            // Panelden soru eklerken (`POST /exercises`) tipe göre şema
+            // doğrulaması yapılıyordu ama içe aktarma bu kapıyı atlıyordu:
+            // aynı veri, farklı kapıdan girince denetimsiz kalıyordu. Bozuk
+            // bir soru öğrenciye ancak tur ortasında görünür.
+            $this->assertExercisesValid($package['exercises']);
 
             $topicIds = $this->upsertTopics($subject->id, $package['topics']);
             $unit = $this->upsertUnit($package, array_values($topicIds));
@@ -47,6 +60,44 @@ final readonly class ImportContentPackage
                 nodeCount: $unit->nodes()->count(),
             );
         });
+    }
+
+    /**
+     * Paketteki her soruyu tipine göre doğrular.
+     *
+     * Hatalar TEK SEFERDE toplanıyor, ilkinde durulmuyor: 40 soruluk bir
+     * pakette teker teker hata almak, içerik yazanı kırk tur döndürür.
+     *
+     * @param  list<array<string, mixed>>  $exercises
+     */
+    private function assertExercisesValid(array $exercises): void
+    {
+        $problems = [];
+
+        foreach ($exercises as $index => $exercise) {
+            $type = ExerciseType::tryFrom((string) ($exercise['type'] ?? ''));
+
+            if ($type === null) {
+                $problems[] = sprintf('#%d: bilinmeyen tip "%s"', $index, $exercise['type'] ?? '');
+
+                continue;
+            }
+
+            $result = $this->validators->for($type)->validate(
+                (array) ($exercise['content'] ?? []),
+                (array) ($exercise['answer_key'] ?? []),
+            );
+
+            foreach ($result->errors as $error) {
+                $problems[] = sprintf('#%d (%s): %s', $index, $type->value, $error);
+            }
+        }
+
+        if ($problems !== []) {
+            throw new RuntimeException(
+                "İçerik paketi doğrulamadan geçmedi:\n  - ".implode("\n  - ", $problems)
+            );
+        }
     }
 
     /**
