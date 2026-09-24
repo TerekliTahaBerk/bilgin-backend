@@ -103,6 +103,220 @@ paths:
         '422': { $ref: '#/components/responses/ValidationError' }
         '429': { $ref: '#/components/responses/Error' }
 
+  /v1/auth/register:
+    post:
+      tags: [Kimlik]
+      summary: E-posta ile kayıt
+      description: |
+        E-posta ve şifreyle kalıcı hesap açar.
+
+        **Misafir token'ıyla çağrılırsa** yeni hesap açılmaz; var olan misafir
+        hesabı kalıcıya çevrilir ve XP, seri, tamamlanan adımlar korunur.
+        Yeni hesap açmak, uygulamayı deneyip beğenen kullanıcıyı tam
+        kaydolduğu anda sıfırlamak olurdu.
+
+        **E-posta zaten kullanılıyorsa** `409 EMAIL_TAKEN`. Misafirin de
+        ilerlemesi varsa `409 PROGRESS_CONFLICT` — hangi hesabın kalacağına
+        kullanıcı karar verir, sunucu sessizce seçmez.
+
+        Doğrulama e-postası kuyruğa girer. **Gönderilemezse kayıt yine de
+        başarılıdır**: posta kesintisi yüzünden kaydolamamak, doğrulanmamış
+        bir hesaptan çok daha kötü.
+      security: []
+      parameters:
+        - name: Authorization
+          in: header
+          required: false
+          description: 'Misafir token''ı — gönderilirse ilerleme taşınır.'
+          schema: { type: string }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email, maxLength: 191 }
+                password:
+                  type: string
+                  minLength: 8
+                  description: 'En az 8 karakter, harf ve rakam içermeli.'
+                name: { type: string, minLength: 2, maxLength: 20 }
+      responses:
+        '201':
+          description: Hesap açıldı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [token, user]
+                    properties:
+                      token: { type: string }
+                      user: { $ref: '#/components/schemas/User' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '409': { $ref: '#/components/responses/Error' }
+        '422': { $ref: '#/components/responses/Error' }
+        '429': { $ref: '#/components/responses/Error' }
+
+  /v1/auth/login:
+    post:
+      tags: [Kimlik]
+      summary: E-posta ile giriş
+      description: |
+        Kullanıcı yok ile şifre yanlış **aynı** hatayı döner
+        (`422 INVALID_CREDENTIALS`): hangi e-postanın kayıtlı olduğu bilgisi
+        sızdırılmaz. Yanıt süresi de eşitlenir.
+
+        Dakikada 5 istekle sınırlı.
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string }
+      responses:
+        '200':
+          description: Giriş başarılı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [token, user]
+                    properties:
+                      token: { type: string }
+                      user: { $ref: '#/components/schemas/User' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '422': { $ref: '#/components/responses/Error' }
+        '429': { $ref: '#/components/responses/Error' }
+
+  /v1/auth/password/forgot:
+    post:
+      tags: [Kimlik]
+      summary: Şifre sıfırlama bağlantısı iste
+      description: |
+        **E-posta kayıtlı olsun olmasın aynı yanıt döner.** Farklı yanıt
+        vermek, hangi adreslerin sistemde olduğunu sorgulayan bir araç
+        yaratırdı. Posta gönderilemese bile yanıt değişmez.
+
+        Sosyal girişle açılmış (şifresiz) hesaplara bağlantı gönderilmez;
+        orada sıfırlanacak bir şifre yoktur.
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email]
+              properties:
+                email: { type: string, format: email }
+      responses:
+        '200':
+          description: İstek alındı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [message]
+                    properties:
+                      message: { type: string }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '422': { $ref: '#/components/responses/Error' }
+        '429': { $ref: '#/components/responses/Error' }
+
+  /v1/auth/password/reset:
+    post:
+      tags: [Kimlik]
+      summary: Şifreyi sıfırla
+      description: |
+        Token tek kullanımlık ve 60 dakika geçerli.
+
+        **Sıfırlama sonrası tüm eski oturumlar kapanır.** Şifre sıfırlamanın
+        en yaygın sebebi hesabın ele geçirilmiş olmasıdır; eski token'ları
+        geçerli bırakmak saldırganı içeride tutmak demektir.
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, token, password]
+              properties:
+                email: { type: string, format: email }
+                token: { type: string }
+                password: { type: string, minLength: 8 }
+      responses:
+        '200':
+          description: Şifre değişti, yeni oturum açıldı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [token, user]
+                    properties:
+                      token: { type: string }
+                      user: { $ref: '#/components/schemas/User' }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '422': { $ref: '#/components/responses/Error' }
+        '429': { $ref: '#/components/responses/Error' }
+
+  /v1/auth/email/verify/{id}/{hash}:
+    get:
+      tags: [Kimlik]
+      summary: E-posta doğrulama bağlantısı
+      description: |
+        Kullanıcının e-posta istemcisinden tıkladığı imzalı bağlantı.
+        İmza ve süre `signed` middleware'inde denetlenir; bağlantı
+        değiştirilirse ya da 24 saat geçerse buraya hiç girilmez.
+
+        Hash kullanıcının **o anki** e-postasından üretilir: adres
+        değişirse eski bağlantı geçersiz olur.
+      security: []
+      parameters:
+        - { name: id, in: path, required: true, schema: { type: integer } }
+        - { name: hash, in: path, required: true, schema: { type: string } }
+      responses:
+        '200':
+          description: Doğrulandı
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [verified]
+                    properties:
+                      verified: { type: boolean }
+                  meta: { $ref: '#/components/schemas/Meta' }
+        '403': { $ref: '#/components/responses/Error' }
+        '422': { $ref: '#/components/responses/Error' }
+        '429': { $ref: '#/components/responses/Error' }
+
   /v1/auth/social:
     post:
       tags: [Kimlik]

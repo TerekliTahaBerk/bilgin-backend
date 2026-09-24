@@ -6,12 +6,15 @@ namespace App\Modules\Identity\Infrastructure\Eloquent\Model;
 
 use App\Modules\Curriculum\Infrastructure\Eloquent\Model\ExamVariant;
 use Carbon\CarbonImmutable;
+use Illuminate\Auth\Passwords\CanResetPassword;
+use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
 use Laravel\Sanctum\HasApiTokens;
 use Laravel\Sanctum\PersonalAccessToken;
@@ -70,9 +73,13 @@ use Laravel\Sanctum\PersonalAccessToken;
  *
  * @mixin \Eloquent
  */
-final class User extends Authenticatable
+final class User extends Authenticatable implements CanResetPasswordContract
 {
-    use HasApiTokens, HasUuids, SoftDeletes;
+    // Notifiable ve CanResetPassword, e-posta doğrulama ile şifre sıfırlama
+    // bildirimlerinin gönderilebilmesi için. Misafir kullanıcılarda e-posta
+    // null olduğu için bildirim gönderilmiyor; ikisi de yalnızca kalıcı
+    // hesaplarda devreye giriyor.
+    use CanResetPassword, HasApiTokens, HasUuids, Notifiable, SoftDeletes;
 
     protected $fillable = [
         'uuid', 'name', 'email', 'email_verified_at', 'password', 'avatar_key',

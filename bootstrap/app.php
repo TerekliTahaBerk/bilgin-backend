@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use App\Modules\Identity\Domain\Exception\EmailAuthException;
 use App\Modules\Learning\Domain\Exception\LearningException;
 use App\Shared\Http\ApiResponse;
 use App\Shared\Http\Middleware\OptionalAuthentication;
@@ -42,6 +43,13 @@ return Application::configure(basePath: dirname(__DIR__))
         // Oyun döngüsünün beklenen hataları API hata zarfına çevrilir;
         // istemci koda göre dallanır (can bitti modalı, kilit uyarısı...).
         $exceptions->render(function (LearningException $e) {
+            return ApiResponse::error($e->errorCode, $e->getMessage(), $e->status, $e->details);
+        });
+
+        // E-posta kimliğinin beklenen hataları. Ayrı kodlar olması şart:
+        // istemci "e-posta zaten var" ile "ilerlemen kaybolacak" durumlarında
+        // bambaşka ekranlar göstermeli.
+        $exceptions->render(function (EmailAuthException $e) {
             return ApiResponse::error($e->errorCode, $e->getMessage(), $e->status, $e->details);
         });
     })->create();

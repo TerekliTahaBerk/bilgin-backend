@@ -46,6 +46,20 @@ CACHE_STORE=database
 LOG_CHANNEL=stderr
 LOG_LEVEL=warning
 
+# --- E-posta gönderimi (kayıt doğrulama + şifre sıfırlama) --------------
+# Bunlar ayarlanmadan kayıt ÇALIŞIR ama doğrulama ve şifre sıfırlama
+# e-postaları gitmez. Kayıt, posta gönderilemezse bile başarılı sayılıyor:
+# sağlayıcı kesintisi yüzünden kaydolamamak, doğrulanmamış bir hesaptan
+# çok daha kötü.
+MAIL_MAILER=smtp
+MAIL_HOST=
+MAIL_PORT=587
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_SCHEME=tls
+MAIL_FROM_ADDRESS=merhaba@cryptoping.io
+MAIL_FROM_NAME=Tekrarla
+
 # --- Sağlayıcı sırları (boşken ilgili özellik KAPALIDIR) ----------------
 REVENUECAT_WEBHOOK_SECRET=
 APPLE_AUDIENCES=
@@ -219,6 +233,7 @@ curl -s -X POST https://bilginbackend.cryptoping.io/api/admin/v1/auth/login \
 | Apple/Google audience | Boşsa sosyal giriş kapalı | Misafir giriş yeterliyse hayır |
 | AdMob | Ödüllü reklam çalışmaz | Hayır |
 | Sentry | Kurulu değil; hatalar yalnızca log'da | Hayır ama önerilir |
+| E-posta gönderimi | `MAIL_*` boş — doğrulama/sıfırlama gitmez | **Şifre sıfırlama için evet** |
 | KVKK metinleri | Yok | **LGS/18 yaş altı için evet** |
 | Yedekleme | Coolify'dan ayarlanmalı | **Evet** |
 
