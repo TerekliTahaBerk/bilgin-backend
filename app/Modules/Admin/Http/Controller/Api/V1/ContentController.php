@@ -274,6 +274,9 @@ final class ContentController extends AdminController
             'topics' => $report->topicCount,
             'nodes' => $report->nodeCount,
             'exercises' => $report->exerciseCount,
+            // Editör "40 soru yükledim, 0 yazıyor" görmemeli: ikisi ayrı
+            // bilgi. Var olan paketi tekrar yüklemek 40 işler, 0 ekler.
+            'exercises_created' => $report->createdCount,
         ], 201);
     }
 

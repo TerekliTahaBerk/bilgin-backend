@@ -50,13 +50,16 @@ final readonly class ImportContentPackage
 
             $topicIds = $this->upsertTopics($subject->id, $package['topics']);
             $unit = $this->upsertUnit($package, array_values($topicIds));
-            $imported = $this->upsertExercises($package['exercises'], $topicIds, $course->id, $unit->id);
+            [$processed, $created] = $this->upsertExercises(
+                $package['exercises'], $topicIds, $course->id, $unit->id
+            );
 
             return new ImportReport(
                 unitId: $unit->id,
                 unitTitle: $unit->title,
                 topicCount: count($topicIds),
-                exerciseCount: $imported,
+                exerciseCount: $processed,
+                createdCount: $created,
                 nodeCount: $unit->nodes()->count(),
             );
         });
@@ -165,10 +168,12 @@ final readonly class ImportContentPackage
     /**
      * @param  list<array<string, mixed>>  $exercises
      * @param  array<string, int>  $topicIds
+     * @return array{0: int, 1: int} [işlenen, yeni eklenen]
      */
-    private function upsertExercises(array $exercises, array $topicIds, int $courseId, int $unitId): int
+    private function upsertExercises(array $exercises, array $topicIds, int $courseId, int $unitId): array
     {
-        $count = 0;
+        $processed = 0;
+        $created = 0;
 
         foreach ($exercises as $exercise) {
             $topicId = $topicIds[$exercise['topic']]
@@ -177,7 +182,20 @@ final readonly class ImportContentPackage
             // İdempotent anahtar: aynı konu + tip + soru gövdesi ikinci kez eklenmez.
             $fingerprint = hash('sha256', $topicId.$exercise['type'].json_encode($exercise['content']));
 
-            Exercise::query()->updateOrCreate(
+            /*
+             | VAR OLAN SORUYA DOKUNULMUYOR.
+             |
+             | Paket bir TOHUM, içe aktarıldıktan sonra doğruluk kaynağı
+             | panel oluyor. Güncelleseydik her dağıtım, editörün paneldeki
+             | düzeltmesini geri alır ve arşivlediği soruyu yayına
+             | diriltirdi — üstelik sessizce.
+             |
+             | Bunun bedeli var: pakette düzeltilen bir cevap anahtarı
+             | üretime kendiliğinden inmiyor, panelden düzeltilmesi
+             | gerekiyor. Alternatifin (editörün emeğini ezmek) daha pahalı
+             | olduğuna karar verildi.
+            */
+            $exerciseModel = Exercise::query()->firstOrCreate(
                 ['uuid' => $this->deterministicUuid($fingerprint)],
                 [
                     'topic_id' => $topicId,
@@ -193,10 +211,14 @@ final readonly class ImportContentPackage
                 ],
             );
 
-            $count++;
+            $processed++;
+
+            if ($exerciseModel->wasRecentlyCreated) {
+                $created++;
+            }
         }
 
-        return $count;
+        return [$processed, $created];
     }
 
     /** Parmak izinden türetilen kararlı UUID — seeder tekrar çalışsa da çoğalmaz. */

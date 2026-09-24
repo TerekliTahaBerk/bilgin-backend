@@ -147,8 +147,15 @@ bunlar olmadan çalışamaz: hem `POST /exercises` hem `POST /units` var olan
 bir `topic_id` istiyor.
 
 **Soruları da yükler.** `database/content` altındaki paketler
-(`ContentPackageSeeder`) — şu an 10 ünite, ~390 soru. Soru tablosu doluysa
-çalışmaz, yani panelden girilen içeriği ezmez.
+(`ContentPackageSeeder`) — şu an 10 ünite, 388 soru. Klasör HER AÇILIŞTA
+taranıyor, "tablo boşsa" değil: tablo kapısı, ilk dağıtımdan sonra eklenen
+paketlerin üretime hiç ulaşmamasına yol açıyordu.
+
+Güvenli, çünkü içe aktarma yalnızca EKLİYOR. Var olan bir sorunun
+içeriğine, durumuna ve panelde yapılmış düzeltmesine dokunmuyor; arşivlenen
+soru da yayına dönmüyor. Bunun bedeli: pakette düzeltilen bir cevap anahtarı
+üretime kendiliğinden inmez, panelden düzeltilmesi gerekir. Alternatifi
+(editörün emeğini her dağıtımda ezmek) daha pahalıydı.
 
 Paketler `ContentPackageTest` ile sınanıyor: konu kodları kanonik mi,
 ünite yayın kapısından geçiyor mu, her sorunun açıklaması var mı. Üretime

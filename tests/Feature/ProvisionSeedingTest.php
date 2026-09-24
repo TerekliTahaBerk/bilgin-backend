@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use App\Console\Commands\ProvisionCommand;
+use App\Modules\Catalog\Database\Seeders\ContentPackageSeeder;
 use App\Modules\Catalog\Database\Seeders\TopicSeeder;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Support\Facades\DB;
@@ -27,11 +28,44 @@ function structureSeeders(): array
 
 it('her seeder gerçek bir tabloya işaret eder', function (): void {
     // Yazım hatası olan bir tablo adı sessizce "tablo yok, atlandı" derdi
-    // ve o seeder hiç çalışmazdı.
+    // ve o seeder hiç çalışmazdı. `null` bilinçli: "her açılışta çalıştır".
     foreach (structureSeeders() as $seeder => $table) {
+        if ($table === null) {
+            continue;
+        }
+
         expect(Schema::hasTable($table))
             ->toBeTrue("{$seeder} → '{$table}' tablosu yok");
     }
+});
+
+it('İÇERİK her açılışta taranır — sonradan eklenen paket de iner', function (): void {
+    // Tablo kapısı, ilk dağıtımdan sonra eklenen paketlerin üretime hiç
+    // ulaşmamasına yol açıyordu. Altı paket tam bu yüzden inmedi ve bu
+    // ancak canlıda fark edildi.
+    expect(structureSeeders()[ContentPackageSeeder::class])
+        ->toBeNull();
+});
+
+it('dolu bir veritabanına yeni paket eklenebilir', function (): void {
+    $this->seed(DatabaseSeeder::class);
+
+    $before = DB::table('exercises')->count();
+    expect($before)->toBeGreaterThan(0);
+
+    // Var olan sorulardan birini arşivle: yeniden içe aktarma onu
+    // DİRİLTMEMELİ, yoksa editörün kararı sessizce geri alınır.
+    $victim = DB::table('exercises')->orderBy('id')->first();
+    DB::table('exercises')->where('id', $victim->id)->update(['status' => 'archived']);
+
+    $this->artisan('db:seed', [
+        '--class' => ContentPackageSeeder::class,
+        '--force' => true,
+    ])->assertSuccessful();
+
+    expect(DB::table('exercises')->count())->toBe($before)
+        ->and(DB::table('exercises')->where('id', $victim->id)->value('status'))
+        ->toBe('archived');
 });
 
 it('her seeder sınıfı var', function (): void {

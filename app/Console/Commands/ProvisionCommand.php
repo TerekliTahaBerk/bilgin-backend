@@ -56,7 +56,10 @@ final class ProvisionCommand extends Command
      *
      * Soru tablosu doluysa çalışmaz; panelden girilen içeriği ezmez.
      *
-     * @var array<class-string<Seeder>, string>
+     * Tablo adı yerine `null` yazmak "HER AÇILIŞTA çalıştır" demek.
+     * Yalnızca eklemeli ve var olan veriye dokunmayan seeder'lar için.
+     *
+     * @var array<class-string<Seeder>, string|null>
      */
     private const STRUCTURE_SEEDERS = [
         YksExamSeeder::class => 'exams',
@@ -69,7 +72,17 @@ final class ProvisionCommand extends Command
         YksBlueprintSeeder::class => 'exam_blueprints',
         UnitTemplateSeeder::class => 'unit_templates',
         BadgeSeeder::class => 'badges',
-        ContentPackageSeeder::class => 'exercises',
+        /*
+         | İçerik HER AÇILIŞTA taranıyor, "exercises boşsa" değil.
+         |
+         | Tablo kapısı, ilk dağıtımdan sonra eklenen paketlerin üretime
+         | HİÇ ulaşmamasına yol açıyordu — altı yeni paket tam bu yüzden
+         | inmedi ve bu ancak canlıda fark edildi.
+         |
+         | Güvenli, çünkü içe aktarma yalnızca EKLİYOR: var olan sorunun
+         | içeriğine, durumuna ve panelde yapılmış düzeltmelere dokunmuyor.
+        */
+        ContentPackageSeeder::class => null,
     ];
 
     public function handle(): int
@@ -246,6 +259,18 @@ final class ProvisionCommand extends Command
 
         foreach (self::STRUCTURE_SEEDERS as $seeder => $table) {
             $name = class_basename($seeder);
+
+            if ($table === null) {
+                $ran = true;
+
+                $this->components->task($name, function () use ($seeder): bool {
+                    $this->callSilent('db:seed', ['--class' => $seeder, '--force' => true]);
+
+                    return true;
+                });
+
+                continue;
+            }
 
             if (! Schema::hasTable($table)) {
                 $this->components->twoColumnDetail($name, '<fg=yellow>tablo yok, atlandı</>');
