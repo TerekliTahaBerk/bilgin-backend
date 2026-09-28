@@ -6,6 +6,7 @@ namespace App\Modules\Learning\Application\UseCase;
 
 use App\Modules\Catalog\Domain\Enum\NodeType;
 use App\Modules\Catalog\Infrastructure\Eloquent\Model\UnitNode;
+use App\Modules\Gamification\Domain\Xp\LevelCurve;
 use App\Modules\Learning\Infrastructure\Eloquent\Model\ReviewQueueItem;
 use App\Modules\Learning\Infrastructure\Eloquent\Model\SessionItem;
 use App\Modules\Learning\Infrastructure\Eloquent\Model\StudySession;
@@ -26,7 +27,10 @@ use Illuminate\Support\Facades\DB;
  */
 final readonly class UpdateProgress
 {
-    public function __construct(private ClockInterface $clock) {}
+    public function __construct(
+        private ClockInterface $clock,
+        private LevelCurve $levels,
+    ) {}
 
     public function __invoke(
         StudySession $session,
@@ -123,6 +127,24 @@ final readonly class UpdateProgress
         return $progress;
     }
 
+    /**
+     * Ders toplamlarını XP defterinden yeniden okur.
+     *
+     * AYRI bir metot ve oturum tamamlanırken İKİNCİ kez çağrılıyor: XP,
+     * ilerleme yazıldıktan SONRA deftere işleniyor, dolayısıyla ilk geçişte
+     * bu turun XP'si henüz orada değil. Tek geçiş bıraksaydık ders XP'si
+     * daima bir tur geriden gelirdi ve ders listesindeki sayı, tur sonu
+     * ekranında görülen sayıyla çelişirdi.
+     */
+    public function refreshCourseTotals(StudySession $session): void
+    {
+        if ($session->course_id === null) {
+            return;
+        }
+
+        $this->recalculateCourse($session);
+    }
+
     private function recalculateCourse(StudySession $session): void
     {
         $totalUnits = DB::table('units')
@@ -145,6 +167,11 @@ final readonly class UpdateProgress
             ['user_id' => $session->user_id, 'course_id' => $session->course_id],
             [
                 'xp' => $xp,
+                // Ders seviyesi, hesabın genel seviyesiyle AYNI eğriden
+                // türer ama yalnızca o dersin XP'siyle. İki ayrı eğri
+                // kullanmak, "Level 6" ifadesinin iki ekranda iki farklı
+                // anlama gelmesi demekti.
+                'level' => $this->levels->levelFor($xp),
                 'completed_units' => $completedUnits,
                 'total_units' => $totalUnits,
                 'last_studied_at' => $this->clock->now(),

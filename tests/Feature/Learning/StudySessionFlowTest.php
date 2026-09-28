@@ -87,6 +87,23 @@ it('oturum başlatır ve cevap anahtarını ASLA sızdırmaz', function (): void
         ->and($response->getContent())->not->toContain('correct_option_id');
 });
 
+it('turun künyesini döner — hangi ders, hangi ünite, kaçıncı adım', function (): void {
+    $context = $this->withToken($this->token)
+        ->postJson('/api/v1/sessions', ['node_id' => $this->node->id])
+        ->assertCreated()
+        ->json('data.context');
+
+    // Arayüz "TARİH · TUR 2" çipini bu üç parçadan kuruyor. Hazır bir dize
+    // göndermiyoruz: aynı veriyi çip kısa, erişilebilirlik etiketi uzun
+    // biçimde gösteriyor.
+    $course = Course::query()->where('code', 'tyt_tarih')->firstOrFail();
+
+    expect($context['course_name'])->toBe($course->short_name ?? $course->name)
+        ->and($context['node_title'])->toBe($this->node->title)
+        ->and($context['unit_title'])->toBe($this->node->unit->title)
+        ->and($context['position'])->toBe($this->node->sort_order);
+});
+
 it('aynı idempotency anahtarıyla ikinci tur açmaz', function (): void {
     $first = startSession(key: 'ayni-anahtar');
     $second = startSession(key: 'ayni-anahtar');
@@ -206,6 +223,61 @@ it('tamamlanan tur yolu açar ve ilerlemeyi yazar', function (): void {
     expect($nodes[0]['state'])->toBe('completed')
         ->and($nodes[1]['state'])->toBe('available')   // artık kilitli değil
         ->and($path['units'][0]['completed_nodes'])->toBe(1);
+});
+
+it('tamamlanan tur ders listesindeki ilerlemeye yansır', function (): void {
+    // Başlamadan önce ilerleme alanı HİÇ gönderilmiyor: "Level 1 · 0/0"
+    // yazmak, başlanmamış bir dersi başlanmış gibi gösterirdi.
+    $before = collect($this->withToken($this->token)
+        ->getJson('/api/v1/me/courses')->json('data.sections.0.courses'))
+        ->firstWhere('code', 'tyt_tarih');
+
+    expect($before)->not->toHaveKey('progress');
+
+    $sessionId = startSession();
+    foreach (sessionItems($sessionId) as $item) {
+        answerCorrectly($sessionId, $item);
+    }
+    $this->withToken($this->token)->postJson("/api/v1/sessions/{$sessionId}/complete");
+
+    $after = collect($this->withToken($this->token)
+        ->getJson('/api/v1/me/courses')->json('data.sections.0.courses'))
+        ->firstWhere('code', 'tyt_tarih');
+
+    expect($after['progress']['xp'])->toBeGreaterThan(0)
+        ->and($after['progress']['level'])->toBeGreaterThanOrEqual(1)
+        ->and($after['progress']['total_units'])->toBeGreaterThan(0);
+
+    // Çalışılmayan ders etkilenmiyor.
+    $other = collect($this->withToken($this->token)
+        ->getJson('/api/v1/me/courses')->json('data.sections.0.courses'))
+        ->firstWhere('code', 'tyt_matematik');
+
+    expect($other)->not->toHaveKey('progress');
+});
+
+it('ders XP\'si bir tur GERİDEN gelmez', function (): void {
+    // Regresyon: ilerleme, XP defterine yazılmadan ÖNCE hesaplanıyordu.
+    // Sonuç: ders listesindeki XP, tur sonu ekranında görülen XP'den
+    // hep bir tur eksik kalıyordu.
+    $sessionId = startSession();
+    foreach (sessionItems($sessionId) as $item) {
+        answerCorrectly($sessionId, $item);
+    }
+
+    $awarded = $this->withToken($this->token)
+        ->postJson("/api/v1/sessions/{$sessionId}/complete")
+        ->json('data.xp.total');
+
+    $course = Course::query()->where('code', 'tyt_tarih')->firstOrFail();
+    $row = DB::table('user_course_progress')
+        ->where('course_id', $course->id)
+        ->first();
+
+    expect($awarded)->toBeGreaterThan(0)
+        ->and((int) $row->xp)->toBe($awarded)
+        // Ders seviyesi de yazılıyor; hiç hesaplanmadığı için 1'de kalıyordu.
+        ->and((int) $row->level)->toBeGreaterThanOrEqual(1);
 });
 
 it('yanlışlar tekrar kuyruğuna düşer', function (): void {

@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace App\Modules\Learning\Infrastructure\Eloquent\Model;
 
+use App\Modules\Catalog\Infrastructure\Eloquent\Model\UnitNode;
 use Carbon\CarbonImmutable;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Carbon;
 
@@ -36,6 +38,7 @@ use Illuminate\Support\Carbon;
  * @property int|null $exam_blueprint_id
  * @property numeric|null $net
  * @property numeric|null $estimated_score
+ * @property-read UnitNode|null $node
  * @property-read Collection<int, SessionItem> $items
  * @property-read int|null $items_count
  *
@@ -111,6 +114,21 @@ final class StudySession extends Model
     public function items(): HasMany
     {
         return $this->hasMany(SessionItem::class)->orderBy('position');
+    }
+
+    /**
+     * Turun ait olduğu adım.
+     *
+     * Learning'in Catalog'a bakması burada meşru: oturum zaten bir node'un
+     * kopyası olarak doğuyor (StartStudySession node'u okuyor) ve arayüzün
+     * "hangi turdayım" sorusuna cevap verebilmesi için adımın adı gerekiyor.
+     * Deneme oturumlarında null.
+     *
+     * @return BelongsTo<UnitNode, $this>
+     */
+    public function node(): BelongsTo
+    {
+        return $this->belongsTo(UnitNode::class, 'unit_node_id');
     }
 
     /**

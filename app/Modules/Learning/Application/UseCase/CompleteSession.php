@@ -116,6 +116,11 @@ final readonly class CompleteSession
             $session->xp_awarded = $xp->award->total;
             $session->save();
 
+            // XP defterine yeni yazıldı; ders toplamları onu görsün diye
+            // ilerleme BURADA tazeleniyor. Yukarıdaki ilk geçiş node ve
+            // ünite durumunu kuruyor, bu geçiş dersin XP'sini ve seviyesini.
+            ($this->updateProgress)->refreshCourseTotals($session);
+
             // Rozetler XP ve ilerleme yazıldıktan SONRA değerlendirilir;
             // "İlk Ünite" rozetinin o turda kazanılması buna bağlı.
             $newBadges = ($this->evaluateBadges)($userId);

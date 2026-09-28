@@ -37,6 +37,11 @@ final class StudySessionController extends ApiController
             idempotencyKey: $request->header('Idempotency-Key'),
         ));
 
+        // Künye (ders · ünite · adım) için gereken ilişkiler burada bir kez
+        // yükleniyor; kaynak sınıfı içinde okunsaydı her alan ayrı sorgu
+        // açardı.
+        $session->loadMissing('node.unit.course');
+
         return ApiResponse::data(
             SessionResource::toArray($session, $hearts->balanceFor($userId)),
             201,

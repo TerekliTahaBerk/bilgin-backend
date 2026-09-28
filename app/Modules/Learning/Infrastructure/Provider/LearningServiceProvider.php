@@ -18,9 +18,11 @@ use App\Modules\Learning\Domain\Grading\Grader\OrderingGrader;
 use App\Modules\Learning\Domain\Grading\Grader\TrueFalseGrader;
 use App\Modules\Learning\Domain\Grading\Grader\WordOrderGrader;
 use App\Modules\Learning\Domain\Grading\GraderRegistry;
+use App\Modules\Learning\Infrastructure\Eloquent\Repository\EloquentCourseProgressReader;
 use App\Modules\Learning\Infrastructure\Eloquent\Repository\EloquentLearningStatsReader;
 use App\Modules\Learning\Infrastructure\Eloquent\Repository\EloquentProgressReader;
 use App\Modules\Learning\Infrastructure\Eloquent\Repository\EloquentReviewQueueReader;
+use App\Shared\Domain\Learner\CourseProgressReader;
 use App\Shared\Domain\Learner\LearningStatsReader;
 use App\Shared\Http\ModuleRoutes;
 use Illuminate\Contracts\Foundation\Application;
@@ -70,6 +72,7 @@ final class LearningServiceProvider extends ServiceProvider
         // Gamification rozet değerlendirmesi için bu özeti okur;
         // Learning'in tablolarına doğrudan dokunmaz.
         $this->app->bind(LearningStatsReader::class, EloquentLearningStatsReader::class);
+        $this->app->bind(CourseProgressReader::class, EloquentCourseProgressReader::class);
     }
 
     public function boot(): void

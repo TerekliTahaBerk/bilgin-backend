@@ -38,7 +38,7 @@ final class LearnerCourseController extends ApiController
         $variant = ExamVariant::query()->findOrFail($learner->primaryExamVariantId);
 
         return ApiResponse::data(LearnerCoursesResource::toArray(
-            $getCourses($variant, $entitlements->for($userId)->premium)
+            $getCourses($variant, $entitlements->for($userId)->premium, $userId)
         ));
     }
 }

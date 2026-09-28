@@ -103,25 +103,27 @@ Tüm GET'lerde `ETag` + `Cache-Control`; istemci `If-None-Match` ile 304 alır.
   "exam_variant":{"code":"yks_say","name":"YKS · Sayısal"},
   "sections":[
     {"code":"tyt","name":"TYT","courses":[
-      {"id":12,"code":"tyt_tarih","name":"Tarih","color":"#14976B","icon":"...",
-       "level":6,"xp":650,"completed_units":2,"total_units":8,"access":"free"},
-      {"id":11,"code":"tyt_matematik","name":"Matematik","level":5,
-       "completed_units":3,"total_units":9,"access":"free"},
+      {"id":12,"code":"tyt_tarih","name":"Tarih","full_name":"TYT Tarih",
+       "color":"#14976B","icon":"scroll","scope":"tyt","access":"free",
+       "progress":{"level":6,"xp":650,"completed_units":2,"total_units":8}},
       {"id":18,"code":"tyt_din","name":"Din Kültürü","access":"premium",
        "locked":true,"lock_reason":"PREMIUM_REQUIRED"}]},
     {"code":"ayt","name":"AYT","courses":[
-      {"id":31,"code":"ayt_matematik","name":"Matematik","level":1,
-       "completed_units":0,"total_units":2,"access":"free"},
-      {"id":32,"code":"ayt_fizik","name":"Fizik","status":"coming_soon",
+      {"id":31,"code":"ayt_matematik","name":"Matematik","access":"free"},
+      {"id":32,"code":"ayt_fizik","name":"Fizik","coming_soon":true,
        "placeholder_label":"Yakında"}]}]}}
 ```
+
+**`progress` yalnızca ÇALIŞILMIŞ derslerde gelir.** Hiç turu tamamlanmamış
+derste alan hiç gönderilmiyor — "level 1 · 0/0 ünite" yazmak, başlanmamış bir
+dersi başlanmış gibi gösterirdi. `level`, hesabın genel seviyesiyle aynı
+eğriden ama yalnızca o dersin XP'siyle hesaplanır.
 
 ```jsonc
 // GET /v1/courses/12/path
 {"data":{
-  "course":{"id":12,"code":"tyt_tarih","name":"TYT Tarih","color":"#14976B",
-            "level":6,"xp":650,"completed_units":2,"total_units":8,
-            "path_strategy":"grade_aware"},
+  "course":{"id":12,"code":"tyt_tarih","name":"TYT Tarih",
+            "completed_units":2,"total_units":8},
   "units":[
     {"id":101,"title":"Tarih ve Zaman","order":1,"completion_percent":100,
      "state":"completed","completed_nodes":3,"total_nodes":3,
@@ -174,9 +176,11 @@ Idempotency-Key: 0b7f...
 
 → 201
 {"data":{
-  "session_id":"9f1c-...","node":{"id":1010,"title":"Kronolojik Sırala","type":"study"},
-  "consumes_hearts":true,"hearts":5,"time_limit_sec":null,
+  "session_id":"9f1c-...","kind":"study","node_id":1010,
+  "consumes_hearts":true,"hearts":{"hearts":5,"max":5},"time_limit_sec":null,
   "expires_at":"2026-09-14T10:30:00+03:00",
+  "context":{"course_name":"Tarih","unit_title":"İlk ve Orta Çağlarda Türk Dünyası",
+             "node_title":"Kronolojik Sırala","position":2},
   "items":[
     {"position":1,"exercise_id":"e-771","type":"multiple_choice",
      "content":{"stem":"Orhun Yazıtları hangi Türk devletine aittir?",
@@ -203,14 +207,20 @@ Idempotency-Key: 3d2a-...
   "is_correct":true,"partial_score":1.0,
   "correct_answer":{"option_id":"b"},
   "explanation":"Göktürk alfabesiyle yazıldı.",
-  "xp_delta":10,"hearts":5,"combo":3,
+  "hearts":{"hearts":5,"max":5},
   "progress":{"answered":1,"total":7}}}
 
 // yanlışta
 {"data":{"is_correct":false,"correct_answer":{"option_id":"b"},
-         "explanation":"...","xp_delta":0,"hearts":4,"combo":0,
-         "hearts_depleted":false}}
+         "explanation":"...","hearts":{"hearts":4,"max":5},
+         "progress":{"answered":1,"total":7}}}
 ```
+
+**`xp_delta` ve `combo` YOK.** XP cevap başına değil tur SONUNDA hesaplanıyor
+(`POST /sessions/{id}/complete` → `xp.breakdown`); cevap başına bir değer
+göndermek, toplamı tutmayan iki sayı üretirdi. Üst üste doğru sayacı
+istemcide tutuluyor: tur içi bir gösterge, hiçbir ödülü etkilemiyor ve
+doğrulanması gereken bir değer değil.
 
 Cevap formatları tipe göre: `{"option_id":"b"}` · `{"blanks":["Töre"]}` ·
 `{"pairs":{"1":"x","2":"y"}}` · `{"order":["1","2","3"]}` · `{"value":42}` ·

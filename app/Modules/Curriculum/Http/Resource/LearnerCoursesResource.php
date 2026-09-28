@@ -56,6 +56,14 @@ final readonly class LearnerCoursesResource
             'placeholder_label' => $view->placeholderLabel,
             'locked' => $view->locked ?: null,
             'lock_reason' => $view->lockReason(),
+            // Hiç çalışılmamış derste alan HİÇ gönderilmiyor; arayüz
+            // "yeni" ile "başlanmış" ayrımını alanın varlığından yapıyor.
+            'progress' => $view->progress === null ? null : [
+                'level' => $view->progress->level,
+                'xp' => $view->progress->xp,
+                'completed_units' => $view->progress->completedUnits,
+                'total_units' => $view->progress->totalUnits,
+            ],
         ], static fn ($v): bool => $v !== null);
     }
 }
