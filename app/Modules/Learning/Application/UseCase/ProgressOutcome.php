@@ -11,6 +11,14 @@ final readonly class ProgressOutcome
         public bool $isFirstCompletion,
         public bool $nodeCompleted,
         public int $unitCompletionPercent,
+        /**
+         * Bu turdan ÖNCEKİ ünite yüzdesi.
+         *
+         * Tur sonu ekranı "%35 → %46" diyor. Tek sayı göstermek, kullanıcıya
+         * o turda ne kadar ilerlediğini değil yalnızca nerede olduğunu
+         * söylerdi; ilerlemenin görünmesi kutlamanın asıl konusu.
+         */
+        public int $unitCompletionPercentBefore,
         public bool $unitCompleted,
         public array $unlockedNodeIds,
     ) {}

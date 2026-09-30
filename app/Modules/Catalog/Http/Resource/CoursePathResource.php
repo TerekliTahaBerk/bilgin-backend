@@ -7,15 +7,18 @@ namespace App\Modules\Catalog\Http\Resource;
 use App\Modules\Catalog\Application\UseCase\CoursePathView;
 use App\Modules\Catalog\Application\UseCase\NodePathView;
 use App\Modules\Catalog\Application\UseCase\UnitPathView;
+use App\Shared\Domain\Learner\CourseProgress;
 
 /** Tasarımın imza ekranı: ünite yolu. */
 final readonly class CoursePathResource
 {
     /** @return array<string, mixed> */
-    public static function toArray(CoursePathView $view): array
-    {
+    public static function toArray(
+        CoursePathView $view,
+        ?CourseProgress $progress = null,
+    ): array {
         return [
-            'course' => [
+            'course' => array_filter([
                 'id' => $view->course->id,
                 'code' => $view->course->code,
                 'name' => $view->course->name,
@@ -25,7 +28,14 @@ final readonly class CoursePathResource
                 'completed_units' => $view->completedUnits(),
                 'total_units' => count($view->units),
                 'path_strategy' => $view->pathStrategy,
-            ],
+                // Yol başlığı "Level 6 · 650 XP" yazıyor. Hiç çalışılmamış
+                // derste alan gönderilmiyor; başlık yalnızca ders adını
+                // gösteriyor.
+                'progress' => $progress === null ? null : [
+                    'level' => $progress->level,
+                    'xp' => $progress->xp,
+                ],
+            ], static fn ($v): bool => $v !== null),
             'units' => array_map(self::unit(...), $view->units),
         ];
     }

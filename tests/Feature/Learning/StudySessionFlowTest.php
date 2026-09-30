@@ -280,6 +280,22 @@ it('ders XP\'si bir tur GERİDEN gelmez', function (): void {
         ->and((int) $row->level)->toBeGreaterThanOrEqual(1);
 });
 
+it('ünite ilerlemesini ÖNCE ve SONRA olarak bildirir', function (): void {
+    // Tur sonu ekranı "%0 → %33" diyor; tek sayı, o turda ne kadar
+    // ilerlendiğini değil yalnızca nerede olunduğunu söylerdi.
+    $sessionId = startSession();
+    foreach (sessionItems($sessionId) as $item) {
+        answerCorrectly($sessionId, $item);
+    }
+
+    $unit = $this->withToken($this->token)
+        ->postJson("/api/v1/sessions/{$sessionId}/complete")
+        ->json('data.unit');
+
+    expect($unit['completion_percent_before'])->toBe(0)
+        ->and($unit['completion_percent'])->toBeGreaterThan(0);
+});
+
 it('yanlışlar tekrar kuyruğuna düşer', function (): void {
     $sessionId = startSession();
     $items = sessionItems($sessionId);

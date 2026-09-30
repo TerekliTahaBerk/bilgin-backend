@@ -80,6 +80,21 @@ it('belirsiz alan geçerli bir varyanttır', function (): void {
         ->and($courses[0]['courses'])->toHaveCount(9);
 });
 
+it('sınav ve alan seçeneklerini tek yanıtta verir', function (): void {
+    $token = guestToken();
+
+    $exams = $this->withToken($token)->getJson('/api/v1/exams')
+        ->assertOk()
+        ->json('data.exams');
+
+    // Uygulama listeyi sabit yazmıyor: LGS açıldığında mağaza
+    // güncellemesi beklemeden görünmeli.
+    expect($exams)->toHaveCount(1)
+        ->and($exams[0]['code'])->toBe('yks')
+        ->and(collect($exams[0]['variants'])->pluck('field')->all())
+        ->toContain('say', 'ea', 'soz');
+});
+
 it('ders listesini oturum sekmelerine göre gruplar', function (): void {
     $token = guestToken();
     $this->withToken($token)->postJson('/api/v1/onboarding', ['exam_code' => 'yks', 'field' => 'say']);

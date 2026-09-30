@@ -59,6 +59,8 @@ final readonly class UpdateProgress
             'last_attempt_at' => $now,
         ])->save();
 
+        // Önceki yüzde, yeniden hesaplamadan ÖNCE okunuyor.
+        $percentBefore = $this->unitPercent($session);
         $unit = $this->recalculateUnit($session);
         $this->recalculateCourse($session);
         $this->updateTopicStats($session);
@@ -68,6 +70,7 @@ final readonly class UpdateProgress
             isFirstCompletion: ! $wasCompleted && $meetsThreshold,
             nodeCompleted: $meetsThreshold,
             unitCompletionPercent: $unit->completion_percent,
+            unitCompletionPercentBefore: $percentBefore,
             unitCompleted: $unit->completed_at !== null,
             unlockedNodeIds: $this->unlockedNodes($session, $node, $meetsThreshold),
         );
@@ -89,9 +92,19 @@ final readonly class UpdateProgress
             isFirstCompletion: false,
             nodeCompleted: false,
             unitCompletionPercent: 0,
+            unitCompletionPercentBefore: 0,
             unitCompleted: false,
             unlockedNodeIds: [],
         );
+    }
+
+    /** Kayıtlı ünite yüzdesi; hiç kayıt yoksa sıfır. */
+    private function unitPercent(StudySession $session): int
+    {
+        return (int) (UserUnitProgress::query()
+            ->where('user_id', $session->user_id)
+            ->where('unit_id', $session->unit_id)
+            ->value('completion_percent') ?? 0);
     }
 
     /** Ünite yüzdesi node'lardan sayılır — ayrı sayaç tutulmaz. */

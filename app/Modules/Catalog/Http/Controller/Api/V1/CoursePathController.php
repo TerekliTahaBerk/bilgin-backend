@@ -11,6 +11,7 @@ use App\Modules\Catalog\Infrastructure\Eloquent\Model\Course;
 use App\Shared\Clock\ClockInterface;
 use App\Shared\Domain\Entitlement\EntitlementReader;
 use App\Shared\Domain\Enum\PublishStatus;
+use App\Shared\Domain\Learner\CourseProgressReader;
 use App\Shared\Domain\Learner\LearnerProfileReader;
 use App\Shared\Http\ApiController;
 use App\Shared\Http\ApiResponse;
@@ -26,6 +27,7 @@ final class CoursePathController extends ApiController
         GetCoursePath $getPath,
         LearnerProfileReader $learners,
         EntitlementReader $entitlements,
+        CourseProgressReader $progress,
         ClockInterface $clock,
     ): JsonResponse {
         if ($course->status !== PublishStatus::Published) {
@@ -43,7 +45,10 @@ final class CoursePathController extends ApiController
         );
 
         return ApiResponse::data(CoursePathResource::toArray(
-            $getPath($course->load('subject'), $userId, $learner)
+            $getPath($course->load('subject'), $userId, $learner),
+            // Catalog, Learning'in tablosunu tanımıyor; arada Shared
+            // sözleşmesi var.
+            $progress->forCourses($userId, [(int) $course->id])[$course->id] ?? null,
         ));
     }
 }

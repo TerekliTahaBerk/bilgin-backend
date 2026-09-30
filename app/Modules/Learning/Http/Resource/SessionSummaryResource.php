@@ -63,6 +63,7 @@ final readonly class SessionSummaryResource
             $payload['unit'] = [
                 'id' => $summary->session->unit_id,
                 'completion_percent' => $summary->progress->unitCompletionPercent,
+                'completion_percent_before' => $summary->progress->unitCompletionPercentBefore,
                 'completed' => $summary->progress->unitCompleted,
             ];
         }

@@ -548,6 +548,56 @@ paths:
         '401': { $ref: '#/components/responses/Unauthorized' }
         '422': { $ref: '#/components/responses/ValidationError' }
 
+  /v1/exams:
+    get:
+      tags: [İçerik]
+      summary: Sınav ve alan kataloğu — kayıt akışının 1. ve 2. adımı
+      description: |
+        Sınavlar ve alanları TEK yanıtta: ikisi arka arkaya iki ekran ve ayrı
+        istek atmak, kullanıcıyı ikinci adımda bir kez daha bekletirdi.
+
+        Uygulama bu listeyi sabit YAZMAZ; LGS açıldığında mağaza güncellemesi
+        beklemeden görünsün diye. Tek sınav döndüğünde istemci o adımı
+        atlar — tek seçenekli bir soru, sorulmamış bir sorudur.
+      responses:
+        '200':
+          description: Etkin sınavlar ve alanları
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [data, meta]
+                properties:
+                  data:
+                    type: object
+                    required: [exams]
+                    properties:
+                      exams:
+                        type: array
+                        items:
+                          type: object
+                          required: [code, name, variants]
+                          properties:
+                            code: { type: string, example: yks }
+                            name: { type: string, example: YKS }
+                            icon: { type: string, nullable: true }
+                            variants:
+                              type: array
+                              items:
+                                type: object
+                                required: [code, name, field]
+                                properties:
+                                  code: { type: string, example: yks_say }
+                                  name: { type: string, example: 'YKS · Sayısal' }
+                                  field:
+                                    type: string
+                                    description: onboarding isteğinde geri gönderilen alan kodu
+                                    enum: [say, ea, soz, dil, undecided]
+                                  description: { type: string, nullable: true }
+                  meta: { type: object }
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
   /v1/me/courses:
     get:
       tags: [İçerik]
