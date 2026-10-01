@@ -37,7 +37,13 @@ final class ContentController extends AdminController
     /** Ünite şablonları — "şablondan ünite oluştur" formunun seçenekleri. */
     public function templates(): JsonResponse
     {
-        $templates = UnitTemplate::query()->orderByDesc('is_default')->get()
+        $templates = UnitTemplate::query()
+            // Alt çizgiyle başlayan kodlar geliştirme şablonu (örn. her
+            // soru tipini içeren test ünitesi). İçerik editörünün ünite
+            // formunda görmesi gereken şeyler değil.
+            ->where('code', 'not like', '\_%')
+            ->orderByDesc('is_default')
+            ->get()
             ->map(fn (UnitTemplate $t): array => [
                 'code' => $t->code,
                 'name' => $t->name,

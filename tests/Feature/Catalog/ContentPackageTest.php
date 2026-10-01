@@ -62,6 +62,46 @@ function contentPackages(): array
     return $packages;
 }
 
+it('geliştirme paketi müfredata SIZMAZ', function (): void {
+    // `_` ile başlayan paketler yalnızca `content:test-paketi` ile
+    // yükleniyor; normal seeder onları atlıyor. Üretimde bir öğrencinin
+    // karşısına "Tüm Soru Tipleri (test)" ünitesi çıkmamalı.
+    $dev = glob(database_path('content/_*.json')) ?: [];
+
+    expect($dev)->not->toBeEmpty('Test paketi silinmiş.');
+
+    foreach ($dev as $path) {
+        $package = json_decode((string) file_get_contents($path), true);
+
+        expect($package['unit']['template'])->toStartWith('_');
+    }
+
+    // Seeder'ın taradığı listede olmamalılar.
+    $seeded = array_values(array_filter(
+        glob(database_path('content/*.json')) ?: [],
+        static fn (string $p): bool => ! str_starts_with(basename($p), '_'),
+    ));
+
+    expect($seeded)->not->toContain(...$dev);
+});
+
+it('test paketi HER soru tipini kapsar', function (): void {
+    // Bu paketin varlık sebebi bu: standart ünitenin ilk node'u yalnızca
+    // çoktan seçmeli ve doğru/yanlış gösteriyor, diğer altı tip
+    // geliştirirken hiç görülmüyordu.
+    $package = json_decode(
+        (string) file_get_contents(database_path('content/_test_tum_tipler.json')),
+        true,
+    );
+
+    $types = array_unique(array_column($package['exercises'], 'type'));
+
+    expect($types)->toContain(
+        'multiple_choice', 'true_false', 'fill_blank', 'matching',
+        'ordering', 'word_order', 'numeric_input', 'flashcard',
+    );
+});
+
 it('içerik klasöründe en az bir paket var', function (): void {
     expect(contentPackages())->not->toBeEmpty();
 });

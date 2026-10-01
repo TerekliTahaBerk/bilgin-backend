@@ -26,7 +26,14 @@ final class ContentPackageSeeder extends Seeder
 {
     public function run(ImportContentPackage $import): void
     {
-        $paths = glob(database_path('content/*.json')) ?: [];
+        // Alt çizgiyle başlayan dosyalar ATLANIYOR: bunlar geliştirme
+        // paketleri (örn. her soru tipini içeren test ünitesi) ve
+        // müfredatta yerleri yok. Üretime kazara inmemeleri için ayrı bir
+        // komutla yükleniyorlar: `php artisan content:test-paketi`.
+        $paths = array_values(array_filter(
+            glob(database_path('content/*.json')) ?: [],
+            static fn (string $path): bool => ! str_starts_with(basename($path), '_'),
+        ));
 
         if ($paths === []) {
             throw new RuntimeException('database/content altında paket yok.');

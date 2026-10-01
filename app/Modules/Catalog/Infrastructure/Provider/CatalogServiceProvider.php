@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Modules\Catalog\Infrastructure\Provider;
 
+use App\Modules\Catalog\Console\ImportTestPackagesCommand;
 use App\Modules\Catalog\Console\ValidateContentCommand;
 use App\Modules\Catalog\Domain\Contract\CourseTopicReader;
 use App\Modules\Catalog\Domain\Contract\ExercisePool;
@@ -109,7 +110,10 @@ final class CatalogServiceProvider extends ServiceProvider
         ModuleRoutes::api(__DIR__.'/../../Routes/api.php');
 
         if ($this->app->runningInConsole()) {
-            $this->commands([ValidateContentCommand::class]);
+            $this->commands([
+                ValidateContentCommand::class,
+                ImportTestPackagesCommand::class,
+            ]);
         }
     }
 }

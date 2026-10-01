@@ -1,0 +1,816 @@
+{
+  "_note": "YALNIZCA GELİŞTİRME. Her soru tipinden node içeren test ünitesi. Dosya adı alt çizgiyle başlıyor; ContentPackageSeeder bunu atlıyor, yalnızca `content:test-paketi` komutu yüklüyor.",
+  "course": "tyt_tarih",
+  "subject": "tarih",
+  "unit": {
+    "title": "Tüm Soru Tipleri (test)",
+    "template": "_tum_tipler",
+    "sort_order": 99,
+    "grade_level": 9,
+    "difficulty_band": "giris",
+    "estimated_minutes": 20,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "ilk_turk_devletleri",
+      "name": "İlk Türk Devletleri"
+    },
+    {
+      "code": "turk_kultur_ve_medeniyeti",
+      "name": "Türk Kültür ve Medeniyeti"
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Göktürk alfabesi kaç harften oluşur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "38"
+          },
+          {
+            "id": "b",
+            "text": "40"
+          },
+          {
+            "id": "c",
+            "text": "32"
+          },
+          {
+            "id": "d",
+            "text": "26"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Göktürk (Orhun) alfabesi 38 harflidir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İlk Türk devleti olarak kabul edilen devlet hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "b",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "c",
+            "text": "Avarlar"
+          },
+          {
+            "id": "d",
+            "text": "Hazarlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Bilinen ilk teşkilatlı Türk devleti Asya Hun Devleti’dir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Türklerin kullandığı ilk takvim hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hicri"
+          },
+          {
+            "id": "b",
+            "text": "Rumi"
+          },
+          {
+            "id": "c",
+            "text": "On İki Hayvanlı Türk Takvimi"
+          },
+          {
+            "id": "d",
+            "text": "Celali"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "On İki Hayvanlı Türk Takvimi, Türklerin kullandığı ilk takvimdir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Talas Savaşı hangi iki güç arasında yapılmıştır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Araplar - Çinliler"
+          },
+          {
+            "id": "b",
+            "text": "Türkler - Moğollar"
+          },
+          {
+            "id": "c",
+            "text": "Bizans - Sasani"
+          },
+          {
+            "id": "d",
+            "text": "Hunlar - Çinliler"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "751 Talas Savaşı Araplarla Çinliler arasında yapıldı; Karluklar Arapların yanında yer aldı."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Uygurlar yerleşik hayata geçen ilk Türk topluluğudur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Uygurlar, şehirler kurarak yerleşik hayata geçen ilk Türk topluluğudur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kurultay yalnızca savaş kararı almak için toplanırdı."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Kurultay devletin her konusunun görüşüldüğü meclistir, yalnızca savaş için değil."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Türklerde \"kut\" anlayışı yönetme yetkisinin Tanrı’dan geldiğini söyler."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Kut, kağanın yönetme yetkisini Tanrı’dan aldığı inancıdır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Orhun Yazıtları Uygur alfabesiyle yazılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Orhun Yazıtları Göktürk alfabesiyle yazılmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türklerde devlet meclisine {{0}} denir.",
+        "choices": [
+          "Kurultay",
+          "Töre",
+          "Yuğ",
+          "Toy"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kurultay"
+        ]
+      },
+      "explanation": "Devlet meclisinin adı Kurultay’dır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Cenaze törenlerine {{0}} adı verilir.",
+        "choices": [
+          "Yuğ",
+          "Toy",
+          "Kut",
+          "Töre"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Yuğ"
+        ]
+      },
+      "explanation": "Cenaze törenine Yuğ denir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İlk Türk devleti {{0}} Devleti’dir.",
+        "choices": [
+          "Asya Hun",
+          "Uygur",
+          "Avar",
+          "Hazar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Asya Hun"
+        ]
+      },
+      "explanation": "Bilinen ilk teşkilatlı Türk devleti Asya Hun Devleti’dir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Göktürk Yazıtları {{0}} döneminde dikilmiştir.",
+        "choices": [
+          "II. Göktürk",
+          "I. Göktürk",
+          "Uygur",
+          "Hun"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "II. Göktürk"
+        ]
+      },
+      "explanation": "Yazıtlar II. Göktürk (Kutluk) Devleti döneminde dikilmiştir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kurultay"
+          },
+          {
+            "id": "2",
+            "text": "Töre"
+          },
+          {
+            "id": "3",
+            "text": "Kut"
+          },
+          {
+            "id": "4",
+            "text": "Yuğ"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Devlet meclisi"
+          },
+          {
+            "id": "b",
+            "text": "Yazısız hukuk"
+          },
+          {
+            "id": "c",
+            "text": "Tanrı’nın verdiği yetki"
+          },
+          {
+            "id": "d",
+            "text": "Cenaze töreni"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        }
+      },
+      "explanation": "Dört temel kavramın karşılıkları budur."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Devleti kurucusuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Asya Hun"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk"
+          },
+          {
+            "id": "3",
+            "text": "Uygur"
+          },
+          {
+            "id": "4",
+            "text": "Büyük Selçuklu"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Teoman"
+          },
+          {
+            "id": "b",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "c",
+            "text": "Kutluk Bilge Kül"
+          },
+          {
+            "id": "d",
+            "text": "Tuğrul Bey"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        }
+      },
+      "explanation": "Her devletin kurucusu farklıdır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Terimi alanıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Balbal"
+          },
+          {
+            "id": "2",
+            "text": "Kurgan"
+          },
+          {
+            "id": "3",
+            "text": "Tamga"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Mezar taşı"
+          },
+          {
+            "id": "b",
+            "text": "Mezar"
+          },
+          {
+            "id": "c",
+            "text": "Damga / mühür"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c"
+        }
+      },
+      "explanation": "Üçü de Türk kültürüne ait kavramlardır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Devletleri kuruluş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Asya Hun"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk"
+          },
+          {
+            "id": "3",
+            "text": "Uygur"
+          },
+          {
+            "id": "4",
+            "text": "Karahanlı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Kuruluş sırası: Asya Hun → I. Göktürk → Uygur → Karahanlı."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Olayları kronolojik sıraya koy.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kavimler Göçü"
+          },
+          {
+            "id": "2",
+            "text": "Talas Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Malazgirt Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": "375 Kavimler Göçü, 751 Talas, 1071 Malazgirt."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Alfabeleri kullanım sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Göktürk"
+          },
+          {
+            "id": "2",
+            "text": "Uygur"
+          },
+          {
+            "id": "3",
+            "text": "Arap"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": "Türkler sırasıyla Göktürk, Uygur ve Arap alfabesini kullandı."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Kurultay"
+          },
+          {
+            "id": "2",
+            "text": "devletin"
+          },
+          {
+            "id": "3",
+            "text": "en"
+          },
+          {
+            "id": "4",
+            "text": "önemli"
+          },
+          {
+            "id": "5",
+            "text": "meclisidir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Cümle: \"Kurultay devletin en önemli meclisidir.\""
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya diz.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Orhun"
+          },
+          {
+            "id": "2",
+            "text": "Yazıtları"
+          },
+          {
+            "id": "3",
+            "text": "Göktürk"
+          },
+          {
+            "id": "4",
+            "text": "alfabesiyle"
+          },
+          {
+            "id": "5",
+            "text": "yazılmıştır"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Cümle: \"Orhun Yazıtları Göktürk alfabesiyle yazılmıştır.\""
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya diz.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "2",
+            "text": "yerleşik"
+          },
+          {
+            "id": "3",
+            "text": "hayata"
+          },
+          {
+            "id": "4",
+            "text": "geçmiştir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Cümle: \"Uygurlar yerleşik hayata geçmiştir.\""
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Kavimler Göçü hangi yılda gerçekleşmiştir?",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 375,
+        "tolerance": 0
+      },
+      "explanation": "Kavimler Göçü 375 yılında başlamıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Talas Savaşı hangi yılda yapılmıştır?",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 751,
+        "tolerance": 0
+      },
+      "explanation": "Talas Savaşı 751 yılında yapılmıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Malazgirt Savaşı hangi yılda yapılmıştır?",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 1071,
+        "tolerance": 0
+      },
+      "explanation": "Malazgirt Savaşı 1071 yılında yapılmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Kurultay",
+        "back": "Devletin önemli kararlarının alındığı meclis."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Devletin önemli kararlarının alındığı meclis."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Töre",
+        "back": "Türklerde yazısız hukuk kuralları."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Türklerde yazısız hukuk kuralları."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Balbal",
+        "back": "Ölen kişinin mezarına dikilen, öldürdüğü düşman sayısınca taş."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Ölen kişinin mezarına dikilen, öldürdüğü düşman sayısınca taş."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Tamga",
+        "back": "Boyları birbirinden ayıran damga, mühür."
+      },
+      "answer_key": {
+        "self_assessed": true
+      },
+      "explanation": "Boyları birbirinden ayıran damga, mühür."
+    }
+  ]
+}

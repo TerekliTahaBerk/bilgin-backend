@@ -52,6 +52,70 @@ final class UnitTemplateSeeder extends Seeder
             ],
         );
 
+        /*
+         | Her soru tipinden birer node.
+         |
+         | Standart ünitede ilk node yalnızca çoktan seçmeli ve doğru/yanlış
+         | gösteriyor (kolaydan zora ilerleme bilinçli). Ama bu, geliştirirken
+         | diğer altı tipin hiç görülmemesine yol açıyordu — bir tipin
+         | bozulduğu ancak o node'a kadar ilerleyince anlaşılıyordu.
+         |
+         | Bu şablon yalnızca test paketinde kullanılıyor; müfredatta yeri
+         | yok. Kodu ALT ÇİZGİYLE başlıyor — içerik dosyalarındaki kuralın
+         | aynısı — ve panel bu önekli şablonları listelemiyor.
+         */
+        UnitTemplate::query()->updateOrCreate(
+            ['code' => '_tum_tipler'],
+            [
+                'name' => 'Tüm Soru Tipleri (test)',
+                'description' => 'Her node tek bir soru tipi — tiplerin tamamı tek ünitede.',
+                'is_default' => false,
+                'nodes' => [
+                    [
+                        'title' => 'Çoktan Seçmeli', 'node_type' => 'study',
+                        'difficulty' => 'kolay', 'exercise_count' => 4,
+                        'types' => ['multiple_choice'],
+                    ],
+                    [
+                        'title' => 'Doğru / Yanlış', 'node_type' => 'study',
+                        'difficulty' => 'kolay', 'exercise_count' => 4,
+                        'types' => ['true_false'],
+                    ],
+                    [
+                        'title' => 'Boşluk Doldur', 'node_type' => 'study',
+                        'difficulty' => 'kolay_orta', 'exercise_count' => 4,
+                        'types' => ['fill_blank'],
+                        'preview_label' => 'boşluk doldur · 4 soru',
+                    ],
+                    [
+                        'title' => 'Eşleştirme', 'node_type' => 'matching',
+                        'difficulty' => 'orta', 'exercise_count' => 3,
+                        'types' => ['matching'],
+                    ],
+                    [
+                        'title' => 'Sıralama', 'node_type' => 'study',
+                        'difficulty' => 'orta', 'exercise_count' => 3,
+                        'types' => ['ordering'],
+                    ],
+                    [
+                        'title' => 'Kelime Dizme', 'node_type' => 'study',
+                        'difficulty' => 'orta', 'exercise_count' => 3,
+                        'types' => ['word_order'],
+                    ],
+                    [
+                        'title' => 'Sayısal Giriş', 'node_type' => 'study',
+                        'difficulty' => 'orta', 'exercise_count' => 3,
+                        'types' => ['numeric_input'],
+                    ],
+                    [
+                        'title' => 'Flashcard', 'node_type' => 'quick_review',
+                        'difficulty' => 'kolay', 'exercise_count' => 4,
+                        'types' => ['flashcard'],
+                    ],
+                ],
+            ],
+        );
+
         UnitTemplate::query()->updateOrCreate(
             ['code' => 'hafif_unite'],
             [
