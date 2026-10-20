@@ -83,6 +83,9 @@ final class TopicSeeder extends Seeder
             'Dünya Edebiyatı',
             'Tiyatro',
             'Deneme, Makale ve Eleştiri',
+            // Nazım/nesir ayrımı müfredatta var ama listede yoktu;
+            // pakette 128 soru bu başlık altında geliyor.
+            'Nesir Bilgisi',
         ],
 
         'matematik' => [
@@ -403,6 +406,22 @@ final class TopicSeeder extends Seeder
         ],
 
         'ingilizce' => [
+            /*
+             | LGS İngilizce üniteleri TEMATİK, dil bilgisi başlıklı
+             | değil ("Friendship", "Teen Life"). Aynı dalın altında
+             | duruyorlar çünkü ders aynı; ayrı bir "LGS İngilizce" dalı
+             | açmak aynı dersi ikiye bölerdi.
+            */
+            'Friendship',
+            'Teen Life',
+            'In the Kitchen',
+            'On the Phone',
+            'The Internet',
+            'Adventures',
+            'Tourism',
+            'Chores',
+            'Science',
+            'Natural Forces',
             'Tenses',
             'Modals',
             'Passive Voice',
