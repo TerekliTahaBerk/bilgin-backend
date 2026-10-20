@@ -1,0 +1,718 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_felsefe_grubu",
+  "subject": "felsefe",
+  "unit": {
+    "title": "Psikoloji ve Sosyoloji",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 11,
+    "difficulty_band": "orta",
+    "estimated_minutes": 28,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "psikolojiye_giris",
+      "name": "Psikolojiye Giriş",
+      "grade_level": 11,
+      "exam_weight": 3
+    },
+    {
+      "code": "ogrenme_ve_bellek",
+      "name": "Öğrenme ve Bellek",
+      "grade_level": 11,
+      "exam_weight": 2
+    },
+    {
+      "code": "sosyolojiye_giris",
+      "name": "Sosyolojiye Giriş",
+      "grade_level": 11,
+      "exam_weight": 3
+    },
+    {
+      "code": "toplumsal_yapi_ve_degisme",
+      "name": "Toplumsal Yapı ve Değişme",
+      "grade_level": 11,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "psikolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Psikolojinin konusu aşağıdakilerden hangisidir?",
+        "options": [
+          { "id": "a", "text": "İnsan ve hayvan davranışları ile zihinsel süreçler" },
+          { "id": "b", "text": "Toplumsal kurumlar" },
+          { "id": "c", "text": "Varlığın yapısı" },
+          { "id": "d", "text": "Geçmiş olaylar" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Psikoloji bireyi, sosyoloji toplumu inceler. İkisinin karıştırılması en sık yapılan hatadır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Davranışı yalnızca gözlemlenebilir tepkilerle açıklayan psikoloji yaklaşımı hangisidir?",
+        "options": [
+          { "id": "a", "text": "Davranışçı yaklaşım" },
+          { "id": "b", "text": "Psikanalitik yaklaşım" },
+          { "id": "c", "text": "Hümanist yaklaşım" },
+          { "id": "d", "text": "Biyolojik yaklaşım" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Watson ve Skinner'ın temsilcisi olduğu davranışçılık, zihni \"kara kutu\" sayar."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bilinçaltının davranışları belirlediğini savunan yaklaşım ve kurucusu hangisidir?",
+        "options": [
+          { "id": "a", "text": "Psikanaliz – Freud" },
+          { "id": "b", "text": "Davranışçılık – Watson" },
+          { "id": "c", "text": "Hümanizm – Maslow" },
+          { "id": "d", "text": "Bilişsel – Piaget" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Freud'a göre kişilik id, ego ve süperegodan oluşur; bilinçaltı davranışın asıl kaynağıdır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Maslow'un ihtiyaçlar hiyerarşisinde en üstte hangi ihtiyaç yer alır?",
+        "options": [
+          { "id": "a", "text": "Kendini gerçekleştirme" },
+          { "id": "b", "text": "Güvenlik" },
+          { "id": "c", "text": "Fizyolojik ihtiyaçlar" },
+          { "id": "d", "text": "Saygınlık" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Piramit: fizyolojik → güvenlik → ait olma → saygınlık → kendini gerçekleştirme."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Psikolojide \"deneysel yöntem\"in temel üstünlüğü nedir?",
+        "options": [
+          { "id": "a", "text": "Neden-sonuç ilişkisi kurmaya elverişli olması" },
+          { "id": "b", "text": "Daha ucuz olması" },
+          { "id": "c", "text": "Daha çok kişiye ulaşması" },
+          { "id": "d", "text": "Etik sorun doğurmaması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Değişkenler kontrol edildiği için neden-sonuç kurulabilir; gözlem yalnızca ilişki gösterir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Pavlov'un köpek deneyi hangi öğrenme türüne örnektir?",
+        "options": [
+          { "id": "a", "text": "Klasik koşullanma" },
+          { "id": "b", "text": "Edimsel koşullanma" },
+          { "id": "c", "text": "Model alma" },
+          { "id": "d", "text": "Deneme-yanılma" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Nötr uyarıcı (zil), koşulsuz uyarıcıyla (yiyecek) eşleşerek koşullu tepki üretir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Skinner'ın edimsel koşullanmasında davranışın tekrarlanma olasılığını artıran şey nedir?",
+        "options": [
+          { "id": "a", "text": "Pekiştireç" },
+          { "id": "b", "text": "Ceza" },
+          { "id": "c", "text": "Sönme" },
+          { "id": "d", "text": "Genelleme" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Pekiştireç davranışı artırır, ceza azaltır. İkisi karşıt işlev görür."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bilginin bellekte kalıcı hâle gelmesi için en etkili yöntem hangisidir?",
+        "options": [
+          { "id": "a", "text": "Aralıklı tekrar" },
+          { "id": "b", "text": "Bir seferde uzun süre çalışmak" },
+          { "id": "c", "text": "Sessizce okumak" },
+          { "id": "d", "text": "Yalnızca dinlemek" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Ebbinghaus'un unutma eğrisi, aralıklı tekrarın kalıcılığı belirgin biçimde artırdığını gösterir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Önceki öğrenmelerin yeni öğrenmeyi zorlaştırmasına ne denir?",
+        "options": [
+          { "id": "a", "text": "İleriye ket vurma" },
+          { "id": "b", "text": "Geriye ket vurma" },
+          { "id": "c", "text": "Sönme" },
+          { "id": "d", "text": "Genelleme" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Tersi geriye ket vurmadır: yeni öğrenilen, eskisini hatırlamayı zorlaştırır."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Sosyolojinin kurucusu kabul edilen düşünür kimdir?",
+        "options": [
+          { "id": "a", "text": "Auguste Comte" },
+          { "id": "b", "text": "Sigmund Freud" },
+          { "id": "c", "text": "Max Weber" },
+          { "id": "d", "text": "İbn Haldun" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Comte \"sosyoloji\" terimini ilk kullanandır. İbn Haldun ise öncüsü sayılır."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Toplumun temel birimi olarak kabul edilen kurum hangisidir?",
+        "options": [
+          { "id": "a", "text": "Aile" },
+          { "id": "b", "text": "Devlet" },
+          { "id": "c", "text": "Okul" },
+          { "id": "d", "text": "Ekonomi" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Aile, bireyin ilk toplumsallaştığı ve değerleri edindiği kurumdur."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bireyin içinde yaşadığı toplumun değer ve normlarını öğrenme sürecine ne denir?",
+        "options": [
+          { "id": "a", "text": "Toplumsallaşma" },
+          { "id": "b", "text": "Toplumsal hareketlilik" },
+          { "id": "c", "text": "Toplumsal değişme" },
+          { "id": "d", "text": "Kültürleşme" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Sosyalizasyon hayat boyu sürer; ilk aşaması ailede gerçekleşir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bir toplumun maddi ve manevi tüm birikimine ne ad verilir?",
+        "options": [
+          { "id": "a", "text": "Kültür" },
+          { "id": "b", "text": "Norm" },
+          { "id": "c", "text": "Statü" },
+          { "id": "d", "text": "Rol" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Maddi kültür araç gereçleri, manevi kültür inanç ve değerleri kapsar."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bireyin toplumda bulunduğu konuma ne ad verilir?",
+        "options": [
+          { "id": "a", "text": "Statü" },
+          { "id": "b", "text": "Rol" },
+          { "id": "c", "text": "Norm" },
+          { "id": "d", "text": "Değer" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Statü konum, rol ise o konumun gerektirdiği davranış kalıbıdır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Maddi kültürün hızlı, manevi kültürün yavaş değişmesinden doğan uyumsuzluğa ne denir?",
+        "options": [
+          { "id": "a", "text": "Kültürel gecikme" },
+          { "id": "b", "text": "Kültürleşme" },
+          { "id": "c", "text": "Kültür şoku" },
+          { "id": "d", "text": "Asimilasyon" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Ogburn'ün kavramıdır: teknoloji hızlı değişir, değerler ona yetişemez."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Psikoloji bireyi, sosyoloji toplumu inceler."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Sosyal psikoloji ise ikisinin kesiştiği alandır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Ceza, davranışın tekrarlanma olasılığını artırır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Cezanın amacı davranışı azaltmaktır; artıran pekiştireçtir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Toplumsallaşma yalnızca çocuklukta gerçekleşir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Yeni bir işe ya da ülkeye uyum da toplumsallaşmadır; süreç hayat boyu sürer."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Bir bireyin aynı anda birden fazla statüsü olabilir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Aynı kişi öğrenci, evlat ve sporcu olabilir; buna statü kümesi denir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Aralıklı tekrar, aynı süreyi tek seferde çalışmaktan daha kalıcı öğrenme sağlar."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Bu bulgu, bu uygulamadaki tekrar sisteminin de dayanağıdır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Davranışı gözlemlenebilir tepkilerle açıklayan yaklaşım {{0}} yaklaşımdır.",
+        "choices": ["davranışçı", "psikanalitik", "hümanist", "bilişsel"]
+      },
+      "answer_key": { "blanks": ["davranışçı"] },
+      "explanation": "Watson ve Skinner bu yaklaşımın temsilcileridir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Davranışın tekrarlanma olasılığını artıran uyarıcıya {{0}} denir.",
+        "choices": ["pekiştireç", "ceza", "uyarıcı", "tepki"]
+      },
+      "answer_key": { "blanks": ["pekiştireç"] },
+      "explanation": "Olumlu pekiştireç verilir, olumsuz pekiştireç rahatsız edici bir durumu kaldırır."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "\"Sosyoloji\" terimini ilk kullanan düşünür {{0}}'tur.",
+        "choices": ["Comte", "Weber", "Durkheim", "Freud"]
+      },
+      "answer_key": { "blanks": ["Comte"] },
+      "explanation": "Durkheim ise sosyolojiyi bağımsız bir bilim hâline getirmiştir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bireyin bulunduğu konumun gerektirdiği davranış kalıbına {{0}} denir.",
+        "choices": ["rol", "statü", "norm", "değer"]
+      },
+      "answer_key": { "blanks": ["rol"] },
+      "explanation": "Statü \"neredesin\", rol \"ne yapman bekleniyor\" sorusunun cevabıdır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Maddi kültürün manevi kültürden hızlı değişmesine {{0}} gecikmesi denir.",
+        "choices": ["kültürel", "toplumsal", "teknolojik", "ekonomik"]
+      },
+      "answer_key": { "blanks": ["kültürel"] },
+      "explanation": "Ogburn'ün \"cultural lag\" kavramının Türkçe karşılığıdır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yaklaşımı temsilcisiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Psikanaliz" },
+          { "id": "2", "text": "Davranışçılık" },
+          { "id": "3", "text": "Hümanizm" },
+          { "id": "4", "text": "Bilişsel gelişim" }
+        ],
+        "right": [
+          { "id": "a", "text": "Freud" },
+          { "id": "b", "text": "Watson / Skinner" },
+          { "id": "c", "text": "Maslow / Rogers" },
+          { "id": "d", "text": "Piaget" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Dört yaklaşım, insan davranışına dört farklı cevap verir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Öğrenme türünü örneğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Klasik koşullanma" },
+          { "id": "2", "text": "Edimsel koşullanma" },
+          { "id": "3", "text": "Model alma" },
+          { "id": "4", "text": "Deneme-yanılma" }
+        ],
+        "right": [
+          { "id": "a", "text": "Zil sesiyle salya salgılama" },
+          { "id": "b", "text": "Doğru davranışın ödüllendirilmesi" },
+          { "id": "c", "text": "Ablasını taklit eden çocuk" },
+          { "id": "d", "text": "Kilidi açana kadar farklı anahtarları denemek" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Model alma Bandura'nın, deneme-yanılma Thorndike'ın çalışma alanıdır."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Statü" },
+          { "id": "2", "text": "Rol" },
+          { "id": "3", "text": "Norm" },
+          { "id": "4", "text": "Değer" }
+        ],
+        "right": [
+          { "id": "a", "text": "Toplumdaki konum" },
+          { "id": "b", "text": "Konumun gerektirdiği davranış" },
+          { "id": "c", "text": "Uyulması beklenen kural" },
+          { "id": "d", "text": "Toplumca önemli sayılan ilke" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Normlar değerlerden türer: \"dürüstlük\" değer, \"yalan söyleme\" normdur."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Kültürel gecikme" },
+          { "id": "2", "text": "Kültürleşme" },
+          { "id": "3", "text": "Asimilasyon" },
+          { "id": "4", "text": "Kültür şoku" }
+        ],
+        "right": [
+          { "id": "a", "text": "Maddi kültürün manevi kültürü geride bırakması" },
+          { "id": "b", "text": "İki kültürün etkileşimle birbirini etkilemesi" },
+          { "id": "c", "text": "Bir kültürün diğeri içinde erimesi" },
+          { "id": "d", "text": "Yabancı bir kültürde yaşanan uyumsuzluk" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Kültürleşme karşılıklıdır; asimilasyonda ise tek taraf kaybeder."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Maslow'un ihtiyaçlar hiyerarşisini alttan üste doğru diz.",
+        "items": [
+          { "id": "1", "text": "Fizyolojik ihtiyaçlar" },
+          { "id": "2", "text": "Güvenlik ihtiyacı" },
+          { "id": "3", "text": "Ait olma ve sevgi" },
+          { "id": "4", "text": "Saygınlık" },
+          { "id": "5", "text": "Kendini gerçekleştirme" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5"] },
+      "explanation": "Alt basamak karşılanmadan üst basamağa geçilmediği varsayılır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bilgi işleme sürecini sıraya diz.",
+        "items": [
+          { "id": "1", "text": "Duyusal kayıt" },
+          { "id": "2", "text": "Kısa süreli bellek" },
+          { "id": "3", "text": "Tekrar ve kodlama" },
+          { "id": "4", "text": "Uzun süreli bellek" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Tekrar olmadan bilgi kısa süreli bellekte kalır ve saniyeler içinde silinir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Toplumsal grupları küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "Aile" },
+          { "id": "2", "text": "Mahalle" },
+          { "id": "3", "text": "Kent" },
+          { "id": "4", "text": "Ulus" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Küçük gruplarda birincil ilişkiler, büyük gruplarda ikincil ilişkiler baskındır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Maslow'un ihtiyaçlar piramidinde kaç basamak vardır?",
+        "suffix": "basamak"
+      },
+      "answer_key": { "value": 5, "tolerance": 0 },
+      "explanation": "Fizyolojik, güvenlik, ait olma, saygınlık, kendini gerçekleştirme."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Kısa süreli belleğin kapasitesi Miller'a göre kaç ± 2 birimdir?",
+        "suffix": "birim"
+      },
+      "answer_key": { "value": 7, "tolerance": 0 },
+      "explanation": "\"Sihirli sayı 7 ± 2\": kısa süreli bellek 5–9 birim tutabilir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Sosyolojinin temel kurumları kaç tanedir? (aile, din, eğitim, ekonomi, siyaset)",
+        "suffix": "kurum"
+      },
+      "answer_key": { "value": 5, "tolerance": 0 },
+      "explanation": "Bu beş kurum her toplumda bulunur ve evrensel kabul edilir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Psikoloji",
+        "back": "İnsan ve hayvan davranışlarını, zihinsel süreçlerle birlikte inceleyen bilim."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Pekiştireç",
+        "back": "Bir davranışın tekrarlanma olasılığını artıran uyarıcı. Cezayla karıştırılmamalı: ceza davranışı azaltır."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Toplumsallaşma",
+        "back": "Bireyin toplumun değer ve normlarını öğrenme süreci. Hayat boyu sürer; ilk ortamı ailedir."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Kültürel gecikme",
+        "back": "Maddi kültürün (teknoloji) hızla değişmesine karşın manevi kültürün (değerler) geride kalması."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Psikoloji" },
+          { "id": "2", "text": "bireyi" },
+          { "id": "3", "text": "sosyoloji" },
+          { "id": "4", "text": "toplumu" },
+          { "id": "5", "text": "inceler" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5"] },
+      "explanation": "İkisinin kesiştiği alan sosyal psikolojidir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Statü" },
+          { "id": "2", "text": "konumu" },
+          { "id": "3", "text": "rol" },
+          { "id": "4", "text": "ise" },
+          { "id": "5", "text": "davranışı" },
+          { "id": "6", "text": "belirtir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Bir statünün birden fazla rolü olabilir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Aralıklı" },
+          { "id": "2", "text": "tekrar" },
+          { "id": "3", "text": "kalıcı" },
+          { "id": "4", "text": "öğrenmeyi" },
+          { "id": "5", "text": "sağlar" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5"] },
+      "explanation": "Ebbinghaus'un unutma eğrisi bunu deneysel olarak göstermiştir."
+    }
+  ]
+}

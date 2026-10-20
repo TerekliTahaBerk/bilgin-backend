@@ -1,0 +1,712 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_tarih_2",
+  "subject": "tarih",
+  "unit": {
+    "title": "Beylikten Devlete Osmanlı",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 10,
+    "difficulty_band": "orta",
+    "estimated_minutes": 28,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "beylikten_devlete_osmanli",
+      "name": "Beylikten Devlete Osmanlı",
+      "grade_level": 10,
+      "exam_weight": 3
+    },
+    {
+      "code": "dunya_gucu_osmanli_devleti",
+      "name": "Dünya Gücü Osmanlı Devleti",
+      "grade_level": 10,
+      "exam_weight": 3
+    },
+    {
+      "code": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "name": "Türkiye Tarihi ve Anadolu Selçuklu",
+      "grade_level": 10,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Osmanlı Devleti'nin kurucusu kimdir?",
+        "options": [
+          { "id": "a", "text": "Osman Bey" },
+          { "id": "b", "text": "Ertuğrul Gazi" },
+          { "id": "c", "text": "Orhan Bey" },
+          { "id": "d", "text": "I. Murat" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Devlet 1299'da Osman Bey tarafından kurulmuştur. Ertuğrul Gazi babasıdır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Osmanlı Devleti'nin Rumeli'ye geçişi hangi padişah döneminde başlamıştır?",
+        "options": [
+          { "id": "a", "text": "Orhan Bey" },
+          { "id": "b", "text": "Osman Bey" },
+          { "id": "c", "text": "I. Murat" },
+          { "id": "d", "text": "Yıldırım Bayezid" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "1353'te Çimpe Kalesi'nin alınmasıyla Rumeli'ye ilk adım atılmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Osmanlı Devleti'nin kısa sürede büyümesinde etkili olan \"iskân politikası\" nedir?",
+        "options": [
+          { "id": "a", "text": "Fethedilen bölgelere Türkmen nüfusun yerleştirilmesi" },
+          { "id": "b", "text": "Yerli halkın başka yere sürülmesi" },
+          { "id": "c", "text": "Yalnızca askerî garnizon kurulması" },
+          { "id": "d", "text": "Topraklarının satılması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "İskân, fethedilen yerin kalıcı olmasını sağlayan en önemli politikadır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Devşirme sistemiyle oluşturulan ve Osmanlı'nın ilk daimî ordusu olan birlik hangisidir?",
+        "options": [
+          { "id": "a", "text": "Yeniçeri Ocağı" },
+          { "id": "b", "text": "Tımarlı sipahiler" },
+          { "id": "c", "text": "Akıncılar" },
+          { "id": "d", "text": "Azepler" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Yeniçeriler maaşlı (kapıkulu) askerlerdir; tımarlı sipahiler ise toprak geliriyle beslenir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Ankara Savaşı'nın (1402) Osmanlı açısından en önemli sonucu nedir?",
+        "options": [
+          { "id": "a", "text": "Fetret Devri'nin başlaması" },
+          { "id": "b", "text": "İstanbul'un fethi" },
+          { "id": "c", "text": "Rumeli'ye geçilmesi" },
+          { "id": "d", "text": "Anadolu birliğinin kurulması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Timur'a yenilgi sonrası 11 yıllık taht kavgası (1402–1413) yaşanmış, devlet dağılma noktasına gelmiştir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "I. Kosova Savaşı'nın (1389) en önemli sonucu nedir?",
+        "options": [
+          { "id": "a", "text": "Balkanlarda Osmanlı hâkimiyetinin kesinleşmesi" },
+          { "id": "b", "text": "Anadolu birliğinin tamamlanması" },
+          { "id": "c", "text": "İstanbul'un kuşatılması" },
+          { "id": "d", "text": "Fetret Devri'nin sona ermesi" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "I. Murat bu savaşta şehit düşmüş, savaş kazanılmış ve Balkan hâkimiyeti pekişmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İstanbul hangi yılda fethedilmiştir?",
+        "options": [
+          { "id": "a", "text": "1453" },
+          { "id": "b", "text": "1402" },
+          { "id": "c", "text": "1299" },
+          { "id": "d", "text": "1517" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Fetih, Orta Çağ'ın sonu ve Yeni Çağ'ın başlangıcı kabul edilir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Yavuz Sultan Selim'in Mısır Seferi'nin (1517) en önemli sonucu nedir?",
+        "options": [
+          { "id": "a", "text": "Halifeliğin Osmanlı'ya geçmesi" },
+          { "id": "b", "text": "Anadolu birliğinin kurulması" },
+          { "id": "c", "text": "Rumeli'ye geçilmesi" },
+          { "id": "d", "text": "Kapitülasyonların verilmesi" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Memlûk Devleti yıkılmış, kutsal emanetler İstanbul'a getirilmiş, Osmanlı İslam dünyasının lideri olmuştur."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Osmanlı Devleti'nin en geniş sınırlara ulaştığı dönem hangi padişahın saltanatıdır?",
+        "options": [
+          { "id": "a", "text": "Kanuni Sultan Süleyman" },
+          { "id": "b", "text": "Fatih Sultan Mehmet" },
+          { "id": "c", "text": "Yavuz Sultan Selim" },
+          { "id": "d", "text": "II. Mahmut" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "46 yıllık saltanatıyla (1520–1566) Osmanlı'nın en uzun süre tahtta kalan padişahıdır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "1535'te Fransa'ya verilen kapitülasyonların ilk dönemdeki amacı neydi?",
+        "options": [
+          { "id": "a", "text": "Avrupa'da Habsburg birliğini bölmek" },
+          { "id": "b", "text": "Hazineye gelir sağlamak" },
+          { "id": "c", "text": "Askerî yardım almak" },
+          { "id": "d", "text": "Toprak kazanmak" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Başlangıçta siyasi bir araçtı ve padişahın ömrüyle sınırlıydı; sonradan sürekli hâle gelince sorun oldu."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Osmanlı toprak sisteminde \"tımar\" neyi ifade eder?",
+        "options": [
+          { "id": "a", "text": "Vergi gelirinin asker yetiştirme karşılığı sipahiye verilmesi" },
+          { "id": "b", "text": "Toprağın köylüye satılması" },
+          { "id": "c", "text": "Vakıf arazisi" },
+          { "id": "d", "text": "Padişahın özel mülkü" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Tımar sistemi hem orduyu hem üretimi hazineye yük olmadan ayakta tutuyordu; bozulması çöküşün önemli sebeplerindendir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Anadolu'nun kapılarının Türklere açıldığı savaş hangisidir?",
+        "options": [
+          { "id": "a", "text": "Malazgirt Savaşı (1071)" },
+          { "id": "b", "text": "Miryokefalon Savaşı (1176)" },
+          { "id": "c", "text": "Kösedağ Savaşı (1243)" },
+          { "id": "d", "text": "Pasinler Savaşı (1048)" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Alparslan, Bizans İmparatoru Romen Diyojen'i yenmiş ve Anadolu'ya yerleşme başlamıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Anadolu'nun kesin olarak Türk yurdu olduğunu kanıtlayan savaş hangisidir?",
+        "options": [
+          { "id": "a", "text": "Miryokefalon Savaşı" },
+          { "id": "b", "text": "Malazgirt Savaşı" },
+          { "id": "c", "text": "Kösedağ Savaşı" },
+          { "id": "d", "text": "Ankara Savaşı" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "1176'da II. Kılıç Arslan Bizans'ı yenmiş; Bizans bir daha Anadolu'yu geri alma girişiminde bulunamamıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Kösedağ Savaşı'nın (1243) sonucu nedir?",
+        "options": [
+          { "id": "a", "text": "Anadolu Selçuklu Devleti Moğol egemenliğine girdi" },
+          { "id": "b", "text": "Anadolu'da Türk birliği sağlandı" },
+          { "id": "c", "text": "Bizans Anadolu'yu geri aldı" },
+          { "id": "d", "text": "Osmanlı Devleti kuruldu" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Merkezî otorite çökmüş, Anadolu'da beylikler dönemi başlamıştır — Osmanlı da bunlardan biridir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Anadolu Selçukluları döneminde ticareti geliştirmek için yapılan konaklama yapıları hangisidir?",
+        "options": [
+          { "id": "a", "text": "Kervansaray" },
+          { "id": "b", "text": "Medrese" },
+          { "id": "c", "text": "Darüşşifa" },
+          { "id": "d", "text": "İmaret" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Kervansaraylarda tüccarlar üç gün ücretsiz konaklar; devlet ayrıca zarar sigortası uygulardı."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Osmanlı Devleti 1299 yılında kurulmuştur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Söğüt merkezli bir uç beyliği olarak başlamıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İstanbul'un fethi Yeni Çağ'ı başlatmıştır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. 1453, Orta Çağ'ın sonu ve Yeni Çağ'ın başlangıcı kabul edilir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Halifelik, Fatih Sultan Mehmet döneminde Osmanlı'ya geçmiştir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Halifelik 1517'de YAVUZ Sultan Selim'in Mısır Seferi ile geçmiştir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kösedağ Savaşı Anadolu'da beylikler döneminin başlamasına yol açmıştır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Merkezî otoritenin çökmesi, Osmanlı dâhil birçok beyliğin ortaya çıkmasını sağlamıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Fetret Devri'nde Osmanlı Devleti Balkanlardaki topraklarının tamamını kaybetmiştir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Balkanlarda toprak kaybı yaşanmamıştır — iskân politikasının başarısının kanıtı sayılır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Osmanlı Devleti'nin kurucusu {{0}} Bey'dir.",
+        "choices": ["Osman", "Orhan", "Ertuğrul", "Murat"]
+      },
+      "answer_key": { "blanks": ["Osman"] },
+      "explanation": "Devlete adını veren kurucusudur."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Rumeli'ye geçişin ilk adımı olan {{0}} Kalesi 1353'te alınmıştır.",
+        "choices": ["Çimpe", "Gelibolu", "Edirne", "Bursa"]
+      },
+      "answer_key": { "blanks": ["Çimpe"] },
+      "explanation": "Çimpe, Osmanlı'nın Avrupa'daki ilk toprağıdır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Halifelik Osmanlı'ya {{0}} yılında geçmiştir.",
+        "choices": ["1517", "1453", "1299", "1402"]
+      },
+      "answer_key": { "blanks": ["1517"] },
+      "explanation": "Yavuz Sultan Selim'in Mısır Seferi sonucunda."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Anadolu'nun kapılarını Türklere açan savaş {{0}} Savaşı'dır.",
+        "choices": ["Malazgirt", "Miryokefalon", "Kösedağ", "Pasinler"]
+      },
+      "answer_key": { "blanks": ["Malazgirt"] },
+      "explanation": "1071, Türkiye tarihinin başlangıcı kabul edilir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Toprak gelirinin asker yetiştirme karşılığı verildiği sisteme {{0}} sistemi denir.",
+        "choices": ["tımar", "iltizam", "vakıf", "devşirme"]
+      },
+      "answer_key": { "blanks": ["tımar"] },
+      "explanation": "İltizam ise vergi toplama hakkının açık artırmayla satılmasıdır ve sonraki dönemde yaygınlaşmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Padişahı dönemindeki önemli olayla birleştir.",
+        "left": [
+          { "id": "1", "text": "Osman Bey" },
+          { "id": "2", "text": "Orhan Bey" },
+          { "id": "3", "text": "I. Murat" },
+          { "id": "4", "text": "Yıldırım Bayezid" }
+        ],
+        "right": [
+          { "id": "a", "text": "Devletin kuruluşu" },
+          { "id": "b", "text": "Rumeli'ye geçiş" },
+          { "id": "c", "text": "I. Kosova Savaşı" },
+          { "id": "d", "text": "Ankara Savaşı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Kuruluş döneminin dört padişahı ve dönüm noktaları."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Olayı yılıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Osmanlı'nın kuruluşu" },
+          { "id": "2", "text": "Ankara Savaşı" },
+          { "id": "3", "text": "İstanbul'un fethi" },
+          { "id": "4", "text": "Mısır Seferi" }
+        ],
+        "right": [
+          { "id": "a", "text": "1299" },
+          { "id": "b", "text": "1402" },
+          { "id": "c", "text": "1453" },
+          { "id": "d", "text": "1517" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört tarih kuruluş ve yükseliş dönemlerinin iskeletini oluşturur."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Savaşı sonucuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Malazgirt (1071)" },
+          { "id": "2", "text": "Miryokefalon (1176)" },
+          { "id": "3", "text": "Kösedağ (1243)" },
+          { "id": "4", "text": "Ankara (1402)" }
+        ],
+        "right": [
+          { "id": "a", "text": "Anadolu'nun kapıları açıldı" },
+          { "id": "b", "text": "Anadolu kesin Türk yurdu oldu" },
+          { "id": "c", "text": "Moğol egemenliği başladı" },
+          { "id": "d", "text": "Fetret Devri başladı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Dördü de Anadolu'nun siyasi haritasını değiştiren dönüm noktalarıdır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kurumu işleviyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Divan-ı Hümayun" },
+          { "id": "2", "text": "Tımar" },
+          { "id": "3", "text": "Devşirme" },
+          { "id": "4", "text": "Kervansaray" }
+        ],
+        "right": [
+          { "id": "a", "text": "Devlet işlerinin görüşüldüğü meclis" },
+          { "id": "b", "text": "Asker karşılığı toprak geliri" },
+          { "id": "c", "text": "Kapıkulu askeri yetiştirme sistemi" },
+          { "id": "d", "text": "Tüccarların konakladığı yapı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Osmanlı'nın yönetim, askerî ve ekonomik düzeninin dört ayağı."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Padişahları tahta çıkış sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Osman Bey" },
+          { "id": "2", "text": "Orhan Bey" },
+          { "id": "3", "text": "I. Murat" },
+          { "id": "4", "text": "Yıldırım Bayezid" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Kuruluş döneminin ilk dört padişahı."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Olayları tarih sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Malazgirt Savaşı" },
+          { "id": "2", "text": "Kösedağ Savaşı" },
+          { "id": "3", "text": "Osmanlı'nın kuruluşu" },
+          { "id": "4", "text": "İstanbul'un fethi" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "1071 → 1243 → 1299 → 1453."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Anadolu'daki siyasi yapıları tarih sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Bizans hâkimiyeti" },
+          { "id": "2", "text": "Anadolu Selçuklu Devleti" },
+          { "id": "3", "text": "Beylikler dönemi" },
+          { "id": "4", "text": "Osmanlı Devleti" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Her geçiş bir savaşla belirlenmiştir: Malazgirt, Kösedağ ve beylikler arası mücadele."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "numeric_input",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İstanbul hangi yılda fethedilmiştir?",
+        "suffix": "yılı"
+      },
+      "answer_key": { "value": 1453, "tolerance": 0 },
+      "explanation": "Fetih, Yeni Çağ'ın başlangıcı kabul edilir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Malazgirt Savaşı hangi yılda yapılmıştır?",
+        "suffix": "yılı"
+      },
+      "answer_key": { "value": 1071, "tolerance": 0 },
+      "explanation": "Türkiye tarihinin başlangıcı sayılır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Fetret Devri kaç yıl sürmüştür?",
+        "suffix": "yıl"
+      },
+      "answer_key": { "value": 11, "tolerance": 0 },
+      "explanation": "1402–1413 arası; Çelebi Mehmet'in birliği sağlamasıyla son bulmuştur."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Fetret Devri",
+        "back": "Ankara Savaşı'ndan (1402) sonra yaşanan 11 yıllık taht kavgası dönemi. Çelebi Mehmet birliği yeniden sağlamıştır."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Tımar sistemi",
+        "back": "Toprağın vergi gelirinin, asker yetiştirme karşılığında sipahiye bırakılması. Orduyu ve üretimi hazineye yük olmadan ayakta tutardı."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Devşirme sistemi",
+        "back": "Gayrimüslim ailelerden alınan çocukların eğitilerek kapıkulu askeri ya da devlet görevlisi yapılması."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Miryokefalon Savaşı (1176)",
+        "back": "II. Kılıç Arslan'ın Bizans'ı yendiği savaş. Anadolu'nun kesin olarak Türk yurdu olduğunun kanıtı sayılır."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Osmanlı" },
+          { "id": "2", "text": "Devleti" },
+          { "id": "3", "text": "1299" },
+          { "id": "4", "text": "yılında" },
+          { "id": "5", "text": "kurulmuştur" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5"] },
+      "explanation": "Söğüt merkezli bir uç beyliği olarak başlamıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Halifelik" },
+          { "id": "2", "text": "Yavuz" },
+          { "id": "3", "text": "Sultan" },
+          { "id": "4", "text": "Selim" },
+          { "id": "5", "text": "döneminde" },
+          { "id": "6", "text": "alınmıştır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "1517 Mısır Seferi ile."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Malazgirt" },
+          { "id": "2", "text": "Savaşı" },
+          { "id": "3", "text": "Anadolu'nun" },
+          { "id": "4", "text": "kapılarını" },
+          { "id": "5", "text": "Türklere" },
+          { "id": "6", "text": "açmıştır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "1071, Türkiye tarihinin başlangıcıdır."
+    }
+  ]
+}

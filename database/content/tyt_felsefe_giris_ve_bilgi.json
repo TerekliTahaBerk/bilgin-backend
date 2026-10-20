@@ -1,0 +1,1367 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "tyt_felsefe",
+  "subject": "felsefe",
+  "unit": {
+    "title": "Felsefeye Giriş ve Bilgi Felsefesi",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 10,
+    "difficulty_band": "giris",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "felsefeyi_tanima",
+      "name": "Felsefeyi Tanıma",
+      "grade_level": 10,
+      "exam_weight": 2
+    },
+    {
+      "code": "bilgi_felsefesi",
+      "name": "Bilgi Felsefesi (Epistemoloji)",
+      "grade_level": 10,
+      "exam_weight": 2
+    },
+    {
+      "code": "varlik_felsefesi",
+      "name": "Varlık Felsefesi (Ontoloji)",
+      "grade_level": 10,
+      "exam_weight": 1
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"Felsefe\" kelimesinin Yunanca kökeni olan \"philosophia\" ne anlama gelir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bilgelik sevgisi"
+          },
+          {
+            "id": "b",
+            "text": "Doğa bilgisi"
+          },
+          {
+            "id": "c",
+            "text": "Tanrı bilgisi"
+          },
+          {
+            "id": "d",
+            "text": "Söz sanatı"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "\"Philia\" (sevgi) + \"sophia\" (bilgelik). Filozof, bilgeliğe sahip olan değil onu SEVEN ve arayandır."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Felsefi bilgiyi bilimsel bilgiden ayıran temel özellik aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Deney ve gözlemle kesin sonuca ulaşmaması"
+          },
+          {
+            "id": "b",
+            "text": "Hiçbir yöntem kullanmaması"
+          },
+          {
+            "id": "c",
+            "text": "Yalnızca inanca dayanması"
+          },
+          {
+            "id": "d",
+            "text": "Evrensel olmaması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Felsefe akıl yürütmeye dayanır ve sonuçları doğrulanabilir değildir; bu yüzden birikimli (kümülatif) ilerlemez."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi felsefi soruların ortak özelliği DEĞİLDİR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tek ve kesin bir cevabı olması"
+          },
+          {
+            "id": "b",
+            "text": "Evrensel olması"
+          },
+          {
+            "id": "c",
+            "text": "Yeni sorulara yol açması"
+          },
+          {
+            "id": "d",
+            "text": "Akıl yürütmeyle ele alınması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Felsefi sorular açık uçludur; kesin cevabı olsaydı o soru bilimin konusu olurdu."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"Güzellik nedir?\" sorusu felsefenin hangi alanının konusudur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Estetik"
+          },
+          {
+            "id": "b",
+            "text": "Etik"
+          },
+          {
+            "id": "c",
+            "text": "Epistemoloji"
+          },
+          {
+            "id": "d",
+            "text": "Ontoloji"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Estetik güzeli, etik iyiyi, epistemoloji bilgiyi, ontoloji varlığı sorgular."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Doğru bilginin imkânsız olduğunu savunan yaklaşım hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Septisizm"
+          },
+          {
+            "id": "b",
+            "text": "Rasyonalizm"
+          },
+          {
+            "id": "c",
+            "text": "Empirizm"
+          },
+          {
+            "id": "d",
+            "text": "Pozitivizm"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Septisizm (şüphecilik) kesin bilgiye ulaşılamayacağını savunur. Temsilcisi Pyrrhon'dur."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Bilginin kaynağının AKIL olduğunu savunan yaklaşım hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rasyonalizm"
+          },
+          {
+            "id": "b",
+            "text": "Empirizm"
+          },
+          {
+            "id": "c",
+            "text": "Sofizm"
+          },
+          {
+            "id": "d",
+            "text": "Entüisyonizm"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Rasyonalizmin temsilcileri Descartes, Platon ve Hegel'dir. Empirizm ise kaynağı deney kabul eder."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"İnsan zihni doğuştan boş bir levhadır (tabula rasa)\" görüşü hangi filozofa aittir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "John Locke"
+          },
+          {
+            "id": "b",
+            "text": "Descartes"
+          },
+          {
+            "id": "c",
+            "text": "Platon"
+          },
+          {
+            "id": "d",
+            "text": "Kant"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Locke empirizmin temsilcisidir: bilgi deneyimle yazılır, doğuştan fikir yoktur."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Kant'ın bilgi anlayışı için en doğru ifade hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bilgi, deneyim malzemesinin aklın formlarıyla düzenlenmesidir"
+          },
+          {
+            "id": "b",
+            "text": "Bilgi yalnızca akıldan gelir"
+          },
+          {
+            "id": "c",
+            "text": "Bilgi yalnızca deneyden gelir"
+          },
+          {
+            "id": "d",
+            "text": "Doğru bilgi mümkün değildir"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Kant rasyonalizm ile empirizmi birleştirir: \"Kavramsız görüler kör, görüsüz kavramlar boştur.\""
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"İnsan her şeyin ölçüsüdür\" diyen Protagoras hangi görüşü temsil eder?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rölativizm (görecelik)"
+          },
+          {
+            "id": "b",
+            "text": "Dogmatizm"
+          },
+          {
+            "id": "c",
+            "text": "Rasyonalizm"
+          },
+          {
+            "id": "d",
+            "text": "Realizm"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Protagoras bir sofisttir; doğruluğun kişiden kişiye değiştiğini savunur."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"Düşünüyorum, öyleyse varım\" sözüyle kesin bilgiye ulaşmaya çalışan filozof kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Descartes"
+          },
+          {
+            "id": "b",
+            "text": "Hume"
+          },
+          {
+            "id": "c",
+            "text": "Aristoteles"
+          },
+          {
+            "id": "d",
+            "text": "Sokrates"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Descartes metodik şüpheyle her şeyden kuşku duyar; şüphe edenin varlığından şüphe edilemeyeceğini görür."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Varlığın yalnızca düşünce/ide olduğunu savunan görüş hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "İdealizm"
+          },
+          {
+            "id": "b",
+            "text": "Materyalizm"
+          },
+          {
+            "id": "c",
+            "text": "Nihilizm"
+          },
+          {
+            "id": "d",
+            "text": "Düalizm"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "İdealizmin temsilcileri Platon, Berkeley ve Hegel'dir."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Platon'un \"idealar kuramı\"na göre gerçek varlık nerededir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Duyularla algılanamayan idealar dünyasında"
+          },
+          {
+            "id": "b",
+            "text": "Gözlemlenebilen nesneler dünyasında"
+          },
+          {
+            "id": "c",
+            "text": "İnsan zihninin dışında hiçbir yerde"
+          },
+          {
+            "id": "d",
+            "text": "Yalnızca maddede"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Platon'a göre duyulur dünya, ideaların gölgesidir. \"Mağara alegorisi\" bunu anlatır."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Varlığın hem madde hem ruhtan oluştuğunu savunan görüş hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Düalizm"
+          },
+          {
+            "id": "b",
+            "text": "Monizm"
+          },
+          {
+            "id": "c",
+            "text": "Nihilizm"
+          },
+          {
+            "id": "d",
+            "text": "Plüralizm"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Düalizm iki temel cevher kabul eder; Descartes'ın madde–ruh ayrımı en bilinen örnektir."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Sokrates'in \"doğurtma (maiotik)\" yöntemi neyi ifade eder?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Soru sorarak kişinin kendi doğrusunu bulmasını sağlamak"
+          },
+          {
+            "id": "b",
+            "text": "Bilgiyi doğrudan öğretmek"
+          },
+          {
+            "id": "c",
+            "text": "Deney yaparak kanıt toplamak"
+          },
+          {
+            "id": "d",
+            "text": "Otoriteye dayanarak sonuca varmak"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Sokrates kendini \"düşünce ebesi\" olarak görür; bilgiyi vermez, karşısındakinden çıkarır."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi felsefenin işlevlerinden biri DEĞİLDİR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Teknolojik ürün geliştirmek"
+          },
+          {
+            "id": "b",
+            "text": "Eleştirel düşünmeyi geliştirmek"
+          },
+          {
+            "id": "c",
+            "text": "Kavramları açıklığa kavuşturmak"
+          },
+          {
+            "id": "d",
+            "text": "Önyargıları sorgulamak"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Felsefe pratik ürün üretmez; düşünme biçimini ve kavramları konu edinir."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"Bir önerme, pratikte işe yarıyorsa doğrudur\" görüşü hangi akıma aittir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pragmatizm"
+          },
+          {
+            "id": "b",
+            "text": "Rasyonalizm"
+          },
+          {
+            "id": "c",
+            "text": "Septisizm"
+          },
+          {
+            "id": "d",
+            "text": "İdealizm"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Pragmatizmin temsilcileri W. James ve J. Dewey'dir; doğruluk ölçütü fayda ve işe yararlıktır."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Felsefi bilgi birikimlidir; her filozof öncekinin bulduğunun üzerine kesin bir sonuç ekler."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Birikimli ilerleyen BİLİMSEL bilgidir. Felsefede eski sorular yeniden ele alınır."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Empirizme göre bilginin kaynağı deney ve gözlemdir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Locke, Hume ve Berkeley empirizmin başlıca temsilcileridir."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Nihilizm, hiçbir varlığın gerçekte var olmadığını savunur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Gorgias \"Hiçbir şey yoktur; olsaydı bilinemezdi; bilinseydi aktarılamazdı\" der."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Etik, \"iyi\" ve \"kötü\" kavramlarını konu edinen felsefe dalıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Etik, ahlaki eylemin ölçütünü sorgular; ahlakın kendisi değil, ahlak üzerine düşünmedir."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Dogmatizm, kesin ve değişmez bilgiye ulaşılabileceğini savunur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Dogmatizm septisizmin karşıtıdır; kesin bilginin mümkün olduğunu kabul eder."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Varlığın ne olduğunu sorgulayan felsefe dalına {{0}} denir.",
+        "choices": [
+          "ontoloji",
+          "epistemoloji",
+          "etik",
+          "estetik"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ontoloji"
+        ]
+      },
+      "explanation": "Ontoloji = varlık felsefesi."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bilginin kaynağını, sınırını ve doğruluğunu sorgulayan dala {{0}} denir.",
+        "choices": [
+          "epistemoloji",
+          "ontoloji",
+          "aksiyoloji",
+          "mantık"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "epistemoloji"
+        ]
+      },
+      "explanation": "Epistemoloji = bilgi felsefesi."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Descartes'ın kesin bilgiye ulaşmak için kullandığı yönteme {{0}} şüphe denir.",
+        "choices": [
+          "metodik",
+          "mutlak",
+          "sürekli",
+          "doğal"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "metodik"
+        ]
+      },
+      "explanation": "Şüphe amaç değil, araçtır: kesin olana ulaşmak için kullanılır."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Varlığın tek bir cevhere indirgenebileceğini savunan görüşe {{0}} denir.",
+        "choices": [
+          "monizm",
+          "düalizm",
+          "plüralizm",
+          "nihilizm"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "monizm"
+        ]
+      },
+      "explanation": "Monizm tek, düalizm iki, plüralizm çok cevher kabul eder."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Doğru düşünmenin kurallarını inceleyen alana {{0}} denir.",
+        "choices": [
+          "mantık",
+          "estetik",
+          "etik",
+          "siyaset felsefesi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "mantık"
+        ]
+      },
+      "explanation": "Mantık, akıl yürütmenin biçimsel geçerliliğiyle ilgilenir."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Felsefe dalını konusuyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ontoloji"
+          },
+          {
+            "id": "2",
+            "text": "Epistemoloji"
+          },
+          {
+            "id": "3",
+            "text": "Etik"
+          },
+          {
+            "id": "4",
+            "text": "Estetik"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Varlık"
+          },
+          {
+            "id": "b",
+            "text": "Bilgi"
+          },
+          {
+            "id": "c",
+            "text": "İyi ve kötü"
+          },
+          {
+            "id": "d",
+            "text": "Güzel"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört dal felsefenin temel bölümleridir."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Filozofu savunduğu görüşle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Descartes"
+          },
+          {
+            "id": "2",
+            "text": "Locke"
+          },
+          {
+            "id": "3",
+            "text": "Protagoras"
+          },
+          {
+            "id": "4",
+            "text": "Kant"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Rasyonalizm"
+          },
+          {
+            "id": "b",
+            "text": "Empirizm"
+          },
+          {
+            "id": "c",
+            "text": "Rölativizm"
+          },
+          {
+            "id": "d",
+            "text": "Kritisizm"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kant'ın yaklaşımı akıl ile deneyi birleştirdiği için kritisizm (eleştirel felsefe) adını alır."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Görüşü tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "İdealizm"
+          },
+          {
+            "id": "2",
+            "text": "Materyalizm"
+          },
+          {
+            "id": "3",
+            "text": "Düalizm"
+          },
+          {
+            "id": "4",
+            "text": "Nihilizm"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Varlık idedir"
+          },
+          {
+            "id": "b",
+            "text": "Varlık maddedir"
+          },
+          {
+            "id": "c",
+            "text": "Varlık hem madde hem ruhtur"
+          },
+          {
+            "id": "d",
+            "text": "Varlık yoktur"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Ontolojinin dört temel tutumu."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Filozofu kendisiyle özdeşleşen sözle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Sokrates"
+          },
+          {
+            "id": "2",
+            "text": "Descartes"
+          },
+          {
+            "id": "3",
+            "text": "Protagoras"
+          },
+          {
+            "id": "4",
+            "text": "Heraklitos"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bildiğim tek şey hiçbir şey bilmediğimdir"
+          },
+          {
+            "id": "b",
+            "text": "Düşünüyorum, öyleyse varım"
+          },
+          {
+            "id": "c",
+            "text": "İnsan her şeyin ölçüsüdür"
+          },
+          {
+            "id": "d",
+            "text": "Aynı nehirde iki kez yıkanılmaz"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Heraklitos değişimi (oluş) temel ilke sayar."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Filozofları yaşadıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Thales"
+          },
+          {
+            "id": "2",
+            "text": "Sokrates"
+          },
+          {
+            "id": "3",
+            "text": "Aristoteles"
+          },
+          {
+            "id": "4",
+            "text": "Descartes"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Thales (MÖ 6. yy) → Sokrates (MÖ 5. yy) → Aristoteles (MÖ 4. yy) → Descartes (17. yy)."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Felsefe dönemlerini sıraya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "İlk Çağ felsefesi"
+          },
+          {
+            "id": "2",
+            "text": "Orta Çağ felsefesi"
+          },
+          {
+            "id": "3",
+            "text": "Yeni Çağ felsefesi"
+          },
+          {
+            "id": "4",
+            "text": "Çağdaş felsefe"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Orta Çağ'da felsefe dinle, Yeni Çağ'da bilimle yakın ilişkilidir."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Descartes'ın metodik şüphe adımlarını sıraya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Duyulardan gelen bilgilerden şüphe et"
+          },
+          {
+            "id": "2",
+            "text": "Matematiksel doğrulardan bile şüphe et"
+          },
+          {
+            "id": "3",
+            "text": "Şüphe edenin varlığından şüphe edilemeyeceğini gör"
+          },
+          {
+            "id": "4",
+            "text": "\"Düşünüyorum, öyleyse varım\" sonucuna ulaş"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Şüphe, kendisinden şüphe edilemeyen bir temele ulaşana kadar sürdürülür."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Felsefenin doğduğu kabul edilen yüzyıl, MÖ kaçıncı yüzyıldır?",
+        "suffix": ". yüzyıl"
+      },
+      "answer_key": {
+        "value": 6,
+        "tolerance": 0
+      },
+      "explanation": "Felsefe MÖ 6. yüzyılda Antik Yunan'ın Milet kentinde Thales ile başlar."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Empedokles'e göre varlığın temelinde kaç ana unsur vardır?",
+        "suffix": "unsur"
+      },
+      "answer_key": {
+        "value": 4,
+        "tolerance": 0
+      },
+      "explanation": "Toprak, su, hava ve ateş. Bu görüş plüralizmin erken bir örneğidir."
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aristoteles'in kurduğu okul olan Lise (Lykeion) hangi yüzyılda açıldı? (MÖ)",
+        "suffix": ". yüzyıl"
+      },
+      "answer_key": {
+        "value": 4,
+        "tolerance": 0
+      },
+      "explanation": "MÖ 335 civarında Atina'da kurulmuştur. Platon'un Akademi'si ise MÖ 387'dedir."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Epistemoloji",
+        "back": "Bilgi felsefesi. Bilginin kaynağını, sınırlarını ve doğruluk ölçütünü sorgular."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Septisizm",
+        "back": "Şüphecilik. Kesin ve genel geçer bilgiye ulaşılamayacağını savunur. Temsilcisi Pyrrhon."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "İdea",
+        "back": "Platon'a göre nesnelerin değişmez, mükemmel ve gerçek aslı. Duyularla değil akılla kavranır."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Aksiyoloji",
+        "back": "Değerler felsefesi. Etik ve estetiği kapsayan üst alan; \"değer nedir\" sorusunu sorar."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "felsefeyi_tanima",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Felsefi"
+          },
+          {
+            "id": "2",
+            "text": "sorular"
+          },
+          {
+            "id": "3",
+            "text": "yeni"
+          },
+          {
+            "id": "4",
+            "text": "sorulara"
+          },
+          {
+            "id": "5",
+            "text": "yol"
+          },
+          {
+            "id": "6",
+            "text": "açar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "Felsefede cevap, çoğu zaman daha derin bir soruya götürür."
+    },
+    {
+      "topic": "bilgi_felsefesi",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Empirizme"
+          },
+          {
+            "id": "2",
+            "text": "göre"
+          },
+          {
+            "id": "3",
+            "text": "bilginin"
+          },
+          {
+            "id": "4",
+            "text": "kaynağı"
+          },
+          {
+            "id": "5",
+            "text": "deneydir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Rasyonalizmde kaynak akıl, empirizmde deneydir."
+    },
+    {
+      "topic": "varlik_felsefesi",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Materyalizme"
+          },
+          {
+            "id": "2",
+            "text": "göre"
+          },
+          {
+            "id": "3",
+            "text": "var"
+          },
+          {
+            "id": "4",
+            "text": "olan"
+          },
+          {
+            "id": "5",
+            "text": "tek"
+          },
+          {
+            "id": "6",
+            "text": "cevher"
+          },
+          {
+            "id": "7",
+            "text": "maddedir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Materyalizm monist bir ontolojidir: tek cevher madde."
+    }
+  ]
+}

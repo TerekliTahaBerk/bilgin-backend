@@ -108,9 +108,27 @@ final class UnitTemplateSeeder extends Seeder
                         'types' => ['numeric_input'],
                     ],
                     [
-                        'title' => 'Flashcard', 'node_type' => 'quick_review',
+                        'title' => 'Bilgi Kartı', 'node_type' => 'study',
                         'difficulty' => 'kolay', 'exercise_count' => 4,
                         'types' => ['flashcard'],
+                    ],
+                    /*
+                     | Son iki tip görsel istiyor ve medya altyapısı (R2)
+                     | henüz yok. Yine de teste konuyor: istemci bu tipleri
+                     | görselsiz de çizebiliyor (bölge ve konum ADLARIYLA)
+                     | ve içerik ekibi yazdığı soruyu görebilmeli.
+                     */
+                    [
+                        'title' => 'Harita İşaretleme', 'node_type' => 'study',
+                        'difficulty' => 'orta', 'exercise_count' => 2,
+                        'types' => ['image_hotspot'],
+                        'preview_label' => 'görselli · 2 soru',
+                    ],
+                    [
+                        'title' => 'Şema Etiketleme', 'node_type' => 'study',
+                        'difficulty' => 'orta_zor', 'exercise_count' => 2,
+                        'types' => ['diagram_label'],
+                        'preview_label' => 'görselli · 2 soru',
                     ],
                 ],
             ],

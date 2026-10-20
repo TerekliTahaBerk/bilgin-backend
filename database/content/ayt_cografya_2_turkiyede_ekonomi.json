@@ -1,0 +1,720 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_cografya_2",
+  "subject": "cografya",
+  "unit": {
+    "title": "Türkiye'de Ekonomik Faaliyetler",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 12,
+    "difficulty_band": "orta",
+    "estimated_minutes": 28,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "ekonomik_faaliyetler",
+      "name": "Ekonomik Faaliyetler",
+      "grade_level": 12,
+      "exam_weight": 2
+    },
+    {
+      "code": "turkiyede_tarim_ve_hayvancilik",
+      "name": "Türkiye'de Tarım ve Hayvancılık",
+      "grade_level": 12,
+      "exam_weight": 3
+    },
+    {
+      "code": "turkiyede_sanayi",
+      "name": "Türkiye'de Sanayi",
+      "grade_level": 12,
+      "exam_weight": 3
+    },
+    {
+      "code": "turkiyede_madenler_ve_enerji",
+      "name": "Türkiye'de Madenler ve Enerji",
+      "grade_level": 12,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Tarım, hayvancılık ve madencilik hangi ekonomik faaliyet grubuna girer?",
+        "options": [
+          { "id": "a", "text": "Birincil (primer)" },
+          { "id": "b", "text": "İkincil (sekonder)" },
+          { "id": "c", "text": "Üçüncül (tersiyer)" },
+          { "id": "d", "text": "Dördüncül" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Birincil: doğadan ham madde elde etme. İkincil: sanayi. Üçüncül: hizmet."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bir ülkede hizmet sektörünün payının yüksek olması neyi gösterir?",
+        "options": [
+          { "id": "a", "text": "Ekonomik gelişmişlik düzeyinin yüksek olduğunu" },
+          { "id": "b", "text": "Tarımın geliştiğini" },
+          { "id": "c", "text": "Nüfusun azaldığını" },
+          { "id": "d", "text": "Ham madde kıtlığını" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Gelişmiş ülkelerde istihdamın çoğu hizmet sektöründedir; tarımın payı %5'in altına iner."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de çay tarımı hangi bölgede yoğunlaşmıştır?",
+        "options": [
+          { "id": "a", "text": "Doğu Karadeniz" },
+          { "id": "b", "text": "Akdeniz" },
+          { "id": "c", "text": "İç Anadolu" },
+          { "id": "d", "text": "Güneydoğu Anadolu" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Çay bol yağış ve asitli toprak ister; Rize ve çevresi tek uygun alandır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de buğday tarımının en yaygın olduğu bölge ve sebebi hangisidir?",
+        "options": [
+          { "id": "a", "text": "İç Anadolu — geniş düzlükler ve karasal iklim" },
+          { "id": "b", "text": "Karadeniz — bol yağış" },
+          { "id": "c", "text": "Akdeniz — sıcak kışlar" },
+          { "id": "d", "text": "Marmara — sanayi yakınlığı" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Buğday yetişme döneminde yağış, olgunlaşma döneminde kuraklık ister; karasal iklim buna uygundur."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de seracılığın Akdeniz kıyılarında yoğunlaşmasının temel sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Kışların ılık geçmesi ve ısıtma maliyetinin düşük olması" },
+          { "id": "b", "text": "Toprakların verimli olması" },
+          { "id": "c", "text": "Nüfusun yoğun olması" },
+          { "id": "d", "text": "Ulaşımın gelişmiş olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Antalya ve Mersin'de kış sıcaklıkları donma noktasının üstünde kaldığı için sera ısıtması ucuzdur."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de küçükbaş hayvancılığın İç Anadolu ve Doğu Anadolu'da yaygın olmasının sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Geniş bozkır ve otlak alanlarının bulunması" },
+          { "id": "b", "text": "Yağışın fazla olması" },
+          { "id": "c", "text": "Sanayinin gelişmiş olması" },
+          { "id": "d", "text": "Ulaşımın kolay olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Küçükbaş hayvanlar bozkır bitki örtüsüyle beslenebilir; büyükbaş ise çayır ve yem bitkisi ister."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de tarımsal verimin yıllara göre büyük dalgalanma göstermesinin temel sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Tarımın büyük ölçüde doğal yağışa bağlı olması" },
+          { "id": "b", "text": "Makineleşmenin az olması" },
+          { "id": "c", "text": "Toprakların verimsiz olması" },
+          { "id": "d", "text": "İş gücünün yetersiz olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Sulama oranı düşük olduğu için kurak geçen yıllarda üretim belirgin biçimde düşer."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de sanayinin en çok geliştiği bölge hangisidir?",
+        "options": [
+          { "id": "a", "text": "Marmara" },
+          { "id": "b", "text": "Doğu Anadolu" },
+          { "id": "c", "text": "Karadeniz" },
+          { "id": "d", "text": "Güneydoğu Anadolu" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Liman, ham madde, iş gücü, pazar ve ulaşımın bir arada bulunması Marmara'yı öne çıkarır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Demir-çelik fabrikalarının Karabük ve Ereğli'de kurulmasının temel sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Taş kömürü yataklarına yakınlık" },
+          { "id": "b", "text": "Nüfusun yoğun olması" },
+          { "id": "c", "text": "Tarımın gelişmiş olması" },
+          { "id": "d", "text": "Turizm potansiyeli" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Demir-çelik üretimi yüksek enerji ister; Zonguldak havzasının taş kömürü belirleyici olmuştur."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Çimento fabrikalarının Türkiye'nin her bölgesine dağılmış olmasının sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Ham maddesinin her yerde bulunması ve taşıma maliyetinin yüksek olması" },
+          { "id": "b", "text": "Devlet politikası" },
+          { "id": "c", "text": "İş gücünün ucuz olması" },
+          { "id": "d", "text": "İhracata yönelik olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Kalker her yerde bulunur; ağır ve ucuz bir ürün olduğu için uzağa taşımak ekonomik değildir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Konserve ve meyve suyu fabrikalarının tarım alanlarına yakın kurulmasının sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Ham maddenin çabuk bozulması" },
+          { "id": "b", "text": "İş gücünün ucuz olması" },
+          { "id": "c", "text": "Enerji maliyetinin düşük olması" },
+          { "id": "d", "text": "Pazara yakınlık" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Bozulabilir ham madde kullanan sanayiler üretim alanına, dayanıklı olanlar pazara yakın kurulur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'nin dünya rezervleri bakımından ilk sırada yer aldığı maden hangisidir?",
+        "options": [
+          { "id": "a", "text": "Bor" },
+          { "id": "b", "text": "Demir" },
+          { "id": "c", "text": "Petrol" },
+          { "id": "d", "text": "Altın" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Dünya bor rezervlerinin büyük çoğunluğu Türkiye'dedir (Eskişehir, Kütahya, Balıkesir, Bursa)."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de taş kömürü çıkarılan tek havza hangisidir?",
+        "options": [
+          { "id": "a", "text": "Zonguldak" },
+          { "id": "b", "text": "Soma" },
+          { "id": "c", "text": "Afşin-Elbistan" },
+          { "id": "d", "text": "Tunçbilek" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Diğerleri LİNYİT havzalarıdır. Taş kömürü yalnızca Zonguldak havzasında bulunur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'nin enerjide dışa bağımlı olmasının temel sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Petrol ve doğal gaz rezervlerinin yetersiz olması" },
+          { "id": "b", "text": "Akarsularının olmaması" },
+          { "id": "c", "text": "Güneşlenme süresinin kısa olması" },
+          { "id": "d", "text": "Rüzgâr potansiyelinin düşük olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Türkiye petrol ihtiyacının büyük kısmını ithal eder; buna karşın yenilenebilir potansiyeli yüksektir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Jeotermal enerji potansiyelinin Ege Bölgesi'nde yüksek olmasının sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Fay hatlarının yoğun olması" },
+          { "id": "b", "text": "Yağışın fazla olması" },
+          { "id": "c", "text": "Toprakların verimli olması" },
+          { "id": "d", "text": "Deniz seviyesinin düşük olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Kırıklı yapı, yer altı sularının magmadan ısı alıp yüzeye çıkmasını sağlar (Denizli, Aydın, Manisa)."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Turizm ve bankacılık üçüncül (hizmet) sektöre girer."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Hizmet sektörü ürün değil, hizmet üretir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de tarımda sulama oranı yüksek olduğu için verim yıllara göre değişmez."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Sulama oranı sınırlıdır; bu yüzden kurak yıllarda üretim belirgin biçimde düşer."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Çabuk bozulan ham madde kullanan sanayiler üretim alanına yakın kurulur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Konserve, meyve suyu ve süt ürünleri bunun tipik örnekleridir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Soma ve Tunçbilek taş kömürü havzalarıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İkisi de LİNYİT havzasıdır; taş kömürü yalnızca Zonguldak'ta çıkarılır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Fındık üretimi Karadeniz kıyılarında yoğunlaşmıştır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Fındık ılıman, yağışlı iklim ister; Giresun ve Ordu başlıca üretim merkezleridir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Doğadan doğrudan ham madde elde eden faaliyetlere {{0}} sektör denir.",
+        "choices": ["birincil", "ikincil", "üçüncül", "dördüncül"]
+      },
+      "answer_key": { "blanks": ["birincil"] },
+      "explanation": "Tarım, hayvancılık, madencilik, balıkçılık ve ormancılık."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye dünya {{0}} rezervleri bakımından ilk sıradadır.",
+        "choices": ["bor", "demir", "petrol", "bakır"]
+      },
+      "answer_key": { "blanks": ["bor"] },
+      "explanation": "Bor; cam, seramik ve ileri teknoloji ürünlerinde kullanılan stratejik bir madendir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Çay tarımı {{0}} Karadeniz'de yoğunlaşmıştır.",
+        "choices": ["Doğu", "Batı", "Orta", "Güney"]
+      },
+      "answer_key": { "blanks": ["Doğu"] },
+      "explanation": "Rize merkezli; bol yağış ve asitli toprak gerektirir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Demir-çelik sanayisi {{0}} ve Ereğli'de kurulmuştur.",
+        "choices": ["Karabük", "Adana", "Konya", "Trabzon"]
+      },
+      "answer_key": { "blanks": ["Karabük"] },
+      "explanation": "Zonguldak taş kömürü havzasına yakınlık belirleyici olmuştur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Yer altı ısısından elde edilen enerjiye {{0}} enerji denir.",
+        "choices": ["jeotermal", "hidroelektrik", "termik", "nükleer"]
+      },
+      "answer_key": { "blanks": ["jeotermal"] },
+      "explanation": "Türkiye'de potansiyeli en yüksek bölge Ege'dir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ürünü yetiştiği bölgeyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Çay" },
+          { "id": "2", "text": "Fındık" },
+          { "id": "3", "text": "Muz" },
+          { "id": "4", "text": "Buğday" }
+        ],
+        "right": [
+          { "id": "a", "text": "Doğu Karadeniz (Rize)" },
+          { "id": "b", "text": "Orta/Doğu Karadeniz (Giresun)" },
+          { "id": "c", "text": "Akdeniz (Anamur)" },
+          { "id": "d", "text": "İç Anadolu" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Her ürünün yetişme koşulu, bölgenin iklimiyle doğrudan bağlantılıdır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Madeni çıkarıldığı yerle birleştir.",
+        "left": [
+          { "id": "1", "text": "Taş kömürü" },
+          { "id": "2", "text": "Linyit" },
+          { "id": "3", "text": "Bor" },
+          { "id": "4", "text": "Demir" }
+        ],
+        "right": [
+          { "id": "a", "text": "Zonguldak" },
+          { "id": "b", "text": "Soma, Tunçbilek, Afşin-Elbistan" },
+          { "id": "c", "text": "Eskişehir, Kütahya, Balıkesir" },
+          { "id": "d", "text": "Divriği (Sivas)" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Taş kömürü–linyit ayrımı en sık sorulan ve en sık karıştırılan noktadır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Sanayi kolunu kuruluş yerini belirleyen etkenle birleştir.",
+        "left": [
+          { "id": "1", "text": "Demir-çelik" },
+          { "id": "2", "text": "Çimento" },
+          { "id": "3", "text": "Konserve" },
+          { "id": "4", "text": "Tekstil" }
+        ],
+        "right": [
+          { "id": "a", "text": "Enerji (kömür) kaynağı" },
+          { "id": "b", "text": "Ham maddenin her yerde bulunması" },
+          { "id": "c", "text": "Bozulabilir ham madde" },
+          { "id": "d", "text": "İş gücü ve pamuk üretim alanı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Sanayi kuruluş yeri soruları \"hangi etken baskın\" sorusunun cevabını arar."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Sektörü örneğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Birincil" },
+          { "id": "2", "text": "İkincil" },
+          { "id": "3", "text": "Üçüncül" },
+          { "id": "4", "text": "Dördüncül" }
+        ],
+        "right": [
+          { "id": "a", "text": "Madencilik" },
+          { "id": "b", "text": "Otomotiv üretimi" },
+          { "id": "c", "text": "Turizm ve bankacılık" },
+          { "id": "d", "text": "Ar-Ge ve bilişim" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Gelişmişlik arttıkça istihdam birincilden dördüncüle doğru kayar."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir ürünün üretim zincirini sıraya diz.",
+        "items": [
+          { "id": "1", "text": "Pamuğun tarlada yetiştirilmesi" },
+          { "id": "2", "text": "Pamuğun iplik hâline getirilmesi" },
+          { "id": "3", "text": "Kumaşın dikilerek giysi olması" },
+          { "id": "4", "text": "Mağazada satılması" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "İlk adım birincil, ortadakiler ikincil, son adım üçüncül sektördür."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bölgeleri sanayi gelişmişliğine göre çoktan aza diz.",
+        "items": [
+          { "id": "1", "text": "Marmara" },
+          { "id": "2", "text": "Ege" },
+          { "id": "3", "text": "İç Anadolu" },
+          { "id": "4", "text": "Doğu Anadolu" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Sanayi, ulaşım ve pazara yakınlıkla doğru orantılı olarak batıdan doğuya azalır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kömür türlerini ısıl değeri düşükten yükseğe diz.",
+        "items": [
+          { "id": "1", "text": "Turba" },
+          { "id": "2", "text": "Linyit" },
+          { "id": "3", "text": "Taş kömürü" },
+          { "id": "4", "text": "Antrasit" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Karbon oranı arttıkça ısıl değer yükselir; antrasit en kalitelisidir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de taş kömürü çıkarılan havza sayısı kaçtır?",
+        "suffix": "havza"
+      },
+      "answer_key": { "value": 1, "tolerance": 0 },
+      "explanation": "Yalnızca Zonguldak havzası. Linyit ise birçok yerde bulunur."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Ekonomik faaliyetler kaç ana sektöre ayrılır? (dördüncül dâhil)",
+        "suffix": "sektör"
+      },
+      "answer_key": { "value": 4, "tolerance": 0 },
+      "explanation": "Birincil, ikincil, üçüncül ve dördüncül (bilgi/Ar-Ge)."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de tarım alanlarının kaç bölgesinde buğday yetiştirilebilir? (7 coğrafi bölge içinden)",
+        "suffix": "bölge"
+      },
+      "answer_key": { "value": 7, "tolerance": 0 },
+      "explanation": "Buğday Türkiye'nin HER bölgesinde yetişir; yoğunlaştığı yer İç Anadolu'dur. İkisi farklı sorudur."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Birincil sektör",
+        "back": "Doğadan doğrudan ham madde elde eden faaliyetler: tarım, hayvancılık, madencilik, ormancılık, balıkçılık."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Taş kömürü ↔ Linyit",
+        "back": "Taş kömürü yalnızca Zonguldak'ta; ısıl değeri yüksek. Linyit birçok havzada (Soma, Tunçbilek, Afşin-Elbistan); ısıl değeri düşük."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Sanayi kuruluş yeri kuralı",
+        "back": "Bozulabilir ham madde → üretim alanına yakın. Ağır/ucuz ürün → ham maddeye yakın. Hafif/değerli ürün → pazara yakın."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Buğdayın iklim isteği",
+        "back": "Yetişme döneminde yağış, olgunlaşma döneminde kuraklık. Bu yüzden karasal iklimin hâkim olduğu İç Anadolu'da yoğunlaşır."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Türkiye'de" },
+          { "id": "2", "text": "sanayi" },
+          { "id": "3", "text": "en" },
+          { "id": "4", "text": "çok" },
+          { "id": "5", "text": "Marmara'da" },
+          { "id": "6", "text": "gelişmiştir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Liman, iş gücü, pazar ve ulaşımın bir arada bulunması belirleyicidir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Taş" },
+          { "id": "2", "text": "kömürü" },
+          { "id": "3", "text": "yalnızca" },
+          { "id": "4", "text": "Zonguldak" },
+          { "id": "5", "text": "havzasında" },
+          { "id": "6", "text": "çıkarılır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Soma ve Tunçbilek linyit havzalarıdır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Seracılık" },
+          { "id": "2", "text": "Akdeniz'de" },
+          { "id": "3", "text": "kışların" },
+          { "id": "4", "text": "ılık" },
+          { "id": "5", "text": "geçmesi" },
+          { "id": "6", "text": "nedeniyle" },
+          { "id": "7", "text": "yaygındır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Isıtma maliyetinin düşüklüğü belirleyici etkendir."
+    }
+  ]
+}

@@ -6,10 +6,13 @@ namespace Database\Seeders;
 
 use App\Modules\Admin\Database\Seeders\AdminUserSeeder;
 use App\Modules\Catalog\Database\Seeders\ContentPackageSeeder;
+use App\Modules\Catalog\Database\Seeders\LgsKpssCourseSeeder;
 use App\Modules\Catalog\Database\Seeders\SubjectSeeder;
 use App\Modules\Catalog\Database\Seeders\TopicSeeder;
 use App\Modules\Catalog\Database\Seeders\UnitTemplateSeeder;
 use App\Modules\Catalog\Database\Seeders\YksCourseSeeder;
+use App\Modules\Curriculum\Database\Seeders\KpssExamSeeder;
+use App\Modules\Curriculum\Database\Seeders\LgsExamSeeder;
 use App\Modules\Curriculum\Database\Seeders\YksBlueprintSeeder;
 use App\Modules\Curriculum\Database\Seeders\YksCurriculumMapSeeder;
 use App\Modules\Curriculum\Database\Seeders\YksExamSeeder;
@@ -26,9 +29,12 @@ final class DatabaseSeeder extends Seeder
     {
         $this->call([
             YksExamSeeder::class,        // Curriculum: sınav, oturum, alan varyantları
+            LgsExamSeeder::class,        // Curriculum: LGS — alansız, iki bölümlü
+            KpssExamSeeder::class,       // Curriculum: KPSS — yalnızca GY-GK
             SubjectSeeder::class,
             TopicSeeder::class,        // Catalog: kavramsal dersler
             YksCourseSeeder::class,      // Catalog: 21 ders
+            LgsKpssCourseSeeder::class,  // Catalog: LGS ve KPSS dersleri + eşlemeleri
             YksCurriculumMapSeeder::class, // Curriculum: hangi alan hangi dersi görür
             YksBlueprintSeeder::class,   // Curriculum: deneme kompozisyonları
             UnitTemplateSeeder::class,   // Catalog: ünite şablonları

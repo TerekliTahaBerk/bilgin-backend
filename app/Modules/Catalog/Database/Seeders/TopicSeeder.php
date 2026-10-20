@@ -8,6 +8,7 @@ use App\Modules\Catalog\Infrastructure\Eloquent\Model\Subject;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+use RuntimeException;
 
 /**
  * YKS konu listesi.
@@ -57,6 +58,10 @@ final class TopicSeeder extends Seeder
             'Cümlenin Ögeleri',
             'Cümle Türleri',
             'Anlatım Bozuklukları',
+            // --- LGS (8. sınıf) ---
+            // Fiilimsiler, Cümlenin Ögeleri, Fiilde Çatı ve Cümle Türleri
+            // listede ZATEN VAR; 8. sınıf ile lise aynı konuyu paylaşıyor.
+            'Görsel Okuma',
         ],
 
         'edebiyat' => [
@@ -81,6 +86,14 @@ final class TopicSeeder extends Seeder
         ],
 
         'matematik' => [
+            /*
+             | SIRA ÖĞRETİM SIRASIDIR, alfabetik değil — ders listesinde
+             | ve konu analizinde bu sırayla görünüyorlar.
+             |
+             | LGS (8. sınıf) konuları listenin SONUNDA: asıl kitle lise
+             | öğrencisi ve "Temel Kavramlar" ile başlamayan bir matematik
+             | listesi onlara yanlış görünürdü.
+            */
             'Temel Kavramlar',
             'Sayı Basamakları',
             'Bölme ve Bölünebilme',
@@ -132,8 +145,30 @@ final class TopicSeeder extends Seeder
             'Analitik Geometri',
             'Dönüşüm Geometrisi',
             'Vektörler',
+            // --- LGS (8. sınıf) ---
+            'Çarpanlar ve Katlar',
+            'Üslü İfadeler',
+            'Kareköklü İfadeler',
+            'Cebirsel İfadeler ve Özdeşlikler',
+            'Doğrusal Denklemler',
+            'Eşitsizlikler',
+            'Üçgenler',
+            'Eşlik ve Benzerlik',
+            'Geometrik Cisimler',
+            'Veri Analizi',
         ],
 
+        /*
+         | LGS'ye özgü konular, var olan dalların ALTINA ekleniyor.
+         |
+         | Ayrı bir "LGS Türkçe" dalı AÇILMADI: ders dalı kavramsal,
+         | sınava göre değil. 8. sınıf "Fiilimsiler" konusu da Türkçe
+         | dersinin konusu; ayırmak aynı kavramı iki yerde tutardı.
+         |
+         | Tek istisna Fen Bilimleri: 8. sınıfta fizik/kimya/biyoloji
+         | ayrı okutulmuyor, tek ders. Bu bir basitleştirme değil,
+         | müfredatın kendisi.
+        */
         'fizik' => [
             'Fizik Bilimine Giriş',
             'Madde ve Özellikleri',
@@ -216,6 +251,20 @@ final class TopicSeeder extends Seeder
 
         'tarih' => [
             'Tarih Bilimi',
+            // --- LGS: T.C. İnkılap Tarihi ve Atatürkçülük ---
+            'Bir Kahraman Doğuyor',
+            'Millî Uyanış: Bağımsızlık Yolunda Atılan Adımlar',
+            'Ya İstiklal Ya Ölüm',
+            'Çağdaş Türkiye Yolunda Adımlar',
+            'Atatürkçülük ve Çağdaşlaşan Türkiye',
+            'Demokratikleşme Çabaları',
+            'Atatürk Dönemi Türk Dış Politikası',
+            'Atatürk\'ün Ölümü ve Sonrası',
+            // İlk Çağ uygarlıkları: AYT Tarih-1'in ilk ünitesi ve
+            // listede hiç yoktu.
+            'Mezopotamya ve Mısır Uygarlıkları',
+            'Anadolu Uygarlıkları',
+            'Yunan ve Roma Uygarlıkları',
             'İlk ve Orta Çağlarda Türk Dünyası',
             'İlk Türk Devletleri',
             'Türk Kültür ve Medeniyeti',
@@ -284,6 +333,12 @@ final class TopicSeeder extends Seeder
 
         'din_kulturu' => [
             'Bilgi ve İnanç',
+            // --- LGS (8. sınıf) ---
+            'Kader ve Kaza',
+            'Zekât ve Sadaka',
+            'Hac ve Kurban',
+            'Hz. Muhammed\'in Örnekliği',
+            'Kur\'an-ı Kerim ve Özellikleri',
             'Din ve İslam',
             'İslam ve İbadet',
             'Ahlak ve Değerler',
@@ -297,6 +352,54 @@ final class TopicSeeder extends Seeder
             'Anadolu\'da İslam',
             'Güncel Dinî Meseleler',
             'Dinler ve Evrensel Öğütleri',
+        ],
+
+        'fen_bilimleri' => [
+            'Mevsimler ve İklim',
+            'DNA ve Genetik Kod',
+            'Basınç',
+            'Madde ve Endüstri',
+            'Basit Makineler',
+            'Enerji Dönüşümleri ve Çevre Bilimi',
+            'Elektrik Yükleri ve Elektrik Enerjisi',
+            'Canlılarda Üreme, Büyüme ve Gelişme',
+            'Kuvvet ve Hareket',
+            'Işığın Kırılması ve Renkler',
+            'Vücudumuzdaki Sistemler',
+            'Maddenin Hâlleri ve Isı',
+        ],
+
+        /*
+         | KPSS'ye özgü iki dal.
+         |
+         | "Güncel Bilgiler" diğerlerinden yapısal olarak farklı: konu
+         | ağacı sabit ama SORULARI her yıl tamamen değişiyor. İçerik
+         | ekibinin bu dersi yıllık tazelemesi gerekiyor; diğer
+         | derslerdeki "bir kez yaz, yıllarca kullan" varsayımı burada
+         | geçerli değil.
+        */
+        'vatandaslik' => [
+            'Hukukun Temel Kavramları',
+            'Anayasa Hukuku',
+            'Devletin Yapısı ve Organları',
+            'Temel Hak ve Hürriyetler',
+            'Yasama',
+            'Yürütme',
+            'Yargı',
+            'İdare Hukuku',
+            'Yerel Yönetimler',
+            'Uluslararası Kuruluşlar',
+            'Anayasa Tarihi',
+        ],
+
+        'guncel_bilgiler' => [
+            'Türkiye Gündemi',
+            'Dünya Gündemi',
+            'Güncel Ekonomi',
+            'Güncel Spor',
+            'Kültür ve Sanat',
+            'Bilim ve Teknoloji',
+            'Uluslararası Kuruluşlar ve Anlaşmalar',
         ],
 
         'ingilizce' => [
@@ -325,6 +428,25 @@ final class TopicSeeder extends Seeder
     public function run(): void
     {
         $subjects = Subject::query()->pluck('id', 'code');
+
+        /*
+         | Aynı dalda iki kez geçen başlığı ERKEN yakala.
+         |
+         | Olmadığında Postgres "ON CONFLICT DO UPDATE command cannot
+         | affect row a second time" diyor; bu mesaj hangi başlığın
+         | çakıştığını söylemiyor ve listede 250 satır varken bulmak
+         | dakikalar alıyor.
+        */
+        foreach (self::TOPICS as $subjectCode => $titles) {
+            $codes = array_map(fn (string $title): string => $this->codeFor($title), $titles);
+            $duplicates = array_keys(array_filter(array_count_values($codes), static fn (int $n): bool => $n > 1));
+
+            if ($duplicates !== []) {
+                throw new RuntimeException(
+                    "TopicSeeder: '{$subjectCode}' dalında tekrarlanan konu kodu: ".implode(', ', $duplicates)
+                );
+            }
+        }
 
         $missing = array_diff(array_keys(self::TOPICS), $subjects->keys()->all());
 

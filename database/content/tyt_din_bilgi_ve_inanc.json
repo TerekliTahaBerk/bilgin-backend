@@ -1,0 +1,1328 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "tyt_din",
+  "subject": "din_kulturu",
+  "unit": {
+    "title": "Bilgi, İnanç ve İbadet",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 9,
+    "difficulty_band": "giris",
+    "estimated_minutes": 22,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "bilgi_ve_inanc",
+      "name": "Bilgi ve İnanç",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "islam_ve_ibadet",
+      "name": "İslam ve İbadet",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "ahlak_ve_degerler",
+      "name": "Ahlak ve Değerler",
+      "grade_level": 9,
+      "exam_weight": 1
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İslam inanç esaslarına göre Allah'ın varlığı ve birliğine inanmaya ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tevhid"
+          },
+          {
+            "id": "b",
+            "text": "Nübüvvet"
+          },
+          {
+            "id": "c",
+            "text": "Ahiret"
+          },
+          {
+            "id": "d",
+            "text": "Kader"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Tevhid, Allah'ı birlemek ve ortak koşmamaktır; İslam inancının temelidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi iman esaslarından biri DEĞİLDİR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Namaz kılmak"
+          },
+          {
+            "id": "b",
+            "text": "Meleklere inanmak"
+          },
+          {
+            "id": "c",
+            "text": "Kitaplara inanmak"
+          },
+          {
+            "id": "d",
+            "text": "Ahirete inanmak"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Namaz bir İBADETTİR, iman esası değil. İman esasları (amentü) altı tanedir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Dinin akılla değil, yalnızca vahiyle bilinebilecek konularına ne denir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Gayb"
+          },
+          {
+            "id": "b",
+            "text": "Şehadet"
+          },
+          {
+            "id": "c",
+            "text": "İçtihat"
+          },
+          {
+            "id": "d",
+            "text": "Kıyas"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Gayb, duyularla algılanamayan alandır: melekler, ahiret, kader gibi."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İslam'a göre insanın yaptığı eylemlerden sorumlu olmasının ön koşulu nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Akıl ve irade sahibi olması"
+          },
+          {
+            "id": "b",
+            "text": "Zengin olması"
+          },
+          {
+            "id": "c",
+            "text": "Belirli bir yaşta olması"
+          },
+          {
+            "id": "d",
+            "text": "Eğitimli olması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Sorumluluk için akıl (temyiz) ve özgür irade şarttır; bu yüzden akıl sağlığı yerinde olmayanlar sorumlu tutulmaz."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Kur'an-ı Kerim kaç yılda tamamlanmıştır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "23 yıl"
+          },
+          {
+            "id": "b",
+            "text": "10 yıl"
+          },
+          {
+            "id": "c",
+            "text": "13 yıl"
+          },
+          {
+            "id": "d",
+            "text": "40 yıl"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "13 yıl Mekke + 10 yıl Medine = 23 yıl. İndiriliş 610'da başlamıştır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"Cüz'i irade\" kavramı neyi ifade eder?",
+        "options": [
+          {
+            "id": "a",
+            "text": "İnsanın seçim yapma özgürlüğü"
+          },
+          {
+            "id": "b",
+            "text": "Allah'ın mutlak iradesi"
+          },
+          {
+            "id": "c",
+            "text": "Meleklerin görevi"
+          },
+          {
+            "id": "d",
+            "text": "Kaderin değişmezliği"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Küllî irade Allah'a, cüz'î irade insana aittir. Sorumluluk cüz'î iradeden doğar."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İslam'ın beş şartından biri olan, malın belirli bir oranının ihtiyaç sahiplerine verilmesi hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zekât"
+          },
+          {
+            "id": "b",
+            "text": "Oruç"
+          },
+          {
+            "id": "c",
+            "text": "Hac"
+          },
+          {
+            "id": "d",
+            "text": "Namaz"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Zekât, nisap miktarı mala sahip olanlara farzdır; genel oranı kırkta birdir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Günde beş vakit kılınan namazların toplam farz rekât sayısı kaçtır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "17"
+          },
+          {
+            "id": "b",
+            "text": "20"
+          },
+          {
+            "id": "c",
+            "text": "15"
+          },
+          {
+            "id": "d",
+            "text": "40"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Sabah 2 + öğle 4 + ikindi 4 + akşam 3 + yatsı 4 = 17 rekât."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Hac ibadeti hangi ayda yapılır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Zilhicce"
+          },
+          {
+            "id": "b",
+            "text": "Ramazan"
+          },
+          {
+            "id": "c",
+            "text": "Muharrem"
+          },
+          {
+            "id": "d",
+            "text": "Şaban"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Hac, hicri takvimin son ayı olan Zilhicce'nin belirli günlerinde yapılır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İbadetlerin geçerli olabilmesi için gereken temel şart aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Niyet"
+          },
+          {
+            "id": "b",
+            "text": "Cemaatle yapılması"
+          },
+          {
+            "id": "c",
+            "text": "Sesli yapılması"
+          },
+          {
+            "id": "d",
+            "text": "Camide yapılması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Niyet, bir eylemi alışkanlıktan ayırıp ibadete dönüştüren şarttır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Yolculuk, hastalık gibi durumlarda bazı ibadetlerde kolaylık tanınması İslam'ın hangi ilkesiyle açıklanır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kolaylık (yüsr) ilkesi"
+          },
+          {
+            "id": "b",
+            "text": "Tevhid ilkesi"
+          },
+          {
+            "id": "c",
+            "text": "Adalet ilkesi"
+          },
+          {
+            "id": "d",
+            "text": "Şûra ilkesi"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "\"Allah size kolaylık diler, zorluk dilemez\" (Bakara 185). Yolcunun orucu erteleyebilmesi buna örnektir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İslam ahlakında \"emaneti ehline vermek\" hangi değerle doğrudan ilgilidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Liyakat ve adalet"
+          },
+          {
+            "id": "b",
+            "text": "Cömertlik"
+          },
+          {
+            "id": "c",
+            "text": "Sabır"
+          },
+          {
+            "id": "d",
+            "text": "Tevekkül"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Görevin hak edene verilmesi hem liyakat hem adalet gereğidir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "\"Tevekkül\" kavramının doğru tanımı hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Gereken çabayı gösterip sonucu Allah'a bırakmak"
+          },
+          {
+            "id": "b",
+            "text": "Hiçbir şey yapmadan beklemek"
+          },
+          {
+            "id": "c",
+            "text": "Başkalarına güvenmek"
+          },
+          {
+            "id": "d",
+            "text": "Kadere isyan etmek"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "\"Deveni bağla, sonra tevekkül et\" hadisi tam olarak bu dengeyi anlatır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Kur'an'da övülen \"infak\" kavramı ne anlama gelir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Allah yolunda karşılıksız harcamada bulunmak"
+          },
+          {
+            "id": "b",
+            "text": "Borç vermek"
+          },
+          {
+            "id": "c",
+            "text": "Ticaret yapmak"
+          },
+          {
+            "id": "d",
+            "text": "Miras bırakmak"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "İnfak zekâttan daha geniştir: zorunlu olmayan her türlü yardımı kapsar."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Din bilimleri açısından \"vahiy\" aşağıdakilerden hangisiyle tanımlanır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Allah'ın peygamberlerine bildirdiği ilahi mesaj"
+          },
+          {
+            "id": "b",
+            "text": "İnsanın kendi aklıyla ulaştığı sonuç"
+          },
+          {
+            "id": "c",
+            "text": "Toplumsal gelenek"
+          },
+          {
+            "id": "d",
+            "text": "Bilimsel gözlem"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Vahiy, peygamberlere özgüdür ve insan aklının ürünü değildir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İman esasları altı tanedir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Allah'a, meleklere, kitaplara, peygamberlere, ahirete ve kadere iman."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Hac ibadeti, imkânı olan her Müslümana ömründe bir kez farzdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Maddi ve bedeni gücü yerinde olanlara farz-ı ayndır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Zekât, bütün Müslümanlara gelir durumuna bakılmaksızın farzdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Zekât yalnızca nisap miktarı mala sahip olanlara farzdır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İslam ahlakında niyet, eylemin değerini belirleyen unsurlardan biridir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"Ameller niyetlere göredir\" hadisi bu ilkeyi ifade eder."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kader inancı, insanın sorumluluğunu ortadan kaldırır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İnsan cüz'î iradesiyle seçim yapar; bu yüzden sorumludur."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Allah'ın birliğine inanmaya {{0}} denir.",
+        "choices": [
+          "tevhid",
+          "şirk",
+          "nifak",
+          "küfür"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tevhid"
+        ]
+      },
+      "explanation": "Tevhidin karşıtı şirktir (ortak koşmak)."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Ramazan ayında tutulan oruç, İslam'ın {{0}} şartından biridir.",
+        "choices": [
+          "beş",
+          "altı",
+          "dört",
+          "yedi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "beş"
+        ]
+      },
+      "explanation": "Kelime-i şehadet, namaz, oruç, zekât ve hac."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Zekâtın genel oranı malın {{0}}'de biridir.",
+        "choices": [
+          "kırk",
+          "yirmi",
+          "on",
+          "yüz"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kırk"
+        ]
+      },
+      "explanation": "Ticaret malı ve paralarda oran %2,5'tir (kırkta bir)."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İhtiyaç sahiplerine karşılıksız yapılan harcamaya {{0}} denir.",
+        "choices": [
+          "infak",
+          "faiz",
+          "miras",
+          "nisap"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "infak"
+        ]
+      },
+      "explanation": "İnfak zorunlu (zekât) ve gönüllü (sadaka) yardımların hepsini kapsar."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Duyularla algılanamayan, yalnızca vahiyle bilinen alana {{0}} denir.",
+        "choices": [
+          "gayb",
+          "şehadet",
+          "hikmet",
+          "fıtrat"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "gayb"
+        ]
+      },
+      "explanation": "Gaybın karşıtı şehadet âlemidir (gözlemlenebilir dünya)."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tevhid"
+          },
+          {
+            "id": "2",
+            "text": "Nübüvvet"
+          },
+          {
+            "id": "3",
+            "text": "Ahiret"
+          },
+          {
+            "id": "4",
+            "text": "Vahiy"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Allah'ın birliği"
+          },
+          {
+            "id": "b",
+            "text": "Peygamberlik"
+          },
+          {
+            "id": "c",
+            "text": "Öldükten sonraki hayat"
+          },
+          {
+            "id": "d",
+            "text": "İlahi mesajın bildirilmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört kavram İslam inanç sisteminin omurgasını oluşturur."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Namazı farz rekât sayısıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Sabah"
+          },
+          {
+            "id": "2",
+            "text": "Akşam"
+          },
+          {
+            "id": "3",
+            "text": "Öğle"
+          },
+          {
+            "id": "4",
+            "text": "Yatsı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "2 rekât"
+          },
+          {
+            "id": "b",
+            "text": "3 rekât"
+          },
+          {
+            "id": "c",
+            "text": "4 rekât"
+          },
+          {
+            "id": "d",
+            "text": "4 rekât (gece vakti)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Toplam 17 farz rekât eder."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ahlaki kavramı tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tevekkül"
+          },
+          {
+            "id": "2",
+            "text": "Sabır"
+          },
+          {
+            "id": "3",
+            "text": "İhsan"
+          },
+          {
+            "id": "4",
+            "text": "Adalet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Çaba gösterip sonucu Allah'a bırakmak"
+          },
+          {
+            "id": "b",
+            "text": "Zorluk karşısında direnç göstermek"
+          },
+          {
+            "id": "c",
+            "text": "Bir işi en güzel biçimde yapmak"
+          },
+          {
+            "id": "d",
+            "text": "Herkese hakkını vermek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İhsan, farzı yerine getirmenin ötesinde bir nitelik arayışıdır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İbadeti türüyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Namaz"
+          },
+          {
+            "id": "2",
+            "text": "Zekât"
+          },
+          {
+            "id": "3",
+            "text": "Hac"
+          },
+          {
+            "id": "4",
+            "text": "Oruç"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bedenî ibadet"
+          },
+          {
+            "id": "b",
+            "text": "Malî ibadet"
+          },
+          {
+            "id": "c",
+            "text": "Hem bedenî hem malî"
+          },
+          {
+            "id": "d",
+            "text": "Bedenî ibadet (yeme-içmeden uzak durma)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hac, hem beden hem mal gerektirdiği için karma ibadettir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Günlük namazları vakit sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sabah"
+          },
+          {
+            "id": "2",
+            "text": "Öğle"
+          },
+          {
+            "id": "3",
+            "text": "İkindi"
+          },
+          {
+            "id": "4",
+            "text": "Akşam"
+          },
+          {
+            "id": "5",
+            "text": "Yatsı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Vakitler güneşin konumuna göre belirlenir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İlahi kitapları iniş sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Tevrat"
+          },
+          {
+            "id": "2",
+            "text": "Zebur"
+          },
+          {
+            "id": "3",
+            "text": "İncil"
+          },
+          {
+            "id": "4",
+            "text": "Kur'an-ı Kerim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Sırasıyla Hz. Musa, Hz. Davud, Hz. İsa ve Hz. Muhammed'e indirilmiştir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Abdestin farzlarını sıraya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Yüzü yıkamak"
+          },
+          {
+            "id": "2",
+            "text": "Kolları dirseklerle birlikte yıkamak"
+          },
+          {
+            "id": "3",
+            "text": "Başı mesh etmek"
+          },
+          {
+            "id": "4",
+            "text": "Ayakları topuklarla birlikte yıkamak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Abdestin farzı dörttür ve bu sıra Maide suresi 6. ayette geçer."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "numeric_input",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İman esasları kaç tanedir?",
+        "suffix": "esas"
+      },
+      "answer_key": {
+        "value": 6,
+        "tolerance": 0
+      },
+      "explanation": "Amentü duasında sayılan altı esas."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Günde beş vakit namazın toplam farz rekât sayısı kaçtır?",
+        "suffix": "rekât"
+      },
+      "answer_key": {
+        "value": 17,
+        "tolerance": 0
+      },
+      "explanation": "2 + 4 + 4 + 3 + 4 = 17."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Kur'an-ı Kerim kaç sureden oluşur?",
+        "suffix": "sure"
+      },
+      "answer_key": {
+        "value": 114,
+        "tolerance": 0
+      },
+      "explanation": "En uzun sure Bakara, en kısa sure Kevser'dir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Tevhid",
+        "back": "Allah'ın varlığına, birliğine ve ortağı olmadığına inanmak. İslam inancının temel ilkesi."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Cüz'î irade",
+        "back": "İnsana verilen sınırlı seçim özgürlüğü. Sorumluluğun kaynağıdır; küllî irade ise Allah'a aittir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Nisap",
+        "back": "Zekât verebilmek için gereken asgari zenginlik ölçüsü. Bu miktarın altındaki kişiye zekât farz değildir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "İhsan",
+        "back": "Bir işi, görülüyormuş bilinciyle en güzel biçimde yapmak. Farzı yerine getirmenin ötesinde bir nitelik arayışı."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "İman"
+          },
+          {
+            "id": "2",
+            "text": "esasları"
+          },
+          {
+            "id": "3",
+            "text": "altı"
+          },
+          {
+            "id": "4",
+            "text": "tanedir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "İslam'ın şartı ise beştir; ikisi karıştırılmamalı."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Zekât"
+          },
+          {
+            "id": "2",
+            "text": "nisap"
+          },
+          {
+            "id": "3",
+            "text": "miktarı"
+          },
+          {
+            "id": "4",
+            "text": "mala"
+          },
+          {
+            "id": "5",
+            "text": "sahip"
+          },
+          {
+            "id": "6",
+            "text": "olanlara"
+          },
+          {
+            "id": "7",
+            "text": "farzdır"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Nisap altındaki kişi zekât vermekle yükümlü değildir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Tevekkül"
+          },
+          {
+            "id": "2",
+            "text": "çalışmayı"
+          },
+          {
+            "id": "3",
+            "text": "bırakmak"
+          },
+          {
+            "id": "4",
+            "text": "anlamına"
+          },
+          {
+            "id": "5",
+            "text": "gelmez"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Önce tedbir, sonra teslimiyet."
+    }
+  ]
+}

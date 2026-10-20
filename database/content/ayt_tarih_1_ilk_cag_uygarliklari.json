@@ -1,0 +1,1333 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_tarih_1",
+  "subject": "tarih",
+  "unit": {
+    "title": "İlk Çağ Uygarlıkları",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 9,
+    "difficulty_band": "orta",
+    "estimated_minutes": 28,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "mezopotamya_ve_misir_uygarliklari",
+      "name": "Mezopotamya ve Mısır Uygarlıkları",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "anadolu_uygarliklari",
+      "name": "Anadolu Uygarlıkları",
+      "grade_level": 9,
+      "exam_weight": 3
+    },
+    {
+      "code": "yunan_ve_roma_uygarliklari",
+      "name": "Yunan ve Roma Uygarlıkları",
+      "grade_level": 9,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Tarihte bilinen ilk yazıyı (çivi yazısı) bulan uygarlık hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sümerler"
+          },
+          {
+            "id": "b",
+            "text": "Babiller"
+          },
+          {
+            "id": "c",
+            "text": "Mısırlılar"
+          },
+          {
+            "id": "d",
+            "text": "Hititler"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Sümerler MÖ 3200 civarında çivi yazısını bulmuş, bu tarih yazılı tarihin başlangıcı sayılmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Tarihin bilinen ilk yazılı hukuk kurallarını oluşturan hükümdar kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Urgakina"
+          },
+          {
+            "id": "b",
+            "text": "Hammurabi"
+          },
+          {
+            "id": "c",
+            "text": "Sargon"
+          },
+          {
+            "id": "d",
+            "text": "Keops"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Sümer kralı Urgakina ilk yazılı kanunları yapmıştır. Hammurabi ise kanunları en çok bilinen hâle getiren Babil kralıdır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Mısır'da mumyacılığın gelişmesi hangi bilimin ilerlemesine doğrudan katkı sağlamıştır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tıp ve anatomi"
+          },
+          {
+            "id": "b",
+            "text": "Astronomi"
+          },
+          {
+            "id": "c",
+            "text": "Hukuk"
+          },
+          {
+            "id": "d",
+            "text": "Coğrafya"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Ahiret inancı mumyalamayı gerektirmiş, bu da insan vücudunun tanınmasını sağlamıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Mısır'da Nil Nehri'nin taşma zamanlarını hesaplama ihtiyacı hangi bilimi geliştirmiştir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Astronomi ve takvim"
+          },
+          {
+            "id": "b",
+            "text": "Felsefe"
+          },
+          {
+            "id": "c",
+            "text": "Tıp"
+          },
+          {
+            "id": "d",
+            "text": "Hukuk"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Mısırlılar güneş yılı esaslı ilk takvimi yapmıştır. Taşan toprakların yeniden ölçülmesi ise geometriyi geliştirmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Mısır uygarlığının uzun süre özgünlüğünü korumasının temel sebebi nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Çöllerle çevrili olması nedeniyle dış etkiye kapalı kalması"
+          },
+          {
+            "id": "b",
+            "text": "Güçlü bir donanmaya sahip olması"
+          },
+          {
+            "id": "c",
+            "text": "Hiç savaşmamış olması"
+          },
+          {
+            "id": "d",
+            "text": "Yazıyı çok geç bulması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Mezopotamya açık bir coğrafyada olduğu için sık istila edilmiş; Mısır ise doğal sınırlarla korunmuştur."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Anadolu'da kurulan ve başkenti Hattuşaş olan uygarlık hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hititler"
+          },
+          {
+            "id": "b",
+            "text": "Frigler"
+          },
+          {
+            "id": "c",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "d",
+            "text": "Urartular"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Hattuşaş (Boğazköy/Çorum) Hitit Devleti'nin başkentidir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Tarihte parayı ilk kullanan uygarlık hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "b",
+            "text": "Frigler"
+          },
+          {
+            "id": "c",
+            "text": "İyonlar"
+          },
+          {
+            "id": "d",
+            "text": "Hititler"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Lidyalılar MÖ 7. yüzyılda parayı icat etmiş, takas ekonomisini dönüştürmüştür."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Hititlerde kralın yanında bulunan ve devlet işlerinin görüşüldüğü meclisin adı nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pankuş"
+          },
+          {
+            "id": "b",
+            "text": "Kurultay"
+          },
+          {
+            "id": "c",
+            "text": "Senato"
+          },
+          {
+            "id": "d",
+            "text": "Ekklesia"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Pankuş Meclisi, kralın yetkilerini sınırlayan soylulardan oluşur; demokrasiye erken bir örnektir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Tarım ve hayvancılığa verdikleri önem nedeniyle saban kırmanın ölümle cezalandırıldığı Anadolu uygarlığı hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Frigler"
+          },
+          {
+            "id": "b",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "c",
+            "text": "Urartular"
+          },
+          {
+            "id": "d",
+            "text": "İyonlar"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Frigler tarım toplumudur; ana tanrıçaları Kibele bereketi simgeler."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Urartuların mimaride kale ve su kanallarına ağırlık vermesinin temel sebebi nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dağlık ve sert iklimli bir coğrafyada yaşamaları"
+          },
+          {
+            "id": "b",
+            "text": "Deniz ticaretiyle uğraşmaları"
+          },
+          {
+            "id": "c",
+            "text": "Yazıyı kullanmamaları"
+          },
+          {
+            "id": "d",
+            "text": "Göçebe olmaları"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Doğu Anadolu'nun coğrafyası hem savunmayı hem su yönetimini zorunlu kılmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Bilim ve felsefede öne çıkan, Thales ve Pythagoras gibi düşünürleri yetiştiren Anadolu uygarlığı hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "İyonlar"
+          },
+          {
+            "id": "b",
+            "text": "Hititler"
+          },
+          {
+            "id": "c",
+            "text": "Urartular"
+          },
+          {
+            "id": "d",
+            "text": "Frigler"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "İyon şehir devletleri özgür düşünce ortamı sayesinde bilimin beşiği olmuştur."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Antik Yunan'da bağımsız şehir devletlerine verilen ad nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Polis"
+          },
+          {
+            "id": "b",
+            "text": "Nom"
+          },
+          {
+            "id": "c",
+            "text": "Site konseyi"
+          },
+          {
+            "id": "d",
+            "text": "Satraplık"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Polis, kendi yasası ve ordusu olan şehir devletidir. Mısır'daki benzeri \"nom\"dur."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Roma hukukunun temelini oluşturan ve ilk yazılı Roma kanunları olan metin hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "On İki Levha Kanunları"
+          },
+          {
+            "id": "b",
+            "text": "Hammurabi Kanunları"
+          },
+          {
+            "id": "c",
+            "text": "Magna Carta"
+          },
+          {
+            "id": "d",
+            "text": "Kadeş Antlaşması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "On İki Levha Kanunları MÖ 450 civarında yazılmış, modern hukukun temeli sayılmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kadeş Antlaşması'nın tarihsel önemi nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bilinen ilk yazılı antlaşma olması"
+          },
+          {
+            "id": "b",
+            "text": "İlk yazılı kanunları içermesi"
+          },
+          {
+            "id": "c",
+            "text": "Paranın ilk kez kullanılması"
+          },
+          {
+            "id": "d",
+            "text": "Alfabenin ilk kez yazılması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "MÖ 1280 civarında Hititler ile Mısırlılar arasında imzalanmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "İlk Çağ'ın sona erdiği kabul edilen olay hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kavimler Göçü (375)"
+          },
+          {
+            "id": "b",
+            "text": "İstanbul'un Fethi (1453)"
+          },
+          {
+            "id": "c",
+            "text": "Yazının icadı (MÖ 3200)"
+          },
+          {
+            "id": "d",
+            "text": "Fransız İhtilali (1789)"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "375 Kavimler Göçü İlk Çağ'ı bitirip Orta Çağ'ı başlatır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Tarih öncesi ile tarihi çağları ayıran olay yazının icadıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. MÖ 3200'de Sümerlerin çivi yazısını bulmasıyla yazılı tarih başlar."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Hititler tarihte anal (yıllık) adı verilen kayıtları tutmuştur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Anallar kralın başarılarını tanrılara hesap verir biçimde yazdığı yıllıklardır; objektifliğe yakınlığıyla dikkat çeker."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Antik Yunan'da kadınlar ve köleler de siyasi haklara sahipti."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Yalnızca özgür erkek yurttaşlar siyasi haklara sahipti."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Mezopotamya'da ahiret inancı güçlü olduğu için anıt mezarlar yapılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Anıt mezar (piramit) geleneği MISIR'a aittir; Mezopotamya'da ahiret inancı zayıftır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Lidyalıların kurduğu Kral Yolu, Efes'ten Mezopotamya'ya uzanan bir ticaret yoludur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sardes–Ninova arasındaki bu yol ticareti ve kültür alışverişini hızlandırmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Çivi yazısını bulan uygarlık {{0}}'dir.",
+        "choices": [
+          "Sümerler",
+          "Babiller",
+          "Asurlular",
+          "Akadlar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Sümerler"
+        ]
+      },
+      "explanation": "Asurlular ise yazıyı Anadolu'ya taşımıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Parayı ilk kullanan uygarlık {{0}}'dır.",
+        "choices": [
+          "Lidyalılar",
+          "Frigler",
+          "İyonlar",
+          "Hititler"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Lidyalılar"
+        ]
+      },
+      "explanation": "Para, takas ekonomisinin sınırlarını aşmayı sağlamıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Hitit Devleti'nde kralın yetkilerini sınırlayan meclise {{0}} denir.",
+        "choices": [
+          "Pankuş",
+          "Senato",
+          "Kurultay",
+          "Ekklesia"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Pankuş"
+        ]
+      },
+      "explanation": "Soylulardan oluşur ve kralı yargılayabilir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Mısırlıların yaptığı basamaklı tapınaklara değil, Mezopotamya'daki tapınaklara {{0}} denir.",
+        "choices": [
+          "ziggurat",
+          "piramit",
+          "nekropol",
+          "agora"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ziggurat"
+        ]
+      },
+      "explanation": "Zigguratlar tapınak olmanın yanında ambar ve rasathane olarak da kullanılmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bilinen ilk yazılı antlaşma olan {{0}} Antlaşması, Hititler ile Mısırlılar arasında imzalanmıştır.",
+        "choices": [
+          "Kadeş",
+          "Milano",
+          "Nemrut",
+          "Sardes"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kadeş"
+        ]
+      },
+      "explanation": "Antlaşmanın bir kopyası BM binasında sergilenmektedir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Uygarlığı öne çıktığı özellikle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "2",
+            "text": "Hititler"
+          },
+          {
+            "id": "3",
+            "text": "İyonlar"
+          },
+          {
+            "id": "4",
+            "text": "Urartular"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Parayı bulmak"
+          },
+          {
+            "id": "b",
+            "text": "Anal (yıllık) tutmak"
+          },
+          {
+            "id": "c",
+            "text": "Bilim ve felsefe"
+          },
+          {
+            "id": "d",
+            "text": "Kale ve su kanalı mimarisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her uygarlığı tek bir \"imza\" özellikle hatırlamak sınavda hız kazandırır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Uygarlığı katkısıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Sümerler"
+          },
+          {
+            "id": "2",
+            "text": "Babiller"
+          },
+          {
+            "id": "3",
+            "text": "Mısırlılar"
+          },
+          {
+            "id": "4",
+            "text": "Fenikeliler"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Çivi yazısı"
+          },
+          {
+            "id": "b",
+            "text": "Hammurabi Kanunları"
+          },
+          {
+            "id": "c",
+            "text": "Güneş yılı takvimi"
+          },
+          {
+            "id": "d",
+            "text": "Alfabe"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Fenike alfabesi Yunan ve Latin alfabelerinin atasıdır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kavramı ait olduğu uygarlıkla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Polis"
+          },
+          {
+            "id": "2",
+            "text": "Senato"
+          },
+          {
+            "id": "3",
+            "text": "Ziggurat"
+          },
+          {
+            "id": "4",
+            "text": "Piramit"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Antik Yunan"
+          },
+          {
+            "id": "b",
+            "text": "Roma"
+          },
+          {
+            "id": "c",
+            "text": "Mezopotamya"
+          },
+          {
+            "id": "d",
+            "text": "Mısır"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Mimari yapı tipi, uygarlığın inanç ve yönetim yapısını ele verir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Coğrafi koşulu, yol açtığı sonuçla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Nil'in düzenli taşması"
+          },
+          {
+            "id": "2",
+            "text": "Mezopotamya'nın açık coğrafyası"
+          },
+          {
+            "id": "3",
+            "text": "Mısır'ın çöllerle çevrili olması"
+          },
+          {
+            "id": "4",
+            "text": "Doğu Anadolu'nun dağlık olması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Geometrinin gelişmesi"
+          },
+          {
+            "id": "b",
+            "text": "Sık istilalar ve kültür karışması"
+          },
+          {
+            "id": "c",
+            "text": "Uygarlığın özgünlüğünü koruması"
+          },
+          {
+            "id": "d",
+            "text": "Kale mimarisinin gelişmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İlk Çağ sorularının çoğu \"coğrafya → sonuç\" ilişkisi üzerine kuruludur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Mezopotamya uygarlıklarını tarih sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sümerler"
+          },
+          {
+            "id": "2",
+            "text": "Akadlar"
+          },
+          {
+            "id": "3",
+            "text": "Babiller"
+          },
+          {
+            "id": "4",
+            "text": "Asurlular"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Sümerler MÖ 4000'lerde, Asurlular MÖ 2000 sonrasında öne çıkar."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayları tarih sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Yazının icadı"
+          },
+          {
+            "id": "2",
+            "text": "Kadeş Antlaşması"
+          },
+          {
+            "id": "3",
+            "text": "On İki Levha Kanunları"
+          },
+          {
+            "id": "4",
+            "text": "Kavimler Göçü"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "MÖ 3200 → MÖ 1280 → MÖ 450 → MS 375."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu uygarlıklarını tarih sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hititler"
+          },
+          {
+            "id": "2",
+            "text": "Frigler"
+          },
+          {
+            "id": "3",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "4",
+            "text": "Persler"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Persler Lidya'yı yıkarak Anadolu'ya hâkim olmuştur (MÖ 546)."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Yazının icadı hangi yılda gerçekleşmiştir? (MÖ)",
+        "suffix": "MÖ"
+      },
+      "answer_key": {
+        "value": 3200,
+        "tolerance": 0
+      },
+      "explanation": "MÖ 3200, tarih öncesi ile tarihi çağların sınırıdır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kavimler Göçü hangi yılda gerçekleşmiştir? (MS)",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 375,
+        "tolerance": 0
+      },
+      "explanation": "375 Kavimler Göçü, İlk Çağ'ın sonu ve Orta Çağ'ın başlangıcıdır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Roma İmparatorluğu hangi yılda Doğu ve Batı olarak ikiye ayrılmıştır? (MS)",
+        "suffix": "yılı"
+      },
+      "answer_key": {
+        "value": 395,
+        "tolerance": 0
+      },
+      "explanation": "Kavimler Göçü'nün (375) yarattığı baskı bölünmeyi hızlandırmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Ziggurat",
+        "back": "Mezopotamya'da basamaklı tapınak. Tapınak olmanın yanında ambar, okul ve rasathane olarak da kullanılmıştır."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Pankuş Meclisi",
+        "back": "Hititlerde soylulardan oluşan ve kralın yetkilerini sınırlayan meclis. Kralı yargılama yetkisi vardı."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Anal",
+        "back": "Hitit krallarının yıllık olarak tuttuğu, başarılarının yanında başarısızlıklarını da yazdıkları kayıtlar."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Polis",
+        "back": "Antik Yunan'da kendi yasası, ordusu ve tanrıları olan bağımsız şehir devleti. Siyasi birliğin kurulamamasının sebebidir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Yazıyı"
+          },
+          {
+            "id": "2",
+            "text": "ilk"
+          },
+          {
+            "id": "3",
+            "text": "kullanan"
+          },
+          {
+            "id": "4",
+            "text": "uygarlık"
+          },
+          {
+            "id": "5",
+            "text": "Sümerlerdir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Yazının icadı tarihi çağları başlatır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "2",
+            "text": "ticareti"
+          },
+          {
+            "id": "3",
+            "text": "kolaylaştırmak"
+          },
+          {
+            "id": "4",
+            "text": "için"
+          },
+          {
+            "id": "5",
+            "text": "parayı"
+          },
+          {
+            "id": "6",
+            "text": "icat"
+          },
+          {
+            "id": "7",
+            "text": "etti"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Kral Yolu da aynı ticaret ihtiyacının ürünüdür."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Kavimler"
+          },
+          {
+            "id": "2",
+            "text": "Göçü"
+          },
+          {
+            "id": "3",
+            "text": "İlk"
+          },
+          {
+            "id": "4",
+            "text": "Çağ'ı"
+          },
+          {
+            "id": "5",
+            "text": "sona"
+          },
+          {
+            "id": "6",
+            "text": "erdirmiştir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "375 yılı Orta Çağ'ın da başlangıcıdır."
+    }
+  ]
+}

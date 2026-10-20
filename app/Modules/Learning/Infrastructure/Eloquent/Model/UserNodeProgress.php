@@ -19,6 +19,7 @@ use Illuminate\Support\Carbon;
  * @property int $attempts
  * @property bool $is_perfect
  * @property CarbonImmutable|null $completed_at
+ * @property CarbonImmutable|null $placed_out_at
  * @property CarbonImmutable|null $last_attempt_at
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
@@ -54,6 +55,18 @@ final class UserNodeProgress extends Model
         return ['completed' => 'boolean',
             'is_perfect' => 'boolean',
             'completed_at' => 'immutable_datetime',
+            'placed_out_at' => 'immutable_datetime',
             'last_attempt_at' => 'immutable_datetime', ];
+    }
+
+    /**
+     * Seviye testiyle atlandı mı?
+     *
+     * Ünite yüzdesi ve rozet sayaçları bunu dışarıda bırakıyor: kilidi
+     * açılmış olması, çalışılmış olmasıyla aynı şey değil.
+     */
+    public function wasPlacedOut(): bool
+    {
+        return $this->placed_out_at !== null;
     }
 }

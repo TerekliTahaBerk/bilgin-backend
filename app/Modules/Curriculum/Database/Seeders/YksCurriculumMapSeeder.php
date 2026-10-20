@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Modules\Curriculum\Database\Seeders;
 
 use App\Modules\Curriculum\Domain\Enum\FieldCode;
+use App\Modules\Curriculum\Infrastructure\Eloquent\Model\Exam;
 use App\Modules\Curriculum\Infrastructure\Eloquent\Model\ExamVariant;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -58,12 +59,26 @@ final class YksCurriculumMapSeeder extends Seeder
     {
         $courses = DB::table('courses')->pluck('id', 'code');
         $sections = DB::table('exam_sections')->pluck('id', 'code');
-        $variants = ExamVariant::query()->get()->keyBy(fn (ExamVariant $v): string => $v->field_code->value);
+        /*
+         | Varyantlar YKS'YE DARALTILIYOR.
+         |
+         | Tüm varyantları `field_code`'a göre anahtarlamak, LGS ve KPSS
+         | eklendiğinde kırılıyordu: ikisi de `genel` alanını kullanıyor
+         | ve `keyBy` sonuncusunu tutup YKS döngüsüne sokuyordu. Oradan
+         | da `TYT_ORDER['genel']` tanımsız anahtar hatası geliyordu.
+        */
+        $examId = Exam::query()->where('code', 'yks')->value('id');
+
+        $variants = ExamVariant::query()
+            ->where('exam_id', $examId)
+            ->get()
+            ->keyBy(fn (ExamVariant $v): string => $v->field_code->value);
 
         foreach (FieldCode::cases() as $field) {
             $variant = $variants[$field->value] ?? null;
 
-            if ($variant === null) {
+            // YKS'de karşılığı olmayan alan (ör. `genel`) atlanıyor.
+            if ($variant === null || ! isset(self::TYT_ORDER[$field->value])) {
                 continue;
             }
 

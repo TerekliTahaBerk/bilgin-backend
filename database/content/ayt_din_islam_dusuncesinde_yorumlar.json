@@ -1,0 +1,710 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_din",
+  "subject": "din_kulturu",
+  "unit": {
+    "title": "İslam Düşüncesinde Yorumlar ve Dinler Tarihi",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 11,
+    "difficulty_band": "orta",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "islam_dusuncesinde_yorumlar",
+      "name": "İslam Düşüncesinde Yorumlar",
+      "grade_level": 11,
+      "exam_weight": 3
+    },
+    {
+      "code": "vahiy_ve_akil",
+      "name": "Vahiy ve Akıl",
+      "grade_level": 11,
+      "exam_weight": 2
+    },
+    {
+      "code": "dinler_ve_evrensel_ogutleri",
+      "name": "Dinler ve Evrensel Öğütleri",
+      "grade_level": 11,
+      "exam_weight": 2
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İslam düşüncesinde inanç konularını akıl yoluyla temellendiren ilim dalı hangisidir?",
+        "options": [
+          { "id": "a", "text": "Kelam" },
+          { "id": "b", "text": "Fıkıh" },
+          { "id": "c", "text": "Tefsir" },
+          { "id": "d", "text": "Hadis" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Kelam inanç, fıkıh ibadet ve hukuk, tefsir Kur'an yorumu, hadis ise Peygamber sözleriyle ilgilenir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İbadet ve hukuk konularını inceleyen ilim dalı hangisidir?",
+        "options": [
+          { "id": "a", "text": "Fıkıh" },
+          { "id": "b", "text": "Kelam" },
+          { "id": "c", "text": "Tasavvuf" },
+          { "id": "d", "text": "Siyer" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Fıkıh, \"ne yapmalıyım\" sorusunun cevabını arar; kelam \"neye inanmalıyım\" sorusunu."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İslam düşüncesinde farklı yorumların ortaya çıkmasının temel sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Nasların yoruma açık olması ve kültürel farklılıklar" },
+          { "id": "b", "text": "Kur'an'ın eksik olması" },
+          { "id": "c", "text": "Peygamberin yasaklaması" },
+          { "id": "d", "text": "Dilin anlaşılmaz olması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Yorum farklılığı bir zenginliktir; coğrafya, kültür ve akıl yürütme biçimleri farklı sonuçlar doğurmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de Müslümanların çoğunluğunun bağlı olduğu fıkhî mezhep hangisidir?",
+        "options": [
+          { "id": "a", "text": "Hanefilik" },
+          { "id": "b", "text": "Şafiilik" },
+          { "id": "c", "text": "Malikilik" },
+          { "id": "d", "text": "Hanbelilik" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Kurucusu İmam-ı Azam Ebu Hanife'dir; akla ve re'ye (görüş) geniş yer verir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Kalbi arındırmayı ve Allah'a manevi yakınlığı esas alan yorum biçimi hangisidir?",
+        "options": [
+          { "id": "a", "text": "Tasavvuf" },
+          { "id": "b", "text": "Kelam" },
+          { "id": "c", "text": "Fıkıh" },
+          { "id": "d", "text": "Tefsir" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Tasavvufî yorumlar Anadolu'da Mevlevilik, Bektaşilik ve Yesevilik gibi kollarla gelişmiştir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Mezhep kavramının doğru tanımı hangisidir?",
+        "options": [
+          { "id": "a", "text": "Dinin anlaşılma ve yorumlanma biçimlerinden biri" },
+          { "id": "b", "text": "Ayrı bir din" },
+          { "id": "c", "text": "Yeni bir kutsal kitap" },
+          { "id": "d", "text": "Bir siyasi parti" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Mezhep din DEĞİLDİR; dinin anlaşılma biçimidir. Bu ayrım sınavda sık sorulur."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İslam'a göre akıl ile vahiy arasındaki ilişki nasıl tanımlanır?",
+        "options": [
+          { "id": "a", "text": "Birbirini tamamlar" },
+          { "id": "b", "text": "Birbirine zıttır" },
+          { "id": "c", "text": "Akıl vahyi geçersiz kılar" },
+          { "id": "d", "text": "Vahiy aklı gereksiz kılar" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Vahiy akla hitap eder; sorumluluğun şartı da akıl sahibi olmaktır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Hakkında açık hüküm bulunmayan bir konuda akıl yürüterek hüküm çıkarmaya ne denir?",
+        "options": [
+          { "id": "a", "text": "İçtihat" },
+          { "id": "b", "text": "Nas" },
+          { "id": "c", "text": "İcma" },
+          { "id": "d", "text": "Vahiy" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "İçtihat yapan kişiye müçtehit denir. Nas, hakkında açık hüküm bulunan ayet ya da hadistir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İslam hukukunda \"icma\" ne anlama gelir?",
+        "options": [
+          { "id": "a", "text": "Âlimlerin bir konuda görüş birliğine varması" },
+          { "id": "b", "text": "Kur'an'ın bir ayeti" },
+          { "id": "c", "text": "Peygamberin bir sözü" },
+          { "id": "d", "text": "Bireysel bir karar" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Dört temel delil: Kitap, Sünnet, İcma ve Kıyas."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Hükmü bilinen bir meseleye benzeterek yeni bir meseleye hüküm vermeye ne denir?",
+        "options": [
+          { "id": "a", "text": "Kıyas" },
+          { "id": "b", "text": "İcma" },
+          { "id": "c", "text": "Sünnet" },
+          { "id": "d", "text": "Nas" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Örnek: şarabın haramlığından yola çıkarak sarhoş edici diğer içkilere hüküm vermek."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi ilahi (semavi) dinlerden biri DEĞİLDİR?",
+        "options": [
+          { "id": "a", "text": "Budizm" },
+          { "id": "b", "text": "Yahudilik" },
+          { "id": "c", "text": "Hristiyanlık" },
+          { "id": "d", "text": "İslam" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Budizm, Hinduizm ve Konfüçyanizm ilahi kaynaklı olmayan dinlerdir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Üç ilahi dinin ortak özelliği aşağıdakilerden hangisidir?",
+        "options": [
+          { "id": "a", "text": "Tek tanrı inancına dayanmaları" },
+          { "id": "b", "text": "Aynı kutsal kitabı kullanmaları" },
+          { "id": "c", "text": "Aynı ibadet biçimine sahip olmaları" },
+          { "id": "d", "text": "Aynı peygambere inanmaları" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Üçü de tevhid inancından gelir; Hz. İbrahim ortak atalarıdır (İbrahimî dinler)."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Yahudiliğin kutsal kitabı hangisidir?",
+        "options": [
+          { "id": "a", "text": "Tevrat" },
+          { "id": "b", "text": "İncil" },
+          { "id": "c", "text": "Zebur" },
+          { "id": "d", "text": "Vedalar" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Zebur Hz. Davud'a, İncil Hz. İsa'ya indirilmiştir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Tüm dinlerin ortak olarak yasakladığı davranış aşağıdakilerden hangisidir?",
+        "options": [
+          { "id": "a", "text": "Haksız yere cana kıymak" },
+          { "id": "b", "text": "Ticaret yapmak" },
+          { "id": "c", "text": "Seyahat etmek" },
+          { "id": "d", "text": "Eğitim almak" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Can, mal ve namus güvenliği dinlerin evrensel ortak ilkeleridir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Anadolu'da hoşgörü ve sevgi anlayışıyla tanınan, \"Gel ne olursan ol yine gel\" sözüyle anılan mutasavvıf kimdir?",
+        "options": [
+          { "id": "a", "text": "Mevlânâ Celâleddîn-i Rûmî" },
+          { "id": "b", "text": "Ahmet Yesevi" },
+          { "id": "c", "text": "Hacı Bektaş Veli" },
+          { "id": "d", "text": "Yunus Emre" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Mevlânâ'nın temel eseri Mesnevi'dir; Mevlevilik onun öğretisinden doğmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mezhepler ayrı birer dindir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Mezhep, dinin ANLAŞILMA biçimidir; din değildir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kelam ilmi inanç konularını akılla temellendirir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Maturidilik ve Eşarilik kelam alanındaki iki temel yorumdur."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hakkında açık nas bulunan konularda içtihat yapılmaz."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. İçtihat yalnızca hakkında açık hüküm bulunmayan konularda geçerlidir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hinduizm ve Budizm ilahi kaynaklı dinlerdir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İkisi de ilahi kaynaklı olmayan (beşerî) dinler arasında sayılır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İslam'a göre akıl, dini anlamanın aracıdır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Akıl sorumluluğun da şartıdır; aklî melekesi olmayan kişi dinen sorumlu tutulmaz."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İnanç konularını akılla temellendiren ilim dalına {{0}} denir.",
+        "choices": ["kelam", "fıkıh", "tefsir", "siyer"]
+      },
+      "answer_key": { "blanks": ["kelam"] },
+      "explanation": "Fıkıh ibadet ve hukukla ilgilenir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hakkında açık hüküm bulunmayan konuda akıl yürüterek hüküm çıkarmaya {{0}} denir.",
+        "choices": ["içtihat", "icma", "nas", "kıyas"]
+      },
+      "answer_key": { "blanks": ["içtihat"] },
+      "explanation": "İçtihat yapabilen âlime müçtehit denir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Âlimlerin bir konuda görüş birliğine varmasına {{0}} denir.",
+        "choices": ["icma", "kıyas", "içtihat", "sünnet"]
+      },
+      "answer_key": { "blanks": ["icma"] },
+      "explanation": "Dört temel delil: Kitap, Sünnet, İcma, Kıyas."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Yahudilik, Hristiyanlık ve İslam'ın ortak atası kabul edilen peygamber Hz. {{0}}'dir.",
+        "choices": ["İbrahim", "Musa", "İsa", "Nuh"]
+      },
+      "answer_key": { "blanks": ["İbrahim"] },
+      "explanation": "Bu yüzden üçüne \"İbrahimî dinler\" denir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de yaygın olan fıkhî mezhep {{0}}'tir.",
+        "choices": ["Hanefilik", "Şafiilik", "Malikilik", "Hanbelilik"]
+      },
+      "answer_key": { "blanks": ["Hanefilik"] },
+      "explanation": "Kurucusu İmam-ı Azam Ebu Hanife'dir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İlim dalını konusuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Kelam" },
+          { "id": "2", "text": "Fıkıh" },
+          { "id": "3", "text": "Tefsir" },
+          { "id": "4", "text": "Tasavvuf" }
+        ],
+        "right": [
+          { "id": "a", "text": "İnanç esasları" },
+          { "id": "b", "text": "İbadet ve hukuk" },
+          { "id": "c", "text": "Kur'an yorumu" },
+          { "id": "d", "text": "Manevi arınma" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Dört dal, dinin dört farklı sorusuna cevap verir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Nas" },
+          { "id": "2", "text": "İçtihat" },
+          { "id": "3", "text": "İcma" },
+          { "id": "4", "text": "Kıyas" }
+        ],
+        "right": [
+          { "id": "a", "text": "Açık hüküm bildiren ayet/hadis" },
+          { "id": "b", "text": "Akıl yürüterek hüküm çıkarma" },
+          { "id": "c", "text": "Âlimlerin görüş birliği" },
+          { "id": "d", "text": "Benzetme yoluyla hüküm verme" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "İcma ve kıyas, Kitap ve Sünnet'ten sonra gelen ikincil delillerdir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dini kutsal kitabıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Yahudilik" },
+          { "id": "2", "text": "Hristiyanlık" },
+          { "id": "3", "text": "İslam" },
+          { "id": "4", "text": "Hinduizm" }
+        ],
+        "right": [
+          { "id": "a", "text": "Tevrat" },
+          { "id": "b", "text": "İncil" },
+          { "id": "c", "text": "Kur'an-ı Kerim" },
+          { "id": "d", "text": "Vedalar" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "İlk üçü ilahi, Hinduizm ise ilahi kaynaklı olmayan bir dindir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Şahsiyeti ilişkili olduğu oluşumla birleştir.",
+        "left": [
+          { "id": "1", "text": "Ebu Hanife" },
+          { "id": "2", "text": "Mevlânâ" },
+          { "id": "3", "text": "Hacı Bektaş Veli" },
+          { "id": "4", "text": "Ahmet Yesevi" }
+        ],
+        "right": [
+          { "id": "a", "text": "Hanefilik" },
+          { "id": "b", "text": "Mevlevilik" },
+          { "id": "c", "text": "Bektaşilik" },
+          { "id": "d", "text": "Yesevilik" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "İlki fıkhî, diğer üçü tasavvufî yorumlardır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İslam hukukunda delilleri güçlüden zayıfa doğru diz.",
+        "items": [
+          { "id": "1", "text": "Kitap (Kur'an)" },
+          { "id": "2", "text": "Sünnet" },
+          { "id": "3", "text": "İcma" },
+          { "id": "4", "text": "Kıyas" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Kitap ve Sünnet aslî, İcma ve Kıyas fer'î (ikincil) delillerdir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İlahi dinleri ortaya çıkış sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Yahudilik" },
+          { "id": "2", "text": "Hristiyanlık" },
+          { "id": "3", "text": "İslam" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3"] },
+      "explanation": "Üçü de tevhid inancından gelir ve Hz. İbrahim'e dayanır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir dinî hükme ulaşma sürecini sıraya diz.",
+        "items": [
+          { "id": "1", "text": "Kur'an'da açık hüküm var mı diye bakılır" },
+          { "id": "2", "text": "Sünnete başvurulur" },
+          { "id": "3", "text": "Âlimlerin görüş birliği aranır" },
+          { "id": "4", "text": "Benzer meseleye kıyas edilir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Sıra atlanmaz: açık nas varken içtihada gidilmez."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İslam hukukunda temel delil sayısı kaçtır?",
+        "suffix": "delil"
+      },
+      "answer_key": { "value": 4, "tolerance": 0 },
+      "explanation": "Kitap, Sünnet, İcma, Kıyas."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "İlahi (semavi) din sayısı kaçtır?",
+        "suffix": "din"
+      },
+      "answer_key": { "value": 3, "tolerance": 0 },
+      "explanation": "Yahudilik, Hristiyanlık ve İslam."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Sünni gelenekte kaç temel fıkhî mezhep vardır?",
+        "suffix": "mezhep"
+      },
+      "answer_key": { "value": 4, "tolerance": 0 },
+      "explanation": "Hanefilik, Şafiilik, Malikilik, Hanbelilik."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Mezhep",
+        "back": "Dinin anlaşılma ve yorumlanma biçimlerinden biri. Ayrı bir din DEĞİLDİR."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "İçtihat",
+        "back": "Hakkında açık hüküm bulunmayan bir konuda, deliller ışığında akıl yürüterek hüküm çıkarma."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Kıyas",
+        "back": "Hükmü bilinen bir meseleye benzeterek, ortak gerekçeden hareketle yeni bir meseleye hüküm verme."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "İbrahimî dinler",
+        "back": "Yahudilik, Hristiyanlık ve İslam. Üçü de tek tanrı inancına dayanır ve Hz. İbrahim'i ortak ata kabul eder."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Mezhepler" },
+          { "id": "2", "text": "dinin" },
+          { "id": "3", "text": "anlaşılma" },
+          { "id": "4", "text": "biçimleridir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Mezhebi din sanmak, sorularda en sık düşülen tuzaktır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Açık" },
+          { "id": "2", "text": "nas" },
+          { "id": "3", "text": "varken" },
+          { "id": "4", "text": "içtihat" },
+          { "id": "5", "text": "yapılmaz" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5"] },
+      "explanation": "İçtihat yalnızca hüküm boşluğu olan alanlarda devreye girer."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Üç" },
+          { "id": "2", "text": "ilahi" },
+          { "id": "3", "text": "din" },
+          { "id": "4", "text": "tek" },
+          { "id": "5", "text": "tanrı" },
+          { "id": "6", "text": "inancına" },
+          { "id": "7", "text": "dayanır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Tevhid, üç dinin ortak paydasıdır."
+    }
+  ]
+}

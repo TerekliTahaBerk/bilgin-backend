@@ -1,0 +1,1362 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "tyt_cografya",
+  "subject": "cografya",
+  "unit": {
+    "title": "Dünya'nın Şekli, Hareketleri ve Harita Bilgisi",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 9,
+    "difficulty_band": "giris",
+    "estimated_minutes": 25,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "dunyanin_sekli_ve_hareketleri",
+      "name": "Dünya'nın Şekli ve Hareketleri",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "cografi_konum",
+      "name": "Coğrafi Konum",
+      "grade_level": 9,
+      "exam_weight": 2
+    },
+    {
+      "code": "harita_bilgisi",
+      "name": "Harita Bilgisi",
+      "grade_level": 9,
+      "exam_weight": 1
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Dünya'nın kutuplardan basık, Ekvator'dan şişkin şekline ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Geoit"
+          },
+          {
+            "id": "b",
+            "text": "Küre"
+          },
+          {
+            "id": "c",
+            "text": "Elips"
+          },
+          {
+            "id": "d",
+            "text": "Silindir"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Dünya tam bir küre değildir; kendine özgü bu şekle geoit denir."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi Dünya'nın GÜNLÜK hareketinin sonucudur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Gece ile gündüzün oluşması"
+          },
+          {
+            "id": "b",
+            "text": "Mevsimlerin oluşması"
+          },
+          {
+            "id": "c",
+            "text": "Gece ile gündüz süresinin yıl içinde değişmesi"
+          },
+          {
+            "id": "d",
+            "text": "Güneş ışınlarının geliş açısının yıl içinde değişmesi"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Diğer üç seçenek yıllık hareketin (Güneş çevresinde dolanma) sonucudur."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Dünya'nın ekseni, yörünge düzlemine kaç derecelik açıyla eğiktir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "23°27'"
+          },
+          {
+            "id": "b",
+            "text": "66°33'"
+          },
+          {
+            "id": "c",
+            "text": "45°"
+          },
+          {
+            "id": "d",
+            "text": "90°"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
+      "explanation": "Eksen, yörünge düzlemiyle 66°33'lik açı yapar; eksen eğikliği ise 23°27'dir. İkisi birbirini 90°'ye tamamlar."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "21 Aralık'ta Kuzey Yarım Küre'de aşağıdakilerden hangisi görülür?",
+        "options": [
+          {
+            "id": "a",
+            "text": "En uzun gece yaşanır"
+          },
+          {
+            "id": "b",
+            "text": "En uzun gündüz yaşanır"
+          },
+          {
+            "id": "c",
+            "text": "Gece ve gündüz eşittir"
+          },
+          {
+            "id": "d",
+            "text": "Güneş ışınları Yengeç Dönencesi'ne dik gelir"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "21 Aralık'ta Güneş ışınları Oğlak Dönencesi'ne dik gelir; Kuzey Yarım Küre kış gündönümünü, yani en uzun geceyi yaşar."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Ekvator'dan kutuplara gidildikçe çizgisel hızın azalmasının sebebi nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Paralel çemberlerinin boyunun kısalması"
+          },
+          {
+            "id": "b",
+            "text": "Eksen eğikliğinin değişmesi"
+          },
+          {
+            "id": "c",
+            "text": "Yer çekiminin azalması"
+          },
+          {
+            "id": "d",
+            "text": "Dünya'nın yörüngesinin elips olması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Tüm noktalar 24 saatte bir tur atar; ancak kutuplara yaklaştıkça kat edilen çember küçüldüğü için çizgisel hız düşer."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Dünya'nın yörüngesinin elips olmasının doğrudan sonucu aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Günberi ve günöte konumlarının oluşması"
+          },
+          {
+            "id": "b",
+            "text": "Gece ile gündüzün oluşması"
+          },
+          {
+            "id": "c",
+            "text": "Yerel saat farklarının ortaya çıkması"
+          },
+          {
+            "id": "d",
+            "text": "Dinamik basıncın oluşması"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Elips yörünge nedeniyle Dünya Güneş'e en yakın (günberi, 3 Ocak) ve en uzak (günöte, 4 Temmuz) konumlara geçer."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Başlangıç meridyeni olarak kabul edilen meridyen hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Greenwich"
+          },
+          {
+            "id": "b",
+            "text": "Ekvator"
+          },
+          {
+            "id": "c",
+            "text": "Yengeç Dönencesi"
+          },
+          {
+            "id": "d",
+            "text": "Tarih değiştirme çizgisi"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Londra'daki Greenwich gözlemevinden geçen meridyen 0° kabul edilir. Ekvator ise başlangıç PARALELİDİR."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İki meridyen arasındaki yerel saat farkı kaç dakikadır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "4 dakika"
+          },
+          {
+            "id": "b",
+            "text": "15 dakika"
+          },
+          {
+            "id": "c",
+            "text": "1 dakika"
+          },
+          {
+            "id": "d",
+            "text": "60 dakika"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Dünya 360°'yi 24 saatte döner: 1440 dakika / 360 meridyen = 4 dakika."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "30° doğu meridyeninde yerel saat 12.00 iken, 45° doğu meridyeninde yerel saat kaçtır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "13.00"
+          },
+          {
+            "id": "b",
+            "text": "11.00"
+          },
+          {
+            "id": "c",
+            "text": "12.15"
+          },
+          {
+            "id": "d",
+            "text": "14.00"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Aradaki fark 15 meridyen × 4 dakika = 60 dakika. Doğuda saat ileri olduğundan 13.00 olur."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Paralellerle ilgili aşağıdaki bilgilerden hangisi YANLIŞTIR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hepsinin boyu birbirine eşittir"
+          },
+          {
+            "id": "b",
+            "text": "Toplam 180 tanedir"
+          },
+          {
+            "id": "c",
+            "text": "En büyüğü Ekvator'dur"
+          },
+          {
+            "id": "d",
+            "text": "Aralarındaki mesafe yaklaşık 111 km'dir"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Paralellerin boyları kutuplara gidildikçe kısalır; boyları eşit olan meridyenlerdir."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Türkiye 36°–42° kuzey paralelleri arasında yer alır. Bu durumun sonucu aşağıdakilerden hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dört mevsim belirgin yaşanır"
+          },
+          {
+            "id": "b",
+            "text": "Ülke içinde 76 dakikalık yerel saat farkı vardır"
+          },
+          {
+            "id": "c",
+            "text": "Güneş ışınları yıl içinde dik açıyla gelir"
+          },
+          {
+            "id": "d",
+            "text": "Kuzeyden güneye gidildikçe gündüz süresi hiç değişmez"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Türkiye orta kuşaktadır; bu PARALEL (enlem) sonucudur. 76 dakikalık fark ise meridyen (boylam) sonucudur."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Ölçeği 1/500.000 olan bir haritada 4 cm ile gösterilen iki şehir arasındaki gerçek uzaklık kaç km'dir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "20 km"
+          },
+          {
+            "id": "b",
+            "text": "200 km"
+          },
+          {
+            "id": "c",
+            "text": "2 km"
+          },
+          {
+            "id": "d",
+            "text": "50 km"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "4 × 500.000 = 2.000.000 cm = 20 km."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Ölçek paydası küçüldükçe haritada ne olur?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ayrıntı artar, gösterilen alan daralır"
+          },
+          {
+            "id": "b",
+            "text": "Ayrıntı azalır, gösterilen alan genişler"
+          },
+          {
+            "id": "c",
+            "text": "Hem ayrıntı hem alan artar"
+          },
+          {
+            "id": "d",
+            "text": "Hiçbiri değişmez"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "1/1.000 haritası 1/1.000.000'dan daha ayrıntılıdır ama çok daha küçük bir alanı gösterir."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "İzohips (eş yükselti) haritalarında çizgilerin sık olduğu yerler neyi gösterir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eğimin fazla olduğunu"
+          },
+          {
+            "id": "b",
+            "text": "Eğimin az olduğunu"
+          },
+          {
+            "id": "c",
+            "text": "Yükseltinin az olduğunu"
+          },
+          {
+            "id": "d",
+            "text": "Düzlük alan olduğunu"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Aynı yükselti farkı daha kısa yatay mesafede aşılıyorsa eğim fazladır; çizgiler sıklaşır."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Bir haritada izohipsler kapalı eğriler hâlinde ve içe doğru değerleri AZALIYORSA bu şekil nedir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Çukur (kapalı havza)"
+          },
+          {
+            "id": "b",
+            "text": "Tepe"
+          },
+          {
+            "id": "c",
+            "text": "Sırt"
+          },
+          {
+            "id": "d",
+            "text": "Vadi"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "İçe doğru değerler artıyorsa tepe, azalıyorsa çukurdur. Çukurlarda tarama çizgileri içe bakar."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Eksen eğikliği ortadan kalksaydı aşağıdakilerden hangisi GERÇEKLEŞMEZDİ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mevsimler oluşmazdı"
+          },
+          {
+            "id": "b",
+            "text": "Gece ve gündüz tüm yıl eşit olurdu"
+          },
+          {
+            "id": "c",
+            "text": "Gece ile gündüz oluşmazdı"
+          },
+          {
+            "id": "d",
+            "text": "Dönenceler ve kutup daireleri olmazdı"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
+      "explanation": "Gece-gündüz, eksen eğikliğinin değil GÜNLÜK HAREKETİN sonucudur; eğiklik kalksa da devam ederdi."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Tüm meridyenlerin boyu birbirine eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Meridyenler kutupları birleştirdiği için boyları eşittir; paralellerin boyları ise farklıdır."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "21 Mart ve 23 Eylül tarihlerinde Dünya'nın her yerinde gece ve gündüz eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Ekinoks tarihlerinde Güneş ışınları Ekvator'a dik gelir ve aydınlanma çemberi kutuplardan geçer."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Büyük ölçekli haritalarda ayrıntı azdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Büyük ölçekli haritalarda (ör. 1/5.000) ayrıntı FAZLADIR; küçük ölçeklilerde azdır."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Aynı meridyen üzerindeki tüm noktalarda yerel saat aynıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Yerel saat boylama bağlıdır; aynı meridyendeki noktalar Güneş'i aynı anda tepede görür."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Dünya Güneş'e en yakın olduğu günberi konumunda Kuzey Yarım Küre'de yaz yaşanır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Günberi 3 Ocak'tadır ve Kuzey Yarım Küre kış yaşar. Mevsimlerin sebebi uzaklık değil, eksen eğikliğidir."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Başlangıç paraleli olan {{0}}, Dünya'yı iki eşit yarım küreye ayırır.",
+        "choices": [
+          "Ekvator",
+          "Greenwich",
+          "Dönence",
+          "Kutup dairesi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Ekvator"
+        ]
+      },
+      "explanation": "Ekvator 0° paralelidir ve en büyük paraleldir."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Güneş ışınlarının 21 Haziran'da dik geldiği paralele {{0}} Dönencesi denir.",
+        "choices": [
+          "Yengeç",
+          "Oğlak",
+          "Ekvator",
+          "Kutup"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Yengeç"
+        ]
+      },
+      "explanation": "23°27' kuzey paraleli Yengeç Dönencesi'dir; 21 Haziran'da ışınlar buraya dik gelir."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Deniz seviyesinden ölçülen yükseltiye {{0}} yükselti denir.",
+        "choices": [
+          "mutlak",
+          "bağıl",
+          "izohips",
+          "eğim"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "mutlak"
+        ]
+      },
+      "explanation": "Mutlak yükselti deniz seviyesine göredir; bağıl yükselti ise iki nokta arasındaki farktır."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Aynı yükseltideki noktaları birleştiren eğrilere {{0}} denir.",
+        "choices": [
+          "izohips",
+          "izobar",
+          "izoterm",
+          "izohiyet"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "izohips"
+        ]
+      },
+      "explanation": "İzobar eşit basınç, izoterm eşit sıcaklık, izohiyet eşit yağış eğrisidir."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türkiye'nin ortak saati {{0}}. doğu meridyenine göre ayarlanır.",
+        "choices": [
+          "45",
+          "30",
+          "36",
+          "42"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "45"
+        ]
+      },
+      "explanation": "Türkiye 45° doğu meridyeninin yerel saatini ortak saat olarak kullanır."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ekvator"
+          },
+          {
+            "id": "2",
+            "text": "Greenwich"
+          },
+          {
+            "id": "3",
+            "text": "Yengeç Dönencesi"
+          },
+          {
+            "id": "4",
+            "text": "Kuzey Kutup Dairesi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "0° paralel"
+          },
+          {
+            "id": "b",
+            "text": "0° meridyen"
+          },
+          {
+            "id": "c",
+            "text": "23°27' kuzey"
+          },
+          {
+            "id": "d",
+            "text": "66°33' kuzey"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Paraleller enlemi, meridyenler boylamı belirler."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tarihi, o gün yaşanan olayla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "21 Mart"
+          },
+          {
+            "id": "2",
+            "text": "21 Haziran"
+          },
+          {
+            "id": "3",
+            "text": "23 Eylül"
+          },
+          {
+            "id": "4",
+            "text": "21 Aralık"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İlkbahar ekinoksu"
+          },
+          {
+            "id": "b",
+            "text": "KYK'de en uzun gündüz"
+          },
+          {
+            "id": "c",
+            "text": "Sonbahar ekinoksu"
+          },
+          {
+            "id": "d",
+            "text": "KYK'de en uzun gece"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "KYK: Kuzey Yarım Küre. Güney Yarım Küre'de 21 Haziran ve 21 Aralık tersine işler."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Eş değer eğrisini gösterdiği büyüklükle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "İzoterm"
+          },
+          {
+            "id": "2",
+            "text": "İzobar"
+          },
+          {
+            "id": "3",
+            "text": "İzohiyet"
+          },
+          {
+            "id": "4",
+            "text": "İzohips"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sıcaklık"
+          },
+          {
+            "id": "b",
+            "text": "Basınç"
+          },
+          {
+            "id": "c",
+            "text": "Yağış"
+          },
+          {
+            "id": "d",
+            "text": "Yükselti"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hepsinde \"izo-\" ön eki \"eşit\" anlamındadır."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Durumu, sonucu olduğu coğrafi etkenle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yerel saat farkı"
+          },
+          {
+            "id": "2",
+            "text": "Mevsimlerin yaşanması"
+          },
+          {
+            "id": "3",
+            "text": "Güneş ışınlarının geliş açısı"
+          },
+          {
+            "id": "4",
+            "text": "Çizgisel hızın değişmesi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Boylam"
+          },
+          {
+            "id": "b",
+            "text": "Eksen eğikliği"
+          },
+          {
+            "id": "c",
+            "text": "Enlem"
+          },
+          {
+            "id": "d",
+            "text": "Paralel boylarının farklı olması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Enlem–boylam ayrımı coğrafyanın en sık karıştırılan konusudur: boylam SAATİ, enlem İKLİMİ etkiler."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "ordering",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tarihleri yıl içindeki sıraya göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "21 Mart"
+          },
+          {
+            "id": "2",
+            "text": "21 Haziran"
+          },
+          {
+            "id": "3",
+            "text": "23 Eylül"
+          },
+          {
+            "id": "4",
+            "text": "21 Aralık"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "İlkbahar ekinoksu → yaz gündönümü → sonbahar ekinoksu → kış gündönümü."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Paralelleri Ekvator'dan kutba doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "0° (Ekvator)"
+          },
+          {
+            "id": "2",
+            "text": "23°27' (Dönence)"
+          },
+          {
+            "id": "3",
+            "text": "66°33' (Kutup dairesi)"
+          },
+          {
+            "id": "4",
+            "text": "90° (Kutup noktası)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Enlem derecesi büyüdükçe kutba yaklaşılır."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Haritaları ayrıntısı en çok olandan en az olana doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "1/5.000"
+          },
+          {
+            "id": "2",
+            "text": "1/100.000"
+          },
+          {
+            "id": "3",
+            "text": "1/1.000.000"
+          },
+          {
+            "id": "4",
+            "text": "1/20.000.000"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Ölçek paydası küçüldükçe ayrıntı artar."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "Dünya üzerinde kaç tane meridyen yayı vardır?",
+        "suffix": "meridyen"
+      },
+      "answer_key": {
+        "value": 360,
+        "tolerance": 0
+      },
+      "explanation": "180 doğu + 180 batı = 360 meridyen yayı. Paralel sayısı ise 180'dir."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "20° doğu ile 35° doğu meridyenleri arasındaki yerel saat farkı kaç dakikadır?",
+        "suffix": "dakika"
+      },
+      "answer_key": {
+        "value": 60,
+        "tolerance": 0
+      },
+      "explanation": "15 meridyen × 4 dakika = 60 dakika."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "stem": "1/200.000 ölçekli haritada 6 cm ile gösterilen mesafe gerçekte kaç km'dir?",
+        "suffix": "km"
+      },
+      "answer_key": {
+        "value": 12,
+        "tolerance": 0
+      },
+      "explanation": "6 × 200.000 = 1.200.000 cm = 12 km."
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Geoit",
+        "back": "Dünya'nın kutuplardan basık, Ekvator'dan şişkin kendine özgü şekli."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Enlem",
+        "back": "Bir noktanın Ekvator'a olan uzaklığının açı cinsinden değeri. İklimi, bitki örtüsünü ve gündüz süresini etkiler."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Boylam",
+        "back": "Bir noktanın başlangıç meridyenine olan uzaklığının açı cinsinden değeri. Yalnızca YEREL SAATİ etkiler."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Bağıl (nispi) yükselti",
+        "back": "Bir yerin, çevresindeki başka bir noktaya göre yükseltisi. Deniz seviyesine göre olan ise mutlak yükseltidir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "dunyanin_sekli_ve_hareketleri",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Mevsimlerin"
+          },
+          {
+            "id": "2",
+            "text": "oluşmasının"
+          },
+          {
+            "id": "3",
+            "text": "temel"
+          },
+          {
+            "id": "4",
+            "text": "sebebi"
+          },
+          {
+            "id": "5",
+            "text": "eksen"
+          },
+          {
+            "id": "6",
+            "text": "eğikliğidir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "Güneş'e olan uzaklık değil, eksen eğikliği belirleyicidir."
+    },
+    {
+      "topic": "cografi_konum",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Doğuya"
+          },
+          {
+            "id": "2",
+            "text": "gidildikçe"
+          },
+          {
+            "id": "3",
+            "text": "yerel"
+          },
+          {
+            "id": "4",
+            "text": "saat"
+          },
+          {
+            "id": "5",
+            "text": "ileri"
+          },
+          {
+            "id": "6",
+            "text": "alınır"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "Dünya batıdan doğuya döndüğü için Güneş önce doğuda görülür."
+    },
+    {
+      "topic": "harita_bilgisi",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "İzohipsler"
+          },
+          {
+            "id": "2",
+            "text": "sıklaştıkça"
+          },
+          {
+            "id": "3",
+            "text": "arazinin"
+          },
+          {
+            "id": "4",
+            "text": "eğimi"
+          },
+          {
+            "id": "5",
+            "text": "artar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Sık izohips = dik yamaç; seyrek izohips = hafif eğim."
+    }
+  ]
+}

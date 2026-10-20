@@ -74,4 +74,20 @@ final class LearningException extends RuntimeException
     {
         return new self('PREMIUM_REQUIRED', 'Bu içerik Premium ile açılır.', 402);
     }
+
+    /**
+     * Kaydı olmayan kullanıcı. Normalde erişilemez bir durum — kayıt
+     * akışı tamamlanmadan ana uygulamaya girilemiyor — ama jetonu olup
+     * onboarding'i yarıda bırakmış bir hesap buraya düşebilir.
+     */
+    public static function noEnrollment(): self
+    {
+        return new self('NO_ENROLLMENT', 'Önce bir sınav seçmelisin.', 409);
+    }
+
+    /** Seviye testi zaten kapanmış (tamamlandı ya da atlandı). */
+    public static function placementClosed(): self
+    {
+        return new self('PLACEMENT_CLOSED', 'Bu seviye testi kapandı.', 409);
+    }
 }

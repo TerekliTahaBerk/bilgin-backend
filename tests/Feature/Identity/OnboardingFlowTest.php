@@ -87,12 +87,29 @@ it('sınav ve alan seçeneklerini tek yanıtta verir', function (): void {
         ->assertOk()
         ->json('data.exams');
 
-    // Uygulama listeyi sabit yazmıyor: LGS açıldığında mağaza
-    // güncellemesi beklemeden görünmeli.
-    expect($exams)->toHaveCount(1)
-        ->and($exams[0]['code'])->toBe('yks')
-        ->and(collect($exams[0]['variants'])->pluck('field')->all())
+    /*
+     | Uygulama listeyi sabit yazmıyor: LGS ve KPSS eklendiğinde mağaza
+     | güncellemesi beklemeden göründüler. Bu testin önceki hâli TEK
+     | sınav bekliyordu ve tam da beklenen davranış gerçekleşince kırıldı.
+     |
+     | Sayıya değil İÇERİĞE bakılıyor artık: dördüncü sınav eklendiğinde
+     | bu testin yeniden kırılmasının bir anlamı yok.
+    */
+    $codes = collect($exams)->pluck('code')->all();
+
+    expect($codes)->toContain('yks', 'lgs', 'kpss');
+
+    $yks = collect($exams)->firstWhere('code', 'yks');
+
+    expect(collect($yks['variants'])->pluck('field')->all())
         ->toContain('say', 'ea', 'soz');
+
+    // Alansız sınavlarda tek varyant: öğrenciye sorulmayacak bir soru
+    // için seçenek üretmiyoruz.
+    $lgs = collect($exams)->firstWhere('code', 'lgs');
+
+    expect($lgs['variants'])->toHaveCount(1)
+        ->and($lgs['variants'][0]['field'])->toBe('genel');
 });
 
 it('ders listesini oturum sekmelerine göre gruplar', function (): void {

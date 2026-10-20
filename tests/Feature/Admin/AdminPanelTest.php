@@ -277,8 +277,15 @@ it('ders ağacı panelin sol menüsünü besler', function (): void {
         ->getJson('/api/admin/v1/courses')
         ->assertOk();
 
-    expect($response->json('data'))->toHaveCount(21)
-        ->and(collect($response->json('data'))->firstWhere('code', 'tyt_tarih')['unit_count'])->toBe(1);
+    /*
+     | Sayı iddiası KALDIRILDI. Önceki hâli 21 ders bekliyordu ve LGS ile
+     | KPSS eklenince kırıldı — oysa panelin işi TÜM dersleri göstermek;
+     | yeni bir sınav açıldığında kırılması beklenen bir durum değil.
+    */
+    $courses = collect($response->json('data'));
+
+    expect($courses->pluck('code'))->toContain('tyt_tarih', 'lgs_matematik', 'kpss_turkce')
+        ->and($courses->firstWhere('code', 'tyt_tarih')['unit_count'])->toBe(1);
 });
 
 it('kimliksiz panel isteği reddedilir', function (): void {

@@ -8,9 +8,11 @@ use App\Modules\Identity\Domain\Enum\SocialProvider;
 use App\Modules\Identity\Domain\Social\JwksProvider;
 use App\Modules\Identity\Domain\Social\VerifierRegistry;
 use App\Modules\Identity\Infrastructure\Eloquent\Repository\EloquentLearnerProfileReader;
+use App\Modules\Identity\Infrastructure\Eloquent\Repository\EloquentPlacementRecorder;
 use App\Modules\Identity\Infrastructure\Social\CachedJwksProvider;
 use App\Modules\Identity\Infrastructure\Social\JwtIdentityVerifier;
 use App\Shared\Domain\Learner\LearnerProfileReader;
+use App\Shared\Domain\Learner\PlacementRecorder;
 use App\Shared\Http\ModuleRoutes;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
@@ -42,6 +44,7 @@ final class IdentityServiceProvider extends ServiceProvider
         // Identity'nin dışarıya açtığı tek okuma yüzeyi. Diğer modüller
         // User modeline değil, bu arayüze bağımlıdır.
         $this->app->bind(LearnerProfileReader::class, EloquentLearnerProfileReader::class);
+        $this->app->bind(PlacementRecorder::class, EloquentPlacementRecorder::class);
     }
 
     public function boot(): void

@@ -1,0 +1,1357 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_edebiyat",
+  "subject": "edebiyat",
+  "unit": {
+    "title": "Divan Edebiyatı",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 11,
+    "difficulty_band": "orta",
+    "estimated_minutes": 30,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "nazim_bicimleri_ve_turleri",
+      "name": "Nazım Biçimleri ve Türleri",
+      "grade_level": 11,
+      "exam_weight": 3
+    },
+    {
+      "code": "soz_sanatlari",
+      "name": "Söz Sanatları",
+      "grade_level": 11,
+      "exam_weight": 2
+    },
+    {
+      "code": "divan_edebiyati",
+      "name": "Divan Edebiyatı",
+      "grade_level": 11,
+      "exam_weight": 3
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Divan edebiyatında beyit sayısı 33–99 arasında değişen, din ve devlet büyüklerini öven nazım biçimi hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kaside"
+          },
+          {
+            "id": "b",
+            "text": "Gazel"
+          },
+          {
+            "id": "c",
+            "text": "Mesnevi"
+          },
+          {
+            "id": "d",
+            "text": "Rubai"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Kaside övgü şiiridir. Gazel ise 5–15 beyitlidir ve aşk konusunu işler."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Gazelin ilk beytine ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Matla"
+          },
+          {
+            "id": "b",
+            "text": "Makta"
+          },
+          {
+            "id": "c",
+            "text": "Beytü'l-gazel"
+          },
+          {
+            "id": "d",
+            "text": "Taç beyit"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Matla ilk, makta son beyittir. Şairin mahlasının geçtiği beyit ise taç beyittir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Her beyti kendi arasında kafiyeli (aa / bb / cc) olan ve uzun konuların anlatımına elverişli nazım biçimi hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mesnevi"
+          },
+          {
+            "id": "b",
+            "text": "Gazel"
+          },
+          {
+            "id": "c",
+            "text": "Kaside"
+          },
+          {
+            "id": "d",
+            "text": "Murabba"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Mesnevide kafiye zorunluluğu beyit içinde kaldığı için beyit sayısı sınırsızdır; roman ve destan işlevi görür."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Dört dizelik, aruzun kendine özgü kalıplarıyla yazılan ve felsefi düşünceleri işleyen nazım biçimi hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rubai"
+          },
+          {
+            "id": "b",
+            "text": "Tuyuğ"
+          },
+          {
+            "id": "c",
+            "text": "Şarkı"
+          },
+          {
+            "id": "d",
+            "text": "Murabba"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Rubai İran kökenlidir (Ömer Hayyam). Tuyuğ ise TÜRKLERİN divan edebiyatına kazandırdığı dörtlüktür."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Aşağıdaki nazım biçimlerinden hangisi Türklerin divan edebiyatına kazandırdığı bir türdür?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tuyuğ"
+          },
+          {
+            "id": "b",
+            "text": "Gazel"
+          },
+          {
+            "id": "c",
+            "text": "Kaside"
+          },
+          {
+            "id": "d",
+            "text": "Rubai"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Tuyuğ ve şarkı Türklere özgüdür; şarkıyı Nedim yaygınlaştırmıştır."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Kasidenin bölümleri arasında, şairin kendini övdüğü bölüm hangisidir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Fahriye"
+          },
+          {
+            "id": "b",
+            "text": "Nesib"
+          },
+          {
+            "id": "c",
+            "text": "Methiye"
+          },
+          {
+            "id": "d",
+            "text": "Dua"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Nesib: giriş tasviri · Girizgâh: geçiş · Methiye: övgü · Tegazzül: gazel · Fahriye: şairin kendini övmesi · Dua: bitiş."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "\"Benzeyen\" ve \"kendisine benzetilen\" birlikte kullanılıyorsa hangi sanat vardır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Teşbih (benzetme)"
+          },
+          {
+            "id": "b",
+            "text": "İstiare"
+          },
+          {
+            "id": "c",
+            "text": "Mecaz-ı mürsel"
+          },
+          {
+            "id": "d",
+            "text": "Kinaye"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "İstiarede iki öğeden yalnızca biri söylenir; teşbihte ikisi de bulunur."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "\"Bu yaz çok sıcak geçti, kavruldu bütün ovalar.\" cümlesindeki \"kavruldu\" sözcüğünde hangi sanat vardır?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mübalağa"
+          },
+          {
+            "id": "b",
+            "text": "Tevriye"
+          },
+          {
+            "id": "c",
+            "text": "Tenasüp"
+          },
+          {
+            "id": "d",
+            "text": "Tezat"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Mübalağa, bir durumu olduğundan çok daha büyük ya da küçük göstermektir."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Bir sözcüğün hem yakın hem uzak anlamıyla, UZAK anlamı kastedilerek kullanılmasına ne denir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tevriye"
+          },
+          {
+            "id": "b",
+            "text": "Cinas"
+          },
+          {
+            "id": "c",
+            "text": "Kinaye"
+          },
+          {
+            "id": "d",
+            "text": "Tariz"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Cinasta sesteş sözcükler FARKLI anlamlarda yan yana gelir; tevriyede tek sözcük iki anlam taşır."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Anlamca birbiriyle ilgili sözcüklerin bir arada kullanılmasına ne ad verilir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tenasüp"
+          },
+          {
+            "id": "b",
+            "text": "Tezat"
+          },
+          {
+            "id": "c",
+            "text": "Telmih"
+          },
+          {
+            "id": "d",
+            "text": "Hüsn-i ta'lil"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Örnek: \"gül, bülbül, bahçe, bahar\" aynı beyitte geçerse tenasüp vardır."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Bir olayın gerçek sebebini bırakıp hayalî ve güzel bir sebep göstermeye ne denir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hüsn-i ta'lil"
+          },
+          {
+            "id": "b",
+            "text": "Telmih"
+          },
+          {
+            "id": "c",
+            "text": "Tecahül-i arif"
+          },
+          {
+            "id": "d",
+            "text": "İstifham"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "\"Güneş utandığından yüzünü buluta sakladı\" — gerçek sebep değil, güzel bir sebep gösterilmiştir."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "\"Leylâ ile Mecnûn\" mesnevisinin yazarı kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Fuzûlî"
+          },
+          {
+            "id": "b",
+            "text": "Bâkî"
+          },
+          {
+            "id": "c",
+            "text": "Nedim"
+          },
+          {
+            "id": "d",
+            "text": "Nef'î"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Fuzûlî, ilahi aşkı işleyen bu mesneviyle tanınır. \"Su Kasidesi\" de ona aittir."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Hiciv (yergi) alanındaki ustalığıyla tanınan ve \"Siham-ı Kaza\" adlı eseri bulunan divan şairi kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nef'î"
+          },
+          {
+            "id": "b",
+            "text": "Fuzûlî"
+          },
+          {
+            "id": "c",
+            "text": "Şeyh Galip"
+          },
+          {
+            "id": "d",
+            "text": "Nabi"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "\"Siham-ı Kaza\" (Kaza Okları), hicivleri yüzünden şairin idamına yol açmıştır."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Lale Devri'nin şairi olarak bilinen, İstanbul'u ve günlük hayatı şiire taşıyan sanatçı kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nedim"
+          },
+          {
+            "id": "b",
+            "text": "Bâkî"
+          },
+          {
+            "id": "c",
+            "text": "Nabi"
+          },
+          {
+            "id": "d",
+            "text": "Fuzûlî"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Nedim \"mahallîleşme\" akımının öncüsüdür; şarkı nazım biçimini yaygınlaştırmıştır."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "\"Hüsn ü Aşk\" adlı alegorik mesnevinin yazarı ve Sebk-i Hindî'nin Türk edebiyatındaki en önemli temsilcisi kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Şeyh Galip"
+          },
+          {
+            "id": "b",
+            "text": "Nef'î"
+          },
+          {
+            "id": "c",
+            "text": "Nedim"
+          },
+          {
+            "id": "d",
+            "text": "Bâkî"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Şeyh Galip divan edebiyatının son büyük şairi sayılır. Sebk-i Hindî: soyut, girift ve yoğun imge üslubu."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Didaktik (öğretici) şiirleriyle tanınan, \"Hayriyye\" adlı eserinde oğluna öğütler veren divan şairi kimdir?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nabi"
+          },
+          {
+            "id": "b",
+            "text": "Fuzûlî"
+          },
+          {
+            "id": "c",
+            "text": "Nef'î"
+          },
+          {
+            "id": "d",
+            "text": "Nedim"
+          }
+        ],
+        "shuffle": true
+      },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
+      "explanation": "Nabi \"hikemî şiir\"in (düşünce ve hikmet şiiri) temsilcisidir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Divan edebiyatında nazım birimi genellikle beyittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Halk edebiyatında ise dörtlük kullanılır."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Divan şiirinde ölçü olarak hece ölçüsü kullanılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Divan şiirinde ARUZ ölçüsü kullanılır; hece ölçüsü halk edebiyatınındır."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Fuzûlî'nin şiirlerinde işlenen aşk, genellikle ilahi (tasavvufi) aşktır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Fuzûlî'de acı çekmek, aşkın kendisi kadar değerlidir."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Telmih sanatı, bilinen bir olaya ya da kişiye gönderme yapmaktır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Örnek: \"Ferhat gibi dağları deldim\" — Ferhat ile Şirin hikâyesine telmih."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Gazelde bütün beyitler arasında konu birliği bulunması zorunludur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Her beyit kendi içinde anlamlıdır. Konu birliği olan gazele \"yek-ahenk\" denir ve istisnadır."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Gazelin en güzel beytine {{0}} denir.",
+        "choices": [
+          "beytü'l-gazel",
+          "matla",
+          "makta",
+          "taç beyit"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "beytü'l-gazel"
+        ]
+      },
+      "explanation": "Şah beyit de denir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Şairin takma adına {{0}} denir.",
+        "choices": [
+          "mahlas",
+          "matla",
+          "redif",
+          "tapşırma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "mahlas"
+        ]
+      },
+      "explanation": "Halk edebiyatında aynı işlevi gören kullanıma \"tapşırma\" denir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Kafiyeden sonra tekrarlanan, görevi ve anlamı aynı olan eklere {{0}} denir.",
+        "choices": [
+          "redif",
+          "kafiye",
+          "aliterasyon",
+          "asonans"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "redif"
+        ]
+      },
+      "explanation": "Kafiye ses benzerliği, redif ise birebir tekrardır."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "\"Su Kasidesi\" adlı ünlü naat {{0}} tarafından yazılmıştır.",
+        "choices": [
+          "Fuzûlî",
+          "Bâkî",
+          "Nef'î",
+          "Nedim"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Fuzûlî"
+        ]
+      },
+      "explanation": "Naat: Hz. Muhammed'i öven şiir."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Cansız varlıklara insan özelliği yüklemeye {{0}} denir.",
+        "choices": [
+          "teşhis",
+          "intak",
+          "tezat",
+          "tenasüp"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "teşhis"
+        ]
+      },
+      "explanation": "Teşhis kişileştirme, intak ise konuşturmadır. İntak varsa teşhis de vardır."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Nazım biçimini özelliğiyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Gazel"
+          },
+          {
+            "id": "2",
+            "text": "Kaside"
+          },
+          {
+            "id": "3",
+            "text": "Mesnevi"
+          },
+          {
+            "id": "4",
+            "text": "Rubai"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "5–15 beyit, aşk konulu"
+          },
+          {
+            "id": "b",
+            "text": "33–99 beyit, övgü amaçlı"
+          },
+          {
+            "id": "c",
+            "text": "Her beyti kendi içinde kafiyeli, uzun"
+          },
+          {
+            "id": "d",
+            "text": "Dört dize, felsefi içerik"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Beyit sayısı ve konu, nazım biçimini ayırt etmenin en hızlı yoludur."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Şairi eseriyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Fuzûlî"
+          },
+          {
+            "id": "2",
+            "text": "Şeyh Galip"
+          },
+          {
+            "id": "3",
+            "text": "Nef'î"
+          },
+          {
+            "id": "4",
+            "text": "Nabi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Leylâ ile Mecnûn"
+          },
+          {
+            "id": "b",
+            "text": "Hüsn ü Aşk"
+          },
+          {
+            "id": "c",
+            "text": "Siham-ı Kaza"
+          },
+          {
+            "id": "d",
+            "text": "Hayriyye"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dördü de mesnevi/divan türünde temel eserlerdir."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Edebî sanatı tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Teşbih"
+          },
+          {
+            "id": "2",
+            "text": "Telmih"
+          },
+          {
+            "id": "3",
+            "text": "Tezat"
+          },
+          {
+            "id": "4",
+            "text": "İntak"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Benzetme"
+          },
+          {
+            "id": "b",
+            "text": "Bilinen bir olaya gönderme"
+          },
+          {
+            "id": "c",
+            "text": "Karşıt kavramları bir arada kullanma"
+          },
+          {
+            "id": "d",
+            "text": "Cansız varlığı konuşturma"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Sanat sorularında önce tanımı hatırlamak, sonra dizede aramak işe yarar."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Şairi öne çıktığı özellikle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Nedim"
+          },
+          {
+            "id": "2",
+            "text": "Nef'î"
+          },
+          {
+            "id": "3",
+            "text": "Nabi"
+          },
+          {
+            "id": "4",
+            "text": "Bâkî"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Mahallîleşme, şarkı"
+          },
+          {
+            "id": "b",
+            "text": "Hiciv"
+          },
+          {
+            "id": "c",
+            "text": "Hikemî (öğretici) şiir"
+          },
+          {
+            "id": "d",
+            "text": "Sultanü'ş-şuara (şairler sultanı)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bâkî, Kanuni döneminin en büyük şairi kabul edilir."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Şairleri yaşadıkları yüzyıla göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Fuzûlî (16. yy)"
+          },
+          {
+            "id": "2",
+            "text": "Nef'î (17. yy)"
+          },
+          {
+            "id": "3",
+            "text": "Nedim (18. yy)"
+          },
+          {
+            "id": "4",
+            "text": "Şeyh Galip (18. yy sonu)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Şeyh Galip divan edebiyatının son büyük temsilcisidir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kasidenin bölümlerini sıraya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Nesib (teşbib)"
+          },
+          {
+            "id": "2",
+            "text": "Girizgâh"
+          },
+          {
+            "id": "3",
+            "text": "Methiye"
+          },
+          {
+            "id": "4",
+            "text": "Fahriye"
+          },
+          {
+            "id": "5",
+            "text": "Dua"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Tegazzül (gazel söyleme) bölümü isteğe bağlıdır ve methiyeden sonra gelir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Nazım biçimlerini beyit sayısına göre azdan çoğa diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Rubai (2 beyit)"
+          },
+          {
+            "id": "2",
+            "text": "Gazel (5–15 beyit)"
+          },
+          {
+            "id": "3",
+            "text": "Kaside (33–99 beyit)"
+          },
+          {
+            "id": "4",
+            "text": "Mesnevi (sınırsız)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Mesnevinin kafiye düzeni beyit içinde kaldığı için uzunluk sınırı yoktur."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Bir gazel en az kaç beyitten oluşur?",
+        "suffix": "beyit"
+      },
+      "answer_key": {
+        "value": 5,
+        "tolerance": 0
+      },
+      "explanation": "Gazel 5–15 beyit arasıdır; en yaygın uzunluk 5 ve 7 beyittir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Bir rubai kaç dizeden oluşur?",
+        "suffix": "dize"
+      },
+      "answer_key": {
+        "value": 4,
+        "tolerance": 0
+      },
+      "explanation": "Rubai 4 dize (2 beyit) olup aaxa düzeninde kafiyelenir."
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "stem": "Fuzûlî hangi yüzyılın şairidir?",
+        "suffix": ". yüzyıl"
+      },
+      "answer_key": {
+        "value": 16,
+        "tolerance": 0
+      },
+      "explanation": "16. yüzyıl, divan edebiyatının Bâkî ve Fuzûlî ile zirveye ulaştığı dönemdir."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Beyit",
+        "back": "Aynı ölçüyle yazılmış, anlamca bir bütün oluşturan iki dize. Divan şiirinin nazım birimidir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Mahlas",
+        "back": "Şairin şiirlerinde kullandığı takma ad. Genellikle son beyitte (taç beyit) geçer."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Tevriye",
+        "back": "Bir sözcüğün iki anlamının da uygun düştüğü, ancak UZAK anlamın kastedildiği sanat."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "divan_edebiyati",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "front": "Sebk-i Hindî",
+        "back": "17. yy'da etkili olan, soyut kavramlar ve girift imgeler kullanan üslup. Türk edebiyatında en güçlü temsilcisi Şeyh Galip'tir."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Divan"
+          },
+          {
+            "id": "2",
+            "text": "şiirinde"
+          },
+          {
+            "id": "3",
+            "text": "nazım"
+          },
+          {
+            "id": "4",
+            "text": "birimi"
+          },
+          {
+            "id": "5",
+            "text": "beyittir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Halk şiirinde ise dörtlüktür."
+    },
+    {
+      "topic": "nazim_bicimleri_ve_turleri",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Gazelin"
+          },
+          {
+            "id": "2",
+            "text": "ilk"
+          },
+          {
+            "id": "3",
+            "text": "beytine"
+          },
+          {
+            "id": "4",
+            "text": "matla"
+          },
+          {
+            "id": "5",
+            "text": "denir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "Son beyit ise maktadır."
+    },
+    {
+      "topic": "soz_sanatlari",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Cansız"
+          },
+          {
+            "id": "2",
+            "text": "varlıkların"
+          },
+          {
+            "id": "3",
+            "text": "konuşturulmasına"
+          },
+          {
+            "id": "4",
+            "text": "intak"
+          },
+          {
+            "id": "5",
+            "text": "denir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      "explanation": "İntak bulunan her yerde teşhis de vardır; tersi her zaman doğru değildir."
+    }
+  ]
+}

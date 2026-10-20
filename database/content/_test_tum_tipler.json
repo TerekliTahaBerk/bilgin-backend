@@ -811,6 +811,138 @@
         "self_assessed": true
       },
       "explanation": "Boyları birbirinden ayıran damga, mühür."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "image_hotspot",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Göktürklerin kutsal saydığı bölgeyi işaretle.",
+        "image": "maps/orta-asya.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Ötüken"
+          },
+          {
+            "id": "2",
+            "text": "Talas"
+          },
+          {
+            "id": "3",
+            "text": "Semerkant"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Ötüken, Göktürkler için siyasi ve kutsal merkezdi."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Talas Savaşı'nın yapıldığı yeri işaretle.",
+        "image": "maps/orta-asya.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Ötüken"
+          },
+          {
+            "id": "2",
+            "text": "Talas"
+          },
+          {
+            "id": "3",
+            "text": "Buhara"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "751'deki Talas Savaşı, Çin ilerleyişini durdurdu."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "diagram_label",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Orhun Yazıtları'nın bölümlerini etiketle.",
+        "image": "tarih/orhun-yazitlari.png",
+        "slots": [
+          {
+            "id": "s1",
+            "text": "Doğu yüzü"
+          },
+          {
+            "id": "s2",
+            "text": "Güney yüzü"
+          }
+        ],
+        "labels": [
+          "Türkçe metin",
+          "Çince metin"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "s1": "Türkçe metin",
+          "s2": "Çince metin"
+        }
+      },
+      "explanation": "Yazıtların güney yüzünde Çince bir metin bulunur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Göktürk Devleti'nin yönetim yapısını etiketle.",
+        "image": "tarih/gokturk-yonetim.png",
+        "slots": [
+          {
+            "id": "s1",
+            "text": "Doğu kanadı"
+          },
+          {
+            "id": "s2",
+            "text": "Batı kanadı"
+          },
+          {
+            "id": "s3",
+            "text": "Hükümdar unvanı"
+          }
+        ],
+        "labels": [
+          "Tölis",
+          "Tarduş",
+          "Kağan"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "s1": "Tölis",
+          "s2": "Tarduş",
+          "s3": "Kağan"
+        }
+      },
+      "explanation": "İkili teşkilatta doğu Tölis, batı Tarduş adını alır."
     }
   ]
 }

@@ -20,6 +20,16 @@ enum FieldCode: string
     case Dil = 'dil';
     case Undecided = 'undecided';
 
+    /*
+     | Alan ayrımı OLMAYAN sınavlar için (LGS, KPSS Genel Yetenek).
+     |
+     | Bu sınavlarda öğrenci "Sayısal/Sözel" seçmiyor; herkes aynı
+     | dersleri çalışıyor. Varyant modelini zorlamak yerine tek bir
+     | "genel" varyant açılıyor — böylece kayıt akışı, ders listesi ve
+     | lig kodunun hiçbirinde "alanı yoksa" istisnası oluşmuyor.
+    */
+    case Genel = 'genel';
+
     public function label(): string
     {
         return match ($this) {
@@ -28,6 +38,7 @@ enum FieldCode: string
             self::Sozel => 'Sözel',
             self::Dil => 'Dil',
             self::Undecided => 'Henüz bilmiyorum',
+            self::Genel => 'Genel',
         };
     }
 }

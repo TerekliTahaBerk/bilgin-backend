@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use App\Modules\Learning\Http\Controller\Api\V1\ExamSimulationController;
+use App\Modules\Learning\Http\Controller\Api\V1\PlacementController;
 use App\Modules\Learning\Http\Controller\Api\V1\StudySessionController;
 use App\Modules\Learning\Http\Controller\Api\V1\TopicAnalysisController;
 use Illuminate\Support\Facades\Route;
@@ -11,6 +12,21 @@ Route::prefix('v1')->middleware('auth:sanctum')->group(function (): void {
     Route::get('me/topics', [TopicAnalysisController::class, 'index'])->name('me.topics');
 
     Route::post('sessions', [StudySessionController::class, 'store'])->name('sessions.store');
+
+    /*
+     | Seviye belirleme testi — kayıttan sonra, ilk turdan önce.
+     |
+     | Gönderim tek istekte 12 cevap taşıyor ve hayatta bir (nadiren iki)
+     | kez çağrılıyor; cevap ucunun 120/dk sınırı buraya uymaz, 10/dk hem
+     | yeterli hem tekrar gönderime karşı dar.
+     */
+    Route::get('placement', [PlacementController::class, 'show'])->name('placement.show');
+    Route::post('placement', [PlacementController::class, 'store'])->name('placement.store');
+    Route::post('placement/skip', [PlacementController::class, 'skip'])->name('placement.skip');
+    Route::post('placement/{placement}/submit', [PlacementController::class, 'submit'])
+        ->middleware('throttle:10,1')
+        ->whereNumber('placement')
+        ->name('placement.submit');
 
     // Deneme: ayrı uç, aynı oturum akışı. Cevaplama ve tamamlama
     // /sessions/{session}/* üzerinden devam eder.

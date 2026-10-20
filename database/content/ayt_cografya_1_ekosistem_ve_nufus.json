@@ -1,0 +1,714 @@
+{
+  "_note": "PİLOT İÇERİK — motoru doğrulamak için yazıldı. Yayına çıkmadan önce branş öğretmeni tarafından gözden geçirilmelidir.",
+  "course": "ayt_cografya_1",
+  "subject": "cografya",
+  "unit": {
+    "title": "Ekosistem, Nüfus ve Yerleşme",
+    "template": "standart_unite",
+    "sort_order": 1,
+    "grade_level": 11,
+    "difficulty_band": "orta",
+    "estimated_minutes": 26,
+    "status": "published"
+  },
+  "topics": [
+    {
+      "code": "doga_ve_insan",
+      "name": "Doğa ve İnsan",
+      "grade_level": 11,
+      "exam_weight": 2
+    },
+    {
+      "code": "nufus_ve_yerlesme",
+      "name": "Nüfus ve Yerleşme",
+      "grade_level": 11,
+      "exam_weight": 3
+    },
+    {
+      "code": "turkiyede_nufus",
+      "name": "Türkiye'de Nüfus",
+      "grade_level": 11,
+      "exam_weight": 3
+    }
+  ],
+  "exercises": [
+    {
+      "topic": "doga_ve_insan",
+      "type": "multiple_choice",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Canlıların birbirleriyle ve cansız çevreyle kurduğu ilişkiler bütününe ne ad verilir?",
+        "options": [
+          { "id": "a", "text": "Ekosistem" },
+          { "id": "b", "text": "Biyom" },
+          { "id": "c", "text": "Habitat" },
+          { "id": "d", "text": "Popülasyon" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Habitat canlının yaşadığı yer, biyom ise büyük ölçekli ekosistem tipidir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Besin zincirinde enerjinin bir basamaktan diğerine aktarım oranı yaklaşık yüzde kaçtır?",
+        "options": [
+          { "id": "a", "text": "%10" },
+          { "id": "b", "text": "%50" },
+          { "id": "c", "text": "%90" },
+          { "id": "d", "text": "%100" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "%10 kuralı: enerjinin büyük kısmı ısı olarak kaybolur. Bu yüzden besin piramidi daralır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Ekosistemde üreticilerin temel özelliği nedir?",
+        "options": [
+          { "id": "a", "text": "Fotosentezle kendi besinini üretmeleri" },
+          { "id": "b", "text": "Diğer canlıları tüketmeleri" },
+          { "id": "c", "text": "Ölü organizmaları ayrıştırmaları" },
+          { "id": "d", "text": "Enerji üretmemeleri" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Üreticiler (ototroflar) güneş enerjisini kimyasal enerjiye çevirir; zincirin ilk halkasıdır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Karbon döngüsünde atmosferdeki CO₂ miktarının artmasının temel insan kaynaklı sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Fosil yakıt tüketimi ve ormansızlaşma" },
+          { "id": "b", "text": "Volkanik faaliyetler" },
+          { "id": "c", "text": "Okyanus akıntıları" },
+          { "id": "d", "text": "Güneş lekeleri" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Ormansızlaşma hem salımı artırır hem de karbonu tutan yutak alanı azaltır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Bir ülkenin nüfus yoğunluğu nasıl hesaplanır?",
+        "options": [
+          { "id": "a", "text": "Toplam nüfus / yüzölçümü" },
+          { "id": "b", "text": "Yüzölçümü / toplam nüfus" },
+          { "id": "c", "text": "Doğum sayısı / ölüm sayısı" },
+          { "id": "d", "text": "Kentsel nüfus / kırsal nüfus" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Aritmetik nüfus yoğunluğu budur. Tarımsal yoğunlukta payda yalnızca TARIM alanıdır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Nüfus piramidinin tabanının geniş olması neyi gösterir?",
+        "options": [
+          { "id": "a", "text": "Doğum oranının yüksek, nüfusun genç olduğunu" },
+          { "id": "b", "text": "Nüfusun yaşlandığını" },
+          { "id": "c", "text": "Göç aldığını" },
+          { "id": "d", "text": "Sanayileşmenin tamamlandığını" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Geniş taban = yüksek doğum oranı; gelişmekte olan ülkelerin tipik piramididir."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Aşağıdakilerden hangisi nüfusun seyrek olduğu alanların ortak özelliğidir?",
+        "options": [
+          { "id": "a", "text": "Olumsuz iklim ve yüksek eğim" },
+          { "id": "b", "text": "Verimli tarım toprakları" },
+          { "id": "c", "text": "Gelişmiş sanayi" },
+          { "id": "d", "text": "Ulaşım kolaylığı" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Çöller, kutuplar, yüksek dağlar ve sık ormanlar seyrek nüfusludur."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Gelişmiş ülkelerin uyguladığı nüfus politikasının genel yönü nedir?",
+        "options": [
+          { "id": "a", "text": "Nüfus artışını teşvik etmek" },
+          { "id": "b", "text": "Nüfus artışını sınırlamak" },
+          { "id": "c", "text": "Göçü tamamen engellemek" },
+          { "id": "d", "text": "Kentleşmeyi azaltmak" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Yaşlanan nüfus ve azalan iş gücü nedeniyle Almanya, Japonya ve Fransa doğumu teşvik eder."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de nüfusun en yoğun olduğu bölge hangisidir?",
+        "options": [
+          { "id": "a", "text": "Marmara" },
+          { "id": "b", "text": "Doğu Anadolu" },
+          { "id": "c", "text": "Güneydoğu Anadolu" },
+          { "id": "d", "text": "İç Anadolu" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Sanayi, ulaşım ve iş olanakları Marmara'yı en yoğun bölge yapar."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de kırdan kente göçün EN temel sebebi nedir?",
+        "options": [
+          { "id": "a", "text": "Tarımda makineleşme ve iş olanaklarının azalması" },
+          { "id": "b", "text": "İklimin değişmesi" },
+          { "id": "c", "text": "Deprem riski" },
+          { "id": "d", "text": "Turizm" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Makineleşme kırsalda iş gücü ihtiyacını azaltmış, iten (itici) faktör oluşturmuştur."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de nüfusun dağılışını etkileyen DOĞAL faktör aşağıdakilerden hangisidir?",
+        "options": [
+          { "id": "a", "text": "Yer şekilleri ve iklim" },
+          { "id": "b", "text": "Sanayileşme" },
+          { "id": "c", "text": "Turizm" },
+          { "id": "d", "text": "Ulaşım ağı" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Diğer üçü BEŞERÎ faktördür. Soruda \"doğal\" vurgusu kaçırılırsa cevap yanlış işaretlenir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de bağımlı nüfus oranının yüksek olmasının ekonomik sonucu nedir?",
+        "options": [
+          { "id": "a", "text": "Kişi başına düşen milli gelirin düşmesi" },
+          { "id": "b", "text": "İhracatın artması" },
+          { "id": "c", "text": "İş gücünün artması" },
+          { "id": "d", "text": "Tasarrufların artması" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Bağımlı nüfus 0–14 ve 65+ yaş grubudur; üretmeyen nüfus arttıkça kişi başına gelir düşer."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'nin nüfus piramidi son 40 yılda nasıl değişmiştir?",
+        "options": [
+          { "id": "a", "text": "Tabanı daralmış, orta ve üst kısımları genişlemiştir" },
+          { "id": "b", "text": "Tabanı genişlemiştir" },
+          { "id": "c", "text": "Hiç değişmemiştir" },
+          { "id": "d", "text": "Tamamen dikdörtgene dönüşmüştür" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Doğum oranı düşmüş, ortalama yaşam süresi uzamıştır; nüfus yaşlanma eğilimindedir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Ekosistemde ayrıştırıcıların görevi nedir?",
+        "options": [
+          { "id": "a", "text": "Ölü organizmaları parçalayıp maddeyi doğaya döndürmek" },
+          { "id": "b", "text": "Fotosentez yapmak" },
+          { "id": "c", "text": "Otçulları tüketmek" },
+          { "id": "d", "text": "Güneş enerjisini depolamak" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Ayrıştırıcılar olmasaydı madde döngüsü durur, besin elementleri ölü dokularda hapsolurdu."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Demografik yatırım ne anlama gelir?",
+        "options": [
+          { "id": "a", "text": "Artan nüfusun ihtiyaçları için yapılan zorunlu harcamalar" },
+          { "id": "b", "text": "Sanayiye yapılan yatırım" },
+          { "id": "c", "text": "Yurt dışına yapılan yatırım" },
+          { "id": "d", "text": "Turizme yapılan yatırım" }
+        ],
+        "shuffle": true
+      },
+      "answer_key": { "correct_option_id": "a" },
+      "explanation": "Okul, hastane, konut gibi harcamalardır. Yüksek olduğunda kalkınmaya ayrılan kaynak azalır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Ekosistemde enerji tek yönlü akar, madde ise döngü hâlindedir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Enerji güneşten gelir ve ısı olarak kaybolur; karbon, azot ve su ise döner."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Nüfus yoğunluğu yüksek olan her ülke gelişmiştir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Bangladeş çok yoğun ama az gelişmiş, Kanada seyrek ama gelişmiştir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de nüfusun büyük çoğunluğu kentlerde yaşamaktadır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Kentleşme oranı %75'in üzerindedir ve artmaya devam etmektedir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Doğu Anadolu'da nüfusun seyrek olmasının temel sebebi yükselti ve sert iklimdir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Ortalama yükselti 2000 m'yi aşar; tarım ve ulaşım sınırlıdır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Besin piramidinde en üst basamakta en fazla birey bulunur."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Enerji her basamakta %90 azaldığı için yukarı çıkıldıkça birey sayısı AZALIR."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Fotosentez yaparak kendi besinini üreten canlılara {{0}} denir.",
+        "choices": ["üretici", "tüketici", "ayrıştırıcı", "parazit"]
+      },
+      "answer_key": { "blanks": ["üretici"] },
+      "explanation": "Ototrof da denir; besin zincirinin ilk halkasıdır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Toplam nüfusun yüzölçümüne bölünmesiyle bulunan değere {{0}} nüfus yoğunluğu denir.",
+        "choices": ["aritmetik", "tarımsal", "fizyolojik", "kentsel"]
+      },
+      "answer_key": { "blanks": ["aritmetik"] },
+      "explanation": "Tarımsal yoğunlukta payda yalnızca tarım alanıdır ve gerçeği daha iyi yansıtır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "0–14 ve 65 yaş üstü nüfusa {{0}} nüfus denir.",
+        "choices": ["bağımlı", "aktif", "kentsel", "kırsal"]
+      },
+      "answer_key": { "blanks": ["bağımlı"] },
+      "explanation": "15–64 yaş arası ise çalışma çağındaki (aktif) nüfustur."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Artan nüfusun ihtiyaçları için yapılan zorunlu harcamalara {{0}} yatırım denir.",
+        "choices": ["demografik", "sabit", "doğrudan", "dolaylı"]
+      },
+      "answer_key": { "blanks": ["demografik"] },
+      "explanation": "Bu harcamalar üretken yatırımlara ayrılabilecek kaynağı azaltır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Besin zincirinde enerjinin yaklaşık %{{0}}'u bir sonraki basamağa aktarılır.",
+        "choices": ["10", "50", "90", "100"]
+      },
+      "answer_key": { "blanks": ["10"] },
+      "explanation": "Kalan %90 solunum ve ısı olarak kaybedilir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Canlı grubunu ekosistemdeki rolüyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Üretici" },
+          { "id": "2", "text": "Birincil tüketici" },
+          { "id": "3", "text": "İkincil tüketici" },
+          { "id": "4", "text": "Ayrıştırıcı" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bitkiler" },
+          { "id": "b", "text": "Otçullar" },
+          { "id": "c", "text": "Etçiller" },
+          { "id": "d", "text": "Bakteri ve mantarlar" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Besin zincirinin dört temel halkası."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Nüfus yoğunluğu" },
+          { "id": "2", "text": "Nüfus artış hızı" },
+          { "id": "3", "text": "Bağımlı nüfus" },
+          { "id": "4", "text": "Aktif nüfus" }
+        ],
+        "right": [
+          { "id": "a", "text": "Kilometrekareye düşen kişi" },
+          { "id": "b", "text": "Belirli sürede nüfusun artma oranı" },
+          { "id": "c", "text": "0–14 ve 65+ yaş" },
+          { "id": "d", "text": "15–64 yaş" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Nüfus sorularının tamamı bu dört kavramın üzerine kurulur."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bölgeyi nüfus özelliğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Marmara" },
+          { "id": "2", "text": "Doğu Anadolu" },
+          { "id": "3", "text": "Ege kıyıları" },
+          { "id": "4", "text": "İç Anadolu platoları" }
+        ],
+        "right": [
+          { "id": "a", "text": "En yoğun; sanayi ve ulaşım" },
+          { "id": "b", "text": "En seyrek; yükselti ve sert iklim" },
+          { "id": "c", "text": "Yoğun; tarım ve turizm" },
+          { "id": "d", "text": "Orta; kuraklık sınırlayıcı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Nüfus dağılışı sorularında önce \"doğal mı beşerî mi\" ayrımı yapılmalı."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Göç türünü örneğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "İç göç" },
+          { "id": "2", "text": "Dış göç" },
+          { "id": "3", "text": "Mevsimlik göç" },
+          { "id": "4", "text": "Zorunlu göç" }
+        ],
+        "right": [
+          { "id": "a", "text": "Köyden kente taşınmak" },
+          { "id": "b", "text": "Almanya'ya işçi göçü" },
+          { "id": "c", "text": "Yaylacılık ve tarım işçiliği" },
+          { "id": "d", "text": "Baraj yapımı nedeniyle yerinden olmak" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Savaş ve doğal afet kaynaklı yer değiştirmeler de zorunlu göçtür."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Besin zinciri halkalarını sıraya diz.",
+        "items": [
+          { "id": "1", "text": "Güneş enerjisi" },
+          { "id": "2", "text": "Bitki (üretici)" },
+          { "id": "3", "text": "Otçul (birincil tüketici)" },
+          { "id": "4", "text": "Etçil (ikincil tüketici)" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Her basamakta enerjinin yalnızca %10'u aktarılır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yerleşim birimlerini küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "Mezra" },
+          { "id": "2", "text": "Köy" },
+          { "id": "3", "text": "Kasaba" },
+          { "id": "4", "text": "Şehir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Mezra geçici, köy kalıcı kırsal yerleşmedir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Demografik geçiş evrelerini sıraya diz.",
+        "items": [
+          { "id": "1", "text": "Yüksek doğum, yüksek ölüm" },
+          { "id": "2", "text": "Yüksek doğum, düşen ölüm (hızlı artış)" },
+          { "id": "3", "text": "Düşen doğum, düşük ölüm" },
+          { "id": "4", "text": "Düşük doğum, düşük ölüm (durağan)" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "explanation": "Türkiye şu an üçüncü evrenin sonunda, dördüncüye geçiş aşamasındadır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "numeric_input",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Besin zincirinde bir basamaktan diğerine aktarılan enerji oranı yüzde kaçtır?",
+        "suffix": "%"
+      },
+      "answer_key": { "value": 10, "tolerance": 0 },
+      "explanation": "Lindeman'ın %10 kuralı."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "numeric_input",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Türkiye'de çalışma çağındaki nüfusun alt yaş sınırı kaçtır?",
+        "suffix": "yaş"
+      },
+      "answer_key": { "value": 15, "tolerance": 0 },
+      "explanation": "Aktif nüfus 15–64 yaş aralığıdır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "numeric_input",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "stem": "Yüzölçümü 500 km², nüfusu 40.000 olan bir ilçenin nüfus yoğunluğu kaçtır?",
+        "suffix": "kişi/km²"
+      },
+      "answer_key": { "value": 80, "tolerance": 0 },
+      "explanation": "40.000 / 500 = 80 kişi/km²."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Ekosistem",
+        "back": "Canlıların birbirleriyle ve cansız çevreyle kurduğu ilişkiler bütünü. Enerji tek yönlü akar, madde döner."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Aritmetik nüfus yoğunluğu",
+        "back": "Toplam nüfus / yüzölçümü. Tarımsal yoğunlukta payda yalnızca tarım alanıdır ve gerçeği daha iyi yansıtır."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "flashcard",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Bağımlı nüfus",
+        "back": "0–14 ve 65 yaş üstü nüfus. Oranı yükseldikçe kişi başına düşen milli gelir düşer."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "flashcard",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "front": "Demografik yatırım",
+        "back": "Artan nüfus için yapılması zorunlu olan okul, hastane ve konut harcamaları. Kalkınmaya ayrılan kaynağı azaltır."
+      },
+      "answer_key": { "self_assessed": true }
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "word_order",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Ekosistemde" },
+          { "id": "2", "text": "enerji" },
+          { "id": "3", "text": "tek" },
+          { "id": "4", "text": "yönlü" },
+          { "id": "5", "text": "akar" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5"] },
+      "explanation": "Madde ise döngü hâlindedir; bu iki ifade birlikte sorulur."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Tarımda" },
+          { "id": "2", "text": "makineleşme" },
+          { "id": "3", "text": "kırdan" },
+          { "id": "4", "text": "kente" },
+          { "id": "5", "text": "göçü" },
+          { "id": "6", "text": "hızlandırmıştır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Makineleşme kırsalda iş gücü ihtiyacını azaltan itici faktördür."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Nüfus" },
+          { "id": "2", "text": "piramidinin" },
+          { "id": "3", "text": "geniş" },
+          { "id": "4", "text": "tabanı" },
+          { "id": "5", "text": "yüksek" },
+          { "id": "6", "text": "doğum" },
+          { "id": "7", "text": "oranını" },
+          { "id": "8", "text": "gösterir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Daralan taban ise yaşlanan nüfusun işaretidir."
+    }
+  ]
+}

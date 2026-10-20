@@ -3,6 +3,8 @@
 declare(strict_types=1);
 
 use App\Modules\Identity\Http\Controller\Api\V1\AuthController;
+use App\Modules\Identity\Http\Controller\Api\V1\DeviceController;
+use App\Modules\Identity\Http\Controller\Api\V1\EnrollmentController;
 use App\Modules\Identity\Http\Controller\Api\V1\MeController;
 use App\Modules\Identity\Http\Controller\Api\V1\OnboardingController;
 use Illuminate\Support\Facades\Route;
@@ -63,5 +65,25 @@ Route::prefix('v1')->group(function (): void {
         Route::get('me', [MeController::class, 'show'])->name('me.show');
         Route::post('onboarding', [OnboardingController::class, 'store'])->name('onboarding.store');
         Route::patch('me/enrollment', [OnboardingController::class, 'changeField'])->name('me.enrollment.update');
+
+        Route::patch('me/settings', [MeController::class, 'updateSettings'])->name('me.settings.update');
+
+        /*
+         | Hesap silme GERİ ALINAMAZ ve dar sınırlı: bu uca dakikada
+         | birden fazla gitmek yanlışlıkla ya da kötü niyetle olur.
+         */
+        Route::delete('me', [MeController::class, 'destroy'])
+            ->middleware('throttle:3,1')
+            ->name('me.destroy');
+
+        // Birden fazla sınava hazırlanan öğrenci: kayıtlar ve aralarında geçiş.
+        Route::get('me/enrollments', [EnrollmentController::class, 'index'])->name('me.enrollments.index');
+        Route::post('me/enrollments', [EnrollmentController::class, 'store'])->name('me.enrollments.store');
+        Route::patch('me/enrollments/{enrollment}/primary', [EnrollmentController::class, 'makePrimary'])
+            ->whereNumber('enrollment')
+            ->name('me.enrollments.primary');
+
+        // Bildirim jetonu. Uygulama her açılışta çağırıyor (jeton döner).
+        Route::post('devices', [DeviceController::class, 'store'])->name('devices.store');
     });
 });
