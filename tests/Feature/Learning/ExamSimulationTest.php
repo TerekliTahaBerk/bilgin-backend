@@ -7,6 +7,7 @@ use App\Modules\Catalog\Infrastructure\Eloquent\Model\UnitNode;
 use App\Modules\Learning\Infrastructure\Eloquent\Model\StudySession;
 use Database\Seeders\DatabaseSeeder;
 use Illuminate\Support\Facades\DB;
+use RuntimeException;
 
 /*
  | Sınav provası — tasarımdaki "Sınav Provası" ekranı.
@@ -175,7 +176,25 @@ it('deneme sonucunda net ve tahmini puan döner', function (): void {
             'matching' => ['pairs' => $key['pairs']],
             'ordering', 'word_order' => ['order' => $key['order']],
             'numeric_input' => ['value' => $key['value']],
-            default => ['known' => true],
+            'image_hotspot' => ['hotspot_id' => $key['hotspot_id']],
+            'diagram_label' => ['labels' => $key['labels']],
+            'flashcard' => ['known' => true],
+            /*
+             | KAPSANMAYAN TİP = TESTİN KENDİSİ BOZUK.
+             |
+             | Burada `default => ['known' => true]` vardı ve sessizce
+             | yanlış cevap üretiyordu: deneme havuzuna yeni bir tip
+             | girdiği gün (image_hotspot ve diagram_label böyle girdi)
+             | "doğru cevapla" döngüsü o soruyu yanlış cevaplıyor, net
+             | hesabı kayıyor ve hata "net yanlış hesaplanıyor" gibi
+             | görünüyordu — oysa bozuk olan testti.
+             |
+             | Artık eksik tip, sebebini söyleyen bir hata veriyor.
+            */
+            default => throw new RuntimeException(
+                "Deneme testi '{$item->type->value}' tipini bilmiyor; ".
+                'doğru cevap şeklini bu match ifadesine ekleyin.'
+            ),
         };
 
         $this->withToken($this->token)->postJson("/api/v1/sessions/{$session['session_id']}/answers", [

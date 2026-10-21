@@ -69,7 +69,24 @@ it('ünitenin sorularını istatistikleriyle listeler', function (): void {
 
     $exercises = $response->json('data.exercises');
 
-    expect($exercises)->toHaveCount(44)
+    /*
+     | Sayı SABİT YAZILMIYOR.
+     |
+     | Burada önce `toHaveCount(44)` vardı — o ünitenin içerik paketindeki
+     | soru sayısı. Pakete soru eklenince test kırıldı, oysa kırılan bir şey
+     | yoktu. Böyle bir test içerik eklemeyi cezalandırıyor ve sayıyı
+     | güncellemek dışında hiçbir şey öğretmiyor.
+     |
+     | Korunması gereken şey sayının kendisi değil, uç noktanın ünitenin
+     | sorularının TAMAMINI döndürmesi: sayfalama ya da gizli bir limit
+     | listeyi sessizce kırparsa panelde soru kaybolmuş görünür.
+    */
+    $owned = Exercise::query()->where('owner_unit_id', $this->unit->id)->count();
+
+    // Alt sınır: tohum bozulup ünite boşalırsa yukarıdaki eşitlik 0 == 0
+    // ile geçerdi ve test hiçbir şey doğrulamamış olurdu.
+    expect($owned)->toBeGreaterThan(10)
+        ->and($exercises)->toHaveCount($owned)
         ->and($exercises[0])->toHaveKeys(['id', 'type', 'topic', 'difficulty', 'preview', 'stats']);
 });
 
