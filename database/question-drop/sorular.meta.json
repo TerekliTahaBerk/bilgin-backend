@@ -1,0 +1,10 @@
+{
+    "_note": "Arsiv ozeti. Sunucuda: php artisan content:paket-aktar <arsiv>",
+    "packaged_at": "2026-10-20T14:29:48+00:00",
+    "questions": 13615,
+    "by_type": {
+        "multiple_choice": 13615
+    },
+    "source_files": 1652,
+    "unreadable_files": 15
+}

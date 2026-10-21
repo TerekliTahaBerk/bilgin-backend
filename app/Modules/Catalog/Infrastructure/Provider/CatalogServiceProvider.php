@@ -7,7 +7,10 @@ namespace App\Modules\Catalog\Infrastructure\Provider;
 use App\Modules\Catalog\Console\DeriveExerciseTypesCommand;
 use App\Modules\Catalog\Console\ImportTestPackagesCommand;
 use App\Modules\Catalog\Console\IngestQuestionDropCommand;
+use App\Modules\Catalog\Console\LintContentPackageCommand;
+use App\Modules\Catalog\Console\PackageQuestionDropCommand;
 use App\Modules\Catalog\Console\ScanQuestionDropCommand;
+use App\Modules\Catalog\Console\UnreachableExercisesCommand;
 use App\Modules\Catalog\Console\ValidateContentCommand;
 use App\Modules\Catalog\Domain\Contract\CourseTopicReader;
 use App\Modules\Catalog\Domain\Contract\ExercisePool;
@@ -115,7 +118,10 @@ final class CatalogServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 ValidateContentCommand::class,
+                LintContentPackageCommand::class,
+                UnreachableExercisesCommand::class,
                 ScanQuestionDropCommand::class,
+                PackageQuestionDropCommand::class,
                 IngestQuestionDropCommand::class,
                 DeriveExerciseTypesCommand::class,
                 ImportTestPackagesCommand::class,

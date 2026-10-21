@@ -6,6 +6,11 @@
 *.md diff=markdown
 *.php diff=php
 
+# Soru arşivi ikili: git satır sonu çevirmeye ya da birleştirmeye
+# kalkarsa gzip akışı bozulur ve dosya sessizce okunamaz hâle gelir.
+# Çakışma olursa çözüm birleştirmek değil, yeniden paketlemek.
+database/question-drop/*.ndjson.gz binary -merge
+
 /.github export-ignore
 CHANGELOG.md export-ignore
 .styleci.yml export-ignore
