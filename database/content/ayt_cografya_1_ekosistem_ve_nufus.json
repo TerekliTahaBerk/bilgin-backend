@@ -709,6 +709,1399 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
       "explanation": "Daralan taban ise yaşlanan nüfusun işaretidir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Bir canlının yaşamını sürdürdüğü belirli yaşam alanına habitat denir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Habitat adres, ekosistem ise o adresteki tüm canlı-cansız ilişkiler bütünüdür."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Bitkiler fotosentez sırasında atmosfere karbondioksit verir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Fotosentezde karbondioksit alınır, atmosfere oksijen verilir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Biyom, benzer iklim koşullarında benzer bitki ve hayvan topluluklarını barındıran geniş yaşam kuşağıdır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Tundra, tayga, savan ve çöl başlıca kara biyomlarıdır; sınırlarını iklim belirler."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Bitkiler atmosferdeki serbest azot gazını doğrudan kullanabilir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Azotun bitkiye geçmesi için azot bağlayıcı bakteriler tarafından bileşiklere dönüştürülmesi gerekir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Su döngüsünde buharlaşan su atmosferde yoğunlaşır ve yağış olarak yeryüzüne döner."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Buharlaşma, yoğunlaşma, yağış ve akış su döngüsünün temel aşamalarıdır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Nüfus piramidi bir ülkenin nüfusunun yaş ve cinsiyet yapısını gösterir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Yatay eksende nüfus miktarı, düşey eksende yaş grupları yer alır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Aritmetik nüfus yoğunluğu, tarım alanının toplam nüfusa bölünmesiyle bulunur."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Aritmetik yoğunluk toplam nüfusun yüzölçümüne bölünmesiyle bulunur."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Dünya nüfusunun büyük bölümü Güney Yarım Küre'de yaşar."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Karaların çoğu Kuzey Yarım Küre'de olduğu için nüfusun yaklaşık %90'ı buradadır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Yerleşmelerin kuruluş yeri seçiminde su kaynaklarına yakınlık belirleyici olmuştur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. İlk yerleşmeler akarsu kenarlarında ve verimli ovalarda kurulmuştur."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Yükseltisi fazla ve engebeli alanlar dünya genelinde nüfusun en yoğun olduğu yerlerdir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Yükselti ve eğim arttıkça tarım, ulaşım ve yerleşme güçleşir; nüfus seyrekleşir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de ilk resmî nüfus sayımı 1927 yılında yapılmıştır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. 1927 sayımında ülke nüfusu yaklaşık 13,6 milyon olarak belirlenmiştir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de nüfus artış hızı 1990'lı yıllardan bu yana sürekli yükselmektedir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Doğurganlık düştüğü için artış hızı azalma eğilimindedir; nüfus artıyor ama daha yavaş."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de kıyı kesimlerinin iç kesimlere göre daha yoğun nüfuslanmasında iklim ve ekonomik faaliyetler etkilidir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Ilıman iklim, verimli ovalar, sanayi, turizm ve liman ulaşımı kıyıları çekici kılar."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de kırsal nüfusun toplam nüfus içindeki oranı 1950'den günümüze artmıştır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Kırdan kente göç nedeniyle kırsal nüfus oranı sürekli azalmıştır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de nüfus verileri 2007'den itibaren Adrese Dayalı Nüfus Kayıt Sistemi ile elde edilmektedir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. ADNKS sayesinde sokağa çıkma yasağı uygulanan klasik sayımlara gerek kalmamıştır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ölü bitki ve hayvan kalıntılarını parçalayarak maddeyi toprağa döndüren canlılara {{0}} denir.",
+        "choices": ["ayrıştırıcı", "üretici", "otçul", "etçil"]
+      },
+      "answer_key": { "blanks": ["ayrıştırıcı"] },
+      "explanation": "Bakteri ve mantarlar ayrıştırıcıdır; onlar olmasa madde döngüsü tamamlanmaz."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Aynı türden bireylerin belirli bir alanda oluşturduğu topluluğa {{0}} denir.",
+        "choices": ["popülasyon", "komünite", "biyom", "ekosistem"]
+      },
+      "answer_key": { "blanks": ["popülasyon"] },
+      "explanation": "Farklı türlerin bir arada oluşturduğu topluluk ise komünitedir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Benzer iklim koşullarında benzer bitki ve hayvan topluluklarını barındıran geniş yaşam kuşaklarına {{0}} denir.",
+        "choices": ["biyom", "habitat", "popülasyon", "ekoton"]
+      },
+      "answer_key": { "blanks": ["biyom"] },
+      "explanation": "Tundra, tayga, savan ve çöl başlıca kara biyomlarıdır; sınırlarını iklim çizer."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Atmosferdeki karbondioksit ve metan gibi gazların artmasıyla yeryüzünün fazla ısınmasına {{0}} etkisi denir.",
+        "choices": ["sera", "ozon", "albedo", "föhn"]
+      },
+      "answer_key": { "blanks": ["sera"] },
+      "explanation": "Sera gazları yerden yansıyan uzun dalga boylu ışınımı tutarak atmosferi ısıtır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Karbon döngüsünde atmosferdeki karbon bitkilere {{0}} yoluyla geçer; canlılardan atmosfere ise {{1}} yoluyla döner.",
+        "choices": ["fotosentez", "solunum", "terleme", "buharlaşma", "erozyon"]
+      },
+      "answer_key": { "blanks": ["fotosentez", "solunum"] },
+      "explanation": "Fosil yakıtların yakılması bu döngüye insan kaynaklı ek karbon katar."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir yerde doğum sayısı ile ölüm sayısı arasındaki farktan kaynaklanan nüfus artışına {{0}} artış denir.",
+        "choices": ["doğal", "gerçek", "net", "mutlak"]
+      },
+      "answer_key": { "blanks": ["doğal"] },
+      "explanation": "Doğal artışa göçün etkisi eklendiğinde gerçek (toplam) artış bulunur."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Toplam nüfusun yalnızca tarım alanlarına bölünmesiyle bulunan değere {{0}} nüfus yoğunluğu denir.",
+        "choices": ["fizyolojik", "aritmetik", "tarımsal", "kentsel"]
+      },
+      "answer_key": { "blanks": ["fizyolojik"] },
+      "explanation": "Tarımsal yoğunlukta pay yalnızca tarımla uğraşan nüfustur; fizyolojikte toplam nüfustur."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Engebeli arazi ve su kaynaklarının dağınık olması nedeniyle evlerin birbirinden uzak kurulduğu yerleşme tipine {{0}} yerleşme denir.",
+        "choices": ["dağınık", "toplu", "geçici", "çizgisel"]
+      },
+      "answer_key": { "blanks": ["dağınık"] },
+      "explanation": "Karadeniz kıyılarında dağınık, İç Anadolu'da ise su kaynağı çevresinde toplu yerleşme görülür."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ülke sınırları aşılarak başka bir ülkeye yapılan nüfus hareketine {{0}} göç denir.",
+        "choices": ["dış", "iç", "mevsimlik", "kentsel"]
+      },
+      "answer_key": { "blanks": ["dış"] },
+      "explanation": "Ülke içinde yer değiştirme iç göçtür ve ülke nüfusunun toplamını değiştirmez."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Eğitimli ve nitelikli iş gücünün daha iyi koşullar için gelişmiş ülkelere gitmesine {{0}} göçü denir.",
+        "choices": ["beyin", "mevsimlik", "zorunlu", "transit"]
+      },
+      "answer_key": { "blanks": ["beyin"] },
+      "explanation": "Veren ülke yetiştirdiği nitelikli iş gücünü, dolayısıyla yaptığı yatırımı kaybeder."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Nüfusun belirli bir alandaki sıklığına nüfus {{0}}, nüfusun yeryüzüne yayılma biçimine ise nüfus {{1}} denir.",
+        "choices": ["yoğunluğu", "dağılışı", "artışı", "piramidi", "politikası"]
+      },
+      "answer_key": { "blanks": ["yoğunluğu", "dağılışı"] },
+      "explanation": "Yoğunluk bir orandır ve sayıyla ifade edilir; dağılış ise mekânsal bir desendir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de ilk resmî nüfus sayımı {{0}} yılında yapılmıştır.",
+        "choices": ["1927", "1935", "1950", "2007"]
+      },
+      "answer_key": { "blanks": ["1927"] },
+      "explanation": "1927 sayımında nüfus yaklaşık 13,6 milyon bulunmuştur; 1935'ten sonra sayımlar düzenli hâle gelmiştir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de 2007 yılından itibaren nüfus bilgileri {{0}} üzerinden her yıl güncellenmektedir.",
+        "choices": ["ADNKS", "genel nüfus sayımı", "tarım sayımı", "seçmen kütüğü"]
+      },
+      "answer_key": { "blanks": ["ADNKS"] },
+      "explanation": "Adrese Dayalı Nüfus Kayıt Sistemi, nüfusu adres kayıtlarından izleyerek yıllık veri üretir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir ülkede kentlerde yaşayan nüfusun toplam nüfusa oranına {{0}} oranı denir.",
+        "choices": ["kentleşme", "kırsallaşma", "sanayileşme", "bağımlılık"]
+      },
+      "answer_key": { "blanks": ["kentleşme"] },
+      "explanation": "Türkiye'de kentleşme oranı 1950'de %25 civarındayken günümüzde %75'in üzerine çıkmıştır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Doğurganlık azalırken ortalama yaşam süresinin uzaması sonucunda bir ülkede nüfusun {{0}} süreci başlar.",
+        "choices": ["yaşlanma", "gençleşme", "patlaması", "yoğunlaşması"]
+      },
+      "answer_key": { "blanks": ["yaşlanma"] },
+      "explanation": "Yaşlanan nüfusta piramidin tabanı daralır, üst basamakları genişler ve bağımlı nüfus artar."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de 1965 yılında çıkarılan Nüfus Planlaması Kanunu ile nüfus artış hızını {{0}} bir politikaya geçilmiştir.",
+        "choices": ["azaltıcı", "artırıcı", "sabit tutan", "serbest bırakan"]
+      },
+      "answer_key": { "blanks": ["azaltıcı"] },
+      "explanation": "Cumhuriyetin ilk yıllarında nüfus artışı teşvik edilirken 1965'te yön değişmiştir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ekoloji kavramını tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Habitat" },
+          { "id": "2", "text": "Komünite" },
+          { "id": "3", "text": "Biyom" },
+          { "id": "4", "text": "Popülasyon" }
+        ],
+        "right": [
+          { "id": "a", "text": "Geniş iklim kuşağına bağlı büyük yaşam alanı" },
+          { "id": "b", "text": "Bir türün yaşamını sürdürdüğü özel ortam" },
+          { "id": "c", "text": "Aynı türden bireylerin oluşturduğu topluluk" },
+          { "id": "d", "text": "Farklı türlerin bir arada oluşturduğu topluluk" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Ölçek küçükten büyüğe: popülasyon → komünite → ekosistem → biyom."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çevre sorununu temel sebebiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Ozon tabakasının seyrelmesi" },
+          { "id": "2", "text": "Çölleşme" },
+          { "id": "3", "text": "Küresel ısınma" },
+          { "id": "4", "text": "Asit yağmurları" }
+        ],
+        "right": [
+          { "id": "a", "text": "Fosil yakıt tüketimiyle karbondioksitin artması" },
+          { "id": "b", "text": "Kükürt ve azot oksitlerinin yağışa karışması" },
+          { "id": "c", "text": "Kloroflorokarbon gazlarının atmosfere salınması" },
+          { "id": "d", "text": "Aşırı otlatma ve bitki örtüsünün yok edilmesi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "d", "3": "a", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Ozon seyrelmesi ile küresel ısınma farklı sorunlardır; sebepleri de ayrıdır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Biyomu belirleyici özelliğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Savan" },
+          { "id": "2", "text": "Çöl" },
+          { "id": "3", "text": "Tundra" },
+          { "id": "4", "text": "Tayga" }
+        ],
+        "right": [
+          { "id": "a", "text": "Ağaçsız, cılız otsu bitkiler ve donmuş toprak" },
+          { "id": "b", "text": "İğne yapraklı geniş ormanlar, soğuk ve nemli kuşak" },
+          { "id": "c", "text": "Uzun otlar arasında seyrek ağaçlar, yazı yağışlı tropikal kuşak" },
+          { "id": "d", "text": "Çok az yağış, seyrek kurakçıl bitki örtüsü" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "d", "3": "a", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Biyomların sınırlarını sıcaklık ve yağış birlikte belirler."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Nüfus piramidi türünü yansıttığı nüfus yapısıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Arı kovanı (silindirik) piramit" },
+          { "id": "2", "text": "Üçgen (geniş tabanlı) piramit" },
+          { "id": "3", "text": "Asimetrik (düzensiz) piramit" },
+          { "id": "4", "text": "Çan biçimli piramit" }
+        ],
+        "right": [
+          { "id": "a", "text": "Yüksek doğum oranı, genç ve hızla artan nüfus" },
+          { "id": "b", "text": "Doğum oranı düşmeye başlamış, artışı yavaşlayan nüfus" },
+          { "id": "c", "text": "Doğum ve ölümün düşük olduğu durağan, yaşlı nüfus" },
+          { "id": "d", "text": "Savaş veya yoğun göçün bozduğu yaş ve cinsiyet yapısı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Piramidin biçimi doğum oranının yönünü, girintiler ise göç ve savaş gibi olayları gösterir."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yerleşme birimini tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Yayla" },
+          { "id": "2", "text": "Kasaba" },
+          { "id": "3", "text": "Mezra" },
+          { "id": "4", "text": "Köy" }
+        ],
+        "right": [
+          { "id": "a", "text": "Birkaç haneden oluşan en küçük kırsal yerleşme" },
+          { "id": "b", "text": "Okulu, camisi ve otlağı bulunan sürekli kırsal yerleşme" },
+          { "id": "c", "text": "Yalnızca yaz aylarında otlatma için kullanılan geçici yerleşme" },
+          { "id": "d", "text": "Köyden büyük, şehirden küçük, pazarı bulunan yerleşme" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "d", "3": "a", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Yayla, oba ve ağıl geçici; mezra, köy ve kasaba sürekli yerleşmelerdir."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Nüfus göstergesini hesaplanma biçimiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Aritmetik nüfus yoğunluğu" },
+          { "id": "2", "text": "Bağımlılık oranı" },
+          { "id": "3", "text": "Doğal nüfus artışı" },
+          { "id": "4", "text": "Net göç" }
+        ],
+        "right": [
+          { "id": "a", "text": "Doğum sayısından ölüm sayısının çıkarılması" },
+          { "id": "b", "text": "Gelen göçten giden göçün çıkarılması" },
+          { "id": "c", "text": "Toplam nüfusun yüzölçümüne bölünmesi" },
+          { "id": "d", "text": "Bağımlı nüfusun aktif nüfusa bölünmesi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "d", "3": "a", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Gerçek artış, doğal artış ile net göçün toplamıdır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yılı Türkiye nüfusuyla ilgili gelişmesiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "2007" },
+          { "id": "2", "text": "1927" },
+          { "id": "3", "text": "1965" },
+          { "id": "4", "text": "1935" }
+        ],
+        "right": [
+          { "id": "a", "text": "İlk resmî nüfus sayımının yapılması" },
+          { "id": "b", "text": "Sayımların sonu 0 ve 5 ile biten yıllarda düzenli hâle gelmesi" },
+          { "id": "c", "text": "Nüfus Planlaması Kanunu ile artışı azaltıcı politikaya geçilmesi" },
+          { "id": "d", "text": "ADNKS ile nüfusun her yıl adres kayıtlarından güncellenmeye başlanması" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "d", "2": "a", "3": "c", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "1927 ve 1935 sayım tarihleri, 1965 politika dönüşü, 2007 ise yöntem değişikliğidir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Nüfus dağılışını etkileyen faktörü örneğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Sanayi" },
+          { "id": "2", "text": "İklim" },
+          { "id": "3", "text": "Turizm" },
+          { "id": "4", "text": "Yer şekilleri" }
+        ],
+        "right": [
+          { "id": "a", "text": "Çöl ve kutup çevresinde nüfusun çok seyrek olması" },
+          { "id": "b", "text": "Doğu Anadolu'nun yüksek ve engebeli olması nedeniyle seyrek nüfuslu olması" },
+          { "id": "c", "text": "Kocaeli ve Bursa'da fabrikaların nüfusu artırması" },
+          { "id": "d", "text": "Antalya ve Muğla kıyılarında yaz nüfusunun yükselmesi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "İklim ve yer şekilleri doğal, sanayi ve turizm beşerî faktörlerdir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'deki nüfus hareketini örneğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Beyin göçü" },
+          { "id": "2", "text": "Mevsimlik işçi göçü" },
+          { "id": "3", "text": "Kırdan kente göç" },
+          { "id": "4", "text": "Yurt dışına işçi göçü" }
+        ],
+        "right": [
+          { "id": "a", "text": "1950'lerden sonra tarımda makineleşmeyle hızlanan iç göç" },
+          { "id": "b", "text": "1961 anlaşmasıyla Almanya'ya yönelen çalışma amaçlı göç" },
+          { "id": "c", "text": "Çukurova'ya pamuk toplamak için gelinen geçici hareket" },
+          { "id": "d", "text": "Nitelikli iş gücünün gelişmiş ülkelere yerleşmesi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "d", "2": "c", "3": "a", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Mevsimlik göçte kalıcı yer değişikliği yoktur; işçi ve beyin göçü ise dış göçtür."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Su döngüsünün aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Yağış" },
+          { "id": "2", "text": "Buharlaşma" },
+          { "id": "3", "text": "Yüzey akışıyla denize dönüş" },
+          { "id": "4", "text": "Yoğunlaşma ve bulut oluşumu" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Döngü kapalıdır: denize dönen su yeniden buharlaşarak baştan başlar."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Canlıları besin piramidinin tabanından zirvesine doğru diz.",
+        "items": [
+          { "id": "1", "text": "Yılan" },
+          { "id": "2", "text": "Bitki" },
+          { "id": "3", "text": "Kartal" },
+          { "id": "4", "text": "Çekirge" },
+          { "id": "5", "text": "Kurbağa" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "Her basamakta enerjinin yalnızca %10'u aktarıldığı için yukarı çıkıldıkça birey sayısı azalır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ekolojik birimleri küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "Komünite" },
+          { "id": "2", "text": "Birey" },
+          { "id": "3", "text": "Biyom" },
+          { "id": "4", "text": "Popülasyon" },
+          { "id": "5", "text": "Ekosistem" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Popülasyon aynı türü, komünite farklı türleri, ekosistem cansız çevreyi de kapsar."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çölleşme sürecinin aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Erozyonun hızlanması" },
+          { "id": "2", "text": "Bitki örtüsünün tahrip edilmesi" },
+          { "id": "3", "text": "Alanın çölleşmesi" },
+          { "id": "4", "text": "Toprağın koruyucu örtüsünü yitirip açığa çıkması" },
+          { "id": "5", "text": "Toprağın verimini kaybetmesi" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Aşırı otlatma, tarla açma ve orman tahribi süreci başlatan insan etkileridir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Küresel ısınma zincirinin halkalarını sebepten sonuca doğru diz.",
+        "items": [
+          { "id": "1", "text": "Buzulların erimesi" },
+          { "id": "2", "text": "Fosil yakıt tüketiminin artması" },
+          { "id": "3", "text": "Deniz seviyesinin yükselmesi" },
+          { "id": "4", "text": "Atmosferde sera gazlarının birikmesi" },
+          { "id": "5", "text": "Ortalama sıcaklığın yükselmesi" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "Zincirin ilk halkası insan kaynaklı salımdır; kıyı ovalarının sular altında kalması son halkadır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Azot döngüsünün aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Atmosferde serbest hâlde bulunan azot" },
+          { "id": "2", "text": "Bitkilerin azot bileşiklerini kökleriyle alması" },
+          { "id": "3", "text": "Azot bağlayıcı bakterilerin azotu bileşiklere dönüştürmesi" },
+          { "id": "4", "text": "Ayrıştırıcıların azotu toprağa ve atmosfere geri vermesi" },
+          { "id": "5", "text": "Azotun otçul ve etçil tüketicilere geçmesi" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "2", "5", "4"] },
+      "explanation": "Bitkiler serbest azotu kullanamaz; bu yüzden bakteriler döngünün anahtarıdır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yerleşmenin tarihsel aşamalarını eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Tarıma geçişle ilk köy yerleşmelerinin kurulması" },
+          { "id": "2", "text": "Mağara ve basit barınaklarda avcı-toplayıcı yaşam" },
+          { "id": "3", "text": "Metropollerin oluşması" },
+          { "id": "4", "text": "Sanayileşmeyle şehirlerin hızla büyümesi" },
+          { "id": "5", "text": "Pazarı bulunan kasabaların ortaya çıkması" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "5", "4", "3"] },
+      "explanation": "Yerleşik yaşam tarımla başlar; şehirlerin büyümesini asıl hızlandıran Sanayi Devrimi'dir."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'deki yönetim birimlerini en küçük kademeden en büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "İlçe" },
+          { "id": "2", "text": "Köy" },
+          { "id": "3", "text": "İl" },
+          { "id": "4", "text": "Belde (belediyesi olan kasaba)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Köy muhtarlıkla, belde belediyeyle yönetilir; ilçe ve il ise daha üst yönetim kademeleridir."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dünya nüfusunun artış dönemlerini eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Sanayi Devrimi'yle artışın hızlanması" },
+          { "id": "2", "text": "Avcı-toplayıcı dönemde çok yavaş artış" },
+          { "id": "3", "text": "Gelişmiş ülkelerde artış hızının yavaşlaması" },
+          { "id": "4", "text": "Tarım Devrimi'yle nüfusun ilk kez belirgin biçimde artması" },
+          { "id": "5", "text": "20. yüzyılda yaşanan nüfus patlaması" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Artışı hızlandıran asıl etken ölüm oranlarının sağlık ve beslenme koşullarıyla düşmesidir."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kıtaları nüfus miktarına göre en çoktan en aza diz.",
+        "items": [
+          { "id": "1", "text": "Avrupa" },
+          { "id": "2", "text": "Afrika" },
+          { "id": "3", "text": "Okyanusya" },
+          { "id": "4", "text": "Asya" }
+        ]
+      },
+      "answer_key": { "order": ["4", "2", "1", "3"] },
+      "explanation": "Dünya nüfusunun yarısından fazlası Asya'da; Okyanusya ise en az nüfuslu kıtadır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aritmetik nüfus yoğunluğu hesaplamanın basamaklarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Alandaki toplam nüfusun belirlenmesi" },
+          { "id": "2", "text": "Nüfusun yüzölçümüne bölünmesi" },
+          { "id": "3", "text": "Alanın yüzölçümünün belirlenmesi" },
+          { "id": "4", "text": "Sonucun kişi/km² olarak ifade edilmesi" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "2", "4"] },
+      "explanation": "Payda yüzölçümü, pay nüfustur; birim her zaman kişi/km² olarak yazılır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kentleşme sürecinin aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Kırdan kente göçün hızlanması" },
+          { "id": "2", "text": "Tarımda makineleşme ve kırsalda iş gücü fazlası" },
+          { "id": "3", "text": "Gecekondulaşma ve çarpık kentleşme" },
+          { "id": "4", "text": "Kentlerde nüfusun yoğunlaşması" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Plansız ve hızlı göç, altyapının yetişememesi nedeniyle çarpık kentleşmeye yol açar."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ülkeleri nüfus miktarına göre en çoktan en aza diz.",
+        "items": [
+          { "id": "1", "text": "Çin" },
+          { "id": "2", "text": "Endonezya" },
+          { "id": "3", "text": "ABD" },
+          { "id": "4", "text": "Türkiye" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "2", "4"] },
+      "explanation": "Çin 1,4 milyarı aşarken ABD 330 milyon, Endonezya 270 milyon, Türkiye 85 milyon düzeyindedir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'de yapılan nüfus sayımlarını eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Son genel nüfus sayımının yapılması (2000)" },
+          { "id": "2", "text": "Cumhuriyet'in ilk nüfus sayımı (1927)" },
+          { "id": "3", "text": "Adrese Dayalı Nüfus Kayıt Sistemi'nin ilk sonuçları (2007)" },
+          { "id": "4", "text": "İkinci genel nüfus sayımı (1935)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "1927'de başlayan genel nüfus sayımları 2000'de son bulmuş, 2007'den itibaren nüfus bilgileri ADNKS ile her yıl güncellenmeye başlamıştır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'yi etkileyen göç olaylarını gerçekleştikleri tarihe göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Almanya'ya işçi göçünün başlaması (1961)" },
+          { "id": "2", "text": "Türkiye-Yunanistan nüfus mübadelesi (1923)" },
+          { "id": "3", "text": "Suriye'den kitlesel sığınmacı göçü (2011 sonrası)" },
+          { "id": "4", "text": "Bulgaristan'dan Türklerin zorunlu göçü (1989)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Mübadele Lozan sonrası bir dış göçtür; 1961'de işçi göçü, 1989'da Bulgaristan göçü, 2011'den sonra ise Suriye kaynaklı göç yaşanmıştır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'nin uyguladığı nüfus politikalarını yürürlüğe girdikleri tarihe göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Nüfus Planlaması Hakkında Kanun'un çıkarılarak artışın sınırlandırılması (1965)" },
+          { "id": "2", "text": "Cumhuriyet'in ilk yıllarında nüfus artışının teşvik edilmesi (1923-1960)" },
+          { "id": "3", "text": "2000'li yıllarda doğum oranlarını yeniden yükseltmeye yönelik teşvikler" },
+          { "id": "4", "text": "İkinci Nüfus Planlaması Kanunu ile aile planlamasının genişletilmesi (1983)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Savaşlarla azalan nüfus önce teşvik edilmiş, 1965'ten sonra artış hızı sınırlandırılmış, doğurganlık düşünce 2000'li yıllarda yeniden artırıcı politikalara dönülmüştür."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Coğrafi bölgeleri aritmetik nüfus yoğunluğuna göre en yüksekten en düşüğe diz.",
+        "items": [
+          { "id": "1", "text": "İç Anadolu Bölgesi" },
+          { "id": "2", "text": "Doğu Anadolu Bölgesi" },
+          { "id": "3", "text": "Marmara Bölgesi" },
+          { "id": "4", "text": "Ege Bölgesi" }
+        ]
+      },
+      "answer_key": { "order": ["3", "4", "1", "2"] },
+      "explanation": "Marmara hem sanayi hem de yüzölçümünün küçüklüğü nedeniyle en yoğun bölgedir; Doğu Anadolu geniş yüzölçümü ve engebeli yapısı yüzünden en seyrek nüfuslu bölgedir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Şehirleri nüfus miktarına göre en çoktan en aza diz.",
+        "items": [
+          { "id": "1", "text": "İzmir" },
+          { "id": "2", "text": "Bursa" },
+          { "id": "3", "text": "İstanbul" },
+          { "id": "4", "text": "Ankara" }
+        ]
+      },
+      "answer_key": { "order": ["3", "4", "1", "2"] },
+      "explanation": "İstanbul 15 milyonu aşarken Ankara yaklaşık 5,7 milyon, İzmir 4,4 milyon, Bursa ise 3,2 milyon nüfusludur."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çıplak bir kayalıkta görülen süksesyon (ekolojik ardıllık) aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Otsu bitkilerin yerleşmesi" },
+          { "id": "2", "text": "Çalıların alana yayılması" },
+          { "id": "3", "text": "Likenlerin kayayı ayrıştırmaya başlaması" },
+          { "id": "4", "text": "Orman örtüsünün (klimaks) oluşması" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "2", "4"] },
+      "explanation": "Likenler toprak oluşumunu başlatır; toprak kalınlaştıkça sırasıyla otlar, çalılar ve ağaçlar alana yerleşerek dengeye ulaşmış klimaks topluluğu meydana getirir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Besin zincirindeki her görevi doğru basamak adıyla etiketle.",
+        "image": "diagrams/besin-zinciri.png",
+        "slots": [
+          { "id": "1", "text": "Fotosentezle kendi besinini üreten basamak" },
+          { "id": "2", "text": "Doğrudan bitkilerle beslenen otçul basamak" },
+          { "id": "3", "text": "Otçulları avlayarak beslenen etçil basamak" }
+        ],
+        "labels": ["Üretici", "Birincil tüketici", "İkincil tüketici", "Ayrıştırıcı"]
+      },
+      "answer_key": {
+        "labels": { "1": "Üretici", "2": "Birincil tüketici", "3": "İkincil tüketici" }
+      },
+      "explanation": "Zincir üreticiyle başlar; otçullar birincil, onları yiyen etçiller ikincil tüketicidir. Ayrıştırıcılar ise her basamağın kalıntılarını parçalayarak döngüyü tamamlar."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Su döngüsündeki her olayı doğru terimle etiketle.",
+        "image": "diagrams/su-dongusu.png",
+        "slots": [
+          { "id": "1", "text": "Suyun bitki yapraklarından buhar hâlinde atmosfere geçmesi" },
+          { "id": "2", "text": "Su buharının soğuyarak bulut damlacıklarına dönüşmesi" },
+          { "id": "3", "text": "Yağışın toprağın derinlerine inerek yer altı suyunu beslemesi" }
+        ],
+        "labels": ["Terleme", "Yoğunlaşma", "Süzülme", "Yüzey akışı"]
+      },
+      "answer_key": {
+        "labels": { "1": "Terleme", "2": "Yoğunlaşma", "3": "Süzülme" }
+      },
+      "explanation": "Bitkilerin su kaybı terleme, buharın bulut hâline gelmesi yoğunlaşma, suyun toprağa sızması süzülmedir. Toprağa sızamayan su ise yüzey akışına geçer."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kırsal meskenlerin yapı malzemesini uygun doğal ortamla etiketle.",
+        "image": "diagrams/mesken-malzemeleri.png",
+        "slots": [
+          { "id": "1", "text": "Yağışın az, ormanın bulunmadığı İç Anadolu platoları" },
+          { "id": "2", "text": "Nemli ve gür ormanlarla kaplı Karadeniz'in kıyı kesimi" },
+          { "id": "3", "text": "Taş ocaklarının yaygın olduğu Doğu Anadolu'nun volkanik alanları" }
+        ],
+        "labels": ["Kerpiç", "Ahşap", "Taş", "Betonarme"]
+      },
+      "answer_key": {
+        "labels": { "1": "Kerpiç", "2": "Ahşap", "3": "Taş" }
+      },
+      "explanation": "Geleneksel meskenlerde en yakın doğal malzeme kullanılır: kurak alanlarda kerpiç, ormanlık alanlarda ahşap, taşlık volkanik alanlarda taş. Betonarme ise doğal ortamdan bağımsız, modern bir malzemedir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her tanımı ölçtüğü nüfus göstergesiyle etiketle.",
+        "image": "diagrams/nufus-gostergeleri.png",
+        "slots": [
+          { "id": "1", "text": "Bir kadının doğurganlık çağı boyunca sahip olacağı ortalama çocuk sayısı" },
+          { "id": "2", "text": "Nüfusun yarısının altında, yarısının üstünde kaldığı yaş" },
+          { "id": "3", "text": "Bağımlı nüfusun çalışma çağındaki nüfusa oranı" }
+        ],
+        "labels": ["Toplam doğurganlık hızı", "Ortanca yaş", "Bağımlılık oranı", "Kaba doğum oranı"]
+      },
+      "answer_key": {
+        "labels": { "1": "Toplam doğurganlık hızı", "2": "Ortanca yaş", "3": "Bağımlılık oranı" }
+      },
+      "explanation": "Kaba doğum oranı binde olarak doğum sayısını verir; ortanca yaş nüfusun gençliğini, bağımlılık oranı ise aktif nüfusun taşıdığı yükü gösterir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'de kilometrekareye düşen kişi sayısının en yüksek olduğu coğrafi bölgeyi seç.",
+        "image": "maps/turkiye-nufus-yogunlugu.png",
+        "hotspots": [
+          { "id": "1", "text": "Marmara Bölgesi" },
+          { "id": "2", "text": "Doğu Anadolu Bölgesi" },
+          { "id": "3", "text": "İç Anadolu Bölgesi" },
+          { "id": "4", "text": "Karadeniz Bölgesi" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Sanayi, ticaret ve ulaşımın yoğunlaştığı Marmara, Türkiye'nin nüfus yoğunluğu en yüksek bölgesidir; yükselti ve sert iklim nedeniyle en seyrek bölge Doğu Anadolu'dur."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yaz aylarında pamuk toplamak için en çok mevsimlik tarım işçisi çeken yöreyi seç.",
+        "image": "maps/turkiye-mevsimlik-goc.png",
+        "hotspots": [
+          { "id": "1", "text": "Çukurova" },
+          { "id": "2", "text": "Erzurum–Kars platoları" },
+          { "id": "3", "text": "Yıldız Dağları" },
+          { "id": "4", "text": "Göller Yöresi" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Çukurova'nın sulanabilen geniş tarım alanları hasat döneminde yoğun iş gücü ister; bu nedenle ülke içinde en büyük mevsimlik göç akımını çeker."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dünya nüfusunun en kalabalık biçimde toplandığı bölgeyi seç.",
+        "image": "maps/dunya-nufus-dagilisi.png",
+        "hotspots": [
+          { "id": "1", "text": "Sahra Çölü" },
+          { "id": "2", "text": "Muson Asyası" },
+          { "id": "3", "text": "Grönland" },
+          { "id": "4", "text": "Avustralya'nın iç kesimleri" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "2" },
+      "explanation": "Güney ve Doğu Asya'yı kapsayan Muson Asyası, verimli ovaları ve sulu tarıma elverişli iklimi sayesinde dünya nüfusunun en yoğun toplandığı alandır; diğer üç alan kuraklık ya da soğuk yüzünden seyrek nüfusludur."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yıl boyu yağışlı, çok katlı ve geniş yapraklı ekvatoral yağmur ormanlarının yayıldığı havzayı seç.",
+        "image": "maps/dunya-biyomlari.png",
+        "hotspots": [
+          { "id": "1", "text": "Amazon Havzası" },
+          { "id": "2", "text": "Kalahari Havzası" },
+          { "id": "3", "text": "Sibirya" },
+          { "id": "4", "text": "Grönland" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Ekvatoral yağmur ormanı biyomunun en geniş örneği Amazon Havzası'dır. Kalahari çöl, Sibirya tayga ve tundra, Grönland ise buzul alanıdır."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Aritmetik" },
+          { "id": "2", "text": "nüfus" },
+          { "id": "3", "text": "yoğunluğu" },
+          { "id": "4", "text": "toplam" },
+          { "id": "5", "text": "nüfusun" },
+          { "id": "6", "text": "yüzölçümüne" },
+          { "id": "7", "text": "bölünmesiyle" },
+          { "id": "8", "text": "bulunur" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Aritmetik yoğunluk kişi/km² birimindedir ve arazinin kullanılabilirliğini hesaba katmaz."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Doğal" },
+          { "id": "2", "text": "artışa" },
+          { "id": "3", "text": "net" },
+          { "id": "4", "text": "göç" },
+          { "id": "5", "text": "eklenerek" },
+          { "id": "6", "text": "gerçek" },
+          { "id": "7", "text": "artış" },
+          { "id": "8", "text": "bulunur" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Doğal artış doğum ile ölüm arasındaki farktır; net göç eklendiğinde bir ülkenin gerçek nüfus artışına ulaşılır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Besin" },
+          { "id": "2", "text": "zincirinde" },
+          { "id": "3", "text": "üst" },
+          { "id": "4", "text": "basamağa" },
+          { "id": "5", "text": "aktarılan" },
+          { "id": "6", "text": "enerji" },
+          { "id": "7", "text": "miktarı" },
+          { "id": "8", "text": "azalır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Her basamakta enerjinin büyük bölümü solunum ve ısı olarak kaybolduğu için üst basamaklarda birey sayısı da azalır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Ayrıştırıcılar" },
+          { "id": "2", "text": "ölü" },
+          { "id": "3", "text": "organik" },
+          { "id": "4", "text": "maddeyi" },
+          { "id": "5", "text": "toprağa" },
+          { "id": "6", "text": "geri" },
+          { "id": "7", "text": "kazandırır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Bakteri ve mantarlar kalıntıları parçalayarak mineralleri toprağa döndürür; bu nedenle madde döngüsü ayrıştırıcılar olmadan tamamlanmaz."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Bağımlılık" },
+          { "id": "2", "text": "oranının" },
+          { "id": "3", "text": "yükselmesi" },
+          { "id": "4", "text": "aktif" },
+          { "id": "5", "text": "nüfusun" },
+          { "id": "6", "text": "yükünü" },
+          { "id": "7", "text": "artırır" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "0–14 ve 65 üstü yaş grubu büyüdükçe çalışan her kişinin bakmak zorunda olduğu kişi sayısı, dolayısıyla ekonomik yük artar."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "1", "text": "Türkiye'de" },
+          { "id": "2", "text": "nüfus" },
+          { "id": "3", "text": "2007'den" },
+          { "id": "4", "text": "beri" },
+          { "id": "5", "text": "adres" },
+          { "id": "6", "text": "kayıtlarından" },
+          { "id": "7", "text": "güncellenmektedir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Adrese Dayalı Nüfus Kayıt Sistemi'yle nüfus bilgisi her yıl güncellenmeye başladı; bu tarihten önce bilgi yalnızca sayım yıllarında yenileniyordu."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Ekolojik piramitte basamak yükseldikçe o basamaktaki birey sayısı artar." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Aktarılan enerji her basamakta azaldığı için üst basamaklarda beslenebilen birey sayısı da azalır; piramit yukarı doğru daralır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Üreticilerin fotosentezle ürettiği organik maddenin solunumda harcanmayan kısmına net birincil üretim denir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Brüt üretimden solunum kaybı çıkarıldığında kalan net birincil üretim, üst basamaklara aktarılabilen enerji miktarını belirler."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Aritmetik nüfus yoğunluğu düşük olan bir ülkede tarımsal nüfus yoğunluğu yüksek olabilir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Yüzölçümünün büyük bölümü çöl, buzul ya da dağ ise ekilebilir alan daralır; aynı nüfus küçük bir tarım alanına yüklendiği için tarımsal yoğunluk yükselir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Türkiye'de nüfus artış hızının azalması, toplam nüfusun azaldığı anlamına gelir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Artış hızı pozitif kaldığı sürece nüfus büyümeye devam eder; yalnızca büyüme yavaşlar."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Mevsimlik göçlerde kişilerin daimî ikametgâhı değişmez." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Yaylacılık ve tarım işçiliği gibi hareketlerde kişi belirli bir süre sonra yerleşik konutuna döndüğü için kalıcı bir yer değişikliği olmaz."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Yangın ya da sel gibi bir olayla bozulan ekosistemin zamanla kendini yenileyerek dengeye ulaşmasına {{0}} denir.",
+        "choices": ["süksesyon", "ötrofikasyon", "erozyon", "çölleşme"]
+      },
+      "answer_key": { "blanks": ["süksesyon"] },
+      "explanation": "Ekolojik ardıllık da denen süksesyon, klimaks topluluğa ulaşana kadar süren aşamalı bir yenilenme sürecidir."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Göllere karışan azot ve fosforun aşırı alg üremesine yol açarak sudaki oksijeni tüketmesine {{0}} denir.",
+        "choices": ["ötrofikasyon", "asit yağmuru", "sera etkisi", "biyolojik birikim"]
+      },
+      "answer_key": { "blanks": ["ötrofikasyon"] },
+      "explanation": "Gübre ve atık suların taşıdığı besin tuzları algleri çoğaltır; algler ölüp ayrıştıkça oksijen tükenir ve su canlıları yaşayamaz."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Toplam nüfusun yüzölçümüne oranı {{0}} nüfus yoğunluğu, toplam nüfusun tarım yapılabilen alana oranı ise {{1}} nüfus yoğunluğu olarak adlandırılır.",
+        "choices": ["aritmetik", "fizyolojik", "tarımsal", "oransal", "gerçek"]
+      },
+      "answer_key": { "blanks": ["aritmetik", "fizyolojik"] },
+      "explanation": "Aritmetik yoğunluk arazinin niteliğini gözetmez; fizyolojik yoğunluk ise nüfusu yalnızca ekilebilir alana böldüğü için tarım baskısını daha iyi gösterir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Nüfusun yarısı kendisinden küçük, yarısı kendisinden büyük olan yaş değerine {{0}} denir ve bu değerin yükselmesi nüfusun yaşlandığını gösterir.",
+        "choices": ["ortanca yaş", "ortalama ömür", "bağımlılık oranı", "doğurganlık hızı"]
+      },
+      "answer_key": { "blanks": ["ortanca yaş"] },
+      "explanation": "Ortanca yaş, nüfusu iki eşit parçaya bölen yaştır; Türkiye'de bu değer son yıllarda sürekli yükselmiştir."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de çalışan nüfus içindeki payı yıllar içinde azalan sektör {{0}}, payı artan sektör ise {{1}} sektörüdür.",
+        "choices": ["tarım", "hizmet", "sanayi", "madencilik", "inşaat"]
+      },
+      "answer_key": { "blanks": ["tarım", "hizmet"] },
+      "explanation": "Makineleşme ve kentleşmeyle tarımdaki iş gücü payı geriledi; ticaret, turizm ve ulaşımı kapsayan hizmet sektörü ise en çok çalışan barındıran kesim hâline geldi."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Uluslararası çevre anlaşmasını konusuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Montreal Protokolü" },
+          { "id": "2", "text": "Kyoto Protokolü" },
+          { "id": "3", "text": "Ramsar Sözleşmesi" },
+          { "id": "4", "text": "Paris Anlaşması" }
+        ],
+        "right": [
+          { "id": "a", "text": "Sera gazı salımlarını azaltmak için sanayileşmiş ülkelere sayısal hedefler getirilmesi" },
+          { "id": "b", "text": "Ozon tabakasına zarar veren gazların üretiminin aşamalı olarak bırakılması" },
+          { "id": "c", "text": "Küresel sıcaklık artışının sanayi öncesine göre 2 °C'nin altında tutulması" },
+          { "id": "d", "text": "Uluslararası öneme sahip sulak alanların ve kuş yaşamının korunması" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Montreal ozon, Ramsar sulak alanlar, Kyoto ve Paris ise iklim değişikliği ile ilgilidir; Paris Anlaşması Kyoto'nun yerini alarak tüm ülkeleri kapsamıştır."
+    },
+    {
+      "topic": "doga_ve_insan",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ekoloji kavramını tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Taşıma kapasitesi" },
+          { "id": "2", "text": "Sınırlayıcı faktör" },
+          { "id": "3", "text": "Biyolojik birikim" },
+          { "id": "4", "text": "Endemik tür" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bir türün yayılışını en çok kısıtlayan çevre koşulu" },
+          { "id": "b", "text": "Bir ortamın sürekli olarak besleyebileceği en fazla birey sayısı" },
+          { "id": "c", "text": "Yalnızca belirli bir alanda doğal olarak yaşayan tür" },
+          { "id": "d", "text": "Zararlı bir maddenin besin zinciri boyunca derişiminin yükselmesi" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Taşıma kapasitesi aşıldığında popülasyon küçülür; sınırlayıcı faktör genellikle su, sıcaklık ya da besindir. Biyolojik birikim üst basamakları en çok etkiler."
+    },
+    {
+      "topic": "nufus_ve_yerlesme",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kentleşme kavramını tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Metropol" },
+          { "id": "2", "text": "Megalopolis" },
+          { "id": "3", "text": "Banliyö" },
+          { "id": "4", "text": "Gecekondu" }
+        ],
+        "right": [
+          { "id": "a", "text": "Komşu kentlerin büyüyüp birleşmesiyle oluşan dev kentsel alan" },
+          { "id": "b", "text": "Çevresindeki yerleşmeleri ekonomik etkisi altına alan büyük kent" },
+          { "id": "c", "text": "Kente izinsiz ve plansız biçimde eklenen konut alanı" },
+          { "id": "d", "text": "Kentin kenarında yer alan, merkeze günlük ulaşımla bağlı yerleşme" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Ölçek küçükten büyüğe banliyö → metropol → megalopolis biçiminde ilerler; gecekondu ise hızlı göçün yarattığı plansız yapılaşmadır."
+    },
+    {
+      "topic": "turkiyede_nufus",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Nüfus politikası aracını hedeflediği sonuçla birleştir.",
+        "left": [
+          { "id": "1", "text": "Doğum izni ve çocuk yardımının artırılması" },
+          { "id": "2", "text": "Aile planlaması hizmetlerinin yaygınlaştırılması" },
+          { "id": "3", "text": "Teşvik bölgelerinde sanayi yatırımlarının desteklenmesi" },
+          { "id": "4", "text": "Yurt dışındaki araştırmacılara burs ve kadro verilmesi" }
+        ],
+        "right": [
+          { "id": "a", "text": "Doğum oranını yükseltmek" },
+          { "id": "b", "text": "Doğum oranını düşürmek" },
+          { "id": "c", "text": "Nitelikli iş gücünü ülkeye geri kazanmak" },
+          { "id": "d", "text": "Nüfusun ülke içinde daha dengeli dağılmasını sağlamak" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Nüfus politikaları yalnızca sayıyı değil, nüfusun niteliğini ve dağılışını da hedefler; bölgesel teşvikler göçü yönlendirir, burs programları beyin göçünü tersine çevirmeyi amaçlar."
     }
   ]
 }

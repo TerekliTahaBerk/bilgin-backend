@@ -715,6 +715,1191 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
       "explanation": "Isıtma maliyetinin düşüklüğü belirleyici etkendir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Balıkçılık, birincil ekonomik faaliyetler arasında yer alır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Balıkçılık, doğadan doğrudan ürün elde edildiği için birincil sektördedir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Bir ülkede tarımda çalışan nüfus oranının yüksek olması, sanayinin yeterince gelişmediğinin göstergesidir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Sanayi ve hizmet sektörü geliştikçe tarımdaki iş gücü bu sektörlere kayar."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Otomobil üretimi birincil sektör faaliyetidir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Ham maddenin işlenmesine dayandığı için otomobil üretimi ikincil (sanayi) sektördedir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Dördüncül sektör, ham maddenin doğadan çıkarılmasını kapsar."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Dördüncül sektör Ar-Ge, bilişim ve danışmanlık gibi bilgiye dayalı faaliyetleri kapsar."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de en geniş ekim alanına sahip tarım ürünü buğdaydır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Buğday hem her bölgede yetişir hem de en çok ekim alanı ona ayrılır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de tütün üretimi en çok İç Anadolu Bölgesi'nde yapılır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Tütün üretiminde Ege Bölgesi (Manisa, Muğla, Denizli) ilk sıradadır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Erzurum-Kars yöresinde büyükbaş hayvancılığın gelişmesinde geniş çayırlar etkili olmuştur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Yaz yağışlarıyla gelişen gür çayırlar büyükbaş hayvancılığa elverişli ortam sağlar."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Zeytin, kışları çok soğuk geçen Doğu Anadolu'nun yüksek kesimlerinde yaygın olarak yetiştirilir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Zeytin kışı ılık geçen kıyı kuşağının (Ege, Akdeniz, Güney Marmara) ürünüdür."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Sanayi, ikincil ekonomik faaliyetler grubunda yer alır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Sanayi, ham maddeyi işleyerek ürüne dönüştürdüğü için ikincil sektördedir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de sanayi tesisleri yurt genelinde dengeli biçimde dağılmıştır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Sanayi batı bölgelerinde yoğunlaşmıştır; doğuya doğru belirgin biçimde azalır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Şeker fabrikaları şeker pancarı üretim alanlarına yakın kurulur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Pancar ağır ve çabuk bozulan bir ham maddedir; uzağa taşımak ekonomik değildir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Tersanelerin kuruluş yerinde deniz kıyısında olmak gerekli değildir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Gemi inşa ve bakımı yapıldığı için tersaneler zorunlu olarak kıyıda kurulur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hidroelektrik santraller akarsuların eğimin arttığı kesimlerinde kurulur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Enerji üretimi suyun düşü yüksekliğine bağlıdır; eğim arttıkça potansiyel büyür."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Türkiye'de üretilen elektriğin tamamı yenilenebilir kaynaklardan sağlanır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Üretimin önemli bir bölümü doğal gaz ve kömüre dayalı termik santrallerden gelir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Krom, Türkiye'nin dış satımında yer tutan madenlerden biridir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Elazığ-Guleman ve Fethiye çevresinden çıkarılan krom ihraç edilen madenler arasındadır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Rüzgâr enerjisi için en elverişli alanlar Türkiye'nin iç kesimlerindeki kapalı havzalardır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. En elverişli alanlar rüzgârın sürekli ve hızlı estiği Ege ile Marmara kıyılarıdır."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ham maddeyi işleyerek kullanılabilir ürüne dönüştüren sanayi ve imalat faaliyetleri {{0}} sektör içinde yer alır.",
+        "choices": ["ikincil", "birincil", "üçüncül", "dördüncül"]
+      },
+      "answer_key": { "blanks": ["ikincil"] },
+      "explanation": "İkincil sektör imalat ve sanayi faaliyetlerini kapsar."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir ülke geliştikçe toplam istihdam içindeki payı azalan sektör {{0}} sektördür.",
+        "choices": ["birincil", "ikincil", "üçüncül", "dördüncül"]
+      },
+      "answer_key": { "blanks": ["birincil"] },
+      "explanation": "Makineleşme arttıkça tarım ve madencilikte çalışan nüfus oranı düşer; istihdam sanayi ve hizmete kayar."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Üretilen malın tüketiciye ulaştırılmasını sağlayan ticaret ve ulaşım faaliyetleri {{0}} sektörde değerlendirilir.",
+        "choices": ["üçüncül", "birincil", "ikincil", "dördüncül"]
+      },
+      "answer_key": { "blanks": ["üçüncül"] },
+      "explanation": "Üçüncül sektör hizmet sektörüdür: ticaret, ulaşım, turizm, eğitim, sağlık."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ekonomik faaliyet sınıflandırmasında ormandan tomruk elde edilmesi {{0}} sektöre, bu tomruktan mobilya üretilmesi ise {{1}} sektöre girer.",
+        "choices": ["birincil", "ikincil", "üçüncül", "dördüncül", "beşincil"]
+      },
+      "answer_key": { "blanks": ["birincil", "ikincil"] },
+      "explanation": "Doğadan ham madde elde etmek birincil, onu işlemek ikincil sektördür."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de şeker pancarı üretiminin en yoğun olduğu bölge {{0}}'dur.",
+        "choices": ["İç Anadolu", "Akdeniz", "Güneydoğu Anadolu", "Marmara"]
+      },
+      "answer_key": { "blanks": ["İç Anadolu"] },
+      "explanation": "Şeker pancarı serin ve sulanabilir alanlarda yetişir; Konya ve çevresi üretimin merkezidir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bol su isteyen çeltik tarımının en fazla yapıldığı bölge {{0}} Bölgesi'dir.",
+        "choices": ["Marmara", "Doğu Anadolu", "Ege", "Akdeniz"]
+      },
+      "answer_key": { "blanks": ["Marmara"] },
+      "explanation": "Trakya'da Meriç ve Ergene çevresindeki sulanabilir ovalar çeltik üretiminde ilk sıradadır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İncir ve kuru üzüm dış satımının dayandığı üretim alanı {{0}} Bölgesi'dir.",
+        "choices": ["Ege", "Karadeniz", "Doğu Anadolu", "Marmara"]
+      },
+      "answer_key": { "blanks": ["Ege"] },
+      "explanation": "Akdeniz iklimi incir, üzüm ve zeytin için en uygun koşulları sunar; Aydın ve Manisa öne çıkar."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Geniş çayırlara dayalı büyükbaş hayvancılık {{0}} yöresinde, bozkırlara dayalı küçükbaş hayvancılık ise {{1}} Bölgesi'nde öne çıkar.",
+        "choices": ["Erzurum-Kars", "İç Anadolu", "Doğu Karadeniz", "Çukurova", "Antalya"]
+      },
+      "answer_key": { "blanks": ["Erzurum-Kars", "İç Anadolu"] },
+      "explanation": "Büyükbaş hayvan gür çayır, küçükbaş hayvan ise kuru ve kısa otlu bozkır ister."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ham maddesi ağır ve ucuz olan sanayi kolları, taşıma maliyetini düşürmek için {{0}} kaynağına yakın kurulur.",
+        "choices": ["ham madde", "pazar", "iş gücü", "sermaye"]
+      },
+      "answer_key": { "blanks": ["ham madde"] },
+      "explanation": "Ürünün değeri ağırlığına göre düşükse ham maddeyi taşımak pahalıya gelir; tesis ham maddenin yanına kurulur."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de ilk şeker fabrikaları 1926 yılında Alpullu ve {{0}}'ta kurulmuştur.",
+        "choices": ["Uşak", "Konya", "Kayseri", "Amasya"]
+      },
+      "answer_key": { "blanks": ["Uşak"] },
+      "explanation": "Cumhuriyet'in ilk şeker fabrikaları Alpullu (Kırklareli) ve Uşak'tır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ham maddesi ormana dayanan kâğıt sanayisinin Türkiye'deki ilk tesisi {{0}}'te kurulmuştur.",
+        "choices": ["İzmit", "Mersin", "Malatya", "Kayseri"]
+      },
+      "answer_key": { "blanks": ["İzmit"] },
+      "explanation": "SEKA'nın ilk fabrikası 1936'da İzmit'te açılmıştır; orman ürünleri ve su kaynağı belirleyici olmuştur."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Devletin sanayi yatırımlarını belirli bir programa bağladığı Birinci Beş Yıllık Sanayi Planı {{0}} yılında yürürlüğe girmiştir.",
+        "choices": ["1934", "1923", "1950", "1963"]
+      },
+      "answer_key": { "blanks": ["1934"] },
+      "explanation": "1934-1938 dönemini kapsayan plan dokuma, maden ve kimya sanayisine ağırlık vermiştir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Akarsuların düşü gücünden elektrik üreten santrallere {{0}} santral denir.",
+        "choices": ["hidroelektrik", "termik", "nükleer", "jeotermal"]
+      },
+      "answer_key": { "blanks": ["hidroelektrik"] },
+      "explanation": "Hidroelektrik santraller yenilenebilir kaynak kullanır; eğimin ve su miktarının yüksek olduğu yerlerde kurulur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de ham petrol üretiminin en fazla olduğu bölge {{0}} Bölgesi'dir.",
+        "choices": ["Güneydoğu Anadolu", "Karadeniz", "Ege", "İç Anadolu"]
+      },
+      "answer_key": { "blanks": ["Güneydoğu Anadolu"] },
+      "explanation": "Batman, Adıyaman ve Diyarbakır çevresindeki sahalar üretimin büyük bölümünü karşılar."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Alüminyum üretiminin ham maddesi olan boksit, Türkiye'de en çok {{0}} (Konya) yöresinden çıkarılır.",
+        "choices": ["Seydişehir", "Murgul", "Guleman", "Küre"]
+      },
+      "answer_key": { "blanks": ["Seydişehir"] },
+      "explanation": "Seydişehir boksit yatakları, aynı yerdeki alüminyum tesisinin kuruluş sebebidir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Rüzgâr enerjisi için en elverişli kıyılar {{0}} ve Marmara kıyıları, güneş enerjisi potansiyeli en yüksek bölge ise {{1}} Bölgesi'dir.",
+        "choices": ["Ege", "Güneydoğu Anadolu", "Doğu Karadeniz", "İç Anadolu", "Doğu Anadolu"]
+      },
+      "answer_key": { "blanks": ["Ege", "Güneydoğu Anadolu"] },
+      "explanation": "Rüzgârın sürekliliği Ege-Marmara kıyılarında, yıllık güneşlenme süresi ise güneyde en yüksektir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her faaliyeti girdiği sektörle birleştir.",
+        "left": [{"id":"1","text":"Ormancılık"}, {"id":"2","text":"Çimento fabrikası"},
+                 {"id":"3","text":"Sigortacılık"}, {"id":"4","text":"Biyoteknoloji Ar-Ge çalışması"}],
+        "right": [{"id":"a","text":"Üçüncül sektör"}, {"id":"b","text":"Birincil sektör"},
+                  {"id":"c","text":"Dördüncül sektör"}, {"id":"d","text":"İkincil sektör"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"d","3":"a","4":"c"}, "partial_credit": true },
+      "explanation": "Doğadan ham madde almak birincil, işlemek ikincil, hizmet sunmak üçüncül, bilgi üretmek dördüncül sektördür."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [{"id":"1","text":"Ham madde"}, {"id":"2","text":"Katma değer"},
+                 {"id":"3","text":"İhracat"}, {"id":"4","text":"Monokültür"}],
+        "right": [{"id":"a","text":"Bir malın yurt dışına satılması"},
+                  {"id":"b","text":"Üretimde kullanılan işlenmemiş madde"},
+                  {"id":"c","text":"Ekonominin tek ürüne bağlı olması"},
+                  {"id":"d","text":"İşleme aşamasında ürüne eklenen değer"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"d","3":"a","4":"c"}, "partial_credit": true },
+      "explanation": "Katma değer arttıkça ham madde satan ülke konumundan çıkılır; monokültür ise ekonomiyi kırılgan yapar."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Tarım ürününü iklim isteğiyle birleştir.",
+        "left": [{"id":"1","text":"Çay"}, {"id":"2","text":"Buğday"},
+                 {"id":"3","text":"Zeytin"}, {"id":"4","text":"Çeltik"}],
+        "right": [{"id":"a","text":"Yetişme döneminde yağış, olgunlaşma döneminde kuraklık"},
+                  {"id":"b","text":"Yıl boyu bol yağış ve asitli toprak"},
+                  {"id":"c","text":"Yetişme döneminde bol su ve yüksek sıcaklık"},
+                  {"id":"d","text":"Kışları ılık geçen Akdeniz iklimi"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"a","3":"d","4":"c"}, "partial_credit": true },
+      "explanation": "Ürünün yetişme alanını belirleyen asıl etken, yıl içindeki sıcaklık ve yağış dağılışıdır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ürünü en çok üretildiği alanla birleştir.",
+        "left": [{"id":"1","text":"Şeker pancarı"}, {"id":"2","text":"Çeltik"},
+                 {"id":"3","text":"Antep fıstığı"}, {"id":"4","text":"Zeytin"}],
+        "right": [{"id":"a","text":"Trakya'nın sulanabilir ovaları"},
+                  {"id":"b","text":"Gaziantep ve Şanlıurfa çevresi"},
+                  {"id":"c","text":"Konya ve çevresi"},
+                  {"id":"d","text":"Ege ve Akdeniz kıyı kuşağı"}]
+      },
+      "answer_key": { "pairs": {"1":"c","2":"a","3":"b","4":"d"}, "partial_credit": true },
+      "explanation": "Her ürün, iklim ve su koşullarının en uygun olduğu yerde toplanır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hayvancılık türünü dayandığı koşulla birleştir.",
+        "left": [{"id":"1","text":"Büyükbaş hayvancılık"}, {"id":"2","text":"Küçükbaş hayvancılık"},
+                 {"id":"3","text":"Kümes hayvancılığı"}, {"id":"4","text":"Arıcılık"}],
+        "right": [{"id":"a","text":"Bozkır ve kuru otlaklar"},
+                  {"id":"b","text":"Geniş ve gür çayırlar"},
+                  {"id":"c","text":"Zengin çiçek örtüsü"},
+                  {"id":"d","text":"Büyük pazara ve yem sanayisine yakınlık"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"a","3":"d","4":"c"}, "partial_credit": true },
+      "explanation": "Otlak kalitesi büyükbaş-küçükbaş ayrımını, pazara yakınlık ise kümes hayvancılığının dağılışını belirler."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Fabrikayı kuruluş yerini belirleyen ham madde alanıyla birleştir.",
+        "left": [{"id":"1","text":"Şeker fabrikası"}, {"id":"2","text":"Çay fabrikası"},
+                 {"id":"3","text":"Zeytinyağı fabrikası"}, {"id":"4","text":"Kâğıt fabrikası"}],
+        "right": [{"id":"a","text":"Zeytinlikler"}, {"id":"b","text":"Şeker pancarı tarlaları"},
+                  {"id":"c","text":"Orman alanları"}, {"id":"d","text":"Çay bahçeleri"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"d","3":"a","4":"c"}, "partial_credit": true },
+      "explanation": "Tarıma ve ormana dayalı sanayi, ham maddesi hacimli ya da çabuk bozulabilir olduğu için üretim alanının yanında kurulur."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Sanayi merkezini öne çıkan sanayi koluyla birleştir.",
+        "left": [{"id":"1","text":"Karabük"}, {"id":"2","text":"Seydişehir"},
+                 {"id":"3","text":"Batman"}, {"id":"4","text":"Bursa"}],
+        "right": [{"id":"a","text":"Alüminyum"}, {"id":"b","text":"Otomotiv"},
+                  {"id":"c","text":"Demir-çelik"}, {"id":"d","text":"Petrol rafinerisi"}]
+      },
+      "answer_key": { "pairs": {"1":"c","2":"a","3":"d","4":"b"}, "partial_credit": true },
+      "explanation": "Karabük ve Seydişehir ham maddeye, Batman petrol sahalarına, Bursa ise pazar ve ulaşıma dayanır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Santral türünü kullandığı enerji kaynağıyla birleştir.",
+        "left": [{"id":"1","text":"Hidroelektrik santral"}, {"id":"2","text":"Termik santral"},
+                 {"id":"3","text":"Jeotermal santral"}, {"id":"4","text":"Rüzgâr santrali"}],
+        "right": [{"id":"a","text":"Kömür ve doğal gaz"}, {"id":"b","text":"Akarsuyun düşü gücü"},
+                  {"id":"c","text":"Hava hareketleri"}, {"id":"d","text":"Yer altı sıcak suyu ve buharı"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"a","3":"d","4":"c"}, "partial_credit": true },
+      "explanation": "Termik santraller yenilenemeyen kaynak kullanır; diğer üçü yenilenebilir kaynaklara dayanır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Madeni başlıca kullanım alanıyla birleştir.",
+        "left": [{"id":"1","text":"Bor"}, {"id":"2","text":"Krom"},
+                 {"id":"3","text":"Boksit"}, {"id":"4","text":"Bakır"}],
+        "right": [{"id":"a","text":"Paslanmaz çelik üretimi"}, {"id":"b","text":"Elektrik kablosu üretimi"},
+                  {"id":"c","text":"Cam ve seramik sanayisi"}, {"id":"d","text":"Alüminyum üretimi"}]
+      },
+      "answer_key": { "pairs": {"1":"c","2":"a","3":"d","4":"b"}, "partial_credit": true },
+      "explanation": "Madenin değeri, hangi sanayi koluna girdi olduğuna göre belirlenir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Faaliyet gruplarını birincil sektörden dördüncül sektöre doğru diz.",
+        "items": [{"id":"1","text":"Turizm ve ticaret hizmetleri"},
+                  {"id":"2","text":"Sanayi ve imalat faaliyetleri"},
+                  {"id":"3","text":"Ar-Ge ve bilişim faaliyetleri"},
+                  {"id":"4","text":"Tarım, madencilik ve ormancılık"}]
+      },
+      "answer_key": { "order": ["4","2","1","3"] },
+      "explanation": "Birincil ham madde, ikincil imalat, üçüncül hizmet, dördüncül bilgi üretimidir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Zeytinyağı üretim zincirinin aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Zeytinin sıkılarak yağının çıkarılması"},
+                  {"id":"2","text":"Zeytinin bahçede hasat edilmesi"},
+                  {"id":"3","text":"Yağın şişelenip markette satışa sunulması"},
+                  {"id":"4","text":"Hasat edilen zeytinin fabrikaya taşınması"}]
+      },
+      "answer_key": { "order": ["2","4","1","3"] },
+      "explanation": "Hasat birincil, sıkma ikincil, satış üçüncül sektör faaliyetidir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Şeker üretim sürecinin aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Şekerin kristalleştirilip paketlenmesi"},
+                  {"id":"2","text":"Şeker pancarının tarlada yetiştirilmesi"},
+                  {"id":"3","text":"Pancardan şeker şurubunun elde edilmesi"},
+                  {"id":"4","text":"Pancarın fabrikaya taşınması"},
+                  {"id":"5","text":"Paketli şekerin toptancı aracılığıyla satılması"}]
+      },
+      "answer_key": { "order": ["2","4","3","1","5"] },
+      "explanation": "Ham madde üretimi, işleme ve dağıtım sırayla birincil, ikincil ve üçüncül sektöre karşılık gelir."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Sütün peynire dönüşme sürecini ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Sütün pastörize edilmesi"},
+                  {"id":"2","text":"İneğin sağılması"},
+                  {"id":"3","text":"Peynirin paketlenmesi"},
+                  {"id":"4","text":"Sütün soğuk zincirle fabrikaya taşınması"},
+                  {"id":"5","text":"Peynirin markette satılması"}]
+      },
+      "answer_key": { "order": ["2","4","1","3","5"] },
+      "explanation": "Çabuk bozulan ham madde, bu yüzden süt ürünleri sanayisi üretim alanına yakın kurulur."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Buğday tarımının aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Tohumun toprağa ekilmesi"},
+                  {"id":"2","text":"Toprağın sürülerek ekime hazırlanması"},
+                  {"id":"3","text":"Başakların hasat edilmesi"},
+                  {"id":"4","text":"Gübreleme ve yabancı otla mücadele"},
+                  {"id":"5","text":"Tanelerin depoya kaldırılması"}]
+      },
+      "answer_key": { "order": ["2","1","4","3","5"] },
+      "explanation": "Toprak hazırlığı, ekim, bakım, hasat ve depolama sırası her tahıl için geçerlidir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çayın işlenme sürecini ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Yaprakların soldurulup kıvrılması"},
+                  {"id":"2","text":"Çay bahçesinde taze yaprakların toplanması"},
+                  {"id":"3","text":"Kurutulan çayın paketlenmesi"},
+                  {"id":"4","text":"Toplanan yaprakların çay fabrikasına ulaştırılması"}]
+      },
+      "answer_key": { "order": ["2","4","1","3"] },
+      "explanation": "Yaprak çabuk bozulduğu için fabrikalar çay bahçelerinin yanında kurulur."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Fındığın hasattan dış satıma uzanan sürecini ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Kabuğun kırılarak iç fındığın elde edilmesi"},
+                  {"id":"2","text":"Fındığın bahçede hasat edilmesi"},
+                  {"id":"3","text":"İç fındığın işlenerek dış satıma hazırlanması"},
+                  {"id":"4","text":"Fındığın harman yerinde kurutulması"}]
+      },
+      "answer_key": { "order": ["2","4","1","3"] },
+      "explanation": "Kurutma, fındığın dayanıklılığını artırarak depolanmasını ve taşınmasını kolaylaştırır."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Buğdayın ekmeğe dönüşme sürecini ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Hamurun yoğurulup mayalanması"},
+                  {"id":"2","text":"Buğdayın hasat edilmesi"},
+                  {"id":"3","text":"Ekmeğin fırında pişirilmesi"},
+                  {"id":"4","text":"Buğdayın değirmende un olarak öğütülmesi"},
+                  {"id":"5","text":"Ekmeğin satış noktasına dağıtılması"}]
+      },
+      "answer_key": { "order": ["2","4","1","3","5"] },
+      "explanation": "Her aşamada ürüne katma değer eklenir; son aşama hizmet sektörüne girer."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Sera domatesinin üretimden satışa uzanan yolunu ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Domateslerin hasat edilmesi"},
+                  {"id":"2","text":"Seraya fidelerin dikilmesi"},
+                  {"id":"3","text":"Ürünün soğuk hava deposuna taşınması"},
+                  {"id":"4","text":"Bitkilerin sulanıp bakımının yapılması"},
+                  {"id":"5","text":"Ürünün pazarda satışa sunulması"}]
+      },
+      "answer_key": { "order": ["2","4","1","3","5"] },
+      "explanation": "Seracılık, kışların ılık geçtiği Akdeniz kıyılarında ısıtma maliyeti düşük olduğu için yoğunlaşır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Demir cevherinin otomobile dönüşme sürecini ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Çelik sacın preslenerek parçaya dönüştürülmesi"},
+                  {"id":"2","text":"Demir cevherinin ocaktan çıkarılması"},
+                  {"id":"3","text":"Otomobilin yetkili satıcıda satılması"},
+                  {"id":"4","text":"Cevherin yüksek fırında çeliğe dönüştürülmesi"},
+                  {"id":"5","text":"Parçaların montaj hattında birleştirilmesi"}]
+      },
+      "answer_key": { "order": ["2","4","1","5","3"] },
+      "explanation": "Demir-çelik ağır sanayi, otomotiv ise ona bağlı imalat sanayisidir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çimento üretiminin aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Ham maddenin öğütülerek karışımın hazırlanması"},
+                  {"id":"2","text":"Kalker ve kilin ocaktan çıkarılması"},
+                  {"id":"3","text":"Klinkerin öğütülüp çimento hâline getirilmesi"},
+                  {"id":"4","text":"Karışımın döner fırında pişirilerek klinker elde edilmesi"},
+                  {"id":"5","text":"Çimentonun torbalanarak satışa sunulması"}]
+      },
+      "answer_key": { "order": ["2","1","4","3","5"] },
+      "explanation": "Kalker ve kil hemen her bölgede bulunduğu için çimento fabrikaları yurt genelinde dağılmıştır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'de sanayileşme adımlarını eskiden yeniye diz.",
+        "items": [{"id":"1","text":"Birinci Beş Yıllık Sanayi Planı'nın uygulanmaya başlaması (1934)"},
+                  {"id":"2","text":"İzmir İktisat Kongresi'nin toplanması (1923)"},
+                  {"id":"3","text":"Karabük Demir-Çelik Fabrikası'nın kurulması (1937)"},
+                  {"id":"4","text":"Teşvik-i Sanayi Kanunu'nun çıkarılması (1927)"},
+                  {"id":"5","text":"Organize sanayi bölgelerinin yaygınlaşmaya başlaması (1960'lı yıllar)"}]
+      },
+      "answer_key": { "order": ["2","4","1","3","5"] },
+      "explanation": "Önce ilkeler belirlendi, sonra teşvik ve planlama geldi, ardından büyük tesisler ve organize sanayi bölgeleri kuruldu."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir sanayi tesisinin kuruluş aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Kuruluş yerinin seçilmesi"},
+                  {"id":"2","text":"Ham madde ve pazar araştırmasının yapılması"},
+                  {"id":"3","text":"Üretime başlanması"},
+                  {"id":"4","text":"Tesis binasının inşa edilmesi"},
+                  {"id":"5","text":"Makinelerin kurulup denenmesi"}]
+      },
+      "answer_key": { "order": ["2","1","4","5","3"] },
+      "explanation": "Kuruluş yeri kararı, ham madde ve pazar araştırmasının sonucuna göre verilir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Petrolün tüketiciye ulaşma sürecini ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Ham petrolün boru hattıyla rafineriye taşınması"},
+                  {"id":"2","text":"Petrolün sondaj kuyusuyla yer altından çıkarılması"},
+                  {"id":"3","text":"Benzinin akaryakıt istasyonunda satılması"},
+                  {"id":"4","text":"Rafineride damıtılarak benzin ve mazota ayrılması"}]
+      },
+      "answer_key": { "order": ["2","1","4","3"] },
+      "explanation": "Rafineriler, ham petrolün geldiği liman ve boru hattı güzergâhlarına yakın kurulur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Termik santralde elektrik üretim aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Kömürün santralde yakılarak suyun buharlaştırılması"},
+                  {"id":"2","text":"Linyitin ocaktan çıkarılması"},
+                  {"id":"3","text":"Elektriğin iletim hatlarıyla şehirlere ulaştırılması"},
+                  {"id":"4","text":"Jeneratörde elektrik üretilmesi"},
+                  {"id":"5","text":"Basınçlı buharın türbini döndürmesi"}]
+      },
+      "answer_key": { "order": ["2","1","5","4","3"] },
+      "explanation": "Linyitin ısıl değeri düşük ve taşınması pahalı olduğu için termik santraller kömür havzalarının yanına kurulur."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hidroelektrik santralde elektrik üretim aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Barajda suyun biriktirilmesi"},
+                  {"id":"2","text":"Akarsu üzerinde baraj inşa edilmesi"},
+                  {"id":"3","text":"Türbinlerin jeneratörü döndürmesi"},
+                  {"id":"4","text":"Suyun cebri borularla türbinlere verilmesi"},
+                  {"id":"5","text":"Üretilen elektriğin iletim hattına verilmesi"}]
+      },
+      "answer_key": { "order": ["2","1","4","3","5"] },
+      "explanation": "Üretilen enerji miktarı, biriken su hacmi ve düşü yüksekliğine bağlıdır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir maden yatağının işletmeye alınma aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Sondajla rezerv miktarının belirlenmesi"},
+                  {"id":"2","text":"Jeolojik arama ve etüt yapılması"},
+                  {"id":"3","text":"Cevherin zenginleştirilerek işlenmesi"},
+                  {"id":"4","text":"Ocağın açılarak işletmeye hazırlanması"},
+                  {"id":"5","text":"Cevherin ocaktan çıkarılması"}]
+      },
+      "answer_key": { "order": ["2","1","4","5","3"] },
+      "explanation": "Rezerv miktarı ve tenör bilinmeden işletmenin ekonomik olup olmadığına karar verilemez."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Jeotermal santralde enerji üretim aşamalarını ilk adımdan son adıma diz.",
+        "items": [{"id":"1","text":"Sondaj kuyusunun açılması"},
+                  {"id":"2","text":"Sıcak su kaynağının arama çalışmalarıyla belirlenmesi"},
+                  {"id":"3","text":"Buharın türbinde elektriğe dönüştürülmesi"},
+                  {"id":"4","text":"Sıcak su ve buharın yüzeye çıkarılması"},
+                  {"id":"5","text":"Soğuyan suyun yeniden yer altına basılması"}]
+      },
+      "answer_key": { "order": ["2","1","4","3","5"] },
+      "explanation": "Suyun yeniden basılması, rezervuar basıncının korunmasını sağlar; bu yüzden kaynak yenilenebilir sayılır."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{"id":"1","text":"gelişmişlik"}, {"id":"2","text":"Bir"},
+                  {"id":"3","text":"ülkenin"}, {"id":"4","text":"göstergesidir"},
+                  {"id":"5","text":"hizmet"}, {"id":"6","text":"sektörünün"},
+                  {"id":"7","text":"büyüklüğü"}]
+      },
+      "answer_key": { "order": ["2","3","5","6","7","1","4"] },
+      "explanation": "Doğru diziliş: \"Bir ülkenin hizmet sektörünün büyüklüğü gelişmişlik göstergesidir.\" Gelişmiş ekonomilerde üçüncül sektörün payı artar."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{"id":"1","text":"yayılmasını"}, {"id":"2","text":"Kış"},
+                  {"id":"3","text":"sıcaklıklarının"}, {"id":"4","text":"düşüklüğü"},
+                  {"id":"5","text":"zeytin"}, {"id":"6","text":"tarımının"},
+                  {"id":"7","text":"sınırlar"}]
+      },
+      "answer_key": { "order": ["2","3","4","5","6","1","7"] },
+      "explanation": "Doğru diziliş: \"Kış sıcaklıklarının düşüklüğü zeytin tarımının yayılmasını sınırlar.\" Zeytin, kışı ılık geçen Akdeniz iklimi alanlarında yetişir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{"id":"1","text":"kurulur"}, {"id":"2","text":"Çabuk"},
+                  {"id":"3","text":"bozulan"}, {"id":"4","text":"ham"},
+                  {"id":"5","text":"madde"}, {"id":"6","text":"kullanan"},
+                  {"id":"7","text":"fabrikalar"}, {"id":"8","text":"üretim alanına yakın"}]
+      },
+      "answer_key": { "order": ["2","3","4","5","6","7","8","1"] },
+      "explanation": "Doğru diziliş: \"Çabuk bozulan ham madde kullanan fabrikalar üretim alanına yakın kurulur.\" Konserve, meyve suyu ve şeker fabrikaları buna örnektir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{"id":"1","text":"artırır"}, {"id":"2","text":"Yenilenebilir"},
+                  {"id":"3","text":"kaynakların"}, {"id":"4","text":"payının"},
+                  {"id":"5","text":"yükselmesi"}, {"id":"6","text":"enerjide"},
+                  {"id":"7","text":"dışa bağımlılığı"}, {"id":"8","text":"azaltır ve arz güvenliğini"}]
+      },
+      "answer_key": { "order": ["2","3","4","5","6","7","8","1"] },
+      "explanation": "Doğru diziliş: \"Yenilenebilir kaynakların payının yükselmesi enerjide dışa bağımlılığı azaltır ve arz güvenliğini artırır.\""
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{"id":"1","text":"kurulur"}, {"id":"2","text":"Linyitin"},
+                  {"id":"3","text":"ısıl değerinin"}, {"id":"4","text":"düşük olması"},
+                  {"id":"5","text":"nedeniyle"}, {"id":"6","text":"termik santraller"},
+                  {"id":"7","text":"ocak başında"}]
+      },
+      "answer_key": { "order": ["2","3","4","5","6","7","1"] },
+      "explanation": "Doğru diziliş: \"Linyitin ısıl değerinin düşük olması nedeniyle termik santraller ocak başında kurulur.\" Uzun mesafeye taşınması ekonomik değildir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{"id":"1","text":"azaltır"}, {"id":"2","text":"Sulama"},
+                  {"id":"3","text":"olanaklarının"}, {"id":"4","text":"gelişmesi"},
+                  {"id":"5","text":"tarımsal verimin"}, {"id":"6","text":"yıllara göre"},
+                  {"id":"7","text":"dalgalanmasını"}]
+      },
+      "answer_key": { "order": ["2","3","4","5","6","7","1"] },
+      "explanation": "Doğru diziliş: \"Sulama olanaklarının gelişmesi tarımsal verimin yıllara göre dalgalanmasını azaltır.\" Yağışa bağımlılık azaldıkça verim kararlı hâle gelir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'de taş kömürünün çıkarıldığı havzanın bulunduğu ili seç.",
+        "image": "maps/turkiye-madenler.png",
+        "hotspots": [{"id":"1","text":"Zonguldak"}, {"id":"2","text":"Kütahya"},
+                     {"id":"3","text":"Manisa"}, {"id":"4","text":"Afşin-Elbistan"}]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Türkiye'de taş kömürü yalnızca Zonguldak havzasından çıkarılır. Kütahya (Tunçbilek), Manisa (Soma) ve Afşin-Elbistan linyit sahalarıdır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'nin taş kömürüne dayalı ilk demir-çelik fabrikasının kurulduğu ili seç.",
+        "image": "maps/turkiye-sanayi.png",
+        "hotspots": [{"id":"1","text":"İskenderun"}, {"id":"2","text":"Karabük"},
+                     {"id":"3","text":"Kırıkkale"}, {"id":"4","text":"Seydişehir"}]
+      },
+      "answer_key": { "hotspot_id": "2" },
+      "explanation": "1937'de kurulan Karabük, Zonguldak taş kömürüne yakınlığı nedeniyle seçilmiştir. Seydişehir alüminyum, Kırıkkale ise farklı sanayi kollarıyla öne çıkar."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'de çay tarımının yoğunlaştığı yöreyi seç.",
+        "image": "maps/turkiye-tarim.png",
+        "hotspots": [{"id":"1","text":"Rize-Trabzon kıyıları"}, {"id":"2","text":"Konya Ovası"},
+                     {"id":"3","text":"Gediz Ovası"}, {"id":"4","text":"Iğdır Ovası"}]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Çay, her mevsim yağışlı ve ılıman Doğu Karadeniz kıyılarında yetişir; Rize-Trabzon yöresi üretimin merkezidir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Türkiye'de ham petrol üretiminin en fazla olduğu yöreyi seç.",
+        "image": "maps/turkiye-enerji.png",
+        "hotspots": [{"id":"1","text":"Batman-Diyarbakır"}, {"id":"2","text":"Denizli-Aydın"},
+                     {"id":"3","text":"Balıkesir-Çanakkale"}, {"id":"4","text":"Eskişehir-Bilecik"}]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Ham petrol üretimi Güneydoğu Anadolu'da, özellikle Batman ve Diyarbakır çevresinde toplanır. Denizli-Aydın jeotermal, Balıkesir-Çanakkale rüzgâr potansiyeliyle öne çıkar."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her faaliyeti ait olduğu ekonomik sektörle etiketle.",
+        "image": "diagrams/ekonomik-sektorler.png",
+        "slots": [{"id":"1","text":"Mermer ocağından blok taş çıkarılması"},
+                  {"id":"2","text":"Pamuğun iplik hâline getirilmesi"},
+                  {"id":"3","text":"Ürünün limandan gemiyle sevk edilmesi"},
+                  {"id":"4","text":"Tarım ilaçları üzerine yapılan laboratuvar araştırması"}],
+        "labels": ["Birincil sektör", "İkincil sektör", "Üçüncül sektör", "Dördüncül sektör", "Kamu sektörü"]
+      },
+      "answer_key": {
+        "labels": {"1": "Birincil sektör", "2": "İkincil sektör", "3": "Üçüncül sektör", "4": "Dördüncül sektör"}
+      },
+      "explanation": "Birincil doğadan ham madde alır, ikincil işler, üçüncül hizmet sunar, dördüncül bilgi ve araştırma üretir. \"Kamu sektörü\" bu sınıflandırmanın bir basamağı değildir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her santral türünü kullandığı enerji kaynağıyla etiketle.",
+        "image": "diagrams/enerji-kaynaklari.png",
+        "slots": [{"id":"1","text":"Hidroelektrik santral"},
+                  {"id":"2","text":"Jeotermal santral"},
+                  {"id":"3","text":"Termik santral"},
+                  {"id":"4","text":"Rüzgâr santrali"}],
+        "labels": ["Akarsuyun düşü gücü", "Yer altı ısısı", "Linyit ve taş kömürü", "Hava akımı", "Gelgit hareketi"]
+      },
+      "answer_key": {
+        "labels": {"1": "Akarsuyun düşü gücü", "2": "Yer altı ısısı", "3": "Linyit ve taş kömürü", "4": "Hava akımı"}
+      },
+      "explanation": "Türkiye'de gelgit genliği çok küçük olduğu için gelgit enerjisinden yararlanılmaz; bu yüzden eşleşmeyen etiket odur."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her iklim isteğini o koşulu arayan tarım ürünüyle etiketle.",
+        "image": "diagrams/urun-iklim-istegi.png",
+        "slots": [{"id":"1","text":"Her mevsim yağışlı, ılıman ve asitli toprak ister"},
+                  {"id":"2","text":"Olgunlaşma döneminde bol su, hasatta kuraklık ister"},
+                  {"id":"3","text":"Kışları ılık geçen kıyı kuşağında yetişir, don zararı görür"},
+                  {"id":"4","text":"Yetişme döneminde su içinde kalacak kadar bol su ister"}],
+        "labels": ["Çay", "Pamuk", "Zeytin", "Çeltik", "Buğday"]
+      },
+      "answer_key": {
+        "labels": {"1": "Çay", "2": "Pamuk", "3": "Zeytin", "4": "Çeltik"}
+      },
+      "explanation": "Buğday, kışı yağışlı yazı kurak geçen geniş bir alanda yetişebildiği için bu dört özel isteğin hiçbirine karşılık gelmez."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her sanayi kolunu kuruluş yerini belirleyen temel etkenle etiketle.",
+        "image": "diagrams/sanayi-kurulus-yeri.png",
+        "slots": [{"id":"1","text":"Şeker fabrikası"},
+                  {"id":"2","text":"Gemi inşa tesisi"},
+                  {"id":"3","text":"Alüminyum tesisi"},
+                  {"id":"4","text":"Kâğıt fabrikası"}],
+        "labels": ["Çabuk bozulan ham maddeye yakınlık", "Deniz kıyısında olma zorunluluğu", "Yüksek elektrik tüketimi", "Orman ürünlerine yakınlık", "Nitelikli iş gücü"]
+      },
+      "answer_key": {
+        "labels": {"1": "Çabuk bozulan ham maddeye yakınlık", "2": "Deniz kıyısında olma zorunluluğu", "3": "Yüksek elektrik tüketimi", "4": "Orman ürünlerine yakınlık"}
+      },
+      "explanation": "Şeker pancarı taşınırken şeker oranını yitirir; tersaneler kıyı ister; alüminyum üretimi çok elektrik tüketir; kâğıt ham maddesi ormandır."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Bir ülkenin dış satımında işlenmiş ürünlerin payının artması, sanayileşme düzeyinin yükseldiğinin göstergesidir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Ham madde ihracatından işlenmiş ürün ihracatına geçiş, katma değer üreten sanayinin geliştiğini gösterir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Türkiye'de tarım alanlarının genişletilmesi, tarımsal üretimi artırmanın en sürdürülebilir yoludur." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Ekilebilir alanlar sınırına ulaşmıştır; üretim artışı ancak sulama, gübreleme ve nitelikli tohum gibi verim artırıcı yöntemlerle sağlanabilir."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Organize sanayi bölgelerinin kurulması, sanayi tesislerinin altyapı maliyetini düşürür." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Enerji, su, arıtma ve ulaşım altyapısının ortak kullanılması işletme başına düşen maliyeti azaltır."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Bir maden yatağının tenörünün yüksek olması, işletmenin ekonomik olma olasılığını artırır." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Tenör, cevher içindeki metal oranıdır; yükseldikçe birim maden başına elde edilen ürün artar, maliyet düşer."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Hidroelektrik üretim miktarı yıllara göre değişmez, çünkü akarsu rejiminden etkilenmez." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Türkiye akarsularının rejimi düzensiz olduğu için kurak yıllarda hidroelektrik üretimi belirgin biçimde düşer."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir ülkede kalkınma ilerledikçe istihdam içindeki payı azalan sektör {{0}}, payı artan sektör ise {{1}} sektördür.",
+        "choices": ["birincil", "ikincil", "üçüncül", "dördüncül", "kamusal", "doğal"]
+      },
+      "answer_key": { "blanks": ["birincil", "üçüncül"] },
+      "explanation": "Kalkınmayla birlikte tarımdaki istihdam payı geriler, hizmet sektörünün payı yükselir."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de birim alandan alınan verimi artıran {{0}} tarımı, geniş alana yayılan ve yağışa bağlı {{1}} tarımına göre daha az alanda daha çok üretim sağlar.",
+        "choices": ["entansif", "ekstansif", "nadas", "kuru", "organik", "göçer"]
+      },
+      "answer_key": { "blanks": ["entansif", "ekstansif"] },
+      "explanation": "Entansif (yoğun) tarımda sulama, gübre ve makine kullanımı yüksektir; ekstansif tarımda üretim büyük ölçüde doğal koşullara bağlıdır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Üretimde kullandığı ham maddenin ağırlığını büyük oranda yitiren sanayi kolları {{0}} alanına yakın kurulurken, ürünü taşımak ham maddesini taşımaktan pahalı olan kollar {{1}} yakın kurulur.",
+        "choices": ["ham madde", "pazara", "limana", "enerji", "sınıra", "ormana"]
+      },
+      "answer_key": { "blanks": ["ham madde", "pazara"] },
+      "explanation": "Ağırlık kaybeden ham maddede taşıma maliyetinden kaçınmak için ocak başı seçilir; hacimli veya bozulabilir üründe ise pazara yakınlık belirleyicidir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir maden yatağında çıkarılabilir cevher miktarını belirten kavram {{0}}, cevherin içindeki metal oranını belirten kavram ise {{1}}dür.",
+        "choices": ["rezerv", "tenör", "cüruf", "ocak", "havza", "pik"]
+      },
+      "answer_key": { "blanks": ["rezerv", "tenör"] },
+      "explanation": "İşletme kararı rezerv ve tenörün birlikte değerlendirilmesiyle verilir; biri yüksek diğeri düşükse işletme ekonomik olmayabilir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Türkiye'de kurulu gücü artıran ve üretim sırasında sera gazı salmayan {{0}} kaynaklar içinde en büyük payı {{1}} santraller oluşturur.",
+        "choices": ["yenilenebilir", "tükenebilir", "hidroelektrik", "nükleer", "termik", "fosil"]
+      },
+      "answer_key": { "blanks": ["yenilenebilir", "hidroelektrik"] },
+      "explanation": "Türkiye'nin yenilenebilir kurulu gücünün en büyük bileşeni hidroelektriktir; rüzgâr ve güneş son yıllarda hızla büyümektedir."
+    },
+    {
+      "topic": "turkiyede_madenler_ve_enerji",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her maden sahasını bulunduğu ille birleştir.",
+        "left":  [{"id":"1","text":"Soma linyit sahası"}, {"id":"2","text":"Tunçbilek linyit sahası"},
+                  {"id":"3","text":"Seydişehir boksit sahası"}, {"id":"4","text":"Divriği demir sahası"}],
+        "right": [{"id":"a","text":"Konya"}, {"id":"b","text":"Manisa"},
+                  {"id":"c","text":"Sivas"}, {"id":"d","text":"Kütahya"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"d","3":"a","4":"c"}, "partial_credit": true },
+      "explanation": "Soma Manisa'da, Tunçbilek Kütahya'da, Seydişehir Konya'da, Divriği ise Sivas'tadır."
+    },
+    {
+      "topic": "turkiyede_sanayi",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her sanayi tesisini kurulduğu ille birleştir.",
+        "left":  [{"id":"1","text":"Alüminyum tesisi"}, {"id":"2","text":"Petrol rafinerisi (Batı Akdeniz)"},
+                  {"id":"3","text":"Demir-çelik fabrikası (Doğu Akdeniz)"}, {"id":"4","text":"İlk kâğıt fabrikası"}],
+        "right": [{"id":"a","text":"İzmit"}, {"id":"b","text":"Seydişehir"},
+                  {"id":"c","text":"İskenderun"}, {"id":"d","text":"Mersin"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"d","3":"c","4":"a"}, "partial_credit": true },
+      "explanation": "Alüminyum Seydişehir'de, Akdeniz rafinerisi Mersin'de (Ataş), demir-çelik İskenderun'da, ilk kâğıt fabrikası ise 1936'da İzmit'te kurulmuştur."
+    },
+    {
+      "topic": "turkiyede_tarim_ve_hayvancilik",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her tarım ürününü üretiminin yoğunlaştığı yöreyle birleştir.",
+        "left":  [{"id":"1","text":"Çeltik"}, {"id":"2","text":"Antep fıstığı"},
+                  {"id":"3","text":"Kuru üzüm"}, {"id":"4","text":"Şeker pancarı"}],
+        "right": [{"id":"a","text":"Gaziantep-Şanlıurfa çevresi"}, {"id":"b","text":"Konya ve çevresi"},
+                  {"id":"c","text":"Manisa-Alaşehir yöresi"}, {"id":"d","text":"Edirne-Meriç Ovası"}]
+      },
+      "answer_key": { "pairs": {"1":"d","2":"a","3":"c","4":"b"}, "partial_credit": true },
+      "explanation": "Çeltik bol su isteyen Meriç Ovası'nda, Antep fıstığı Güneydoğu'da, çekirdeksiz üzüm Manisa yöresinde, şeker pancarı ise İç Anadolu'da yoğunlaşır."
+    },
+    {
+      "topic": "ekonomik_faaliyetler",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her ekonomik göstergeyi işaret ettiği durumla birleştir.",
+        "left":  [{"id":"1","text":"Tarımda çalışan nüfus oranının yüksekliği"},
+                  {"id":"2","text":"Dış satımda işlenmiş ürün payının yüksekliği"},
+                  {"id":"3","text":"Enerji ithalatının toplam ithalat içindeki payının yüksekliği"},
+                  {"id":"4","text":"Kişi başı millî gelirin yüksekliği"}],
+        "right": [{"id":"a","text":"Sanayinin katma değer üretme gücü"},
+                  {"id":"b","text":"Sanayileşmenin yeterince gelişmemiş olması"},
+                  {"id":"c","text":"Genel refah düzeyinin yüksekliği"},
+                  {"id":"d","text":"Birincil enerji kaynaklarında dışa bağımlılık"}]
+      },
+      "answer_key": { "pairs": {"1":"b","2":"a","3":"d","4":"c"}, "partial_credit": true },
+      "explanation": "Tarım istihdamının yüksekliği sanayileşme eksikliğini, işlenmiş ürün ihracatı sanayinin gücünü, enerji ithalatı dışa bağımlılığı, kişi başı gelir ise refahı yansıtır."
     }
   ]
 }

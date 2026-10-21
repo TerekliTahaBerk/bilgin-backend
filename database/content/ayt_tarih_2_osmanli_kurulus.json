@@ -707,6 +707,2931 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
       "explanation": "1071, Türkiye tarihinin başlangıcıdır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Orhan Bey döneminde Bursa fethedilerek başkent yapılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bursa 1326'da alınmış ve Orhan Bey tarafından başkent yapılmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Yeniçeri Ocağı Osman Bey döneminde kurulmuştur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Yeniçeri Ocağı I. Murat döneminde kurulmuştur; Osman Bey döneminde ordu aşiret kuvvetlerinden oluşuyordu."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Ankara Savaşı Osmanlı Devleti ile Memlük Devleti arasında yapılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Ankara Savaşı 1402'de Yıldırım Bayezid ile Timur arasında yapılmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Niğbolu Savaşı'nda Yıldırım Bayezid Haçlı ordusunu yenilgiye uğratmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 1396 Niğbolu Savaşı'nda Haçlılar bozguna uğramış, Osmanlı'nın Balkanlardaki konumu güçlenmiştir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Fetret Devri, Çelebi Mehmet'in tahta geçmesiyle sona ermiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Şehzadeler arasındaki taht mücadelesi 1413'te Çelebi Mehmet'in tek hükümdar olmasıyla bitmiştir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İlk Osmanlı medresesi Edirne'de açılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İlk Osmanlı medresesi Orhan Bey döneminde İznik'te açılmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İstanbul'un fethi Osmanlı'nın Anadolu ile Rumeli topraklarını birleştirmiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İki kıtadaki topraklar arasında kalan Bizans engeli kalkmış, toprak bütünlüğü sağlanmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Çaldıran Savaşı Yavuz Sultan Selim ile Safevi Devleti arasında yapılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 1514 Çaldıran Savaşı'nda Yavuz Sultan Selim, Şah İsmail'i yenmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Preveze Deniz Savaşı Haçlı donanmasının zaferiyle sonuçlanmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 1538 Preveze Deniz Savaşı'nı Barbaros Hayreddin Paşa kazanmış, Akdeniz'de Osmanlı üstünlüğü kesinleşmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İlk kapitülasyonlar 1535'te İngiltere'ye verilmiştir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İlk kapitülasyonlar Kanuni Sultan Süleyman döneminde Fransa'ya verilmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Mohaç Savaşı Kanuni Sultan Süleyman döneminde kazanılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 1526 Mohaç Savaşı'ndan sonra Macaristan Osmanlı egemenliğine girmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İnebahtı Deniz Savaşı Osmanlı donanmasının zaferiyle sonuçlanmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 1571 İnebahtı'nda Osmanlı donanması yakılmış, ancak kısa sürede yeni bir donanma inşa edilmiştir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Anadolu Selçuklu Devleti'nin başkenti Konya'dır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Başkent önce İznik'ti; I. Haçlı Seferi'nde İznik kaybedilince Konya başkent olmuştur."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Miryokefalon Savaşı Anadolu Selçukluları ile Moğollar arasında yapılmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 1176 Miryokefalon Savaşı Anadolu Selçukluları ile Bizans arasında yapılmıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Yassıçemen Savaşı Anadolu Selçukluları ile Harzemşahlar arasında yapılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 1230 Yassıçemen Savaşı iki Türk devletini karşı karşıya getirmiş, Harzemşahların yıkılışı Moğolların önünü açmıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Anadolu Selçuklu Devleti'ni Kutalmışoğlu Süleyman Şah kurmuştur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Devlet 1075'te Kutalmışoğlu Süleyman Şah tarafından İznik merkezli olarak kurulmuştur."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "1326'da fethedilen ve Orhan Bey tarafından devlet merkezi yapılan şehir {{0}}'dır.",
+        "choices": [
+          "Bursa",
+          "İznik",
+          "Edirne",
+          "Söğüt"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Bursa"
+        ]
+      },
+      "explanation": "Bursa, Orhan Bey döneminde alınmış ve Osmanlı'nın başkenti olmuştur."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "I. Murat döneminde fethedilen ve İstanbul'un fethine kadar başkentlik yapan şehir {{0}}'dir.",
+        "choices": [
+          "Edirne",
+          "Bursa",
+          "Selanik",
+          "Sofya"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Edirne"
+        ]
+      },
+      "explanation": "Edirne'nin alınması Osmanlı'nın ağırlık merkezini Rumeli'ye kaydırmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Osmanlı ordusunda devletten maaş alan, merkezde bulunan sürekli askerlere {{0}} askerleri denir.",
+        "choices": [
+          "Kapıkulu",
+          "Eyalet",
+          "Akıncı",
+          "Azap"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kapıkulu"
+        ]
+      },
+      "explanation": "Kapıkulu askerleri maaşlı ve daimîdir; eyalet askerleri ise toprak geliriyle beslenir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Osmanlı Devleti'nin Balkanlarda bir Haçlı ordusunu ilk kez yendiği 1364 tarihli savaş {{0}} Savaşı'dır.",
+        "choices": [
+          "Sırpsındığı",
+          "Niğbolu",
+          "Varna",
+          "Çirmen"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Sırpsındığı"
+        ]
+      },
+      "explanation": "I. Murat döneminde kazanılan Sırpsındığı, Osmanlı'nın ilk Haçlı zaferidir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Osman Bey'in Bizans'a karşı kazandığı ilk önemli zafer {{0}} Savaşı, Orhan Bey'in Bizans'ı yendiği savaş ise {{1}} Savaşı'dır.",
+        "choices": [
+          "Koyunhisar",
+          "Maltepe",
+          "Sırpsındığı",
+          "Çirmen",
+          "Niğbolu",
+          "Varna"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Koyunhisar",
+          "Maltepe"
+        ]
+      },
+      "explanation": "Koyunhisar (1302) Osman Bey, Maltepe/Palekanon (1329) ise Orhan Bey dönemindedir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "1448 II. Kosova Savaşı {{0}} döneminde kazanılmış ve Balkanlarda Osmanlı hâkimiyeti kesinleşmiştir.",
+        "choices": [
+          "II. Murat",
+          "I. Murat",
+          "Çelebi Mehmet",
+          "Fatih Sultan Mehmet"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "II. Murat"
+        ]
+      },
+      "explanation": "II. Kosova'dan sonra Avrupa, Osmanlı'yı Balkanlardan atma umudunu yitirmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "İstanbul kuşatmasında Osmanlı gemileri karadan yürütülerek {{0}}'e indirilmiştir.",
+        "choices": [
+          "Haliç",
+          "Boğaziçi",
+          "Marmara Denizi",
+          "Karadeniz"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Haliç"
+        ]
+      },
+      "explanation": "Haliç'in girişi zincirle kapatıldığı için gemiler karadan taşınmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Kanuni Sultan Süleyman döneminde 1522'de fethedilen ve Doğu Akdeniz'de Osmanlı hâkimiyetini güçlendiren ada {{0}}'tur.",
+        "choices": [
+          "Rodos",
+          "Kıbrıs",
+          "Girit",
+          "Malta"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Rodos"
+        ]
+      },
+      "explanation": "Rodos'un alınmasıyla Mısır ve Suriye deniz yolunun güvenliği sağlanmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Şehzadelerin yönetim deneyimi kazanması için sancaklara gönderilmesi uygulamasına {{0}} denir.",
+        "choices": [
+          "sancağa çıkma",
+          "devşirme",
+          "müsadere",
+          "kafes usulü"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "sancağa çıkma"
+        ]
+      },
+      "explanation": "Sancağa çıkma uygulaması, tahta geçecek şehzadeyi yönetim tecrübesiyle hazırlıyordu."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Fatih Sultan Mehmet döneminde devletin yönetim, maliye ve hukuk kurallarının bir araya getirildiği kanunname {{0}}'dir.",
+        "choices": [
+          "Kanunname-i Ali Osman",
+          "Mecelle",
+          "Tanzimat Fermanı",
+          "Kanun-i Esasi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kanunname-i Ali Osman"
+        ]
+      },
+      "explanation": "Fatih'in kanunnamesi merkezî otoriteyi güçlendiren ilk kapsamlı Osmanlı kanun derlemesidir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Yavuz Sultan Selim'in 1516'da Memlüklere karşı kazandığı ve Suriye'nin Osmanlı'ya katılmasını sağlayan savaş {{0}} Savaşı'dır.",
+        "choices": [
+          "Mercidabık",
+          "Ridaniye",
+          "Çaldıran",
+          "Otlukbeli"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Mercidabık"
+        ]
+      },
+      "explanation": "Mercidabık (1516) Suriye'yi, Ridaniye (1517) ise Mısır'ı Osmanlı topraklarına katmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Osmanlı'da fethedilen bölgelerin nüfus ve vergi gelirlerinin deftere kaydedilmesi işlemine {{0}} denir.",
+        "choices": [
+          "tahrir",
+          "iltizam",
+          "müsadere",
+          "devşirme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tahrir"
+        ]
+      },
+      "explanation": "Tahrir defterleri sayesinde tımar gelirleri ve vergi yükümlüleri tespit edilirdi."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "I. Haçlı Seferi'nde İznik'i kaybeden Anadolu Selçukluları başkentlerini {{0}}'ya taşımıştır.",
+        "choices": [
+          "Konya",
+          "Kayseri",
+          "Sivas",
+          "Ankara"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Konya"
+        ]
+      },
+      "explanation": "Konya, devletin yıkılışına kadar Anadolu Selçuklularının başkenti olarak kalmıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Anadolu Selçuklularının Karadeniz ticaretine açılmak amacıyla 1214'te fethettiği liman kenti {{0}}'tur.",
+        "choices": [
+          "Sinop",
+          "Antalya",
+          "Alanya",
+          "Samsun"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Sinop"
+        ]
+      },
+      "explanation": "Sinop Karadeniz'de, Antalya ve Alanya ise Akdeniz'de alınan limanlardır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Anadolu'da kurulan ilk Türk beyliklerinden olan ve Sivas çevresinde hüküm süren beylik {{0}}'dir.",
+        "choices": [
+          "Danişmentliler",
+          "Mengücekliler",
+          "Saltuklular",
+          "Artuklular"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Danişmentliler"
+        ]
+      },
+      "explanation": "Mengücekliler Erzincan, Saltuklular Erzurum, Artuklular ise Diyarbakır çevresinde kurulmuştur."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Anadolu Selçuklularında yolda soyulan tüccarların zararının devlet hazinesinden karşılanması, bir tür {{0}} uygulamasıdır.",
+        "choices": [
+          "sigorta",
+          "vakıf",
+          "ahilik",
+          "lonca"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "sigorta"
+        ]
+      },
+      "explanation": "Bu uygulama ticaret yollarının güvenliğini ve tüccarın Anadolu'ya gelmesini teşvik etmiştir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kuruluş dönemi savaşlarını yıllarıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Niğbolu Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Koyunhisar Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "I. Kosova Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Sırpsındığı Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "1302"
+          },
+          {
+            "id": "b",
+            "text": "1364"
+          },
+          {
+            "id": "c",
+            "text": "1389"
+          },
+          {
+            "id": "d",
+            "text": "1396"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "d",
+          "2": "a",
+          "3": "c",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Koyunhisar (1302) Osman Bey, Sırpsındığı (1364) ve I. Kosova (1389) I. Murat, Niğbolu (1396) Yıldırım Bayezid dönemindedir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Padişahı dönemindeki kurumsal gelişmeyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Osman Bey"
+          },
+          {
+            "id": "2",
+            "text": "Orhan Bey"
+          },
+          {
+            "id": "3",
+            "text": "I. Murat"
+          },
+          {
+            "id": "4",
+            "text": "Fatih Sultan Mehmet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İlk Osmanlı parasının bastırılması"
+          },
+          {
+            "id": "b",
+            "text": "İlk Osmanlı medresesinin açılması"
+          },
+          {
+            "id": "c",
+            "text": "Yeniçeri Ocağı'nın kurulması"
+          },
+          {
+            "id": "d",
+            "text": "Kanunname-i Ali Osman'ın hazırlanması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her padişah devletleşme sürecinin bir basamağını tamamlamıştır: para, eğitim, daimî ordu ve yazılı hukuk."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kuruluş dönemi kavramını tanımıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Uç beyliği"
+          },
+          {
+            "id": "2",
+            "text": "İstimalet"
+          },
+          {
+            "id": "3",
+            "text": "İskân politikası"
+          },
+          {
+            "id": "4",
+            "text": "Fetret Devri"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sınır bölgesinde kurulan, akınlarla genişleyen beylik"
+          },
+          {
+            "id": "b",
+            "text": "Yerel halka hoşgörüyle yaklaşarak gönlünü kazanma siyaseti"
+          },
+          {
+            "id": "c",
+            "text": "Fethedilen bölgelere Türkmen nüfusun yerleştirilmesi"
+          },
+          {
+            "id": "d",
+            "text": "Şehzadeler arasındaki taht mücadelesi dönemi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İlk üçü Osmanlı'nın hızlı büyümesini, dördüncüsü ise Ankara Savaşı sonrası sarsıntıyı açıklar."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yerleşim yerini Osmanlı tarihindeki rolüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Söğüt"
+          },
+          {
+            "id": "2",
+            "text": "Çimpe"
+          },
+          {
+            "id": "3",
+            "text": "Bursa"
+          },
+          {
+            "id": "4",
+            "text": "Edirne"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Beyliğin kuruluş yıllarındaki merkezi"
+          },
+          {
+            "id": "b",
+            "text": "Rumeli'ye geçişte alınan ilk üs"
+          },
+          {
+            "id": "c",
+            "text": "Orhan Bey'in başkent yaptığı Anadolu şehri"
+          },
+          {
+            "id": "d",
+            "text": "Fetihten önceki son Osmanlı başkenti"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Başkentin Söğüt'ten Edirne'ye kayması, devletin ağırlık merkezinin Balkanlara kaydığını gösterir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Padişahı döneminde gerçekleşen fetihle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Fatih Sultan Mehmet"
+          },
+          {
+            "id": "2",
+            "text": "Yavuz Sultan Selim"
+          },
+          {
+            "id": "3",
+            "text": "Kanuni Sultan Süleyman"
+          },
+          {
+            "id": "4",
+            "text": "II. Selim"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İstanbul'un fethi"
+          },
+          {
+            "id": "b",
+            "text": "Mısır'ın fethi"
+          },
+          {
+            "id": "c",
+            "text": "Rodos'un fethi"
+          },
+          {
+            "id": "d",
+            "text": "Kıbrıs'ın fethi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dört fetih, Osmanlı'nın Boğazlar, Ortadoğu ve Akdeniz hâkimiyetinin basamaklarıdır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Savaşı karşısındaki devletle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Otlukbeli Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Çaldıran Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Ridaniye Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Mohaç Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Akkoyunlular"
+          },
+          {
+            "id": "b",
+            "text": "Safeviler"
+          },
+          {
+            "id": "c",
+            "text": "Memlükler"
+          },
+          {
+            "id": "d",
+            "text": "Macaristan Krallığı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Otlukbeli 1473, Çaldıran 1514, Ridaniye 1517, Mohaç 1526 yılındadır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Divan üyesini görev alanıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Nişancı"
+          },
+          {
+            "id": "2",
+            "text": "Defterdar"
+          },
+          {
+            "id": "3",
+            "text": "Kazasker"
+          },
+          {
+            "id": "4",
+            "text": "Şeyhülislam"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Padişah ferman ve beratlarını yazan görevli"
+          },
+          {
+            "id": "b",
+            "text": "Hazine ve maliye işlerinden sorumlu görevli"
+          },
+          {
+            "id": "c",
+            "text": "Adalet ve eğitim işlerinden sorumlu görevli"
+          },
+          {
+            "id": "d",
+            "text": "Dinî konularda fetva veren en yüksek makam"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Divan-ı Hümayun'da yönetim, maliye, adalet ve din alanlarının her biri ayrı bir üyeye bağlıydı."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yükselme dönemi olayını yılıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Çaldıran Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Mohaç Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Fransa'ya kapitülasyon verilmesi"
+          },
+          {
+            "id": "4",
+            "text": "İnebahtı Deniz Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "1514"
+          },
+          {
+            "id": "b",
+            "text": "1526"
+          },
+          {
+            "id": "c",
+            "text": "1535"
+          },
+          {
+            "id": "d",
+            "text": "1571"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Yükselme döneminin doğu, Balkan, diplomasi ve denizcilik alanındaki dört dönüm noktası."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "İlk Türk beyliğini kurulduğu bölgeyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Danişmentliler"
+          },
+          {
+            "id": "2",
+            "text": "Saltuklular"
+          },
+          {
+            "id": "3",
+            "text": "Mengücekliler"
+          },
+          {
+            "id": "4",
+            "text": "Artuklular"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sivas ve çevresi"
+          },
+          {
+            "id": "b",
+            "text": "Erzurum ve çevresi"
+          },
+          {
+            "id": "c",
+            "text": "Erzincan ve çevresi"
+          },
+          {
+            "id": "d",
+            "text": "Diyarbakır ve çevresi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Malazgirt sonrası komutanlara verilen bölgelerde kurulan bu beylikler Anadolu'nun Türkleşmesini hızlandırmıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu tarihindeki savaşı yılıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Malazgirt Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Miryokefalon Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Yassıçemen Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Kösedağ Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "1071"
+          },
+          {
+            "id": "b",
+            "text": "1176"
+          },
+          {
+            "id": "c",
+            "text": "1230"
+          },
+          {
+            "id": "d",
+            "text": "1243"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Malazgirt kapıları açtı, Miryokefalon yurt yaptı, Yassıçemen Harzemşahları bitirdi, Kösedağ Moğol egemenliğini getirdi."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kuruluş dönemi savaşlarını en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "I. Kosova Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Koyunhisar Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Niğbolu Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Sırpsındığı Savaşı"
+          },
+          {
+            "id": "5",
+            "text": "Maltepe Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1302 Koyunhisar → 1329 Maltepe → 1364 Sırpsındığı → 1389 I. Kosova → 1396 Niğbolu."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fetihleri en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Çimpe Kalesi'nin alınması"
+          },
+          {
+            "id": "2",
+            "text": "Bursa'nın fethi"
+          },
+          {
+            "id": "3",
+            "text": "Edirne'nin fethi"
+          },
+          {
+            "id": "4",
+            "text": "İznik'in fethi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1326 Bursa → 1331 İznik → 1353 Çimpe → 1361 Edirne."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Padişahları tahta çıkış sırasına göre en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "II. Murat"
+          },
+          {
+            "id": "2",
+            "text": "Yıldırım Bayezid"
+          },
+          {
+            "id": "3",
+            "text": "Fatih Sultan Mehmet"
+          },
+          {
+            "id": "4",
+            "text": "Çelebi Mehmet"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Yıldırım Bayezid'in ardından Fetret Devri yaşandı; Çelebi Mehmet devleti toparladı, II. Murat güçlendirdi, Fatih İstanbul'u aldı."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayları en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Ankara Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "I. Kosova Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "II. Kosova Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Fetret Devri'nin sona ermesi"
+          },
+          {
+            "id": "5",
+            "text": "Niğbolu Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "1389 → 1396 → 1402 → 1413 → 1448. Ankara Savaşı yenilgisi Fetret Devri'ni başlatmış, II. Kosova ise toparlanmayı taçlandırmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fetihleri en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Rodos'un fethi"
+          },
+          {
+            "id": "2",
+            "text": "İstanbul'un fethi"
+          },
+          {
+            "id": "3",
+            "text": "Kıbrıs'ın fethi"
+          },
+          {
+            "id": "4",
+            "text": "Kırım'ın Osmanlı'ya bağlanması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1453 İstanbul → 1475 Kırım → 1522 Rodos → 1571 Kıbrıs."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Doğudaki savaşları en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Mercidabık Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Otlukbeli Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Ridaniye Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Çaldıran Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1473 Otlukbeli → 1514 Çaldıran → 1516 Mercidabık → 1517 Ridaniye."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kanuni Sultan Süleyman dönemi olaylarını en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Mohaç Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Belgrad'ın fethi"
+          },
+          {
+            "id": "3",
+            "text": "Fransa'ya kapitülasyon verilmesi"
+          },
+          {
+            "id": "4",
+            "text": "I. Viyana Kuşatması"
+          },
+          {
+            "id": "5",
+            "text": "Rodos'un fethi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "1521 Belgrad → 1522 Rodos → 1526 Mohaç → 1529 I. Viyana Kuşatması → 1535 kapitülasyonlar."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Padişahları tahta çıkış sırasına göre en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kanuni Sultan Süleyman"
+          },
+          {
+            "id": "2",
+            "text": "Fatih Sultan Mehmet"
+          },
+          {
+            "id": "3",
+            "text": "II. Selim"
+          },
+          {
+            "id": "4",
+            "text": "Yavuz Sultan Selim"
+          },
+          {
+            "id": "5",
+            "text": "II. Bayezid"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Fatih → II. Bayezid → Yavuz Sultan Selim → Kanuni Sultan Süleyman → II. Selim."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu tarihindeki savaşları en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kösedağ Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Miryokefalon Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Malazgirt Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Yassıçemen Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ]
+      },
+      "explanation": "1071 → 1176 → 1230 → 1243."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayları en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Anadolu Selçuklu Devleti'nin kurulması"
+          },
+          {
+            "id": "2",
+            "text": "Büyük Selçuklu Devleti'nin kurulması"
+          },
+          {
+            "id": "3",
+            "text": "Osmanlı Devleti'nin kurulması"
+          },
+          {
+            "id": "4",
+            "text": "Anadolu'nun Moğol egemenliğine girmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "1040 Büyük Selçuklu → 1075 Anadolu Selçuklu → 1243 Kösedağ sonrası Moğol egemenliği → 1299 Osmanlı."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Akdeniz'deki gelişmeleri en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Preveze Deniz Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Rodos'un fethi"
+          },
+          {
+            "id": "3",
+            "text": "İnebahtı Deniz Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Trablusgarp'ın fethi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "1522 Rodos → 1538 Preveze → 1551 Trablusgarp → 1571 İnebahtı."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "İstanbul'un fethi sürecinin aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Gemilerin karadan yürütülerek Haliç'e indirilmesi"
+          },
+          {
+            "id": "2",
+            "text": "Boğazkesen (Rumeli) Hisarı'nın yapılması"
+          },
+          {
+            "id": "3",
+            "text": "Surların aşılarak şehre girilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Ordunun şehri kuşatmaya başlaması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Önce boğaz kontrol altına alındı, sonra kuşatma başladı; Haliç'in zincirle kapatılması gemilerin karadan taşınmasıyla aşıldı ve son aşamada surlar geçildi."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Osmanlı'nın beylikten imparatorluğa geçiş aşamalarını en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Rumeli'ye geçilmesi"
+          },
+          {
+            "id": "2",
+            "text": "Söğüt çevresinde uç beyliği olarak kurulma"
+          },
+          {
+            "id": "3",
+            "text": "İstanbul'un fethedilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Bursa'nın başkent yapılması"
+          },
+          {
+            "id": "5",
+            "text": "Edirne'nin başkent yapılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "1299 kuruluş → 1326 Bursa → 1353 Rumeli'ye geçiş → 1361 Edirne → 1453 İstanbul."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kurumsal gelişmeleri gerçekleştikleri sıraya göre en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Yeniçeri Ocağı'nın kurulması"
+          },
+          {
+            "id": "2",
+            "text": "İlk Osmanlı parasının bastırılması"
+          },
+          {
+            "id": "3",
+            "text": "Kanunname-i Ali Osman'ın hazırlanması"
+          },
+          {
+            "id": "4",
+            "text": "İznik'te ilk Osmanlı medresesinin açılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Osman Bey (para) → Orhan Bey (medrese) → I. Murat (Yeniçeri Ocağı) → Fatih Sultan Mehmet (kanunname)."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Selçuklu tarihindeki savaşları en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Malazgirt Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Dandanakan Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Miryokefalon Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Pasinler Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1040 Dandanakan → 1048 Pasinler → 1071 Malazgirt → 1176 Miryokefalon."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu Selçuklu Devleti'nin gelişmelerini en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sinop'un fethi"
+          },
+          {
+            "id": "2",
+            "text": "Antalya'nın fethi"
+          },
+          {
+            "id": "3",
+            "text": "Kösedağ Savaşı'nın yapılması"
+          },
+          {
+            "id": "4",
+            "text": "Alanya'nın fethi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "1207 Antalya → 1214 Sinop → 1221 Alanya → 1243 Kösedağ. İlk üç fetih denizcilik ve ticarette atılım, Kösedağ ise çöküşün başlangıcıdır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Osmanlı'nın yönetim merkezlerini en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Edirne"
+          },
+          {
+            "id": "2",
+            "text": "İstanbul"
+          },
+          {
+            "id": "3",
+            "text": "Söğüt"
+          },
+          {
+            "id": "4",
+            "text": "Bursa"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "Merkez Söğüt'ten Bursa'ya, oradan Edirne'ye ve son olarak 1453'te İstanbul'a taşınmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yükselme dönemi olaylarını en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Mohaç Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "İstanbul'un fethi"
+          },
+          {
+            "id": "3",
+            "text": "Preveze Deniz Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Çaldıran Savaşı"
+          },
+          {
+            "id": "5",
+            "text": "Otlukbeli Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1453 → 1473 → 1514 → 1526 → 1538."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu Selçuklularıyla ilgili gelişmeleri en eskiden en yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Konya'nın başkent yapılması"
+          },
+          {
+            "id": "2",
+            "text": "İznik merkezli olarak devletin kurulması"
+          },
+          {
+            "id": "3",
+            "text": "Miryokefalon Savaşı'nın kazanılması"
+          },
+          {
+            "id": "4",
+            "text": "I. Haçlı Seferi sırasında İznik'in kaybedilmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "1075 kuruluş → 1097'de İznik'in kaybı → başkentin Konya'ya taşınması → 1176 Miryokefalon zaferi."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Karesi Beyliği topraklarının alınması, Osmanlı Devleti'nin denizcilik alanındaki ilk birikimi kazanmasını sağlamıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Orhan Bey döneminde alınan Karesi Beyliği'nin gemileri ve denizcileri Osmanlı hizmetine girmiş, bu birikim Rumeli'ye geçişte kullanılmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Fetret Devri boyunca Osmanlı Devleti'nin Anadolu beylikleri üzerindeki hâkimiyeti korunmuştur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Ankara Savaşı'ndan sonra Timur tarafından yeniden kurulan beylikler Fetret Devri'nde bağımsız hareket etmiş, Anadolu'daki Türk siyasi birliği bozulmuştur."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Kanuni Sultan Süleyman'ın 1529'daki Viyana Kuşatması şehrin fethiyle sonuçlanmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kuşatma mevsimin ilerlemesi ve ağır topların getirilememesi nedeniyle kaldırılmış, Viyana alınamamıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Fransa'ya 1535'te verilen kapitülasyonlar, verildiği dönemde Osmanlı Devleti'nin ekonomik bakımdan zayıfladığını göstermektedir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bu ayrıcalıklar güçlü bir devletin tek taraflı olarak tanıdığı ve her padişah değişiminde yenilenmesi gereken izinlerdi; zayıflık göstergesi hâline gelmeleri sonraki yüzyıllardadır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Anadolu Selçuklu Devleti'nde askerî ikta sahipleri, topraktan elde ettikleri gelirin bir bölümüyle devlet için asker beslemekle yükümlüydü."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İkta sahibi, kendisine ayrılan pay dışındaki gelirle belirli sayıda atlı asker yetiştirir ve sefer çağrısında bu kuvvetlerle orduya katılırdı."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Yeniçeri Ocağı'nın ilk asker kaynağını oluşturan ve savaş esirlerinin beşte birinin devlete ayrılmasını düzenleyen uygulama {{0}} Kanunu'dur.",
+        "choices": [
+          "Pençik",
+          "Devşirme",
+          "İltizam",
+          "Tımar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Pençik"
+        ]
+      },
+      "explanation": "I. Murat döneminde çıkarılan Pençik Kanunu ile esirlerin beşte biri devlete ayrılmış ve bu gençler Yeniçeri Ocağı'na alınmıştır. Devşirme, daha sonra devreye giren ikinci kaynaktır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "II. Murat döneminde imzalanan ve Balkanlar'da sınırların ilk kez bir antlaşmayla belirlendiği {{0}} Antlaşması kısa süre sonra bozulmuş, bunun üzerine yapılan {{1}} Savaşı Osmanlı'nın zaferiyle sonuçlanmıştır.",
+        "choices": [
+          "Edirne-Segedin",
+          "Varna",
+          "Niğbolu",
+          "Sırpsındığı",
+          "Mohaç",
+          "Gelibolu"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Edirne-Segedin",
+          "Varna"
+        ]
+      },
+      "explanation": "1444'te imzalanan Edirne-Segedin Antlaşması Haçlılar tarafından bozulmuş, aynı yıl yapılan Varna Savaşı'nı II. Murat kazanmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Fatih Sultan Mehmet döneminde {{0}}'ın alınmasıyla Karadeniz ticareti denetim altına alınmış, {{1}} Savaşı ile de Doğu Anadolu'daki Akkoyunlu tehdidi ortadan kaldırılmıştır.",
+        "choices": [
+          "Kırım",
+          "Otlukbeli",
+          "Rodos",
+          "Kıbrıs",
+          "Çaldıran",
+          "Mohaç"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kırım",
+          "Otlukbeli"
+        ]
+      },
+      "explanation": "1475'te Kırım'ın Osmanlı'ya bağlanmasıyla Karadeniz bir iç deniz hâline gelmiş, 1473 Otlukbeli Savaşı'nda Uzun Hasan yenilgiye uğratılmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Osmanlı toprak düzeninde yıllık geliri 20.000 akçeye kadar olan dirliklere {{0}}, 20.000-100.000 akçe arasında olanlara ise {{1}} denirdi.",
+        "choices": [
+          "tımar",
+          "zeamet",
+          "has",
+          "mukataa",
+          "vakıf",
+          "yurtluk"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tımar",
+          "zeamet"
+        ]
+      },
+      "explanation": "Dirlikler gelirlerine göre tımar, zeamet ve has olarak ayrılırdı; geliri 100.000 akçeyi aşan dirlikler has adıyla üst düzey yöneticilere verilirdi."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Anadolu Selçuklu merkez teşkilatında ordunun ihtiyaçlarıyla ilgilenen divan {{0}}, devletin gelir ve giderlerini yürüten divan ise {{1}}'dır.",
+        "choices": [
+          "Divan-ı Arz",
+          "Divan-ı İstifa",
+          "Divan-ı İşraf",
+          "Divan-ı Tuğra",
+          "Divan-ı Saltanat",
+          "Divan-ı Mezalim"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Divan-ı Arz",
+          "Divan-ı İstifa"
+        ]
+      },
+      "explanation": "Divan-ı Arz askerî işlerden, Divan-ı İstifa maliyeden sorumludur. Divan-ı İşraf teftiş, Divan-ı Tuğra ise yazışmalarla ilgilenirdi."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kuruluş dönemi gelişmesini doğrudan yol açtığı sonuçla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Çimpe Kalesi'nin alınması"
+          },
+          {
+            "id": "2",
+            "text": "Edirne-Segedin Antlaşması"
+          },
+          {
+            "id": "3",
+            "text": "Ankara Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "II. Kosova Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Anadolu'da Türk siyasi birliğinin bozulması"
+          },
+          {
+            "id": "b",
+            "text": "Rumeli'de ilk kalıcı Osmanlı toprağının elde edilmesi"
+          },
+          {
+            "id": "c",
+            "text": "Haçlıların Balkanlar'daki son büyük taarruzunun durdurulması"
+          },
+          {
+            "id": "d",
+            "text": "Balkan sınırlarının ilk kez bir antlaşmayla belirlenmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "1353 Çimpe Rumeli'ye yerleşmenin başlangıcıdır; 1444 Edirne-Segedin sınır belirleyen ilk antlaşmadır; 1402 Ankara yenilgisi beylikleri canlandırmıştır; 1448 II. Kosova'dan sonra Haçlılar saldırı gücünü yitirmiştir."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yükselme dönemi askerî ve siyasi gelişmesini sonucuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kıbrıs'ın fethi"
+          },
+          {
+            "id": "2",
+            "text": "İnebahtı Deniz Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Preveze Deniz Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Amasya Antlaşması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Akdeniz'de Osmanlı üstünlüğünün başlaması"
+          },
+          {
+            "id": "b",
+            "text": "Osmanlı donanmasının ağır bir yenilgi alması"
+          },
+          {
+            "id": "c",
+            "text": "Doğu Akdeniz'de Venedik hâkimiyetinin sona ermesi"
+          },
+          {
+            "id": "d",
+            "text": "İran ile ilk resmî antlaşmanın imzalanması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "b",
+          "3": "a",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "1538 Preveze Akdeniz'de üstünlüğü getirmiş, 1571'de Kıbrıs alınmış, aynı yıl İnebahtı'da donanma yakılmış, 1555 Amasya Antlaşması İran'la ilk resmî antlaşma olmuştur."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu Selçuklu dönemine ait kavramı işleviyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Divan-ı Saltanat"
+          },
+          {
+            "id": "2",
+            "text": "Atabey"
+          },
+          {
+            "id": "3",
+            "text": "İkta"
+          },
+          {
+            "id": "4",
+            "text": "Ahilik"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Şehzadelerin eğitiminden sorumlu devlet görevlisi"
+          },
+          {
+            "id": "b",
+            "text": "Devlet işlerinin görüşüldüğü en yüksek kurul"
+          },
+          {
+            "id": "c",
+            "text": "Esnaf ve zanaatkârların mesleki ve ahlaki örgütlenmesi"
+          },
+          {
+            "id": "d",
+            "text": "Hizmet karşılığında gelirinin tahsis edildiği topraklar"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Divan-ı Saltanat büyük divandır; atabeyler şehzadeleri yetiştirir; ikta toprak gelirinin hizmet karşılığı verilmesidir; ahilik şehirlerdeki esnaf teşkilatıdır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Kalesi'dir"
+          },
+          {
+            "id": "2",
+            "text": "Osmanlı"
+          },
+          {
+            "id": "3",
+            "text": "toprağı"
+          },
+          {
+            "id": "4",
+            "text": "Çimpe"
+          },
+          {
+            "id": "5",
+            "text": "Devleti'nin"
+          },
+          {
+            "id": "6",
+            "text": "Rumeli'deki"
+          },
+          {
+            "id": "7",
+            "text": "ilk"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "6",
+          "7",
+          "3",
+          "4",
+          "1"
+        ]
+      },
+      "explanation": "Osmanlı Devleti'nin Rumeli'deki ilk toprağı Çimpe Kalesi'dir. Kale 1353'te Orhan Bey döneminde alınmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "siyasi"
+          },
+          {
+            "id": "2",
+            "text": "Ankara"
+          },
+          {
+            "id": "3",
+            "text": "bozulmuştur"
+          },
+          {
+            "id": "4",
+            "text": "Savaşı'nın"
+          },
+          {
+            "id": "5",
+            "text": "Anadolu'daki"
+          },
+          {
+            "id": "6",
+            "text": "ardından"
+          },
+          {
+            "id": "7",
+            "text": "Türk"
+          },
+          {
+            "id": "8",
+            "text": "birliği"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "6",
+          "5",
+          "7",
+          "1",
+          "8",
+          "3"
+        ]
+      },
+      "explanation": "Ankara Savaşı'nın ardından Anadolu'daki Türk siyasi birliği bozulmuştur. Timur, 1402'den sonra beylikleri yeniden kurdurmuştur."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "dönemini"
+          },
+          {
+            "id": "2",
+            "text": "fethi"
+          },
+          {
+            "id": "3",
+            "text": "İstanbul'un"
+          },
+          {
+            "id": "4",
+            "text": "başlatmıştır"
+          },
+          {
+            "id": "5",
+            "text": "Devleti'nin"
+          },
+          {
+            "id": "6",
+            "text": "Osmanlı"
+          },
+          {
+            "id": "7",
+            "text": "yükselme"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "6",
+          "5",
+          "7",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "İstanbul'un fethi Osmanlı Devleti'nin yükselme dönemini başlatmıştır. 1453-1579 arası yükselme dönemi olarak adlandırılır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "toprakları"
+          },
+          {
+            "id": "2",
+            "text": "Kanuni"
+          },
+          {
+            "id": "3",
+            "text": "ulaşmıştır"
+          },
+          {
+            "id": "4",
+            "text": "geniş"
+          },
+          {
+            "id": "5",
+            "text": "döneminde"
+          },
+          {
+            "id": "6",
+            "text": "Osmanlı"
+          },
+          {
+            "id": "7",
+            "text": "en"
+          },
+          {
+            "id": "8",
+            "text": "sınırlarına"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "6",
+          "1",
+          "7",
+          "4",
+          "8",
+          "3"
+        ]
+      },
+      "explanation": "Kanuni döneminde Osmanlı toprakları en geniş sınırlarına ulaşmıştır. 46 yıllık saltanatında üç kıtada seferler düzenlenmiştir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Türk"
+          },
+          {
+            "id": "2",
+            "text": "Miryokefalon"
+          },
+          {
+            "id": "3",
+            "text": "kesinleşmiştir"
+          },
+          {
+            "id": "4",
+            "text": "yurdu"
+          },
+          {
+            "id": "5",
+            "text": "Savaşı'yla"
+          },
+          {
+            "id": "6",
+            "text": "olduğu"
+          },
+          {
+            "id": "7",
+            "text": "Anadolu'nun"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "7",
+          "1",
+          "4",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Miryokefalon Savaşı'yla Anadolu'nun Türk yurdu olduğu kesinleşmiştir. 1176'daki zafer Bizans'ın geri alma umudunu bitirmiştir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "yıkılış"
+          },
+          {
+            "id": "2",
+            "text": "Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "hızlandırmıştır"
+          },
+          {
+            "id": "4",
+            "text": "Yassıçemen"
+          },
+          {
+            "id": "5",
+            "text": "Harzemşahların"
+          },
+          {
+            "id": "6",
+            "text": "sürecini"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "5",
+          "1",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Yassıçemen Savaşı Harzemşahların yıkılış sürecini hızlandırmıştır. 1230'daki yenilgi, Moğollar ile Anadolu arasındaki tampon devleti ortadan kaldırmıştır."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "I. Murat'ın şehit düştüğü 1389 tarihli Balkan savaşının yapıldığı yeri seç.",
+        "image": "maps/osmanli-balkan-fetihleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Kosova"
+          },
+          {
+            "id": "2",
+            "text": "Niğbolu"
+          },
+          {
+            "id": "3",
+            "text": "Sırpsındığı"
+          },
+          {
+            "id": "4",
+            "text": "Varna"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "1389 I. Kosova Savaşı'nda Balkan haçlı ittifakı yenilmiş, savaş alanında I. Murat şehit düşmüştür."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "II. Murat'ın 1444'te Haçlı ordusunu yenilgiye uğrattığı, Karadeniz kıyısındaki savaş yerini seç.",
+        "image": "maps/osmanli-balkan-fetihleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Sofya"
+          },
+          {
+            "id": "2",
+            "text": "Varna"
+          },
+          {
+            "id": "3",
+            "text": "Edirne"
+          },
+          {
+            "id": "4",
+            "text": "Niğbolu"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Edirne-Segedin Antlaşması'nın bozulması üzerine 1444'te Karadeniz kıyısındaki Varna'da yapılan savaş Osmanlı'nın zaferiyle sonuçlanmıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yavuz Sultan Selim'in Safevi ordusunu yendiği savaşın yapıldığı yeri seç.",
+        "image": "maps/osmanli-dogu-seferleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Mercidabık"
+          },
+          {
+            "id": "2",
+            "text": "Ridaniye"
+          },
+          {
+            "id": "3",
+            "text": "Çaldıran"
+          },
+          {
+            "id": "4",
+            "text": "Otlukbeli"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "1514 Çaldıran Savaşı'nda Şah İsmail yenilmiş, Doğu Anadolu'nun Osmanlı'ya katılmasının yolu açılmıştır."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu Selçuklu ordusunun 1243'te Moğollara yenildiği savaşın yapıldığı yeri seç.",
+        "image": "maps/anadolu-selcuklu.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Malazgirt"
+          },
+          {
+            "id": "2",
+            "text": "Yassıçemen"
+          },
+          {
+            "id": "3",
+            "text": "Kösedağ"
+          },
+          {
+            "id": "4",
+            "text": "Miryokefalon"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "1243 Kösedağ Savaşı'nda Anadolu Selçukluları Moğollara yenilmiş, devlet Moğol egemenliğine girmiş ve dağılma süreci başlamıştır."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her mirî arazi tanımını doğru toprak türüyle etiketle.",
+        "image": "diagrams/osmanli-toprak-sistemi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Geliri, hizmeti karşılığında devlet görevlilerine maaş olarak ayrılan topraklar"
+          },
+          {
+            "id": "2",
+            "text": "Geliri cami, medrese ve imaret gibi hayır kurumlarının giderlerine ayrılan topraklar"
+          },
+          {
+            "id": "3",
+            "text": "Geliri iltizam yoluyla kiraya verilerek doğrudan devlet hazinesine aktarılan topraklar"
+          }
+        ],
+        "labels": [
+          "Dirlik",
+          "Vakıf",
+          "Mukataa",
+          "Yurtluk"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Dirlik",
+          "2": "Vakıf",
+          "3": "Mukataa"
+        }
+      },
+      "explanation": "Dirlik arazinin geliri hizmet karşılığı görevlilere, vakıf arazinin geliri hayır kurumlarına ayrılırdı. Mukataa arazinin geliri ise iltizamla kiralanarak doğrudan hazineye girerdi. Yurtluk, sınır boylarındaki askerî görevlilere bırakılan arazi türüdür."
+    },
+    {
+      "topic": "dunya_gucu_osmanli_devleti",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her vergi tanımını doğru vergi adıyla etiketle.",
+        "image": "diagrams/osmanli-vergi-sistemi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Müslüman çiftçilerden toprak ürününün bir kısmı olarak alınan vergi"
+          },
+          {
+            "id": "2",
+            "text": "Gayrimüslim çiftçilerden işledikleri toprağın ürünü üzerinden alınan vergi"
+          },
+          {
+            "id": "3",
+            "text": "Askerlik yapmayan gayrimüslim erkeklerden alınan baş vergisi"
+          }
+        ],
+        "labels": [
+          "Öşür",
+          "Haraç",
+          "Cizye",
+          "Avarız"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Öşür",
+          "2": "Haraç",
+          "3": "Cizye"
+        }
+      },
+      "explanation": "Öşür Müslüman, haraç ise gayrimüslim çiftçilerden alınan toprak ürünü vergisidir. Cizye askerlik yapmayan gayrimüslim erkeklerden kişi başına alınırdı. Avarız, savaş gibi olağanüstü durumlarda toplanan vergidir."
+    },
+    {
+      "topic": "beylikten_devlete_osmanli",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her askerî yapı tanımını doğru ocak ya da birlik adıyla etiketle.",
+        "image": "diagrams/osmanli-kurulus-ordu.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Orhan Bey döneminde Türklerden ücretli olarak oluşturulan ilk düzenli ordu"
+          },
+          {
+            "id": "2",
+            "text": "Devşirilen çocukların askerî eğitimden geçirildiği hazırlık ocağı"
+          },
+          {
+            "id": "3",
+            "text": "Başkentte görev yapan, üç ayda bir ulufe alan daimî kapıkulu piyadesi"
+          }
+        ],
+        "labels": [
+          "Yaya ve Müsellem",
+          "Acemi Ocağı",
+          "Yeniçeri Ocağı",
+          "Cebeci Ocağı"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Yaya ve Müsellem",
+          "2": "Acemi Ocağı",
+          "3": "Yeniçeri Ocağı"
+        }
+      },
+      "explanation": "Orhan Bey, ücretli yaya ve müsellem birlikleriyle ilk düzenli orduyu kurdu. Devşirilen çocuklar önce Acemi Ocağı'nda eğitilir, buradan Yeniçeri Ocağı'na alınırdı. Cebeci Ocağı ise ordunun silahlarının bakımından sorumlu kapıkulu birliğidir."
+    },
+    {
+      "topic": "turkiye_tarihi_ve_anadolu_selcuklu",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her görev alanını doğru Selçuklu divanıyla etiketle.",
+        "image": "diagrams/selcuklu-divanlari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Devletin maliye ve hazine işlerini yürüten divan"
+          },
+          {
+            "id": "2",
+            "text": "Resmî yazışmaları hazırlayan ve belgelere mührü basan divan"
+          },
+          {
+            "id": "3",
+            "text": "Devlet görevlilerini ve kurumlarını denetleyen divan"
+          }
+        ],
+        "labels": [
+          "Divan-ı İstifa",
+          "Divan-ı Tuğra",
+          "Divan-ı İşraf",
+          "Divan-ı Arz"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Divan-ı İstifa",
+          "2": "Divan-ı Tuğra",
+          "3": "Divan-ı İşraf"
+        }
+      },
+      "explanation": "Divan-ı İstifa maliyeden, Divan-ı Tuğra resmî yazışmalardan, Divan-ı İşraf denetimden sorumluydu. Divan-ı Arz ise ordunun ihtiyaçları ve askerî işlerle ilgilenirdi."
     }
   ]
 }

@@ -1253,6 +1253,2848 @@
       "answer_key": {
         "self_assessed": true
       }
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir sayının 5 fazlası, o sayı x ile gösterildiğinde x + 5 biçiminde yazılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"Fazlası\" sözcüğü toplama bildirir; sayının kendisine 5 eklenir."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir sayının 3 eksiğinin 2 katı, 2x − 3 biçiminde yazılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Önce 3 eksiği alınır, sonra bu ifadenin tamamı 2 ile çarpılır: 2·(x − 3) = 2x − 6. 2x − 3 ifadesi ise \"sayının 2 katının 3 eksiği\" demektir."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir bütünün 3/5'i harcandığında geriye bütünün 2/5'i kalır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bütün 5/5 kabul edilir; 5/5 − 3/5 = 2/5 kalır."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir havuzun 1/4'ü 50 litre ise havuzun tamamı 150 litredir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bütün, parçanın 4 katıdır: 50 · 4 = 200 litre. 150 litre, kalan 3/4'lük kısmın hacmidir."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Yaş problemlerinde \"t yıl önceki yaş\" ifadesi, bugünkü yaştan t çıkarılarak yazılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Geçmişe gidildiğinde yaş azalır; bugünkü yaş x ise t yıl önceki yaş x − t olur."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bugün 12 ve 36 yaşında olan iki kişinin yaşları arasındaki oran 5 yıl sonra da 1/3 olur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 5 yıl sonra yaşlar 17 ve 41 olur; 17/41 oranı 1/3'e eşit değildir. Yaşların farkı sabit kalır ama oranı zamanla 1'e yaklaşır."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Aynı yönde hareket eden iki aracın birbirine göre hızı, hızlarının farkına eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Aynı yöndeki hareketlerde aradaki mesafe hız farkı kadar değişir; zıt yönlü hareketlerde ise hızlar toplanır."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "60 km/sa sabit hızla giden bir araç 30 dakikada 60 km yol alır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 30 dakika 0,5 saattir: 60 · 0,5 = 30 km. Hız birimindeki zaman (saat) ile verilen süre (dakika) aynı birime çevrilmelidir."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir sayının %20 fazlası, o sayının 1,2 katıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sayının kendisi 1 kat, artış 0,20 kattır: 1 + 0,20 = 1,20. Bu yüzden %20 zam tek işlemde 1,2 ile çarpılarak yapılır."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Maliyeti 200 TL olan bir ürün 250 TL'ye satılırsa kâr yüzdesi %20'dir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kâr 50 TL'dir ve kâr yüzdesi maliyete oranlanır: 50 / 200 = 0,25, yani %25. %20 sonucu, 50'nin satış fiyatına (250) oranlanmasıyla çıkar ki bu hatalı paydadır."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir ürüne %25 indirim yapıldığında yeni fiyat, ilk fiyatın 3/4'ü olur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. %25 = 1/4 indirildiğinde 1 − 1/4 = 3/4 kalır; bu yüzden indirimli fiyat ilk fiyatın 0,75 katıdır."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Fiyatı %50 artan bir ürünün eski fiyatına dönmesi için %50 indirim yapılması gerekir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 100 TL %50 zamla 150 TL olur; 150'ye %50 indirim 75 TL verir. Eski fiyata dönmek için 50 TL'lik artışın 150 TL üzerinden silinmesi gerekir: 50 / 150 = 1/3, yani yaklaşık %33,3 indirim."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Toplamları 30, farkları 6 olan iki sayıdan küçüğü 12'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Küçük sayı (toplam − fark) / 2 = (30 − 6) / 2 = 12'dir. Büyük sayı 18 olur ve 18 + 12 = 30, 18 − 12 = 6 koşulları sağlanır."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ardışık iki çift sayının toplamı 4'ün tam katıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Sayılar 2k ve 2k + 2 ise toplam 4k + 2 olur; 4'ün katından 2 fazladır. Örnek: 6 + 8 = 14, 14 dörde tam bölünmez."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir aracın sabit hızı iki katına çıkarılırsa aynı yolu alma süresi yarıya iner."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Yol sabitken zaman = yol / hız olduğundan hız ile süre ters orantılıdır: hız 2 katına çıkarsa süre 1/2 katına düşer."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir sayının 2/3'ü 18 ise o sayı 12'dir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. (2/3)·x = 18 denkleminde x, 18'in 3/2 katıdır: 18 · 3/2 = 27. 12 sonucu, 18'in 2/3'ünü almaktan çıkar; oysa burada aranan bütündür, parça değil."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bilinmeyen x olmak üzere \"bir sayının 4 katının 7 eksiği\" ifadesi {{0}} biçiminde yazılır.",
+        "choices": [
+          "4x − 7",
+          "4·(x − 7)",
+          "4x + 7",
+          "7 − 4x"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "4x − 7"
+        ]
+      },
+      "explanation": "Önce \"4 katı\" alınır (4x), sonra bundan 7 çıkarılır. 4·(x − 7) ifadesi ise \"7 eksiğinin 4 katı\" demektir ve 4x − 28'e eşittir."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Ardışık iki tek sayıdan küçüğü x ise büyüğü {{0}} biçiminde gösterilir.",
+        "choices": [
+          "x + 2",
+          "x + 1",
+          "2x",
+          "2x + 1"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "x + 2"
+        ]
+      },
+      "explanation": "Tek sayılar ikişer ikişer ilerler: 7'den sonraki tek sayı 9'dur. x + 1 yazmak araya çift sayıyı sokar ve denklemi bozar."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir sayının 3/5'i biliniyorken sayının kendisini bulmak için bu değer {{0}} ile çarpılır.",
+        "choices": [
+          "5/3",
+          "3/5",
+          "5",
+          "3"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "5/3"
+        ]
+      },
+      "explanation": "Parçadan bütüne geçişte kesrin çarpmaya göre tersi kullanılır. Örnek: (3/5)·x = 30 ise x = 30 · 5/3 = 50."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir havuzun 1/3'ü doluyken 40 litre su eklenince havuz yarıya kadar dolmuştur. Eklenen su havuzun {{0}} kadarıdır ve havuzun tamamı {{1}} litredir.",
+        "choices": [
+          "1/6",
+          "1/5",
+          "1/4",
+          "240",
+          "200",
+          "120"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "1/6",
+          "240"
+        ]
+      },
+      "explanation": "Doluluk 1/3'ten 1/2'ye çıkmıştır: 1/2 − 1/3 = 3/6 − 2/6 = 1/6. Demek ki 40 litre bütünün 1/6'sıdır: 40 · 6 = 240 litre."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bugün baba 36, oğlu 8 yaşındadır. Babanın yaşı oğlunun yaşının 3 katı olduğunda oğul {{0}} yaşında olacaktır.",
+        "choices": [
+          "14",
+          "12",
+          "16",
+          "18"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "14"
+        ]
+      },
+      "explanation": "t yıl sonra 36 + t = 3·(8 + t) olmalıdır: 36 + t = 24 + 3t → 2t = 12 → t = 6. Oğul 8 + 6 = 14 yaşındadır ve baba 42'dir; 42 = 3 · 14."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İki kardeşin yaşları toplamı bugün 24 ise 3 yıl sonra yaşları toplamı {{0}} olur.",
+        "choices": [
+          "30",
+          "27",
+          "24",
+          "33"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "30"
+        ]
+      },
+      "explanation": "Her kardeş 3 yaş büyüdüğü için toplama 2 · 3 = 6 eklenir: 24 + 6 = 30. Toplama yalnızca 3 eklemek (27) kişi sayısını hesaba katmamak demektir."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "300 km'lik yolu 4 saatte tamamlayan bir aracın ortalama hızı {{0}} km/sa'tir.",
+        "choices": [
+          "75",
+          "80",
+          "70",
+          "60"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "75"
+        ]
+      },
+      "explanation": "Ortalama hız, toplam yolun toplam zamana oranıdır: 300 / 4 = 75 km/sa."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Aralarında 400 km bulunan iki araç birbirine doğru 70 km/sa ve 130 km/sa hızlarla hareket ederse yaklaşma hızları {{0}} km/sa olur ve {{1}} saat sonra karşılaşırlar.",
+        "choices": [
+          "200",
+          "60",
+          "100",
+          "2",
+          "4",
+          "5"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "200",
+          "2"
+        ]
+      },
+      "explanation": "Zıt yönde birbirine yaklaşan araçlarda hızlar toplanır: 70 + 130 = 200 km/sa. Aradaki mesafe bu hızla kapanır: 400 / 200 = 2 saat. Hızların farkı (60) aynı yöne giden araçlarda kullanılır."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Etiket fiyatı 200 TL olan bir ürüne %10 indirim uygulanırsa ürünün yeni fiyatı {{0}} TL olur.",
+        "choices": [
+          "180",
+          "190",
+          "170",
+          "220"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "180"
+        ]
+      },
+      "explanation": "200 TL'nin %10'u 20 TL'dir. 200 − 20 = 180 TL."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Maliyeti 400 TL olan bir ürün 460 TL'ye satılırsa maliyete göre kâr yüzdesi %{{0}} olur.",
+        "choices": [
+          "15",
+          "13",
+          "20",
+          "12"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "15"
+        ]
+      },
+      "explanation": "Kâr 460 − 400 = 60 TL'dir. 60/400 = 0,15 olduğundan kâr oranı %15'tir."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir ürünün fiyatına önce %20 zam, sonra %20 indirim uygulanırsa son fiyat ilk fiyatın {{0}} katı olur; yani ilk fiyata göre %{{1}} azalma vardır.",
+        "choices": [
+          "0,96",
+          "1,04",
+          "1,00",
+          "4",
+          "5",
+          "20"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "0,96",
+          "4"
+        ]
+      },
+      "explanation": "1 · 1,20 · 0,80 = 0,96 olur. 1 − 0,96 = 0,04 olduğundan toplam %4 azalma vardır."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir sayının 3 fazlasının 2 katı 26 ise bu sayı {{0}} olur.",
+        "choices": [
+          "10",
+          "13",
+          "16",
+          "7"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "10"
+        ]
+      },
+      "explanation": "2 · (x + 3) = 26 → x + 3 = 13 → x = 10."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İki sayının toplamı 30, farkı 8 ise büyük sayı {{0}}, küçük sayı {{1}} olur.",
+        "choices": [
+          "19",
+          "21",
+          "22",
+          "11",
+          "9",
+          "8"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "19",
+          "11"
+        ]
+      },
+      "explanation": "Büyük sayı (30 + 8)/2 = 19, küçük sayı (30 − 8)/2 = 11'dir."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir işin 2/5'i tamamlandıysa işin kalan kısmı {{0}} olur.",
+        "choices": [
+          "3/5",
+          "2/5",
+          "1/5",
+          "4/5"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "3/5"
+        ]
+      },
+      "explanation": "İşin tamamı 1 kabul edilir: 1 − 2/5 = 3/5."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir anne ile kızının yaşları arasındaki fark bugün 25 yıldır. Bu fark 10 yıl sonra {{0}} yıl olur.",
+        "choices": [
+          "25",
+          "35",
+          "15",
+          "50"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "25"
+        ]
+      },
+      "explanation": "İki kişinin yaşı aynı miktarda arttığı için aralarındaki fark hiç değişmez: 25 yıl."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "72 km/sa hızla giden bir hareketlinin hızı {{0}} m/s'ye eşittir.",
+        "choices": [
+          "20",
+          "25",
+          "18",
+          "30"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "20"
+        ]
+      },
+      "explanation": "km/sa birimini m/s'ye çevirmek için 3,6'ya bölünür: 72 / 3,6 = 20 m/s."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bilinmeyen x olmak üzere sözel ifadeyi cebirsel karşılığıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Bir sayının 5 fazlası"
+          },
+          {
+            "id": "2",
+            "text": "Bir sayının 5 katı"
+          },
+          {
+            "id": "3",
+            "text": "Bir sayının yarısının 5 eksiği"
+          },
+          {
+            "id": "4",
+            "text": "Bir sayının 5 katının 2 fazlası"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "5x"
+          },
+          {
+            "id": "b",
+            "text": "x/2 − 5"
+          },
+          {
+            "id": "c",
+            "text": "5x + 2"
+          },
+          {
+            "id": "d",
+            "text": "x + 5"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "d",
+          "2": "a",
+          "3": "b",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"Fazlası\" toplama, \"katı\" çarpma, \"eksiği\" çıkarma anlamına gelir; işlem sırasına dikkat edilir."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayı türünü genel gösterimiyle eşleştir (n bir tam sayıdır).",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ardışık iki tam sayı"
+          },
+          {
+            "id": "2",
+            "text": "Ardışık iki tek sayı"
+          },
+          {
+            "id": "3",
+            "text": "Herhangi bir çift sayı"
+          },
+          {
+            "id": "4",
+            "text": "Ardışık üç tam sayının toplamı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "2n"
+          },
+          {
+            "id": "b",
+            "text": "3n + 3"
+          },
+          {
+            "id": "c",
+            "text": "n, n + 1"
+          },
+          {
+            "id": "d",
+            "text": "2n + 1, 2n + 3"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "d",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "n, n + 1, n + 2 sayılarının toplamı 3n + 3'tür. Tek sayılar 2n + 1 biçiminde, çift sayılar 2n biçiminde yazılır."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kesirli ifadeyi sayısal sonucuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "60'ın 1/3'ü"
+          },
+          {
+            "id": "2",
+            "text": "60'ın 2/5'i"
+          },
+          {
+            "id": "3",
+            "text": "60'ın 3/4'ü"
+          },
+          {
+            "id": "4",
+            "text": "60'ın 5/6'sı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "24"
+          },
+          {
+            "id": "b",
+            "text": "45"
+          },
+          {
+            "id": "c",
+            "text": "20"
+          },
+          {
+            "id": "d",
+            "text": "50"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "60 · 1/3 = 20, 60 · 2/5 = 24, 60 · 3/4 = 45, 60 · 5/6 = 50."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Parasının tamamı x TL olan birinin durumunu kurulacak denklemle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Parasının 1/4'ü 50 TL'dir"
+          },
+          {
+            "id": "2",
+            "text": "Parasının 2/3'ü 50 TL'dir"
+          },
+          {
+            "id": "3",
+            "text": "Parasının 1/4'ünü harcadı, 50 TL kaldı"
+          },
+          {
+            "id": "4",
+            "text": "Parasının 3/5'ini harcadı, 50 TL kaldı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "3x/4 = 50"
+          },
+          {
+            "id": "b",
+            "text": "x/4 = 50"
+          },
+          {
+            "id": "c",
+            "text": "2x/5 = 50"
+          },
+          {
+            "id": "d",
+            "text": "2x/3 = 50"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Harcanan kısım verildiğinde kalan 1'den çıkarılır: 1 − 1/4 = 3/4 ve 1 − 3/5 = 2/5."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İki kardeşin bugünkü yaşları toplamı 20'dir. Verilen zamanı o zamandaki yaşları toplamıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "4 yıl önce"
+          },
+          {
+            "id": "2",
+            "text": "2 yıl önce"
+          },
+          {
+            "id": "3",
+            "text": "3 yıl sonra"
+          },
+          {
+            "id": "4",
+            "text": "6 yıl sonra"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "16"
+          },
+          {
+            "id": "b",
+            "text": "26"
+          },
+          {
+            "id": "c",
+            "text": "12"
+          },
+          {
+            "id": "d",
+            "text": "32"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "2 kişinin yaşları toplamı her yıl 2 artar: 20 − 8 = 12, 20 − 4 = 16, 20 + 6 = 26, 20 + 12 = 32."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Alınan yol ile geçen süreyi, sabit hız değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "240 km yolu 4 saatte"
+          },
+          {
+            "id": "2",
+            "text": "240 km yolu 3 saatte"
+          },
+          {
+            "id": "3",
+            "text": "150 km yolu 2 saatte"
+          },
+          {
+            "id": "4",
+            "text": "350 km yolu 5 saatte"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "75 km/sa"
+          },
+          {
+            "id": "b",
+            "text": "60 km/sa"
+          },
+          {
+            "id": "c",
+            "text": "70 km/sa"
+          },
+          {
+            "id": "d",
+            "text": "80 km/sa"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hız = yol / zaman: 240/4 = 60, 240/3 = 80, 150/2 = 75, 350/5 = 70."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Fiyat değişimini, ilk fiyatın çarpılacağı çarpanla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "%25 zam"
+          },
+          {
+            "id": "2",
+            "text": "%25 indirim"
+          },
+          {
+            "id": "3",
+            "text": "%50 zam"
+          },
+          {
+            "id": "4",
+            "text": "%40 indirim"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "0,75"
+          },
+          {
+            "id": "b",
+            "text": "1,5"
+          },
+          {
+            "id": "c",
+            "text": "1,25"
+          },
+          {
+            "id": "d",
+            "text": "0,6"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Zam için 1 + oran, indirim için 1 − oran çarpanı kullanılır."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ticaret kavramını tanımıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Maliyet"
+          },
+          {
+            "id": "2",
+            "text": "Kâr"
+          },
+          {
+            "id": "3",
+            "text": "Zarar"
+          },
+          {
+            "id": "4",
+            "text": "Satış fiyatı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Ürünün alıcıya verildiği fiyat"
+          },
+          {
+            "id": "b",
+            "text": "Ürünün satıcıya mal olduğu fiyat"
+          },
+          {
+            "id": "c",
+            "text": "Satış fiyatının maliyeti aşan kısmı"
+          },
+          {
+            "id": "d",
+            "text": "Maliyetin satış fiyatını aşan kısmı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Satış fiyatı maliyetten büyükse fark kâr, küçükse fark zarardır."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aşağıda tanımlanan sayıları küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Toplamı 20 olan iki eşit sayıdan biri"
+          },
+          {
+            "id": "2",
+            "text": "3 katı 36 olan sayı"
+          },
+          {
+            "id": "3",
+            "text": "5 fazlası 13 olan sayı"
+          },
+          {
+            "id": "4",
+            "text": "Yarısı 7 olan sayı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Sayılar sırasıyla 10, 12, 8 ve 14'tür. Küçükten büyüğe: 8 < 10 < 12 < 14."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Denklemleri çözümlerindeki x değerine göre küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "2x + 6 = 20"
+          },
+          {
+            "id": "2",
+            "text": "3x − 5 = 10"
+          },
+          {
+            "id": "3",
+            "text": "x/2 + 4 = 8"
+          },
+          {
+            "id": "4",
+            "text": "4x + 1 = 13"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Çözümler sırasıyla x = 7, x = 5, x = 8 ve x = 3'tür. Küçükten büyüğe: 3 < 5 < 7 < 8."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kesirleri büyükten küçüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "2/3"
+          },
+          {
+            "id": "2",
+            "text": "5/6"
+          },
+          {
+            "id": "3",
+            "text": "1/2"
+          },
+          {
+            "id": "4",
+            "text": "3/4"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Ondalık değerleri 0,833 > 0,75 > 0,666 > 0,5 biçimindedir."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İşlemlerin sonuçlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "120'nin 1/4'ü"
+          },
+          {
+            "id": "2",
+            "text": "90'ın 2/3'ü"
+          },
+          {
+            "id": "3",
+            "text": "80'in 5/8'i"
+          },
+          {
+            "id": "4",
+            "text": "60'ın 2/3'ü"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "4",
+          "3",
+          "2"
+        ]
+      },
+      "explanation": "Sonuçlar 30, 60, 50 ve 40'tır. Küçükten büyüğe: 30 < 40 < 50 < 60."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bugün 20 yaşında olan birinin yaşını belirten ifadeleri küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "6 yıl sonraki yaşı"
+          },
+          {
+            "id": "2",
+            "text": "4 yıl önceki yaşı"
+          },
+          {
+            "id": "3",
+            "text": "Bugünkü yaşı"
+          },
+          {
+            "id": "4",
+            "text": "10 yıl önceki yaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Yaşlar sırasıyla 26, 16, 20 ve 10'dur. Küçükten büyüğe: 10 < 16 < 20 < 26."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Baba bugün 40, oğlu 10 yaşındadır. Babanın yaşının oğlunun yaşına oranını, verilen zamanlara göre büyükten küçüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "10 yıl sonra"
+          },
+          {
+            "id": "2",
+            "text": "Bugün"
+          },
+          {
+            "id": "3",
+            "text": "20 yıl sonra"
+          },
+          {
+            "id": "4",
+            "text": "5 yıl sonra"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Oranlar 40/10 = 4, 45/15 = 3, 50/20 = 2,5 ve 60/30 = 2'dir. Zaman geçtikçe oran küçülür."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sabit hızla hareket eden araçların aldıkları yolu kısadan uzuna sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "60 km/sa ile 3 saat giden araç"
+          },
+          {
+            "id": "2",
+            "text": "80 km/sa ile 2 saat giden araç"
+          },
+          {
+            "id": "3",
+            "text": "50 km/sa ile 5 saat giden araç"
+          },
+          {
+            "id": "4",
+            "text": "90 km/sa ile 2,5 saat giden araç"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Yollar 180 km, 160 km, 250 km ve 225 km'dir. Kısadan uzuna: 160 < 180 < 225 < 250."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hızları m/s cinsinden küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "36 km/sa"
+          },
+          {
+            "id": "2",
+            "text": "54 km/sa"
+          },
+          {
+            "id": "3",
+            "text": "18 km/sa"
+          },
+          {
+            "id": "4",
+            "text": "90 km/sa"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "3,6'ya bölünür: 10 m/s, 15 m/s, 5 m/s ve 25 m/s. Küçükten büyüğe: 5 < 10 < 15 < 25."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Yüzde hesaplarının sonuçlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "200 TL'nin %15'i"
+          },
+          {
+            "id": "2",
+            "text": "150 TL'nin %40'ı"
+          },
+          {
+            "id": "3",
+            "text": "400 TL'nin %5'i"
+          },
+          {
+            "id": "4",
+            "text": "250 TL'nin %20'si"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Sonuçlar 30 TL, 60 TL, 20 TL ve 50 TL'dir. Küçükten büyüğe: 20 < 30 < 50 < 60."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aşağıda tanımlanan sayıları büyükten küçüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Ardışık üç tam sayının toplamı 24 ise bunların en büyüğü"
+          },
+          {
+            "id": "2",
+            "text": "İki katının 5 eksiği 15 olan sayı"
+          },
+          {
+            "id": "3",
+            "text": "Ardışık iki tek sayının toplamı 28 ise bunların küçüğü"
+          },
+          {
+            "id": "4",
+            "text": "3 katı 18 olan sayı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Sayılar 9, 10, 13 ve 6'dır. Büyükten küçüğe: 13 > 10 > 9 > 6."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aşağıda tanımlanan sayıları küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Toplamı 18 olan iki eşit parçadan biri"
+          },
+          {
+            "id": "2",
+            "text": "1 eksiğinin 4 katı 20 olan sayı"
+          },
+          {
+            "id": "3",
+            "text": "Yarısının 3 fazlası 10 olan sayı"
+          },
+          {
+            "id": "4",
+            "text": "5 katının 10 fazlası 60 olan sayı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Sayılar 9, 6, 14 ve 10'dur. Küçükten büyüğe: 6 < 9 < 10 < 14."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Havuzun doluluk miktarlarını azdan çoğa sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Havuzun 3/8'i dolu"
+          },
+          {
+            "id": "2",
+            "text": "Havuzun 1/2'si dolu"
+          },
+          {
+            "id": "3",
+            "text": "Havuzun 1/4'ü dolu"
+          },
+          {
+            "id": "4",
+            "text": "Havuzun 5/8'i dolu"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Sekizde birler cinsinden 2/8 < 3/8 < 4/8 < 5/8 olur."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kesir problemini çözme adımlarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Verilen kesri x ile çarparak ifade et"
+          },
+          {
+            "id": "2",
+            "text": "Miktarın tamamını x ile göster"
+          },
+          {
+            "id": "3",
+            "text": "x'i bularak soruda istenen miktarı hesapla"
+          },
+          {
+            "id": "4",
+            "text": "Kurulan eşitliği çöz"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Önce tamamı bilinmeyenle gösterilir, kesirli ifade yazılır, eşitlik çözülür ve son olarak istenen değer hesaplanır."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Yaş problemini çözme adımlarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Verilen koşulları denklem biçiminde yaz"
+          },
+          {
+            "id": "2",
+            "text": "Bugünkü yaşları x ve y ile göster"
+          },
+          {
+            "id": "3",
+            "text": "Denklemleri çözerek yaşları bul"
+          },
+          {
+            "id": "4",
+            "text": "Geçmiş ya da gelecek için her yaşa aynı yıl sayısını ekle veya çıkar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Bugünkü yaşlar adlandırılır, zaman kaydırması her yaşa aynı miktarda uygulanır, koşullar denkleme dökülür ve denklem çözülür."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Yolculuklarda geçen süreleri kısadan uzuna sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "100 km'lik yolu 50 km/sa ile almak"
+          },
+          {
+            "id": "2",
+            "text": "180 km'lik yolu 60 km/sa ile almak"
+          },
+          {
+            "id": "3",
+            "text": "240 km'lik yolu 160 km/sa ile almak"
+          },
+          {
+            "id": "4",
+            "text": "300 km'lik yolu 75 km/sa ile almak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Süreler 2 saat, 3 saat, 1,5 saat ve 4 saattir. Kısadan uzuna: 1,5 < 2 < 3 < 4."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Araçların ortalama hızlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "İlk 60 km'yi 1 saatte, sonraki 60 km'yi 2 saatte alan araç"
+          },
+          {
+            "id": "2",
+            "text": "İlk 50 km'yi 1 saatte, sonraki 150 km'yi 3 saatte alan araç"
+          },
+          {
+            "id": "3",
+            "text": "100 km'yi 4 saatte alan araç"
+          },
+          {
+            "id": "4",
+            "text": "180 km'yi 2 saatte alan araç"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Ortalama hız = toplam yol / toplam zaman: 120/3 = 40, 200/4 = 50, 100/4 = 25 ve 180/2 = 90 km/sa."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Başlangıç fiyatı 100 TL olan ürünün son fiyatlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "%10 zam yapılırsa"
+          },
+          {
+            "id": "2",
+            "text": "%10 indirim yapılırsa"
+          },
+          {
+            "id": "3",
+            "text": "%25 zam yapılırsa"
+          },
+          {
+            "id": "4",
+            "text": "Önce %50 zam, sonra %50 indirim yapılırsa"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Son fiyatlar 110 TL, 90 TL, 125 TL ve 100 · 1,5 · 0,5 = 75 TL'dir."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Satışlardaki maliyete göre kâr yüzdelerini büyükten küçüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Maliyeti 200 TL, satış fiyatı 240 TL"
+          },
+          {
+            "id": "2",
+            "text": "Maliyeti 500 TL, satış fiyatı 550 TL"
+          },
+          {
+            "id": "3",
+            "text": "Maliyeti 80 TL, satış fiyatı 100 TL"
+          },
+          {
+            "id": "4",
+            "text": "Maliyeti 300 TL, satış fiyatı 315 TL"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Kâr oranları %20, %10, %25 ve %5'tir. Büyükten küçüğe: %25 > %20 > %10 > %5."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ardışık dört tam sayının toplamı 4'ün tam katıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Sayılar n, n+1, n+2, n+3 ise toplam 4n + 6 olur. Bu değer daima çifttir ama 4'e bölündüğünde 2 kalanını verir; örneğin 1+2+3+4 = 10."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir işi tek başına 6 günde bitiren bir işçi ile aynı işi tek başına 12 günde bitiren bir işçi birlikte çalışırsa iş 4 günde biter."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Günlük iş hızları 1/6 ve 1/12'dir; toplamı 1/6 + 1/12 = 3/12 = 1/4 olur. Günde işin 1/4'ü yapıldığına göre iş 4 günde tamamlanır."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bugün 10 ve 40 yaşında olan iki kişinin yaşları oranı, yıllar geçtikçe 1'e yaklaşır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. t yıl sonra oran (10 + t)/(40 + t) olur. Fark 30 yıl sabit kalırken yaşlar büyüdüğü için bu oran sürekli artar ve 1'e yaklaşır: 5 yıl sonra 15/45 = 1/3, 40 yıl sonra 50/80 = 5/8."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir araç gidişte 60 km/sa, aynı yoldan dönüşte 40 km/sa sabit hızla hareket ederse gidiş-dönüş yolculuğunun ortalama hızı 50 km/sa olur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Ortalama hız, hızların aritmetik ortalaması değil toplam yolun toplam süreye bölümüdür. Tek yön 120 km alınırsa süreler 2 saat ve 3 saat olur; 240/5 = 48 km/sa bulunur."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Rakamları toplamı 11 olan iki basamaklı bir sayının rakamları yer değiştirildiğinde sayı 27 artıyorsa ilk sayı {{0}} olur.",
+        "choices": [
+          "47",
+          "74",
+          "38",
+          "56"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "47"
+        ]
+      },
+      "explanation": "Sayı 10a + b olsun. Rakamlar yer değiştirince artış 10b + a − (10a + b) = 9(b − a) = 27, yani b − a = 3 olur. a + b = 11 ile birlikte çözülünce a = 4, b = 7 bulunur; sayı 47'dir (74 − 47 = 27)."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir havuzu A musluğu tek başına 12 saatte, B musluğu tek başına 24 saatte doldurmaktadır. İkisi birlikte açıldığında havuz {{0}} saatte dolar; bu süre A'nın tek başına doldurma süresinin {{1}} katıdır.",
+        "choices": [
+          "8",
+          "2/3",
+          "6",
+          "1/2",
+          "18",
+          "36"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "8",
+          "2/3"
+        ]
+      },
+      "explanation": "Saatteki doldurma hızları 1/12 ve 1/24'tür; toplamı 1/12 + 1/24 = 3/24 = 1/8 olur, yani havuz 8 saatte dolar. 8/12 = 2/3 olduğundan bu süre A'nın süresinin 2/3 katıdır."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bugün annenin yaşı kızının yaşının 4 katıdır. 6 yıl sonra annenin yaşı kızının yaşının 2,5 katı olacağına göre annenin bugünkü yaşı {{0}} olur.",
+        "choices": [
+          "24",
+          "20",
+          "32",
+          "36"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "24"
+        ]
+      },
+      "explanation": "Kızın yaşı x ise annenin yaşı 4x'tir. 4x + 6 = 2,5·(x + 6) denkleminden 1,5x = 9, x = 6 bulunur. Anne bugün 24 yaşındadır; 6 yıl sonra 30 ile 12'nin oranı gerçekten 2,5'tir."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir araç A'dan B'ye 90 km/sa sabit hızla gidip aynı yoldan 60 km/sa sabit hızla dönüyorsa yolculuğun tamamındaki ortalama hız {{0}} km/sa olur.",
+        "choices": [
+          "72",
+          "75",
+          "70",
+          "78"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "72"
+        ]
+      },
+      "explanation": "Tek yön 180 km alınırsa gidiş 2 saat, dönüş 3 saat sürer. Ortalama hız toplam yolun toplam süreye bölümüdür: 360/5 = 72 km/sa. Hızların ortalaması olan 75 km/sa yanlış sonuçtur."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir ürün maliyetinin %25 fazlasına etiketlenmiş, daha sonra etiket fiyatı üzerinden %20 indirimle satılmıştır. Buna göre satıcı bu satışta {{0}}.",
+        "choices": [
+          "ne kâr ne zarar etmiştir",
+          "%5 kâr etmiştir",
+          "%5 zarar etmiştir",
+          "%20 kâr etmiştir"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ne kâr ne zarar etmiştir"
+        ]
+      },
+      "explanation": "Maliyet 100 TL alınırsa etiket fiyatı 100 · 1,25 = 125 TL olur. %20 indirim sonrası satış fiyatı 125 · 0,80 = 100 TL'dir. Satış fiyatı maliyete eşit olduğu için kâr da zarar da yoktur."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İki basamaklı sayı 10a + b biçiminde yazılmıştır. Sözel koşulu, onu veren denklemle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Rakamları toplamı 9'dur"
+          },
+          {
+            "id": "2",
+            "text": "Birler basamağı, onlar basamağının 2 katıdır"
+          },
+          {
+            "id": "3",
+            "text": "Rakamlar yer değiştirilince sayı 36 artar"
+          },
+          {
+            "id": "4",
+            "text": "Rakamlar yer değiştirilince sayı 18 azalır"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "b − a = 4"
+          },
+          {
+            "id": "b",
+            "text": "a + b = 9"
+          },
+          {
+            "id": "c",
+            "text": "a − b = 2"
+          },
+          {
+            "id": "d",
+            "text": "b = 2a"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Rakamlar yer değiştirilince oluşan fark 10b + a − (10a + b) = 9(b − a) olur. Artış 36 ise 9(b − a) = 36, yani b − a = 4; azalış 18 ise 9(a − b) = 18, yani a − b = 2 bulunur."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Birlikte çalışan iki işçinin durumunu, işin tamamlanma süresiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Aynı işi tek başına 4 ve 12 günde bitirenler birlikte"
+          },
+          {
+            "id": "2",
+            "text": "Aynı işi tek başına 10 ve 15 günde bitirenler birlikte"
+          },
+          {
+            "id": "3",
+            "text": "Aynı işi tek başına 8 ve 8 günde bitirenler birlikte"
+          },
+          {
+            "id": "4",
+            "text": "Aynı işi tek başına 3 ve 6 günde bitirenler birlikte"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "6 gün"
+          },
+          {
+            "id": "b",
+            "text": "2 gün"
+          },
+          {
+            "id": "c",
+            "text": "3 gün"
+          },
+          {
+            "id": "d",
+            "text": "4 gün"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Günlük hızlar toplanır: 1/4 + 1/12 = 1/3 (3 gün), 1/10 + 1/15 = 1/6 (6 gün), 1/8 + 1/8 = 1/4 (4 gün), 1/3 + 1/6 = 1/2 (2 gün)."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bugün babanın yaşı 40, oğlunun yaşı 10'dur. Verilen koşulu, o koşulun gerçekleştiği zamanla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Babanın yaşı, oğlunun yaşının 4 katıdır"
+          },
+          {
+            "id": "2",
+            "text": "Babanın yaşı, oğlunun yaşının 3 katıdır"
+          },
+          {
+            "id": "3",
+            "text": "Babanın yaşı, oğlunun yaşının 2 katıdır"
+          },
+          {
+            "id": "4",
+            "text": "Babanın yaşı, oğlunun yaşının 6 katıdır"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "5 yıl sonra"
+          },
+          {
+            "id": "b",
+            "text": "4 yıl önce"
+          },
+          {
+            "id": "c",
+            "text": "Bugün"
+          },
+          {
+            "id": "d",
+            "text": "20 yıl sonra"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "40 = 4 · 10 olduğu için 4 katlık koşul bugün sağlanır. 40 + t = 3(10 + t) denkleminden t = 5; 40 + t = 2(10 + t) denkleminden t = 20 bulunur. 4 yıl önce yaşlar 36 ve 6 olduğundan oran 6 katıdır."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aralarında 300 km bulunan iki araç aynı anda hareket ediyor. Verilen durumu, karşılaşma ya da yakalama süresiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "60 km/sa ve 40 km/sa hızlarla birbirlerine doğru"
+          },
+          {
+            "id": "2",
+            "text": "80 km/sa ve 70 km/sa hızlarla birbirlerine doğru"
+          },
+          {
+            "id": "3",
+            "text": "Aynı yönde; arkadaki 90 km/sa, öndeki 40 km/sa"
+          },
+          {
+            "id": "4",
+            "text": "Aynı yönde; arkadaki 120 km/sa, öndeki 80 km/sa"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "6 saat"
+          },
+          {
+            "id": "b",
+            "text": "7,5 saat"
+          },
+          {
+            "id": "c",
+            "text": "2 saat"
+          },
+          {
+            "id": "d",
+            "text": "3 saat"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "d",
+          "2": "c",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Zaman, 300 km'nin bağıl hıza bölümüdür. Zıt yönde hızlar toplanır: 300/100 = 3 saat, 300/150 = 2 saat. Aynı yönde hızlar çıkarılır: 300/50 = 6 saat, 300/40 = 7,5 saat."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her satışı, SATIŞ FİYATI üzerinden hesaplanan kâr yüzdesiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Maliyet 80 TL, satış fiyatı 100 TL"
+          },
+          {
+            "id": "2",
+            "text": "Maliyet 150 TL, satış fiyatı 200 TL"
+          },
+          {
+            "id": "3",
+            "text": "Maliyet 180 TL, satış fiyatı 200 TL"
+          },
+          {
+            "id": "4",
+            "text": "Maliyet 300 TL, satış fiyatı 500 TL"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "%25"
+          },
+          {
+            "id": "b",
+            "text": "%40"
+          },
+          {
+            "id": "c",
+            "text": "%20"
+          },
+          {
+            "id": "d",
+            "text": "%10"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kâr satış fiyatına bölünür: 20/100 = %20, 50/200 = %25, 20/200 = %10, 200/500 = %40. Aynı satışların maliyete göre kâr yüzdeleri daha büyük çıkar; hangi değere göre hesaplandığına dikkat edilmelidir."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek yaş problemlerinin temel kuralını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "arasındaki"
+          },
+          {
+            "id": "2",
+            "text": "kardeşin"
+          },
+          {
+            "id": "3",
+            "text": "değişmez"
+          },
+          {
+            "id": "4",
+            "text": "İki"
+          },
+          {
+            "id": "5",
+            "text": "fark"
+          },
+          {
+            "id": "6",
+            "text": "doğum"
+          },
+          {
+            "id": "7",
+            "text": "yılları"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "6",
+          "7",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Doğru cümle: \"İki kardeşin doğum yılları arasındaki fark değişmez.\" Doğum yılları sabit olduğu için yaş farkı da her zaman aynı kalır; bu yüzden yaş problemlerinde fark üzerinden denklem kurulur."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek sabit hızlı harekette kullanılan bağıntıyı sözel olarak yaz.",
+        "words": [
+          {
+            "id": "1",
+            "text": "zamanın"
+          },
+          {
+            "id": "2",
+            "text": "Alınan"
+          },
+          {
+            "id": "3",
+            "text": "çarpımına"
+          },
+          {
+            "id": "4",
+            "text": "hız"
+          },
+          {
+            "id": "5",
+            "text": "eşittir"
+          },
+          {
+            "id": "6",
+            "text": "yol"
+          },
+          {
+            "id": "7",
+            "text": "ile"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "6",
+          "4",
+          "7",
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      "explanation": "Doğru cümle: \"Alınan yol hız ile zamanın çarpımına eşittir.\" Yani yol = hız × zaman bağıntısı kurulur."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek ortalama hızın tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "geçen"
+          },
+          {
+            "id": "2",
+            "text": "yolun"
+          },
+          {
+            "id": "3",
+            "text": "Ortalama"
+          },
+          {
+            "id": "4",
+            "text": "bölümüdür"
+          },
+          {
+            "id": "5",
+            "text": "alınan"
+          },
+          {
+            "id": "6",
+            "text": "zamana"
+          },
+          {
+            "id": "7",
+            "text": "hız"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "7",
+          "5",
+          "2",
+          "1",
+          "6",
+          "4"
+        ]
+      },
+      "explanation": "Doğru cümle: \"Ortalama hız alınan yolun geçen zamana bölümüdür.\" Ortalama hız, hızların aritmetik ortalaması değildir; toplam yol toplam süreye bölünerek bulunur."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek kârın tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "maliyetin"
+          },
+          {
+            "id": "2",
+            "text": "Kâr"
+          },
+          {
+            "id": "3",
+            "text": "farkına"
+          },
+          {
+            "id": "4",
+            "text": "fiyatı"
+          },
+          {
+            "id": "5",
+            "text": "ile"
+          },
+          {
+            "id": "6",
+            "text": "eşittir"
+          },
+          {
+            "id": "7",
+            "text": "satış"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "7",
+          "4",
+          "5",
+          "1",
+          "3",
+          "6"
+        ]
+      },
+      "explanation": "Doğru cümle: \"Kâr satış fiyatı ile maliyetin farkına eşittir.\" Fark negatifse zarar söz konusudur."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek ardışık tek sayılarla ilgili kuralı oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "farkı"
+          },
+          {
+            "id": "2",
+            "text": "tek"
+          },
+          {
+            "id": "3",
+            "text": "Ardışık"
+          },
+          {
+            "id": "4",
+            "text": "eşittir"
+          },
+          {
+            "id": "5",
+            "text": "iki"
+          },
+          {
+            "id": "6",
+            "text": "ikiye"
+          },
+          {
+            "id": "7",
+            "text": "sayının"
+          },
+          {
+            "id": "8",
+            "text": "daima"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "2",
+          "7",
+          "1",
+          "8",
+          "6",
+          "4"
+        ]
+      },
+      "explanation": "Doğru cümle: \"Ardışık iki tek sayının farkı daima ikiye eşittir.\" Bu yüzden ardışık tek sayılar x ve x + 2 biçiminde gösterilir; aynı durum ardışık çift sayılar için de geçerlidir."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek birlikte çalışma problemlerinin çözüm kuralını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "günlük"
+          },
+          {
+            "id": "2",
+            "text": "işçilerin"
+          },
+          {
+            "id": "3",
+            "text": "Birlikte"
+          },
+          {
+            "id": "4",
+            "text": "toplanır"
+          },
+          {
+            "id": "5",
+            "text": "hızları"
+          },
+          {
+            "id": "6",
+            "text": "çalışan"
+          },
+          {
+            "id": "7",
+            "text": "iş"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "2",
+          "1",
+          "7",
+          "5",
+          "4"
+        ]
+      },
+      "explanation": "Doğru cümle: \"Birlikte çalışan işçilerin günlük iş hızları toplanır.\" Süreler değil hızlar toplanır: işi 6 günde ve 12 günde bitirenler için 1/6 + 1/12 = 1/4 bulunur, iş 4 günde biter."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki koşullardan hangisini sağlayan iki basamaklı bir sayı yoktur? Doğru seçeneği işaretle.",
+        "image": "diagrams/sayi-problemleri-kosullar.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Rakamları toplamı 18 olan sayı"
+          },
+          {
+            "id": "2",
+            "text": "Rakamları toplamı 19 olan sayı"
+          },
+          {
+            "id": "3",
+            "text": "Rakamları çarpımı 0 olan sayı"
+          },
+          {
+            "id": "4",
+            "text": "Rakamları farkı 9 olan sayı"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Rakamların en büyük toplamı 9 + 9 = 18'dir, bu yüzden toplamı 19 olan iki basamaklı sayı yoktur. Diğerleri mümkündür: 99 (toplam 18), 10 (çarpım 0), 90 (fark 9)."
+    },
+    {
+      "topic": "yas_problemleri",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bugün yaşları toplamı 60 olan iki kardeş hakkında verilen kurgulardan hangisi imkânsızdır? Doğru seçeneği işaretle.",
+        "image": "diagrams/yas-problemleri-kurgular.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "5 yıl sonra yaşları toplamı 70 olur"
+          },
+          {
+            "id": "2",
+            "text": "10 yıl önce yaşları toplamı 40 idi"
+          },
+          {
+            "id": "3",
+            "text": "3 yıl sonra yaşları toplamı 63 olur"
+          },
+          {
+            "id": "4",
+            "text": "2 yıl önce yaşları toplamı 56 idi"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "İki kişinin yaşları toplamı her yıl 2 artar. 5 yıl sonra 60 + 10 = 70, 10 yıl önce 60 − 20 = 40, 2 yıl önce 60 − 4 = 56 olur. 3 yıl sonra toplam 60 + 6 = 66 olacağından 63 değeri imkânsızdır."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aralarında 240 km bulunan iki araç aynı anda birbirlerine doğru hareket ediyor. Hangi hız ikilisinde araçlar tam 2 saat sonra karşılaşır? Doğru seçeneği işaretle.",
+        "image": "diagrams/hareket-problemleri-karsilasma.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "60 km/sa ve 60 km/sa"
+          },
+          {
+            "id": "2",
+            "text": "50 km/sa ve 50 km/sa"
+          },
+          {
+            "id": "3",
+            "text": "80 km/sa ve 60 km/sa"
+          },
+          {
+            "id": "4",
+            "text": "40 km/sa ve 40 km/sa"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Zıt yönde hareket edenlerin yaklaşma hızı, hızların toplamıdır. 2 saatte 240 km kapanması için yaklaşma hızı 120 km/sa olmalıdır; bunu yalnızca 60 + 60 sağlar. Diğerlerinde süre 2,4 saat, yaklaşık 1,71 saat ve 3 saattir."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir ürünün fiyatına ardışık iki değişim uygulanıyor. Hangi kurgunun sonunda fiyat tam olarak ilk değerine döner? Doğru seçeneği işaretle.",
+        "image": "diagrams/yuzde-problemleri-fiyat-degisimi.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Önce %20 indirim, sonra %25 zam"
+          },
+          {
+            "id": "2",
+            "text": "Önce %20 indirim, sonra %20 zam"
+          },
+          {
+            "id": "3",
+            "text": "Önce %50 indirim, sonra %50 zam"
+          },
+          {
+            "id": "4",
+            "text": "Önce %10 indirim, sonra %15 zam"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "İlk fiyat 100 TL alınırsa çarpanlar şöyle olur: 0,80 · 1,25 = 1,00 (100 TL), 0,80 · 1,20 = 0,96 (96 TL), 0,50 · 1,50 = 0,75 (75 TL), 0,90 · 1,15 = 1,035 (103,5 TL). Yalnızca birinci kurguda fiyat ilk değerine döner."
+    },
+    {
+      "topic": "kesir_problemleri",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her durumu, onu veren kesirli ifadeyle etiketle.",
+        "image": "diagrams/kesir-problemleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Bir işin 2/5'i bittiğinde işin kalan kısmı"
+          },
+          {
+            "id": "2",
+            "text": "3/4'ü 60 olan sayının kendisi"
+          },
+          {
+            "id": "3",
+            "text": "1/6'sı dolu olan havuzun boş kısmı"
+          }
+        ],
+        "labels": [
+          "3/5",
+          "60 · 4/3",
+          "5/6",
+          "60 · 3/4"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "3/5",
+          "2": "60 · 4/3",
+          "3": "5/6"
+        }
+      },
+      "explanation": "Kalan kısım 1 − 2/5 = 3/5'tir. 3/4'ü 60 olan sayı bulunurken ters kesirle çarpılır: 60 · 4/3 = 80. Boş kısım 1 − 1/6 = 5/6'dır. Çeldirici 60 · 3/4, sayının 3/4'ünü verir, sayının kendisini değil."
+    },
+    {
+      "topic": "hareket_problemleri",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her büyüklüğü, onu veren bağıntıyla etiketle.",
+        "image": "diagrams/hareket-problemleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Sabit hızlı bir yolculuğun süresi"
+          },
+          {
+            "id": "2",
+            "text": "Farklı hızlarla gidip dönen bir aracın ortalama hızı"
+          },
+          {
+            "id": "3",
+            "text": "Zıt yönde hareket eden iki aracın karşılaşma süresi"
+          }
+        ],
+        "labels": [
+          "yol ÷ hız",
+          "toplam yol ÷ toplam süre",
+          "aradaki uzaklık ÷ hızların toplamı",
+          "aradaki uzaklık ÷ hızların farkı"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "yol ÷ hız",
+          "2": "toplam yol ÷ toplam süre",
+          "3": "aradaki uzaklık ÷ hızların toplamı"
+        }
+      },
+      "explanation": "Süre, yolun hıza bölümüdür. Ortalama hız hızların ortalaması değil, toplam yolun toplam süreye bölümüdür. Zıt yönde yaklaşma hızı hızların toplamıdır; çeldirici olan hızların farkı ise aynı yönde hareket edenlerin yakalama hesabında kullanılır."
+    },
+    {
+      "topic": "yuzde_kar_zarar_problemleri",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her ticaret büyüklüğünü, onu veren bağıntıyla etiketle.",
+        "image": "diagrams/yuzde-kar-zarar.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Kâr miktarı"
+          },
+          {
+            "id": "2",
+            "text": "Maliyete göre kâr yüzdesi"
+          },
+          {
+            "id": "3",
+            "text": "İndirim sonrası ödenecek fiyat"
+          }
+        ],
+        "labels": [
+          "satış fiyatı − maliyet",
+          "(kâr ÷ maliyet) × 100",
+          "etiket fiyatı × (1 − indirim oranı)",
+          "(kâr ÷ satış fiyatı) × 100"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "satış fiyatı − maliyet",
+          "2": "(kâr ÷ maliyet) × 100",
+          "3": "etiket fiyatı × (1 − indirim oranı)"
+        }
+      },
+      "explanation": "Kâr, satış fiyatı ile maliyetin farkıdır. Kâr yüzdesi aksi belirtilmedikçe maliyete göre hesaplanır. İndirimli fiyat, etiket fiyatının (1 − indirim oranı) katıdır. Çeldirici ifade, satış fiyatı üzerinden kâr yüzdesini verir."
+    },
+    {
+      "topic": "sayi_problemleri",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bilinmeyen sayı x olmak üzere her sözel koşulu, kurulacak denklemle etiketle.",
+        "image": "diagrams/sayi-problemleri-denklemler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Bir sayının 3 katının 4 fazlası 25'tir"
+          },
+          {
+            "id": "2",
+            "text": "Bir sayının yarısının 6 eksiği 10'dur"
+          },
+          {
+            "id": "3",
+            "text": "Bir sayının 2 fazlasının 3 katı 27'dir"
+          }
+        ],
+        "labels": [
+          "3x + 4 = 25",
+          "x/2 − 6 = 10",
+          "3(x + 2) = 27",
+          "3x + 2 = 27"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "3x + 4 = 25",
+          "2": "x/2 − 6 = 10",
+          "3": "3(x + 2) = 27"
+        }
+      },
+      "explanation": "Çözümler sırasıyla x = 7, x = 32 ve x = 7'dir. \"2 fazlasının 3 katı\" ifadesinde önce 2 eklenip sonra 3 ile çarpıldığı için parantez şarttır; çeldirici olan 3x + 2 = 27 ise \"3 katının 2 fazlası\" ifadesine karşılık gelir."
     }
   ]
 }

@@ -1264,6 +1264,2792 @@
       "answer_key": {
         "self_assessed": true
       }
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ardışık iki tam sayının toplamı tek sayıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sayılar n ve n+1 ise toplam 2n+1 olur; bu ifade her zaman tektir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "2, çift olan tek asal sayıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 2'den büyük her çift sayı 2'ye de bölündüğü için asal olamaz; bu yüzden tek çift asal 2'dir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İki negatif tam sayının çarpımı negatiftir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Aynı işaretli iki sayının çarpımı pozitiftir: (−3)·(−4) = 12."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir tam sayının mutlak değeri negatif olabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Mutlak değer, sayının sıfıra uzaklığıdır; uzaklık negatif olamaz, en küçük değeri 0'dır."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "(−5)² ifadesinin değeri −25'tir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Parantez taban ile birlikte kuvvet aldığı için (−5)² = (−5)·(−5) = 25'tir. −5² ise −25 olurdu."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Son rakamı 0 olan bir doğal sayı 10'a tam bölünür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Birler basamağı 0 olan sayılar 10'un katıdır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "4'e tam bölünen bir sayı 8'e de tam bölünür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 12 sayısı 4'e bölünür ama 8'e bölünmez. Kural ancak bölen, diğer bölenin katı olduğunda ters yönde işler."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Rakamları toplamı 9'un katı olan bir sayı 3'e de tam bölünür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 9'un katı olan bir toplam aynı zamanda 3'ün katıdır, bu yüzden sayı 3'e de bölünür."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir bölme işleminde kalan, bölenden büyük olabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kalan bölene eşit ya da ondan büyük olsaydı bölme sürdürülebilirdi; kalan daima bölenden küçüktür."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İki sayının EKOK'u, bu sayıların her birine tam bölünür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. EKOK ortak katların en küçüğüdür; kat olduğu için her iki sayıya da tam bölünür."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İki pozitif tam sayının EBOB'u, EKOK'undan büyük olabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. EBOB sayılardan küçük ya da onlara eşit, EKOK ise büyük ya da eşittir. En fazla eşit olabilirler (örneğin 6 ve 6)."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Birbirinin katı olan iki pozitif tam sayıdan küçüğü, bu iki sayının EBOB'udur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 6 ve 18 için EBOB 6'dır; küçük sayı büyüğünü tam böldüğü için en büyük ortak bölen kendisidir."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Negatif bir sayının çift kuvveti pozitiftir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Negatif sayı çift sayıda çarpıldığında işaretler ikişer ikişer sadeleşir: (−2)⁴ = 16."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "2³ · 2² işleminin sonucu 2⁶'dır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Tabanlar eşit olduğunda üsler toplanır, çarpılmaz: 2³⁺² = 2⁵ = 32."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "En küçük asal sayı {{0}} sayısıdır.",
+        "choices": [
+          "2",
+          "1",
+          "3",
+          "0"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2"
+        ]
+      },
+      "explanation": "1 asal değildir çünkü tek bir pozitif böleni vardır. Yalnızca 1 ve kendisine bölünen en küçük sayı 2'dir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "1'den büyük ve asal olmayan doğal sayılara {{0}} sayı denir.",
+        "choices": [
+          "bileşik",
+          "asal",
+          "tek",
+          "çift"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "bileşik"
+        ]
+      },
+      "explanation": "Bileşik sayının ikiden çok pozitif böleni vardır; örneğin 12'nin bölenleri 1, 2, 3, 4, 6 ve 12'dir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Ardışık iki tam sayının çarpımı daima {{0}} sayıdır.",
+        "choices": [
+          "çift",
+          "tek",
+          "asal",
+          "negatif"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çift"
+        ]
+      },
+      "explanation": "Ardışık iki sayıdan biri mutlaka çifttir; çift bir çarpanı olan çarpım da çift olur. Örnek: 7·8 = 56."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "−3 sayısının mutlak değeri {{0}}, karesi ise {{1}} olur.",
+        "choices": [
+          "3",
+          "9",
+          "−3",
+          "−9",
+          "6",
+          "1"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "3",
+          "9"
+        ]
+      },
+      "explanation": "|−3| = 3'tür; mutlak değer uzaklıktır. (−3)² = (−3)·(−3) = 9'dur; çift kuvvet işareti pozitif yapar."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir sayının 4 ile tam bölünebilmesi için {{0}} 4'ün katı olmalıdır.",
+        "choices": [
+          "son iki rakamının oluşturduğu sayı",
+          "rakamları toplamı",
+          "son rakamı",
+          "ilk rakamı"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "son iki rakamının oluşturduğu sayı"
+        ]
+      },
+      "explanation": "100 sayısı 4'e tam bölündüğü için yüzler basamağından soldaki kısım kalanı etkilemez; yalnızca son iki basamağa bakılır. Örnek: 1316 → 16, 4'ün katı."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bölme işleminde bölünen = bölen × bölüm + {{0}} eşitliği geçerlidir.",
+        "choices": [
+          "kalan",
+          "bölüm",
+          "bölen",
+          "çarpan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kalan"
+        ]
+      },
+      "explanation": "Bölme algoritmasının temel eşitliği budur. Örnek: 37 = 5·7 + 2."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Son rakamı 0, 2, 4, 6 veya 8 olan sayılar {{0}} ile tam bölünür.",
+        "choices": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2"
+        ]
+      },
+      "explanation": "Birler basamağı çift olan sayılar çifttir, yani 2'nin katıdır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "8 ile tam bölünen bir sayı {{0}} ile de tam bölünür.",
+        "choices": [
+          "4",
+          "16",
+          "3",
+          "5"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "4"
+        ]
+      },
+      "explanation": "4 sayısı 8'in böleni olduğundan 8'in her katı 4'ün de katıdır. Tersi doğru değildir: 12, 4'e bölünür ama 8'e bölünmez."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İki sayının ortak katlarının en küçüğüne {{0}} denir.",
+        "choices": [
+          "EKOK",
+          "EBOB",
+          "asal çarpan",
+          "kalan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "EKOK"
+        ]
+      },
+      "explanation": "EKOK, \"en küçük ortak kat\" demektir. 4 ve 6'nın ortak katları 12, 24, 36… olup en küçüğü 12'dir."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir işi artansız ve en büyük eşit parçalara bölmek gerektiğinde {{0}} hesaplanır.",
+        "choices": [
+          "EBOB",
+          "EKOK",
+          "kalan",
+          "bölüm"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "EBOB"
+        ]
+      },
+      "explanation": "\"En büyük eşit parça, artan yok\" ifadeleri ortak bölen arandığını gösterir; aranan en büyük ortak bölen, yani EBOB'dur."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Aralarında asal iki sayının EKOK'u, bu sayıların {{0}} eşittir.",
+        "choices": [
+          "çarpımına",
+          "toplamına",
+          "farkına",
+          "bölümüne"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çarpımına"
+        ]
+      },
+      "explanation": "a·b = EBOB·EKOK eşitliğinde EBOB 1 olduğundan EKOK = a·b olur. Örnek: 5 ve 7 için EKOK 35'tir."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "12 ve 20 sayılarının EBOB'u {{0}}, EKOK'u ise {{1}} olur.",
+        "choices": [
+          "4",
+          "60",
+          "2",
+          "120",
+          "6",
+          "10"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "4",
+          "60"
+        ]
+      },
+      "explanation": "12 = 2²·3 ve 20 = 2²·5'tir. Ortak çarpanların en küçük üssü 2² = 4 (EBOB); tüm çarpanların en büyük üssü 2²·3·5 = 60 (EKOK)."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Tabanları eşit üslü sayılar bölünürken üsler {{0}}.",
+        "choices": [
+          "çıkarılır",
+          "toplanır",
+          "çarpılır",
+          "bölünür"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çıkarılır"
+        ]
+      },
+      "explanation": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ. Örnek: 2⁷ ÷ 2³ = 2⁴ = 16."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir üslü sayının yeniden kuvveti alınırken üsler {{0}}.",
+        "choices": [
+          "çarpılır",
+          "toplanır",
+          "çıkarılır",
+          "bölünür"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çarpılır"
+        ]
+      },
+      "explanation": "(aᵐ)ⁿ = aᵐ·ⁿ. Örnek: (2³)² = 2⁶ = 64."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "a ≠ 0 olmak üzere a⁻ⁿ ifadesi, aⁿ sayısının {{0}} eşittir.",
+        "choices": [
+          "çarpmaya göre tersine",
+          "toplamaya göre tersine",
+          "karesine",
+          "kareköküne"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çarpmaya göre tersine"
+        ]
+      },
+      "explanation": "a⁻ⁿ = 1/aⁿ olduğundan negatif üs, sayıyı ters çevirir. Örnek: 2⁻³ = 1/8."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "2⁻³ ifadesinin değeri {{0}}, 3⁰ ifadesinin değeri ise {{1}} olur.",
+        "choices": [
+          "1/8",
+          "1",
+          "−8",
+          "0",
+          "8",
+          "3"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "1/8",
+          "1"
+        ]
+      },
+      "explanation": "2⁻³ = 1/2³ = 1/8'dir. Sıfırdan farklı her sayının sıfırıncı kuvveti 1 olduğu için 3⁰ = 1'dir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavramı tanımıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Mutlak değer"
+          },
+          {
+            "id": "2",
+            "text": "Asal sayı"
+          },
+          {
+            "id": "3",
+            "text": "Ardışık sayılar"
+          },
+          {
+            "id": "4",
+            "text": "Bileşik sayı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Yalnızca 1 ve kendisine tam bölünen, 1'den büyük doğal sayı"
+          },
+          {
+            "id": "b",
+            "text": "Bir sayının sayı doğrusunda sıfıra olan uzaklığı"
+          },
+          {
+            "id": "c",
+            "text": "İkiden çok pozitif böleni olan doğal sayı"
+          },
+          {
+            "id": "d",
+            "text": "Birer artarak devam eden sayılar"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Asal sayının tam olarak iki pozitif böleni vardır; bileşik sayının ise ikiden çoktur. Bu yüzden 1 ne asal ne bileşiktir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İşlemi sonucuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "|5 − 12|"
+          },
+          {
+            "id": "2",
+            "text": "|−9|"
+          },
+          {
+            "id": "3",
+            "text": "(−2)·(−3)"
+          },
+          {
+            "id": "4",
+            "text": "−(−4)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "4"
+          },
+          {
+            "id": "b",
+            "text": "7"
+          },
+          {
+            "id": "c",
+            "text": "9"
+          },
+          {
+            "id": "d",
+            "text": "6"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "|5 − 12| = |−7| = 7, |−9| = 9, (−2)·(−3) = 6, −(−4) = 4. Mutlak değer ve çift işaret sonucu pozitif yapar."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Böleni, bölünebilme kuralıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "6"
+          },
+          {
+            "id": "2",
+            "text": "8"
+          },
+          {
+            "id": "3",
+            "text": "9"
+          },
+          {
+            "id": "4",
+            "text": "10"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Rakamları toplamı 9'un katı"
+          },
+          {
+            "id": "b",
+            "text": "Hem 2'ye hem 3'e tam bölünür"
+          },
+          {
+            "id": "c",
+            "text": "Son rakamı 0"
+          },
+          {
+            "id": "d",
+            "text": "Son üç rakamının oluşturduğu sayı 8'in katı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "6 = 2·3 olduğu için iki kuralın birlikte sağlanması gerekir. 8 ile bölünebilmede 1000 sayısı 8'in katı olduğundan yalnızca son üç basamağa bakılır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bölme işlemini kalanıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "17'nin 5'e bölümünden kalan"
+          },
+          {
+            "id": "2",
+            "text": "23'ün 4'e bölümünden kalan"
+          },
+          {
+            "id": "3",
+            "text": "29'un 7'ye bölümünden kalan"
+          },
+          {
+            "id": "4",
+            "text": "46'nın 6'ya bölümünden kalan"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "1"
+          },
+          {
+            "id": "b",
+            "text": "2"
+          },
+          {
+            "id": "c",
+            "text": "3"
+          },
+          {
+            "id": "d",
+            "text": "4"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "a",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "17 = 5·3 + 2, 23 = 4·5 + 3, 29 = 7·4 + 1, 46 = 6·7 + 4. Her kalan bölenden küçüktür."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayı çiftini EKOK değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "5 ve 7"
+          },
+          {
+            "id": "2",
+            "text": "8 ve 10"
+          },
+          {
+            "id": "3",
+            "text": "4 ve 6"
+          },
+          {
+            "id": "4",
+            "text": "6 ve 9"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "12"
+          },
+          {
+            "id": "b",
+            "text": "18"
+          },
+          {
+            "id": "c",
+            "text": "35"
+          },
+          {
+            "id": "d",
+            "text": "40"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "d",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "5 ve 7 aralarında asal olduğu için EKOK çarpımdır: 35. Diğerleri: EKOK(8,10) = 40, EKOK(4,6) = 12, EKOK(6,9) = 18."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İfadeyi karşılığıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "a · b"
+          },
+          {
+            "id": "2",
+            "text": "EKOK(a, b)"
+          },
+          {
+            "id": "3",
+            "text": "EBOB(a, b) = 1"
+          },
+          {
+            "id": "4",
+            "text": "EBOB(a, b)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Ortak bölenlerin en büyüğü"
+          },
+          {
+            "id": "b",
+            "text": "Ortak katların en küçüğü"
+          },
+          {
+            "id": "c",
+            "text": "EBOB ile EKOK'un çarpımı"
+          },
+          {
+            "id": "d",
+            "text": "a ile b aralarında asaldır"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "b",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Temel bağıntı a·b = EBOB(a,b)·EKOK(a,b)'dir. EBOB 1 ise sayıların 1 dışında ortak böleni yoktur, yani aralarında asaldır."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Üslü ifadeyi değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "3³"
+          },
+          {
+            "id": "2",
+            "text": "2⁻²"
+          },
+          {
+            "id": "3",
+            "text": "(−2)⁴"
+          },
+          {
+            "id": "4",
+            "text": "4⁰"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "1/4"
+          },
+          {
+            "id": "b",
+            "text": "1"
+          },
+          {
+            "id": "c",
+            "text": "27"
+          },
+          {
+            "id": "d",
+            "text": "16"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "3³ = 27, 2⁻² = 1/2² = 1/4, (−2)⁴ = 16 (çift üs pozitif yapar), 4⁰ = 1."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İşlemi, üslü biçimde sadeleşmiş sonucuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "(2³)²"
+          },
+          {
+            "id": "2",
+            "text": "2³ · 3³"
+          },
+          {
+            "id": "3",
+            "text": "2⁷ ÷ 2³"
+          },
+          {
+            "id": "4",
+            "text": "2³ · 2⁴"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "2⁴"
+          },
+          {
+            "id": "b",
+            "text": "2⁶"
+          },
+          {
+            "id": "c",
+            "text": "2⁷"
+          },
+          {
+            "id": "d",
+            "text": "6³"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kuvvetin kuvvetinde üsler çarpılır: (2³)² = 2⁶. Üsleri eşit olup tabanları farklı olanlarda tabanlar çarpılır: 2³·3³ = 6³. Bölmede üsler çıkarılır, çarpmada toplanır."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İfadeyi değeriyle eşleştir. Parantezin yerine dikkat et.",
+        "left": [
+          {
+            "id": "1",
+            "text": "−3²"
+          },
+          {
+            "id": "2",
+            "text": "3⁰"
+          },
+          {
+            "id": "3",
+            "text": "(−3)³"
+          },
+          {
+            "id": "4",
+            "text": "(−3)²"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "−27"
+          },
+          {
+            "id": "b",
+            "text": "9"
+          },
+          {
+            "id": "c",
+            "text": "−9"
+          },
+          {
+            "id": "d",
+            "text": "1"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "d",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "−3² ifadesinde kuvvet yalnızca 3'e aittir: −(3²) = −9. Parantezli (−3)² ise 9 olur. (−3)³ = −27 çünkü tek üs işareti korur."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İfadelerin değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "|−4|"
+          },
+          {
+            "id": "2",
+            "text": "|2|"
+          },
+          {
+            "id": "3",
+            "text": "|−7|"
+          },
+          {
+            "id": "4",
+            "text": "|5|"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Mutlak değerler sırasıyla 2, 4, 7 ve 5'tir. Küçükten büyüğe: 2 < 4 < 5 < 7."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kesirleri küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "3/4"
+          },
+          {
+            "id": "2",
+            "text": "2/3"
+          },
+          {
+            "id": "3",
+            "text": "5/6"
+          },
+          {
+            "id": "4",
+            "text": "1/2"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "12 ortak denkleştirilirse 6/12, 8/12, 9/12, 10/12 olur: 1/2 < 2/3 < 3/4 < 5/6."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İşlem sonuçlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "5 − 5"
+          },
+          {
+            "id": "2",
+            "text": "(−2)·3"
+          },
+          {
+            "id": "3",
+            "text": "(−1)·(−8)"
+          },
+          {
+            "id": "4",
+            "text": "|−4| − 7"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Sonuçlar 0, −6, 8 ve −3'tür. Küçükten büyüğe: −6 < −3 < 0 < 8."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayıları rakamları toplamı küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "134"
+          },
+          {
+            "id": "2",
+            "text": "52"
+          },
+          {
+            "id": "3",
+            "text": "209"
+          },
+          {
+            "id": "4",
+            "text": "81"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Rakam toplamları: 134 → 8, 52 → 7, 209 → 11, 81 → 9. Sıralama: 7 < 8 < 9 < 11."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İşlem önceliği basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Çarpma ve bölmeyi soldan sağa doğru yap"
+          },
+          {
+            "id": "2",
+            "text": "Parantez içindeki işlemleri yap"
+          },
+          {
+            "id": "3",
+            "text": "Toplama ve çıkarmayı soldan sağa doğru yap"
+          },
+          {
+            "id": "4",
+            "text": "Üslü ifadeleri hesapla"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Önce parantez, sonra üslü ifadeler, ardından çarpma-bölme, en sonda toplama-çıkarma yapılır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bölme işlemlerini kalanı küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "19'un 4'e bölümü"
+          },
+          {
+            "id": "2",
+            "text": "25'in 6'ya bölümü"
+          },
+          {
+            "id": "3",
+            "text": "34'ün 5'e bölümü"
+          },
+          {
+            "id": "4",
+            "text": "50'nin 8'e bölümü"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "19 = 4·4 + 3, 25 = 6·4 + 1, 34 = 5·6 + 4, 50 = 8·6 + 2. Kalanlar: 1 < 2 < 3 < 4."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir sayıyı asal çarpanlarına ayırma adımlarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Bölüm 1 olana kadar işlemi tekrarla"
+          },
+          {
+            "id": "2",
+            "text": "Sayıyı tam bölen en küçük asal sayıyı bul"
+          },
+          {
+            "id": "3",
+            "text": "Bulunan asal çarpanları üslü biçimde yaz"
+          },
+          {
+            "id": "4",
+            "text": "Sayıyı bu asal sayıya böl"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Örnek 60: en küçük asal bölen 2, 60 ÷ 2 = 30 ve 30 ÷ 2 = 15, sonra 3 ve 5 ile devam edilir; sonuç 2²·3·5 olarak yazılır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bölme sonuçlarını küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "180 ÷ 9"
+          },
+          {
+            "id": "2",
+            "text": "180 ÷ 4"
+          },
+          {
+            "id": "3",
+            "text": "180 ÷ 12"
+          },
+          {
+            "id": "4",
+            "text": "180 ÷ 5"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Sonuçlar 20, 45, 15 ve 36'dır. Bölünen sabitken bölen büyüdükçe bölüm küçülür: 15 < 20 < 36 < 45."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayıları küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "100'den küçük en büyük 7'nin katı"
+          },
+          {
+            "id": "2",
+            "text": "100'den küçük en büyük 9'un katı"
+          },
+          {
+            "id": "3",
+            "text": "100'den küçük en büyük 12'nin katı"
+          },
+          {
+            "id": "4",
+            "text": "100'den küçük en büyük 15'in katı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "7·14 = 98, 9·11 = 99, 12·8 = 96, 15·6 = 90. Sıralama: 90 < 96 < 98 < 99."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "EKOK bulma adımlarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Her asal çarpanın en büyük üssünü seç"
+          },
+          {
+            "id": "2",
+            "text": "Sayıları asal çarpanlarına ayır"
+          },
+          {
+            "id": "3",
+            "text": "Seçilen çarpanları çarp"
+          },
+          {
+            "id": "4",
+            "text": "Çarpanlarda görülen tüm asal sayıları listele"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "EKOK'ta tüm asal çarpanlar alınır ve en büyük üsleri seçilir. EBOB'da ise yalnızca ortak çarpanlar alınır ve en küçük üsleri seçilir."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "EBOB değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "EBOB(9, 15)"
+          },
+          {
+            "id": "2",
+            "text": "EBOB(8, 20)"
+          },
+          {
+            "id": "3",
+            "text": "EBOB(14, 21)"
+          },
+          {
+            "id": "4",
+            "text": "EBOB(10, 25)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "EBOB(9,15) = 3, EBOB(8,20) = 4, EBOB(14,21) = 7, EBOB(10,25) = 5. Sıralama: 3 < 4 < 5 < 7."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "EKOK değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "EKOK(6, 8)"
+          },
+          {
+            "id": "2",
+            "text": "EKOK(4, 5)"
+          },
+          {
+            "id": "3",
+            "text": "EKOK(9, 12)"
+          },
+          {
+            "id": "4",
+            "text": "EKOK(10, 15)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "EKOK(6,8) = 24, EKOK(4,5) = 20, EKOK(9,12) = 36, EKOK(10,15) = 30. Sıralama: 20 < 24 < 30 < 36."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Farklı uzunluktaki iki kurdeleyi artansız ve en büyük eşit parçalara ayırma probleminin çözüm adımlarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Her kurdelenin kaç parçaya ayrıldığını bul"
+          },
+          {
+            "id": "2",
+            "text": "Verilen iki uzunluğu belirle"
+          },
+          {
+            "id": "3",
+            "text": "Bulunan parça sayılarını topla"
+          },
+          {
+            "id": "4",
+            "text": "En büyük eşit parça uzunluğu için EBOB'u hesapla"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Örnek 24 cm ve 36 cm: EBOB 12 cm'dir, kurdeleler 2 ve 3 parçaya ayrılır, toplam 5 parça olur."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Üslü ifadelerin değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "2³"
+          },
+          {
+            "id": "2",
+            "text": "3²"
+          },
+          {
+            "id": "3",
+            "text": "4²"
+          },
+          {
+            "id": "4",
+            "text": "5¹"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": "2³ = 8, 3² = 9, 4² = 16, 5¹ = 5. Sıralama: 5 < 8 < 9 < 16. Üslü ifadelerde yalnızca tabana ya da yalnızca üsse bakmak yanıltır."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İfadelerin değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "2⁻²"
+          },
+          {
+            "id": "2",
+            "text": "(−2)³"
+          },
+          {
+            "id": "3",
+            "text": "2⁰"
+          },
+          {
+            "id": "4",
+            "text": "(−2)²"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "2⁻² = 0,25; (−2)³ = −8; 2⁰ = 1; (−2)² = 4. Sıralama: −8 < 0,25 < 1 < 4."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Üslü ifadelerin değerlerini büyükten küçüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "10²"
+          },
+          {
+            "id": "2",
+            "text": "2⁷"
+          },
+          {
+            "id": "3",
+            "text": "5³"
+          },
+          {
+            "id": "4",
+            "text": "3⁴"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "10² = 100, 2⁷ = 128, 5³ = 125, 3⁴ = 81. Büyükten küçüğe: 128 > 125 > 100 > 81."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "(2³ · 2⁴) ÷ 2⁵ işleminin çözüm adımlarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kalan üssü sadeleştir: 2²"
+          },
+          {
+            "id": "2",
+            "text": "Çarpımda tabanlar eşit olduğu için üsleri topla: 2⁷"
+          },
+          {
+            "id": "3",
+            "text": "Değeri hesapla: 4"
+          },
+          {
+            "id": "4",
+            "text": "Bölmede tabanlar eşit olduğu için üsleri çıkar: 2⁷⁻⁵"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "2³·2⁴ = 2⁷, ardından 2⁷ ÷ 2⁵ = 2⁷⁻⁵ = 2² = 4 bulunur."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ardışık üç tam sayının toplamı daima 3'e tam bölünür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sayılar n−1, n, n+1 ise toplamı 3n olur; 3n her zaman 3'ün katıdır."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Pozitif tam bölen sayısı tek olan bir doğal sayı tam karedir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bölenler ikili eşleşir; yalnızca karekökü kendisiyle eşleşen tam karelerde bölen sayısı tek kalır. Örnek: 36'nın 9 böleni vardır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Rakamları toplamı 18 olan bir doğal sayı daima 6'ya tam bölünür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Rakamları toplamı 18 olan sayı 9'a, dolayısıyla 3'e bölünür ama çift olmak zorunda değildir. 99 sayısı buna örnektir: 6'ya bölünmez."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "EBOB'u 6, EKOK'u 36 olan iki pozitif tam sayının çarpımı 216'dır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İki sayının çarpımı EBOB ile EKOK'un çarpımına eşittir: 6 · 36 = 216."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "3²⁰ sayısı 9¹⁰ sayısından büyüktür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 9¹⁰ = (3²)¹⁰ = 3²⁰ olduğundan iki sayı birbirine eşittir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "48 sayısının pozitif tam bölen sayısı {{0}} tanedir.",
+        "choices": [
+          "10",
+          "8",
+          "12",
+          "6"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "10"
+        ]
+      },
+      "explanation": "48 = 2⁴ · 3 olduğundan bölen sayısı (4+1) · (1+1) = 10'dur."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "4 ile bölündüğünde 3, 6 ile bölündüğünde 5 kalanını veren en küçük iki basamaklı doğal sayı {{0}} sayısıdır.",
+        "choices": [
+          "11",
+          "17",
+          "23",
+          "35"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "11"
+        ]
+      },
+      "explanation": "Her iki durumda kalan, bölenden 1 eksiktir. Bu yüzden sayının 1 fazlası hem 4'ün hem 6'nın katı, yani 12'nin katıdır. 12 − 1 = 11 iki basamaklı en küçük çözümdür."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "EBOB'u 8, EKOK'u 240 olan iki doğal sayıdan biri 40 ise diğeri {{0}} olur.",
+        "choices": [
+          "48",
+          "24",
+          "30",
+          "60"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "48"
+        ]
+      },
+      "explanation": "Çarpım EBOB · EKOK = 8 · 240 = 1920'dir. 1920 ÷ 40 = 48 bulunur; gerçekten EBOB(40, 48) = 8 ve EKOK(40, 48) = 240'tır."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "2¹² · 5¹² çarpımı 10 tabanında {{0}} biçiminde yazılır.",
+        "choices": [
+          "10¹²",
+          "10⁶",
+          "10¹⁴",
+          "10²⁴"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "10¹²"
+        ]
+      },
+      "explanation": "Üsleri eşit olan çarpanlarda tabanlar çarpılır: 2¹² · 5¹² = (2 · 5)¹² = 10¹²."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "2 tabanında yazıldığında 4⁵ ifadesi {{0}}, 8² ifadesi ise {{1}} olur.",
+        "choices": [
+          "2¹⁰",
+          "2⁶",
+          "2⁷",
+          "2⁸",
+          "2⁹",
+          "2¹²"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2¹⁰",
+          "2⁶"
+        ]
+      },
+      "explanation": "4⁵ = (2²)⁵ = 2¹⁰ ve 8² = (2³)² = 2⁶ olur."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayıyı, pozitif tam bölen sayısıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "36"
+          },
+          {
+            "id": "2",
+            "text": "64"
+          },
+          {
+            "id": "3",
+            "text": "81"
+          },
+          {
+            "id": "4",
+            "text": "60"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "12 bölen"
+          },
+          {
+            "id": "b",
+            "text": "9 bölen"
+          },
+          {
+            "id": "c",
+            "text": "7 bölen"
+          },
+          {
+            "id": "d",
+            "text": "5 bölen"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "36 = 2²·3² → 3·3 = 9; 64 = 2⁶ → 7; 81 = 3⁴ → 5; 60 = 2²·3·5 → 3·2·2 = 12 bölen."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayıyı, 9 ile bölümünden kalan değerle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "1234"
+          },
+          {
+            "id": "2",
+            "text": "2345"
+          },
+          {
+            "id": "3",
+            "text": "6666"
+          },
+          {
+            "id": "4",
+            "text": "4517"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Kalan 8"
+          },
+          {
+            "id": "b",
+            "text": "Kalan 1"
+          },
+          {
+            "id": "c",
+            "text": "Kalan 6"
+          },
+          {
+            "id": "d",
+            "text": "Kalan 5"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "c",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "9 ile bölümünden kalan, rakamlar toplamının 9 ile bölümünden kalana eşittir: 1+2+3+4 = 10 → 1; 2+3+4+5 = 14 → 5; 6·4 = 24 → 6; 4+5+1+7 = 17 → 8."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sayı üçlüsünü EKOK değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "4, 6 ve 8"
+          },
+          {
+            "id": "2",
+            "text": "3, 5 ve 6"
+          },
+          {
+            "id": "3",
+            "text": "2, 9 ve 12"
+          },
+          {
+            "id": "4",
+            "text": "5, 8 ve 10"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "30"
+          },
+          {
+            "id": "b",
+            "text": "24"
+          },
+          {
+            "id": "c",
+            "text": "40"
+          },
+          {
+            "id": "d",
+            "text": "36"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "EKOK, her asal çarpanın en büyük kuvveti alınarak bulunur: 2³·3 = 24; 2·3·5 = 30; 2²·3² = 36; 2³·5 = 40."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İfadeyi, 2 tabanında yazılmış eşdeğeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "16²"
+          },
+          {
+            "id": "2",
+            "text": "8³"
+          },
+          {
+            "id": "3",
+            "text": "64²"
+          },
+          {
+            "id": "4",
+            "text": "128"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "2⁹"
+          },
+          {
+            "id": "b",
+            "text": "2¹²"
+          },
+          {
+            "id": "c",
+            "text": "2⁸"
+          },
+          {
+            "id": "d",
+            "text": "2⁷"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "16² = (2⁴)² = 2⁸; 8³ = (2³)³ = 2⁹; 64² = (2⁶)² = 2¹²; 128 = 2⁷."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek bölünebilme kuralını oluştur.",
+        "words": [
+          {
+            "id": "5",
+            "text": "olan"
+          },
+          {
+            "id": "1",
+            "text": "Rakamları"
+          },
+          {
+            "id": "7",
+            "text": "üçe"
+          },
+          {
+            "id": "3",
+            "text": "üçün"
+          },
+          {
+            "id": "8",
+            "text": "bölünür"
+          },
+          {
+            "id": "2",
+            "text": "toplamı"
+          },
+          {
+            "id": "6",
+            "text": "sayılar"
+          },
+          {
+            "id": "4",
+            "text": "katı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Rakamları toplamı üçün katı olan sayılar üçe bölünür. Örnek: 141 sayısının rakamları toplamı 6'dır ve 141 = 3 · 47'dir."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek kuralı oluştur.",
+        "words": [
+          {
+            "id": "4",
+            "text": "son"
+          },
+          {
+            "id": "7",
+            "text": "bağlıdır"
+          },
+          {
+            "id": "2",
+            "text": "dörde"
+          },
+          {
+            "id": "6",
+            "text": "basamağına"
+          },
+          {
+            "id": "1",
+            "text": "Sayıların"
+          },
+          {
+            "id": "5",
+            "text": "iki"
+          },
+          {
+            "id": "3",
+            "text": "bölünebilmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Sayıların dörde bölünebilmesi son iki basamağına bağlıdır. 1316 sayısının son iki basamağı 16'dır ve 16 dörde bölündüğü için 1316 da dörde bölünür."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek tanımı oluştur.",
+        "words": [
+          {
+            "id": "6",
+            "text": "büyüğüne"
+          },
+          {
+            "id": "2",
+            "text": "sayının"
+          },
+          {
+            "id": "8",
+            "text": "denir"
+          },
+          {
+            "id": "4",
+            "text": "bölenlerinin"
+          },
+          {
+            "id": "1",
+            "text": "İki"
+          },
+          {
+            "id": "7",
+            "text": "EBOB"
+          },
+          {
+            "id": "5",
+            "text": "en"
+          },
+          {
+            "id": "3",
+            "text": "ortak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "İki sayının ortak bölenlerinin en büyüğüne EBOB denir. 12 ile 18'in ortak bölenleri 1, 2, 3, 6 olduğundan EBOB 6'dır."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek kuralı oluştur.",
+        "words": [
+          {
+            "id": "4",
+            "text": "toplamı"
+          },
+          {
+            "id": "7",
+            "text": "sayıdır"
+          },
+          {
+            "id": "1",
+            "text": "İki"
+          },
+          {
+            "id": "6",
+            "text": "çift"
+          },
+          {
+            "id": "3",
+            "text": "sayının"
+          },
+          {
+            "id": "5",
+            "text": "daima"
+          },
+          {
+            "id": "2",
+            "text": "tek"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "İki tek sayının toplamı daima çift sayıdır. (2a+1) + (2b+1) = 2(a+b+1) olduğu için sonuç her zaman 2'nin katıdır."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek üslü sayı kuralını oluştur.",
+        "words": [
+          {
+            "id": "3",
+            "text": "üslü"
+          },
+          {
+            "id": "6",
+            "text": "tabanlar"
+          },
+          {
+            "id": "1",
+            "text": "Üsleri"
+          },
+          {
+            "id": "5",
+            "text": "çarpılırken"
+          },
+          {
+            "id": "7",
+            "text": "çarpılır"
+          },
+          {
+            "id": "2",
+            "text": "eşit"
+          },
+          {
+            "id": "4",
+            "text": "sayılar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Üsleri eşit üslü sayılar çarpılırken tabanlar çarpılır: aⁿ · bⁿ = (a · b)ⁿ. Örnek: 2³ · 5³ = 10³."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek kuralı oluştur.",
+        "words": [
+          {
+            "id": "4",
+            "text": "kuvveti"
+          },
+          {
+            "id": "1",
+            "text": "Negatif"
+          },
+          {
+            "id": "6",
+            "text": "negatiftir"
+          },
+          {
+            "id": "3",
+            "text": "tek"
+          },
+          {
+            "id": "5",
+            "text": "daima"
+          },
+          {
+            "id": "2",
+            "text": "sayıların"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "Negatif sayıların tek kuvveti daima negatiftir. (−2)³ = −8, (−2)⁵ = −32 olur; çift kuvvetlerde ise sonuç pozitiftir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen sayılardan asal olanı işaretle.",
+        "image": "diagrams/temel-kavramlar-asal-sayilar.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "51"
+          },
+          {
+            "id": "2",
+            "text": "57"
+          },
+          {
+            "id": "3",
+            "text": "61"
+          },
+          {
+            "id": "4",
+            "text": "87"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "51 = 3 · 17, 57 = 3 · 19, 87 = 3 · 29 olduğundan bunlar bileşiktir. 61 ise 2, 3, 5 ve 7'ye bölünmediği için asaldır."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen sayılardan 11 ile tam bölüneni işaretle.",
+        "image": "diagrams/bolunebilme-onbir-kurali.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "2451"
+          },
+          {
+            "id": "2",
+            "text": "3146"
+          },
+          {
+            "id": "3",
+            "text": "5283"
+          },
+          {
+            "id": "4",
+            "text": "7412"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "11 kuralında rakamlar sağdan sola dönüşümlü olarak toplanıp çıkarılır. 3146 için 6 − 4 + 1 − 3 = 0 bulunur; 3146 = 11 · 286'dır. Diğerlerinde sonuç 11'in katı değildir."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen sayı çiftlerinden aralarında asal olanı işaretle.",
+        "image": "diagrams/ebob-aralarinda-asal.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "14 ve 21"
+          },
+          {
+            "id": "2",
+            "text": "18 ve 24"
+          },
+          {
+            "id": "3",
+            "text": "15 ve 28"
+          },
+          {
+            "id": "4",
+            "text": "20 ve 30"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "15 = 3 · 5 ve 28 = 2² · 7 olduğundan ortak asal çarpanı yoktur, EBOB'ları 1'dir. Diğer çiftlerin EBOB'u sırasıyla 7, 6 ve 10'dur."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen üslü ifadelerden değeri en büyük olanı işaretle.",
+        "image": "diagrams/uslu-sayilar-karsilastirma.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "3⁶"
+          },
+          {
+            "id": "2",
+            "text": "5⁴"
+          },
+          {
+            "id": "3",
+            "text": "10³"
+          },
+          {
+            "id": "4",
+            "text": "2¹⁰"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "4"
+      },
+      "explanation": "3⁶ = 729, 5⁴ = 625, 10³ = 1000 ve 2¹⁰ = 1024'tür. En büyük değer 2¹⁰ ifadesine aittir."
+    },
+    {
+      "topic": "bolme_ve_bolunebilme",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her bölünebilme ölçütünü, ölçütün ait olduğu bölenle etiketle.",
+        "image": "diagrams/bolunebilme-kurallari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Son iki basamağın oluşturduğu sayı bu sayının katıdır"
+          },
+          {
+            "id": "2",
+            "text": "Rakamları toplamı bu sayının katıdır"
+          },
+          {
+            "id": "3",
+            "text": "Son rakam 0 veya 5'tir"
+          }
+        ],
+        "labels": [
+          "4",
+          "9",
+          "5",
+          "3"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "4",
+          "2": "9",
+          "3": "5"
+        }
+      },
+      "explanation": "4 kuralı son iki basamağa, 9 kuralı rakamlar toplamına, 5 kuralı son rakama bakar. Çeldirici olan 3 kuralında da rakamlar toplamına bakılır ama bu ölçüt 9'un katı koşulunu gerektirmez."
+    },
+    {
+      "topic": "ebob_ve_ekok",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her problem durumunu, çözümde kullanılması gereken kavramla etiketle.",
+        "image": "diagrams/ebob-ekok-problem-tipleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Farklı uzunluktaki üç kurdeleyi artansız ve en büyük eşit parçalara ayırmak"
+          },
+          {
+            "id": "2",
+            "text": "Farklı aralıklarla kalkan iki otobüsün yeniden aynı anda kalkacağı zamanı bulmak"
+          },
+          {
+            "id": "3",
+            "text": "İki sayının ortak asal çarpanı olup olmadığını belirlemek"
+          }
+        ],
+        "labels": [
+          "EBOB",
+          "EKOK",
+          "EBOB'un 1'e eşit olması",
+          "Asal çarpanların toplamı"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "EBOB",
+          "2": "EKOK",
+          "3": "EBOB'un 1'e eşit olması"
+        }
+      },
+      "explanation": "Artansız ve en büyük eşit parçalara ayırmada EBOB, tekrar birlikte gerçekleşme zamanında EKOK kullanılır. Ortak asal çarpanı olmayan sayıların EBOB'u 1'dir."
+    },
+    {
+      "topic": "temel_kavramlar",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her sayıyı, en küçük asal çarpanıyla etiketle.",
+        "image": "diagrams/temel-kavramlar-asal-carpan.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "91"
+          },
+          {
+            "id": "2",
+            "text": "121"
+          },
+          {
+            "id": "3",
+            "text": "169"
+          }
+        ],
+        "labels": [
+          "7",
+          "11",
+          "13",
+          "3"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "7",
+          "2": "11",
+          "3": "13"
+        }
+      },
+      "explanation": "91 = 7 · 13, 121 = 11² ve 169 = 13²'dir. Üç sayının hiçbiri 3'e bölünmediği için 3 çeldiricidir."
+    },
+    {
+      "topic": "uslu_sayilar",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her işlemi, üslü biçimde sadeleşmiş sonucuyla etiketle.",
+        "image": "diagrams/uslu-sayilar-kurallari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "2⁵ · 2³"
+          },
+          {
+            "id": "2",
+            "text": "2⁵ ÷ 2³"
+          },
+          {
+            "id": "3",
+            "text": "(2⁵)³"
+          }
+        ],
+        "labels": [
+          "2⁸",
+          "2²",
+          "2¹⁵",
+          "2⁵"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "2⁸",
+          "2": "2²",
+          "3": "2¹⁵"
+        }
+      },
+      "explanation": "Çarpmada üsler toplanır (5+3 = 8), bölmede çıkarılır (5−3 = 2), kuvvetin kuvvetinde çarpılır (5·3 = 15)."
     }
   ]
 }

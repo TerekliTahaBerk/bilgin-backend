@@ -36,409 +36,755 @@
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 1,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "She ____ in Istanbul since 2015.",
         "options": [
-          { "id": "a", "text": "has lived" },
-          { "id": "b", "text": "lived" },
-          { "id": "c", "text": "lives" },
-          { "id": "d", "text": "is living" }
+          {
+            "id": "a",
+            "text": "has lived"
+          },
+          {
+            "id": "b",
+            "text": "lived"
+          },
+          {
+            "id": "c",
+            "text": "lives"
+          },
+          {
+            "id": "d",
+            "text": "is living"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"since\" + geçmişte başlayıp hâlâ süren durum → Present Perfect. \"since 2015\" gördüğünde refleks bu olmalı."
     },
     {
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "When I arrived at the station, the train ____.",
         "options": [
-          { "id": "a", "text": "had already left" },
-          { "id": "b", "text": "has already left" },
-          { "id": "c", "text": "already left" },
-          { "id": "d", "text": "was already leaving" }
+          {
+            "id": "a",
+            "text": "had already left"
+          },
+          {
+            "id": "b",
+            "text": "has already left"
+          },
+          {
+            "id": "c",
+            "text": "already left"
+          },
+          {
+            "id": "d",
+            "text": "was already leaving"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Geçmişte iki olay varsa ÖNCE olan Past Perfect, sonra olan Simple Past olur."
     },
     {
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "By the time you get there, the meeting ____.",
         "options": [
-          { "id": "a", "text": "will have finished" },
-          { "id": "b", "text": "will finish" },
-          { "id": "c", "text": "finishes" },
-          { "id": "d", "text": "has finished" }
+          {
+            "id": "a",
+            "text": "will have finished"
+          },
+          {
+            "id": "b",
+            "text": "will finish"
+          },
+          {
+            "id": "c",
+            "text": "finishes"
+          },
+          {
+            "id": "d",
+            "text": "has finished"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"By the time\" + gelecekteki bir ana kadar tamamlanmış eylem → Future Perfect."
     },
     {
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "I ____ for three hours when she finally called.",
         "options": [
-          { "id": "a", "text": "had been waiting" },
-          { "id": "b", "text": "have been waiting" },
-          { "id": "c", "text": "was waiting" },
-          { "id": "d", "text": "waited" }
+          {
+            "id": "a",
+            "text": "had been waiting"
+          },
+          {
+            "id": "b",
+            "text": "have been waiting"
+          },
+          {
+            "id": "c",
+            "text": "was waiting"
+          },
+          {
+            "id": "d",
+            "text": "waited"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Geçmişteki bir ana kadar SÜREN eylem → Past Perfect Continuous. \"for three hours\" süreyi vurguluyor."
     },
     {
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "Water ____ at 100 degrees Celsius.",
         "options": [
-          { "id": "a", "text": "boils" },
-          { "id": "b", "text": "is boiling" },
-          { "id": "c", "text": "boiled" },
-          { "id": "d", "text": "has boiled" }
+          {
+            "id": "a",
+            "text": "boils"
+          },
+          {
+            "id": "b",
+            "text": "is boiling"
+          },
+          {
+            "id": "c",
+            "text": "boiled"
+          },
+          {
+            "id": "d",
+            "text": "has boiled"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Bilimsel gerçekler ve değişmez durumlar Simple Present ile anlatılır."
     },
     {
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "This time next week, I ____ on a beach in Antalya.",
         "options": [
-          { "id": "a", "text": "will be lying" },
-          { "id": "b", "text": "will lie" },
-          { "id": "c", "text": "lie" },
-          { "id": "d", "text": "have lain" }
+          {
+            "id": "a",
+            "text": "will be lying"
+          },
+          {
+            "id": "b",
+            "text": "will lie"
+          },
+          {
+            "id": "c",
+            "text": "lie"
+          },
+          {
+            "id": "d",
+            "text": "have lain"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Gelecekte BELİRLİ bir anda sürmekte olacak eylem → Future Continuous."
     },
     {
       "topic": "tenses",
       "type": "multiple_choice",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "He ____ the report by the time the manager arrives tomorrow.",
         "options": [
-          { "id": "a", "text": "will have completed" },
-          { "id": "b", "text": "completes" },
-          { "id": "c", "text": "will complete" },
-          { "id": "d", "text": "had completed" }
+          {
+            "id": "a",
+            "text": "will have completed"
+          },
+          {
+            "id": "b",
+            "text": "completes"
+          },
+          {
+            "id": "c",
+            "text": "will complete"
+          },
+          {
+            "id": "d",
+            "text": "had completed"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"by the time\" sonrası Simple Present kullanılır ama ana cümle Future Perfect olur."
     },
     {
       "topic": "modals",
       "type": "multiple_choice",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "You ____ be tired after such a long flight.",
         "options": [
-          { "id": "a", "text": "must" },
-          { "id": "b", "text": "can't" },
-          { "id": "c", "text": "needn't" },
-          { "id": "d", "text": "shouldn't" }
+          {
+            "id": "a",
+            "text": "must"
+          },
+          {
+            "id": "b",
+            "text": "can't"
+          },
+          {
+            "id": "c",
+            "text": "needn't"
+          },
+          {
+            "id": "d",
+            "text": "shouldn't"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Güçlü olumlu tahmin → \"must\". Güçlü olumsuz tahmin ise \"can't\"tir."
     },
     {
       "topic": "modals",
       "type": "multiple_choice",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "She ____ have studied harder; she failed the exam.",
         "options": [
-          { "id": "a", "text": "should" },
-          { "id": "b", "text": "must" },
-          { "id": "c", "text": "can" },
-          { "id": "d", "text": "would" }
+          {
+            "id": "a",
+            "text": "should"
+          },
+          {
+            "id": "b",
+            "text": "must"
+          },
+          {
+            "id": "c",
+            "text": "can"
+          },
+          {
+            "id": "d",
+            "text": "would"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"should have + V3\": geçmişte yapılması gerekip YAPILMAYAN şey; pişmanlık ve eleştiri bildirir."
     },
     {
       "topic": "modals",
       "type": "multiple_choice",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "He ____ have taken my umbrella; I saw it in his hand.",
         "options": [
-          { "id": "a", "text": "must" },
-          { "id": "b", "text": "can't" },
-          { "id": "c", "text": "needn't" },
-          { "id": "d", "text": "might not" }
+          {
+            "id": "a",
+            "text": "must"
+          },
+          {
+            "id": "b",
+            "text": "can't"
+          },
+          {
+            "id": "c",
+            "text": "needn't"
+          },
+          {
+            "id": "d",
+            "text": "might not"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"must have + V3\": geçmişe yönelik güçlü, kanıta dayanan tahmin."
     },
     {
       "topic": "modals",
       "type": "multiple_choice",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "You ____ have bought bread; we already had two loaves at home.",
         "options": [
-          { "id": "a", "text": "needn't" },
-          { "id": "b", "text": "mustn't" },
-          { "id": "c", "text": "couldn't" },
-          { "id": "d", "text": "shouldn't" }
+          {
+            "id": "a",
+            "text": "needn't"
+          },
+          {
+            "id": "b",
+            "text": "mustn't"
+          },
+          {
+            "id": "c",
+            "text": "couldn't"
+          },
+          {
+            "id": "d",
+            "text": "shouldn't"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"needn't have + V3\": yapıldı ama GEREKSİZDİ. \"shouldn't have\" ise yapılmaması gereken yanlış bir şeyi anlatır."
     },
     {
       "topic": "modals",
       "type": "multiple_choice",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "Visitors ____ feed the animals in the zoo. It is strictly forbidden.",
         "options": [
-          { "id": "a", "text": "mustn't" },
-          { "id": "b", "text": "needn't" },
-          { "id": "c", "text": "don't have to" },
-          { "id": "d", "text": "might not" }
+          {
+            "id": "a",
+            "text": "mustn't"
+          },
+          {
+            "id": "b",
+            "text": "needn't"
+          },
+          {
+            "id": "c",
+            "text": "don't have to"
+          },
+          {
+            "id": "d",
+            "text": "might not"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"mustn't\" YASAK, \"don't have to\" ise GEREKSİZ demektir. İkisi birbirinin olumsuzu değildir."
     },
     {
       "topic": "sentence_completion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "____ the weather was terrible, we enjoyed our holiday.",
         "options": [
-          { "id": "a", "text": "Although" },
-          { "id": "b", "text": "Because" },
-          { "id": "c", "text": "So that" },
-          { "id": "d", "text": "In case" }
+          {
+            "id": "a",
+            "text": "Although"
+          },
+          {
+            "id": "b",
+            "text": "Because"
+          },
+          {
+            "id": "c",
+            "text": "So that"
+          },
+          {
+            "id": "d",
+            "text": "In case"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "İki yargı arasında ZITLIK var → \"Although\". Bağlaç sorularında önce anlam ilişkisini belirle."
     },
     {
       "topic": "sentence_completion",
       "type": "multiple_choice",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "The project was cancelled ____ a lack of funding.",
         "options": [
-          { "id": "a", "text": "due to" },
-          { "id": "b", "text": "because" },
-          { "id": "c", "text": "although" },
-          { "id": "d", "text": "so" }
+          {
+            "id": "a",
+            "text": "due to"
+          },
+          {
+            "id": "b",
+            "text": "because"
+          },
+          {
+            "id": "c",
+            "text": "although"
+          },
+          {
+            "id": "d",
+            "text": "so"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"due to\" ve \"because of\" İSİM alır; \"because\" ise CÜMLE alır. Boşluktan sonra isim var."
     },
     {
       "topic": "sentence_completion",
       "type": "multiple_choice",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "Not only ____ the exam, but he also got the highest score.",
         "options": [
-          { "id": "a", "text": "did he pass" },
-          { "id": "b", "text": "he passed" },
-          { "id": "c", "text": "he did pass" },
-          { "id": "d", "text": "passed he" }
+          {
+            "id": "a",
+            "text": "did he pass"
+          },
+          {
+            "id": "b",
+            "text": "he passed"
+          },
+          {
+            "id": "c",
+            "text": "he did pass"
+          },
+          {
+            "id": "d",
+            "text": "passed he"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Olumsuz bir ifade cümle başına gelince DEVRİK yapı kullanılır: Not only + yardımcı fiil + özne + fiil."
     },
     {
       "topic": "tenses",
       "type": "true_false",
       "difficulty": 1,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "statement": "\"Since\" ve \"for\" genellikle Present Perfect ile kullanılır."
       },
-      "answer_key": { "value": true },
+      "answer_key": {
+        "value": true
+      },
       "explanation": "Doğru. \"since\" başlangıç noktası, \"for\" süre belirtir."
     },
     {
       "topic": "tenses",
       "type": "true_false",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "statement": "\"Yesterday\" ve \"last week\" gibi belirli geçmiş zaman ifadeleri Present Perfect ile kullanılabilir."
       },
-      "answer_key": { "value": false },
+      "answer_key": {
+        "value": false
+      },
       "explanation": "Yanlış. Belirli geçmiş zaman ifadeleri Simple Past gerektirir. Present Perfect belirli zaman kabul etmez."
     },
     {
       "topic": "modals",
       "type": "true_false",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "statement": "\"Mustn't\" ile \"don't have to\" aynı anlama gelir."
       },
-      "answer_key": { "value": false },
+      "answer_key": {
+        "value": false
+      },
       "explanation": "Yanlış. \"mustn't\" yasak, \"don't have to\" gereksizlik bildirir — anlamları neredeyse zıttır."
     },
     {
       "topic": "modals",
       "type": "true_false",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "statement": "\"Can't have + V3\" geçmişe yönelik güçlü olumsuz tahmin bildirir."
       },
-      "answer_key": { "value": true },
+      "answer_key": {
+        "value": true
+      },
       "explanation": "Doğru. \"He can't have seen me\" = Beni görmüş olamaz."
     },
     {
       "topic": "sentence_completion",
       "type": "true_false",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "statement": "\"Despite\" bağlacından sonra tam bir cümle (özne + yüklem) gelir."
       },
-      "answer_key": { "value": false },
+      "answer_key": {
+        "value": false
+      },
       "explanation": "Yanlış. \"Despite\" isim ya da -ing alır; cümle için \"although\" kullanılır."
     },
     {
       "topic": "tenses",
       "type": "fill_blank",
       "difficulty": 1,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "template": "They {{0}} to Paris three times.",
-        "choices": ["have been", "went", "are going", "had been"]
+        "choices": [
+          "have been",
+          "went",
+          "are going",
+          "had been"
+        ]
       },
-      "answer_key": { "blanks": ["have been"] },
+      "answer_key": {
+        "blanks": [
+          "have been"
+        ]
+      },
       "explanation": "Yaşam boyu deneyim ve tekrar sayısı → Present Perfect."
     },
     {
       "topic": "tenses",
       "type": "fill_blank",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "template": "While I {{0}} dinner, the phone rang.",
-        "choices": ["was cooking", "cooked", "have cooked", "cook"]
+        "choices": [
+          "was cooking",
+          "cooked",
+          "have cooked",
+          "cook"
+        ]
       },
-      "answer_key": { "blanks": ["was cooking"] },
+      "answer_key": {
+        "blanks": [
+          "was cooking"
+        ]
+      },
       "explanation": "\"While\" süren eylem için Past Continuous; kesen kısa eylem Simple Past olur."
     },
     {
       "topic": "modals",
       "type": "fill_blank",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "template": "You {{0}} wear a helmet when riding a motorcycle. It is the law.",
-        "choices": ["must", "might", "could", "may"]
+        "choices": [
+          "must",
+          "might",
+          "could",
+          "may"
+        ]
       },
-      "answer_key": { "blanks": ["must"] },
+      "answer_key": {
+        "blanks": [
+          "must"
+        ]
+      },
       "explanation": "Yasal zorunluluk → \"must\" ya da \"have to\"."
     },
     {
       "topic": "modals",
       "type": "fill_blank",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "template": "If I had known, I {{0}} helped you.",
-        "choices": ["would have", "will have", "would", "had"]
+        "choices": [
+          "would have",
+          "will have",
+          "would",
+          "had"
+        ]
       },
-      "answer_key": { "blanks": ["would have"] },
+      "answer_key": {
+        "blanks": [
+          "would have"
+        ]
+      },
       "explanation": "Type 3 Conditional: If + had V3, would have V3. Geçmişte GERÇEKLEŞMEMİŞ durum."
     },
     {
       "topic": "sentence_completion",
       "type": "fill_blank",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "template": "{{0}} of the heavy rain, the match was postponed.",
-        "choices": ["Because", "Although", "Despite", "Unless"]
+        "choices": [
+          "Because",
+          "Although",
+          "Despite",
+          "Unless"
+        ]
       },
-      "answer_key": { "blanks": ["Because"] },
+      "answer_key": {
+        "blanks": [
+          "Because"
+        ]
+      },
       "explanation": "\"Because of\" + isim yapısı; sebep bildirir."
     },
     {
       "topic": "tenses",
       "type": "matching",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Zaman ifadesini uygun tense ile birleştir.",
         "left": [
-          { "id": "1", "text": "since 2010 / for five years" },
-          { "id": "2", "text": "yesterday / last night" },
-          { "id": "3", "text": "by the time (future)" },
-          { "id": "4", "text": "right now / at the moment" }
+          {
+            "id": "1",
+            "text": "since 2010 / for five years"
+          },
+          {
+            "id": "2",
+            "text": "yesterday / last night"
+          },
+          {
+            "id": "3",
+            "text": "by the time (future)"
+          },
+          {
+            "id": "4",
+            "text": "right now / at the moment"
+          }
         ],
         "right": [
-          { "id": "a", "text": "Present Perfect" },
-          { "id": "b", "text": "Simple Past" },
-          { "id": "c", "text": "Future Perfect" },
-          { "id": "d", "text": "Present Continuous" }
+          {
+            "id": "a",
+            "text": "Present Perfect"
+          },
+          {
+            "id": "b",
+            "text": "Simple Past"
+          },
+          {
+            "id": "c",
+            "text": "Future Perfect"
+          },
+          {
+            "id": "d",
+            "text": "Present Continuous"
+          }
         ]
       },
       "answer_key": {
-        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
         "partial_credit": true
       },
       "explanation": "Zaman zarfı, doğru tense'i bulmanın en hızlı yoludur."
@@ -447,24 +793,55 @@
       "topic": "modals",
       "type": "matching",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Modal yapıyı anlamıyla birleştir.",
         "left": [
-          { "id": "1", "text": "must have V3" },
-          { "id": "2", "text": "should have V3" },
-          { "id": "3", "text": "needn't have V3" },
-          { "id": "4", "text": "can't have V3" }
+          {
+            "id": "1",
+            "text": "must have V3"
+          },
+          {
+            "id": "2",
+            "text": "should have V3"
+          },
+          {
+            "id": "3",
+            "text": "needn't have V3"
+          },
+          {
+            "id": "4",
+            "text": "can't have V3"
+          }
         ],
         "right": [
-          { "id": "a", "text": "Kesine yakın geçmiş tahmini" },
-          { "id": "b", "text": "Yapılmalıydı ama yapılmadı" },
-          { "id": "c", "text": "Yapıldı ama gereksizdi" },
-          { "id": "d", "text": "Olmuş olamaz" }
+          {
+            "id": "a",
+            "text": "Kesine yakın geçmiş tahmini"
+          },
+          {
+            "id": "b",
+            "text": "Yapılmalıydı ama yapılmadı"
+          },
+          {
+            "id": "c",
+            "text": "Yapıldı ama gereksizdi"
+          },
+          {
+            "id": "d",
+            "text": "Olmuş olamaz"
+          }
         ]
       },
       "answer_key": {
-        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
         "partial_credit": true
       },
       "explanation": "Dört yapı da \"have + V3\" alır; ayrım yalnızca modal'da ve YDT bunu sürekli sorar."
@@ -473,24 +850,55 @@
       "topic": "sentence_completion",
       "type": "matching",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Bağlacı sonrasında aldığı yapıyla birleştir.",
         "left": [
-          { "id": "1", "text": "although / though" },
-          { "id": "2", "text": "despite / in spite of" },
-          { "id": "3", "text": "because" },
-          { "id": "4", "text": "because of / due to" }
+          {
+            "id": "1",
+            "text": "although / though"
+          },
+          {
+            "id": "2",
+            "text": "despite / in spite of"
+          },
+          {
+            "id": "3",
+            "text": "because"
+          },
+          {
+            "id": "4",
+            "text": "because of / due to"
+          }
         ],
         "right": [
-          { "id": "a", "text": "Cümle (özne + yüklem) — zıtlık" },
-          { "id": "b", "text": "İsim / -ing — zıtlık" },
-          { "id": "c", "text": "Cümle — sebep" },
-          { "id": "d", "text": "İsim — sebep" }
+          {
+            "id": "a",
+            "text": "Cümle (özne + yüklem) — zıtlık"
+          },
+          {
+            "id": "b",
+            "text": "İsim / -ing — zıtlık"
+          },
+          {
+            "id": "c",
+            "text": "Cümle — sebep"
+          },
+          {
+            "id": "d",
+            "text": "İsim — sebep"
+          }
         ]
       },
       "answer_key": {
-        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
         "partial_credit": true
       },
       "explanation": "Anlam aynı, DİLBİLGİSEL yapı farklı. Sınav sorularının çoğu bu farkı ölçer."
@@ -499,24 +907,55 @@
       "topic": "tenses",
       "type": "matching",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Conditional tipini anlamıyla birleştir.",
         "left": [
-          { "id": "1", "text": "Type 0" },
-          { "id": "2", "text": "Type 1" },
-          { "id": "3", "text": "Type 2" },
-          { "id": "4", "text": "Type 3" }
+          {
+            "id": "1",
+            "text": "Type 0"
+          },
+          {
+            "id": "2",
+            "text": "Type 1"
+          },
+          {
+            "id": "3",
+            "text": "Type 2"
+          },
+          {
+            "id": "4",
+            "text": "Type 3"
+          }
         ],
         "right": [
-          { "id": "a", "text": "Genel gerçek (If you heat ice, it melts)" },
-          { "id": "b", "text": "Gerçekleşmesi mümkün gelecek" },
-          { "id": "c", "text": "Şimdiki zamanda hayalî durum" },
-          { "id": "d", "text": "Geçmişte gerçekleşmemiş durum" }
+          {
+            "id": "a",
+            "text": "Genel gerçek (If you heat ice, it melts)"
+          },
+          {
+            "id": "b",
+            "text": "Gerçekleşmesi mümkün gelecek"
+          },
+          {
+            "id": "c",
+            "text": "Şimdiki zamanda hayalî durum"
+          },
+          {
+            "id": "d",
+            "text": "Geçmişte gerçekleşmemiş durum"
+          }
         ]
       },
       "answer_key": {
-        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
         "partial_credit": true
       },
       "explanation": "Type 3'te pişmanlık vardır ve her zaman \"had V3 / would have V3\" yapısı kullanılır."
@@ -525,190 +964,3271 @@
       "topic": "tenses",
       "type": "ordering",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Olayları zaman sırasına göre eskiden yeniye diz.",
         "items": [
-          { "id": "1", "text": "Past Perfect (had done)" },
-          { "id": "2", "text": "Simple Past (did)" },
-          { "id": "3", "text": "Present Perfect (have done)" },
-          { "id": "4", "text": "Future Perfect (will have done)" }
+          {
+            "id": "1",
+            "text": "Past Perfect (had done)"
+          },
+          {
+            "id": "2",
+            "text": "Simple Past (did)"
+          },
+          {
+            "id": "3",
+            "text": "Present Perfect (have done)"
+          },
+          {
+            "id": "4",
+            "text": "Future Perfect (will have done)"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
       "explanation": "Past Perfect geçmişin geçmişidir; Future Perfect geleceğin bir noktasına kadar tamamlanır."
     },
     {
       "topic": "sentence_completion",
       "type": "ordering",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "İngilizce cümlede temel sıralamayı diz.",
         "items": [
-          { "id": "1", "text": "Subject (özne)" },
-          { "id": "2", "text": "Verb (yüklem)" },
-          { "id": "3", "text": "Object (nesne)" },
-          { "id": "4", "text": "Adverbial (zarf)" }
+          {
+            "id": "1",
+            "text": "Subject (özne)"
+          },
+          {
+            "id": "2",
+            "text": "Verb (yüklem)"
+          },
+          {
+            "id": "3",
+            "text": "Object (nesne)"
+          },
+          {
+            "id": "4",
+            "text": "Adverbial (zarf)"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
       "explanation": "SVO + zarf. Türkçeden en büyük fark: yüklem cümlenin SONUNDA değil, başa yakındır."
     },
     {
       "topic": "modals",
       "type": "ordering",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Modal'ları olasılık derecesine göre zayıftan güçlüye diz.",
         "items": [
-          { "id": "1", "text": "might / may" },
-          { "id": "2", "text": "could" },
-          { "id": "3", "text": "should" },
-          { "id": "4", "text": "must" }
+          {
+            "id": "1",
+            "text": "might / may"
+          },
+          {
+            "id": "2",
+            "text": "could"
+          },
+          {
+            "id": "3",
+            "text": "should"
+          },
+          {
+            "id": "4",
+            "text": "must"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
       "explanation": "\"must\" kesine yakın, \"might\" en zayıf tahmindir."
     },
     {
       "topic": "tenses",
       "type": "numeric_input",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "İngilizcede kaç temel conditional (if) tipi vardır? (Type 0 dâhil)",
         "suffix": "tip"
       },
-      "answer_key": { "value": 4, "tolerance": 0 },
+      "answer_key": {
+        "value": 4,
+        "tolerance": 0
+      },
       "explanation": "Type 0, 1, 2 ve 3. Bunlara ek olarak \"mixed conditional\" yapıları da vardır."
     },
     {
       "topic": "tenses",
       "type": "numeric_input",
       "difficulty": 4,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "YDT İngilizce sınavında toplam kaç soru sorulur?",
         "suffix": "soru"
       },
-      "answer_key": { "value": 80, "tolerance": 0 },
+      "answer_key": {
+        "value": 80,
+        "tolerance": 0
+      },
       "explanation": "Dil puanı için YDT'nin tamamı İngilizcedir; bu yüzden tek bir dersten 80 soru gelir."
     },
     {
       "topic": "modals",
       "type": "numeric_input",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "stem": "\"V3\" ifadesi fiilin kaçıncı hâlini gösterir?",
         "suffix": ". hâl"
       },
-      "answer_key": { "value": 3, "tolerance": 0 },
+      "answer_key": {
+        "value": 3,
+        "tolerance": 0
+      },
       "explanation": "V1 yalın, V2 geçmiş, V3 past participle. Perfect ve passive yapıların tamamı V3 ister."
     },
     {
       "topic": "tenses",
       "type": "flashcard",
       "difficulty": 1,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "front": "Present Perfect",
         "back": "have/has + V3. Geçmişte başlayıp etkisi süren ya da zamanı belirtilmemiş eylem. İpucu: since, for, just, already, yet, ever, never."
       },
-      "answer_key": { "self_assessed": true }
+      "answer_key": {
+        "self_assessed": true
+      }
     },
     {
       "topic": "tenses",
       "type": "flashcard",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "front": "Past Perfect",
         "back": "had + V3. \"Geçmişin geçmişi\": iki geçmiş olaydan ÖNCE gerçekleşeni anlatır."
       },
-      "answer_key": { "self_assessed": true }
+      "answer_key": {
+        "self_assessed": true
+      }
     },
     {
       "topic": "modals",
       "type": "flashcard",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "front": "mustn't ↔ don't have to",
         "back": "mustn't = YASAK. don't have to = gerekli değil. Türkçeye ikisi de \"-memeli\" gibi çevrilse de anlamları zıttır."
       },
-      "answer_key": { "self_assessed": true }
+      "answer_key": {
+        "self_assessed": true
+      }
     },
     {
       "topic": "sentence_completion",
       "type": "flashcard",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "front": "although ↔ despite",
         "back": "Anlam aynı (zıtlık), yapı farklı: although + CÜMLE, despite + İSİM/-ing. Sorular tam bu farkı ölçer."
       },
-      "answer_key": { "self_assessed": true }
+      "answer_key": {
+        "self_assessed": true
+      }
     },
     {
       "topic": "tenses",
       "type": "word_order",
       "difficulty": 2,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
         "words": [
-          { "id": "1", "text": "She" },
-          { "id": "2", "text": "has" },
-          { "id": "3", "text": "been" },
-          { "id": "4", "text": "studying" },
-          { "id": "5", "text": "for" },
-          { "id": "6", "text": "two" },
-          { "id": "7", "text": "hours" }
+          {
+            "id": "1",
+            "text": "She"
+          },
+          {
+            "id": "2",
+            "text": "has"
+          },
+          {
+            "id": "3",
+            "text": "been"
+          },
+          {
+            "id": "4",
+            "text": "studying"
+          },
+          {
+            "id": "5",
+            "text": "for"
+          },
+          {
+            "id": "6",
+            "text": "two"
+          },
+          {
+            "id": "7",
+            "text": "hours"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
       "explanation": "Present Perfect Continuous: have/has + been + V-ing."
     },
     {
       "topic": "modals",
       "type": "word_order",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
         "words": [
-          { "id": "1", "text": "You" },
-          { "id": "2", "text": "should" },
-          { "id": "3", "text": "have" },
-          { "id": "4", "text": "told" },
-          { "id": "5", "text": "me" },
-          { "id": "6", "text": "earlier" }
+          {
+            "id": "1",
+            "text": "You"
+          },
+          {
+            "id": "2",
+            "text": "should"
+          },
+          {
+            "id": "3",
+            "text": "have"
+          },
+          {
+            "id": "4",
+            "text": "told"
+          },
+          {
+            "id": "5",
+            "text": "me"
+          },
+          {
+            "id": "6",
+            "text": "earlier"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
       "explanation": "\"should have + V3\": yapılması gerekip yapılmayan şey."
     },
     {
       "topic": "sentence_completion",
       "type": "word_order",
       "difficulty": 3,
-      "scopes": ["ydt"],
+      "scopes": [
+        "ydt"
+      ],
       "content": {
         "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
         "words": [
-          { "id": "1", "text": "Despite" },
-          { "id": "2", "text": "the" },
-          { "id": "3", "text": "rain" },
-          { "id": "4", "text": "we" },
-          { "id": "5", "text": "went" },
-          { "id": "6", "text": "out" }
+          {
+            "id": "1",
+            "text": "Despite"
+          },
+          {
+            "id": "2",
+            "text": "the"
+          },
+          {
+            "id": "3",
+            "text": "rain"
+          },
+          {
+            "id": "4",
+            "text": "we"
+          },
+          {
+            "id": "5",
+            "text": "went"
+          },
+          {
+            "id": "6",
+            "text": "out"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
       "explanation": "\"Despite\" doğrudan isim alır; \"despite the rain was heavy\" yanlıştır."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "Present Continuous, konuşma anında devam eden eylemler için kullanılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"am/is/are + V-ing\" yapısı şu anda süren eylemi anlatır: \"She is studying now.\""
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "Simple Present yalnızca konuşma anında olan eylemler için kullanılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Simple Present alışkanlık, rutin ve genel gerçekler içindir. Konuşma anı için Present Continuous kullanılır."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "Past Perfect, geçmişteki iki olaydan daha önce gerçekleşmiş olanı belirtir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"The train had left before we arrived\" cümlesinde kalkış, varıştan öncedir."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Know\", \"believe\", \"own\" gibi durum fiilleri normalde continuous tense'lerde kullanılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bunlar \"state verbs\"tir ve continuous almaz: \"I know\" doğru, \"I am knowing\" yanlıştır."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Ago\" zarfı Simple Past ile kullanılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"two years ago\" belirli bir geçmiş nokta verdiği için Simple Past gerektirir."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"When\", \"after\", \"as soon as\" gibi zaman bağlaçlarından sonra gelecek zaman için \"will\" kullanılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bu bağlaçlardan sonra Simple Present gelir: \"I will call you as soon as I arrive.\""
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Can\" yetenek bildirmek için kullanılabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"She can swim\" cümlesinde \"can\" yetenek (ability) bildirir."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "Modal fiillerden sonra fiilin yalın hâli (V1) gelir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"must go\", \"can see\" — modal'dan sonra \"to\" ya da ek gelmez."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Could\", geçmişteki genel yeteneği anlatmak için kullanılabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"I could run fast when I was young\" — geçmişte süregelen yetenek."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Had better\" yapısından sonra fiil \"to\" ile gelir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"You had better leave now\" — \"had better\" yalın fiil alır, \"to leave\" yanlıştır."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "İzin isterken \"may\", \"can\"e göre daha resmî bir seçenektir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"May I come in?\" resmî, \"Can I come in?\" günlük konuşma dilindedir."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "Modal fiiller üçüncü tekil şahısta -s eki alır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"She can\" doğru, \"She cans\" yanlıştır; modal'lar şahsa göre çekimlenmez."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Unless\" bağlacının bulunduğu yan cümlenin yüklemi olumsuz yapılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"Unless\" kendisi \"if ... not\" anlamı taşır: \"Unless it rains\" = \"If it does not rain\"."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"So that\" bağlacı amaç bildirir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"She left early so that she could catch the train\" — amaç cümlesi, genellikle modal içerir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"In order to\" yapısından sonra -ing eki almış fiil gelir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"In order to\" yalın fiil alır: \"in order to pass the exam\". -ing için \"in order to\" değil, \"by\" gibi edatlar kullanılır."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "Be quiet! The baby {{0}} in the next room.",
+        "choices": [
+          "is sleeping",
+          "sleeps",
+          "slept",
+          "has slept"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "is sleeping"
+        ]
+      },
+      "explanation": "Konuşma anında süren eylem → Present Continuous."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "Water {{0}} at 100 degrees Celsius.",
+        "choices": [
+          "boils",
+          "is boiling",
+          "boiled",
+          "has boiled"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "boils"
+        ]
+      },
+      "explanation": "Değişmez bilimsel gerçek → Simple Present."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "My brother {{0}} to London last summer.",
+        "choices": [
+          "went",
+          "has gone",
+          "goes",
+          "had gone"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "went"
+        ]
+      },
+      "explanation": "\"Last summer\" belirli bir geçmiş zaman verdiği için Simple Past kullanılır."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "By the time we got to the station, the train {{0}}.",
+        "choices": [
+          "had left",
+          "has left",
+          "leaves",
+          "was leaving"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "had left"
+        ]
+      },
+      "explanation": "Geçmişteki iki olaydan önce olanı anlatmak için Past Perfect gerekir."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "She {{0}} her homework yet, so she cannot go out.",
+        "choices": [
+          "hasn't finished",
+          "didn't finish",
+          "doesn't finish",
+          "hadn't finished"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "hasn't finished"
+        ]
+      },
+      "explanation": "\"Yet\" olumsuz cümlede Present Perfect ile kullanılır: henüz tamamlanmamış, sonucu şimdiyi etkiliyor."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "This time next week, I {{0}} on a beach in Antalya.",
+        "choices": [
+          "will be lying",
+          "will lie",
+          "am lying",
+          "have lain"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "will be lying"
+        ]
+      },
+      "explanation": "Gelecekteki belirli bir anda sürmekte olacak eylem → Future Continuous."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "By 2030, scientists {{0}} a cure for this disease.",
+        "choices": [
+          "will have found",
+          "will find",
+          "have found",
+          "had found"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "will have found"
+        ]
+      },
+      "explanation": "\"By + gelecek tarih\" o tarihe kadar tamamlanmış olacak eylemi anlatır → Future Perfect."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "He {{0}} for the same company for ten years before he {{1}} last month.",
+        "choices": [
+          "had worked",
+          "resigned",
+          "has worked",
+          "was resigning",
+          "works",
+          "had resigned"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "had worked",
+          "resigned"
+        ]
+      },
+      "explanation": "Önce olan eylem Past Perfect, sonra olan eylem Simple Past olur: had worked ... resigned."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "You {{0}} smoke here; this is a hospital.",
+        "choices": [
+          "mustn't",
+          "don't have to",
+          "needn't",
+          "didn't have to"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "mustn't"
+        ]
+      },
+      "explanation": "Yasak bildirimi → \"mustn't\". \"Don't have to\" gereksizlik bildirir, yasak değil."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "It is Sunday tomorrow, so you {{0}} get up early.",
+        "choices": [
+          "don't have to",
+          "mustn't",
+          "can't",
+          "couldn't"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "don't have to"
+        ]
+      },
+      "explanation": "Zorunluluğun olmaması → \"don't have to\". Pazar günü erken kalkmak yasak değil, gereksizdir."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "All the lights are off. They {{0}} be asleep by now.",
+        "choices": [
+          "must",
+          "can't",
+          "needn't",
+          "shouldn't"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "must"
+        ]
+      },
+      "explanation": "Kanıta dayanan güçlü olumlu tahmin → \"must\" (deduction): Uyuyor olmalılar."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "You {{0}} have told me earlier; I would have helped you.",
+        "choices": [
+          "should",
+          "must",
+          "can",
+          "will"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "should"
+        ]
+      },
+      "explanation": "\"Should have V3\" geçmişte yapılmayan bir şey için eleştiri ya da pişmanlık bildirir."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "He {{0}} have passed the exam; he hadn't studied at all.",
+        "choices": [
+          "can't",
+          "must",
+          "should",
+          "needn't"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "can't"
+        ]
+      },
+      "explanation": "Geçmişe yönelik güçlü olumsuz tahmin → \"can't have V3\": Geçmiş olamaz."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "{{0}} she was very tired, she kept on working.",
+        "choices": [
+          "Although",
+          "Despite",
+          "Because of",
+          "So that"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Although"
+        ]
+      },
+      "explanation": "Ardından tam cümle (she was tired) geldiği için zıtlık bağlacı \"although\" kullanılır."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "He took a taxi {{0}} he wouldn't miss the meeting.",
+        "choices": [
+          "so that",
+          "in order to",
+          "because of",
+          "in spite of"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "so that"
+        ]
+      },
+      "explanation": "Amaç bildiren yan cümle özne + modal içeriyorsa \"so that\" kullanılır; \"in order to\" yalın fiil alır."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "{{0}} working for twelve hours, he was still full of energy.",
+        "choices": [
+          "Despite",
+          "Although",
+          "Because",
+          "Unless"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Despite"
+        ]
+      },
+      "explanation": "Ardından -ing gelen zıtlık ifadesi \"despite\" ya da \"in spite of\" olur; \"although\" cümle gerektirir."
+    },
+    {
+      "topic": "tenses",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Tense'i kullanım alanıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Simple Present"
+          },
+          {
+            "id": "2",
+            "text": "Present Perfect Continuous"
+          },
+          {
+            "id": "3",
+            "text": "Past Continuous"
+          },
+          {
+            "id": "4",
+            "text": "Future Continuous"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Geçmişte bir anda devam etmekte olan eylem"
+          },
+          {
+            "id": "b",
+            "text": "Alışkanlık ve değişmeyen genel gerçek"
+          },
+          {
+            "id": "c",
+            "text": "Gelecekte belirli bir anda sürmekte olacak eylem"
+          },
+          {
+            "id": "d",
+            "text": "Geçmişte başlayıp hâlâ süren eylemin süresi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Continuous yapılar süregelen eyleme, Simple Present ise genel gerçeğe bakar."
+    },
+    {
+      "topic": "modals",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Cümleyi modal'ın taşıdığı işlevle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "She can play the violin very well."
+          },
+          {
+            "id": "2",
+            "text": "May I use your phone for a second?"
+          },
+          {
+            "id": "3",
+            "text": "Cyclists have to wear a helmet here."
+          },
+          {
+            "id": "4",
+            "text": "He must be tired after that long flight."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Permission (izin isteme)"
+          },
+          {
+            "id": "b",
+            "text": "Deduction (mantıksal çıkarım)"
+          },
+          {
+            "id": "c",
+            "text": "Ability (yetenek)"
+          },
+          {
+            "id": "d",
+            "text": "Obligation (zorunluluk)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Aynı modal farklı işlevler taşıyabilir; işlevi belirleyen şey cümlenin bağlamıdır."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Bağlacı işleviyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "so that"
+          },
+          {
+            "id": "2",
+            "text": "in order to"
+          },
+          {
+            "id": "3",
+            "text": "unless"
+          },
+          {
+            "id": "4",
+            "text": "whereas"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Olumsuz koşul — \"if ... not\" anlamı"
+          },
+          {
+            "id": "b",
+            "text": "Amaç — ardından özne + yüklem gelir"
+          },
+          {
+            "id": "c",
+            "text": "Karşılaştırmalı zıtlık — iki durumu yan yana koyar"
+          },
+          {
+            "id": "d",
+            "text": "Amaç — ardından yalın fiil gelir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"so that\" cümle, \"in order to\" yalın fiil alır; ikisinin anlamı aynı, yapısı farklıdır."
+    },
+    {
+      "topic": "tenses",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Zaman ifadesini birlikte kullanıldığı tense ile birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "while I was cooking"
+          },
+          {
+            "id": "2",
+            "text": "by the time she arrived"
+          },
+          {
+            "id": "3",
+            "text": "every Monday morning"
+          },
+          {
+            "id": "4",
+            "text": "nowadays / these days"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Simple Present"
+          },
+          {
+            "id": "b",
+            "text": "Past Continuous"
+          },
+          {
+            "id": "c",
+            "text": "Present Continuous"
+          },
+          {
+            "id": "d",
+            "text": "Past Perfect"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"by the time\" geçmişteki bir andan önce bitmiş eylemi, yani Past Perfect'i işaret eder."
+    },
+    {
+      "topic": "modals",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Olumsuz modal yapıyı anlamıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "mustn't"
+          },
+          {
+            "id": "2",
+            "text": "don't have to"
+          },
+          {
+            "id": "3",
+            "text": "shouldn't"
+          },
+          {
+            "id": "4",
+            "text": "can't"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Gereksiz — yapmak zorunda değil"
+          },
+          {
+            "id": "b",
+            "text": "Yasak — yapılması kesinlikle uygun değil"
+          },
+          {
+            "id": "c",
+            "text": "İmkânsız — yapma gücü/olanağı yok"
+          },
+          {
+            "id": "d",
+            "text": "Tavsiye — yapmaması daha iyi olur"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "En çok karıştırılan çift \"mustn't\" ile \"don't have to\"dur: biri yasak, diğeri serbestlik bildirir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Geçiş ifadesini anlam ilişkisiyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "moreover / furthermore"
+          },
+          {
+            "id": "2",
+            "text": "however / nevertheless"
+          },
+          {
+            "id": "3",
+            "text": "therefore / thus"
+          },
+          {
+            "id": "4",
+            "text": "otherwise"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Zıtlık — önceki bilgiyle ters yönde"
+          },
+          {
+            "id": "b",
+            "text": "Ekleme — aynı yönde yeni bilgi"
+          },
+          {
+            "id": "c",
+            "text": "Aksi hâlde — istenmeyen sonucu bildirir"
+          },
+          {
+            "id": "d",
+            "text": "Sonuç — önceki bilgiden çıkan"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Paragraf sorularında boşluğun iki yanındaki cümleler aynı yönde mi ters yönde mi, önce buna bakılır."
+    },
+    {
+      "topic": "tenses",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Edilgen yapıyı ait olduğu tense ile birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "is being built"
+          },
+          {
+            "id": "2",
+            "text": "has been built"
+          },
+          {
+            "id": "3",
+            "text": "was built"
+          },
+          {
+            "id": "4",
+            "text": "will be built"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Simple Past Passive"
+          },
+          {
+            "id": "b",
+            "text": "Present Continuous Passive"
+          },
+          {
+            "id": "c",
+            "text": "Simple Future Passive"
+          },
+          {
+            "id": "d",
+            "text": "Present Perfect Passive"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Edilgen çatıda tense'i belirleyen \"be\" fiilinin hâlidir; ana fiil her zaman V3 kalır."
+    },
+    {
+      "topic": "modals",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Alışkanlık yapısını anlamıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "used to + V1"
+          },
+          {
+            "id": "2",
+            "text": "be used to + V-ing"
+          },
+          {
+            "id": "3",
+            "text": "get used to + V-ing"
+          },
+          {
+            "id": "4",
+            "text": "would + V1"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bir şeye alışkın olmak, yabancı gelmemek"
+          },
+          {
+            "id": "b",
+            "text": "Geçmişte olan, artık olmayan alışkanlık"
+          },
+          {
+            "id": "c",
+            "text": "Geçmişte tekrarlanan eylem (durum fiilleriyle kullanılmaz)"
+          },
+          {
+            "id": "d",
+            "text": "Bir şeye zamanla alışmak, alışma süreci"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"used to\" yalın fiil, \"be/get used to\" ise -ing ya da isim alır; YDT bu farkı sıkça sorar."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "İlgi zamirini gösterdiği öğeyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "who"
+          },
+          {
+            "id": "2",
+            "text": "which"
+          },
+          {
+            "id": "3",
+            "text": "whose"
+          },
+          {
+            "id": "4",
+            "text": "where"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Cansız varlık ya da hayvan"
+          },
+          {
+            "id": "b",
+            "text": "İnsan"
+          },
+          {
+            "id": "c",
+            "text": "Yer"
+          },
+          {
+            "id": "d",
+            "text": "Aitlik — bir şeyin sahibi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"whose\" ardından doğrudan isim gelir; \"where\" ise yer bildiren isimleri niteler."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce soru cümlesi oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "go"
+          },
+          {
+            "id": "2",
+            "text": "Where"
+          },
+          {
+            "id": "3",
+            "text": "yesterday"
+          },
+          {
+            "id": "4",
+            "text": "did"
+          },
+          {
+            "id": "5",
+            "text": "you"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Where did you go yesterday? Soru sözcüğü + yardımcı fiil + özne + yalın fiil + zaman zarfı."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Sıfatları İngilizce sıfat sıralaması kuralına göre diz; son öğe isim olacak.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Italian"
+          },
+          {
+            "id": "2",
+            "text": "two"
+          },
+          {
+            "id": "3",
+            "text": "paintings"
+          },
+          {
+            "id": "4",
+            "text": "beautiful"
+          },
+          {
+            "id": "5",
+            "text": "old"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "two beautiful old Italian paintings. Sıra: sayı → görüş → yaş → köken → isim."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Cümleleri anlattıkları olayların zaman sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "He will retire in 2040."
+          },
+          {
+            "id": "2",
+            "text": "By 2010 he had graduated from university."
+          },
+          {
+            "id": "3",
+            "text": "He has been working at this company since 2015."
+          },
+          {
+            "id": "4",
+            "text": "In 2012 he started his first job."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Past Perfect en eski olayı, Present Perfect Continuous bugüne uzanan süreci, \"will\" ise geleceği anlatır."
+    },
+    {
+      "topic": "modals",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "told"
+          },
+          {
+            "id": "2",
+            "text": "should"
+          },
+          {
+            "id": "3",
+            "text": "me"
+          },
+          {
+            "id": "4",
+            "text": "You"
+          },
+          {
+            "id": "5",
+            "text": "have"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "You should have told me. Geçmişe yönelik sitem: özne + should + have + V3 + nesne."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "studying"
+          },
+          {
+            "id": "2",
+            "text": "She"
+          },
+          {
+            "id": "3",
+            "text": "for three hours"
+          },
+          {
+            "id": "4",
+            "text": "been"
+          },
+          {
+            "id": "5",
+            "text": "has"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "She has been studying for three hours. Present Perfect Continuous: has/have + been + V-ing."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce edilgen cümle oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "being"
+          },
+          {
+            "id": "2",
+            "text": "last week"
+          },
+          {
+            "id": "3",
+            "text": "The bridge"
+          },
+          {
+            "id": "4",
+            "text": "repaired"
+          },
+          {
+            "id": "5",
+            "text": "was"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "The bridge was being repaired last week. Past Continuous Passive: was/were + being + V3."
+    },
+    {
+      "topic": "modals",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "sleeping"
+          },
+          {
+            "id": "2",
+            "text": "have"
+          },
+          {
+            "id": "3",
+            "text": "He"
+          },
+          {
+            "id": "4",
+            "text": "been"
+          },
+          {
+            "id": "5",
+            "text": "must"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "2",
+          "4",
+          "1"
+        ]
+      },
+      "explanation": "He must have been sleeping. Geçmişte süregelen bir eyleme dair güçlü tahmin: must + have + been + V-ing."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "by then"
+          },
+          {
+            "id": "2",
+            "text": "left"
+          },
+          {
+            "id": "3",
+            "text": "They"
+          },
+          {
+            "id": "4",
+            "text": "have"
+          },
+          {
+            "id": "5",
+            "text": "will"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "4",
+          "2",
+          "1"
+        ]
+      },
+      "explanation": "They will have left by then. Future Perfect: will + have + V3, gelecekteki bir ana kadar tamamlanan eylem."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Parçaları doğru İngilizce dolaylı soru cümlesi oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "starts"
+          },
+          {
+            "id": "2",
+            "text": "Could you tell me"
+          },
+          {
+            "id": "3",
+            "text": "the meeting"
+          },
+          {
+            "id": "4",
+            "text": "what time"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Could you tell me what time the meeting starts? Dolaylı soruda devrik yapı kullanılmaz: özne + yüklem sırası korunur."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Cümleleri metindeki sıra belirteçlerine göre ilk olaydan son olaya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "After that, she had a quick breakfast."
+          },
+          {
+            "id": "2",
+            "text": "Finally, she left for work."
+          },
+          {
+            "id": "3",
+            "text": "First, the alarm rang at six."
+          },
+          {
+            "id": "4",
+            "text": "Then she got out of bed."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "first → then → after that → finally. Bu belirteçler olay sırasını tek bir biçimde belirler."
+    },
+    {
+      "topic": "modals",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "tomorrow"
+          },
+          {
+            "id": "2",
+            "text": "have to"
+          },
+          {
+            "id": "3",
+            "text": "You"
+          },
+          {
+            "id": "4",
+            "text": "come"
+          },
+          {
+            "id": "5",
+            "text": "don't"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "2",
+          "4",
+          "1"
+        ]
+      },
+      "explanation": "You don't have to come tomorrow. \"have to\" olumsuzda \"don't/doesn't\" ile kurulur ve gereksizlik bildirir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Parçaları \"If\" ile başlayan bir koşul cümlesi oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "I would have"
+          },
+          {
+            "id": "2",
+            "text": "If I had known"
+          },
+          {
+            "id": "3",
+            "text": "immediately"
+          },
+          {
+            "id": "4",
+            "text": "about the problem"
+          },
+          {
+            "id": "5",
+            "text": "called you"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "If I had known about the problem, I would have called you immediately. Type 3: if + had V3 / would have V3."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "announced"
+          },
+          {
+            "id": "2",
+            "text": "The results"
+          },
+          {
+            "id": "3",
+            "text": "been"
+          },
+          {
+            "id": "4",
+            "text": "just"
+          },
+          {
+            "id": "5",
+            "text": "have"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "The results have just been announced. \"just\" yardımcı fiilden sonra, \"been\"den önce gelir."
+    },
+    {
+      "topic": "modals",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce kibar istek cümlesi oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "the window"
+          },
+          {
+            "id": "2",
+            "text": "you"
+          },
+          {
+            "id": "3",
+            "text": "Could"
+          },
+          {
+            "id": "4",
+            "text": "please"
+          },
+          {
+            "id": "5",
+            "text": "open"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "5",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Could you open the window, please? Kibar isteklerde modal başa gelir ve fiil yalın kalır."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Cümleleri anlattıkları olayların zaman sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "She is staying at a small hotel now."
+          },
+          {
+            "id": "2",
+            "text": "She had packed her bags the night before."
+          },
+          {
+            "id": "3",
+            "text": "She will fly home next week."
+          },
+          {
+            "id": "4",
+            "text": "She caught the early train that morning."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "\"the night before\" en eski an, \"now\" içinde bulunulan an, \"next week\" gelecektir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Parçaları \"Not only\" ile başlayan bir cümle oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "but he also"
+          },
+          {
+            "id": "2",
+            "text": "lost his wallet"
+          },
+          {
+            "id": "3",
+            "text": "Not only"
+          },
+          {
+            "id": "4",
+            "text": "miss the train"
+          },
+          {
+            "id": "5",
+            "text": "did he"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "Not only did he miss the train, but he also lost his wallet. \"Not only\" başta olduğunda devrik yapı zorunludur."
+    },
+    {
+      "topic": "modals",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru İngilizce söz dizimine göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "the meeting"
+          },
+          {
+            "id": "2",
+            "text": "forgotten"
+          },
+          {
+            "id": "3",
+            "text": "can't"
+          },
+          {
+            "id": "4",
+            "text": "She"
+          },
+          {
+            "id": "5",
+            "text": "have"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "3",
+          "5",
+          "2",
+          "1"
+        ]
+      },
+      "explanation": "She can't have forgotten the meeting. \"can't have V3\" geçmişe yönelik kesin olumsuz çıkarımdır."
+    },
+    {
+      "topic": "tenses",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Parçaları \"By the time\" ile başlayan bir cümle oluşturacak şekilde baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "had already started"
+          },
+          {
+            "id": "2",
+            "text": "By the time"
+          },
+          {
+            "id": "3",
+            "text": "the film"
+          },
+          {
+            "id": "4",
+            "text": "we arrived"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "By the time we arrived, the film had already started. \"by the time\" yan cümlesi Simple Past, ana cümle Past Perfect alır."
+    },
+    {
+      "topic": "tenses",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "submitted"
+          },
+          {
+            "id": "2",
+            "text": "Has"
+          },
+          {
+            "id": "3",
+            "text": "yet"
+          },
+          {
+            "id": "4",
+            "text": "the"
+          },
+          {
+            "id": "5",
+            "text": "been"
+          },
+          {
+            "id": "6",
+            "text": "report"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "6",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Has the report been submitted yet? Present Perfect Passive soru yapısı: have/has + özne + been + V3."
+    },
+    {
+      "topic": "tenses",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "we"
+          },
+          {
+            "id": "2",
+            "text": "rained"
+          },
+          {
+            "id": "3",
+            "text": "Hardly"
+          },
+          {
+            "id": "4",
+            "text": "when"
+          },
+          {
+            "id": "5",
+            "text": "had"
+          },
+          {
+            "id": "6",
+            "text": "it"
+          },
+          {
+            "id": "7",
+            "text": "left"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "1",
+          "7",
+          "4",
+          "6",
+          "2"
+        ]
+      },
+      "explanation": "Hardly had we left when it rained. \"Hardly\" başa gelince devrik yapı zorunludur: hardly + had + özne + V3, ardından \"when\" + Simple Past."
+    },
+    {
+      "topic": "modals",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "keys"
+          },
+          {
+            "id": "2",
+            "text": "must"
+          },
+          {
+            "id": "3",
+            "text": "behind"
+          },
+          {
+            "id": "4",
+            "text": "You"
+          },
+          {
+            "id": "5",
+            "text": "left"
+          },
+          {
+            "id": "6",
+            "text": "your"
+          },
+          {
+            "id": "7",
+            "text": "have"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "7",
+          "5",
+          "6",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "You must have left your keys behind. \"must have + V3\" geçmişe yönelik güçlü çıkarım bildirir."
+    },
+    {
+      "topic": "modals",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "mentioned"
+          },
+          {
+            "id": "2",
+            "text": "rather"
+          },
+          {
+            "id": "3",
+            "text": "I"
+          },
+          {
+            "id": "4",
+            "text": "it"
+          },
+          {
+            "id": "5",
+            "text": "hadn't"
+          },
+          {
+            "id": "6",
+            "text": "would"
+          },
+          {
+            "id": "7",
+            "text": "you"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "2",
+          "7",
+          "5",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "I would rather you hadn't mentioned it. \"would rather\" ikinci bir özne alırsa fiil geçmiş zamana çekilir; geçmişe yönelik sitem için \"hadn't V3\" gelir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "midnight"
+          },
+          {
+            "id": "2",
+            "text": "It"
+          },
+          {
+            "id": "3",
+            "text": "called"
+          },
+          {
+            "id": "4",
+            "text": "until"
+          },
+          {
+            "id": "5",
+            "text": "that"
+          },
+          {
+            "id": "6",
+            "text": "was"
+          },
+          {
+            "id": "7",
+            "text": "he"
+          },
+          {
+            "id": "8",
+            "text": "not"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "6",
+          "8",
+          "4",
+          "1",
+          "5",
+          "7",
+          "3"
+        ]
+      },
+      "explanation": "It was not until midnight that he called. \"not until\" vurgu yapısı \"It was not until ... that ...\" kalıbıyla kurulur."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "should"
+          },
+          {
+            "id": "2",
+            "text": "circumstances"
+          },
+          {
+            "id": "3",
+            "text": "Under"
+          },
+          {
+            "id": "4",
+            "text": "this"
+          },
+          {
+            "id": "5",
+            "text": "no"
+          },
+          {
+            "id": "6",
+            "text": "sign"
+          },
+          {
+            "id": "7",
+            "text": "you"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "2",
+          "1",
+          "7",
+          "6",
+          "4"
+        ]
+      },
+      "explanation": "Under no circumstances should you sign this. Olumsuz anlamlı zarf öbeği başa gelince yardımcı fiil özneden önce gelir."
+    },
+    {
+      "topic": "tenses",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "\"She has been living in Paris since five years.\" cümlesinde dil bilgisi hatasını doğuran sözcüğü seç.",
+        "image": "diagrams/tenses-hata-analizi.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "has been"
+          },
+          {
+            "id": "2",
+            "text": "living"
+          },
+          {
+            "id": "3",
+            "text": "since"
+          },
+          {
+            "id": "4",
+            "text": "five years"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Süre uzunluğu için \"for\" kullanılır: for five years. \"since\" başlangıç noktası ister: since 2019."
+    },
+    {
+      "topic": "tenses",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "\"By the time we arrived at the station, the train had already departed.\" cümlesinde Past Perfect kullanımını zorunlu kılan sözcük öbeğini seç.",
+        "image": "diagrams/tenses-zaman-isareti.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "By the time"
+          },
+          {
+            "id": "2",
+            "text": "at the station"
+          },
+          {
+            "id": "3",
+            "text": "already"
+          },
+          {
+            "id": "4",
+            "text": "departed"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "\"By the time\" iki geçmiş olayı sıralar: yan cümle Simple Past, önce olan eylem Past Perfect alır. \"already\" tek başına zaman seçimini belirlemez."
+    },
+    {
+      "topic": "modals",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "\"You should have went to the doctor earlier.\" cümlesinde hatalı biçimde çekimlenmiş sözcüğü seç.",
+        "image": "diagrams/modals-hata-analizi.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "should"
+          },
+          {
+            "id": "2",
+            "text": "have"
+          },
+          {
+            "id": "3",
+            "text": "went"
+          },
+          {
+            "id": "4",
+            "text": "earlier"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "\"should have\" yapısından sonra V3 gelir: should have gone. \"went\" Simple Past biçimidir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "\"Despite she was tired, she kept working until midnight.\" cümlesinde yapıyı bozan sözcüğü seç.",
+        "image": "diagrams/baglac-hata-analizi.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Despite"
+          },
+          {
+            "id": "2",
+            "text": "was tired"
+          },
+          {
+            "id": "3",
+            "text": "kept"
+          },
+          {
+            "id": "4",
+            "text": "until midnight"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "\"Despite\" isim ya da -ing alır; özne + yüklemli bir cümle için \"Although she was tired\" demek gerekir."
+    },
+    {
+      "topic": "tenses",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Her kullanım alanını doğru zamanla etiketle.",
+        "image": "diagrams/tenses-kullanim-alanlari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Geçmişte başlayıp hâlâ süren ve sürekliliği vurgulanan eylem"
+          },
+          {
+            "id": "2",
+            "text": "Geçmişteki başka bir eylemden önce tamamlanmış eylem"
+          },
+          {
+            "id": "3",
+            "text": "Gelecekte belirli bir ana kadar tamamlanmış olacak eylem"
+          }
+        ],
+        "labels": [
+          "Present Perfect Continuous",
+          "Past Perfect",
+          "Future Perfect",
+          "Past Continuous"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Present Perfect Continuous",
+          "2": "Past Perfect",
+          "3": "Future Perfect"
+        }
+      },
+      "explanation": "She has been waiting for an hour / He had left before we came / By June, I will have graduated. Past Continuous yalnızca geçmişte süregelen eylemi anlatır, tamamlanmışlık bildirmez."
+    },
+    {
+      "topic": "modals",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Her işlevi onu karşılayan yapıyla etiketle.",
+        "image": "diagrams/modals-islevleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Dışarıdan gelen, kurala dayalı zorunluluk"
+          },
+          {
+            "id": "2",
+            "text": "Geçmişte tekrarlanan ama artık sürmeyen alışkanlık"
+          },
+          {
+            "id": "3",
+            "text": "Tek bir durumda başarıyla gerçekleştirilen yetenek"
+          }
+        ],
+        "labels": [
+          "have to",
+          "used to",
+          "was able to",
+          "might"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "have to",
+          "2": "used to",
+          "3": "was able to"
+        }
+      },
+      "explanation": "\"must\" kişinin kendi kararını, \"have to\" dış kuralı bildirir. Tek seferlik başarıda \"could\" yerine \"was able to\" kullanılır; \"might\" olasılık bildirir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Her anlam ilişkisini onu kuran bağlayıcıyla etiketle.",
+        "image": "diagrams/baglac-islevleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Olumsuz koşul: \"-medikçe\""
+          },
+          {
+            "id": "2",
+            "text": "Sonuç: önceki cümleden çıkan netice"
+          },
+          {
+            "id": "3",
+            "text": "Amaç: eylemin yapılma gayesi"
+          }
+        ],
+        "labels": [
+          "unless",
+          "therefore",
+          "so that",
+          "whereas"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "unless",
+          "2": "therefore",
+          "3": "so that"
+        }
+      },
+      "explanation": "Unless you hurry, you'll miss it / It rained; therefore, we stayed in / She left early so that she could catch the bus. \"whereas\" karşılaştırma-zıtlık bildirir."
+    },
+    {
+      "topic": "tenses",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Dolaylı anlatıma aktarıldığında her yapının alacağı biçimi etiketle.",
+        "image": "diagrams/reported-speech-kaydirma.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "\"I am working now.\" → He said that ..."
+          },
+          {
+            "id": "2",
+            "text": "\"I have finished it.\" → He said that ..."
+          },
+          {
+            "id": "3",
+            "text": "\"I will call you.\" → He said that ..."
+          }
+        ],
+        "labels": [
+          "he was working",
+          "he had finished it",
+          "he would call me",
+          "he has worked"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "he was working",
+          "2": "he had finished it",
+          "3": "he would call me"
+        }
+      },
+      "explanation": "Dolaylı anlatımda zaman bir basamak geriye kayar: Present Continuous → Past Continuous, Present Perfect → Past Perfect, will → would."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"It is the first time ...\" kalıbından sonra gelen yan cümlede Present Perfect kullanılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. It is the first time I have driven a truck. Kalıp geçmişten şu ana uzanan deneyimi anlattığı için Present Perfect alır."
+    },
+    {
+      "topic": "tenses",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"No sooner\" ile başlayan devrik cümlenin ikinci bölümü \"when\" ile bağlanır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"No sooner had he arrived than the meeting began.\" biçiminde \"than\" kullanılır; \"when\" yalnızca \"hardly / scarcely\" ile gelir."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Would rather\" yapısından sonra ikinci bir özne gelirse fiil yalın hâlde kalır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İkinci özne geldiğinde fiil geçmiş zamana çekilir: I would rather you came tomorrow."
+    },
+    {
+      "topic": "modals",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Should have V3\" yapısı pişmanlığın yanı sıra beklenen ama doğrulanmamış bir durumu da anlatabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"The train should have arrived by now.\" cümlesi beklentiyi bildirir; pişmanlık yoktur."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "statement": "\"Hardly\" cümlenin başına geldiğinde özne ile yardımcı fiilin sırası değişmez."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Olumsuz anlamlı zarflar başa gelince devrik yapı zorunludur: Hardly had she sat down when the phone rang."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "No sooner {{0}} the plane taken off than the storm began.",
+        "choices": [
+          "had",
+          "has",
+          "did",
+          "was"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "had"
+        ]
+      },
+      "explanation": "\"No sooner\" başa gelince devrik yapı kurulur ve Past Perfect alır: No sooner had the plane taken off than ..."
+    },
+    {
+      "topic": "tenses",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "By the time the ambulance {{0}}, the injured man {{1}} unconscious for nearly ten minutes.",
+        "choices": [
+          "arrived",
+          "had arrived",
+          "had been",
+          "has been",
+          "was being",
+          "arrives"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "arrived",
+          "had been"
+        ]
+      },
+      "explanation": "\"By the time\" yan cümlesi Simple Past alır; daha önce başlayıp o ana kadar süren durum Past Perfect ile verilir."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "Her coat is still hanging by the door, so she {{0}} have left the building.",
+        "choices": [
+          "can't",
+          "mustn't",
+          "needn't",
+          "wouldn't"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "can't"
+        ]
+      },
+      "explanation": "Geçmişe yönelik güçlü olumsuz çıkarım için \"can't have + V3\" kullanılır. \"mustn't\" yasak bildirir, çıkarım yapmaz."
+    },
+    {
+      "topic": "modals",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "You {{0}} have brought your umbrella; it turned out we {{1}} need it at all.",
+        "choices": [
+          "needn't",
+          "shouldn't",
+          "mustn't",
+          "didn't",
+          "wouldn't",
+          "couldn't"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "needn't",
+          "didn't"
+        ]
+      },
+      "explanation": "\"Needn't have V3\" yapılan ama gereksiz olan eylemi anlatır; şemsiye getirilmiştir, yalnızca gerekmemiştir."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "template": "{{0}} hard she tried, she could not persuade the committee to change its decision.",
+        "choices": [
+          "However",
+          "Whatever",
+          "Whichever",
+          "Although"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "However"
+        ]
+      },
+      "explanation": "\"However + sıfat/zarf + özne + yüklem\" kalıbı \"ne kadar ... -se de\" anlamı verir. \"Although\" doğrudan sıfat almaz."
+    },
+    {
+      "topic": "tenses",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Dilek cümlesini taşıdığı anlamla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "I wish I had more time."
+          },
+          {
+            "id": "2",
+            "text": "I wish I had studied harder."
+          },
+          {
+            "id": "3",
+            "text": "I wish you would stop shouting."
+          },
+          {
+            "id": "4",
+            "text": "I wish I could swim."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Geçmişte yapılmayana duyulan pişmanlık — had V3"
+          },
+          {
+            "id": "b",
+            "text": "Yetenek eksikliğine yönelik dilek — could V1"
+          },
+          {
+            "id": "c",
+            "text": "Şu anki gerçeğin tersine yönelik dilek — V2"
+          },
+          {
+            "id": "d",
+            "text": "Karşıdakinin davranışını değiştirme isteği — would V1"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"wish\" sonrası zaman bir basamak geriye kayar: şimdiki durum için V2, geçmiş için had V3; başkasının davranışı için would, yetenek için could gelir."
+    },
+    {
+      "topic": "tenses",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Devrik koşul yapısını karşılık geldiği anlamla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Had I known about it, ..."
+          },
+          {
+            "id": "2",
+            "text": "Were I in your position, ..."
+          },
+          {
+            "id": "3",
+            "text": "Should you need any help, ..."
+          },
+          {
+            "id": "4",
+            "text": "Had it not been for her warning, ..."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Type 1'in resmî devrik biçimi — olası gelecek koşul"
+          },
+          {
+            "id": "b",
+            "text": "Type 3'ün devrik biçimi — geçmişte bilgi sahibi olunmadı"
+          },
+          {
+            "id": "c",
+            "text": "\"O olmasaydı\" — geçmişte bir etkenin yokluğu varsayılır"
+          },
+          {
+            "id": "d",
+            "text": "Type 2'nin devrik biçimi — şimdiki hayalî durum"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Devrik koşulda \"if\" düşer, yardımcı fiil başa gelir: Had I known = If I had known, Were I = If I were, Should you need = If you need."
+    },
+    {
+      "topic": "modals",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "Yapıyı bildirdiği durumla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "needn't have V3"
+          },
+          {
+            "id": "2",
+            "text": "didn't need to V1"
+          },
+          {
+            "id": "3",
+            "text": "was supposed to V1"
+          },
+          {
+            "id": "4",
+            "text": "had better V1"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Gerekli olmadığı anlaşıldı ve zaten yapılmadı"
+          },
+          {
+            "id": "b",
+            "text": "Planlanmıştı ya da beklenmişti ama gerçekleşmedi"
+          },
+          {
+            "id": "c",
+            "text": "Yapıldı, sonradan gereksiz olduğu görüldü"
+          },
+          {
+            "id": "d",
+            "text": "Yapılmazsa olumsuz sonuç doğar — güçlü uyarı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "YDT'nin klasik ayrımı: \"needn't have done\" eylem yapıldı ama boşunaydı; \"didn't need to do\" eylem hiç yapılmadı çünkü gerekmiyordu."
+    },
+    {
+      "topic": "sentence_completion",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ydt"
+      ],
+      "content": {
+        "instruction": "İkili bağlacı eşlendiği ikinci öğeyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "not only ..."
+          },
+          {
+            "id": "2",
+            "text": "neither ..."
+          },
+          {
+            "id": "3",
+            "text": "no sooner ..."
+          },
+          {
+            "id": "4",
+            "text": "either ..."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "... nor — iki öğeyi birlikte olumsuzlar"
+          },
+          {
+            "id": "b",
+            "text": "... but also — iki öğeyi birlikte olumlar"
+          },
+          {
+            "id": "c",
+            "text": "... or — iki seçenekten birini bildirir"
+          },
+          {
+            "id": "d",
+            "text": "... than — devrik Past Perfect ile eşlenir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İkili bağlaçlar sabit eşlerle gelir; \"no sooner\" yalnızca \"than\" alır, \"hardly\" ise \"when\" ile eşlenir."
     }
   ]
 }

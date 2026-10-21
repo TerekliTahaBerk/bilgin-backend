@@ -705,6 +705,1540 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
       "explanation": "Tevhid, üç dinin ortak paydasıdır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Fıkıh, inanç esaslarını akılla temellendiren ilim dalıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İnanç esaslarını akılla temellendiren ilim kelamdır; fıkıh ibadet ve hukuk alanıyla ilgilenir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Maturidilik, fıkhî (amelî) bir mezhep olarak kabul edilir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Maturidilik itikadî (inançla ilgili) bir yorumdur; fıkhî mezheplere Hanefilik ve Şafiilik örnek verilir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hanefi mezhebinin kurucusu İmam Şafii'dir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Hanefiliğin kurucusu İmam-ı Azam Ebu Hanife'dir; İmam Şafii Şafiiliğin kurucusudur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mevlevilik, Mevlânâ Celâleddîn-i Rûmî'nin öğretileri etrafında oluşmuş tasavvufî bir yorumdur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Mevlânâ'nın temel eseri Mesnevi'dir ve Mevlevilik onun düşüncesinden doğmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Alevilik-Bektaşilik, Anadolu'da ortaya çıkmış tasavvufî bir yorumdur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Hacı Bektaş Veli'nin öğretileri etrafında şekillenmiş, Anadolu kökenli tasavvufî bir yorumdur."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Vahiy, Allah'ın peygamberleri aracılığıyla insanlara bildirdiği ilahi bilgidir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Vahiy ilahi kaynaklı bilgidir; akıl ise bu bilginin anlaşılmasını sağlayan insanî yetenektir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İslam'a göre akıl sağlığını yitirmiş kişi dinî yükümlülük taşımaz."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Dinî sorumluluğun şartlarından biri akıl sahibi olmaktır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kıyas, âlimlerin bir konu üzerinde görüş birliğine varmasıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Âlimlerin görüş birliğine icma denir; kıyas ise benzetme yoluyla hüküm vermektir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İçtihat yapabilme yetkinliğine sahip âlime müçtehit denir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Müçtehit, delilleri değerlendirerek hüküm çıkarabilecek donanıma sahip âlimdir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Nas kavramı, hakkında açık hüküm bulunmayan konuları ifade eder."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Nas, hakkında açık hüküm BULUNAN ayet ya da hadistir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hristiyanlığın kutsal kitabı Tevrat'tır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Hristiyanlığın kutsal kitabı İncil'dir; Tevrat Yahudiliğin kutsal kitabıdır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Zebur, Hz. Davud'a verilen kutsal kitaptır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Dört büyük kitap: Tevrat (Hz. Musa), Zebur (Hz. Davud), İncil (Hz. İsa), Kur'an (Hz. Muhammed)."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Konfüçyanizm, ilahi kaynaklı (semavi) dinler arasında sayılır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Konfüçyanizm ilahi kaynaklı olmayan dinler arasında yer alır; semavi dinler Yahudilik, Hristiyanlık ve İslam'dır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Yahudilerin ibadet yerine sinagog (havra) denir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Hristiyanların ibadet yeri kilise, Müslümanların ibadet yeri camidir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Budizm'de nirvana, ulaşılmak istenen nihai amaç olarak kabul edilir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Budizm'de nirvana, acı döngüsünden kurtuluş hâli olarak tanımlanır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İbadet ve hukuk alanıyla ilgilenen ilim dalına {{0}} denir.",
+        "choices": ["fıkıh", "kelam", "tasavvuf", "tefsir"]
+      },
+      "answer_key": { "blanks": ["fıkıh"] },
+      "explanation": "Fıkıh \"ne yapmalıyım\" sorusunu, kelam \"neye inanmalıyım\" sorusunu ele alır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Kur'an ayetlerini açıklama ve yorumlama ilmine {{0}} denir.",
+        "choices": ["tefsir", "hadis", "siyer", "fıkıh"]
+      },
+      "answer_key": { "blanks": ["tefsir"] },
+      "explanation": "Tefsir yapan âlime müfessir denir. Hadis Peygamber sözlerini, siyer ise hayatını inceler."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hanefi mezhebinin kurucusu İmam-ı Azam {{0}}'dir.",
+        "choices": ["Ebu Hanife", "Şafii", "Malik", "Ahmed bin Hanbel"]
+      },
+      "answer_key": { "blanks": ["Ebu Hanife"] },
+      "explanation": "Hanefilik akla ve re'ye (görüş) geniş yer veren fıkhî bir mezheptir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Kalbin arınmasını ve nefsin terbiyesini esas alan yorum biçimine {{0}} denir.",
+        "choices": ["tasavvuf", "kelam", "fıkıh", "tefsir"]
+      },
+      "answer_key": { "blanks": ["tasavvuf"] },
+      "explanation": "Tasavvufî yorumlar Anadolu'da Mevlevilik, Bektaşilik ve Yesevilik gibi kollarla gelişmiştir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Yeseviliğin kurucusu kabul edilen mutasavvıf {{0}}'dir.",
+        "choices": ["Ahmet Yesevi", "Hacı Bektaş Veli", "Mevlânâ", "Yunus Emre"]
+      },
+      "answer_key": { "blanks": ["Ahmet Yesevi"] },
+      "explanation": "Ahmet Yesevi'nin öğretileri Divan-ı Hikmet adlı eserinde toplanmıştır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İtikadî yorumlardan {{0}} İmam Maturidi'nin, {{1}} ise İmam Eşari'nin görüşleri etrafında oluşmuştur.",
+        "choices": ["Maturidilik", "Eşarilik", "Hanefilik", "Şafiilik", "Mevlevilik"]
+      },
+      "answer_key": { "blanks": ["Maturidilik", "Eşarilik"] },
+      "explanation": "İkisi de Sünni kelam geleneğinin temel yorumlarıdır; Maturidilik akla daha geniş yer verir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hz. Muhammed'in söz, davranış ve onaylarına {{0}} denir.",
+        "choices": ["sünnet", "icma", "kıyas", "nas"]
+      },
+      "answer_key": { "blanks": ["sünnet"] },
+      "explanation": "Sünnet, Kitap'tan sonra gelen ikinci aslî delildir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hükmü bilinen bir meseleye benzetme yoluyla yeni bir meseleye hüküm vermeye {{0}} denir.",
+        "choices": ["kıyas", "icma", "nas", "içtihat"]
+      },
+      "answer_key": { "blanks": ["kıyas"] },
+      "explanation": "Kıyasta iki mesele arasındaki ortak gerekçe (illet) esas alınır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İçtihat yapabilme yetkinliğine sahip âlime {{0}} denir.",
+        "choices": ["müçtehit", "muhaddis", "müfessir", "mütekellim"]
+      },
+      "answer_key": { "blanks": ["müçtehit"] },
+      "explanation": "Muhaddis hadis âlimi, müfessir tefsir âlimi, mütekellim ise kelam âlimidir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Allah'ın peygamberlerine bildirdiği ilahi bilgiye {{0}} denir.",
+        "choices": ["vahiy", "ilham", "içtihat", "icma"]
+      },
+      "answer_key": { "blanks": ["vahiy"] },
+      "explanation": "Vahiy ilahi kaynaklıdır; içtihat ve icma ise insan aklının ürünüdür."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İslam hukukunun aslî delilleri {{0}} ve {{1}}, fer'î delilleri ise icma ile kıyastır.",
+        "choices": ["Kitap", "Sünnet", "İcma", "Kıyas", "İçtihat", "Nas"]
+      },
+      "answer_key": { "blanks": ["Kitap", "Sünnet"] },
+      "explanation": "Aslî deliller doğrudan vahye dayanır; fer'î deliller bunlardan akıl yoluyla türetilir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hristiyanlığın kutsal kitabı {{0}}'dir.",
+        "choices": ["İncil", "Tevrat", "Zebur", "Vedalar"]
+      },
+      "answer_key": { "blanks": ["İncil"] },
+      "explanation": "İncil Hz. İsa'ya, Tevrat Hz. Musa'ya, Zebur Hz. Davud'a indirilmiştir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hz. Musa'ya indirilen kutsal kitap {{0}}'tır.",
+        "choices": ["Tevrat", "İncil", "Zebur", "Kur'an"]
+      },
+      "answer_key": { "blanks": ["Tevrat"] },
+      "explanation": "Dört büyük kitaptan ilki Tevrat'tır ve Yahudiliğin kutsal kitabıdır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Yahudilerin ibadet yerine {{0}}, Hristiyanların ibadet yerine ise {{1}} denir.",
+        "choices": ["sinagog", "kilise", "cami", "tapınak", "manastır"]
+      },
+      "answer_key": { "blanks": ["sinagog", "kilise"] },
+      "explanation": "Müslümanların ibadet yeri camidir; sinagog için havra adı da kullanılır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hinduizm'in kutsal metinlerine {{0}} denir.",
+        "choices": ["Vedalar", "Tevrat", "Avesta", "Tripitaka"]
+      },
+      "answer_key": { "blanks": ["Vedalar"] },
+      "explanation": "Hinduizm ilahi kaynaklı olmayan dinler arasında yer alır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Budizm'de acı döngüsünden kurtuluş hâline {{0}} denir.",
+        "choices": ["nirvana", "karma", "reenkarnasyon", "moksha"]
+      },
+      "answer_key": { "blanks": ["nirvana"] },
+      "explanation": "Nirvana, Budizm'de ulaşılmak istenen nihai amaç olarak kabul edilir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Fıkhî mezhebi kurucusuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Hanefilik" },
+          { "id": "2", "text": "Şafiilik" },
+          { "id": "3", "text": "Malikilik" },
+          { "id": "4", "text": "Hanbelilik" }
+        ],
+        "right": [
+          { "id": "a", "text": "İmam Malik" },
+          { "id": "b", "text": "Ebu Hanife" },
+          { "id": "c", "text": "Ahmed bin Hanbel" },
+          { "id": "d", "text": "İmam Şafii" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Dördü de Sünni gelenekteki fıkhî (amelî) mezheplerdir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Eseri yazarıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Mesnevi" },
+          { "id": "2", "text": "Divan-ı Hikmet" },
+          { "id": "3", "text": "Makâlât" },
+          { "id": "4", "text": "Risâletü'n-Nushiyye" }
+        ],
+        "right": [
+          { "id": "a", "text": "Ahmet Yesevi" },
+          { "id": "b", "text": "Mevlânâ Celâleddîn-i Rûmî" },
+          { "id": "c", "text": "Yunus Emre" },
+          { "id": "d", "text": "Hacı Bektaş Veli" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Dört eser de Anadolu ve Türkistan tasavvuf geleneğinin temel metinlerindendir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İlim dalını cevap aradığı temel soruyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Kelam" },
+          { "id": "2", "text": "Fıkıh" },
+          { "id": "3", "text": "Tefsir" },
+          { "id": "4", "text": "Siyer" }
+        ],
+        "right": [
+          { "id": "a", "text": "Ne yapmalıyım?" },
+          { "id": "b", "text": "Bu ayet ne anlatıyor?" },
+          { "id": "c", "text": "Neye inanmalıyım?" },
+          { "id": "d", "text": "Hz. Peygamber nasıl yaşadı?" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "b", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Her ilim dalı dinin farklı bir boyutunu ele alır: inanç, amel, metin ve tarih."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Tasavvufî yorumu kurucusu kabul edilen şahsiyetle birleştir.",
+        "left": [
+          { "id": "1", "text": "Mevlevilik" },
+          { "id": "2", "text": "Bektaşilik" },
+          { "id": "3", "text": "Yesevilik" },
+          { "id": "4", "text": "Nakşibendilik" }
+        ],
+        "right": [
+          { "id": "a", "text": "Hacı Bektaş Veli" },
+          { "id": "b", "text": "Bahâeddin Nakşibend" },
+          { "id": "c", "text": "Mevlânâ Celâleddîn-i Rûmî" },
+          { "id": "d", "text": "Ahmet Yesevi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Dördü de tasavvufî yorumlardır; fıkhî ya da itikadî mezhep değildir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Vahiy" },
+          { "id": "2", "text": "Akıl" },
+          { "id": "3", "text": "Sünnet" },
+          { "id": "4", "text": "Müçtehit" }
+        ],
+        "right": [
+          { "id": "a", "text": "İçtihat yapabilen âlim" },
+          { "id": "b", "text": "Allah'ın peygamberlerine bildirdiği ilahi bilgi" },
+          { "id": "c", "text": "Hz. Peygamber'in söz ve uygulamaları" },
+          { "id": "d", "text": "Vahyi anlama ve kavrama yeteneği" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "c", "4": "a" },
+        "partial_credit": true
+      },
+      "explanation": "Vahiy ilahi kaynaklı bilgidir; akıl onu anlamanın aracıdır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Âlim unvanını uzmanlık alanıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Müfessir" },
+          { "id": "2", "text": "Muhaddis" },
+          { "id": "3", "text": "Fakih" },
+          { "id": "4", "text": "Mütekellim" }
+        ],
+        "right": [
+          { "id": "a", "text": "Hadis" },
+          { "id": "b", "text": "Kelam" },
+          { "id": "c", "text": "Tefsir" },
+          { "id": "d", "text": "Fıkıh" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Her ilim dalının kendi uzmanı vardır; unvanlar alanın adından türetilmiştir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dini ibadet yeriyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Yahudilik" },
+          { "id": "2", "text": "Hristiyanlık" },
+          { "id": "3", "text": "İslam" }
+        ],
+        "right": [
+          { "id": "a", "text": "Kilise" },
+          { "id": "b", "text": "Cami" },
+          { "id": "c", "text": "Sinagog" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Sinagog için havra, cami için mescit adları da kullanılır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kutsal kitabı indirildiği peygamberle birleştir.",
+        "left": [
+          { "id": "1", "text": "Tevrat" },
+          { "id": "2", "text": "Zebur" },
+          { "id": "3", "text": "İncil" },
+          { "id": "4", "text": "Kur'an-ı Kerim" }
+        ],
+        "right": [
+          { "id": "a", "text": "Hz. İsa" },
+          { "id": "b", "text": "Hz. Musa" },
+          { "id": "c", "text": "Hz. Muhammed" },
+          { "id": "d", "text": "Hz. Davud" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Dört büyük kitap sırasıyla Tevrat, Zebur, İncil ve Kur'an-ı Kerim'dir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dinlerin ortak öğüdünü açıklamasıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Adalet" },
+          { "id": "2", "text": "Doğruluk" },
+          { "id": "3", "text": "Yardımlaşma" },
+          { "id": "4", "text": "Merhamet" }
+        ],
+        "right": [
+          { "id": "a", "text": "Sözünde ve işinde dürüst olmak" },
+          { "id": "b", "text": "Canlılara şefkatle davranmak" },
+          { "id": "c", "text": "Herkese hakkını vermek" },
+          { "id": "d", "text": "İhtiyaç sahibinin yanında olmak" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört ilke, dinlerin evrensel ortak öğütleri arasında sayılır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dört fıkhî mezhebin kurucusunu yaşadıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "İmam Şafii" },
+          { "id": "2", "text": "Ebu Hanife" },
+          { "id": "3", "text": "Ahmed bin Hanbel" },
+          { "id": "4", "text": "İmam Malik" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Vefat tarihleri: Ebu Hanife 767, İmam Malik 795, İmam Şafii 820, Ahmed bin Hanbel 855."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İslam'ın temel ilim dallarını alfabetik sıraya göre diz.",
+        "items": [
+          { "id": "1", "text": "Kelam" },
+          { "id": "2", "text": "Fıkıh" },
+          { "id": "3", "text": "Tefsir" },
+          { "id": "4", "text": "Hadis" },
+          { "id": "5", "text": "Siyer" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Alfabetik sıra: Fıkıh, Hadis, Kelam, Siyer, Tefsir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Tasavvufî yorumları alfabetik sıraya göre diz.",
+        "items": [
+          { "id": "1", "text": "Yesevilik" },
+          { "id": "2", "text": "Mevlevilik" },
+          { "id": "3", "text": "Nakşibendilik" },
+          { "id": "4", "text": "Bektaşilik" }
+        ]
+      },
+      "answer_key": { "order": ["4", "2", "3", "1"] },
+      "explanation": "Alfabetik sıra: Bektaşilik, Mevlevilik, Nakşibendilik, Yesevilik."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelam ilminin ortaya çıkış sürecini ilk aşamadan son aşamaya diz.",
+        "items": [
+          { "id": "1", "text": "İnanç konularında tartışmalar başlar" },
+          { "id": "2", "text": "İslam geniş coğrafyalara yayılır" },
+          { "id": "3", "text": "Kelam, müstakil bir ilim dalı hâline gelir" },
+          { "id": "4", "text": "Farklı kültür ve inanç gruplarıyla karşılaşılır" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Kelam, inanç esaslarını akılla temellendirme ihtiyacından doğmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mezheplerin oluşum sürecini eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Âlimlerin etrafında görüş ekolleri oluşur" },
+          { "id": "2", "text": "Hz. Peygamber hayattayken sorular doğrudan ona sorulur" },
+          { "id": "3", "text": "Bu ekoller mezhep adıyla sistemleşir" },
+          { "id": "4", "text": "Sahabe, yeni sorunları kendi içtihadıyla çözer" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Mezhepler Hz. Peygamber'den sonraki dönemde, ihtiyaçtan doğan yorum farklılıklarıyla oluşmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mutasavvıfları yaşadıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Mevlânâ Celâleddîn-i Rûmî" },
+          { "id": "2", "text": "Ahmet Yesevi" },
+          { "id": "3", "text": "Hacı Bayram Veli" },
+          { "id": "4", "text": "Yunus Emre" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Ahmet Yesevi 12. yüzyıl, Mevlânâ 13. yüzyıl, Yunus Emre 13-14. yüzyıl, Hacı Bayram Veli 14-15. yüzyılda yaşamıştır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Tasavvufta zühd, dünya nimetlerine aşırı bağlanmaktan kaçınarak sade bir hayat sürmeyi ifade eder."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Zühd, tasavvufî yorumun temel ahlak ilkelerinden biridir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mesnevi adlı eser Yunus Emre'ye aittir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Mesnevi Mevlânâ'nın eseridir; Yunus Emre'nin eserleri Divan ve Risaletü'n-Nushiyye'dir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Maturidilik ve Eşarilik, inanç (itikadî) alanındaki yorumlardan ikisidir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. İkisi de kelam alanında oluşmuş itikadî yorumlardır; Hanefilik ve Şafiilik ise fıkhîdir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Tasavvuf, ibadetlerin ve hukukun kurallarını belirleyen ilim dalıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Bu alan fıkhın konusudur; tasavvuf kalbin arınmasını ve manevi derinliği esas alır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Caferilik, fıkhî (amelî) yorumlardan biridir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Caferilik, Şiî gelenekte yaygın olan fıkhî yorumdur."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İslam'a göre vahiy, peygamberler dışındaki insanlara da gelir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Vahiy peygamberlere mahsustur; diğer insanlar vahyi peygamberler aracılığıyla öğrenir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Peygamberlere vahyi ulaştırmakla görevli melek Mikail'dir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Vahiy meleği Cebrail'dir; Mikail tabiat olaylarının düzeniyle görevlidir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kur'an, yaklaşık 23 yıllık bir süre içinde parça parça indirilmiştir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Vahiy 610 yılında başlamış, 632'de Hz. Peygamber'in vefatına kadar sürmüştür."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kıyasta, hakkında hüküm bulunmayan yeni meseleye \"asıl\" denir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Yeni meseleye fer', hükmü bilinen meseleye ise asıl denir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Sünnet yalnızca Hz. Peygamber'in sözlerinden oluşur."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Sünnet; söz (kavlî), davranış (fiilî) ve onaylardan (takrirî) oluşur."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Yahudilik, belirli bir kavme hitap eden millî bir din olarak kabul edilir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Yahudilik genel olarak İsrailoğullarına hitap eden millî bir din sayılır; İslam ise evrenseldir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hristiyanlıkta Tanrı'nın üç unsurda var olduğunu ifade eden teslis inancı bulunur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. İslam'ın tevhid inancı ise Allah'ın bir ve tek olduğunu bildirir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hinduizm tek tanrı inancına dayanan bir dindir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Hinduizm çok tanrılı bir yapıya sahiptir ve ilahi kaynaklı dinler arasında sayılmaz."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Dinlerin evrensel öğütleri yalnızca ibadetlerle ilgilidir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Adalet, doğruluk, yardımlaşma ve merhamet gibi ahlak ilkeleri de bu öğütlerin içindedir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Budizm'in kurucusu kabul edilen kişi Siddharta Gautama'dır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. \"Buda\" (aydınlanmış) adıyla anılan Siddharta Gautama MÖ 6. yüzyılda Hindistan'da yaşamıştır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Vahyin insanlara ulaşma sürecini ilk aşamadan son aşamaya diz.",
+        "items": [
+          { "id": "1", "text": "Allah vahyi melek aracılığıyla gönderir" },
+          { "id": "2", "text": "Vahiy kâtipleri gelen ayetleri yazıya geçirir" },
+          { "id": "3", "text": "Cebrail vahyi Hz. Peygamber'e ulaştırır" },
+          { "id": "4", "text": "Hz. Peygamber vahyi insanlara bildirir" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "4", "2"] },
+      "explanation": "Vahiy Allah'tan melek aracılığıyla peygambere, peygamberden de insanlara ulaşır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kur'an'ın kitap hâline gelme sürecini eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Vahyin Hz. Peygamber'e indirilmesi" },
+          { "id": "2", "text": "Hz. Osman döneminde çoğaltılıp İslam merkezlerine gönderilmesi" },
+          { "id": "3", "text": "Ayetlerin vahiy kâtiplerine yazdırılması" },
+          { "id": "4", "text": "Hz. Ebu Bekir döneminde tek mushafta toplanması" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "4", "2"] },
+      "explanation": "Kur'an Hz. Ebu Bekir döneminde mushaf hâline getirilmiş, Hz. Osman döneminde çoğaltılmıştır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dinî bir metni anlama basamaklarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Metni dikkatle okumak" },
+          { "id": "2", "text": "Metinden çıkan mesajı ifade etmek" },
+          { "id": "3", "text": "Kelimelerin anlamlarını belirlemek" },
+          { "id": "4", "text": "Metnin söylendiği bağlamı incelemek" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "4", "2"] },
+      "explanation": "Bağlamı bilinmeyen bir metinden çıkarılan sonuç yanıltıcı olabilir; bu yüzden bağlam, mesajdan önce incelenir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kur'an'ın indirilme sürecindeki aşamaları eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Son vahyin inmesi" },
+          { "id": "2", "text": "Hz. Muhammed'in Hira Mağarası'nda inzivaya çekilmesi" },
+          { "id": "3", "text": "İlk vahyin gelmesi" },
+          { "id": "4", "text": "Vahyin yaklaşık 23 yıl boyunca devam etmesi" }
+        ]
+      },
+      "answer_key": { "order": ["2", "3", "4", "1"] },
+      "explanation": "Kur'an bir defada değil, yaklaşık 23 yıl boyunca parça parça indirilmiştir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Verilen olayları gerçekleşme tarihine göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Veda Hutbesi'nin okunması (632)" },
+          { "id": "2", "text": "İlk vahyin gelişi (610)" },
+          { "id": "3", "text": "Hz. Muhammed'in doğumu (571)" },
+          { "id": "4", "text": "Hicret (622)" }
+        ]
+      },
+      "answer_key": { "order": ["3", "2", "4", "1"] },
+      "explanation": "571 doğum, 610 ilk vahiy, 622 Hicret, 632 ise Veda Hutbesi ve vefat yılıdır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir dinî görüşün (fetvanın) oluşma sürecini ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Dinî bir soruyla müçtehide başvurulması" },
+          { "id": "2", "text": "Görüşün açıklanması" },
+          { "id": "3", "text": "Konuyla ilgili delillerin toplanması" },
+          { "id": "4", "text": "Delillerin değerlendirilip sonuca varılması" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "4", "2"] },
+      "explanation": "Görüş, deliller toplanıp değerlendirilmeden açıklanmaz; süreç delillere dayanır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dört büyük kitabı indirildikleri sıraya göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "İncil" },
+          { "id": "2", "text": "Tevrat" },
+          { "id": "3", "text": "Kur'an-ı Kerim" },
+          { "id": "4", "text": "Zebur" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Tevrat Hz. Musa'ya, Zebur Hz. Davud'a, İncil Hz. İsa'ya, Kur'an ise Hz. Muhammed'e indirilmiştir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Peygamberleri yaşadıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Hz. İsa" },
+          { "id": "2", "text": "Hz. İbrahim" },
+          { "id": "3", "text": "Hz. Muhammed" },
+          { "id": "4", "text": "Hz. Musa" },
+          { "id": "5", "text": "Hz. Davud" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "Hz. İbrahim üç ilahi dinin ortak atasıdır; onu Hz. Musa, Hz. Davud, Hz. İsa ve Hz. Muhammed izlemiştir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dinleri ortaya çıkış tarihine göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Hristiyanlık" },
+          { "id": "2", "text": "Hinduizm" },
+          { "id": "3", "text": "İslam" },
+          { "id": "4", "text": "Budizm" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Hinduizm MÖ 2. binyıl, Budizm MÖ 6. yüzyıl, Hristiyanlık MS 1. yüzyıl, İslam ise MS 7. yüzyılda ortaya çıkmıştır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Din adlarını alfabetik sıraya göre diz.",
+        "items": [
+          { "id": "1", "text": "Yahudilik" },
+          { "id": "2", "text": "İslam" },
+          { "id": "3", "text": "Budizm" },
+          { "id": "4", "text": "Hristiyanlık" },
+          { "id": "5", "text": "Hinduizm" }
+        ]
+      },
+      "answer_key": { "order": ["3", "5", "4", "2", "1"] },
+      "explanation": "Alfabetik sıra: Budizm, Hinduizm, Hristiyanlık, İslam, Yahudilik."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kutsal kitap adlarını alfabetik sıraya göre diz.",
+        "items": [
+          { "id": "1", "text": "Zebur" },
+          { "id": "2", "text": "Kur'an-ı Kerim" },
+          { "id": "3", "text": "İncil" },
+          { "id": "4", "text": "Tevrat" }
+        ]
+      },
+      "answer_key": { "order": ["3", "2", "4", "1"] },
+      "explanation": "Alfabetik sıra: İncil, Kur'an-ı Kerim, Tevrat, Zebur."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dinleri dünya genelindeki mensup sayısına göre çoktan aza diz.",
+        "items": [
+          { "id": "1", "text": "Hinduizm" },
+          { "id": "2", "text": "Hristiyanlık" },
+          { "id": "3", "text": "Yahudilik" },
+          { "id": "4", "text": "İslam" },
+          { "id": "5", "text": "Budizm" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Mensup sayısı bakımından Hristiyanlık ilk, İslam ikinci sıradadır; Hinduizm'i Budizm ve Yahudilik izler."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Hanefi mezhebi, hüküm çıkarmada akıl yürütmeye (reye) geniş yer veren ekol içinde değerlendirilir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Ebu Hanife'nin yöntemi rey ve kıyasa geniş yer verdiği için bu ekol 'ehl-i rey' olarak anılır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Fıkhî mezheplerin ortaya çıkışı yalnızca siyasi sebeplere dayanır." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Fıkhî yorumların oluşumunda coğrafi şartlar, yerel örf ve kültür ile âlimlerin yöntem farklılıkları da etkili olmuştur."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Taklit, bir dinî hükmü delilini bilmeden başkasından alarak uygulamaktır." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Delilini bilerek hüküm çıkarmak içtihat, delilini bilmeden bir müçtehide uymak ise taklittir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "İcma, Hz. Peygamber hayatta iken bir hüküm kaynağı olarak işletilmiştir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Vahiy devam ettiği ve Hz. Peygamber'e başvurulabildiği sürece icmaya ihtiyaç duyulmamıştır; icma sonraki dönemlerin delilidir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Yahudilikte Tanah, Tevrat'ın yanı sıra başka bölümleri de içeren kutsal metinler bütününü ifade eder." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Tanah; Tora (Tevrat), Neviim ve Ketuvim bölümlerinden oluşan metinler bütününe verilen addır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "İslam düşüncesinde ortaya çıkan yorumlar, inanç alanında {{0}}, ibadet ve hukuk alanında ise {{1}} yorumlar olarak adlandırılır.",
+        "choices": ["itikadî", "amelî", "tasavvufî", "siyasi", "felsefî"]
+      },
+      "answer_key": { "blanks": ["itikadî", "amelî"] },
+      "explanation": "İnançla ilgili yorumlara itikadî, ibadet ve hukukla ilgili yorumlara amelî (fıkhî) yorumlar denir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Tasavvufî yorumlardan Kadirilik {{0}}, Rifailik ise {{1}} tarafından kurulmuştur.",
+        "choices": ["Abdülkâdir Geylânî", "Ahmed er-Rifâî", "Ahmet Yesevi", "Hacı Bektaş Veli", "Bahâeddin Nakşibend"]
+      },
+      "answer_key": { "blanks": ["Abdülkâdir Geylânî", "Ahmed er-Rifâî"] },
+      "explanation": "Kadirilik Abdülkâdir Geylânî'ye, Rifailik Ahmed er-Rifâî'ye nispet edilir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Kur'an sayfalarının bir araya getirilip tek bir mushaf hâline getirilmesine {{0}}, bu mushafın çoğaltılarak çeşitli bölgelere gönderilmesine ise {{1}} denir.",
+        "choices": ["cem", "istinsah", "tertil", "tilavet", "tefsir"]
+      },
+      "answer_key": { "blanks": ["cem", "istinsah"] },
+      "explanation": "Toplama işi (cem) Hz. Ebu Bekir döneminde, çoğaltma işi (istinsah) Hz. Osman döneminde gerçekleşmiştir."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Dinî bir konuda yetkin bir âlimin, sorulan soruya delillere dayanarak verdiği cevaba {{0}} denir.",
+        "choices": ["fetva", "icma", "kıyas", "nas"]
+      },
+      "answer_key": { "blanks": ["fetva"] },
+      "explanation": "Fetva, bağlayıcı olmayan bir görüş bildirimidir; icma görüş birliği, kıyas ise benzetme yöntemidir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hristiyanlıkta papayı kilisenin başı kabul eden mezhep {{0}}, 16. yüzyıldaki reform hareketiyle ortaya çıkan mezhep ise {{1}}'tır.",
+        "choices": ["Katoliklik", "Protestanlık", "Ortodoksluk", "Anglikanizm", "Monofizitlik"]
+      },
+      "answer_key": { "blanks": ["Katoliklik", "Protestanlık"] },
+      "explanation": "Hristiyanlığın üç ana mezhebi Katoliklik, Ortodoksluk ve Protestanlıktır; Protestanlık reform hareketiyle doğmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Tasavvuf kavramını anlamıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Zühd" },
+          { "id": "2", "text": "Mürşit" },
+          { "id": "3", "text": "Mürit" },
+          { "id": "4", "text": "Tarikat" }
+        ],
+        "right": [
+          { "id": "a", "text": "İzlenen manevi yol ve gelenek" },
+          { "id": "b", "text": "Dünya nimetlerine aşırı bağlanmama" },
+          { "id": "c", "text": "Manevi yolda eğitim alan kişi" },
+          { "id": "d", "text": "Manevi yolda rehberlik eden kişi" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "c", "4": "a" }, "partial_credit": true },
+      "explanation": "Mürşit rehber, mürit öğrencidir; tarikat izlenen yol, zühd ise sade yaşama tutumudur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mezhebi ait olduğu alan ve kurucusuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Maturidilik" },
+          { "id": "2", "text": "Caferilik" },
+          { "id": "3", "text": "Eşarilik" },
+          { "id": "4", "text": "Malikilik" }
+        ],
+        "right": [
+          { "id": "a", "text": "Fıkhî yorum — İmam Malik" },
+          { "id": "b", "text": "İtikadî yorum — İmam Maturidi" },
+          { "id": "c", "text": "Fıkhî yorum — Cafer-i Sadık" },
+          { "id": "d", "text": "İtikadî yorum — İmam Eşari" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "c", "3": "d", "4": "a" }, "partial_credit": true },
+      "explanation": "Maturidilik ve Eşarilik inanç alanındaki, Caferilik ve Malikilik ise ibadet-hukuk alanındaki yorumlardır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kıyas yöntemindeki kavramı karşılığıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Asıl" },
+          { "id": "2", "text": "Fer'" },
+          { "id": "3", "text": "İllet" },
+          { "id": "4", "text": "Hüküm" }
+        ],
+        "right": [
+          { "id": "a", "text": "İki mesele arasındaki ortak gerekçe" },
+          { "id": "b", "text": "Hakkında açık hüküm bulunan mesele" },
+          { "id": "c", "text": "Asıldan yeni meseleye aktarılan sonuç" },
+          { "id": "d", "text": "Hakkında açık hüküm bulunmayan yeni mesele" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "Kıyas, asıl ile fer' arasındaki ortak illete dayanarak asıldaki hükmü yeni meseleye taşımaktır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dini kendisine özgü kavramla birleştir.",
+        "left": [
+          { "id": "1", "text": "Hinduizm" },
+          { "id": "2", "text": "Budizm" },
+          { "id": "3", "text": "Yahudilik" },
+          { "id": "4", "text": "Hristiyanlık" }
+        ],
+        "right": [
+          { "id": "a", "text": "Teslis" },
+          { "id": "b", "text": "Kast sistemi" },
+          { "id": "c", "text": "Nirvana" },
+          { "id": "d", "text": "Seçilmiş kavim anlayışı" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "c", "3": "d", "4": "a" }, "partial_credit": true },
+      "explanation": "Kast Hinduizm'e, nirvana Budizm'e, seçilmiş kavim anlayışı Yahudiliğe, teslis ise Hristiyanlığa özgü kavramlardır."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "5", "text": "yorum" },
+          { "id": "1", "text": "Fıkhî" },
+          { "id": "7", "text": "doğmuştur" },
+          { "id": "3", "text": "amelî" },
+          { "id": "6", "text": "farklılıklarından" },
+          { "id": "2", "text": "mezhepler" },
+          { "id": "4", "text": "alandaki" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Fıkhî mezhepler, ibadet ve hukuk (amelî) alanındaki yöntem ve yorum farklılıklarından doğmuştur."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "4", "text": "nefsin" },
+          { "id": "2", "text": "temel" },
+          { "id": "6", "text": "edilmesidir" },
+          { "id": "1", "text": "Tasavvufun" },
+          { "id": "5", "text": "terbiye" },
+          { "id": "3", "text": "amacı" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Tasavvuf, inanç ve hukuk kurallarını belirlemeyi değil, nefsin terbiyesini ve kalbin arınmasını esas alır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "6", "text": "kullanılması" },
+          { "id": "3", "text": "vahyin" },
+          { "id": "1", "text": "İslam'a" },
+          { "id": "7", "text": "zorunludur" },
+          { "id": "5", "text": "aklın" },
+          { "id": "2", "text": "göre" },
+          { "id": "4", "text": "anlaşılmasında" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Vahiy ile akıl karşıt değildir; akıl, vahyi anlamanın ve yorumlamanın aracıdır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "7", "text": "hüküm" },
+          { "id": "2", "text": "benzetme" },
+          { "id": "5", "text": "bir" },
+          { "id": "1", "text": "Kıyas" },
+          { "id": "8", "text": "vermektir" },
+          { "id": "4", "text": "yeni" },
+          { "id": "6", "text": "meseleye" },
+          { "id": "3", "text": "yoluyla" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Kıyasta, hükmü bilinen asıl mesele ile yeni mesele arasındaki ortak illet esas alınır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "6", "text": "onuruna" },
+          { "id": "3", "text": "öğütlerinden" },
+          { "id": "1", "text": "Dinlerin" },
+          { "id": "7", "text": "saygıdır" },
+          { "id": "4", "text": "biri" },
+          { "id": "2", "text": "ortak" },
+          { "id": "5", "text": "insan" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Dinlerin öğütleri yalnızca ibadetlerle sınırlı değildir; insan onuru, adalet ve merhamet de ortak öğütler arasındadır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "4", "text": "karşılaştırmalı" },
+          { "id": "8", "text": "dalıdır" },
+          { "id": "1", "text": "Dinler" },
+          { "id": "6", "text": "inceleyen" },
+          { "id": "3", "text": "dinleri" },
+          { "id": "7", "text": "bilim" },
+          { "id": "5", "text": "olarak" },
+          { "id": "2", "text": "tarihi" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Dinler tarihi, dinleri kendi kaynaklarına dayanarak betimleyici ve karşılaştırmalı biçimde inceler."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İnanç (itikadî) alanındaki yorumu seç.",
+        "image": "diagrams/islam-dusuncesinde-yorumlar.png",
+        "hotspots": [
+          { "id": "1", "text": "Maturidilik" },
+          { "id": "2", "text": "Hanefilik" },
+          { "id": "3", "text": "Şafiilik" },
+          { "id": "4", "text": "Malikilik" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Maturidilik inanç alanındaki bir yorumdur; Hanefilik, Şafiilik ve Malikilik ise amelî (fıkhî) mezheplerdir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İslam düşüncesinde yorum farklılıklarının ortaya çıkış sebepleri arasında yer almayanı seç.",
+        "image": "diagrams/yorum-farkliliklarinin-sebepleri.png",
+        "hotspots": [
+          { "id": "1", "text": "Vahyin zamanla değişmesi" },
+          { "id": "2", "text": "Siyasi olaylar" },
+          { "id": "3", "text": "Kültürel farklılıklar" },
+          { "id": "4", "text": "Coğrafi şartlar" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Vahiy değişmemiştir; farklılıklar vahyin anlaşılma biçiminden, siyasi, kültürel ve coğrafi şartlardan kaynaklanır."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Fıkhın fer'î (ikincil) delillerinden olanı seç.",
+        "image": "diagrams/dini-deliller.png",
+        "hotspots": [
+          { "id": "1", "text": "Kur'an-ı Kerim" },
+          { "id": "2", "text": "Sünnet" },
+          { "id": "3", "text": "Kıyas" },
+          { "id": "4", "text": "Vahiy" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "3" },
+      "explanation": "Kur'an ve sünnet aslî delillerdir; kıyas ise icma ile birlikte fer'î delillerden sayılır."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "\"Dört Yüce Gerçek\" öğretisinin bulunduğu dini seç.",
+        "image": "diagrams/dunya-dinleri.png",
+        "hotspots": [
+          { "id": "1", "text": "Budizm" },
+          { "id": "2", "text": "Hinduizm" },
+          { "id": "3", "text": "Yahudilik" },
+          { "id": "4", "text": "Taoizm" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Dört Yüce Gerçek, Budizm'de acının varlığı, sebebi, sona erdirilebilmesi ve bunun yolunu konu edinen temel öğretidir."
+    },
+    {
+      "topic": "islam_dusuncesinde_yorumlar",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her konuyu inceleyen ilim dalıyla etiketle.",
+        "image": "diagrams/islami-ilimler.png",
+        "slots": [
+          { "id": "1", "text": "İcma ve kıyas gibi hüküm kaynakları" },
+          { "id": "2", "text": "Allah'ın sıfatları ve inanç esasları" },
+          { "id": "3", "text": "Ayetlerin iniş sebepleri (esbab-ı nüzul)" }
+        ],
+        "labels": ["Fıkıh", "Kelam", "Tefsir", "Siyer"]
+      },
+      "answer_key": {
+        "labels": { "1": "Fıkıh", "2": "Kelam", "3": "Tefsir" }
+      },
+      "explanation": "Hüküm kaynakları fıkhın, inanç esaslarının akli temellendirilmesi kelamın, ayetlerin iniş sebepleri tefsirin konusudur."
+    },
+    {
+      "topic": "vahiy_ve_akil",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her ifadeyi doğru sünnet türüyle etiketle.",
+        "image": "diagrams/sunnet-turleri.png",
+        "slots": [
+          { "id": "1", "text": "Hz. Peygamber'in sözleri" },
+          { "id": "2", "text": "Hz. Peygamber'in uygulamaları" },
+          { "id": "3", "text": "Hz. Peygamber'in sessiz kalarak onaylaması" }
+        ],
+        "labels": ["Kavlî sünnet", "Fiilî sünnet", "Takrirî sünnet", "Mütevatir haber"]
+      },
+      "answer_key": {
+        "labels": { "1": "Kavlî sünnet", "2": "Fiilî sünnet", "3": "Takrirî sünnet" }
+      },
+      "explanation": "Söz kavlî, davranış fiilî, onaylama ise takrirî sünnettir; sünnet yalnızca sözlerden oluşmaz."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her kutsal metni ait olduğu dinle etiketle.",
+        "image": "diagrams/kutsal-metinler.png",
+        "slots": [
+          { "id": "1", "text": "Tanah" },
+          { "id": "2", "text": "Vedalar" },
+          { "id": "3", "text": "Tripitaka" }
+        ],
+        "labels": ["Yahudilik", "Hinduizm", "Budizm", "Hristiyanlık"]
+      },
+      "answer_key": {
+        "labels": { "1": "Yahudilik", "2": "Hinduizm", "3": "Budizm" }
+      },
+      "explanation": "Tanah Yahudiliğin, Vedalar Hinduizm'in, Tripitaka ise Budizm'in temel metinleridir."
+    },
+    {
+      "topic": "dinler_ve_evrensel_ogutleri",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her inanç veya uygulamayı ilgili olduğu dinle etiketle.",
+        "image": "diagrams/dinlerin-temel-kavramlari.png",
+        "slots": [
+          { "id": "1", "text": "Vaftiz" },
+          { "id": "2", "text": "Reenkarnasyon (yeniden doğuş)" },
+          { "id": "3", "text": "Mesih beklentisi" }
+        ],
+        "labels": ["Hristiyanlık", "Hinduizm", "Yahudilik", "İslam"]
+      },
+      "answer_key": {
+        "labels": { "1": "Hristiyanlık", "2": "Hinduizm", "3": "Yahudilik" }
+      },
+      "explanation": "Vaftiz Hristiyanlığa özgü bir uygulamadır; reenkarnasyon Hinduizm'in, beklenen mesih inancı ise Yahudiliğin temel kabullerindendir."
     }
   ]
 }

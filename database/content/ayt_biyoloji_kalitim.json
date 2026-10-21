@@ -705,6 +705,1387 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4"] },
       "explanation": "Ribozom zarsızdır ve prokaryotlarda da bulunur."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Homozigot birey, bir karakter için iki farklı alel taşır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Homozigot (saf döl) birey aynı iki aleli taşır; farklı iki alel taşıyan birey heterozigottur."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Tam baskınlığın görüldüğü bir karakterde heterozigot birey baskın fenotipi gösterir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Tam baskınlıkta çekinik alelin etkisi görülmez; bu yüzden Aa bireyin görünümü AA ile aynıdır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mendel'in ayrılma ilkesine göre alel genler gamet oluşumu sırasında bir arada kalır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Ayrılma ilkesi tam tersini söyler: alel genler gamet oluşumunda birbirinden ayrılır ve her gamete yalnızca biri geçer."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İnsanda bebeğin cinsiyetini, babadan gelen gametin taşıdığı cinsiyet kromozomu belirler."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Anne yalnızca X taşıyan yumurta üretir; baba X ya da Y taşıyan sperm üretebilir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "ABO kan grubu kalıtımında 0 aleli, A ve B alellerine baskındır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. 0 aleli çekiniktir; A ve B alellerinin ikisi de 0'a baskındır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mayoz bölünme sonunda oluşan hücreler haploittir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Mayoz 2n bir hücreden n kromozomlu dört hücre oluşturur."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kromozom sayısının yarıya inmesi mayoz II sırasında gerçekleşir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Kromozom sayısı mayoz I'de (anafaz I'de homologların ayrılmasıyla) yarıya iner. Mayoz II mitoza benzer biçimde kardeş kromatitleri ayırır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mayoz II'de kardeş kromatitler birbirinden ayrılır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Anafaz II'de kardeş kromatitler ayrılarak zıt kutuplara çekilir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Mayoz bölünmede DNA eşlenmesi, mayoz II'den önce bir kez daha tekrarlanır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. DNA yalnızca mayoz I'den önceki interfazda bir kez eşlenir; mayoz I ile mayoz II arasında eşlenme olmaz."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Döllenme sonucu oluşan zigot haploit kromozom sayısına sahiptir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İki haploit gametin birleşmesiyle zigot diploit (2n) olur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "DNA'nın nükleotitlerinde deoksiriboz şekeri bulunur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. RNA nükleotitlerinde ise riboz şekeri bulunur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Genetik şifredeki 64 kodonun tamamı bir amino asit kodlar."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. 64 kodonun 61'i amino asit kodlar, 3'ü (UAA, UAG, UGA) durdurma kodonudur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "tRNA molekülleri amino asitleri ribozoma taşır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Her tRNA, antikodonuna uygun amino asidi taşıyarak mRNA kodonuyla eşleşir."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Ribozomlar çift zarlı organellerdir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Ribozom zarsız bir organeldir; rRNA ve proteinden oluşur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "DNA replikasyonu yarı korunumlu biçimde gerçekleşir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Oluşan her yeni DNA molekülünün bir zinciri eski (kalıp), diğeri yeni sentezlenmiştir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir karakter için aynı iki aleli taşıyan bireye {{0}} denir.",
+        "choices": ["homozigot", "heterozigot", "dihibrit", "monohibrit"]
+      },
+      "answer_key": { "blanks": ["homozigot"] },
+      "explanation": "Homozigot birey saf döldür (AA ya da aa). Farklı iki alel taşıyan birey heterozigot (melez) adını alır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir genin kromozom üzerinde bulunduğu özel bölgeye {{0}} denir.",
+        "choices": ["lokus", "sentromer", "telomer", "kromatit"]
+      },
+      "answer_key": { "blanks": ["lokus"] },
+      "explanation": "Alel genler, homolog kromozomların karşılıklı aynı lokusunda yer alır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Baskın fenotipli bir bireyin genotipini belirlemek için çekinik saf döl ile yapılan çaprazlamaya {{0}} denir.",
+        "choices": ["kontrol çaprazlaması", "monohibrit çaprazlama", "dihibrit çaprazlama", "resiprokal çaprazlama"]
+      },
+      "answer_key": { "blanks": ["kontrol çaprazlaması"] },
+      "explanation": "Döllerde çekinik fenotip çıkarsa incelenen birey heterozigottur (Aa)."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Melez bireyin fenotipinin iki ebeveynin arasında bir görünüm oluşturduğu kalıtım biçimine {{0}} denir.",
+        "choices": ["eksik baskınlık", "eş baskınlık", "tam baskınlık", "çok alellilik"]
+      },
+      "answer_key": { "blanks": ["eksik baskınlık"] },
+      "explanation": "Kırmızı ve beyaz çiçekli aslanağızlarının melezinin pembe olması eksik baskınlığa örnektir. Eş baskınlıkta ise iki alelin etkisi ayrı ayrı görülür."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Tam baskınlığın görüldüğü Aa × Aa çaprazlamasında genotip oranı {{0}}, fenotip oranı ise {{1}} olur.",
+        "choices": ["1 : 2 : 1", "3 : 1", "9 : 3 : 3 : 1", "1 : 1", "1 : 1 : 1 : 1", "2 : 1"]
+      },
+      "answer_key": { "blanks": ["1 : 2 : 1", "3 : 1"] },
+      "explanation": "Genotipler 1 AA : 2 Aa : 1 aa'dır. AA ile Aa aynı fenotipi verdiği için görünümde 3 baskın : 1 çekinik elde edilir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Profaz I'de homolog kromozomların yan yana gelerek tetrat oluşturmasına {{0}} denir.",
+        "choices": ["sinapsis", "krossing over", "sitokinez", "segregasyon"]
+      },
+      "answer_key": { "blanks": ["sinapsis"] },
+      "explanation": "Sinapsis homologların eşleşmesidir; krossing over bu eşleşmeden sonra gerçekleşen parça değişimidir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Erkek üreme ana hücresinden mayoz yoluyla dört sperm oluşmasına {{0}} denir.",
+        "choices": ["spermatogenez", "oogenez", "partenogenez", "ovulasyon"]
+      },
+      "answer_key": { "blanks": ["spermatogenez"] },
+      "explanation": "Oogenezde ise bir yumurta ve üç kutup hücresi oluşur; verim bu yüzden farklıdır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Dişi bireylerde mayoz sonucunda bir yumurta hücresi ve üç {{0}} oluşur.",
+        "choices": ["kutup hücresi", "spermatit", "folikül", "zigot"]
+      },
+      "answer_key": { "blanks": ["kutup hücresi"] },
+      "explanation": "Sitoplazmanın tamamı yumurtaya aktarıldığı için kutup hücreleri küçük kalır ve zamanla eriyip kaybolur."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Kromozom sayısının yarıya inmesi {{0}} sırasında gerçekleşir.",
+        "choices": ["mayoz I", "mayoz II", "interfaz", "sitokinez"]
+      },
+      "answer_key": { "blanks": ["mayoz I"] },
+      "explanation": "Anafaz I'de homolog kromozomlar ayrıldığı için sayı yarıya iner. Mayoz II mitoza benzer: kardeş kromatitleri ayırır, sayıyı değiştirmez."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "2n = 24 kromozomlu bir üreme ana hücresinin mayozu sonunda {{0}} hücre oluşur ve her birinde {{1}} kromozom bulunur.",
+        "choices": ["4", "2", "8", "12", "24", "48"]
+      },
+      "answer_key": { "blanks": ["4", "12"] },
+      "explanation": "Mayoz bir hücreden dört hücre oluşturur ve kromozom sayısını yarıya indirir: 24 / 2 = 12."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Transkripsiyonda mRNA sentezini gerçekleştiren enzim {{0}}'dır.",
+        "choices": ["RNA polimeraz", "DNA polimeraz", "helikaz", "ligaz"]
+      },
+      "answer_key": { "blanks": ["RNA polimeraz"] },
+      "explanation": "DNA polimeraz replikasyonda yeni DNA zincirini sentezler; RNA polimeraz ise kalıp DNA'dan RNA üretir."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "tRNA üzerinde bulunan ve mRNA kodonuyla eşleşen üçlü nükleotit dizisine {{0}} denir.",
+        "choices": ["antikodon", "kodon", "ekzon", "intron"]
+      },
+      "answer_key": { "blanks": ["antikodon"] },
+      "explanation": "Kodon mRNA'da, antikodon tRNA'da bulunur ve birbirinin tamamlayıcısıdır."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Çift zincirli bir DNA molekülünde adenin sayısı her zaman {{0}} sayısına eşittir.",
+        "choices": ["timin", "guanin", "sitozin", "urasil"]
+      },
+      "answer_key": { "blanks": ["timin"] },
+      "explanation": "Chargaff kuralı: A = T ve G = C. Adenin timinle iki, guanin sitozinle üç hidrojen bağı kurar."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Ökaryot bir hücrede transkripsiyon {{0}}, translasyon ise {{1}} gerçekleşir.",
+        "choices": ["çekirdekte", "sitoplazmada", "mitokondride", "golgi aygıtında", "lizozomda", "kloroplastta"]
+      },
+      "answer_key": { "blanks": ["çekirdekte", "sitoplazmada"] },
+      "explanation": "mRNA çekirdekte sentezlendikten sonra por aracılığıyla sitoplazmaya geçer ve ribozomda protein sentezinde kalıp olarak kullanılır."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "RNA'nın nükleotitlerinde bulunan beş karbonlu şeker {{0}}'dur.",
+        "choices": ["riboz", "deoksiriboz", "glikoz", "fruktoz"]
+      },
+      "answer_key": { "blanks": ["riboz"] },
+      "explanation": "DNA'da deoksiriboz bulunur; adındaki \"deoksi\" bir oksijenin eksik olduğunu anlatır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hemofili, {{0}} kromozomuna bağlı çekinik olarak kalıtılan bir hastalıktır.",
+        "choices": ["X", "Y", "13", "21"]
+      },
+      "answer_key": { "blanks": ["X"] },
+      "explanation": "Erkeklerde tek X kromozomu bulunduğu için çekinik alel doğrudan fenotipe yansır; bu yüzden hastalık erkeklerde daha sıktır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çaprazlamayı beklenen fenotip oranıyla birleştir. (Tam baskınlık geçerlidir.)",
+        "left": [
+          { "id": "1", "text": "Aa × Aa" },
+          { "id": "2", "text": "Aa × aa" },
+          { "id": "3", "text": "AA × aa" },
+          { "id": "4", "text": "AaBb × AaBb" }
+        ],
+        "right": [
+          { "id": "a", "text": "9 : 3 : 3 : 1" },
+          { "id": "b", "text": "3 baskın : 1 çekinik" },
+          { "id": "c", "text": "Döllerin tamamı baskın fenotipli" },
+          { "id": "d", "text": "1 baskın : 1 çekinik" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "c", "4": "a" },
+        "partial_credit": true
+      },
+      "explanation": "AA × aa çaprazlamasında tüm döller Aa olduğu için hepsi baskın görünür. Dihibrit melez çaprazlaması ise 9:3:3:1 verir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hastalığı kalıtım biçimiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Renk körlüğü" },
+          { "id": "2", "text": "Orak hücreli anemi" },
+          { "id": "3", "text": "Hemofili" },
+          { "id": "4", "text": "Down sendromu" }
+        ],
+        "right": [
+          { "id": "a", "text": "21. kromozomun üç tane olması" },
+          { "id": "b", "text": "X'e bağlı çekinik görme bozukluğu" },
+          { "id": "c", "text": "Otozomal çekinik hemoglobin bozukluğu" },
+          { "id": "d", "text": "X'e bağlı çekinik kanın pıhtılaşma bozukluğu" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "c", "3": "d", "4": "a" },
+        "partial_credit": true
+      },
+      "explanation": "Down sendromu bir gen hastalığı değil, sayısal kromozom anomalisidir (trizomi 21)."
+    },
+    {
+      "topic": "kalitim",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kalıtım terimini tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Lokus" },
+          { "id": "2", "text": "Alel" },
+          { "id": "3", "text": "Karyotip" },
+          { "id": "4", "text": "Genom" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bir canlının tüm genetik bilgisi" },
+          { "id": "b", "text": "Genin kromozom üzerindeki yeri" },
+          { "id": "c", "text": "Aynı karakteri belirleyen gen çeşidi" },
+          { "id": "d", "text": "Kromozomların sayı ve yapı bakımından görüntüsü" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "c", "3": "d", "4": "a" },
+        "partial_credit": true
+      },
+      "explanation": "Karyotip kromozomların fotoğrafıdır; genom ise taşıdıkları bilginin tamamıdır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kan grubunu olası genotibiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "A kan grubu (saf döl)" },
+          { "id": "2", "text": "AB kan grubu" },
+          { "id": "3", "text": "0 kan grubu" },
+          { "id": "4", "text": "B kan grubu (melez)" }
+        ],
+        "right": [
+          { "id": "a", "text": "AA" },
+          { "id": "b", "text": "AB" },
+          { "id": "c", "text": "00" },
+          { "id": "d", "text": "B0" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "0 aleli çekinik olduğu için 0 kan grubunun tek genotipi 00'dır. AB grubu ise daima heterozigottur."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mayoz evresini o evrede gerçekleşen olayla birleştir.",
+        "left": [
+          { "id": "1", "text": "Profaz I" },
+          { "id": "2", "text": "Metafaz I" },
+          { "id": "3", "text": "Anafaz I" },
+          { "id": "4", "text": "Anafaz II" }
+        ],
+        "right": [
+          { "id": "a", "text": "Homolog kromozomlar zıt kutuplara çekilir" },
+          { "id": "b", "text": "Krossing over gerçekleşir" },
+          { "id": "c", "text": "Kardeş kromatitler birbirinden ayrılır" },
+          { "id": "d", "text": "Tetratlar ekvator düzlemine dizilir" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Kromozom sayısı anafaz I'de yarıya iner; anafaz II yalnızca kromatitleri ayırır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Süreci sonucuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Spermatogenez" },
+          { "id": "2", "text": "Oogenez" },
+          { "id": "3", "text": "Döllenme" },
+          { "id": "4", "text": "Mayoz" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bir yumurta ve üç kutup hücresi oluşur" },
+          { "id": "b", "text": "Dört işlevsel sperm oluşur" },
+          { "id": "c", "text": "n + n birleşerek 2n zigot oluşur" },
+          { "id": "d", "text": "2n hücreden n hücreler oluşur" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Oogenezde sitoplazmanın tamamı tek hücreye verildiği için dört değil bir işlevsel gamet oluşur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Nükleik asidi görevi ile birleştir.",
+        "left": [
+          { "id": "1", "text": "mRNA" },
+          { "id": "2", "text": "tRNA" },
+          { "id": "3", "text": "rRNA" },
+          { "id": "4", "text": "DNA" }
+        ],
+        "right": [
+          { "id": "a", "text": "Amino asitleri ribozoma taşır" },
+          { "id": "b", "text": "Kalıtsal bilgiyi saklar ve kendini eşler" },
+          { "id": "c", "text": "Ribozomun yapısına katılır" },
+          { "id": "d", "text": "Protein sentezinde şifreyi ribozoma getirir" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "d", "2": "a", "3": "c", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Üç RNA çeşidinin tamamı protein sentezinde görev alır; bilginin asıl kaynağı ise DNA'dır."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Enzimi görevi ile birleştir.",
+        "left": [
+          { "id": "1", "text": "DNA polimeraz" },
+          { "id": "2", "text": "RNA polimeraz" },
+          { "id": "3", "text": "Helikaz" },
+          { "id": "4", "text": "DNA ligaz" }
+        ],
+        "right": [
+          { "id": "a", "text": "DNA çift sarmalını açar" },
+          { "id": "b", "text": "Kalıp zincire göre yeni DNA zinciri sentezler" },
+          { "id": "c", "text": "DNA parçalarının uçlarını birbirine bağlar" },
+          { "id": "d", "text": "DNA kalıbından RNA sentezler" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Replikasyonda sırayla helikaz açar, DNA polimeraz sentezler, ligaz birleştirir. RNA polimeraz ise transkripsiyonun enzimidir."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hücre yapısını protein sentezindeki görevi ile birleştir.",
+        "left": [
+          { "id": "1", "text": "Çekirdek" },
+          { "id": "2", "text": "Ribozom" },
+          { "id": "3", "text": "Golgi aygıtı" },
+          { "id": "4", "text": "Granüllü endoplazmik retikulum" }
+        ],
+        "right": [
+          { "id": "a", "text": "Transkripsiyonun gerçekleştiği yer" },
+          { "id": "b", "text": "Translasyonun gerçekleştiği yer" },
+          { "id": "c", "text": "Proteinlerin paketlenip salgıya hazırlandığı yer" },
+          { "id": "d", "text": "Üzerinde sentezlenen proteinleri taşıyan kanal sistemi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Salgı proteinleri granüllü ER'de sentezlenip Golgi'de işlenir ve veziküllerle hücre dışına verilir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mayoz II evrelerini ilk evreden son evreye diz.",
+        "items": [
+          { "id": "1", "text": "Metafaz II" },
+          { "id": "2", "text": "Telofaz II" },
+          { "id": "3", "text": "Profaz II" },
+          { "id": "4", "text": "Anafaz II" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "4", "2"] },
+      "explanation": "Mayoz II mitoza benzer biçimde işler; anafaz II'de kardeş kromatitler ayrılır ve telofaz II sonunda dört haploit hücre oluşur."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mayoz bölünmedeki olayları ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Mayoz II'de kardeş kromatitler ayrılır" },
+          { "id": "2", "text": "İnterfazda DNA eşlenir" },
+          { "id": "3", "text": "Dört haploit hücre oluşur" },
+          { "id": "4", "text": "Mayoz I'de homolog kromozomlar ayrılır" },
+          { "id": "5", "text": "İki haploit hücre oluşur" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "DNA yalnızca başta bir kez eşlenir. Kromozom sayısı mayoz I'de yarıya iner; mayoz II kromatitleri ayırarak hücre sayısını dörde çıkarır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Eşeyli üremedeki olayları ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Haploit gametler oluşur" },
+          { "id": "2", "text": "Üreme ana hücresi mayoza girer" },
+          { "id": "3", "text": "Zigot mitozla çoğalarak embriyoyu oluşturur" },
+          { "id": "4", "text": "Gametler döllenmeyle birleşir" },
+          { "id": "5", "text": "Diploit zigot oluşur" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "5", "3"] },
+      "explanation": "Mayoz kromozom sayısını yarıya indirir, döllenme ise tekrar 2n'e çıkarır. Böylece türün kromozom sayısı kuşaklar boyunca sabit kalır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Spermatogenezdeki hücreleri oluşum sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "İkincil spermatosit" },
+          { "id": "2", "text": "Spermatogonyum" },
+          { "id": "3", "text": "Sperm" },
+          { "id": "4", "text": "Birincil spermatosit" },
+          { "id": "5", "text": "Spermatit" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Birincil spermatosit 2n'dir; mayoz I'den sonra oluşan ikincil spermatositler ve spermatitler haploittir. Spermatitler farklılaşarak sperme dönüşür."
+    },
+    {
+      "topic": "kalitim",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir çaprazlama sorusunu çözme adımlarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Gametler Punnett karesinde birleştirilir" },
+          { "id": "2", "text": "Ebeveynlerin genotipleri yazılır" },
+          { "id": "3", "text": "Genotip oranlarından fenotip oranları bulunur" },
+          { "id": "4", "text": "Her ebeveynin oluşturabileceği gametler belirlenir" },
+          { "id": "5", "text": "Döllerin genotip oranları sayılır" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Fenotip oranı en son bulunur, çünkü baskınlık ilişkisi genotipler belirlendikten sonra uygulanır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aşağıdaki olasılıkları küçükten büyüğe diz. (Büyük harfler baskın aleli gösterir.)",
+        "items": [
+          { "id": "1", "text": "Aa × aa çaprazlamasında aa olma olasılığı" },
+          { "id": "2", "text": "AaBb × Aabb çaprazlamasında aabb olma olasılığı" },
+          { "id": "3", "text": "AA × aa çaprazlamasında Aa olma olasılığı" },
+          { "id": "4", "text": "Aa × Aa çaprazlamasında aa olma olasılığı" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Sırasıyla 1/8, 1/4, 1/2 ve 1'dir. İki karakter birlikte sorulduğunda olasılıklar çarpılır: (1/4) × (1/2) = 1/8."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "DNA eşlenmesindeki olayları ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "DNA polimeraz tamamlayıcı nükleotitleri ekler" },
+          { "id": "2", "text": "Helikaz enzimi çift sarmalı açar" },
+          { "id": "3", "text": "Birbirinin eşi iki DNA molekülü oluşur" },
+          { "id": "4", "text": "Açılan zincirler kalıp olarak kullanılmaya hazır hâle gelir" },
+          { "id": "5", "text": "Ligaz enzimi yeni zincirdeki parçaları birbirine bağlar" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Replikasyon yarı korunumludur: oluşan her DNA molekülünün bir zinciri kalıp, diğeri yeni sentezlenmiştir."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Translasyon (protein sentezi) olaylarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Amino asitler arasında peptit bağı kurulur" },
+          { "id": "2", "text": "mRNA ribozoma bağlanır" },
+          { "id": "3", "text": "Durdurma kodonuna gelindiğinde polipeptit serbest kalır" },
+          { "id": "4", "text": "Başlama kodonuna uygun antikodonu taşıyan tRNA yerleşir" },
+          { "id": "5", "text": "İkinci tRNA kendi kodonunun karşısına yerleşir" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "Peptit bağı ancak iki amino asit ribozomda yan yana geldikten sonra kurulabilir. Durdurma kodonu amino asit kodlamaz, sentezi bitirir."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir mRNA molekülünün ökaryot hücredeki serüvenini ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Çekirdek porundan geçerek sitoplazmaya çıkar" },
+          { "id": "2", "text": "RNA polimeraz ilgili genin başlangıç bölgesine bağlanır" },
+          { "id": "3", "text": "Görevi bitince enzimlerle parçalanır" },
+          { "id": "4", "text": "Kalıp DNA zincirine göre sentezlenir" },
+          { "id": "5", "text": "Ribozoma bağlanarak protein sentezinde kalıp olur" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Transkripsiyon çekirdekte, translasyon sitoplazmada gerçekleşir; mRNA bu iki bölme arasındaki taşıyıcıdır."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Transkripsiyon basamaklarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Kalıp zincire uygun RNA nükleotitleri sırayla eklenir" },
+          { "id": "2", "text": "Sentezlenen mRNA, DNA'dan ayrılır" },
+          { "id": "3", "text": "RNA polimeraz genin başlangıç bölgesine bağlanır" },
+          { "id": "4", "text": "Genin bulunduğu DNA bölgesi açılır" },
+          { "id": "5", "text": "Enzim genin sonlanma bölgesine ulaşır" }
+        ]
+      },
+      "answer_key": { "order": ["3", "4", "1", "5", "2"] },
+      "explanation": "Transkripsiyonda DNA'nın yalnızca ilgili gen bölgesi açılır; tüm molekül açılmaz. mRNA ayrıldıktan sonra DNA eski sarmal yapısına döner."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir salgı proteininin hücre içindeki yolunu ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Veziküllerle Golgi aygıtına taşınır" },
+          { "id": "2", "text": "Granüllü endoplazmik retikulum üzerindeki ribozomda sentezlenir" },
+          { "id": "3", "text": "Hücre zarıyla kaynaşan vezikülle hücre dışına verilir" },
+          { "id": "4", "text": "Golgi aygıtında işlenip paketlenir" },
+          { "id": "5", "text": "Endoplazmik retikulum kanallarının içine alınır" }
+        ]
+      },
+      "answer_key": { "order": ["2", "5", "1", "4", "3"] },
+      "explanation": "Salgı proteinleri granüllü ER'de sentezlenir; Golgi onları paketleyip hücre dışına gönderir. Bu yola \"salgı yolu\" denir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mendel'in bezelye deneyindeki adımları ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "F2 kuşağında 3 : 1 fenotip oranı gözlendi" },
+          { "id": "2", "text": "Saf döl (homozigot) bezelye hatları elde edildi" },
+          { "id": "3", "text": "F1 bireyleri kendi aralarında çaprazlandı" },
+          { "id": "4", "text": "Sonuçlardan ayrılma ilkesi çıkarıldı" },
+          { "id": "5", "text": "Zıt özellikli saf döller çaprazlanarak F1 oluşturuldu" }
+        ]
+      },
+      "answer_key": { "order": ["2", "5", "3", "1", "4"] },
+      "explanation": "F1'in tamamı baskın fenotipliydi; çekinik özellik F2'de yeniden ortaya çıktı. Bu da alellerin gamet oluşumunda ayrıldığını gösterdi."
+    },
+    {
+      "topic": "kalitim",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çaprazlama kuşaklarını eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "İkinci oğul kuşak (F2)" },
+          { "id": "2", "text": "Ana döl (P)" },
+          { "id": "3", "text": "Üçüncü oğul kuşak (F3)" },
+          { "id": "4", "text": "Birinci oğul kuşak (F1)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "P ana dölü gösterir; sonraki her kuşak bir öncekinin çaprazlanmasıyla elde edilir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çaprazlamaları, döllerde oluşabilecek farklı genotip sayısına göre azdan çoğa diz.",
+        "items": [
+          { "id": "1", "text": "Aa × Aa" },
+          { "id": "2", "text": "AA × aa" },
+          { "id": "3", "text": "AaBb × AaBb" },
+          { "id": "4", "text": "Aa × aa" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Sırasıyla 1 (yalnızca Aa), 2 (Aa, aa), 3 (AA, Aa, aa) ve 9 farklı genotip oluşur. Dihibrit melez çaprazlamada 3 × 3 = 9 genotip görülür."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Oogenezdeki hücreleri oluşum sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "İkincil oosit" },
+          { "id": "2", "text": "Olgun yumurta hücresi" },
+          { "id": "3", "text": "Oogonyum" },
+          { "id": "4", "text": "Birincil oosit" }
+        ]
+      },
+      "answer_key": { "order": ["3", "4", "1", "2"] },
+      "explanation": "Birincil oosit diploittir. Mayoz I'den sonra bir ikincil oosit ve bir kutup hücresi oluşur; sitoplazmanın büyük kısmı yumurtaya aktarılır."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Embriyonik gelişim evrelerini ilk evreden son evreye diz.",
+        "items": [
+          { "id": "1", "text": "Blastula" },
+          { "id": "2", "text": "Zigot" },
+          { "id": "3", "text": "Gastrula" },
+          { "id": "4", "text": "Morula" },
+          { "id": "5", "text": "Organ taslaklarının oluşumu" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3", "5"] },
+      "explanation": "Zigot mitozlarla morulayı oluşturur; blastulada boşluk belirir, gastrulada embriyonik tabakalar ayrılır ve bunlardan organ taslakları gelişir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hücre döngüsü evrelerini ilk evreden son evreye diz.",
+        "items": [
+          { "id": "1", "text": "S evresi (DNA eşlenmesi)" },
+          { "id": "2", "text": "Sitokinez" },
+          { "id": "3", "text": "G1 evresi" },
+          { "id": "4", "text": "Çekirdek bölünmesi" },
+          { "id": "5", "text": "G2 evresi" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "5", "4", "2"] },
+      "explanation": "G1, S ve G2 birlikte interfazı oluşturur. DNA yalnızca S evresinde eşlenir; bölünme bundan sonra başlar."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Protein yapı düzeylerini basitten karmaşığa diz.",
+        "items": [
+          { "id": "1", "text": "Üçüncül yapı (zincirin üç boyutlu katlanması)" },
+          { "id": "2", "text": "Amino asit" },
+          { "id": "3", "text": "Dördüncül yapı (birden fazla zincirin birleşmesi)" },
+          { "id": "4", "text": "Birincil yapı (amino asit dizisi)" },
+          { "id": "5", "text": "İkincil yapı (sarmal ve kıvrımlar)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "Proteinin işlevi üç boyutlu şekline bağlıdır; bu şekil de amino asit dizisi (birincil yapı) tarafından belirlenir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "A kan gruplu bir anne ile B kan gruplu bir babanın 0 kan gruplu çocuğu olabilir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Anne A0, baba B0 genotipindeyse çocuk her iki ebeveynden 0 aleli alıp 00 genotipinde, yani 0 kan gruplu olabilir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Bağımsız dağılım ilkesi, yalnızca farklı homolog kromozom çiftleri üzerinde yer alan genler için geçerlidir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Aynı kromozom üzerindeki bağlı genler birlikte taşındığı için bağımsız dağılmaz; ilke ayrı kromozom çiftlerindeki genleri tanımlar."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Mayoz I'in metafaz evresinde homolog kromozom çiftleri ekvatoral düzlemde iki sıra hâlinde dizilir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Metafaz I'de tetratlar karşılıklı iki sıra oluşturur; mitoz metafazı ve metafaz II'de ise kromozomlar tek sıra hâlinde dizilir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Krossing over, bir kromozomun kardeş kromatitleri arasında gerçekleşir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Parça değişimi homolog kromozomların kardeş olmayan kromatitleri arasında olur. Kardeş kromatitler aynı aleli taşıdığı için aralarındaki değişim yeni birleşim yaratmazdı."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Translasyonun sonlanması, stop kodonu okuyan özel bir tRNA'nın ribozoma bağlanmasıyla gerçekleşir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Stop kodonlarını (UAA, UAG, UGA) tanıyan tRNA yoktur; sonlanma faktörleri devreye girer ve polipeptit ribozomdan ayrılır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Genleri ayrı homolog kromozom çiftlerinde bulunan AaBb genotipli bir bireyin oluşturabileceği farklı gamet çeşidi sayısı {{0}}'tür.",
+        "choices": ["4", "2", "8", "16"]
+      },
+      "answer_key": { "blanks": ["4"] },
+      "explanation": "Her heterozigot gen çifti gamet çeşidini ikiye katlar: 2 heterozigot gen için 2² = 4 gamet çeşidi (AB, Ab, aB, ab) oluşur."
+    },
+    {
+      "topic": "kalitim",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Renk körlüğü taşıyıcısı bir anne ile renk görüşü normal bir babanın çocuklarının renk körü olma olasılığı {{0}}, bu çiftin kız çocuklarının renk körü olma olasılığı ise {{1}}'dır.",
+        "choices": ["1/4", "0", "1/2", "3/4", "1/8", "1"]
+      },
+      "answer_key": { "blanks": ["1/4", "0"] },
+      "explanation": "Çaprazlama X^A X^a × X^A Y biçimindedir. Döller: X^A X^A, X^A X^a, X^A Y, X^a Y. Tüm çocuklar içinde renk körü olasılığı 1/4'tür; kızların tamamı en az bir X^A aldığı için kızlarda renk körlüğü görülmez."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Mayoz sırasında kromozomların ayrılmaması sonucu 21. kromozomun üç kopya hâlinde bulunmasıyla ortaya çıkan duruma {{0}} denir.",
+        "choices": ["Down sendromu", "Turner sendromu", "Klinefelter sendromu", "Edwards sendromu"]
+      },
+      "answer_key": { "blanks": ["Down sendromu"] },
+      "explanation": "21. kromozomun trizomisi Down sendromudur. Turner (X0) ve Klinefelter (XXY) cinsiyet kromozomlarıyla, Edwards ise 18. kromozomun trizomisiyle ilgilidir."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Kodlayıcı bölgesi 300 nükleotitten oluşan ve bu bölgenin sonunda bir stop kodonu bulunan bir mRNA'dan sentezlenen polipeptitte {{0}} amino asit yer alır.",
+        "choices": ["99", "100", "150", "300"]
+      },
+      "answer_key": { "blanks": ["99"] },
+      "explanation": "300 nükleotit 300 / 3 = 100 kodon demektir. Stop kodonu amino asit kodlamadığı için polipeptitte 100 - 1 = 99 amino asit bulunur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Çift zincirli bir DNA molekülünün bir zincirinde 30 adenin ve 20 guanin bulunuyorsa, karşı zincirde {{0}} timin ve {{1}} sitozin yer alır.",
+        "choices": ["30", "20", "50", "10", "40", "60"]
+      },
+      "answer_key": { "blanks": ["30", "20"] },
+      "explanation": "Zincirler birbirinin tamamlayıcısıdır: bir zincirdeki her adeninin karşısında timin, her guaninin karşısında sitozin bulunur. Bu yüzden karşı zincirde 30 timin ve 20 sitozin olur."
+    },
+    {
+      "topic": "kalitim",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Genotipi, ayrı homolog kromozom çiftlerinde yer alan genler için oluşturabileceği gamet çeşidi sayısıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "AaBb" },
+          { "id": "2", "text": "AABb" },
+          { "id": "3", "text": "aabb" },
+          { "id": "4", "text": "AaBbCc" }
+        ],
+        "right": [
+          { "id": "a", "text": "8 gamet çeşidi" },
+          { "id": "b", "text": "4 gamet çeşidi" },
+          { "id": "c", "text": "1 gamet çeşidi" },
+          { "id": "d", "text": "2 gamet çeşidi" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "c", "4": "a" }, "partial_credit": true },
+      "explanation": "Gamet çeşidi sayısı 2^n formülüyle bulunur; n heterozigot gen çifti sayısıdır. AaBb için 2² = 4, AABb için 2¹ = 2, aabb için 2⁰ = 1, AaBbCc için 2³ = 8."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mayozla ilgili terimi tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Sinapsis" },
+          { "id": "2", "text": "Krossing over" },
+          { "id": "3", "text": "Bağımsız dağılım" },
+          { "id": "4", "text": "Ayrılmama" }
+        ],
+        "right": [
+          { "id": "a", "text": "Kardeş olmayan kromatitler arasında parça değişimi" },
+          { "id": "b", "text": "Homolog kromozomların profaz I'de yan yana gelmesi" },
+          { "id": "c", "text": "Bir homolog kromozom çiftinin aynı gamete gitmesi" },
+          { "id": "d", "text": "Farklı homolog çiftlerin birbirinden bağımsız olarak gametlere dağılması" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Sinapsis tetrat oluşumunu, krossing over parça değişimini sağlar. Bağımsız dağılım gamet çeşitliliğini artırır; ayrılmama ise kromozom sayısı anormalliklerine yol açar."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "mRNA kodonunu, kendisiyle eşleşen tRNA antikodonuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "AUG" },
+          { "id": "2", "text": "UUU" },
+          { "id": "3", "text": "GCA" },
+          { "id": "4", "text": "CCG" }
+        ],
+        "right": [
+          { "id": "a", "text": "CGU" },
+          { "id": "b", "text": "UAC" },
+          { "id": "c", "text": "GGC" },
+          { "id": "d", "text": "AAA" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "Antikodon, kodonun tamamlayıcısıdır: A-U ve G-C eşleşir. AUG-UAC, UUU-AAA, GCA-CGU, CCG-GGC."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Gen mutasyonu çeşidini protein üzerindeki sonucuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Sessiz mutasyon" },
+          { "id": "2", "text": "Yanlış anlamlı mutasyon" },
+          { "id": "3", "text": "Anlamsız mutasyon" },
+          { "id": "4", "text": "Çerçeve kaydıran delesyon" }
+        ],
+        "right": [
+          { "id": "a", "text": "Polipeptit olması gerekenden erken sonlanır" },
+          { "id": "b", "text": "Amino asit dizisi hiç değişmez" },
+          { "id": "c", "text": "Mutasyon noktasından sonraki kodonlar kaymış hâlde okunur" },
+          { "id": "d", "text": "Tek bir amino asit başka bir amino asitle yer değiştirir" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "Genetik şifre birden fazla kodonun aynı amino asidi belirtmesine izin verdiği için sessiz mutasyonda protein değişmez. Anlamsız mutasyon kodonu stop kodonuna çevirir; bir nükleotidin çıkması ise okuma çerçevesini kaydırır."
+    },
+    {
+      "topic": "kalitim",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek kuralı ifade eden cümleyi oluştur.",
+        "words": [
+          { "id": "6", "text": "birey" },
+          { "id": "1", "text": "Çekinik" },
+          { "id": "4", "text": "görülmesi" },
+          { "id": "8", "text": "olmalıdır" },
+          { "id": "2", "text": "alelin" },
+          { "id": "7", "text": "homozigot" },
+          { "id": "3", "text": "fenotipte" },
+          { "id": "5", "text": "için" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Çekinik alelin fenotipte görülmesi için birey homozigot olmalıdır. Heterozigot bireyde baskın alel fenotipi belirler."
+    },
+    {
+      "topic": "kalitim",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek tanım cümlesini oluştur.",
+        "words": [
+          { "id": "5", "text": "bireyin" },
+          { "id": "2", "text": "çaprazlaması" },
+          { "id": "7", "text": "belirler" },
+          { "id": "3", "text": "baskın" },
+          { "id": "1", "text": "Kontrol" },
+          { "id": "6", "text": "genotipini" },
+          { "id": "4", "text": "fenotipli" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Kontrol çaprazlaması baskın fenotipli bireyin genotipini belirler. Birey çekinik saf dölle çaprazlanır; çekinik fenotipli döl çıkarsa birey heterozigottur."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "4", "text": "homolog" },
+          { "id": "1", "text": "Mayozun" },
+          { "id": "6", "text": "birbirinden" },
+          { "id": "3", "text": "bölünmesinde" },
+          { "id": "7", "text": "ayrılır" },
+          { "id": "2", "text": "birinci" },
+          { "id": "5", "text": "kromozomlar" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Mayozun birinci bölünmesinde homolog kromozomlar birbirinden ayrılır. Kardeş kromatitlerin ayrılması ise mayoz II'de gerçekleşir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "3", "text": "oluşan" },
+          { "id": "6", "text": "sayısı" },
+          { "id": "1", "text": "Döllenme" },
+          { "id": "5", "text": "kromozom" },
+          { "id": "7", "text": "diploittir" },
+          { "id": "2", "text": "sonucu" },
+          { "id": "4", "text": "zigotun" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Döllenme sonucu oluşan zigotun kromozom sayısı diploittir. Haploit yumurta ve haploit spermin birleşmesiyle tür için karakteristik 2n sayısı geri kazanılır."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek tanım cümlesini oluştur.",
+        "words": [
+          { "id": "5", "text": "aktarılmasına" },
+          { "id": "2", "text": "genin" },
+          { "id": "7", "text": "denir" },
+          { "id": "1", "text": "Bir" },
+          { "id": "4", "text": "mRNA'ya" },
+          { "id": "6", "text": "transkripsiyon" },
+          { "id": "3", "text": "bilgisinin" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Bir genin bilgisinin mRNA'ya aktarılmasına transkripsiyon denir. Bu bilginin amino asit dizisine çevrilmesi ise translasyondur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "4", "text": "kodonun" },
+          { "id": "1", "text": "Genetik" },
+          { "id": "7", "text": "sentezini" },
+          { "id": "3", "text": "üç" },
+          { "id": "8", "text": "sonlandırmaktır" },
+          { "id": "6", "text": "protein" },
+          { "id": "2", "text": "şifredeki" },
+          { "id": "5", "text": "görevi" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Genetik şifredeki üç kodonun görevi protein sentezini sonlandırmaktır. Bu kodonlar UAA, UAG ve UGA'dır; hiçbir amino asit kodlamazlar."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Homolog kromozomların birbirinden ayrılarak zıt kutuplara çekildiği evreyi işaretle.",
+        "image": "diagrams/mayoz-evreleri.png",
+        "hotspots": [
+          { "id": "1", "text": "Profaz I" },
+          { "id": "2", "text": "Metafaz I" },
+          { "id": "3", "text": "Anafaz I" },
+          { "id": "4", "text": "Anafaz II" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "3" },
+      "explanation": "Anafaz I'de homolog kromozomlar ayrılır ve kromozom sayısı yarıya iner. Anafaz II'de ayrılan yapılar kardeş kromatitlerdir."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kromozomların homolog çiftler hâlinde ekvatoral düzlemde iki sıra oluşturduğu evreyi işaretle.",
+        "image": "diagrams/mayoz-evreleri.png",
+        "hotspots": [
+          { "id": "1", "text": "Metafaz I" },
+          { "id": "2", "text": "Metafaz II" },
+          { "id": "3", "text": "Telofaz I" },
+          { "id": "4", "text": "Profaz II" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Metafaz I'de tetratlar karşılıklı iki sıra hâlinde dizilir. Metafaz II'de ise haploit hücredeki kromozomlar tek sıra oluşturur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Zarla çevrili olmayan ve üzerinde translasyonun gerçekleştiği organeli işaretle.",
+        "image": "diagrams/hucre-protein-sentezi.png",
+        "hotspots": [
+          { "id": "1", "text": "Lizozom" },
+          { "id": "2", "text": "Ribozom" },
+          { "id": "3", "text": "Golgi aygıtı" },
+          { "id": "4", "text": "Mitokondri" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "2" },
+      "explanation": "Ribozom zarsız bir organeldir ve mRNA'daki şifre burada amino asit dizisine çevrilir. Golgi aygıtı proteinleri paketler, lizozom sindirir."
+    },
+    {
+      "topic": "kalitim",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Erkeklerde kadınlardan çok daha sık görülen ve hasta bir babanın oğullarına aktarılmayan kalıtım desenini işaretle.",
+        "image": "diagrams/kalitim-desenleri.png",
+        "hotspots": [
+          { "id": "1", "text": "Otozomal baskın kalıtım" },
+          { "id": "2", "text": "Otozomal çekinik kalıtım" },
+          { "id": "3", "text": "X kromozomuna bağlı çekinik kalıtım" },
+          { "id": "4", "text": "Y kromozomuna bağlı kalıtım" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "3" },
+      "explanation": "Erkekte tek X bulunduğu için çekinik alel doğrudan fenotipe yansır. Baba oğluna X değil Y verdiğinden hastalık oğullara geçmez, kızların tamamı taşıyıcı olur."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her tanımı doğru nükleik asit bileşeniyle etiketle.",
+        "image": "diagrams/dna-rna-bilesenleri.png",
+        "slots": [
+          { "id": "1", "text": "Yalnızca DNA'da bulunan beş karbonlu şeker" },
+          { "id": "2", "text": "Yalnızca RNA'da bulunan organik baz" },
+          { "id": "3", "text": "Yalnızca DNA'da bulunan organik baz" }
+        ],
+        "labels": ["Deoksiriboz", "Urasil", "Timin", "Riboz"]
+      },
+      "answer_key": {
+        "labels": { "1": "Deoksiriboz", "2": "Urasil", "3": "Timin" }
+      },
+      "explanation": "DNA'da deoksiriboz ve timin, RNA'da riboz ve urasil bulunur. Adenin, guanin ve sitozin her ikisinde de ortaktır."
+    },
+    {
+      "topic": "genden_proteine",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her süreci ortaya çıkardığı ürünle etiketle.",
+        "image": "diagrams/protein-sentezi.png",
+        "slots": [
+          { "id": "1", "text": "Replikasyon" },
+          { "id": "2", "text": "Transkripsiyon" },
+          { "id": "3", "text": "Translasyon" }
+        ],
+        "labels": ["Birbirinin aynısı iki DNA molekülü", "mRNA", "Polipeptit zinciri", "Nükleotit"]
+      },
+      "answer_key": {
+        "labels": { "1": "Birbirinin aynısı iki DNA molekülü", "2": "mRNA", "3": "Polipeptit zinciri" }
+      },
+      "explanation": "Replikasyon DNA'yı çoğaltır, transkripsiyon DNA bilgisini mRNA'ya yazar, translasyon mRNA şifresini amino asit dizisine çevirerek polipeptit oluşturur."
+    },
+    {
+      "topic": "mayoz_ve_eseyli_ureme",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her tanımı doğru hücreyle etiketle.",
+        "image": "diagrams/gametogenez.png",
+        "slots": [
+          { "id": "1", "text": "Mayoz geçirecek olan diploit erkek üreme ana hücresi" },
+          { "id": "2", "text": "Mayoz I sonunda oluşan haploit erkek hücresi" },
+          { "id": "3", "text": "Oogenezde oluşan, yumurtaya dönüşmeyen küçük hücre" }
+        ],
+        "labels": ["Spermatogonyum", "İkincil spermatosit", "Kutup hücresi", "Zigot"]
+      },
+      "answer_key": {
+        "labels": { "1": "Spermatogonyum", "2": "İkincil spermatosit", "3": "Kutup hücresi" }
+      },
+      "explanation": "Spermatogonyum 2n'dir; mayoz I sonunda n kromozomlu ikincil spermatositler oluşur. Oogenezde sitoplazmanın büyük kısmı tek hücreye gittiği için üç küçük kutup hücresi işlev görmez."
+    },
+    {
+      "topic": "kalitim",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her çaprazlamayı, döllerde beklenen çekinik fenotip oranıyla etiketle. (Tam baskınlık geçerlidir.)",
+        "image": "diagrams/caprazlama-oranlari.png",
+        "slots": [
+          { "id": "1", "text": "Aa × Aa" },
+          { "id": "2", "text": "Aa × aa" },
+          { "id": "3", "text": "AA × aa" }
+        ],
+        "labels": ["1/4", "1/2", "0", "3/4"]
+      },
+      "answer_key": {
+        "labels": { "1": "1/4", "2": "1/2", "3": "0" }
+      },
+      "explanation": "Aa × Aa çaprazlamasında döllerin 1/4'ü aa olur. Aa × aa çaprazlamasında döllerin yarısı aa'dır. AA × aa çaprazlamasının tüm dölleri Aa olduğu için çekinik fenotip görülmez."
     }
   ]
 }

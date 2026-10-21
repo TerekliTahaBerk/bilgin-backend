@@ -1326,6 +1326,3026 @@
       "answer_key": {
         "self_assessed": true
       }
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Yapım ekleri, eklendikleri sözcüğün anlamını değiştirerek yeni bir sözcük kurar."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 'Tuz' adından 'tuzluk' adını, 'göz' adından 'gözle-' fiilini üreten ekler yapım ekidir. Çekim ekleri ise yeni sözcük kurmaz, sözcüğü yalnızca cümleye bağlar."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Kalemlik' sözcüğü yapısına göre basit bir sözcüktür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 'Kalemlik' sözcüğü 'kalem' köküne -lik yapım ekinin getirilmesiyle kurulduğu için türemiş sözcüktür. Basit sözcükler yalnızca çekim eki alabilir: 'kalemi', 'kalemler'."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Türkçede sözcük kökleri ek aldıklarında ses değişimine uğramaz."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bazı köklerde ünsüz yumuşaması ya da ünlü düşmesi görülür: 'kitap' → 'kitabı', 'burun' → 'burnu', 'ağız' → 'ağzı'. Kök bu durumlarda da aynı kök sayılır, yalnızca ses yapısı değişir."
+    },
+    {
+      "topic": "isimler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'İstanbul' sözcüğü, tek bir varlığa verilen ad olduğu için özel addır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Özel adlar yeryüzünde tek olan varlıkları karşılar: kişi, şehir, ülke, kurum adları gibi. Bu nedenle özel adlar büyük harfle başlar ve aldıkları çekim ekleri kesme işaretiyle ayrılır: 'İstanbul'a'."
+    },
+    {
+      "topic": "isimler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Soyut adlar, beş duyu organından biriyle algılanabilen varlıkları karşılar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Duyu organlarıyla algılanabilen varlıkları karşılayan adlar somut addır: 'su', 'rüzgâr', 'koku'. Soyut adlar ise yalnızca akılla kavranan kavramları karşılar: 'sevgi', 'özgürlük', 'korku'."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Birkaç öğrenci sınıfta kalmış.' cümlesindeki 'birkaç' sözcüğü sayı sıfatıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 'Birkaç' miktarı kesin olarak bildirmediği için belgisiz sıfattır. Sayı sıfatları miktarı kesin verir: 'beş öğrenci', 'ikinci sıra', 'yarım ekmek'."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Niteleme sıfatları, adın nasıl olduğunu bildirir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Niteleme sıfatı ada sorulan 'nasıl?' sorusuna cevap verir: 'yorgun yolcu', 'sıcak çorba'. Belirtme sıfatları ise adı işaret, sayı, soru ya da belgisizlik yoluyla belirtir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Dilek kipleri, haber kipleri gibi zaman bildirir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Haber kipleri (geçmiş, şimdiki, gelecek, geniş zaman) zaman bildirir; istek, gereklilik, dilek-koşul ve emir kiplerinden oluşan dilek kipleri ise zaman değil tasarlanan bir eylemi bildirir: 'gitsem', 'gitmeliyim', 'gideyim', 'git'."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Sabah erken koşmak beni dinlendiriyor.' cümlesindeki 'koşmak' sözcüğü isim-fiildir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 'Koş-' fiiline -mak eki gelerek cümlede özne görevi yapan bir ad kurulmuştur. -ma, -mak ve -ış ekleri isim-fiil ekleridir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Basit sözcükler, en az bir yapım eki almış sözcüklerdir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Basit sözcükler hiç yapım eki almamış, kök hâlinde kullanılan sözcüklerdir. Çekim eki almaları yapılarını değiştirmez: 'yollar' da yapısına göre basit sözcüktür."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Hanımeli' sözcüğü, iki sözcüğün birleşmesiyle kurulduğu için birleşik sözcüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 'Hanım' ve 'el' sözcükleri anlamca kaynaşarak yeni bir bitki adı kurmuştur. 'Aslanağzı', 'kuşburnu', 'devetabanı' da aynı yolla oluşmuş birleşik sözcüklerdir."
+    },
+    {
+      "topic": "isimler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Topluluk adları çokluk eki alamaz."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Topluluk adları biçimce tekil olsa da çokluk eki alabilir: 'ordular', 'sürüler', 'ormanlar'. Bu durumda birden çok topluluk anlatılmış olur."
+    },
+    {
+      "topic": "isimler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Adlar, ek-fiil alarak cümlede yüklem görevi yapabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 'Babam öğretmendi.' cümlesinde 'öğretmen' adı -di ek-fiiliyle yüklem olmuştur. Yüklemi ad olan bu tür cümlelere ad (isim) cümlesi denir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Fiillerin tamamı nesne alabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Nesne alabilen fiiller geçişli, alamayanlar geçişsizdir. 'Uyumak', 'gülmek', 'oturmak' fiilleri 'neyi/kimi?' sorusuna cevap vermediği için geçişsizdir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Gidecektim' sözcüğü birleşik zamanlı bir fiil çekimidir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sözcükte gelecek zaman eki -ecek ile hikâye bildiren -ti eki birlikte bulunur. Bir fiil iki kip eki üst üste aldığında çekim birleşik zamanlı olur: hikâye, rivayet ya da koşul."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Yemek masanın üzerinde soğudu.' cümlesindeki 'yemek' sözcüğü isim-fiildir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Buradaki 'yemek' bir eylemi değil bir varlığı karşıladığı için kalıcı addır. 'Çakmak', 'dolma', 'kaymak', 'dondurma' gibi sözcükler de fiilimsi eklerinin kalıplaşmasıyla oluşmuş adlardır."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Fiilimsiler bulundukları cümlede yan cümlecik kurar."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Fiilimsi, kendisine bağlı öğelerle birlikte yan cümlecik oluşturur ve cümleyi girişik birleşik cümle yapar: 'Yağmur başlayınca eve döndük.' cümlesinde 'yağmur başlayınca' yan cümleciktir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hiçbir yapım eki almamış, kök hâlinde kullanılan sözcüklere {{0}} sözcük denir.",
+        "choices": [
+          "basit",
+          "türemiş",
+          "birleşik",
+          "yansıma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "basit"
+        ]
+      },
+      "explanation": "Basit sözcük yalnızca kökten oluşur; çekim eki alması yapısını değiştirmez. 'Ev', 'evler', 'evde' sözcüklerinin üçü de yapısına göre basittir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Gecekondu' sözcüğü iki sözcüğün kaynaşmasıyla kurulduğu için yapısına göre {{0}} sözcüktür.",
+        "choices": [
+          "birleşik",
+          "türemiş",
+          "basit",
+          "yansıma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "birleşik"
+        ]
+      },
+      "explanation": "'Gece' ve 'kondu' sözcükleri anlamca kaynaşıp yeni bir kavram kurmuştur. Bir sözcüğün yapısı en son hangi yolla oluştuğuna bakılarak belirlenir; içindeki yapım ekleri onu türemiş yapmaz."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Yolculuk' sözcüğünde 'yol' bölümü sözcüğün {{0}}, '-cu' ve '-luk' bölümleri ise {{1}} ekidir.",
+        "choices": [
+          "kökü",
+          "gövdesi",
+          "yapım",
+          "çekim",
+          "iyelik",
+          "hâl"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kökü",
+          "yapım"
+        ]
+      },
+      "explanation": "Sözcük yol + cu → yolcu, yolcu + luk → yolculuk biçiminde kurulmuştur. 'Yol' anlamlı en küçük parça olduğu için köktür; ona eklenen iki ek de yeni sözcük ürettiği için yapım ekidir."
+    },
+    {
+      "topic": "isimler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Adın cümledeki görevini belirleyen -i, -e, -de, -den eklerine {{0}} ekleri denir.",
+        "choices": [
+          "hâl (durum)",
+          "iyelik",
+          "çokluk",
+          "ilgi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "hâl (durum)"
+        ]
+      },
+      "explanation": "Hâl ekleri adı yükleme bağlayarak nesne, dolaylı tümleç gibi görevler kazandırır. İyelik ekleri sahipliği (kalemim), çokluk eki sayıyı (kalemler), ilgi eki ise tamlayanı (kalemin ucu) gösterir."
+    },
+    {
+      "topic": "isimler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Öğretmenin çantası' sözünde tamlayan ilgi eki, tamlanan iyelik eki aldığı için bu söz {{0}} isim tamlamasıdır.",
+        "choices": [
+          "belirtili",
+          "belirtisiz",
+          "takısız",
+          "zincirleme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "belirtili"
+        ]
+      },
+      "explanation": "Belirtili tamlamada iki ek birlikte bulunur ve tamlanan belli bir varlığa ait olur. Belirtisizde yalnızca iyelik eki vardır (okul çantası), takısızda ise hiç ek yoktur (deri çanta)."
+    },
+    {
+      "topic": "isimler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Arkadaşımın ders kitabı' sözünde bir isim tamlaması başka bir tamlamanın öğesi olduğu için bu söz {{0}} isim tamlamasıdır.",
+        "choices": [
+          "zincirleme",
+          "belirtisiz",
+          "takısız",
+          "belirtili"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "zincirleme"
+        ]
+      },
+      "explanation": "'Ders kitabı' belirtisiz tamlaması, 'arkadaşımın' tamlayanıyla yeni bir tamlamanın tamlananı olmuştur. İkiden çok adın birbirine bağlandığı bu yapıya zincirleme isim tamlaması denir."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Yaşlı adam yavaşça ayağa kalktı.' cümlesinde 'yaşlı' sözcüğü {{0}} sıfatıdır.",
+        "choices": [
+          "niteleme",
+          "işaret",
+          "sayı",
+          "belgisiz"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "niteleme"
+        ]
+      },
+      "explanation": "'Yaşlı' sözcüğü 'adam' adına sorulan 'nasıl?' sorusuna cevap verdiği için niteleme sıfatıdır. Belirtme sıfatları adı nitelemez; sayı, işaret, soru ya da belgisizlik yoluyla belirtir."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Çalışkanlar bu sınavdan yüksek puan aldı.' cümlesinde 'çalışkanlar' sözcüğü nitelediği ad düştüğü için {{0}} sıfattır.",
+        "choices": [
+          "adlaşmış",
+          "pekiştirilmiş",
+          "küçültülmüş",
+          "unvan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "adlaşmış"
+        ]
+      },
+      "explanation": "Sıfatın nitelediği ad söylenmediğinde sıfat ad görevini üstlenir ve çekim eki alabilir. Pekiştirme sıfatı anlamı güçlendirir (mosmor), küçültme sıfatı azlık katar (küçücük)."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Üçüncü sırada oturan öğrenci parmak kaldırdı.' cümlesinde 'üçüncü' sözcüğü {{0}} sayı sıfatıdır.",
+        "choices": [
+          "sıra",
+          "asıl",
+          "kesir",
+          "üleştirme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "sıra"
+        ]
+      },
+      "explanation": "-ıncı/-inci ekiyle kurulan sayı sıfatları adın sırasını bildirir. Asıl sayı sıfatı miktarı verir (üç sıra), kesir sayı sıfatı parçayı (yarım ekmek), üleştirme sayı sıfatı ise paylaştırmayı gösterir (üçer öğrenci)."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Eklendiği sözcüğün türünü ve anlamını değiştirmeyen, sözcüğü yalnızca cümleye bağlayan eklere {{0}} eki denir.",
+        "choices": [
+          "çekim",
+          "yapım",
+          "kök",
+          "gövde"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çekim"
+        ]
+      },
+      "explanation": "Çokluk, iyelik, hâl, ilgi, kip ve kişi ekleri çekim ekidir. Yapım ekleri ise yeni bir sözcük üretir; bu nedenle sözcüğün yapısını değiştiren tek ek türü yapım ekidir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Nesne alabilen, yani 'neyi/kimi?' sorusuna cevap verebilen fiillere {{0}} fiil denir.",
+        "choices": [
+          "geçişli",
+          "geçişsiz",
+          "dönüşlü",
+          "işteş"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "geçişli"
+        ]
+      },
+      "explanation": "'Mektubu yazdı.' cümlesinde yüklem nesne aldığı için geçişlidir. 'Uyudu', 'güldü' gibi fiiller nesne alamadığı için geçişsizdir; bu ayrım nesneye göre çatıyı belirler."
+    },
+    {
+      "topic": "fiiller",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Bahçedeki çiçekler nisanda açtı.' cümlesinin yüklemi, varlığın kendiliğinden değişip dönüşmesini anlattığı için {{0}} fiilidir.",
+        "choices": [
+          "oluş",
+          "kılış",
+          "durum",
+          "istek"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "oluş"
+        ]
+      },
+      "explanation": "Oluş fiilleri öznenin iradesi olmadan geçirdiği değişimi bildirir: 'sararmak', 'büyümek', 'paslanmak'. Kılış fiilinde nesne üzerinde bir iş yapılır (kırmak), durum fiilinde özne bir hâlde bulunur (oturmak)."
+    },
+    {
+      "topic": "fiiller",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Okumalıyım' sözcüğünde '-malı' bölümü {{0}} kipinin eki, '-yım' bölümü ise {{1}} ekidir.",
+        "choices": [
+          "gereklilik",
+          "istek",
+          "emir",
+          "kişi",
+          "zaman",
+          "olumsuzluk"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "gereklilik",
+          "kişi"
+        ]
+      },
+      "explanation": "Çekimli fiilde sıra kök, kip eki, kişi ekidir: oku-malı-yım. '-malı/-meli' gerekliliği, '-yım' ise birinci tekil kişiyi bildirir. Gereklilik bir dilek kipi olduğu için zaman bildirmez."
+    },
+    {
+      "topic": "fiiller",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Sokaklar sabaha karşı yıkandı.' cümlesinde işi yapan belli olmadığı hâlde özne gibi görünen 'sokaklar' sözcüğüne {{0}} özne denir.",
+        "choices": [
+          "sözde",
+          "gerçek",
+          "gizli",
+          "ortak"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "sözde"
+        ]
+      },
+      "explanation": "Edilgen çatılı cümlelerde işten etkilenen öğe özne yerine geçer; buna sözde özne denir. Gerçek özne işi kendisi yapar, gizli özne ise cümlede söylenmez ama kişi ekinden anlaşılır."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "-ken, -ınca, -ip, -madan, -alı gibi eklerle kurulan ve cümlede zarf görevi yapan fiilimsilere {{0}} denir.",
+        "choices": [
+          "zarf-fiil",
+          "isim-fiil",
+          "sıfat-fiil",
+          "ek-fiil"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "zarf-fiil"
+        ]
+      },
+      "explanation": "Zarf-fiiller (bağ-fiiller) yüklemin nasıl, ne zaman ya da hangi koşulda gerçekleştiğini bildirir: 'Eve dönünce uyudu.' İsim-fiil ad, sıfat-fiil sıfat görevindedir."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Her sabah yüzmek bana iyi geliyor.' cümlesinde 'yüzmek' sözcüğü, bir {{0}} olarak cümlenin öznesi görevindedir.",
+        "choices": [
+          "isim-fiil",
+          "sıfat-fiil",
+          "zarf-fiil",
+          "çekimli fiil"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "isim-fiil"
+        ]
+      },
+      "explanation": "'Yüz-' fiiline gelen -mek eki ad kurduğu için sözcük isim-fiildir ve 'Ne iyi geliyor?' sorusunun cevabı olarak özne görevi yapar. İsim-fiiller kip ve kişi eki almadığı için yargı bildirmez."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Gülerek içeri giren çocuk herkesi şaşırttı.' cümlesinde 'gülerek' sözcüğü {{0}}, 'giren' sözcüğü ise {{1}} görevindedir.",
+        "choices": [
+          "zarf-fiil",
+          "sıfat-fiil",
+          "isim-fiil",
+          "çekimli fiil",
+          "ek-fiil"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "zarf-fiil",
+          "sıfat-fiil"
+        ]
+      },
+      "explanation": "'Gülerek' -erek ekiyle kurulup 'nasıl girdi?' sorusuna cevap verdiği için zarf-fiildir; 'giren' ise -en ekiyle kurulup 'çocuk' adını nitelediği için sıfat-fiildir. İkisi de kip eki almadığından yargı bildirmez."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcüğü, yapısına göre aldığı adla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "deniz"
+          },
+          {
+            "id": "2",
+            "text": "denizci"
+          },
+          {
+            "id": "3",
+            "text": "denizaltı"
+          },
+          {
+            "id": "4",
+            "text": "hissetmek"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Basit sözcük"
+          },
+          {
+            "id": "b",
+            "text": "Türemiş sözcük"
+          },
+          {
+            "id": "c",
+            "text": "Birleşik ad"
+          },
+          {
+            "id": "d",
+            "text": "Birleşik fiil"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "'Deniz' yapım eki almamış kök hâlindedir; 'denizci' köke -ci yapım eki gelerek türemiştir. 'Denizaltı' iki adın birleşmesiyle kurulmuş birleşik bir addır, 'hissetmek' ise bir ad ile 'etmek' yardımcı fiilinin birleşmesinden oluşan birleşik fiildir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Altı çizili yapım ekini, yaptığı görevle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "balıkçı sözcüğündeki -çı"
+          },
+          {
+            "id": "2",
+            "text": "temizlemek sözcüğündeki -le"
+          },
+          {
+            "id": "3",
+            "text": "çalışkan sözcüğündeki -kan"
+          },
+          {
+            "id": "4",
+            "text": "sevinmek sözcüğündeki -in"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Addan ad yapan ek"
+          },
+          {
+            "id": "b",
+            "text": "Addan fiil yapan ek"
+          },
+          {
+            "id": "c",
+            "text": "Fiilden ad yapan ek"
+          },
+          {
+            "id": "d",
+            "text": "Fiilden fiil yapan ek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Yapım ekini adlandırırken iki şey sorulur: ek hangi türden bir sözcüğe gelmiş, hangi türden bir sözcük kurmuş? 'Balık' addır, 'balıkçı' da addır; 'temiz' addır, 'temizlemek' fiildir; 'çalış-' fiildir, 'çalışkan' addır; 'sev-' fiildir, 'sevin-' de fiildir."
+    },
+    {
+      "topic": "isimler",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Adın aldığı hâl ekini, ekin adıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Okulu uzaktan gördüm."
+          },
+          {
+            "id": "2",
+            "text": "Okula yürüyerek gittim."
+          },
+          {
+            "id": "3",
+            "text": "Okulda bir tören vardı."
+          },
+          {
+            "id": "4",
+            "text": "Okuldan erken çıktım."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Belirtme (-i) hâli"
+          },
+          {
+            "id": "b",
+            "text": "Yönelme (-e) hâli"
+          },
+          {
+            "id": "c",
+            "text": "Bulunma (-de) hâli"
+          },
+          {
+            "id": "d",
+            "text": "Ayrılma (-den) hâli"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hâl ekleri adı yükleme bağlar: belirtme eki 'neyi?', yönelme eki 'nereye?', bulunma eki 'nerede?', ayrılma eki 'nereden?' sorusuna cevap veren bir öğe kurar. Dördü de çekim ekidir, sözcüğün türünü değiştirmez."
+    },
+    {
+      "topic": "isimler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tamlamayı, türüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "annemin yüzüğü"
+          },
+          {
+            "id": "2",
+            "text": "yüzük kutusu"
+          },
+          {
+            "id": "3",
+            "text": "annemin yüzük kutusu"
+          },
+          {
+            "id": "4",
+            "text": "güzel yüzük"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Belirtili isim tamlaması"
+          },
+          {
+            "id": "b",
+            "text": "Belirtisiz isim tamlaması"
+          },
+          {
+            "id": "c",
+            "text": "Zincirleme isim tamlaması"
+          },
+          {
+            "id": "d",
+            "text": "Sıfat tamlaması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Tamlayan ilgi eki almışsa tamlama belirtilidir (annem-in yüzüğ-ü); almamışsa belirtisizdir (yüzük kutu-su). Üç ve daha çok addan kurulan tamlama zincirlemedir. 'Güzel yüzük' sözünde tamlayan bir ad değil sıfat olduğu için bu bir sıfat tamlamasıdır."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tamlamadaki belirtme sıfatını türüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "şu ağaç"
+          },
+          {
+            "id": "2",
+            "text": "kaç ağaç"
+          },
+          {
+            "id": "3",
+            "text": "bazı ağaçlar"
+          },
+          {
+            "id": "4",
+            "text": "yedi ağaç"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İşaret sıfatı"
+          },
+          {
+            "id": "b",
+            "text": "Soru sıfatı"
+          },
+          {
+            "id": "c",
+            "text": "Belgisiz (belirsizlik) sıfatı"
+          },
+          {
+            "id": "d",
+            "text": "Asıl sayı sıfatı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Belirtme sıfatları adı işaret ederek ('şu'), soru yoluyla ('kaç'), kesin olmayan bir miktarla ('bazı') ya da sayıyla ('yedi') belirtir. Dördü de adın önünde bulunup onu belirttiği için sıfattır; tek başına kullanılırlarsa zamir olurlar."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tamlamadaki sayı sıfatını alt türüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "üçüncü sıra"
+          },
+          {
+            "id": "2",
+            "text": "yarım ekmek"
+          },
+          {
+            "id": "3",
+            "text": "beşer elma"
+          },
+          {
+            "id": "4",
+            "text": "on kişi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sıra sayı sıfatı"
+          },
+          {
+            "id": "b",
+            "text": "Kesir sayı sıfatı"
+          },
+          {
+            "id": "c",
+            "text": "Üleştirme sayı sıfatı"
+          },
+          {
+            "id": "d",
+            "text": "Asıl sayı sıfatı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Sıra sayı sıfatı adın derecesini (-ıncı eki), kesir sayı sıfatı bütünün parçasını, üleştirme sayı sıfatı paylaşılan miktarı (-er eki), asıl sayı sıfatı ise adın kesin sayısını bildirir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Çekimli fiili, bildirdiği haber kipiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "gidiyor"
+          },
+          {
+            "id": "2",
+            "text": "gitti"
+          },
+          {
+            "id": "3",
+            "text": "gitmiş"
+          },
+          {
+            "id": "4",
+            "text": "gidecek"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Şimdiki zaman"
+          },
+          {
+            "id": "b",
+            "text": "Görülen (bilinen) geçmiş zaman"
+          },
+          {
+            "id": "c",
+            "text": "Duyulan (öğrenilen) geçmiş zaman"
+          },
+          {
+            "id": "d",
+            "text": "Gelecek zaman"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Haber kipleri zaman bildirir: -yor şimdiki zamanı, -di konuşanın tanık olduğu geçmişi, -miş başkasından duyulan geçmişi, -ecek ise henüz gerçekleşmemiş olanı anlatır."
+    },
+    {
+      "topic": "fiiller",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Çekimli fiili, bildirdiği dilek kipiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "okusa"
+          },
+          {
+            "id": "2",
+            "text": "okuyayım"
+          },
+          {
+            "id": "3",
+            "text": "okumalı"
+          },
+          {
+            "id": "4",
+            "text": "oku"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Dilek-şart kipi"
+          },
+          {
+            "id": "b",
+            "text": "İstek kipi"
+          },
+          {
+            "id": "c",
+            "text": "Gereklilik kipi"
+          },
+          {
+            "id": "d",
+            "text": "Emir kipi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dilek kipleri zaman değil tasarlanan bir eylem bildirir: -se dilek ya da koşul, -e istek, -malı gereklilik, emir kipi ise eki olmayan buyruk biçimidir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleyi, yüklemin öznesine göre çatısıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yağmur sabaha kadar yağdı."
+          },
+          {
+            "id": "2",
+            "text": "Ödevler akşama kadar bitirilmiş."
+          },
+          {
+            "id": "3",
+            "text": "Çocuk aynanın önünde süslendi."
+          },
+          {
+            "id": "4",
+            "text": "Kuşlar dalların arasında cıvıldaştı."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Etken çatı"
+          },
+          {
+            "id": "b",
+            "text": "Edilgen çatı"
+          },
+          {
+            "id": "c",
+            "text": "Dönüşlü çatı"
+          },
+          {
+            "id": "d",
+            "text": "İşteş çatı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Etken cümlede işi yapan özne bellidir. Edilgen cümlede işi yapan belirsizdir, özne yalnızca işten etkilenir. Dönüşlü cümlede özne işi kendi üzerinde yapar, işteş cümlede ise iş birlikte ya da karşılıklı yapılır."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ek grubunu, kurduğu yapıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "-ma, -mak, -ış"
+          },
+          {
+            "id": "2",
+            "text": "-an, -dık, -mez"
+          },
+          {
+            "id": "3",
+            "text": "-arak, -ınca, -madan"
+          },
+          {
+            "id": "4",
+            "text": "-lık, -cı, -sız"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İsim-fiil ekleri"
+          },
+          {
+            "id": "b",
+            "text": "Sıfat-fiil ekleri"
+          },
+          {
+            "id": "c",
+            "text": "Zarf-fiil ekleri"
+          },
+          {
+            "id": "d",
+            "text": "Addan ad yapan ekler (fiilimsi eki değil)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Fiilimsi ekleri yalnızca fiil köküne gelir ve fiili ad, sıfat ya da zarf görevinde kullanılan bir sözcüğe çevirir. Son satırdaki ekler ise adlara gelip yeni adlar kurar, bu yüzden fiilimsi eki sayılmaz."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleyi, altı çizili sözcüğün cümledeki görevi ile eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yüzmek sağlığa çok yararlıdır. (yüzmek)"
+          },
+          {
+            "id": "2",
+            "text": "Kırılan bardağı yerden topladım. (kırılan)"
+          },
+          {
+            "id": "3",
+            "text": "Çocuk koşarak eve girdi. (koşarak)"
+          },
+          {
+            "id": "4",
+            "text": "Çocuk bahçede sessizce oynadı. (oynadı)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Özne görevinde isim-fiil"
+          },
+          {
+            "id": "b",
+            "text": "Adı niteleyen sıfat-fiil"
+          },
+          {
+            "id": "c",
+            "text": "Yüklemi etkileyen zarf-fiil"
+          },
+          {
+            "id": "d",
+            "text": "Cümlenin yüklemi olan çekimli fiil"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Fiilimsinin türünü, cümlede hangi görevi yüklendiği belli eder: ad gibi kullanılıp özne ya da nesne olursa isim-fiil, bir adı nitelerse sıfat-fiil, yüklemin nasıl yapıldığını bildirirse zarf-fiildir. 'Oynadı' ise kip eki alıp yargı bildirdiği için fiilimsi değildir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Gözlükçülerden' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-den"
+          },
+          {
+            "id": "2",
+            "text": "göz"
+          },
+          {
+            "id": "3",
+            "text": "-ler"
+          },
+          {
+            "id": "4",
+            "text": "-çü"
+          },
+          {
+            "id": "5",
+            "text": "-lük"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Sözcük göz + lük + çü + ler + den biçiminde çözümlenir. Türkçede önce kök gelir, sonra yapım ekleri (-lük, -çü), en sonra çekim ekleri (-ler çokluk, -den ayrılma hâli) sıralanır."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Kitaplıklarımızda' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-da"
+          },
+          {
+            "id": "2",
+            "text": "-ımız"
+          },
+          {
+            "id": "3",
+            "text": "kitap"
+          },
+          {
+            "id": "4",
+            "text": "-lar"
+          },
+          {
+            "id": "5",
+            "text": "-lık"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "4",
+          "2",
+          "1"
+        ]
+      },
+      "explanation": "Sözcük kitap + lık + lar + ımız + da biçiminde çözümlenir. Yapım eki (-lık) kökün hemen ardından gelir; çekim ekleri ise çokluk, iyelik, hâl eki sırasını izler."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, kökten başlayarak her adımda bir ek eklenecek biçimde türetilme sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "sevgili"
+          },
+          {
+            "id": "2",
+            "text": "sevgililer"
+          },
+          {
+            "id": "3",
+            "text": "sev-"
+          },
+          {
+            "id": "4",
+            "text": "sevgi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "sev- + gi → sevgi, sevgi + li → sevgili, sevgili + ler → sevgililer. İlk iki ek yeni sözcük kuran yapım ekidir; son basamakta gelen -ler ise çokluk eki olduğu için yeni bir sözcük kurmaz."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, içerdikleri ek sayısına göre azdan çoğa diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "evlilik"
+          },
+          {
+            "id": "2",
+            "text": "ev"
+          },
+          {
+            "id": "3",
+            "text": "evlilikler"
+          },
+          {
+            "id": "4",
+            "text": "evli"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "'Ev' kök hâlindedir, hiç ek almamıştır. 'Evli' bir (ev-li), 'evlilik' iki (ev-li-lik), 'evlilikler' üç ek almıştır (ev-li-lik-ler). Son ek çekim eki olduğu için 'evlilikler' yapısına göre yine türemiş sözcüktür."
+    },
+    {
+      "topic": "isimler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Arkadaşlarımdan' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-dan"
+          },
+          {
+            "id": "2",
+            "text": "arkadaş"
+          },
+          {
+            "id": "3",
+            "text": "-ım"
+          },
+          {
+            "id": "4",
+            "text": "-lar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Sözcük arkadaş + lar + ım + dan biçiminde çözümlenir. Adlarda çekim ekleri her zaman çokluk eki, iyelik eki, hâl eki sırasıyla gelir; bu sıra değişmez."
+    },
+    {
+      "topic": "isimler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, köke eklenen ek türlerinin sırasına göre diz: yalnızca kök, kök + yapım eki, kök + yapım eki + çokluk eki, kök + yapım eki + çokluk eki + hâl eki.",
+        "items": [
+          {
+            "id": "1",
+            "text": "kitapçılar"
+          },
+          {
+            "id": "2",
+            "text": "kitapçılardan"
+          },
+          {
+            "id": "3",
+            "text": "kitap"
+          },
+          {
+            "id": "4",
+            "text": "kitapçı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "kitap (kök) → kitapçı (kök + -çı yapım eki) → kitapçılar (+ -lar çokluk eki) → kitapçılardan (+ -dan hâl eki). Bir sözcükte yapım eki daima çekim eklerinden önce gelir."
+    },
+    {
+      "topic": "isimler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, aldıkları iyelik ekinin bildirdiği kişiye göre şu sırayla diz: 1. tekil, 2. tekil, 3. tekil, 1. çoğul.",
+        "items": [
+          {
+            "id": "1",
+            "text": "kitabı"
+          },
+          {
+            "id": "2",
+            "text": "kitabımız"
+          },
+          {
+            "id": "3",
+            "text": "kitabım"
+          },
+          {
+            "id": "4",
+            "text": "kitabın"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "İyelik ekleri adın kime ait olduğunu bildirir: -m (benim kitabım), -n (senin kitabın), -ı (onun kitabı), -mız (bizim kitabımız). Bu ekler adı başka bir sözcüğe bağlamadığı için çekim ekidir."
+    },
+    {
+      "topic": "isimler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Ali dün okulda kitabını okudu.' cümlesinin öğelerini, cümlede geçtikleri sıraya göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "kitabını (nesne)"
+          },
+          {
+            "id": "2",
+            "text": "Ali (özne)"
+          },
+          {
+            "id": "3",
+            "text": "okudu (yüklem)"
+          },
+          {
+            "id": "4",
+            "text": "dün (zarf tümleci)"
+          },
+          {
+            "id": "5",
+            "text": "okulda (dolaylı tümleç)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Cümle 'Ali / dün / okulda / kitabını / okudu' biçiminde dizilmiştir. Kurallı (düz) Türkçe cümlede yüklem sonda bulunur; öğeyi bulmak için yükleme 'kim?', 'ne zaman?', 'nerede?', 'neyi?' soruları sorulur."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tamlamaları, sıra sayı sıfatlarının bildirdiği sıraya göre baştan sona diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "beşinci sıra"
+          },
+          {
+            "id": "2",
+            "text": "birinci sıra"
+          },
+          {
+            "id": "3",
+            "text": "onuncu sıra"
+          },
+          {
+            "id": "4",
+            "text": "üçüncü sıra"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Sıra sayı sıfatları -ıncı / -inci ekiyle kurulur ve adın bir dizi içindeki yerini bildirir. Sıralama doğrudan bu derece değerine göre yapılır: birinci, üçüncü, beşinci, onuncu."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tamlamaları, sıfatların bildirdiği miktara göre azdan çoğa diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "bir buçuk ekmek"
+          },
+          {
+            "id": "2",
+            "text": "iki ekmek"
+          },
+          {
+            "id": "3",
+            "text": "yarım ekmek"
+          },
+          {
+            "id": "4",
+            "text": "bir ekmek"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "'Yarım' ve 'bir buçuk' bütünün parçasını bildiren kesir sayı sıfatlarıdır; 'bir' ve 'iki' asıl sayı sıfatıdır. Miktar değerleri 0,5 < 1 < 1,5 < 2 biçiminde sıralanır."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Çalışkanlardan' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-dan"
+          },
+          {
+            "id": "2",
+            "text": "çalış-"
+          },
+          {
+            "id": "3",
+            "text": "-lar"
+          },
+          {
+            "id": "4",
+            "text": "-kan"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Sözcük çalış- + kan + lar + dan biçiminde çözümlenir. -kan eki fiil kökünden sıfat kurar; nitelediği ad söylenmediği için 'çalışkanlar' adlaşmış sıfat olarak kullanılmış ve çekim eklerini almıştır."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tamlamaları, üleştirme sayı sıfatlarının bildirdiği paya göre azdan çoğa diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "onar soru"
+          },
+          {
+            "id": "2",
+            "text": "ikişer soru"
+          },
+          {
+            "id": "3",
+            "text": "beşer soru"
+          },
+          {
+            "id": "4",
+            "text": "üçer soru"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Üleştirme sayı sıfatları -er / -ar ekiyle kurulur ve adın kaçar kaçar paylaştırıldığını bildirir. Paylar 2 < 3 < 5 < 10 biçiminde sıralanır."
+    },
+    {
+      "topic": "fiiller",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Gelecektim' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-m"
+          },
+          {
+            "id": "2",
+            "text": "gel-"
+          },
+          {
+            "id": "3",
+            "text": "-ti"
+          },
+          {
+            "id": "4",
+            "text": "-ecek"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Sözcük gel- + ecek + ti + m biçiminde çözümlenir. Üst üste gelen iki kip eki (-ecek ve -ti) sözcüğü birleşik zamanlı bir çekim yapar; kişi eki her zaman en sonda bulunur."
+    },
+    {
+      "topic": "fiiller",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Okumadık' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-dı"
+          },
+          {
+            "id": "2",
+            "text": "oku-"
+          },
+          {
+            "id": "3",
+            "text": "-k"
+          },
+          {
+            "id": "4",
+            "text": "-ma"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Sözcük oku- + ma + dı + k biçiminde çözümlenir. Olumsuzluk eki -ma kökün hemen ardından gelir, onu kip eki (-dı), en sonra da kişi eki (-k) izler."
+    },
+    {
+      "topic": "fiiller",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir fiil çekiminde eklerin geliş sırasını, ilk basamaktan son basamağa doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kişi eki"
+          },
+          {
+            "id": "2",
+            "text": "Fiil kökü"
+          },
+          {
+            "id": "3",
+            "text": "Kip (zaman) eki"
+          },
+          {
+            "id": "4",
+            "text": "Olumsuzluk eki"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Her çekimli fiil bu düzeni izler: kök, varsa olumsuzluk eki, kip eki ve kişi eki. 'Gitmeyeceksin' sözcüğü bu sıranın tamamını gösterir: git- / -me- / -ecek- / -sin."
+    },
+    {
+      "topic": "fiiller",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Çekimli fiilleri, kişi eklerinin bildirdiği kişiye göre şu sırayla diz: 1. tekil, 2. tekil, 3. tekil, 1. çoğul.",
+        "items": [
+          {
+            "id": "1",
+            "text": "geldik"
+          },
+          {
+            "id": "2",
+            "text": "geldi"
+          },
+          {
+            "id": "3",
+            "text": "geldim"
+          },
+          {
+            "id": "4",
+            "text": "geldin"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "2",
+          "1"
+        ]
+      },
+      "explanation": "Görülen geçmiş zaman çekiminde kişi ekleri -m (ben), -n (sen), eksiz biçim (o) ve -k (biz) olarak sıralanır. 3. tekil kişide kişi eki bulunmaz."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Gelenlerden' sözcüğünün parçalarını, kökten başlayarak sözcükteki geliş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "-den"
+          },
+          {
+            "id": "2",
+            "text": "gel-"
+          },
+          {
+            "id": "3",
+            "text": "-ler"
+          },
+          {
+            "id": "4",
+            "text": "-en"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Sözcük gel- + en + ler + den biçiminde çözümlenir. -en sıfat-fiil ekidir; nitelediği ad söylenmediği için 'gelenler' ad gibi kullanılmış ve çokluk ile hâl ekini almıştır."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Koşarak gelen çocuk, yarışı kazanmak için aylarca çalışmıştı.' cümlesindeki fiil ve fiilimsileri, cümlede geçtikleri sıraya göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "kazanmak"
+          },
+          {
+            "id": "2",
+            "text": "koşarak"
+          },
+          {
+            "id": "3",
+            "text": "çalışmıştı"
+          },
+          {
+            "id": "4",
+            "text": "gelen"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Cümlede sırasıyla 'koşarak' zarf-fiil, 'gelen' sıfat-fiil, 'kazanmak' isim-fiil olarak geçer; 'çalışmıştı' ise kip ve kişi eki aldığı için fiilimsi değil, cümlenin yüklemidir."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri şu sırayla diz: isim-fiil, sıfat-fiil, zarf-fiil, çekimli fiil.",
+        "items": [
+          {
+            "id": "1",
+            "text": "yürüyen"
+          },
+          {
+            "id": "2",
+            "text": "yürüdü"
+          },
+          {
+            "id": "3",
+            "text": "yürüyüş"
+          },
+          {
+            "id": "4",
+            "text": "yürüyerek"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Aynı kökten türeyen bu sözcüklerde -ış isim-fiil, -en sıfat-fiil, -erek zarf-fiil ekidir; bu üçü kip ve kişi eki almaz. 'Yürüdü' ise -dü kip ekiyle çekimlendiği için yargı bildiren çekimli fiildir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Birleşik sözcükler, içlerinde yapım eki bulunmasa bile türemiş sözcük sayılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Türemiş sözcük, köke yapım eki getirilerek kurulur; birleşik sözcük ise en az iki sözcüğün kalıplaşmasıyla oluşur. 'Hanımeli' birleşiktir, türemiş değildir."
+    },
+    {
+      "topic": "isimler",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "'Çocuk parkı' sözünde 'parkı' sözcüğündeki -ı eki iyelik ekidir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 'Çocuk parkı' belirtisiz isim tamlamasıdır; tamlanan olan 'parkı' sözcüğündeki -ı, belirtme hâli eki değil üçüncü tekil kişi iyelik ekidir."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Adlaşmış sıfatlar, nitelediği ad düştüğü hâlde cümlede yine sıfat görevi yapar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Nitelediği ad düşen sıfat adın yerine geçer ve cümlede ad görevi alır. 'Çalışkanlar ödüllendirildi.' cümlesinde 'çalışkanlar' sıfat değil, öznedir."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "-ma eki, geldiği sözcüğe göre hem olumsuzluk eki hem isim-fiil eki olabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 'Kapıyı çalma!' cümlesinde -ma olumsuzluk ekidir; 'Kapı çalması beni uyandırdı.' cümlesinde ise aynı ek isim-fiil kurar. Ayırt etmek için sözcüğün yargı bildirip bildirmediğine bakılır."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Köke yapım eki getirilerek elde edilen ve yeni yapım ekleri alabilen biçime {{0}} denir.",
+        "choices": [
+          "gövde",
+          "kök",
+          "çekim eki",
+          "ikileme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "gövde"
+        ]
+      },
+      "explanation": "'Göz' köktür; 'gözlük' gövdedir. Gövdeye yeni yapım ekleri eklenerek 'gözlükçü', 'gözlükçülük' gibi sözcükler türetilebilir."
+    },
+    {
+      "topic": "isimler",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Tek bir varlığı değil, aynı türden varlıkların tümünü karşılayan adlara {{0}} adı denir.",
+        "choices": [
+          "cins",
+          "özel",
+          "topluluk",
+          "soyut"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "cins"
+        ]
+      },
+      "explanation": "'Kedi, şehir, dağ' gibi adlar aynı türün bütün üyelerini karşıladığı için cins (tür) adıdır. 'Tekir, Ankara, Uludağ' ise tek bir varlığa verilmiş özel adlardır."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Sapsarı yapraklar rüzgârla savruldu.' cümlesinde 'sapsarı' sözcüğü {{0}} bir niteleme sıfatıdır.",
+        "choices": [
+          "pekiştirilmiş",
+          "küçültülmüş",
+          "adlaşmış",
+          "belirtme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "pekiştirilmiş"
+        ]
+      },
+      "explanation": "Sıfatın ilk hecesinden alınan sesle kurulan 'sapsarı, bembeyaz, simsiyah' gibi biçimler pekiştirilmiş niteleme sıfatlarıdır; anlamı güçlendirir."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "'Okumak için lambayı yaktı.' cümlesindeki 'okumak' sözcüğü {{0}}, 'Okuyacak kitabı çantasına koydu.' cümlesindeki 'okuyacak' sözcüğü ise {{1}}dir.",
+        "choices": [
+          "isim-fiil",
+          "sıfat-fiil",
+          "zarf-fiil",
+          "çekimli fiil",
+          "ek-fiil",
+          "edat"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "isim-fiil",
+          "sıfat-fiil"
+        ]
+      },
+      "explanation": "-mak eki fiilden ad yaptığı için 'okumak' isim-fiildir. 'Okuyacak' ise gelecek zaman çekimi değildir; 'kitabı' adını nitelediği için -ecek eki burada sıfat-fiil ekidir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcüğü, yapısını doğru açıklayan çözümlemeyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "kuşlara"
+          },
+          {
+            "id": "2",
+            "text": "tuzluk"
+          },
+          {
+            "id": "3",
+            "text": "dolmuş"
+          },
+          {
+            "id": "4",
+            "text": "cumartesi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Yalnızca çekim eki almış basit sözcük"
+          },
+          {
+            "id": "b",
+            "text": "İsim kökünden yapım ekiyle türemiş sözcük"
+          },
+          {
+            "id": "c",
+            "text": "Fiil kökünden yapım ekiyle türemiş sözcük"
+          },
+          {
+            "id": "d",
+            "text": "İki sözcüğün kaynaşmasıyla oluşmuş birleşik sözcük"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "'Kuşlara' kök + çoğul + hâl eki aldığı için basittir. 'Tuzluk' tuz (isim) + -luk, 'dolmuş' dol- (fiil) + -muş ile türemiştir. 'Cumartesi' ise 'cuma ertesi' sözlerinin ses düşmesiyle kaynaşmasından oluşmuştur."
+    },
+    {
+      "topic": "isimler",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Adı, taşıdığı türle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "sürü"
+          },
+          {
+            "id": "2",
+            "text": "özlem"
+          },
+          {
+            "id": "3",
+            "text": "Kızılırmak"
+          },
+          {
+            "id": "4",
+            "text": "taşlar"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Çoğul eki almış cins ad"
+          },
+          {
+            "id": "b",
+            "text": "Topluluk adı"
+          },
+          {
+            "id": "c",
+            "text": "Soyut ad"
+          },
+          {
+            "id": "d",
+            "text": "Özel ad"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "'Sürü' biçimce tekil olsa da çokluk anlamı taşır. 'Özlem' duyu organlarıyla algılanamadığı için soyuttur. 'Kızılırmak' tek bir varlığın adıdır. 'Taşlar' cins addır ve -lar çoğul ekini almıştır."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Söz öbeğini ya da cümleyi, 'sarı' sözcüğünün kazandığı dil bilgisi özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "sarı yaprak"
+          },
+          {
+            "id": "2",
+            "text": "yaprağın sarısı"
+          },
+          {
+            "id": "3",
+            "text": "Sarılar erken döküldü."
+          },
+          {
+            "id": "4",
+            "text": "sararan yaprak"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Belirtili isim tamlaması; 'sarı' ad görevinde tamlanan"
+          },
+          {
+            "id": "b",
+            "text": "Sıfat tamlaması; 'sarı' niteleme sıfatı"
+          },
+          {
+            "id": "c",
+            "text": "Adlaşmış sıfat; nitelenen ad düşmüş"
+          },
+          {
+            "id": "d",
+            "text": "Sıfat-fiille kurulmuş sıfat tamlaması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Aynı sözcük bulunduğu yapıya göre tür değiştirir: 'sarı yaprak'ta sıfat, 'yaprağın sarısı'nda addır. 'Sarılar'da nitelenen ad düştüğü için adlaşmış sıfat olmuş; 'sararan' ise -an ekiyle kurulan sıfat-fiildir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kurallı birleşik fiili, bildirdiği anlamla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "gidebilir"
+          },
+          {
+            "id": "2",
+            "text": "gidiverdi"
+          },
+          {
+            "id": "3",
+            "text": "bakakaldı"
+          },
+          {
+            "id": "4",
+            "text": "düşeyazdı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Tezlik: iş çabucak ve kolayca yapılmış"
+          },
+          {
+            "id": "b",
+            "text": "Yeterlilik: işi yapabilme gücü ya da olasılık"
+          },
+          {
+            "id": "c",
+            "text": "Yaklaşma: iş gerçekleşmeye çok yaklaşmış ama olmamış"
+          },
+          {
+            "id": "d",
+            "text": "Süreklilik: iş bir süre kesintisiz devam etmiş"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kurallı birleşik fiiller yardımcı fiillerle kurulur: -e bilmek yeterlilik, -i vermek tezlik, -e kalmak/durmak süreklilik, -e yazmak yaklaşma anlamı katar."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, 'Yapım' sözcüğüyle başlayan kurallı (yüklemi sonda) bir tanım cümlesi oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "sözcük"
+          },
+          {
+            "id": "2",
+            "text": "eki"
+          },
+          {
+            "id": "3",
+            "text": "Yapım"
+          },
+          {
+            "id": "4",
+            "text": "denir"
+          },
+          {
+            "id": "5",
+            "text": "sözcüklere"
+          },
+          {
+            "id": "6",
+            "text": "türemiş"
+          },
+          {
+            "id": "7",
+            "text": "almış"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "7",
+          "5",
+          "6",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Cümle 'Yapım eki almış sözcüklere türemiş sözcük denir.' biçiminde kurulur. 'Yapım eki almış sözcüklere' sıfat-fiil öbeğiyle kurulmuş dolaylı tümleç, 'türemiş sözcük' sıfat tamlaması, 'denir' ise yüklemdir."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, 'Birleşik' sözcüğüyle başlayan kurallı (yüklemi sonda) bir tanım cümlesi oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "kalıplaşmasıyla"
+          },
+          {
+            "id": "2",
+            "text": "Birleşik"
+          },
+          {
+            "id": "3",
+            "text": "yapılardır"
+          },
+          {
+            "id": "4",
+            "text": "iki"
+          },
+          {
+            "id": "5",
+            "text": "sözcükler"
+          },
+          {
+            "id": "6",
+            "text": "oluşan"
+          },
+          {
+            "id": "7",
+            "text": "sözcüğün"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "7",
+          "1",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Cümle 'Birleşik sözcükler iki sözcüğün kalıplaşmasıyla oluşan yapılardır.' biçimindedir. 'İki sözcüğün kalıplaşmasıyla' tamlaması 'oluşan' sıfat-fiilini tamamlar; yüklem ek-fiille kurulan 'yapılardır' sözcüğüdür."
+    },
+    {
+      "topic": "isimler",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, 'Belirtili' sözcüğüyle başlayan kurallı (yüklemi sonda) bir kural cümlesi oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "alır"
+          },
+          {
+            "id": "2",
+            "text": "tamlamasında"
+          },
+          {
+            "id": "3",
+            "text": "ilgi"
+          },
+          {
+            "id": "4",
+            "text": "Belirtili"
+          },
+          {
+            "id": "5",
+            "text": "tamlayan"
+          },
+          {
+            "id": "6",
+            "text": "isim"
+          },
+          {
+            "id": "7",
+            "text": "eki"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "6",
+          "2",
+          "5",
+          "3",
+          "7",
+          "1"
+        ]
+      },
+      "explanation": "Cümle 'Belirtili isim tamlamasında tamlayan ilgi eki alır.' biçiminde kurulur. 'Belirtili isim tamlamasında' dolaylı tümleç, 'tamlayan' özne, 'ilgi eki' nesne, 'alır' yüklemdir."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, 'Sıfatlar' sözcüğüyle başlayan kurallı (yüklemi sonda) bir tanım cümlesi oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "soylu"
+          },
+          {
+            "id": "2",
+            "text": "bildiren"
+          },
+          {
+            "id": "3",
+            "text": "Sıfatlar"
+          },
+          {
+            "id": "4",
+            "text": "sözcüklerdir"
+          },
+          {
+            "id": "5",
+            "text": "varlıkların"
+          },
+          {
+            "id": "6",
+            "text": "ad"
+          },
+          {
+            "id": "7",
+            "text": "niteliklerini"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "7",
+          "2",
+          "6",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Cümle 'Sıfatlar varlıkların niteliklerini bildiren ad soylu sözcüklerdir.' biçiminde kurulur. 'Varlıkların niteliklerini' zincirleme yapısı 'bildiren' sıfat-fiiline bağlanır; 'ad soylu sözcüklerdir' ise ek-fiille kurulan yüklemdir."
+    },
+    {
+      "topic": "fiiller",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, 'Edilgen' sözcüğüyle başlayan kurallı (yüklemi sonda) bir kural cümlesi oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "yapan"
+          },
+          {
+            "id": "2",
+            "text": "özne"
+          },
+          {
+            "id": "3",
+            "text": "Edilgen"
+          },
+          {
+            "id": "4",
+            "text": "belirtilmez"
+          },
+          {
+            "id": "5",
+            "text": "cümlelerde"
+          },
+          {
+            "id": "6",
+            "text": "çatılı"
+          },
+          {
+            "id": "7",
+            "text": "işi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "5",
+          "7",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Cümle 'Edilgen çatılı cümlelerde işi yapan özne belirtilmez.' biçimindedir. Edilgen çatıda eylemi gerçekleştiren varlık cümlede yer almaz; işten etkilenen öğe sözde özne olur."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, 'Fiilimsiler' sözcüğüyle başlayan kurallı (yüklemi sonda) bir tanım cümlesi oluşturacak biçimde sırala.",
+        "words": [
+          {
+            "id": "1",
+            "text": "almayan"
+          },
+          {
+            "id": "2",
+            "text": "kip"
+          },
+          {
+            "id": "3",
+            "text": "Fiilimsiler"
+          },
+          {
+            "id": "4",
+            "text": "sözcüklerdir"
+          },
+          {
+            "id": "5",
+            "text": "türeyen"
+          },
+          {
+            "id": "6",
+            "text": "ancak"
+          },
+          {
+            "id": "7",
+            "text": "eki"
+          },
+          {
+            "id": "8",
+            "text": "fiilden"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "8",
+          "5",
+          "6",
+          "2",
+          "7",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Cümle 'Fiilimsiler fiilden türeyen ancak kip eki almayan sözcüklerdir.' biçiminde kurulur. 'Ancak' bağlacı 'türeyen' ve 'almayan' sıfat-fiillerini birbirine bağlar; bu nedenle araya girer."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Yolcular dün gece evlerine döndü.' cümlesinde yapım eki almış sözcüğü seç.",
+        "image": "diagrams/sozcukte-yapi-cumle.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Yolcular"
+          },
+          {
+            "id": "2",
+            "text": "dün"
+          },
+          {
+            "id": "3",
+            "text": "gece"
+          },
+          {
+            "id": "4",
+            "text": "evlerine"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "'Yolcular' sözcüğü yol kökü + -cu yapım eki + -lar çekim ekinden oluşur. 'Dün' ve 'gece' kök hâlindedir; 'evlerine' ise yalnızca çoğul, iyelik ve hâl ekleri almıştır."
+    },
+    {
+      "topic": "isimler",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Ağacın gölgesinde yarım saat dinlendik.' cümlesinde belirtili isim tamlamasının tamlayanını seç.",
+        "image": "diagrams/isim-tamlamasi-cumle.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Ağacın"
+          },
+          {
+            "id": "2",
+            "text": "gölgesinde"
+          },
+          {
+            "id": "3",
+            "text": "yarım"
+          },
+          {
+            "id": "4",
+            "text": "saat"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "'Ağacın gölgesi' belirtili isim tamlamasıdır. İlgi eki (-ın) alan 'ağacın' tamlayan, iyelik eki (-si) alan 'gölgesi' tamlanandır. 'Yarım saat' ise sıfat tamlamasıdır."
+    },
+    {
+      "topic": "sifatlar",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'O gün hangi kitabı aldığımı hatırlamıyorum.' cümlesinde soru sıfatını seç.",
+        "image": "diagrams/soru-sifati-cumle.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "O"
+          },
+          {
+            "id": "2",
+            "text": "hangi"
+          },
+          {
+            "id": "3",
+            "text": "kitabı"
+          },
+          {
+            "id": "4",
+            "text": "aldığımı"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "'Hangi', 'kitabı' adının önünde gelerek onu soru yoluyla belirttiği için soru sıfatıdır. Cümle başındaki 'o' ise 'gün' adını belirten işaret sıfatıdır."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "'Yanan ormanları ağaçlandırmak için toplanan gönüllüler işe koyuldu.' cümlesinde isim-fiili seç.",
+        "image": "diagrams/fiilimsi-cumle.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Yanan"
+          },
+          {
+            "id": "2",
+            "text": "ağaçlandırmak"
+          },
+          {
+            "id": "3",
+            "text": "toplanan"
+          },
+          {
+            "id": "4",
+            "text": "gönüllüler"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "-mak eki fiilden ad yaptığı için 'ağaçlandırmak' isim-fiildir. 'Yanan' ve 'toplanan' sözcükleri -an ekiyle kurulmuş sıfat-fiillerdir; 'gönüllüler' ise yapım eki almış bir addır."
+    },
+    {
+      "topic": "sozcukte_yapi",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru dil bilgisi terimiyle etiketle.",
+        "image": "diagrams/sozcukte-yapi-semasi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Sözcüğün anlam taşıyan, parçalanamayan temel bölümü"
+          },
+          {
+            "id": "2",
+            "text": "Eklendiği sözcüğün anlamını ve çoğu kez türünü değiştirerek yeni sözcük kuran ek"
+          },
+          {
+            "id": "3",
+            "text": "Yeni sözcük türetmeyen, sözcüğü cümleye bağlayan ek"
+          }
+        ],
+        "labels": [
+          "Kök",
+          "Yapım eki",
+          "Çekim eki",
+          "Gövde"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Kök",
+          "2": "Yapım eki",
+          "3": "Çekim eki"
+        }
+      },
+      "explanation": "'Göz' köktür; 'gözlük' sözcüğündeki -lük yapım ekidir ve yeni bir sözcük kurar; 'gözlükte' sözcüğündeki -te ise çekim ekidir. Köke yapım eki eklenmiş biçime ise gövde denir."
+    },
+    {
+      "topic": "isimler",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru tamlama türüyle etiketle.",
+        "image": "diagrams/isim-tamlamasi-semasi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Tamlayanı ilgi eki, tamlananı iyelik eki almış tamlama"
+          },
+          {
+            "id": "2",
+            "text": "Tamlayanı ek almamış, yalnızca tamlananı iyelik eki almış tamlama"
+          },
+          {
+            "id": "3",
+            "text": "Bir isim tamlamasının başka bir tamlamanın öğesi olduğu, en az üç adın bulunduğu tamlama"
+          }
+        ],
+        "labels": [
+          "Belirtili isim tamlaması",
+          "Belirtisiz isim tamlaması",
+          "Zincirleme isim tamlaması",
+          "Sıfat tamlaması"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Belirtili isim tamlaması",
+          "2": "Belirtisiz isim tamlaması",
+          "3": "Zincirleme isim tamlaması"
+        }
+      },
+      "explanation": "'Kapının kolu' belirtili, 'kapı kolu' belirtisiz, 'evin kapısının kolu' zincirleme isim tamlamasıdır. Tamlayanı sıfat olan 'demir kapı' türü yapılar ise sıfat tamlamasıdır."
+    },
+    {
+      "topic": "fiiller",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı, fiilin yapısına göre aldığı adla etiketle.",
+        "image": "diagrams/fiil-yapisi-semasi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Yapım eki almamış, tek bir fiil kökünden oluşan fiil"
+          },
+          {
+            "id": "2",
+            "text": "Köke ya da gövdeye yapım eki getirilerek oluşturulmuş fiil"
+          },
+          {
+            "id": "3",
+            "text": "İki sözcüğün ya da bir sözcükle bir fiilin kalıplaşmasıyla oluşan fiil"
+          }
+        ],
+        "labels": [
+          "Basit fiil",
+          "Türemiş fiil",
+          "Birleşik fiil",
+          "Ek-fiil"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Basit fiil",
+          "2": "Türemiş fiil",
+          "3": "Birleşik fiil"
+        }
+      },
+      "explanation": "'Geldi' basit, 'temizledi' (temiz + -le) türemiş, 'hissetti' ve 'vazgeçti' birleşik fiildir. Ek-fiil ise ad soylu sözcükleri yüklem yapan 'imek' fiilidir, yapı sınıflandırmasının dışındadır."
+    },
+    {
+      "topic": "fiilimsiler",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her görevi, o görevi yapan fiilimsi türüyle etiketle.",
+        "image": "diagrams/fiilimsi-semasi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Cümlede özne, nesne ya da tümleç olarak ad görevi yapar"
+          },
+          {
+            "id": "2",
+            "text": "Bir adın önüne gelerek onu niteler, sıfat görevi yapar"
+          },
+          {
+            "id": "3",
+            "text": "Yüklemi durum, zaman ya da sebep bakımından tamamlar, zarf görevi yapar"
+          }
+        ],
+        "labels": [
+          "İsim-fiil",
+          "Sıfat-fiil",
+          "Zarf-fiil",
+          "Çekimli fiil"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "İsim-fiil",
+          "2": "Sıfat-fiil",
+          "3": "Zarf-fiil"
+        }
+      },
+      "explanation": "'Yüzmek sağlığa yararlıdır.' cümlesinde isim-fiil öznedir; 'kırılan bardak' öbeğinde sıfat-fiil sıfattır; 'koşarak geldi' sözünde zarf-fiil yüklemin durumunu bildirir. Çekimli fiil ise kip ve kişi eki aldığı için fiilimsi değildir."
     }
   ]
 }

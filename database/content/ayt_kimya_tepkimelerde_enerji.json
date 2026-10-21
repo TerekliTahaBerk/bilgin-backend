@@ -706,6 +706,1791 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5"] },
       "explanation": "Basınç, derişim ve katalizör K'yı değiştirmez."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Endotermik bir tepkimede ürünlerin toplam entalpisi, girenlerin toplam entalpisinden büyüktür." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. ΔH = H(ürünler) - H(girenler) olduğundan ΔH > 0 olması ürünlerin daha yüksek entalpide olduğunu gösterir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Elementlerin 25 °C ve 1 atm'deki en kararlı hâllerinin standart oluşum entalpisi sıfır kabul edilir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Oluşum entalpileri bu sıfır referansına göre tanımlanır; örneğin O2(g) ve C(grafit) için ΔHf° = 0'dır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Gaz fazında iki atom arasında bağ oluşması enerji gerektiren bir süreçtir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Bağ oluşumu enerji açığa çıkarır; enerji gerektiren süreç bağın kopmasıdır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": { "statement": "Fotosentez ekzotermik bir olaydır." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Fotosentez ışık enerjisini soğurarak gerçekleşir, yani endotermiktir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": { "statement": "Yakıtların yanma tepkimelerinde ΔH değeri pozitiftir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Yanma ısı verir; ekzotermik olduğu için ΔH negatiftir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Katalizör tepkime sonunda kimyasal yapısı değişmeden geri kazanılır." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Katalizör ara basamaklarda tepkimeye girer ama sonunda değişmeden çıkar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": { "statement": "Taneciklerin yaptığı her çarpışma ürün oluşumuyla sonuçlanır." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Ürün oluşması için çarpışmanın yeterli enerjiyle ve uygun geometriyle, yani etkili olması gerekir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": { "statement": "Katı bir maddeyi toz hâline getirmek tepkime hızını azaltır." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Toz hâline getirmek temas yüzeyini büyüttüğü için hızı artırır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Çok basamaklı bir tepkimenin hızını en yavaş basamak belirler." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. En yavaş basamak hız belirleyen basamaktır; genel hız bu basamağın hızını aşamaz."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "İnhibitörler tepkime hızını artıran maddelerdir." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İnhibitör hızı yavaşlatır; hızı artıran madde katalizördür."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Denge sabiti bağıntısında saf katı maddelerin derişimleri yer almaz." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Saf katı ve saf sıvıların derişimi sabit kabul edildiği için K bağıntısına yazılmaz."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Bir tepkimeye katalizör eklenmesi dengeye ulaşma süresini kısaltır." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Katalizör ileri ve geri hızı aynı oranda artırdığı için denge daha kısa sürede kurulur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Gaz fazındaki bir dengede basınç artırıldığında denge, toplam gaz mol sayısının büyük olduğu yöne kayar." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Basınç artışında sistem hacmi küçültmeye çalışır; denge mol sayısının küçük olduğu yöne kayar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": { "statement": "Dengeye ulaşan bir tepkimede girenlerin ve ürünlerin derişimleri birbirine eşit olur." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Dengede derişimler sabit kalır ama eşit olmak zorunda değildir; eşitlenen şey ileri ve geri tepkime hızlarıdır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": { "statement": "Ekzotermik bir tepkimede sıcaklık artırılırsa denge sabitinin değeri küçülür." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Ekzotermik tepkimede ısı ürün gibi davranır; sıcaklık artışı dengeyi girenler yönüne kaydırır ve K küçülür."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir bağın kopması için enerji harcanması gerektiğinden bağ kopması {{0}} bir süreçtir.",
+        "choices": ["endotermik", "ekzotermik", "izotermik", "katalitik"]
+      },
+      "answer_key": { "blanks": ["endotermik"] },
+      "explanation": "Bağ kopması enerji ister (endotermik), bağ oluşumu ise enerji açığa çıkarır (ekzotermik)."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Standart şartlarda 1 mol bileşiğin elementlerinin kararlı hâllerinden oluşması sırasındaki entalpi değişimine standart {{0}} entalpisi denir.",
+        "choices": ["oluşum", "yanma", "nötrleşme", "çözünme"]
+      },
+      "answer_key": { "blanks": ["oluşum"] },
+      "explanation": "Standart oluşum entalpisi ΔHf° ile gösterilir ve tablolardan alınarak tepkime ısısı hesaplanır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir asitle bir bazın tepkimesinden 1 mol su oluşurken açığa çıkan ısıya {{0}} entalpisi denir.",
+        "choices": ["nötrleşme", "oluşum", "yanma", "buharlaşma"]
+      },
+      "answer_key": { "blanks": ["nötrleşme"] },
+      "explanation": "Kuvvetli asit–kuvvetli baz nötrleşmesi ekzotermiktir ve 1 mol su için yaklaşık -57 kJ'dur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir tepkime denklemi ters çevrildiğinde ΔH değerinin büyüklüğü {{0}}, işareti ise {{1}}.",
+        "choices": ["aynı kalır", "değişir", "iki katına çıkar", "yarıya iner", "sıfır olur"]
+      },
+      "answer_key": { "blanks": ["aynı kalır", "değişir"] },
+      "explanation": "Ters tepkimenin ısısı aynı büyüklükte, zıt işaretlidir. Denklem bir katsayıyla çarpılırsa ΔH de aynı katsayıyla çarpılır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Tepkime hızı, birim {{0}} başına derişimde meydana gelen değişim olarak tanımlanır.",
+        "choices": ["zaman", "hacim", "kütle", "basınç"]
+      },
+      "answer_key": { "blanks": ["zaman"] },
+      "explanation": "Birimi genellikle mol/L·s'dir; bu yüzden tanımda zaman bulunur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Tepkime hızını yavaşlatmak için ortama eklenen maddelere {{0}} denir.",
+        "choices": ["inhibitör", "katalizör", "enzim", "çözücü"]
+      },
+      "answer_key": { "blanks": ["inhibitör"] },
+      "explanation": "İnhibitör hızı düşürür; katalizör ve enzimler ise hızı artırır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Çok basamaklı bir tepkimede genel hızı belirleyen basamak {{0}} basamaktır.",
+        "choices": ["en yavaş", "en hızlı", "ilk", "son"]
+      },
+      "answer_key": { "blanks": ["en yavaş"] },
+      "explanation": "Hız belirleyen basamak en yavaş olandır; genel hız denklemi bu basamaktan çıkarılır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Canlılardaki tepkimeleri hızlandıran protein yapılı biyolojik katalizörlere {{0}} denir.",
+        "choices": ["enzim", "hormon", "vitamin", "inhibitör"]
+      },
+      "answer_key": { "blanks": ["enzim"] },
+      "explanation": "Enzimler aktifleşme enerjisini düşürerek vücut sıcaklığında tepkimelerin yürümesini sağlar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Enerji–tepkime koordinatı grafiğinde tepe noktası ile girenlerin enerji düzeyi arasındaki fark {{0}} aktifleşme enerjisini verir.",
+        "choices": ["ileri", "geri", "toplam", "ortalama"]
+      },
+      "answer_key": { "blanks": ["ileri"] },
+      "explanation": "Tepe ile ürünler arasındaki fark ise geri aktifleşme enerjisidir. İkisinin farkı ΔH'ye eşittir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Sıcaklığın artırılması taneciklerin ortalama {{0}} enerjisini yükselttiği için tepkime hızını artırır.",
+        "choices": ["kinetik", "potansiyel", "iyonlaşma", "bağ"]
+      },
+      "answer_key": { "blanks": ["kinetik"] },
+      "explanation": "Kinetik enerjisi artan taneciklerin daha büyük bölümü eşik enerjisini aşar, böylece etkili çarpışma oranı yükselir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Hız denklemi hız = k·[A]²·[B] olan bir tepkimenin toplam mertebesi {{0}}'tür.",
+        "choices": ["3", "1", "2", "4"]
+      },
+      "answer_key": { "blanks": ["3"] },
+      "explanation": "Toplam mertebe, derişim üslerinin toplamıdır: 2 + 1 = 3."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Gaz fazındaki bir dengede sabit sıcaklıkta hacim küçültülürse denge, toplam gaz mol sayısının {{0}} olduğu yöne kayar.",
+        "choices": ["az", "çok", "eşit", "sıfır"]
+      },
+      "answer_key": { "blanks": ["az"] },
+      "explanation": "Hacim küçültmek basıncı artırır; sistem basıncı düşürmek için mol sayısını azaltan yöne kayar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir tepkime için Q < K ise sistem dengeye ulaşmak üzere {{0}} yönünde ilerler.",
+        "choices": ["ileri", "geri", "hiçbir", "iki"]
+      },
+      "answer_key": { "blanks": ["ileri"] },
+      "explanation": "Q < K ürün derişiminin yetersiz olduğunu gösterir; tepkime ürünler yönünde, yani ileri yönde yürür."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Heterojen bir denge bağıntısına yalnızca {{0}} ve sulu hâldeki maddelerin derişimleri yazılır.",
+        "choices": ["gaz", "katı", "saf sıvı", "çökelek"]
+      },
+      "answer_key": { "blanks": ["gaz"] },
+      "explanation": "Saf katı ve saf sıvıların derişimleri sabit olduğu için bağıntıda yer almaz."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Dengedeki bir sisteme katalizör eklenmesi denge sabitini {{0}}, dengeye ulaşma süresini ise {{1}}.",
+        "choices": ["değiştirmez", "kısaltır", "büyütür", "küçültür", "uzatır"]
+      },
+      "answer_key": { "blanks": ["değiştirmez", "kısaltır"] },
+      "explanation": "Katalizör ileri ve geri hızı aynı oranda artırır; denge konumu ve K aynı kalır, yalnızca dengeye daha çabuk ulaşılır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Sabit hacimli bir kapta dengedeki sisteme tepkimeye girmeyen (inert) bir gaz eklenirse denge {{0}}.",
+        "choices": ["kaymaz", "ürünler yönüne kayar", "girenler yönüne kayar", "tamamen bozulur"]
+      },
+      "answer_key": { "blanks": ["kaymaz"] },
+      "explanation": "Sabit hacimde inert gaz eklemek tepkimeye giren maddelerin derişimlerini değiştirmediği için denge etkilenmez."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [{ "id": "1", "text": "Entalpi" }, { "id": "2", "text": "Ekzotermik tepkime" },
+                 { "id": "3", "text": "Endotermik tepkime" }, { "id": "4", "text": "Standart oluşum entalpisi" }],
+        "right": [{ "id": "a", "text": "Isı alan, ΔH > 0 olan tepkime" }, { "id": "b", "text": "Sabit basınçta sistemin ısı içeriği" },
+                  { "id": "c", "text": "1 mol bileşiğin elementlerinden oluşma ısısı" }, { "id": "d", "text": "Isı veren, ΔH < 0 olan tepkime" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "ΔH'nin işareti tepkimenin ısı alıp aldığını mı verdiğini mi gösterir; entalpi ise maddenin ısı içeriğidir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Olayı doğru sınıflandırmasıyla birleştir.",
+        "left": [{ "id": "1", "text": "Suyun buharlaşması" }, { "id": "2", "text": "Metanın yanması" },
+                 { "id": "3", "text": "Su buharının yoğuşması" }, { "id": "4", "text": "Amonyum nitratın suda çözünürken kabı soğutması" }],
+        "right": [{ "id": "a", "text": "Ekzotermik hâl değişimi" }, { "id": "b", "text": "Endotermik çözünme olayı" },
+                  { "id": "c", "text": "Endotermik hâl değişimi" }, { "id": "d", "text": "Ekzotermik yanma tepkimesi" }]
+      },
+      "answer_key": { "pairs": { "1": "c", "2": "d", "3": "a", "4": "b" }, "partial_credit": true },
+      "explanation": "Taneciklerin düzensizliğini artıran değişimler ısı alır; yanma ve yoğuşma ise ısı verir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı ya da ilkeyi açıklamasıyla birleştir.",
+        "left": [{ "id": "1", "text": "Hess yasası" }, { "id": "2", "text": "Le Chatelier ilkesi" },
+                 { "id": "3", "text": "Katalizör" }, { "id": "4", "text": "Aktifleşme enerjisi" }],
+        "right": [{ "id": "a", "text": "Dengedeki sistem dış etkiyi azaltacak yöne kayar" }, { "id": "b", "text": "Tepkimenin başlaması için gereken en düşük enerji" },
+                  { "id": "c", "text": "Tepkime ısısı izlenen yoldan bağımsızdır" }, { "id": "d", "text": "Aktifleşme enerjisini düşürür, ΔH'yi değiştirmez" }]
+      },
+      "answer_key": { "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" }, "partial_credit": true },
+      "explanation": "Hess enerjiyle, Le Chatelier dengeyle, katalizör ve aktifleşme enerjisi ise hızla ilgilidir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Terimi tanımıyla birleştir.",
+        "left": [{ "id": "1", "text": "Katalizör" }, { "id": "2", "text": "İnhibitör" },
+                 { "id": "3", "text": "Enzim" }, { "id": "4", "text": "Etkili çarpışma" }],
+        "right": [{ "id": "a", "text": "Tepkime hızını yavaşlatan madde" }, { "id": "b", "text": "Protein yapılı biyolojik katalizör" },
+                  { "id": "c", "text": "Hızı artıran, tepkime sonunda değişmeden çıkan madde" }, { "id": "d", "text": "Yeterli enerjiyle ve uygun yönde yapılan çarpışma" }]
+      },
+      "answer_key": { "pairs": { "1": "c", "2": "a", "3": "b", "4": "d" }, "partial_credit": true },
+      "explanation": "Katalizör ve enzim hızı artırır, inhibitör düşürür; ürün oluşması için çarpışmanın etkili olması gerekir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hız denklemini toplam tepkime mertebesiyle birleştir.",
+        "left": [{ "id": "1", "text": "hız = k·[A]" }, { "id": "2", "text": "hız = k·[A]·[B]" },
+                 { "id": "3", "text": "hız = k·[A]²·[B]" }, { "id": "4", "text": "hız = k" }],
+        "right": [{ "id": "a", "text": "2. mertebe" }, { "id": "b", "text": "3. mertebe" },
+                  { "id": "c", "text": "0. mertebe" }, { "id": "d", "text": "1. mertebe" }]
+      },
+      "answer_key": { "pairs": { "1": "d", "2": "a", "3": "b", "4": "c" }, "partial_credit": true },
+      "explanation": "Toplam mertebe, hız denklemindeki derişim üslerinin toplamıdır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Simgeyi ya da terimi karşılığıyla birleştir.",
+        "left": [{ "id": "1", "text": "k" }, { "id": "2", "text": "mol/L·s" },
+                 { "id": "3", "text": "Maxwell-Boltzmann eğrisi" }, { "id": "4", "text": "Eşik enerjisi" }],
+        "right": [{ "id": "a", "text": "Taneciklerin kinetik enerji dağılımını gösteren grafik" }, { "id": "b", "text": "Hız sabiti" },
+                  { "id": "c", "text": "Aktifleşme enerjisinin diğer adı" }, { "id": "d", "text": "Tepkime hızının birimi" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "Hız sabiti k sıcaklıkla değişir; eşik enerjisi ile aktifleşme enerjisi aynı büyüklüğü anlatır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Denge tepkimesini kendi denge bağıntısıyla birleştir.",
+        "left": [{ "id": "1", "text": "N2(g) + 3H2(g) ⇌ 2NH3(g)" }, { "id": "2", "text": "CaCO3(k) ⇌ CaO(k) + CO2(g)" },
+                 { "id": "3", "text": "H2(g) + I2(g) ⇌ 2HI(g)" }, { "id": "4", "text": "2SO2(g) + O2(g) ⇌ 2SO3(g)" }],
+        "right": [{ "id": "a", "text": "Kc = [SO3]² / ([SO2]² · [O2])" }, { "id": "b", "text": "Kc = [CO2]" },
+                  { "id": "c", "text": "Kc = [NH3]² / ([N2] · [H2]³)" }, { "id": "d", "text": "Kc = [HI]² / ([H2] · [I2])" }]
+      },
+      "answer_key": { "pairs": { "1": "c", "2": "b", "3": "d", "4": "a" }, "partial_credit": true },
+      "explanation": "Katsayılar üs olarak yazılır; saf katıların derişimi bağıntıya girmediği için CaCO3 dengesinde yalnızca CO2 kalır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı tanımıyla birleştir.",
+        "left": [{ "id": "1", "text": "Dinamik denge" }, { "id": "2", "text": "Kc" },
+                 { "id": "3", "text": "Qc" }, { "id": "4", "text": "Homojen denge" }],
+        "right": [{ "id": "a", "text": "Herhangi bir andaki derişimler oranı" }, { "id": "b", "text": "İleri ve geri tepkime hızlarının eşit olduğu durum" },
+                  { "id": "c", "text": "Bütün maddelerin aynı fazda bulunduğu denge" }, { "id": "d", "text": "Dengedeki derişimlerden hesaplanan sabit" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "Qc her an hesaplanabilir, Kc ise yalnızca denge anındaki değerdir; Qc = Kc olduğunda sistem dengededir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Denge sabitine ilişkin durumu doğru yorumuyla birleştir.",
+        "left": [{ "id": "1", "text": "K değeri çok büyük" }, { "id": "2", "text": "K değeri çok küçük" },
+                 { "id": "3", "text": "K değeri 1'e yakın" }, { "id": "4", "text": "Sıcaklık değişimi" }],
+        "right": [{ "id": "a", "text": "Girenler ve ürünler karşılaştırılabilir miktardadır" }, { "id": "b", "text": "Dengede ürünler baskındır" },
+                  { "id": "c", "text": "K'nın değerini değiştirebilen tek etken" }, { "id": "d", "text": "Dengede girenler baskındır" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "K'nın büyüklüğü dengenin hangi tarafta kurulduğunu söyler; derişim, basınç ve katalizör K'yı değiştirmez."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Hess yasasıyla tepkime ısısı bulunurken izlenen adımları ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "ΔH değerlerini yapılan işlemlerle birlikte güncelle" },
+                  { "id": "2", "text": "Hedef tepkimeyi ve verilen ara tepkimeleri yaz" },
+                  { "id": "3", "text": "Güncellenen ΔH değerlerini toplayarak hedef tepkimenin ΔH'sini bul" },
+                  { "id": "4", "text": "Ara tepkimeleri gerektiği gibi ters çevir ya da bir katsayıyla çarp" },
+                  { "id": "5", "text": "Tepkimeleri taraf tarafa toplayıp ortak türleri sadeleştir" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Ara tepkimelere yapılan her işlem ΔH'ye de uygulanır; sadeleştirme bittikten sonra ΔH'ler toplanır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Verilen entalpi değişimlerini en küçükten (en negatiften) en büyüğe diz.",
+        "items": [{ "id": "1", "text": "N2(g) + O2(g) → 2NO(g), ΔH = +180 kJ" },
+                  { "id": "2", "text": "CH4 yanması, ΔH = -890 kJ" },
+                  { "id": "3", "text": "C(grafit) standart oluşum entalpisi, ΔH = 0 kJ" },
+                  { "id": "4", "text": "H2 yanması, ΔH = -286 kJ" }]
+      },
+      "answer_key": { "order": ["2", "4", "3", "1"] },
+      "explanation": "Negatif değerler ekzotermik, pozitif değer endotermiktir; elementin kararlı hâli için oluşum entalpisi sıfırdır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ekzotermik bir tepkimenin enerji diyagramındaki enerji düzeylerini küçükten büyüğe diz.",
+        "items": [{ "id": "1", "text": "Girenlerin potansiyel enerjisi" },
+                  { "id": "2", "text": "Katalizör kullanılmayan tepkimedeki aktifleşmiş kompleksin enerjisi" },
+                  { "id": "3", "text": "Ürünlerin potansiyel enerjisi" },
+                  { "id": "4", "text": "Katalizör kullanılan tepkimedeki aktifleşmiş kompleksin enerjisi" }]
+      },
+      "answer_key": { "order": ["3", "1", "4", "2"] },
+      "explanation": "Ekzotermikte ürünler girenlerin altındadır. Katalizör tepe noktasını düşürür ama tepe her zaman girenlerin üstünde kalır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kalorimetreyle tepkime ısısı ölçülürken yapılan işlemleri ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "Suyun ilk sıcaklığını ölç" },
+                  { "id": "2", "text": "Q = m · c · ΔT bağıntısıyla alınan ya da verilen ısıyı hesapla" },
+                  { "id": "3", "text": "Kalorimetreye kütlesi bilinen su koy" },
+                  { "id": "4", "text": "Ulaşılan son sıcaklığı ölç" },
+                  { "id": "5", "text": "Tepkimeyi kalorimetrenin içinde başlat" }]
+      },
+      "answer_key": { "order": ["3", "1", "5", "4", "2"] },
+      "explanation": "ΔT'yi bulmak için hem ilk hem son sıcaklık gerekir; bu yüzden ölçümler tepkimenin öncesine ve sonrasına yerleştirilir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Standart oluşum entalpilerinden tepkime ısısı hesaplanırken izlenen adımları ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "Her maddenin ΔHf° değerini denklemdeki mol sayısıyla çarp" },
+                  { "id": "2", "text": "Tepkime denklemini denkleştir" },
+                  { "id": "3", "text": "Sonucun işaretine bakarak tepkimeyi ekzotermik ya da endotermik olarak sınıflandır" },
+                  { "id": "4", "text": "Girenlerin ve ürünlerin standart oluşum entalpilerini tablodan bul" },
+                  { "id": "5", "text": "Ürünler toplamından girenler toplamını çıkar" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "ΔH° = ΣΔHf°(ürünler) - ΣΔHf°(girenler). Mol sayıları denkleştirilmiş denklemden alınır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Ortalama bağ enerjileriyle ΔH hesaplanırken izlenen adımları ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "Kopan bağların toplam enerjisini hesapla" },
+                  { "id": "2", "text": "Girenlerde kopan bağları belirle" },
+                  { "id": "3", "text": "Kopan bağ enerjileri toplamından oluşan bağ enerjileri toplamını çıkar" },
+                  { "id": "4", "text": "Ürünlerde oluşan bağları belirle" },
+                  { "id": "5", "text": "Oluşan bağların toplam enerjisini hesapla" }]
+      },
+      "answer_key": { "order": ["2", "1", "4", "5", "3"] },
+      "explanation": "ΔH = Σ(kopan bağ enerjileri) - Σ(oluşan bağ enerjileri). Bağ kopması enerji ister, bağ oluşumu enerji verir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aynı kütledeki magnezyum şeritlerinin aynı derişimli HCl ile tepkime hızını yavaştan hızlıya diz.",
+        "items": [{ "id": "1", "text": "40 °C'de yapılan deney" },
+                  { "id": "2", "text": "10 °C'de yapılan deney" },
+                  { "id": "3", "text": "60 °C'de yapılan deney" },
+                  { "id": "4", "text": "25 °C'de yapılan deney" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Sıcaklık arttıkça eşik enerjisini aşan tanecik oranı büyür; etkili çarpışma sayısı ve hız artar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aynı sıcaklıkta ve aynı kütlede çinko granülleriyle yürütülen tepkimelerin başlangıç hızını yavaştan hızlıya diz.",
+        "items": [{ "id": "1", "text": "1,0 M HCl çözeltisi" },
+                  { "id": "2", "text": "0,1 M HCl çözeltisi" },
+                  { "id": "3", "text": "2,0 M HCl çözeltisi" },
+                  { "id": "4", "text": "0,5 M HCl çözeltisi" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Derişim arttıkça birim hacimdeki tanecik sayısı ve dolayısıyla çarpışma sıklığı artar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Çarpışma teorisine göre ürün oluşumuna kadar yaşanan aşamaları ilk aşamadan son aşamaya diz.",
+        "items": [{ "id": "1", "text": "Aktifleşmiş kompleks oluşur" },
+                  { "id": "2", "text": "Tanecikler birbirine yaklaşır" },
+                  { "id": "3", "text": "Ürünler oluşur" },
+                  { "id": "4", "text": "Eski bağlar kopar, yeni bağlar kurulur" },
+                  { "id": "5", "text": "Yeterli enerjiyle ve uygun yönde çarpışma gerçekleşir" }]
+      },
+      "answer_key": { "order": ["2", "5", "1", "4", "3"] },
+      "explanation": "Her çarpışma ürün vermez; yalnızca eşik enerjisini aşan ve uygun geometriye sahip çarpışmalar aktifleşmiş kompleksi oluşturur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mekanizması bilinen bir tepkimenin hız denklemi yazılırken izlenen adımları ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "Hız denklemini bu basamağın girenlerinin derişimleriyle yaz" },
+                  { "id": "2", "text": "Tepkimenin bütün basamaklarını alt alta yaz" },
+                  { "id": "3", "text": "Denklemde ara ürün kaldıysa onu girenler cinsinden ifade ederek çıkar" },
+                  { "id": "4", "text": "Basamakların hızlarını karşılaştırarak en yavaş olanı belirle" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Hız denklemi hız belirleyen (en yavaş) basamaktan yazılır; hız denkleminde ara ürün bulunamaz."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Girenlerden biri tümüyle tükenen bir tepkimede zaman içinde yaşanan durumları baştan sona diz.",
+        "items": [{ "id": "1", "text": "Girenlerin derişimi azaldıkça hız düşmeye başlar" },
+                  { "id": "2", "text": "Tepkimenin ilk anında hız en büyüktür" },
+                  { "id": "3", "text": "Sınırlayıcı giren tamamen tükenir ve hız sıfır olur" },
+                  { "id": "4", "text": "Giren neredeyse bittiği için hız çok küçük bir değere iner" }]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Hız girenlerin derişimine bağlıdır; derişim azaldıkça hız azalır, giren tükendiğinde tepkime durur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aynı sıcaklıkta yürüyen aşağıdaki tepkimeleri hızı yavaştan hızlıya diz.",
+        "items": [{ "id": "1", "text": "Ea = 60 kJ/mol olan tepkime" },
+                  { "id": "2", "text": "Ea = 150 kJ/mol olan tepkime" },
+                  { "id": "3", "text": "Ea = 20 kJ/mol olan tepkime" },
+                  { "id": "4", "text": "Ea = 100 kJ/mol olan tepkime" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Aktifleşme enerjisi küçüldükçe eşiği aşabilen tanecik oranı artar; bu yüzden Ea ile hız ters yönde değişir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Başlangıç miktarları verilen bir tepkimede Kc hesaplanırken izlenen adımları ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "Harcanan ve oluşan miktarları katsayı oranlarıyla belirle" },
+                  { "id": "2", "text": "Denge tepkimesini denkleştirerek yaz" },
+                  { "id": "3", "text": "Derişimleri Kc bağıntısına yerleştirerek sayısal değeri bul" },
+                  { "id": "4", "text": "Başlangıç mol sayılarını tabloya yaz" },
+                  { "id": "5", "text": "Dengedeki mol sayılarını hacme bölerek denge derişimlerini bul" }]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Kc derişimlerle yazıldığı için mol sayıları mutlaka hacme bölünür; başlangıç–değişim–denge tablosu bu sırayla doldurulur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir sistemin dengede olup olmadığı incelenirken izlenen adımları ilk adımdan son adıma diz.",
+        "items": [{ "id": "1", "text": "Q değerini K ile karşılaştır" },
+                  { "id": "2", "text": "Verilen anlık derişimleri bağıntıya koyarak Q'yu hesapla" },
+                  { "id": "3", "text": "Hangi maddenin derişiminin artacağını, hangisinin azalacağını yorumla" },
+                  { "id": "4", "text": "Q < K ise ileri, Q > K ise geri yönde ilerleyeceğine karar ver" }]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Q = K ise sistem dengededir. Q ile K'nın karşılaştırılması tepkimenin hangi yöne net olarak yürüyeceğini verir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aşağıdaki denge sabitlerini, dengedeki ürün baskınlığı en az olandan en çok olana doğru diz.",
+        "items": [{ "id": "1", "text": "K = 1" },
+                  { "id": "2", "text": "K = 5 × 10³" },
+                  { "id": "3", "text": "K = 1 × 10⁻⁵" },
+                  { "id": "4", "text": "K = 2 × 10⁻²" }]
+      },
+      "answer_key": { "order": ["3", "4", "1", "2"] },
+      "explanation": "K büyüdükçe dengede ürün derişimi girenlere göre artar; K çok küçükse denge girenler tarafında kurulur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "N2O4(g) ⇌ 2NO2(g) dengesindeki kabın sabit sıcaklıkta sıkıştırılmasıyla yaşanan olayları oluş sırasına göre diz.",
+        "items": [{ "id": "1", "text": "Denge, gaz mol sayısının az olduğu N2O4 yönüne kayar" },
+                  { "id": "2", "text": "Hacim küçülür ve toplam basınç artar" },
+                  { "id": "3", "text": "Derişimler yeniden sabitlenir, Kc ise değişmemiştir" },
+                  { "id": "4", "text": "NO2 derişimi azalır, N2O4 derişimi artar" }]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Sıcaklık sabit kaldığı için Kc değişmez; sistem yalnızca basınç artışını azaltacak yöne kayar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Dengedeki bir sisteme ürün eklendikten sonra yaşanan olayları oluş sırasına göre diz.",
+        "items": [{ "id": "1", "text": "Geri tepkime hızı ileri tepkime hızından büyük hâle gelir" },
+                  { "id": "2", "text": "Ürün derişimi azalır, giren derişimi artar" },
+                  { "id": "3", "text": "Ürün eklenir ve Q değeri K'dan büyük olur" },
+                  { "id": "4", "text": "İki hız yeniden eşitlenir ve yeni denge kurulur" }]
+      },
+      "answer_key": { "order": ["3", "1", "2", "4"] },
+      "explanation": "Q > K olduğunda sistem girenler yönüne kayar; derişimler Q yeniden K'ya eşitlenene kadar değişir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Az çözünen bir katının suda çözünme dengesini kurma sürecini baştan sona diz.",
+        "items": [{ "id": "1", "text": "Çözünen derişimi arttıkça çökelme hızı da artar" },
+                  { "id": "2", "text": "Katı tuz suya atılır" },
+                  { "id": "3", "text": "Çözünme ve çökelme hızları eşitlenir, çözelti doygun hâle gelir" },
+                  { "id": "4", "text": "Katı miktarı ve iyon derişimleri sabit kalır" },
+                  { "id": "5", "text": "Başlangıçta çözünme hızı en büyük, çökelme hızı sıfırdır" }]
+      },
+      "answer_key": { "order": ["2", "5", "1", "3", "4"] },
+      "explanation": "Çözünme dengesi de dinamiktir; doygunluktan sonra çözünme ve çökelme sürer, yalnızca hızları eşittir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bir tepkime denkleminin bütün katsayıları 2 ile çarpıldığında ΔH değeri de 2 ile çarpılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Entalpi değişimi madde miktarına bağlı bir büyüklüktür; denklem 2 ile çarpılırsa ΔH de 2 ile çarpılır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bağ enerjileri kullanılarak ΔH hesaplanırken kopan bağların enerjileri toplamından oluşan bağların enerjileri toplamı çıkarılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. ΔH = Σ(kopan bağ enerjileri) − Σ(oluşan bağ enerjileri). Oluşan bağlar daha güçlüyse sonuç negatif, yani tepkime ekzotermik olur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Hız denklemindeki derişim mertebeleri, net tepkime denklemindeki katsayılara bakılarak doğrudan yazılabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Mertebeler yalnızca tek basamaklı (temel) tepkimelerde katsayılara eşittir; çok basamaklı tepkimelerde deneysel olarak bulunur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Hız sabiti k'nın birimi, tepkimenin toplam mertebesine göre değişir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hız her zaman mol/L·s olduğundan k'nın birimi mertebeye göre ayarlanır: 0. mertebede mol/L·s, 1. mertebede 1/s, 2. mertebede L/mol·s olur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bir denge denkleminin katsayıları 2 ile çarpıldığında denge sabiti de 2 ile çarpılır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Katsayılar 2 ile çarpılırsa derişimler bağıntıda kare alınır; yeni denge sabiti K² olur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bağ enerjileriyle yapılan hesapta ΔH, kopan bağların enerjileri toplamından {{0}} bağların enerjileri toplamının çıkarılmasıyla bulunur.",
+        "choices": [
+          "oluşan",
+          "kopan",
+          "ikincil",
+          "hidrojen"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "oluşan"
+        ]
+      },
+      "explanation": "ΔH = Σ(kopan bağ enerjileri) − Σ(oluşan bağ enerjileri). Bağ kopması enerji alır, bağ oluşumu enerji verir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Standart oluşum entalpileriyle tepkime entalpisi hesaplanırken {{0}} oluşum entalpileri toplamından {{1}} oluşum entalpileri toplamı çıkarılır.",
+        "choices": [
+          "ürünlerin",
+          "girenlerin",
+          "katalizörün",
+          "çözücünün",
+          "ara ürünlerin"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ürünlerin",
+          "girenlerin"
+        ]
+      },
+      "explanation": "ΔH = Σ ΔHf(ürünler) − Σ ΔHf(girenler). Katsayılar ayrıca çarpan olarak yazılır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bir tepkimede yalnızca A'nın derişimi iki katına çıkarıldığında hız dört katına çıkıyorsa tepkimenin A'ya göre mertebesi {{0}}'dir.",
+        "choices": [
+          "2",
+          "1",
+          "0",
+          "3"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2"
+        ]
+      },
+      "explanation": "Hız, derişimin mertebe kuvveti kadar değişir: 2² = 4 olduğundan mertebe 2'dir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Denge sabiti K olan bir tepkimenin denklemi 2 ile çarpıldığında yeni denge sabiti {{0}} olur.",
+        "choices": [
+          "K²",
+          "2K",
+          "K/2",
+          "√K"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "K²"
+        ]
+      },
+      "explanation": "Katsayılar bağıntıda kuvvet olarak yer aldığı için denklem 2 ile çarpılınca sabit karesine çıkar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bir sistemde Q > K ise net tepkime {{0}} yönde ilerler ve Q değeri zamanla {{1}}.",
+        "choices": [
+          "geri",
+          "ileri",
+          "azalır",
+          "artar",
+          "sabit kalır"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "geri",
+          "azalır"
+        ]
+      },
+      "explanation": "Q, K'dan büyükse ürünler fazladır; sistem ürünleri tüketip girenleri oluşturur, böylece Q küçülerek K'ya yaklaşır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Denkleme yapılan işlemi, ΔH'ta yol açtığı değişiklikle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Denklem ters çevrilir"
+          },
+          {
+            "id": "2",
+            "text": "Denklemin katsayıları 2 ile çarpılır"
+          },
+          {
+            "id": "3",
+            "text": "Denklemin katsayıları 2'ye bölünür"
+          },
+          {
+            "id": "4",
+            "text": "Ortama katalizör eklenir"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Büyüklüğü yarıya iner"
+          },
+          {
+            "id": "b",
+            "text": "Büyüklüğü aynı kalır, işareti değişir"
+          },
+          {
+            "id": "c",
+            "text": "Hiç değişmez"
+          },
+          {
+            "id": "d",
+            "text": "İki katına çıkar"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hess yasasının işlem kuralları: ters çevirmek işareti değiştirir, katsayı çarpanı ΔH'ı da çarpar, katalizör ΔH'a etki etmez."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hız denklemini, hız sabiti k'nın birimiyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "hız = k"
+          },
+          {
+            "id": "2",
+            "text": "hız = k·[A]"
+          },
+          {
+            "id": "3",
+            "text": "hız = k·[A]·[B]"
+          },
+          {
+            "id": "4",
+            "text": "hız = k·[A]²·[B]"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "L/mol·s"
+          },
+          {
+            "id": "b",
+            "text": "mol/L·s"
+          },
+          {
+            "id": "c",
+            "text": "L²/mol²·s"
+          },
+          {
+            "id": "d",
+            "text": "1/s"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hızın birimi her zaman mol/L·s olduğundan k'nın birimi mertebeye göre değişir: 0. mertebe mol/L·s, 1. mertebe 1/s, 2. mertebe L/mol·s, 3. mertebe L²/mol²·s."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her durumu, sistemde gözlenen sonuçla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Q < K"
+          },
+          {
+            "id": "2",
+            "text": "Q > K"
+          },
+          {
+            "id": "3",
+            "text": "Q = K"
+          },
+          {
+            "id": "4",
+            "text": "Endotermik tepkimede sıcaklık artışı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Net tepkime geri yönde ilerler"
+          },
+          {
+            "id": "b",
+            "text": "Sistem dengededir, net değişim olmaz"
+          },
+          {
+            "id": "c",
+            "text": "Net tepkime ileri yönde ilerler"
+          },
+          {
+            "id": "d",
+            "text": "Denge sabitinin değeri büyür"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Q ile K karşılaştırması kayma yönünü verir. Endotermik tepkimede ısı giren gibi davrandığı için sıcaklık artışı dengeyi ürünlere kaydırır ve K büyür."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Enerji diyagramındaki her enerji farkını, karşılık geldiği büyüklükle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ürünlerin entalpisi − girenlerin entalpisi"
+          },
+          {
+            "id": "2",
+            "text": "Tepe noktası − girenlerin enerji düzeyi"
+          },
+          {
+            "id": "3",
+            "text": "Tepe noktası − ürünlerin enerji düzeyi"
+          },
+          {
+            "id": "4",
+            "text": "İleri aktifleşme enerjisi − geri aktifleşme enerjisi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İleri aktifleşme enerjisi"
+          },
+          {
+            "id": "b",
+            "text": "Entalpi değişimi (ΔH)"
+          },
+          {
+            "id": "c",
+            "text": "Geri aktifleşme enerjisi"
+          },
+          {
+            "id": "d",
+            "text": "Yine ΔH'a eşittir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "ΔH diyagramda girenler ile ürünler arasındaki düşey farktır ve aynı zamanda ΔH = Ea(ileri) − Ea(geri) bağıntısıyla da bulunur."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek Le Chatelier ilkesini ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Dengedeki"
+          },
+          {
+            "id": "2",
+            "text": "sistem"
+          },
+          {
+            "id": "3",
+            "text": "dış"
+          },
+          {
+            "id": "4",
+            "text": "etkiyi"
+          },
+          {
+            "id": "5",
+            "text": "azaltacak"
+          },
+          {
+            "id": "6",
+            "text": "yönde"
+          },
+          {
+            "id": "7",
+            "text": "kayar"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Le Chatelier ilkesi: derişim, basınç ya da sıcaklık değişimi uygulandığında sistem bu etkinin sonucunu azaltan yöne kayar."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek hız belirleyen basamak kuralını ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Bir"
+          },
+          {
+            "id": "2",
+            "text": "tepkimenin"
+          },
+          {
+            "id": "3",
+            "text": "hızını"
+          },
+          {
+            "id": "4",
+            "text": "en"
+          },
+          {
+            "id": "5",
+            "text": "yavaş"
+          },
+          {
+            "id": "6",
+            "text": "basamağı"
+          },
+          {
+            "id": "7",
+            "text": "belirler"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Çok basamaklı bir tepkimede genel hız, aktifleşme enerjisi en yüksek olan yavaş basamağa bağlıdır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek Hess yasasını ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Bir"
+          },
+          {
+            "id": "2",
+            "text": "tepkimenin"
+          },
+          {
+            "id": "3",
+            "text": "entalpi"
+          },
+          {
+            "id": "4",
+            "text": "değişimi"
+          },
+          {
+            "id": "5",
+            "text": "izlenen"
+          },
+          {
+            "id": "6",
+            "text": "yoldan"
+          },
+          {
+            "id": "7",
+            "text": "bağımsızdır"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Hess yasası: başlangıç ve bitiş maddeleri aynıysa, tepkime kaç basamakta gerçekleşirse gerçekleşsin ΔH aynıdır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek standart oluşum entalpisi kuralını ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Elementlerin"
+          },
+          {
+            "id": "2",
+            "text": "standart"
+          },
+          {
+            "id": "3",
+            "text": "oluşum"
+          },
+          {
+            "id": "4",
+            "text": "entalpileri"
+          },
+          {
+            "id": "5",
+            "text": "sıfır"
+          },
+          {
+            "id": "6",
+            "text": "kabul"
+          },
+          {
+            "id": "7",
+            "text": "edilir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      "explanation": "Kural yalnızca elementlerin 25 °C ve 1 atm'deki en kararlı hâli için geçerlidir; bileşiklerin oluşum entalpisi sıfır değildir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek dinamik dengeyi tanımlayan cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Dinamik"
+          },
+          {
+            "id": "2",
+            "text": "dengede"
+          },
+          {
+            "id": "3",
+            "text": "ileri"
+          },
+          {
+            "id": "4",
+            "text": "ve"
+          },
+          {
+            "id": "5",
+            "text": "geri"
+          },
+          {
+            "id": "6",
+            "text": "tepkime"
+          },
+          {
+            "id": "7",
+            "text": "hızları"
+          },
+          {
+            "id": "8",
+            "text": "eşittir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Hızlar eşitlenir ama tepkimeler durmaz; bu yüzden derişimler sabit kalır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek etkili çarpışmanın koşullarını ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Etkili"
+          },
+          {
+            "id": "2",
+            "text": "çarpışma"
+          },
+          {
+            "id": "3",
+            "text": "yeterli"
+          },
+          {
+            "id": "4",
+            "text": "enerji"
+          },
+          {
+            "id": "5",
+            "text": "ve"
+          },
+          {
+            "id": "6",
+            "text": "uygun"
+          },
+          {
+            "id": "7",
+            "text": "yönelim"
+          },
+          {
+            "id": "8",
+            "text": "gerektirir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Enerjisi eşik enerjisinin altında olan ya da uygun yönde olmayan çarpışmalar ürün oluşturmaz."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Enerji–tepkime koordinatı diyagramında girenlerin enerji düzeyi ile tepe noktası arasındaki farka karşılık gelen büyüklüğü seç.",
+        "image": "diagrams/enerji-tepkime-koordinati.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "İleri aktifleşme enerjisi"
+          },
+          {
+            "id": "2",
+            "text": "Geri aktifleşme enerjisi"
+          },
+          {
+            "id": "3",
+            "text": "Entalpi değişimi (ΔH)"
+          },
+          {
+            "id": "4",
+            "text": "Ürünlerin entalpisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Girenlerden tepe noktasına çıkmak için gereken enerji ileri aktifleşme enerjisidir. Tepe noktası ile ürünler arasındaki fark ise geri aktifleşme enerjisini verir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Bir tepkimede ileri aktifleşme enerjisi 120 kJ, geri aktifleşme enerjisi 180 kJ ise ΔH değerini doğru veren seçeneği seç.",
+        "image": "diagrams/aktiflesme-enerjisi-delta-h.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "−60 kJ"
+          },
+          {
+            "id": "2",
+            "text": "+60 kJ"
+          },
+          {
+            "id": "3",
+            "text": "−300 kJ"
+          },
+          {
+            "id": "4",
+            "text": "+300 kJ"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "ΔH = Ea(ileri) − Ea(geri) = 120 − 180 = −60 kJ. Negatif işaret tepkimenin ekzotermik olduğunu gösterir."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Dört basamakta gerçekleşen bir tepkimede basamakların aktifleşme enerjileri aşağıda verilmiştir. Genel tepkime hızını belirleyen basamağı seç.",
+        "image": "diagrams/hiz-belirleyen-basamak.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "I. basamak (Ea = 45 kJ)"
+          },
+          {
+            "id": "2",
+            "text": "II. basamak (Ea = 110 kJ)"
+          },
+          {
+            "id": "3",
+            "text": "III. basamak (Ea = 70 kJ)"
+          },
+          {
+            "id": "4",
+            "text": "IV. basamak (Ea = 30 kJ)"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Aktifleşme enerjisi en yüksek olan basamak en yavaş basamaktır ve genel hızı o belirler: II. basamak (110 kJ)."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "2SO₂(g) + O₂(g) ⇌ 2SO₃(g) dengesinde sabit sıcaklıkta kabın hacmi küçültülürse ne olur? Doğru sonucu seç.",
+        "image": "diagrams/denge-hacim-degisimi.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Denge SO₃ yönüne kayar"
+          },
+          {
+            "id": "2",
+            "text": "Denge SO₂ ve O₂ yönüne kayar"
+          },
+          {
+            "id": "3",
+            "text": "Denge kaymaz, derişimler değişmez"
+          },
+          {
+            "id": "4",
+            "text": "Denge sabitinin değeri büyür"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Hacim küçülünce basınç artar; denge toplam gaz mol sayısının az olduğu yöne kayar. Girenler 3 mol, ürün 2 mol olduğu için kayma SO₃ yönünedir. Sıcaklık sabit olduğundan K değişmez."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Enerji diyagramındaki her enerji farkını doğru büyüklükle etiketle.",
+        "image": "diagrams/enerji-diyagrami-buyuklukler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Girenlerin düzeyi ile tepe noktası arasındaki fark"
+          },
+          {
+            "id": "2",
+            "text": "Ürünlerin düzeyi ile tepe noktası arasındaki fark"
+          },
+          {
+            "id": "3",
+            "text": "Girenlerin düzeyi ile ürünlerin düzeyi arasındaki fark"
+          }
+        ],
+        "labels": [
+          "İleri aktifleşme enerjisi",
+          "Geri aktifleşme enerjisi",
+          "Entalpi değişimi (ΔH)",
+          "Bağ enerjisi"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "İleri aktifleşme enerjisi",
+          "2": "Geri aktifleşme enerjisi",
+          "3": "Entalpi değişimi (ΔH)"
+        }
+      },
+      "explanation": "Tepe noktası aktifleşmiş kompleksin enerjisidir. Girenlerden tepeye olan fark ileri Ea, ürünlerden tepeye olan fark geri Ea, girenler ile ürünler arasındaki fark ise ΔH'tır."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_enerji",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her bağıntıyı, ΔH'ı hesaplamak için kullandığı veri türüyle etiketle.",
+        "image": "diagrams/delta-h-hesap-yollari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "ΔH = H(ürünler) − H(girenler)"
+          },
+          {
+            "id": "2",
+            "text": "ΔH = Σ(kopan bağ enerjileri) − Σ(oluşan bağ enerjileri)"
+          },
+          {
+            "id": "3",
+            "text": "ΔH = Ea(ileri) − Ea(geri)"
+          }
+        ],
+        "labels": [
+          "Entalpi düzeylerinden hesap",
+          "Bağ enerjilerinden hesap",
+          "Aktifleşme enerjilerinden hesap",
+          "Denge sabitinden hesap"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Entalpi düzeylerinden hesap",
+          "2": "Bağ enerjilerinden hesap",
+          "3": "Aktifleşme enerjilerinden hesap"
+        }
+      },
+      "explanation": "Aynı ΔH üç ayrı veriden bulunabilir: entalpi düzeyleri, bağ enerjileri ya da ileri–geri aktifleşme enerjileri farkı."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_hiz",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Derişim iki katına çıkarıldığında gözlenen hız değişimini doğru mertebeyle etiketle.",
+        "image": "diagrams/tepkime-mertebesi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Hız değişmez"
+          },
+          {
+            "id": "2",
+            "text": "Hız iki katına çıkar"
+          },
+          {
+            "id": "3",
+            "text": "Hız dört katına çıkar"
+          }
+        ],
+        "labels": [
+          "0. mertebe",
+          "1. mertebe",
+          "2. mertebe",
+          "3. mertebe"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "0. mertebe",
+          "2": "1. mertebe",
+          "3": "2. mertebe"
+        }
+      },
+      "explanation": "Hız, derişimin mertebe kuvveti kadar değişir: 2⁰ = 1 (değişmez), 2¹ = 2, 2² = 4. Sekiz katına çıkması 3. mertebeye karşılık gelirdi."
+    },
+    {
+      "topic": "kimyasal_tepkimelerde_denge",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Dengedeki bir sisteme ilişkin her sonucu, onu doğuran etkiyle etiketle.",
+        "image": "diagrams/dengeye-etkiler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Denge sabitinin değerini değiştirebilen tek etken"
+          },
+          {
+            "id": "2",
+            "text": "Dengeyi kaydırmaz, yalnızca dengeye ulaşma süresini kısaltır"
+          },
+          {
+            "id": "3",
+            "text": "Sabit hacimli kapta toplam basıncı artırır ama dengeyi kaydırmaz"
+          }
+        ],
+        "labels": [
+          "Sıcaklık değişimi",
+          "Katalizör eklenmesi",
+          "İnert gaz eklenmesi",
+          "Ürün derişiminin artırılması"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Sıcaklık değişimi",
+          "2": "Katalizör eklenmesi",
+          "3": "İnert gaz eklenmesi"
+        }
+      },
+      "explanation": "K yalnızca sıcaklıkla değişir. Katalizör ileri ve geri hızı eşit oranda artırır. Tepkimeye girmeyen gaz, kısmi basınçları değiştirmediği için dengeyi etkilemez. Ürün derişiminin artırılması ise dengeyi girenler yönüne kaydırır."
     }
   ]
 }

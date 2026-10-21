@@ -1323,6 +1323,2916 @@
         ]
       },
       "explanation": "Önce tedbir, sonra teslimiyet."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kur'an-ı Kerim, Hz. Muhammed'e vahiy yoluyla indirilmiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Vahiy, Allah'ın mesajını peygamberine bildirmesidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İslam inancına göre melekler, Allah'ın emirlerine karşı gelebilen varlıklardır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Melekler Allah'ın buyruklarını eksiksiz yerine getirir, günah işlemezler."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Taklidî iman, araştırmaya ve delile dayanmadan çevrede görüldüğü biçimde benimsenen imandır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Delillere dayanan bilinçli imana ise tahkikî iman denir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Dinî sorumluluk için akıl sahibi olmak gerekli bir şart değildir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Dinî yükümlülük için akıl sahibi ve ergenlik çağına girmiş olmak gerekir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kur'an-ı Kerim'in ilk inen ayetleri Alak suresinin ilk ayetleridir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"Yaratan Rabbinin adıyla oku\" ayetiyle başlayan bölümdür."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Namaz, günde beş vakit olarak farz kılınmış bir ibadettir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sabah, öğle, ikindi, akşam ve yatsı vakitleridir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Abdesti bozan bir durum oluşmadıkça bir abdestle birden fazla namaz kılınabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Abdest, bozulmadığı sürece geçerliliğini korur."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Yolculuk sebebiyle tutulamayan Ramazan orucu daha sonra kaza edilemez."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Yolcu, tutamadığı orucu Ramazan'dan sonra kaza eder."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Cuma namazı, şartlarını taşıyan erkek Müslümanlara farzdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Cuma namazı, yükümlülük şartlarını taşıyan erkeklere farz-ı ayndır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Hac, her yıl tekrarlanması farz olan bir ibadettir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Hac, imkânı olan kimseye ömürde bir kez farzdır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İslam ahlakında doğru sözlü olmak övülen bir davranıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Doğruluk (sıdk) temel ahlaki erdemlerden sayılır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İslam ahlakına göre emanete sahip çıkmak kişinin isteğine bırakılmış bir davranıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Emaneti korumak ve sahibine teslim etmek bir sorumluluktur."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İsraf, İslam ahlakında teşvik edilen bir davranıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İsraf, nimetleri gereksiz yere tüketmek olduğu için hoş görülmez."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Gıybet, kişinin yüzüne karşı yapılan eleştiri anlamına gelir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Gıybet, bir kimsenin arkasından hoşlanmayacağı şeyleri konuşmaktır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Hoşgörü, farklı inanç ve düşüncelere saygı göstermeyi içerir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hoşgörü, farklılıkları kabul edip birlikte yaşamayı kolaylaştırır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kur'an-ı Kerim toplam {{0}} sureden oluşur.",
+        "choices": [
+          "114",
+          "99",
+          "110",
+          "124"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "114"
+        ]
+      },
+      "explanation": "Kur'an 114 suredir; ilki Fatiha, sonuncusu Nas suresidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hz. Muhammed'e vahyi getiren melek {{0}}'dir.",
+        "choices": [
+          "Cebrail",
+          "Mikail",
+          "Azrail",
+          "İsrafil"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Cebrail"
+        ]
+      },
+      "explanation": "Cebrail vahiy meleğidir; Mikail tabiat olaylarıyla, Azrail canların alınmasıyla, İsrafil sûra üflemekle görevlidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Allah'ın her şeyi bilmesi {{0}} sıfatıyla ifade edilir.",
+        "choices": [
+          "ilim",
+          "kudret",
+          "irade",
+          "kelam"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ilim"
+        ]
+      },
+      "explanation": "İlim sıfatı Allah'ın sonsuz bilgisini anlatır; kudret güç, irade dileme, kelam konuşma sıfatıdır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Peygamberlerin günah işlemekten korunmuş olmaları {{0}} sıfatıyla ifade edilir.",
+        "choices": [
+          "ismet",
+          "sıdk",
+          "emanet",
+          "fetanet"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ismet"
+        ]
+      },
+      "explanation": "İsmet günahsızlık, sıdk doğruluk, emanet güvenilirlik, fetanet ise akıl ve anlayış sahibi olmaktır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Namaz kılarken yönelinen yöne {{0}} denir.",
+        "choices": [
+          "kıble",
+          "mihrap",
+          "minber",
+          "kürsü"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kıble"
+        ]
+      },
+      "explanation": "Müslümanların kıblesi Mekke'deki Kâbe'dir; mihrap ise camide kıbleyi gösteren bölümdür."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Zekât verebilmek için gerekli olan asgari zenginlik ölçüsüne {{0}} denir.",
+        "choices": [
+          "nisap",
+          "fitre",
+          "infak",
+          "sadaka"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "nisap"
+        ]
+      },
+      "explanation": "Nisap miktarına ulaşmayan kimse zekâtla yükümlü değildir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Ramazan ayında yatsı namazından sonra kılınan nafile namaza {{0}} namazı denir.",
+        "choices": [
+          "teravih",
+          "vitir",
+          "bayram",
+          "cenaze"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "teravih"
+        ]
+      },
+      "explanation": "Teravih yalnızca Ramazan ayına özgü bir nafile namazdır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hac ve umrede Kâbe'nin etrafında yedi kez dönmeye {{0}} denir.",
+        "choices": [
+          "tavaf",
+          "sa'y",
+          "vakfe",
+          "telbiye"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tavaf"
+        ]
+      },
+      "explanation": "Tavaf Kâbe çevresinde dönmek, sa'y Safa ile Merve arasında yürümektir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Peygamberlerin akıllı ve anlayışlı olmaları {{0}} sıfatıyla ifade edilir.",
+        "choices": [
+          "fetanet",
+          "ismet",
+          "tebliğ",
+          "emanet"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "fetanet"
+        ]
+      },
+      "explanation": "Fetanet zihinsel yeterlilik, tebliğ ise vahyi insanlara ulaştırma görevidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İnsanın yaptığı seçimlerden sorumlu tutulmasının temelinde {{0}} irade bulunur.",
+        "choices": [
+          "cüz'î",
+          "küllî",
+          "mutlak",
+          "ilahi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "cüz'î"
+        ]
+      },
+      "explanation": "Cüz'î irade insana verilen sınırlı seçme gücüdür; küllî irade Allah'a aittir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Orucun başladığı vakte {{0}}, sona erdiği vakte ise {{1}} denir.",
+        "choices": [
+          "imsak",
+          "iftar",
+          "sahur",
+          "teravih",
+          "vakfe",
+          "nisap"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "imsak",
+          "iftar"
+        ]
+      },
+      "explanation": "İmsak orucun başlama vakti, iftar ise akşam vaktinde orucun açılmasıdır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Ramazan Bayramı öncesinde ihtiyaç sahiplerine verilen sadakaya {{0}} denir.",
+        "choices": [
+          "fitre",
+          "zekât",
+          "kurban",
+          "adak"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "fitre"
+        ]
+      },
+      "explanation": "Fitre (sadaka-i fıtır), Ramazan Bayramı namazından önce verilir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Nimetlerin değerini bilip bunun karşılığında Allah'a minnet duymaya {{0}} denir.",
+        "choices": [
+          "şükür",
+          "sabır",
+          "dua",
+          "tövbe"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "şükür"
+        ]
+      },
+      "explanation": "Şükür hem sözle hem davranışla gösterilir; karşıtı nankörlüktür."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İşlenen bir hatadan pişmanlık duyup Allah'tan bağışlanma dilemeye {{0}} denir.",
+        "choices": [
+          "tövbe",
+          "şükür",
+          "tevekkül",
+          "niyet"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tövbe"
+        ]
+      },
+      "explanation": "Tövbenin özünde pişmanlık ve o davranışa bir daha dönmeme kararı vardır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Allah'ın emirlerine uyup yasaklarından sakınma bilincine {{0}} denir.",
+        "choices": [
+          "takva",
+          "kanaat",
+          "tevekkül",
+          "ihsan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "takva"
+        ]
+      },
+      "explanation": "Takva, sorumluluk bilinciyle hareket etmeyi ifade eder."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Elindekine razı olup aşırı isteklerden kaçınmaya {{0}} denir.",
+        "choices": [
+          "kanaat",
+          "cimrilik",
+          "israf",
+          "tamah"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kanaat"
+        ]
+      },
+      "explanation": "Kanaat elindekiyle yetinmektir; cimrilik vermemek, israf gereksiz tüketmek, tamah ise doymak bilmemektir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Peygamberi kendisine verilen ilahi kitapla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hz. Musa"
+          },
+          {
+            "id": "2",
+            "text": "Hz. Davud"
+          },
+          {
+            "id": "3",
+            "text": "Hz. İsa"
+          },
+          {
+            "id": "4",
+            "text": "Hz. Muhammed"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Zebur"
+          },
+          {
+            "id": "b",
+            "text": "İncil"
+          },
+          {
+            "id": "c",
+            "text": "Tevrat"
+          },
+          {
+            "id": "d",
+            "text": "Kur'an-ı Kerim"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Tevrat Hz. Musa'ya, Zebur Hz. Davud'a, İncil Hz. İsa'ya, Kur'an Hz. Muhammed'e verilmiştir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Allah'ın sıfatını anlamıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kıdem"
+          },
+          {
+            "id": "2",
+            "text": "Beka"
+          },
+          {
+            "id": "3",
+            "text": "Vahdaniyet"
+          },
+          {
+            "id": "4",
+            "text": "Kıyam bi-nefsihi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sonu olmamak"
+          },
+          {
+            "id": "b",
+            "text": "Başlangıcı olmamak"
+          },
+          {
+            "id": "c",
+            "text": "Varlığı kendinden olmak"
+          },
+          {
+            "id": "d",
+            "text": "Bir ve tek olmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört sıfat Allah'ın zatî sıfatları arasında yer alır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Meleği göreviyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Cebrail"
+          },
+          {
+            "id": "2",
+            "text": "Mikail"
+          },
+          {
+            "id": "3",
+            "text": "Azrail"
+          },
+          {
+            "id": "4",
+            "text": "İsrafil"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Canlıların ruhunu almak"
+          },
+          {
+            "id": "b",
+            "text": "Vahiy getirmek"
+          },
+          {
+            "id": "c",
+            "text": "Sûra üflemek"
+          },
+          {
+            "id": "d",
+            "text": "Tabiat olaylarını düzenlemek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört melek, görevleri belirtilen büyük melekler olarak bilinir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İman çeşidini tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tahkikî iman"
+          },
+          {
+            "id": "2",
+            "text": "Taklidî iman"
+          },
+          {
+            "id": "3",
+            "text": "İcmalî iman"
+          },
+          {
+            "id": "4",
+            "text": "Tafsilî iman"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İnanılacak esasları topluca kabul etmek"
+          },
+          {
+            "id": "b",
+            "text": "Delillere dayanan, araştırılmış iman"
+          },
+          {
+            "id": "c",
+            "text": "İnanılacak esasları ayrıntılı olarak bilerek kabul etmek"
+          },
+          {
+            "id": "d",
+            "text": "Çevrede görüldüğü gibi benimsenen iman"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İcmalî ve tafsilî iman kapsamla, taklidî ve tahkikî iman ise bilinç düzeyiyle ilgilidir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hac ile ilgili kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tavaf"
+          },
+          {
+            "id": "2",
+            "text": "Sa'y"
+          },
+          {
+            "id": "3",
+            "text": "İhram"
+          },
+          {
+            "id": "4",
+            "text": "Vakfe"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Safa ile Merve arasında gidip gelmek"
+          },
+          {
+            "id": "b",
+            "text": "Arafat'ta belirli vakitte durmak"
+          },
+          {
+            "id": "c",
+            "text": "Kâbe'nin çevresinde dönmek"
+          },
+          {
+            "id": "d",
+            "text": "Hacca niyetle girilen özel hâl"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Arafat vakfesi haccın farzlarından biridir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Dinî hükmü tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Farz"
+          },
+          {
+            "id": "2",
+            "text": "Sünnet"
+          },
+          {
+            "id": "3",
+            "text": "Haram"
+          },
+          {
+            "id": "4",
+            "text": "Mekruh"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Yapılması kesin olarak yasaklanan"
+          },
+          {
+            "id": "b",
+            "text": "Yapılması kesin olarak emredilen"
+          },
+          {
+            "id": "c",
+            "text": "Hoş görülmeyen, yapılması uygun olmayan"
+          },
+          {
+            "id": "d",
+            "text": "Peygamberin yaptığı ve teşvik ettiği davranış"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Farz ve haram kesin hükümler, sünnet ve mekruh ise teşvik veya sakındırma bildirir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Temizlikle ilgili kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Abdest"
+          },
+          {
+            "id": "2",
+            "text": "Gusül"
+          },
+          {
+            "id": "3",
+            "text": "Teyemmüm"
+          },
+          {
+            "id": "4",
+            "text": "Necasetten taharet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bütün bedenin yıkanması"
+          },
+          {
+            "id": "b",
+            "text": "Belirli organların su ile yıkanması"
+          },
+          {
+            "id": "c",
+            "text": "Beden, elbise ve namaz kılınacak yerin maddi pisliklerden arındırılması"
+          },
+          {
+            "id": "d",
+            "text": "Su bulunmadığında toprakla yapılan temizlik"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Temizlik namazın ön şartlarından biridir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Erdemi karşıtı olan davranışla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Doğruluk"
+          },
+          {
+            "id": "2",
+            "text": "Cömertlik"
+          },
+          {
+            "id": "3",
+            "text": "Alçakgönüllülük"
+          },
+          {
+            "id": "4",
+            "text": "Güvenilirlik"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Cimrilik"
+          },
+          {
+            "id": "b",
+            "text": "İhanet"
+          },
+          {
+            "id": "c",
+            "text": "Yalancılık"
+          },
+          {
+            "id": "d",
+            "text": "Kibir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her erdemin karşısında onu bozan bir davranış bulunur."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Dil ile işlenen kusuru tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Gıybet"
+          },
+          {
+            "id": "2",
+            "text": "İftira"
+          },
+          {
+            "id": "3",
+            "text": "Alay etmek"
+          },
+          {
+            "id": "4",
+            "text": "Söz taşımak"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bir kimseye işlemediği bir suçu yakıştırmak"
+          },
+          {
+            "id": "b",
+            "text": "Duyduğu sözü ara bozmak amacıyla başkasına aktarmak"
+          },
+          {
+            "id": "c",
+            "text": "Bir kimsenin arkasından hoşlanmayacağı şeyleri konuşmak"
+          },
+          {
+            "id": "d",
+            "text": "Bir kimseyi küçümseyerek onunla eğlenmek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu davranışların hepsi insan ilişkilerini bozduğu için hoş görülmez."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hz. Muhammed'in hayatındaki olayları eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hicret"
+          },
+          {
+            "id": "2",
+            "text": "Hz. Muhammed'in doğumu"
+          },
+          {
+            "id": "3",
+            "text": "Veda Haccı"
+          },
+          {
+            "id": "4",
+            "text": "İlk vahyin gelmesi"
+          },
+          {
+            "id": "5",
+            "text": "Mekke'nin fethi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Doğum 571, ilk vahiy 610, hicret 622, Mekke'nin fethi 630, Veda Haccı 632 yılındadır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kur'an-ı Kerim'in yazıya geçirilme sürecini ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hz. Ebu Bekir döneminde tek bir mushafta toplanması"
+          },
+          {
+            "id": "2",
+            "text": "Vahyin inmeye başlaması"
+          },
+          {
+            "id": "3",
+            "text": "Hz. Osman döneminde çoğaltılıp bölgelere gönderilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Ayetlerin vahiy kâtiplerince yazılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Vahiy indikçe yazıldı; mushaf hâline getirilmesi Hz. Ebu Bekir, çoğaltılması Hz. Osman dönemindedir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Peygamberleri yaşadıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hz. Musa"
+          },
+          {
+            "id": "2",
+            "text": "Hz. Adem"
+          },
+          {
+            "id": "3",
+            "text": "Hz. İsa"
+          },
+          {
+            "id": "4",
+            "text": "Hz. Nuh"
+          },
+          {
+            "id": "5",
+            "text": "Hz. İbrahim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Hz. Adem ilk insan ve ilk peygamber, Hz. İsa ise Hz. Muhammed'den önceki son peygamberdir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sureleri Kur'an-ı Kerim'deki sıra numarasına göre küçükten büyüğe diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Yasin"
+          },
+          {
+            "id": "2",
+            "text": "Fatiha"
+          },
+          {
+            "id": "3",
+            "text": "İhlas"
+          },
+          {
+            "id": "4",
+            "text": "Bakara"
+          },
+          {
+            "id": "5",
+            "text": "Mülk"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Fatiha 1, Bakara 2, Yasin 36, Mülk 67, İhlas 112. suredir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ahiret hayatının aşamalarını ilk aşamadan son aşamaya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kıyametin kopması"
+          },
+          {
+            "id": "2",
+            "text": "Ölüm"
+          },
+          {
+            "id": "3",
+            "text": "Hesabın görülmesi"
+          },
+          {
+            "id": "4",
+            "text": "Kabir (berzah) hayatı"
+          },
+          {
+            "id": "5",
+            "text": "Yeniden diriliş"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Ölümden sonra berzah hayatı başlar; kıyametle birlikte diriliş ve ardından hesap gelir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İman esaslarını Amentü'de sayıldığı sıraya göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kitaplara iman"
+          },
+          {
+            "id": "2",
+            "text": "Allah'a iman"
+          },
+          {
+            "id": "3",
+            "text": "Ahirete iman"
+          },
+          {
+            "id": "4",
+            "text": "Meleklere iman"
+          },
+          {
+            "id": "5",
+            "text": "Peygamberlere iman"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Amentü \"Allah'a, meleklerine, kitaplarına, peygamberlerine, ahiret gününe\" sırasıyla devam eder."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Olayları gerçekleşme tarihine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Medine'ye hicret"
+          },
+          {
+            "id": "2",
+            "text": "İlk vahyin gelmesi"
+          },
+          {
+            "id": "3",
+            "text": "Uhud Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Habeşistan'a hicret"
+          },
+          {
+            "id": "5",
+            "text": "Bedir Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "İlk vahiy 610, Habeşistan'a hicret 615, Medine'ye hicret 622, Bedir 624, Uhud 625 yılındadır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki olayları kronolojik olarak eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hendek Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Bedir Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Mekke'nin fethi"
+          },
+          {
+            "id": "4",
+            "text": "Uhud Savaşı"
+          },
+          {
+            "id": "5",
+            "text": "Hudeybiye Antlaşması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Bedir 624, Uhud 625, Hendek 627, Hudeybiye 628, Mekke'nin fethi 630 yılındadır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Dört halifeyi görev sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hz. Osman"
+          },
+          {
+            "id": "2",
+            "text": "Hz. Ebu Bekir"
+          },
+          {
+            "id": "3",
+            "text": "Hz. Ali"
+          },
+          {
+            "id": "4",
+            "text": "Hz. Ömer"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Sıra Hz. Ebu Bekir, Hz. Ömer, Hz. Osman ve Hz. Ali biçimindedir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Namazın kılınışındaki davranışları ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Rükûya varmak"
+          },
+          {
+            "id": "2",
+            "text": "Namaza niyet etmek"
+          },
+          {
+            "id": "3",
+            "text": "Secdeye gitmek"
+          },
+          {
+            "id": "4",
+            "text": "İftitah tekbiri getirmek"
+          },
+          {
+            "id": "5",
+            "text": "Fatiha suresini okumak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Niyetten sonra tekbirle namaza başlanır, kıraatin ardından rükû ve secde gelir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Teyemmümün yapılışını ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Yüzü meshetmek"
+          },
+          {
+            "id": "2",
+            "text": "Teyemmüme niyet etmek"
+          },
+          {
+            "id": "3",
+            "text": "Kolları meshetmek"
+          },
+          {
+            "id": "4",
+            "text": "Elleri temiz toprağa vurmak"
+          },
+          {
+            "id": "5",
+            "text": "Elleri ikinci kez toprağa vurmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Teyemmüm, su bulunmadığında niyetle başlanıp yüz ve kolların meshedilmesiyle tamamlanır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hac ibadetinin aşamalarını ilk aşamadan son aşamaya diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Müzdelife'de vakfe yapmak"
+          },
+          {
+            "id": "2",
+            "text": "İhrama girmek"
+          },
+          {
+            "id": "3",
+            "text": "Kâbe'yi ziyaret tavafı ile tavaf etmek"
+          },
+          {
+            "id": "4",
+            "text": "Arafat'ta vakfe yapmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Hac, ihramla başlar; Arafat ve Müzdelife vakfelerinden sonra ziyaret tavafı yapılır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ramazan'da bir günün akışını ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "İftar etmek"
+          },
+          {
+            "id": "2",
+            "text": "Sahur yemeği yemek"
+          },
+          {
+            "id": "3",
+            "text": "Teravih namazını kılmak"
+          },
+          {
+            "id": "4",
+            "text": "İmsak vaktinin girmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Sahurdan sonra imsakla oruç başlar, akşam iftarla açılır, yatsıdan sonra teravih kılınır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ezanın cümlelerini okunuş sırasına göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Eşhedü enne Muhammeden Resûlullah"
+          },
+          {
+            "id": "2",
+            "text": "Allahu ekber"
+          },
+          {
+            "id": "3",
+            "text": "Hayye ale's-salâh"
+          },
+          {
+            "id": "4",
+            "text": "Eşhedü en lâ ilâhe illallah"
+          },
+          {
+            "id": "5",
+            "text": "Hayye ale'l-felâh"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      "explanation": "Tekbirlerden sonra iki şehadet cümlesi, ardından namaza ve kurtuluşa çağrı gelir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cuma günü yapılan işleri ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hutbeyi dinlemek"
+          },
+          {
+            "id": "2",
+            "text": "Gusül veya abdest ile temizlenmek"
+          },
+          {
+            "id": "3",
+            "text": "Cuma namazını kılmak"
+          },
+          {
+            "id": "4",
+            "text": "Camiye gitmek"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Cuma namazında hutbe namazdan önce okunur."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İslam'ın şartlarını geleneksel olarak sayıldığı sıraya göre diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Oruç tutmak"
+          },
+          {
+            "id": "2",
+            "text": "Kelime-i şehadet getirmek"
+          },
+          {
+            "id": "3",
+            "text": "Hacca gitmek"
+          },
+          {
+            "id": "4",
+            "text": "Namaz kılmak"
+          },
+          {
+            "id": "5",
+            "text": "Zekât vermek"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Sıra kelime-i şehadet, namaz, oruç, zekât ve hac biçiminde sayılır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Namazın son oturuşundaki davranışları ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Salli ve Bârik dualarını okumak"
+          },
+          {
+            "id": "2",
+            "text": "Son secdeden kalkıp oturmak"
+          },
+          {
+            "id": "3",
+            "text": "Sağa ve sola selam vermek"
+          },
+          {
+            "id": "4",
+            "text": "Tahiyyat duasını okumak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Son oturuşta Tahiyyat, ardından Salli-Bârik okunur ve selamla namaz tamamlanır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tövbenin aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Allah'tan bağışlanma dilemek"
+          },
+          {
+            "id": "2",
+            "text": "Yapılan hatanın farkına varmak"
+          },
+          {
+            "id": "3",
+            "text": "Aynı hataya dönmemeye karar vermek"
+          },
+          {
+            "id": "4",
+            "text": "Hatadan pişmanlık duymak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Tövbe; hatanın fark edilmesi, pişmanlık, istiğfar ve o davranışa dönmeme kararını içerir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir emanetin korunma sürecini ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Emanetin zarar görmeden korunması"
+          },
+          {
+            "id": "2",
+            "text": "Emanetin teslim alınması"
+          },
+          {
+            "id": "3",
+            "text": "Emanetin eksiksiz geri verilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Sahibinin emaneti geri istemesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Emanet ahlakı, teslim almaktan eksiksiz geri vermeye kadar bütün süreci kapsar."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Tahkikî iman, delile ve araştırmaya dayanarak benimsenen imandır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Tahkikî iman araştırma ve delile dayanır; taklidî iman ise çevreden görüldüğü gibi benimsenir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İslam inancında Allah'ın sıfatlarından \"kıdem\", O'nun sonu olmaması anlamına gelir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kıdem, başlangıcı olmamak demektir; sonu olmamayı ifade eden sıfat ise bekadır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Umre, hac gibi belirli bir zamana bağlı olarak yapılması gereken bir ibadettir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Hac belirli günlerde yapılır; umre ise yılın her döneminde yapılabilir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Suyun bulunmadığı ya da kullanılamadığı durumlarda abdest yerine teyemmüm yapılabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Teyemmüm, su bulunmadığında veya suyun kullanılması sağlık açısından engelli olduğunda başvurulan temizlik yoludur."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İslam ahlakında \"infak\", kişinin malından ihtiyaç sahipleri için harcama yapmasını ifade eder."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İnfak, hem zorunlu olan zekâtı hem gönüllü yapılan yardımları kapsayan genel bir kavramdır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Allah'ın varlığının başlangıcı olmamasına {{0}}, sonu olmamasına ise {{1}} denir.",
+        "choices": [
+          "Kıdem",
+          "Beka",
+          "Vahdaniyet",
+          "Kıyam bi nefsihi",
+          "Muhalefetün li'l-havadis",
+          "Vücud"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kıdem",
+          "Beka"
+        ]
+      },
+      "explanation": "Kıdem başlangıcı olmamak, beka ise sonu olmamaktır; ikisi Allah'ın zatî sıfatlarındandır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kur'an-ı Kerim'in Hz. Osman döneminde çoğaltılan nüshalarına {{0}} adı verilir.",
+        "choices": [
+          "Mushaf",
+          "Suhuf",
+          "Cüz",
+          "Hizb"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Mushaf"
+        ]
+      },
+      "explanation": "Mushaf, Kur'an ayetlerinin iki kapak arasında toplanmış hâlini ifade eder; suhuf ise dağınık sayfalar anlamındadır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hac ve umrede giyilen dikişsiz örtüye {{0}}, bu ibadet için niyetlenip yasaklara uymaya başlama hâline ise {{1}} denir.",
+        "choices": [
+          "İhram",
+          "İhrama girmek",
+          "Tavaf",
+          "Sa'y",
+          "Vakfe",
+          "Telbiye"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "İhram",
+          "İhrama girmek"
+        ]
+      },
+      "explanation": "İhram hem giyilen örtünün hem o örtüyle başlayan özel hâlin adıdır; tavaf ve sa'y ise hacın menasikindendir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hz. Peygamber'in söz, davranış ve onaylarının bütününe {{0}}, bunların yazıya geçirilmiş tek tek rivayetlerine ise {{1}} denir.",
+        "choices": [
+          "Sünnet",
+          "Hadis",
+          "Tefsir",
+          "Fıkıh",
+          "İcma",
+          "Kıyas"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Sünnet",
+          "Hadis"
+        ]
+      },
+      "explanation": "Sünnet Peygamber'in yaşayış biçiminin tamamıdır; hadis ise bu yaşayışı aktaran rivayetin kendisidir."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir kişinin arkasından hoşlanmayacağı sözleri söylemeye {{0}}, aslı olmayan bir suçu ona yakıştırmaya ise {{1}} denir.",
+        "choices": [
+          "Gıybet",
+          "İftira",
+          "Nasihat",
+          "Şükür",
+          "Tevazu",
+          "Sabır"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Gıybet",
+          "İftira"
+        ]
+      },
+      "explanation": "Gıybette söylenen söz doğru olabilir ama arkadan söylenir; iftirada ise söz baştan asılsızdır."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kur'an ilimleriyle ilgili kavramı tanımıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tefsir"
+          },
+          {
+            "id": "2",
+            "text": "Meal"
+          },
+          {
+            "id": "3",
+            "text": "Tecvit"
+          },
+          {
+            "id": "4",
+            "text": "Hafızlık"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Kur'an'ı baştan sona ezberlemek"
+          },
+          {
+            "id": "b",
+            "text": "Ayetleri açıklayıp yorumlama ilmi"
+          },
+          {
+            "id": "c",
+            "text": "Kur'an'ı kurallarına uygun okuma ilmi"
+          },
+          {
+            "id": "d",
+            "text": "Ayetlerin başka bir dildeki yaklaşık çevirisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "c",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Meal çeviri, tefsir ise açıklamadır; tecvit okuyuşla, hafızlık ezberle ilgilidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Peygamberlerin sıfatını anlamıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Sıdk"
+          },
+          {
+            "id": "2",
+            "text": "Emanet"
+          },
+          {
+            "id": "3",
+            "text": "Tebliğ"
+          },
+          {
+            "id": "4",
+            "text": "İsmet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Güvenilir olmak"
+          },
+          {
+            "id": "b",
+            "text": "Günahlardan korunmuş olmak"
+          },
+          {
+            "id": "c",
+            "text": "Doğru sözlü olmak"
+          },
+          {
+            "id": "d",
+            "text": "Vahyi insanlara eksiksiz ulaştırmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Sıdk doğruluk, emanet güvenilirlik, tebliğ duyurma, ismet ise günahtan korunmuşluktur."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Namazla ilgili kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kıyam"
+          },
+          {
+            "id": "2",
+            "text": "Rükû"
+          },
+          {
+            "id": "3",
+            "text": "Secde"
+          },
+          {
+            "id": "4",
+            "text": "Kade"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Eller dizlere konacak şekilde eğilmek"
+          },
+          {
+            "id": "b",
+            "text": "Namazda ayakta durmak"
+          },
+          {
+            "id": "c",
+            "text": "Namazda oturmak"
+          },
+          {
+            "id": "d",
+            "text": "Alnı yere koyarak yere kapanmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Namazın şeklî unsurları kıyam, rükû, secde ve kade sırasıyla ayakta durma, eğilme, yere kapanma ve oturmadır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ahlaki kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tevazu"
+          },
+          {
+            "id": "2",
+            "text": "Kanaat"
+          },
+          {
+            "id": "3",
+            "text": "Sabır"
+          },
+          {
+            "id": "4",
+            "text": "Adalet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Elindekine razı olmak"
+          },
+          {
+            "id": "b",
+            "text": "Herkese hak ettiğini vermek"
+          },
+          {
+            "id": "c",
+            "text": "Alçakgönüllü davranmak"
+          },
+          {
+            "id": "d",
+            "text": "Zorluk karşısında dayanıklı olmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Tevazu alçakgönüllülük, kanaat yeterliyle yetinmek, sabır dayanmak, adalet ise hakkı gözetmektir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Vahiy"
+          },
+          {
+            "id": "2",
+            "text": "ilahi"
+          },
+          {
+            "id": "3",
+            "text": "peygamberlerine"
+          },
+          {
+            "id": "4",
+            "text": "Allah'ın"
+          },
+          {
+            "id": "5",
+            "text": "sözdür"
+          },
+          {
+            "id": "6",
+            "text": "bildirdiği"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "4",
+          "3",
+          "6",
+          "2",
+          "5"
+        ]
+      },
+      "explanation": "Vahiy, Allah'ın peygamberlerine bildirdiği ilahi sözdür. Vahiy yalnızca peygamberlere gelir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "inanmaya"
+          },
+          {
+            "id": "2",
+            "text": "Allah'ın"
+          },
+          {
+            "id": "3",
+            "text": "tevhid"
+          },
+          {
+            "id": "4",
+            "text": "birliğine"
+          },
+          {
+            "id": "5",
+            "text": "denir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      "explanation": "Allah'ın birliğine inanmaya tevhid denir. Tevhidin karşıtı, Allah'a ortak koşmak anlamındaki şirktir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "kadar"
+          },
+          {
+            "id": "2",
+            "text": "Oruç"
+          },
+          {
+            "id": "3",
+            "text": "iftar"
+          },
+          {
+            "id": "4",
+            "text": "imsak"
+          },
+          {
+            "id": "5",
+            "text": "tutulur"
+          },
+          {
+            "id": "6",
+            "text": "vaktine"
+          },
+          {
+            "id": "7",
+            "text": "vaktinden"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "7",
+          "3",
+          "6",
+          "1",
+          "5"
+        ]
+      },
+      "explanation": "Oruç imsak vaktinden iftar vaktine kadar tutulur. İmsak orucun başlangıcı, iftar ise sona erdiği vakittir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "biridir"
+          },
+          {
+            "id": "2",
+            "text": "şartlarından"
+          },
+          {
+            "id": "3",
+            "text": "Abdestli"
+          },
+          {
+            "id": "4",
+            "text": "namazın"
+          },
+          {
+            "id": "5",
+            "text": "olmak"
+          },
+          {
+            "id": "6",
+            "text": "geçerlilik"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "4",
+          "6",
+          "2",
+          "1"
+        ]
+      },
+      "explanation": "Abdestli olmak namazın geçerlilik şartlarından biridir. Abdest, namazın dışındaki hazırlık şartları arasında sayılır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "yapılan"
+          },
+          {
+            "id": "2",
+            "text": "Sadaka"
+          },
+          {
+            "id": "3",
+            "text": "yardımdır"
+          },
+          {
+            "id": "4",
+            "text": "sahiplerine"
+          },
+          {
+            "id": "5",
+            "text": "gönüllü"
+          },
+          {
+            "id": "6",
+            "text": "ihtiyaç"
+          },
+          {
+            "id": "7",
+            "text": "olarak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "6",
+          "4",
+          "5",
+          "7",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Sadaka ihtiyaç sahiplerine gönüllü olarak yapılan yardımdır. Zekât ise belirli şartlarda farz olan bir yükümlülüktür."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "ilkelerinden"
+          },
+          {
+            "id": "2",
+            "text": "ahlakının"
+          },
+          {
+            "id": "3",
+            "text": "biridir"
+          },
+          {
+            "id": "4",
+            "text": "Emaneti"
+          },
+          {
+            "id": "5",
+            "text": "İslam"
+          },
+          {
+            "id": "6",
+            "text": "temel"
+          },
+          {
+            "id": "7",
+            "text": "korumak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "7",
+          "5",
+          "2",
+          "6",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Emaneti korumak İslam ahlakının temel ilkelerinden biridir. Emanet, hem maddi şeyleri hem sırrı ve görevi kapsar."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hz. Muhammed'e ilk vahyin geldiği yeri seç.",
+        "image": "diagrams/bilgi-ve-inanc-vahiy.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Hira Mağarası"
+          },
+          {
+            "id": "2",
+            "text": "Mescid-i Nebevî"
+          },
+          {
+            "id": "3",
+            "text": "Sevr Mağarası"
+          },
+          {
+            "id": "4",
+            "text": "Kuba Mescidi"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "İlk vahiy Mekke yakınlarındaki Nur Dağı'nda bulunan Hira Mağarası'nda gelmiştir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hz. Musa'ya verilen ilahi kitabı seç.",
+        "image": "diagrams/bilgi-ve-inanc-kitaplar.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Zebur"
+          },
+          {
+            "id": "2",
+            "text": "Tevrat"
+          },
+          {
+            "id": "3",
+            "text": "İncil"
+          },
+          {
+            "id": "4",
+            "text": "Kur'an-ı Kerim"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Tevrat Hz. Musa'ya, Zebur Hz. Davud'a, İncil Hz. İsa'ya, Kur'an ise Hz. Muhammed'e verilmiştir."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Malî yönü olan, yani mal ile yerine getirilen ibadeti seç.",
+        "image": "diagrams/islam-ve-ibadet-turleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Namaz"
+          },
+          {
+            "id": "2",
+            "text": "Oruç"
+          },
+          {
+            "id": "3",
+            "text": "Zekât"
+          },
+          {
+            "id": "4",
+            "text": "Kelime-i şehadet"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Zekât malla yapılan ibadettir; namaz ve oruç bedenî, kelime-i şehadet ise sözle yapılan bir ikrardır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kişinin kendini olduğundan üstün görmesini anlatan kavramı seç.",
+        "image": "diagrams/ahlak-ve-degerler-kavramlar.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Tevazu"
+          },
+          {
+            "id": "2",
+            "text": "Kibir"
+          },
+          {
+            "id": "3",
+            "text": "Şükür"
+          },
+          {
+            "id": "4",
+            "text": "Kanaat"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Kibir büyüklenmedir; karşıtı olan tevazu ise alçakgönüllülüktür."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her görevi, o görevle sorumlu olan melekle etiketle.",
+        "image": "diagrams/bilgi-ve-inanc-melekler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Peygamberlere vahiy getirmek"
+          },
+          {
+            "id": "2",
+            "text": "Doğa olaylarında görev almak"
+          },
+          {
+            "id": "3",
+            "text": "İnsanın yaptıklarını kayda geçirmek"
+          }
+        ],
+        "labels": [
+          "Cebrail",
+          "Mikail",
+          "Kiramen Kâtibin",
+          "Münker ve Nekir"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Cebrail",
+          "2": "Mikail",
+          "3": "Kiramen Kâtibin"
+        }
+      },
+      "explanation": "Cebrail vahiy meleği, Mikail doğa olaylarıyla, Kiramen Kâtibin ise amellerin yazımıyla görevlidir."
+    },
+    {
+      "topic": "bilgi_ve_inanc",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her anlamı, onu karşılayan Allah'ın sıfatıyla etiketle.",
+        "image": "diagrams/bilgi-ve-inanc-sifatlar.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Her şeyi bilmek"
+          },
+          {
+            "id": "2",
+            "text": "Her şeye gücü yetmek"
+          },
+          {
+            "id": "3",
+            "text": "Dilediğini yaratmak"
+          }
+        ],
+        "labels": [
+          "İlim",
+          "Kudret",
+          "Tekvin",
+          "Kelam"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "İlim",
+          "2": "Kudret",
+          "3": "Tekvin"
+        }
+      },
+      "explanation": "İlim bilmek, kudret güç yetirmek, tekvin yaratmaktır; kelam ise konuşma sıfatıdır."
+    },
+    {
+      "topic": "islam_ve_ibadet",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı, anlattığı ibadet uygulamasıyla etiketle.",
+        "image": "diagrams/islam-ve-ibadet-hac.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Kâbe'nin etrafında yedi kez dönmek"
+          },
+          {
+            "id": "2",
+            "text": "Safa ile Merve arasında gidip gelmek"
+          },
+          {
+            "id": "3",
+            "text": "Arafat'ta belirli vakitte bulunmak"
+          }
+        ],
+        "labels": [
+          "Tavaf",
+          "Sa'y",
+          "Vakfe",
+          "Telbiye"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Tavaf",
+          "2": "Sa'y",
+          "3": "Vakfe"
+        }
+      },
+      "explanation": "Tavaf Kâbe'nin çevresinde dönmek, sa'y Safa-Merve arasında yürümek, vakfe ise Arafat'ta durmaktır."
+    },
+    {
+      "topic": "ahlak_ve_degerler",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her davranışı, karşılık geldiği ahlaki kavramla etiketle.",
+        "image": "diagrams/ahlak-ve-degerler-erdemler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Verilen sözü yerine getirmek"
+          },
+          {
+            "id": "2",
+            "text": "Nimetin değerini bilip karşılığını dile getirmek"
+          },
+          {
+            "id": "3",
+            "text": "Kendisine kötülük yapanı bağışlamak"
+          }
+        ],
+        "labels": [
+          "Vefa",
+          "Şükür",
+          "Af",
+          "İsraf"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Vefa",
+          "2": "Şükür",
+          "3": "Af"
+        }
+      },
+      "explanation": "Vefa sözde durmak, şükür nimeti bilmek, af ise bağışlamaktır; israf ise bir erdem değil, aşırı harcamadır."
     }
   ]
 }

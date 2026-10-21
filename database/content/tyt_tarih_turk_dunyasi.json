@@ -1479,6 +1479,2640 @@
         "partial_credit": true
       },
       "explanation": "Bu dört tarih TYT ve AYT'de en sık sorulan kronoloji çapalarıdır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Asya Hun Devleti'nin bilinen en güçlü hükümdarı Mete Han'dır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Mete Han döneminde Asya Hun Devleti en geniş sınırlarına ulaşmış ve bütün Asya Hunları tek yönetimde birleşmiştir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Avrupa Hun Devleti'nin kurucusu Attila'dır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Avrupa Hun Devleti'ni Balamir kurmuştur; Attila ise devletin en güçlü dönemini yaşatan hükümdardır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Göktürkler, \"Türk\" adını devlet adı olarak kullanan ilk Türk devletidir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 552'de Bumin Kağan tarafından kurulan Göktürk Devleti, \"Türk\" sözcüğünü resmî devlet adında kullanan ilk siyasi teşekküldür."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Uygurlar, Mani inancını benimsemiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bögü Kağan döneminde kabul edilen Mani inancı, et yemeyi ve savaşmayı kısıtladığı için Uygurların savaşçı özelliğini zayıflatmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İlk Türk devletlerinde ekonominin temeli tarıma dayanmaktaydı."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Konar göçer yaşam süren ilk Türk devletlerinde ekonominin temeli hayvancılıktı; tarım ikinci planda kalmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Türk tarihinin bilinen ilk yazılı belgeleri Orhun Yazıtları'dır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. II. Göktürk Devleti döneminde dikilen Orhun Yazıtları, Türk adının ve Türk tarihinin geçtiği ilk Türkçe yazılı belgelerdir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Karahanlı Devleti'nde resmî dil Arapça olmuştur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Karahanlılar resmî dil olarak Türkçeyi kullanmıştır; bu nedenle ilk Türk İslam eserleri Karahanlı sahasında Türkçe yazılmıştır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Büyük Selçuklu Devleti'nin kurucusu Tuğrul Bey'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Tuğrul Bey, Dandanakan Savaşı'nın ardından 1040'ta Büyük Selçuklu Devleti'ni kurmuş ve ilk sultanı olmuştur."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Dandanakan Savaşı'nı Gazneliler kazanmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 1040'taki Dandanakan Savaşı'nı Selçuklular kazanmış, yenilen Gazneliler zayıflamış ve Horasan Selçukluların eline geçmiştir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Nizamiye Medreseleri, Büyük Selçuklu Devleti döneminde kurulmuştur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Nizamiye Medreseleri, Sultan Melikşah döneminde vezir Nizamülmülk tarafından açılan dönemin en gelişmiş eğitim kurumlarıdır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Türkler, İslamiyet'i kabul ettikten sonra Kiril alfabesini kullanmaya başlamıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İslamiyet'in kabulüyle Türkler Arap alfabesini kullanmaya başlamıştır; Kiril alfabesi çok daha sonra bazı Türk topluluklarına Rus etkisiyle girmiştir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İlk Türk devletlerinde kağanın eşine \"hatun\" denirdi."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hatun, kurultaya katılabilen, elçi kabul edebilen ve devlet yönetiminde söz sahibi olan kağan eşidir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İlk Türk devletlerinde ülke, yalnızca hükümdarın büyük oğluna ait sayılırdı."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Ülke hanedanın ortak malı sayılırdı. Bu anlayış taht kavgalarına yol açmış ve devletlerin kısa sürede bölünmesine neden olmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Orta Asya'da kurulduğu bilinen ilk teşkilatlı Türk devleti {{0}} Devleti'dir.",
+        "choices": [
+          "Asya Hun",
+          "Göktürk",
+          "Uygur",
+          "Avar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Asya Hun"
+        ]
+      },
+      "explanation": "Orta Asya'da kurulan ilk teşkilatlı Türk devleti Asya Hun (Büyük Hun) Devleti'dir. Göktürkler ve Uygurlar daha sonraki dönemlerde kurulmuştur."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İlk Türk devletlerinde boyların hayvanlarına ve mallarına vurduğu mülkiyet damgasına {{0}} denir.",
+        "choices": [
+          "tamga",
+          "balbal",
+          "töre",
+          "kut"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tamga"
+        ]
+      },
+      "explanation": "Tamga, bir boyun ya da ailenin mülkiyetini gösteren damgadır. Balbal mezar taşı, töre yazısız hukuk kuralları, kut ise hükümdarlık yetkisidir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Avrupa Hunlarının batıya ilerlemesiyle Avrupa'nın etnik yapısını değiştiren Kavimler Göçü {{0}} yılında başlamıştır.",
+        "choices": [
+          "375",
+          "395",
+          "552",
+          "751"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "375"
+        ]
+      },
+      "explanation": "Kavimler Göçü 375 yılında başlamıştır. Bu göç, Roma İmparatorluğu'nun ikiye ayrılmasının ardından Batı Roma'nın yıkılmasına ve Avrupa'da feodal düzenin doğmasına zemin hazırlamıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türk ordu teşkilatının temeli kabul edilen onluk sistemi kuran hükümdar {{0}}'dır.",
+        "choices": [
+          "Mete Han",
+          "Attila",
+          "Bumin Kağan",
+          "Bilge Kağan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Mete Han"
+        ]
+      },
+      "explanation": "Asya Hun hükümdarı Mete Han, orduyu onluk sisteme göre düzenlemiştir. Bu düzen sonraki Türk devletlerine ve pek çok başka ordu teşkilatına örnek olmuştur."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türk adının geçtiği ilk Türkçe yazılı belge olan Orhun Yazıtları {{0}} Devleti döneminde dikilmiştir.",
+        "choices": [
+          "II. Göktürk",
+          "Asya Hun",
+          "Uygur",
+          "Hazar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "II. Göktürk"
+        ]
+      },
+      "explanation": "Orhun (Göktürk) Yazıtları II. Göktürk Devleti döneminde, Bilge Kağan ve Vezir Tonyukuk adına 8. yüzyılda dikilmiştir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Karahanlı Devleti'nde İslamiyet'i kabul eden ilk hükümdar {{0}}'dır.",
+        "choices": [
+          "Satuk Buğra Han",
+          "Tuğrul Bey",
+          "Alp Arslan",
+          "Bilge Kağan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Satuk Buğra Han"
+        ]
+      },
+      "explanation": "Satuk Buğra Han İslamiyet'i kabul ederek Abdülkerim adını almış ve Karahanlı Devleti'nin İslamlaşma sürecini başlatmıştır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "751 yılındaki Talas Savaşı'nda Karluklar {{0}} tarafında yer almış ve savaşın sonucunu belirlemiştir.",
+        "choices": [
+          "Arapların",
+          "Çinlilerin",
+          "Tibetlilerin",
+          "Sasanilerin"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Arapların"
+        ]
+      },
+      "explanation": "Talas Savaşı'nda Karluklar Arapların yanında savaşmış, Çin yenilgiye uğramıştır. Böylece Orta Asya'da Çin üstünlüğü kırılmış ve Türklerle Müslümanlar arasında yakınlaşma başlamıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "I. Göktürk Devleti'nin batı kanadını yöneten {{0}}, İpek Yolu'nu denetlemek için Bizans ile iş birliği kurmuştur.",
+        "choices": [
+          "İstemi Yabgu",
+          "Kür Şad",
+          "İlteriş Kutluk Kağan",
+          "Tonyukuk"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "İstemi Yabgu"
+        ]
+      },
+      "explanation": "Bumin Kağan devletin doğusunu yönetirken kardeşi İstemi Yabgu batı kanadını yönetmiştir. İstemi Yabgu, Sasanilere karşı Bizans ile ilişki kurarak İpek Yolu ticaretinde etkili olmuştur."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Konargöçer Türk boylarının hayvanlarını otlatmak için yaz aylarında çıktıkları yüksek otlaklara {{0}} denir.",
+        "choices": [
+          "yaylak",
+          "kışlak",
+          "kurgan",
+          "otağ"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "yaylak"
+        ]
+      },
+      "explanation": "Yaz aylarında çıkılan yüksek otlaklara yaylak, kışın inilen korunaklı alçak bölgelere ise kışlak denir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İlk Türk devletlerinde hükümdarın kurduğu büyük çadıra {{0}} adı verilir.",
+        "choices": [
+          "otağ",
+          "kurgan",
+          "balbal",
+          "tamga"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "otağ"
+        ]
+      },
+      "explanation": "Hükümdarın çadırına otağ denir. Kurgan mezar, balbal mezar başına dikilen taş, tamga ise mülkiyet damgasıdır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Uygurların yerleşik hayata geçmesinde etkili olan ve avlanmayı yasaklayan din {{0}}'dir.",
+        "choices": [
+          "Manihaizm",
+          "Musevilik",
+          "Hristiyanlık",
+          "Zerdüştlük"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Manihaizm"
+        ]
+      },
+      "explanation": "Uygurlar Manihaizm'i benimsemiştir. Bu inanç et yemeyi ve avlanmayı yasakladığı için Uygurların savaşçı özelliklerini kaybetmesine ve yerleşik hayata geçmesine yol açmıştır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Büyük Selçuklu Devleti'nin ilk hükümdarı {{0}}'dir.",
+        "choices": [
+          "Tuğrul Bey",
+          "Alp Arslan",
+          "Melikşah",
+          "Sultan Sencer"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Tuğrul Bey"
+        ]
+      },
+      "explanation": "Dandanakan Savaşı'ndan sonra kurulan Büyük Selçuklu Devleti'nin ilk hükümdarı Tuğrul Bey'dir. Alp Arslan ve Melikşah ondan sonra tahta çıkmıştır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "1040 yılında yapılan Dandanakan Savaşı, Selçuklular ile {{0}} arasında gerçekleşmiştir.",
+        "choices": [
+          "Gazneliler",
+          "Karahanlılar",
+          "Abbasiler",
+          "Bizans"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Gazneliler"
+        ]
+      },
+      "explanation": "Dandanakan Savaşı'nda Selçuklular Gaznelileri yenmiştir. Bu zaferle Büyük Selçuklu Devleti kurulmuş, Gazneliler ise yıkılma sürecine girmiştir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "{{0}} yılındaki Malazgirt Savaşı'nda Bizans ordusunu yenen Selçuklu hükümdarı {{1}}'dır.",
+        "choices": [
+          "1071",
+          "1048",
+          "1176",
+          "Alp Arslan",
+          "Tuğrul Bey",
+          "Melikşah"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "1071",
+          "Alp Arslan"
+        ]
+      },
+      "explanation": "1071 Malazgirt Savaşı'nda Alp Arslan, Bizans İmparatoru Romanos Diogenes'i yenmiştir. Bu zafer Anadolu'nun kapılarını Türklere açmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türklerin Ergenekon adlı bir vadiden çıkışını anlatan destan {{0}} Destanı'dır.",
+        "choices": [
+          "Ergenekon",
+          "Göç",
+          "Türeyiş",
+          "Oğuz Kağan"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Ergenekon"
+        ]
+      },
+      "explanation": "Ergenekon Destanı Göktürklere aittir ve Türklerin sıkıştıkları vadiden demir dağı eriterek çıkışını anlatır. Göç ve Türeyiş destanları Uygurlara, Oğuz Kağan Destanı ise Hunlara aittir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İstanbul'u iki kez kuşatan ilk Türk topluluğu {{0}}'dır.",
+        "choices": [
+          "Avarlar",
+          "Peçenekler",
+          "Kumanlar",
+          "Bulgarlar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Avarlar"
+        ]
+      },
+      "explanation": "Avarlar, İstanbul'u kuşatan ilk Türk topluluğudur. Sasanilerle birlikte yaptıkları kuşatmalar başarısız olmuştur."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Destanı ait olduğu Türk topluluğuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Oğuz Kağan Destanı"
+          },
+          {
+            "id": "2",
+            "text": "Ergenekon Destanı"
+          },
+          {
+            "id": "3",
+            "text": "Göç Destanı"
+          },
+          {
+            "id": "4",
+            "text": "Alp Er Tunga Destanı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "b",
+            "text": "Hunlar"
+          },
+          {
+            "id": "c",
+            "text": "Sakalar (İskitler)"
+          },
+          {
+            "id": "d",
+            "text": "Göktürkler"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Oğuz Kağan Destanı Hunlara, Ergenekon Destanı Göktürklere, Göç ve Türeyiş destanları Uygurlara, Alp Er Tunga Destanı ise Sakalara aittir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Devleti yönetim merkeziyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Göktürkler"
+          },
+          {
+            "id": "2",
+            "text": "Uygurlar"
+          },
+          {
+            "id": "3",
+            "text": "Hazarlar"
+          },
+          {
+            "id": "4",
+            "text": "Gazneliler"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İtil"
+          },
+          {
+            "id": "b",
+            "text": "Ötüken"
+          },
+          {
+            "id": "c",
+            "text": "Gazne"
+          },
+          {
+            "id": "d",
+            "text": "Ordubalık (Karabalgasun)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Göktürklerin merkezi Ötüken, Uygurların başkenti Ordubalık, Hazarların başkenti İtil, Gaznelilerin başkenti ise Gazne şehridir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Unvanı taşıdığı görevle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yabgu"
+          },
+          {
+            "id": "2",
+            "text": "Tigin"
+          },
+          {
+            "id": "3",
+            "text": "Tudun"
+          },
+          {
+            "id": "4",
+            "text": "Subaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Hükümdarın oğlu, şehzade"
+          },
+          {
+            "id": "b",
+            "text": "Devletin bir kanadını yöneten, hükümdardan sonraki en yetkili kişi"
+          },
+          {
+            "id": "c",
+            "text": "Ordu komutanı"
+          },
+          {
+            "id": "d",
+            "text": "Vergi toplamakla görevli bölge yöneticisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Yabgu devletin kanat yöneticisi, tigin hükümdarın oğlu, tudun vergi toplayan bölge yöneticisi, subaşı ise ordu komutanıdır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Savaşı doğurduğu sonuçla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Talas Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Dandanakan Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Pasinler Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Malazgirt Savaşı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Büyük Selçuklu Devleti kuruldu"
+          },
+          {
+            "id": "b",
+            "text": "Türkler ile Müslüman Araplar arasında yakınlaşma başladı"
+          },
+          {
+            "id": "c",
+            "text": "Anadolu'nun kapıları Türklere açıldı"
+          },
+          {
+            "id": "d",
+            "text": "Selçukluların Bizans'a karşı kazandığı ilk büyük zafer oldu"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "751 Talas Savaşı Türk-Arap yakınlaşmasını, 1040 Dandanakan Büyük Selçuklu'nun kuruluşunu, 1048 Pasinler Bizans'a karşı ilk büyük zaferi, 1071 Malazgirt ise Anadolu'nun fethini başlatmıştır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Eseri konusuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kutadgu Bilig"
+          },
+          {
+            "id": "2",
+            "text": "Divanü Lügati't-Türk"
+          },
+          {
+            "id": "3",
+            "text": "Divan-ı Hikmet"
+          },
+          {
+            "id": "4",
+            "text": "Atabetü'l-Hakayık"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Araplara Türkçe öğretmek için hazırlanan sözlük"
+          },
+          {
+            "id": "b",
+            "text": "İdeal devlet yönetimini anlatan siyasetname"
+          },
+          {
+            "id": "c",
+            "text": "Ahlak ve din öğütleri veren manzum eser"
+          },
+          {
+            "id": "d",
+            "text": "Tasavvuf anlayışını yayan hikmet adlı şiirler"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kutadgu Bilig bir siyasetname, Divanü Lügati't-Türk Türkçe-Arapça sözlük, Divan-ı Hikmet tasavvuf şiirleri, Atabetü'l-Hakayık ise ahlak ve din öğütleri içeren bir eserdir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hükümdarı öne çıkan icraatıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Mete Han"
+          },
+          {
+            "id": "2",
+            "text": "Attila"
+          },
+          {
+            "id": "3",
+            "text": "Bilge Kağan"
+          },
+          {
+            "id": "4",
+            "text": "Alp Arslan"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Batı Roma üzerine Galya ve İtalya seferlerini düzenledi"
+          },
+          {
+            "id": "b",
+            "text": "Orduyu onluk sisteme göre düzenledi"
+          },
+          {
+            "id": "c",
+            "text": "Malazgirt Savaşı'nı kazandı"
+          },
+          {
+            "id": "d",
+            "text": "Orhun Yazıtlarının dikilmesini sağladı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Mete Han onluk ordu sistemini kurdu, Attila Batı Roma'ya seferler yaptı, Bilge Kağan döneminde Orhun Yazıtları dikildi, Alp Arslan ise 1071'de Malazgirt Savaşı'nı kazandı."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Toplumsal yapı birimini karşılığıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Oguş"
+          },
+          {
+            "id": "2",
+            "text": "Urug"
+          },
+          {
+            "id": "3",
+            "text": "Boy"
+          },
+          {
+            "id": "4",
+            "text": "Budun"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Aileler birliği, soy"
+          },
+          {
+            "id": "b",
+            "text": "Aile"
+          },
+          {
+            "id": "c",
+            "text": "Boylar birliği, millet"
+          },
+          {
+            "id": "d",
+            "text": "Soyların birleşmesiyle oluşan, beyin yönettiği topluluk"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Türk toplum yapısı küçükten büyüğe oguş (aile), urug (soy), boy ve budun (millet) biçiminde sıralanır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk-İslam devletini ayırt edici özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Tolunoğulları"
+          },
+          {
+            "id": "2",
+            "text": "Karahanlılar"
+          },
+          {
+            "id": "3",
+            "text": "Gazneliler"
+          },
+          {
+            "id": "4",
+            "text": "Büyük Selçuklular"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Resmî dil olarak Türkçeyi kullandı"
+          },
+          {
+            "id": "b",
+            "text": "Mısır'da kurulan ilk Türk devletidir"
+          },
+          {
+            "id": "c",
+            "text": "Nizamiye Medreselerini kurdu"
+          },
+          {
+            "id": "d",
+            "text": "Hindistan'a seferler düzenleyerek İslamiyet'in yayılmasını sağladı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Tolunoğulları Mısır'da kurulan ilk Türk devletidir. Karahanlılar Türkçeyi resmî dil yapmış, Gazneliler Hindistan'a seferler düzenlemiş, Büyük Selçuklular ise Nizamülmülk aracılığıyla Nizamiye Medreselerini kurmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk devletlerini kuruluş tarihlerine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Uygur Devleti"
+          },
+          {
+            "id": "2",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "3",
+            "text": "II. Göktürk Devleti"
+          },
+          {
+            "id": "4",
+            "text": "Avrupa Hun Devleti"
+          },
+          {
+            "id": "5",
+            "text": "I. Göktürk Devleti"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "5",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Asya Hun Devleti MÖ 3. yüzyılda, Avrupa Hun Devleti 4. yüzyılda, I. Göktürk Devleti 552'de, II. Göktürk Devleti 682'de, Uygur Devleti ise 744'te kurulmuştur."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk-İslam devletlerini kuruluş tarihlerine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Büyük Selçuklu Devleti"
+          },
+          {
+            "id": "2",
+            "text": "Karahanlı Devleti"
+          },
+          {
+            "id": "3",
+            "text": "Anadolu Selçuklu Devleti"
+          },
+          {
+            "id": "4",
+            "text": "Gazneli Devleti"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Karahanlılar 840, Gazneliler 963, Büyük Selçuklular 1040, Anadolu Selçukluları ise 1077 yılında kurulmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Olayları gerçekleşme tarihlerine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "I. Göktürk Devleti'nin kurulması"
+          },
+          {
+            "id": "2",
+            "text": "Mete Han'ın tahta çıkması"
+          },
+          {
+            "id": "3",
+            "text": "Talas Savaşı"
+          },
+          {
+            "id": "4",
+            "text": "Kavimler Göçü"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Mete Han MÖ 209'da tahta çıkmış, Kavimler Göçü 375'te başlamış, I. Göktürk Devleti 552'de kurulmuş, Talas Savaşı ise 751'de yapılmıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kavimler Göçü ve sonrasındaki gelişmeleri eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Roma İmparatorluğu'nun doğu ve batı olarak ikiye ayrılması"
+          },
+          {
+            "id": "2",
+            "text": "Kavimler Göçü'nün başlaması"
+          },
+          {
+            "id": "3",
+            "text": "Batı Roma İmparatorluğu'nun yıkılması"
+          },
+          {
+            "id": "4",
+            "text": "Avrupa Hun Devleti'nin kurulması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Avrupa Hunlarının batıya ilerlemesi 375'te Kavimler Göçü'nü başlattı. Roma İmparatorluğu 395'te ikiye ayrıldı, Batı Roma ise 476'da yıkıldı."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk toplum yapısındaki birimleri en küçükten en büyüğe diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Boy"
+          },
+          {
+            "id": "2",
+            "text": "Oguş (aile)"
+          },
+          {
+            "id": "3",
+            "text": "Budun (millet)"
+          },
+          {
+            "id": "4",
+            "text": "Urug (soy)"
+          },
+          {
+            "id": "5",
+            "text": "İl (devlet)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      "explanation": "Türk toplum yapısı küçükten büyüğe oguş, urug, boy, budun ve il biçiminde genişler."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Onluk sistemdeki ordu birliklerini asker sayısı bakımından küçükten büyüğe diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Binlik"
+          },
+          {
+            "id": "2",
+            "text": "Onluk"
+          },
+          {
+            "id": "3",
+            "text": "Tümen (on binlik)"
+          },
+          {
+            "id": "4",
+            "text": "Yüzlük"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Mete Han'ın kurduğu onluk sistemde ordu onluk, yüzlük, binlik ve on binlik (tümen) birliklere ayrılırdı."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Orhun Yazıtlarını dikildikleri tarihe göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Bilge Kağan Yazıtı"
+          },
+          {
+            "id": "2",
+            "text": "Tonyukuk Yazıtı"
+          },
+          {
+            "id": "3",
+            "text": "Kül Tigin Yazıtı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Yazıtların en eskisi Tonyukuk Yazıtı'dır (720-725). Kül Tigin Yazıtı 732'de, Bilge Kağan Yazıtı ise 735'te dikilmiştir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Büyük Selçuklu hükümdarlarını tahta çıkış sıralarına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Melikşah"
+          },
+          {
+            "id": "2",
+            "text": "Tuğrul Bey"
+          },
+          {
+            "id": "3",
+            "text": "Sultan Sencer"
+          },
+          {
+            "id": "4",
+            "text": "Alp Arslan"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Büyük Selçuklu tahtına önce Tuğrul Bey, ardından Alp Arslan, sonra Melikşah çıkmıştır. Sultan Sencer ise devletin son güçlü hükümdarıdır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hun hükümdarlarını hüküm sürdükleri döneme göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Attila"
+          },
+          {
+            "id": "2",
+            "text": "Teoman"
+          },
+          {
+            "id": "3",
+            "text": "Uldız"
+          },
+          {
+            "id": "4",
+            "text": "Mete Han"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Asya Hunlarında önce Teoman, sonra oğlu Mete Han hüküm sürmüştür. Avrupa Hunlarında ise önce Uldız, daha sonra Attila tahta çıkmıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Göktürk kağanlarını hüküm sürdükleri döneme göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "İlteriş Kutluk Kağan"
+          },
+          {
+            "id": "2",
+            "text": "Bumin Kağan"
+          },
+          {
+            "id": "3",
+            "text": "Bilge Kağan"
+          },
+          {
+            "id": "4",
+            "text": "Mukan Kağan"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "I. Göktürk Devleti'ni kuran Bumin Kağan'dan sonra devlet Mukan Kağan döneminde en geniş sınırlarına ulaştı. İlteriş Kutluk Kağan 682'de II. Göktürk Devleti'ni kurdu, Bilge Kağan ise bu devletin en güçlü hükümdarı oldu."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Uygur tarihindeki gelişmeleri eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Manihaizm'in devletin resmî inancı olarak benimsenmesi"
+          },
+          {
+            "id": "2",
+            "text": "Kırgızların Uygur Devleti'ne son vermesi"
+          },
+          {
+            "id": "3",
+            "text": "Uygurların Basmil ve Karluklarla birlikte II. Göktürk Devleti'ne son vermesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "Uygurlar 744'te II. Göktürk Devleti'ne son verdi, 762'de Manihaizm'i benimsedi, 840'ta ise Kırgızlar tarafından yıkıldı."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türklerin Anadolu'ya yerleşme sürecindeki olayları eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Malazgirt Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Çağrı Bey'in Anadolu'ya keşif seferi yapması"
+          },
+          {
+            "id": "3",
+            "text": "Anadolu Selçuklu Devleti'nin kurulması"
+          },
+          {
+            "id": "4",
+            "text": "Pasinler Savaşı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Çağrı Bey'in 1015-1021 arasındaki keşif seferini 1048 Pasinler Savaşı, 1071 Malazgirt Savaşı ve 1077'de Anadolu Selçuklu Devleti'nin kuruluşu izlemiştir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türklerin İslamlaşma sürecindeki gelişmeleri eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Gazneli Devleti'nin kurulması"
+          },
+          {
+            "id": "2",
+            "text": "Talas Savaşı'nın yapılması"
+          },
+          {
+            "id": "3",
+            "text": "Satuk Buğra Han'ın İslamiyet'i kabul etmesi"
+          },
+          {
+            "id": "4",
+            "text": "Karahanlı Devleti'nin kurulması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "751 Talas Savaşı Türk-Arap yakınlaşmasını başlattı. 840'ta kurulan Karahanlı Devleti'nde Satuk Buğra Han 10. yüzyılda İslamiyet'i kabul etti, Gazneliler ise 963'te kuruldu."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Devletleri kuruluş tarihlerine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hazar Kağanlığı"
+          },
+          {
+            "id": "2",
+            "text": "Avar Devleti"
+          },
+          {
+            "id": "3",
+            "text": "Kırgız Devleti"
+          },
+          {
+            "id": "4",
+            "text": "Türgiş Devleti"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Avarlar 6. yüzyılda, Hazarlar 7. yüzyılda, Türgişler 7. yüzyılın sonlarında kurulmuştur. Kırgızlar ise 840'ta Uygur Devleti'ne son vererek devletlerini kurmuştur."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Büyük Selçuklu tarihindeki olayları eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Malazgirt Savaşı'nın kazanılması"
+          },
+          {
+            "id": "2",
+            "text": "Dandanakan Savaşı'nın kazanılması"
+          },
+          {
+            "id": "3",
+            "text": "Melikşah'ın tahta çıkması"
+          },
+          {
+            "id": "4",
+            "text": "Tuğrul Bey'in Bağdat'a girerek halifeyi Şii baskısından kurtarması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Dandanakan Savaşı 1040'ta kazanıldı, Tuğrul Bey 1055'te Bağdat'a girdi, Malazgirt Savaşı 1071'de kazanıldı, Melikşah ise 1072'de tahta çıktı."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türklerin tarih boyunca kullandığı alfabeleri kullanılmaya başlandıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Arap alfabesi"
+          },
+          {
+            "id": "2",
+            "text": "Göktürk alfabesi"
+          },
+          {
+            "id": "3",
+            "text": "Latin alfabesi"
+          },
+          {
+            "id": "4",
+            "text": "Uygur alfabesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Türkler sırasıyla Göktürk, Uygur, İslamiyet'in kabulüyle Arap ve 1928'deki Harf İnkılabı'yla Latin alfabesini kullanmıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Devletleri yıkılış tarihlerine göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Uygur Devleti"
+          },
+          {
+            "id": "2",
+            "text": "Asya Hun Devleti"
+          },
+          {
+            "id": "3",
+            "text": "I. Göktürk Devleti"
+          },
+          {
+            "id": "4",
+            "text": "Avrupa Hun Devleti"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Asya Hun Devleti 216'da, Avrupa Hun Devleti 469'da, I. Göktürk Devleti 630'da Çin egemenliğine girerek, Uygur Devleti ise 840'ta Kırgızlar tarafından yıkılmıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "II. Göktürk Devleti'ni Çin egemenliğine son vererek kuran hükümdar Bilge Kağan'dır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. II. Göktürk (Kutluk) Devleti 682 yılında Kutluk (İlteriş) Kağan tarafından kurulmuştur. Bilge Kağan daha sonraki dönemin hükümdarıdır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Asya Hun Devleti, Mete Han'dan sonra Doğu ve Batı Hunları olmak üzere ikiye ayrılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Mete Han'ın ölümünden sonra zayıflayan Asya Hun Devleti MÖ 48'de Doğu ve Batı Hunları olarak ikiye ayrılmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İkili teşkilat, ülkenin doğu ve batı kanatları hâlinde yönetilmesi anlayışıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İkili teşkilatta ülke doğu ve batı olmak üzere iki kanada ayrılır; doğu kanadı daha üstün sayılır ve büyük kağan burada bulunur."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Büyük Selçuklu Devleti'ndeki ikta sistemi, toprağın mülkiyetinin komutanlara devredilmesi esasına dayanır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İkta sisteminde toprağın mülkiyeti devlette kalır; komutan ya da askere yalnızca toprağın vergi geliri hizmeti karşılığında tahsis edilir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Gazneli Mahmut'un Hindistan seferleri, İslamiyet'in bu bölgede yayılmasında etkili olmuştur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Gazneli Mahmut'un Hindistan'a yaptığı seferler bölgede İslamiyet'in yayılmasını sağlamış, kendisi de 'sultan' unvanını kullanan ilk Türk hükümdarı olmuştur."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "II. Göktürk Devleti'nin yeniden kuruluşunda ve güçlenmesinde büyük payı olan, adına Orhun Yazıtlarından biri dikilen vezir {{0}}'tur.",
+        "choices": [
+          "Tonyukuk",
+          "Kül Tigin",
+          "Kapgan Kağan",
+          "İstemi Yabgu"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Tonyukuk"
+        ]
+      },
+      "explanation": "Tonyukuk, Kutluk (İlteriş), Kapgan ve Bilge kağanlara vezirlik yapmış devlet adamıdır; Orhun Yazıtlarının en eskisi onun adına dikilmiştir."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Türk tarihinin bilinen ilk yazılı antlaşması MÖ {{0}} yılında Asya Hunları ile {{1}} arasında yapılmıştır.",
+        "choices": [
+          "318",
+          "375",
+          "220",
+          "Çin",
+          "Sasaniler",
+          "Bizans"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "318",
+          "Çin"
+        ]
+      },
+      "explanation": "MÖ 318'de Hunlar ile Çin arasında yapılan antlaşma, Türk tarihinin bilinen ilk yazılı antlaşması kabul edilir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Her yılın bir hayvan adıyla anıldığı ve Güneş yılı esasına dayanan {{0}} Takvimi, Türklerin kullandığı ilk takvimdir.",
+        "choices": [
+          "12 Hayvanlı Türk",
+          "Hicri",
+          "Rumi",
+          "Celali"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "12 Hayvanlı Türk"
+        ]
+      },
+      "explanation": "12 Hayvanlı Türk Takvimi 12 yıllık bir döngüye dayanır ve her yıl bir hayvanın adıyla anılır; Güneş yılı esaslıdır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Konargöçer Türk boylarının kış aylarında hayvanlarıyla birlikte indikleri alçak ve korunaklı yerleşim alanlarına {{0}} denir.",
+        "choices": [
+          "kışlak",
+          "yaylak",
+          "otağ",
+          "ordu"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kışlak"
+        ]
+      },
+      "explanation": "Yazın yüksek otlaklara (yaylak) çıkan boylar, kışın korunaklı ve ılıman alanlara yani kışlaklara inerdi."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Selçuklular ile Bizans arasındaki ilk büyük savaş olan {{0}} Savaşı {{1}} yılında yapılmıştır.",
+        "choices": [
+          "Pasinler",
+          "Dandanakan",
+          "Miryokefalon",
+          "1048",
+          "1040",
+          "1176"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Pasinler",
+          "1048"
+        ]
+      },
+      "explanation": "1048'deki Pasinler Savaşı, Selçukluların Bizans ile yaptığı ilk büyük savaştır; Dandanakan (1040) Gaznelilere, Miryokefalon (1176) ise Anadolu Selçuklularına aittir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Büyük Selçuklu veziri Nizamülmülk'ün devlet yönetimine dair görüşlerini anlattığı eseri {{0}}'dir.",
+        "choices": [
+          "Siyasetname",
+          "Kutadgu Bilig",
+          "Divan-ı Hikmet",
+          "Atabetü'l-Hakayık"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Siyasetname"
+        ]
+      },
+      "explanation": "Nizamülmülk, Melikşah'a sunduğu Siyasetname'de devlet yönetimi ilkelerini açıklamıştır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Gelişmeyi doğurduğu sonuçla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Avrupa Hunlarının batıya ilerlemesi"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk Devleti'nde iç mücadelelerin artması"
+          },
+          {
+            "id": "3",
+            "text": "Kutluk Kağan'ın Çin'e karşı mücadelesi"
+          },
+          {
+            "id": "4",
+            "text": "Kırgızların Ötüken'e saldırması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Göktürkler Çin egemenliğinden kurtuldu ve devlet yeniden kuruldu"
+          },
+          {
+            "id": "b",
+            "text": "Kavimler Göçü başladı, Avrupa'nın etnik yapısı değişti"
+          },
+          {
+            "id": "c",
+            "text": "Uygur Devleti yıkıldı"
+          },
+          {
+            "id": "d",
+            "text": "Devlet Doğu ve Batı Göktürk olmak üzere ikiye ayrıldı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "375'teki Kavimler Göçü Avrupa'yı, 840'taki Kırgız saldırısı Uygurları, Kutluk Kağan'ın mücadelesi ise Göktürklerin yeniden bağımsızlığını belirlemiştir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türk devlet ve toplum geleneğindeki anlayışı açıklamasıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "İkili teşkilat"
+          },
+          {
+            "id": "2",
+            "text": "Veraset anlayışı"
+          },
+          {
+            "id": "3",
+            "text": "Onluk sistem"
+          },
+          {
+            "id": "4",
+            "text": "Konargöçerlik"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Ordunun onlu birlikler hâlinde örgütlenmesi"
+          },
+          {
+            "id": "b",
+            "text": "Ülkenin doğu ve batı kanatlarından yönetilmesi"
+          },
+          {
+            "id": "c",
+            "text": "Hayvancılığa dayalı, yaylak ile kışlak arasında yer değiştirilen yaşam biçimi"
+          },
+          {
+            "id": "d",
+            "text": "Ülkenin hükümdar ailesinin ortak malı sayılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dört anlayış ilk Türk devletlerinin yönetim, ordu ve ekonomi yapısını birlikte açıklar; veraset anlayışı aynı zamanda taht kavgalarının başlıca sebebidir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Büyük Selçuklu kurumunu işleviyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "İkta"
+          },
+          {
+            "id": "2",
+            "text": "Nizamiye Medresesi"
+          },
+          {
+            "id": "3",
+            "text": "Divan-ı Saltanat"
+          },
+          {
+            "id": "4",
+            "text": "Atabey"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Devlet işlerinin görüşüldüğü en yetkili divan"
+          },
+          {
+            "id": "b",
+            "text": "Hizmet karşılığında toprağın vergi gelirinin görevliye tahsis edilmesi"
+          },
+          {
+            "id": "c",
+            "text": "Şehzadelerin eğitiminden ve yetiştirilmesinden sorumlu görevli"
+          },
+          {
+            "id": "d",
+            "text": "Devletin ihtiyaç duyduğu memur ve bilgin yetiştiren yüksek öğretim kurumu"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Büyük Selçuklularda toprak düzeni ikta, eğitim Nizamiye Medreseleri, merkezî yönetim Divan-ı Saltanat, şehzade eğitimi ise atabeylik kurumuyla yürütülürdü."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Avrupa"
+          },
+          {
+            "id": "2",
+            "text": "Kavimler"
+          },
+          {
+            "id": "3",
+            "text": "sebebi"
+          },
+          {
+            "id": "4",
+            "text": "Göçü'nün"
+          },
+          {
+            "id": "5",
+            "text": "ilerlemesidir"
+          },
+          {
+            "id": "6",
+            "text": "temel"
+          },
+          {
+            "id": "7",
+            "text": "Hunlarının"
+          },
+          {
+            "id": "8",
+            "text": "batıya"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "6",
+          "3",
+          "1",
+          "7",
+          "8",
+          "5"
+        ]
+      },
+      "explanation": "Kavimler Göçü'nün temel sebebi Avrupa Hunlarının batıya ilerlemesidir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "ortak"
+          },
+          {
+            "id": "2",
+            "text": "İlk"
+          },
+          {
+            "id": "3",
+            "text": "hanedanın"
+          },
+          {
+            "id": "4",
+            "text": "Türk"
+          },
+          {
+            "id": "5",
+            "text": "sayılırdı"
+          },
+          {
+            "id": "6",
+            "text": "devletlerinde"
+          },
+          {
+            "id": "7",
+            "text": "malı"
+          },
+          {
+            "id": "8",
+            "text": "ülke"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "6",
+          "8",
+          "3",
+          "1",
+          "7",
+          "5"
+        ]
+      },
+      "explanation": "İlk Türk devletlerinde ülke hanedanın ortak malı sayılırdı; bu anlayış sık sık taht kavgalarına yol açmıştır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "alfabe"
+          },
+          {
+            "id": "2",
+            "text": "Türklerin"
+          },
+          {
+            "id": "3",
+            "text": "alfabesidir"
+          },
+          {
+            "id": "4",
+            "text": "ilk"
+          },
+          {
+            "id": "5",
+            "text": "kullandığı"
+          },
+          {
+            "id": "6",
+            "text": "Göktürk"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Türklerin kullandığı ilk alfabe Göktürk alfabesidir; 38 harften oluşur."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "sonucu"
+          },
+          {
+            "id": "2",
+            "text": "Malazgirt"
+          },
+          {
+            "id": "3",
+            "text": "açılmasıdır"
+          },
+          {
+            "id": "4",
+            "text": "en"
+          },
+          {
+            "id": "5",
+            "text": "Savaşı'nın"
+          },
+          {
+            "id": "6",
+            "text": "Anadolu'nun"
+          },
+          {
+            "id": "7",
+            "text": "önemli"
+          },
+          {
+            "id": "8",
+            "text": "Türklere"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "7",
+          "1",
+          "6",
+          "8",
+          "3"
+        ]
+      },
+      "explanation": "Malazgirt Savaşı'nın en önemli sonucu Anadolu'nun Türklere açılmasıdır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Kaşgarlı"
+          },
+          {
+            "id": "2",
+            "text": "sözlüğü"
+          },
+          {
+            "id": "3",
+            "text": "Türkçenin"
+          },
+          {
+            "id": "4",
+            "text": "Divanü Lügati't-Türk'tür"
+          },
+          {
+            "id": "5",
+            "text": "bilinen"
+          },
+          {
+            "id": "6",
+            "text": "yazdığı"
+          },
+          {
+            "id": "7",
+            "text": "ilk"
+          },
+          {
+            "id": "8",
+            "text": "Mahmud'un"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "7",
+          "2",
+          "1",
+          "8",
+          "6",
+          "4"
+        ]
+      },
+      "explanation": "Türkçenin bilinen ilk sözlüğü Kaşgarlı Mahmud'un yazdığı Divanü Lügati't-Türk'tür."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Göktürklerin ve Uygurların kutsal saydığı yönetim merkezini işaretle.",
+        "image": "maps/orta-asya-turk-devletleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Ötüken"
+          },
+          {
+            "id": "2",
+            "text": "Talas"
+          },
+          {
+            "id": "3",
+            "text": "Semerkant"
+          },
+          {
+            "id": "4",
+            "text": "Buhara"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Orhun Irmağı çevresindeki Ötüken, Türk devletlerinde kutsal sayılan ve kağanın bulunduğu yönetim merkeziydi."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "751 yılında Müslüman Araplar ile Çinliler arasında yapılan savaşın gerçekleştiği yeri işaretle.",
+        "image": "maps/turklerin-islamiyete-gecisi.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Pasinler"
+          },
+          {
+            "id": "2",
+            "text": "Talas"
+          },
+          {
+            "id": "3",
+            "text": "Malazgirt"
+          },
+          {
+            "id": "4",
+            "text": "Dandanakan"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "751'deki Talas Savaşı'nda Karlukların Müslümanların yanında yer almasıyla Çin ilerleyişi durmuş, Türk-Arap yakınlaşması başlamıştır."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Selçukluların Gaznelileri yenerek devletlerinin kuruluşunu kesinleştirdiği savaşın yapıldığı yeri işaretle.",
+        "image": "maps/buyuk-selcuklu-savaslari.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Dandanakan"
+          },
+          {
+            "id": "2",
+            "text": "Katvan"
+          },
+          {
+            "id": "3",
+            "text": "Pasinler"
+          },
+          {
+            "id": "4",
+            "text": "Malazgirt"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "1040'taki Dandanakan Savaşı Horasan'da yapılmış ve Büyük Selçuklu Devleti'nin kuruluşunu kesinleştirmiştir."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Orhun Yazıtlarının dikildiği bölgeyi işaretle.",
+        "image": "maps/turk-kultur-merkezleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Yenisey boyları"
+          },
+          {
+            "id": "2",
+            "text": "İdil (Volga) boyları"
+          },
+          {
+            "id": "3",
+            "text": "Orhun Vadisi"
+          },
+          {
+            "id": "4",
+            "text": "Talas Vadisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Orhun Yazıtları, Moğolistan'daki Orhun Irmağı vadisinde II. Göktürk Devleti döneminde dikilmiştir; Yenisey boylarındaki yazıtlar ise daha eski Kırgız yazıtlarıdır."
+    },
+    {
+      "topic": "ilk_turk_devletleri",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her olayı gerçekleştiği yüzyılla etiketle.",
+        "image": "diagrams/ilk-turk-devletleri-zaman-serisi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Kavimler Göçü"
+          },
+          {
+            "id": "2",
+            "text": "I. Göktürk Devleti'nin kuruluşu"
+          },
+          {
+            "id": "3",
+            "text": "Uygur Devleti'nin yıkılışı"
+          }
+        ],
+        "labels": [
+          "4. yüzyıl",
+          "6. yüzyıl",
+          "9. yüzyıl",
+          "11. yüzyıl"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "4. yüzyıl",
+          "2": "6. yüzyıl",
+          "3": "9. yüzyıl"
+        }
+      },
+      "explanation": "Kavimler Göçü 375 (4. yüzyıl), I. Göktürk Devleti'nin kuruluşu 552 (6. yüzyıl), Uygur Devleti'nin yıkılışı ise 840 (9. yüzyıl) yılındadır."
+    },
+    {
+      "topic": "turk_kultur_ve_medeniyeti",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru kültür öğesiyle etiketle.",
+        "image": "diagrams/turk-yazi-kulturu.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Türk adının geçtiği ilk Türkçe yazılı belge"
+          },
+          {
+            "id": "2",
+            "text": "Türklerin kullandığı ilk alfabe"
+          },
+          {
+            "id": "3",
+            "text": "Uygurların yerleşik hayata geçtikten sonra oluşturduğu yazı"
+          }
+        ],
+        "labels": [
+          "Orhun Yazıtları",
+          "Göktürk alfabesi",
+          "Uygur alfabesi",
+          "Yenisey Yazıtları"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Orhun Yazıtları",
+          "2": "Göktürk alfabesi",
+          "3": "Uygur alfabesi"
+        }
+      },
+      "explanation": "Orhun Yazıtları Göktürk alfabesiyle yazılmıştır; Uygurlar ise yerleşik hayatın etkisiyle kendi alfabelerini oluşturmuştur. Yenisey Yazıtları Kırgızlara aittir."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her görevi doğru Büyük Selçuklu divanıyla etiketle.",
+        "image": "diagrams/buyuk-selcuklu-divanlari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Malî işleri ve hazine hesaplarını yürütme"
+          },
+          {
+            "id": "2",
+            "text": "Ordunun ihtiyaçlarını ve askerî kayıtları düzenleme"
+          },
+          {
+            "id": "3",
+            "text": "Devletin yazışmalarını ve fermanları hazırlama"
+          }
+        ],
+        "labels": [
+          "Divan-ı İstifa",
+          "Divan-ı Arz",
+          "Divan-ı İnşa",
+          "Divan-ı İşraf"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Divan-ı İstifa",
+          "2": "Divan-ı Arz",
+          "3": "Divan-ı İnşa"
+        }
+      },
+      "explanation": "Büyük Selçuklularda malî işler Divan-ı İstifa, askerî işler Divan-ı Arz, yazışmalar Divan-ı İnşa tarafından yürütülürdü; Divan-ı İşraf ise devlet işlerini denetlerdi."
+    },
+    {
+      "topic": "turklerin_islamiyete_gecisi",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her savaşı Selçukluların karşısında yer alan taraf ile etiketle.",
+        "image": "diagrams/selcuklu-savaslari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Dandanakan Savaşı"
+          },
+          {
+            "id": "2",
+            "text": "Malazgirt Savaşı"
+          },
+          {
+            "id": "3",
+            "text": "Katvan Savaşı"
+          }
+        ],
+        "labels": [
+          "Gazneliler",
+          "Bizans",
+          "Karahitaylar",
+          "Abbasiler"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Gazneliler",
+          "2": "Bizans",
+          "3": "Karahitaylar"
+        }
+      },
+      "explanation": "Selçuklular 1040'ta Gaznelileri, 1071'de Bizans'ı yenmiş; 1141 Katvan Savaşı'nda ise Karahitaylara yenilerek zayıflamıştır."
     }
   ]
 }

@@ -732,6 +732,1806 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
       "explanation": "Tabanlar eşit, yükseklik ortaktır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgenin iki iç açısı birlikte dik açı olabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İki açı 90° + 90° = 180° ederdi ve üçüncü açıya 0° kalırdı; böyle bir üçgen çizilemez."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Doğru açının ölçüsü 180°'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bir doğru üzerindeki iki ışının oluşturduğu açı 180°'dir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgenin dış açısı ile ona komşu iç açının ölçüleri toplamı 180°'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Dış açı ile komşu iç açı bütünler açılardır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "İç açılarından ikisi 60° ve 70° olan bir üçgen geniş açılı üçgendir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Üçüncü açı 180 − (60 + 70) = 50° olur; üç açı da 90°'den küçük olduğu için üçgen dar açılıdır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Dik üçgende hipotenüs, dik kenarların her birinden daha uzundur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hipotenüs en büyük açı olan 90°'nin karşısındadır, bu yüzden en uzun kenardır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Kenar uzunlukları 5, 6 ve 7 br olan üçgen bir dik üçgendir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 5² + 6² = 25 + 36 = 61, ancak 7² = 49. Pisagor eşitliği sağlanmadığı için üçgen dik değildir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Eşkenar üçgenin her bir iç açısının ölçüsü 60°'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Üç açı da eşit olduğundan 180 / 3 = 60°."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "İkizkenar dik üçgenin dar açılarının ölçüsü 45°'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Dik açı dışında kalan 90°, eşit iki açıya bölünür: 90 / 2 = 45°."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgenin iki kenarı eşitse bu kenarların karşısındaki açılar da eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İkizkenar üçgende eşit kenarların karşısındaki açılar (taban açıları) eşittir."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Üçgenin alanı, taban uzunluğu ile o tabana ait yüksekliğin çarpımına eşittir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bu çarpımın YARISI alana eşittir: Alan = (taban × yükseklik) / 2."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Tabanı 8 br, bu tabana ait yüksekliği 5 br olan üçgenin alanı 20 br²'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. (8 × 5) / 2 = 40 / 2 = 20 br²."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgenin bütün yükseklikleri üçgenin iç bölgesinde kalır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Geniş açılı üçgende kısa kenarlara ait yükseklikler üçgenin dışında kalır; ayak, kenarın uzantısı üzerindedir."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Yüksekliği sabit tutulup tabanı iki katına çıkarılan bir üçgenin alanı da iki katına çıkar."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Alan = (taban × yükseklik) / 2 olduğundan yükseklik sabitken alan tabanla doğru orantılıdır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Benzer iki üçgende karşılıklı kenar uzunlukları birbirine eşittir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Benzer üçgenlerde karşılıklı kenarlar eşit değil ORANTILIDIR; eşitlik yalnızca eş üçgenlerde görülür."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Benzerlik oranı 3 olan iki üçgenin çevrelerinin oranı da 3'tür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Çevre, kenarların toplamı olduğu için benzerlik oranıyla aynı oranda büyür. Alan ise 3² = 9 kat olur."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bütün ikizkenar üçgenler birbirine benzerdir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Tepe açısı farklı olan iki ikizkenar üçgenin açıları eşit olmaz. Ancak bütün eşkenar üçgenler birbirine benzerdir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Ölçüsü 90° olan bir açı geniş açıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Ölçüsü tam 90° olan açıya dik açı denir; geniş açının ölçüsü 90°'den büyüktür."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgende iki iç açı aynı anda geniş açı olabilir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İki geniş açının toplamı 180°'yi aşar; iç açılar toplamı 180° olduğu için mümkün değildir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "İki doğru kesiştiğinde oluşan ters açıların ölçüleri birbirine eşittir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Ters açıların her ikisi de aynı açının bütünleri olduğundan ölçüleri eşittir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Paralel iki doğru bir kesenle kesildiğinde oluşan iç ters açılar bütünler açılardır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İç ters açıların ölçüleri birbirine eşittir; bütünler olanlar karşı durumlu açılardır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Eşkenar üçgenin her yüksekliği aynı zamanda kenarortaydır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Eşkenar üçgende yükseklik, kenarortay ve açıortay her köşe için aynı doğru parçasıdır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "30°-60°-90° üçgeninde 30°'nin karşısındaki kenar en uzun kenardır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. 30° en küçük açı olduğundan karşısındaki kenar en kısadır; en uzun kenar hipotenüstür."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Eşkenar üçgenin yüksekliği, bir kenar uzunluğunun yarısına eşittir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Kenarı a olan eşkenar üçgende yükseklik a√3 / 2'dir; a / 2 ise yüksekliğin tabanda ayırdığı parçanın uzunluğudur."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "İkizkenar üçgende tepe açısının açıortayı, aynı zamanda tabanın kenarortayıdır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. İkizkenar üçgende tepeden inen açıortay, kenarortay ve yükseklik aynı doğru parçasıdır."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgende üç kenarın her biri taban kabul edilerek hesaplanan alanlar birbirine eşittir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Üçgenin alanı tektir; hangi kenar taban alınırsa o kenara ait yükseklik kullanılır ve sonuç değişmez."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bütün kenar uzunlukları iki katına çıkarılan bir üçgenin alanı da iki katına çıkar."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Benzerlik oranı 2 olduğunda alanların oranı 2² = 4 olur; alan dört katına çıkar."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Aynı taban üzerinde duran ve tepe noktaları tabana paralel aynı doğru üzerinde bulunan üçgenlerin alanları eşittir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Taban ortaktır ve paralellik nedeniyle yükseklikler de eşittir."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir dik üçgenin alanı, hipotenüs ile bir dik kenarın çarpımının yarısına eşittir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Dik üçgende alan, iki dik kenarın çarpımının yarısıdır; dik kenarlardan biri taban, diğeri yüksekliktir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "İki eşkenar üçgen her zaman birbirine benzerdir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Her ikisinin de iç açıları 60° olduğundan A.A. kuralı gereği benzerdir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Benzer iki üçgenin alanları her zaman birbirine eşittir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Alanlar ancak benzerlik oranı 1 olduğunda, yani üçgenler eş olduğunda eşittir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgende bir kenara paralel çizilen doğru, diğer iki kenarı orantılı parçalara ayırır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Bu, Thales teoreminin üçgendeki ifadesidir ve benzerlik sorularının temelidir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "statement": "Bir üçgende orta tabanın ayırdığı küçük üçgenin alanı, büyük üçgenin alanının yarısıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Orta taban üçgeni ile büyük üçgenin benzerlik oranı 1/2 olduğundan alan oranı 1/4'tür."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Ölçüsü 90°'den küçük olan açılara {{0}} açı denir.",
+        "choices": ["dar", "geniş", "dik", "doğru"]
+      },
+      "answer_key": {
+        "blanks": ["dar"]
+      },
+      "explanation": "Dar açı 0° ile 90° arasındadır; 90° dik, 90°-180° arası geniş, 180° doğru açıdır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "İki paralel doğru bir kesenle kesildiğinde oluşan yöndeş açıların ölçüleri {{0}}.",
+        "choices": ["eşittir", "bütünlerdir", "tümlerdir", "toplamı 90°'dir"]
+      },
+      "answer_key": {
+        "blanks": ["eşittir"]
+      },
+      "explanation": "Paralellik durumunda yöndeş, ters ve iç ters açılar eşit; iç yan açılar bütünlerdir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Ölçüleri toplamı 90° olan iki açıya {{0}}, ölçüleri toplamı 180° olan iki açıya {{1}} açılar denir.",
+        "choices": ["tümler", "bütünler", "ters", "komşu", "yöndeş"]
+      },
+      "answer_key": {
+        "blanks": ["tümler", "bütünler"]
+      },
+      "explanation": "Tümler 90°, bütünler 180° eder. Dik üçgenin dar açıları birbirinin tümleridir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir üçgenin iç açılarından biri 90°, diğeri 25° ise üçüncü açı {{0}} derecedir.",
+        "choices": ["65", "75", "55", "115"]
+      },
+      "answer_key": {
+        "blanks": ["65"]
+      },
+      "explanation": "180 − (90 + 25) = 65. Dik üçgende dar açılar birbirinin tümleridir: 90 − 25 = 65."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Üç kenarının uzunluğu da birbirine eşit olan üçgene {{0}} üçgen denir.",
+        "choices": ["eşkenar", "ikizkenar", "dik", "çeşitkenar"]
+      },
+      "answer_key": {
+        "blanks": ["eşkenar"]
+      },
+      "explanation": "İkizkenar üçgende iki kenar, çeşitkenar üçgende hiçbir kenar eşit değildir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "30°-60°-90° üçgeninde 60°'nin karşısındaki kenar, hipotenüsün {{0}} katıdır.",
+        "choices": ["√3/2", "1/2", "√2/2", "2/√3"]
+      },
+      "answer_key": {
+        "blanks": ["√3/2"]
+      },
+      "explanation": "Kenarlar a, a√3, 2a oranındadır. 60°'nin karşısı a√3, hipotenüs 2a olduğundan oran a√3 / 2a = √3/2."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Kenar uzunlukları 8, 15 ve 17 br olan üçgen bir {{0}} üçgendir.",
+        "choices": ["dik", "geniş açılı", "dar açılı", "eşkenar"]
+      },
+      "answer_key": {
+        "blanks": ["dik"]
+      },
+      "explanation": "8² + 15² = 64 + 225 = 289 = 17². 8-15-17 bir Pisagor üçlüsüdür."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Dik kenarları 6 ve 8 br olan dik üçgende hipotenüs {{0}} br, hipotenüse ait kenarortay {{1}} br'dir.",
+        "choices": ["10", "5", "14", "7", "12", "6"]
+      },
+      "answer_key": {
+        "blanks": ["10", "5"]
+      },
+      "explanation": "Pisagor: 6² + 8² = 100, hipotenüs 10. Hipotenüse ait kenarortay hipotenüsün yarısıdır: 10 / 2 = 5."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir üçgenin alanını hesaplamak için taban uzunluğu ve o tabana ait {{0}} bilinmelidir.",
+        "choices": ["yükseklik", "kenarortay", "açıortay", "orta taban"]
+      },
+      "answer_key": {
+        "blanks": ["yükseklik"]
+      },
+      "explanation": "Alan = (taban × yükseklik) / 2. Kenarortay ve açıortay tek başına alanı vermez."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Alanı 24 br², tabanı 8 br olan bir üçgenin bu tabana ait yüksekliği {{0}} br'dir.",
+        "choices": ["6", "3", "12", "4"]
+      },
+      "answer_key": {
+        "blanks": ["6"]
+      },
+      "explanation": "24 = (8 × h) / 2 → 48 = 8h → h = 6."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Dik kenarları 7 ve 10 br olan dik üçgenin alanı {{0}} br²'dir.",
+        "choices": ["35", "70", "17", "24"]
+      },
+      "answer_key": {
+        "blanks": ["35"]
+      },
+      "explanation": "Dik üçgende alan = dik kenarların çarpımı / 2 = (7 × 10) / 2 = 35."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir üçgenin üç kenarortayı birlikte çizildiğinde üçgen, alanları birbirine eşit {{0}} küçük üçgene ayrılır.",
+        "choices": ["6", "3", "4", "2"]
+      },
+      "answer_key": {
+        "blanks": ["6"]
+      },
+      "explanation": "Üç kenarortay ağırlık merkezinde kesişir ve üçgeni alanları eşit 6 parçaya böler; her biri toplam alanın 1/6'sıdır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Benzer üçgenlerde karşılıklı açıların ölçüleri {{0}}.",
+        "choices": ["eşittir", "orantılıdır", "bütünlerdir", "tümlerdir"]
+      },
+      "answer_key": {
+        "blanks": ["eşittir"]
+      },
+      "explanation": "Benzerlikte açılar EŞİT, kenarlar ORANTILIDIR. Bu ayrım karıştırılmamalıdır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir üçgenin iki kenarının orta noktalarını birleştiren orta taban, üçüncü kenara paralel ve onun {{0}} uzunluğundadır.",
+        "choices": ["yarısı", "iki katı", "üçte biri", "eşiti"]
+      },
+      "answer_key": {
+        "blanks": ["yarısı"]
+      },
+      "explanation": "Orta taban, küçük üçgeni büyük üçgene 1/2 oranında benzer yapar; bu yüzden uzunluğu üçüncü kenarın yarısıdır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Paralel doğruların, kestikleri doğruları orantılı parçalara ayırdığını söyleyen teoreme {{0}} teoremi denir.",
+        "choices": ["Thales", "Pisagor", "Öklid", "Kosinüs"]
+      },
+      "answer_key": {
+        "blanks": ["Thales"]
+      },
+      "explanation": "Thales teoremi benzerlik sorularının temelidir; Pisagor ve Öklid ise dik üçgene özeldir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Benzerlik oranı 5/2 olan iki üçgenin alanlarının oranı {{0}}'tir.",
+        "choices": ["25/4", "5/2", "125/8", "4/25"]
+      },
+      "answer_key": {
+        "blanks": ["25/4"]
+      },
+      "explanation": "Alan oranı benzerlik oranının karesidir: (5/2)² = 25/4."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Ölçüsü 90°'den büyük, 180°'den küçük olan açıya {{0}} açı denir.",
+        "choices": ["geniş", "dar", "dik", "doğru"]
+      },
+      "answer_key": { "blanks": ["geniş"] },
+      "explanation": "Dar açı 90°'den küçük, dik açı tam 90°, doğru açı ise 180°'dir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Ölçüleri toplamı 90° olan iki açıya {{0}} açılar denir.",
+        "choices": ["tümler", "bütünler", "ters", "yöndeş"]
+      },
+      "answer_key": { "blanks": ["tümler"] },
+      "explanation": "Ölçüleri toplamı 180° olan açı çiftine ise bütünler açılar denir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Paralel iki doğru bir kesenle kesildiğinde yöndeş açıların ölçüleri birbirine {{0}}.",
+        "choices": ["eşittir", "bütünlerdir", "tümlerdir", "orantılıdır"]
+      },
+      "answer_key": { "blanks": ["eşittir"] },
+      "explanation": "Yöndeş ve iç ters açıların ölçüleri eşittir; karşı durumlu açılar ise bütünlerdir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Kenar uzunlukları 4 cm ve 7 cm olan bir üçgende üçüncü kenarın uzunluğu {{0}} cm'den büyük, {{1}} cm'den küçük olmalıdır.",
+        "choices": ["3", "11", "2", "4", "7", "28"]
+      },
+      "answer_key": { "blanks": ["3", "11"] },
+      "explanation": "Üçgen eşitsizliği: 7 − 4 < a < 7 + 4, yani 3 < a < 11."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Üç kenarının uzunluğu da birbirine eşit olan üçgene {{0}} üçgen denir.",
+        "choices": ["eşkenar", "ikizkenar", "çeşitkenar", "dik"]
+      },
+      "answer_key": { "blanks": ["eşkenar"] },
+      "explanation": "İkizkenar üçgende iki kenar, çeşitkenar üçgende ise hiçbir kenar eşit uzunlukta değildir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "30°-60°-90° üçgeninde 60°'nin karşısındaki kenar, 30°'nin karşısındaki kenarın {{0}} katıdır.",
+        "choices": ["√3", "√2", "2", "3"]
+      },
+      "answer_key": { "blanks": ["√3"] },
+      "explanation": "Kenarlar a, a√3, 2a oranındadır; a√3 / a = √3."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "İkizkenar üçgende eşit uzunluktaki kenarların karşısında bulunan açılara {{0}} açıları denir.",
+        "choices": ["taban", "tepe", "dış", "tümler"]
+      },
+      "answer_key": { "blanks": ["taban"] },
+      "explanation": "Taban açılarının ölçüleri birbirine eşittir; üçüncü açı tepe açısıdır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir dik üçgende dik kenarlardan biri 6 cm, hipotenüs 10 cm ise diğer dik kenar {{0}} cm ve üçgenin alanı {{1}} cm²'dir.",
+        "choices": ["8", "24", "4", "16", "30", "48"]
+      },
+      "answer_key": { "blanks": ["8", "24"] },
+      "explanation": "10² − 6² = 64 olduğundan diğer dik kenar 8 cm'dir. Alan = (6 × 8) / 2 = 24 cm²."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Taban uzunluğu 14 cm, bu tabana ait yüksekliği 6 cm olan üçgenin alanı {{0}} cm²'dir.",
+        "choices": ["42", "84", "20", "21"]
+      },
+      "answer_key": { "blanks": ["42"] },
+      "explanation": "Alan = (14 × 6) / 2 = 42 cm². 84 cm², ikiye bölmeyi atlayınca çıkar."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Kenarortayların kesim noktası olan {{0}}, üçgeni alanları birbirine eşit altı üçgene ayırır.",
+        "choices": ["ağırlık merkezi", "diklik merkezi", "iç merkez", "çevrel merkez"]
+      },
+      "answer_key": { "blanks": ["ağırlık merkezi"] },
+      "explanation": "Ağırlık merkezi her kenarortayı köşeden itibaren 2/1 oranında böler."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir üçgenin alanı, çevresinin yarısı ile iç teğet çemberin yarıçapının {{0}} eşittir.",
+        "choices": ["çarpımına", "toplamına", "farkına", "oranına"]
+      },
+      "answer_key": { "blanks": ["çarpımına"] },
+      "explanation": "Alan = u · r; burada u çevrenin yarısı, r iç teğet çemberin yarıçapıdır."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Dik kenarları 9 cm ve 40 cm olan bir dik üçgenin hipotenüsü {{0}} cm, alanı {{1}} cm²'dir.",
+        "choices": ["41", "180", "49", "90", "360", "1681"]
+      },
+      "answer_key": { "blanks": ["41", "180"] },
+      "explanation": "9² + 40² = 81 + 1.600 = 1.681 = 41². Alan = (9 × 40) / 2 = 180 cm²."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Karşılıklı açılarının ölçüleri eşit ve karşılıklı kenar uzunlukları orantılı olan üçgenlere {{0}} üçgenler denir.",
+        "choices": ["benzer", "eş", "dik", "çeşitkenar"]
+      },
+      "answer_key": { "blanks": ["benzer"] },
+      "explanation": "Kenarlar orantılı olmak yerine eşit uzunlukta olursa üçgenler eş olur."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Benzer iki üçgenin çevrelerinin oranı, benzerlik oranının {{0}}.",
+        "choices": ["kendisidir", "karesidir", "küpüdür", "tersidir"]
+      },
+      "answer_key": { "blanks": ["kendisidir"] },
+      "explanation": "Çevre bir uzunluk olduğu için orana eşittir; alanlarda ise oranın karesi kullanılır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Benzerlik oranı k olan iki üçgende karşılıklı yüksekliklerin oranı {{0}}'dır.",
+        "choices": ["k", "k²", "k³", "1"]
+      },
+      "answer_key": { "blanks": ["k"] },
+      "explanation": "Yükseklik, kenarortay ve açıortay gibi bütün doğrusal elemanların oranı benzerlik oranına eşittir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Benzerlik oranı 3/5 olan iki üçgenin çevrelerinin oranı {{0}}, alanlarının oranı ise {{1}} olur.",
+        "choices": ["3/5", "9/25", "5/3", "25/9", "27/125", "6/10"]
+      },
+      "answer_key": { "blanks": ["3/5", "9/25"] },
+      "explanation": "Çevrelerin oranı benzerlik oranına, alanların oranı ise bu oranın karesine eşittir: (3/5)² = 9/25."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Açı çiftini tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Tümler açılar" },
+          { "id": "2", "text": "Bütünler açılar" },
+          { "id": "3", "text": "Ters açılar" },
+          { "id": "4", "text": "Komşu açılar" }
+        ],
+        "right": [
+          { "id": "a", "text": "Ölçüleri toplamı 180° olan iki açı" },
+          { "id": "b", "text": "Bir kenarı ve köşesi ortak olan iki açı" },
+          { "id": "c", "text": "Ölçüleri toplamı 90° olan iki açı" },
+          { "id": "d", "text": "Kesişen iki doğruda karşı karşıya duran, ölçüleri eşit iki açı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Tümlerde 90°, bütünlerde 180° toplamı aranır; ters açılarda toplam değil eşitlik vardır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Üçgen türünü kendisini tanımlayan koşulla birleştir.",
+        "left": [
+          { "id": "1", "text": "Dik üçgen" },
+          { "id": "2", "text": "Geniş açılı üçgen" },
+          { "id": "3", "text": "Dar açılı üçgen" },
+          { "id": "4", "text": "İkizkenar üçgen" }
+        ],
+        "right": [
+          { "id": "a", "text": "İç açılarından birinin ölçüsü 90°'den büyüktür" },
+          { "id": "b", "text": "Üç iç açısının ölçüsü de 90°'den küçüktür" },
+          { "id": "c", "text": "İç açılarından birinin ölçüsü tam 90°'dir" },
+          { "id": "d", "text": "İki kenarının uzunluğu birbirine eşittir" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "b", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Dik ve geniş açılı üçgenler tek bir açıya göre, dar açılı üçgen ise üç açısının tamamına göre tanımlanır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Yardımcı elemanların kesim noktasını adıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Kenarortayların kesim noktası" },
+          { "id": "2", "text": "Yüksekliklerin kesim noktası" },
+          { "id": "3", "text": "İç açıortayların kesim noktası" },
+          { "id": "4", "text": "Kenar orta dikmelerinin kesim noktası" }
+        ],
+        "right": [
+          { "id": "a", "text": "Diklik merkezi" },
+          { "id": "b", "text": "Ağırlık merkezi" },
+          { "id": "c", "text": "Çevrel çemberin merkezi" },
+          { "id": "d", "text": "İç teğet çemberin merkezi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Ağırlık merkezi kenarortayları 2/1 oranında böler; orta dikmelerin kesim noktası üç köşeye de eşit uzaklıktadır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Pisagor üçlüsünde eksik olan hipotenüs uzunluğunu bulup eşleştir.",
+        "left": [
+          { "id": "1", "text": "3 - 4 - ?" },
+          { "id": "2", "text": "5 - 12 - ?" },
+          { "id": "3", "text": "8 - 15 - ?" },
+          { "id": "4", "text": "7 - 24 - ?" }
+        ],
+        "right": [
+          { "id": "a", "text": "13" },
+          { "id": "b", "text": "25" },
+          { "id": "c", "text": "5" },
+          { "id": "d", "text": "17" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "8² + 15² = 289 = 17², 7² + 24² = 625 = 25². Bu üçlüler ezberlenirse hesap gerekmez."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Dik üçgendeki büyüklüğü karşılığıyla birleştir. (a, b: dik kenarlar; c: hipotenüs; p, k: hipotenüse ait yüksekliğin hipotenüste ayırdığı parçalar)",
+        "left": [
+          { "id": "1", "text": "Hipotenüse ait yüksekliğin karesi" },
+          { "id": "2", "text": "Bir dik kenarın karesi" },
+          { "id": "3", "text": "Hipotenüse ait kenarortayın uzunluğu" },
+          { "id": "4", "text": "Dik üçgenin alanı" }
+        ],
+        "right": [
+          { "id": "a", "text": "c / 2" },
+          { "id": "b", "text": "p · k" },
+          { "id": "c", "text": "a · b / 2" },
+          { "id": "d", "text": "Kendisine komşu hipotenüs parçası ile c'nin çarpımı" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Öklid bağıntıları h² = p · k ve a² = p · c biçimindedir; hipotenüse ait kenarortay çevrel çemberin yarıçapına eşittir."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen üçgeni alanıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Taban 10 cm, bu tabana ait yükseklik 6 cm" },
+          { "id": "2", "text": "Dik kenarları 6 cm ve 7 cm olan dik üçgen" },
+          { "id": "3", "text": "Bir kenarı 4 cm olan eşkenar üçgen" },
+          { "id": "4", "text": "Taban 9 cm, bu tabana ait yükseklik 4 cm" }
+        ],
+        "right": [
+          { "id": "a", "text": "21 cm²" },
+          { "id": "b", "text": "4√3 cm²" },
+          { "id": "c", "text": "18 cm²" },
+          { "id": "d", "text": "30 cm²" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "d", "2": "a", "3": "b", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Dik üçgende dik kenarlardan biri taban, diğeri yüksekliktir: (6 × 7) / 2 = 21 cm²."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen oranı değeriyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Kenarortayın ayırdığı iki üçgenin alanlarının oranı" },
+          { "id": "2", "text": "Ağırlık merkezinin bir kenarortayı köşeden itibaren böldüğü oran" },
+          { "id": "3", "text": "Benzerlik oranı 1/2 olan iki üçgenin alanlarının oranı" },
+          { "id": "4", "text": "Yükseklikleri eşit, tabanları 3 cm ve 5 cm olan iki üçgenin alanlarının oranı" }
+        ],
+        "right": [
+          { "id": "a", "text": "1/4" },
+          { "id": "b", "text": "2/1" },
+          { "id": "c", "text": "3/5" },
+          { "id": "d", "text": "1/1" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "d", "2": "b", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Yükseklik ortak olduğunda alanların oranı tabanların oranına eşittir; benzerlikte ise oranın karesi alınır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Benzer iki üçgende verilen oranı, sorulan oranın değeriyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Kenar oranı 2 ise alanların oranı" },
+          { "id": "2", "text": "Alanların oranı 9 ise kenar oranı" },
+          { "id": "3", "text": "Çevrelerin oranı 5 ise kenar oranı" },
+          { "id": "4", "text": "Kenar oranı 7 ise yüksekliklerin oranı" }
+        ],
+        "right": [
+          { "id": "a", "text": "3" },
+          { "id": "b", "text": "7" },
+          { "id": "c", "text": "4" },
+          { "id": "d", "text": "5" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" },
+        "partial_credit": true
+      },
+      "explanation": "Alanların oranı kenar oranının karesidir; çevre ve yükseklik oranları ise kenar oranına eşittir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Teoremi ifadesiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Thales teoremi" },
+          { "id": "2", "text": "Orta taban teoremi" },
+          { "id": "3", "text": "İç açıortay teoremi" },
+          { "id": "4", "text": "Benzerlik oranı" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bir iç açıortay, karşı kenarı komşu kenarlarla orantılı iki parçaya ayırır" },
+          { "id": "b", "text": "İki kenarın orta noktalarını birleştiren doğru parçası, üçüncü kenara paralel ve onun yarısı uzunluğundadır" },
+          { "id": "c", "text": "Paralel doğrular, kestikleri doğruları orantılı parçalara ayırır" },
+          { "id": "d", "text": "Benzer üçgenlerde karşılıklı kenar uzunluklarının birbirine bölümü" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "c", "2": "b", "3": "a", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Thales ve orta taban teoremleri, benzerlik sorularının çoğunda başlangıç noktasıdır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Üçgenleri, verilmeyen üçüncü iç açılarının ölçüsü küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "İki iç açısı 40° ve 60° olan üçgen" },
+          { "id": "2", "text": "İki iç açısı 50° ve 70° olan üçgen" },
+          { "id": "3", "text": "İki iç açısı 30° ve 30° olan üçgen" },
+          { "id": "4", "text": "İki iç açısı 70° ve 80° olan üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["4", "2", "1", "3"] },
+      "explanation": "Üçüncü açı 180°'den diğer ikisinin toplamı çıkarılarak bulunur: 30°, 60°, 80° ve 120°."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Üçgenleri, en büyük iç açılarının ölçüsü küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "İki iç açısı 55° ve 60° olan üçgen" },
+          { "id": "2", "text": "İki iç açısı 20° ve 50° olan üçgen" },
+          { "id": "3", "text": "İki iç açısı 60° ve 60° olan üçgen" },
+          { "id": "4", "text": "İki iç açısı 30° ve 60° olan üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "4", "2"] },
+      "explanation": "Üçüncü açılar sırasıyla 65°, 110°, 60° ve 90° olup her üçgende en büyük iç açı bu üçüncü açıdır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Üçgenleri, komşu olmayan iki iç açısı verilen dış açının ölçüsü küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Komşu olmayan iç açıları 40° ve 35° olan dış açı" },
+          { "id": "2", "text": "Komşu olmayan iç açıları 50° ve 60° olan dış açı" },
+          { "id": "3", "text": "Komşu olmayan iç açıları 25° ve 30° olan dış açı" },
+          { "id": "4", "text": "Komşu olmayan iç açıları 70° ve 65° olan dış açı" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "2", "4"] },
+      "explanation": "Bir dış açı, komşu olmayan iki iç açının toplamına eşittir: 55°, 75°, 110° ve 135°."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "İki iç açısı bilinen bir üçgende üçüncü iç açıyı bulma adımlarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Elde edilen toplamı 180°'den çıkar" },
+          { "id": "2", "text": "Verilen iki iç açının ölçüsünü belirle" },
+          { "id": "3", "text": "Bulunan değeri üçüncü iç açının ölçüsü olarak yaz" },
+          { "id": "4", "text": "Verilen iki açının ölçülerini topla" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Üçgenin iç açıları toplamı 180° olduğundan, bilinen iki açı toplanır ve toplam 180°'den çıkarılır."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Aşağıdaki açıların ölçülerini küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "35°'nin tümleri" },
+          { "id": "2", "text": "35°'nin bütünleri" },
+          { "id": "3", "text": "70°'nin tümleri" },
+          { "id": "4", "text": "100°'nin bütünleri" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "4", "2"] },
+      "explanation": "Tümler açılar toplamı 90°, bütünler açılar toplamı 180°'dir: 20°, 55°, 80° ve 145°."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Dik kenar uzunlukları verilen dik üçgenleri, hipotenüs uzunluğu küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Dik kenarları 6 cm ve 8 cm olan dik üçgen" },
+          { "id": "2", "text": "Dik kenarları 8 cm ve 15 cm olan dik üçgen" },
+          { "id": "3", "text": "Dik kenarları 3 cm ve 4 cm olan dik üçgen" },
+          { "id": "4", "text": "Dik kenarları 5 cm ve 12 cm olan dik üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "4", "2"] },
+      "explanation": "Pisagor bağıntısıyla hipotenüsler 5 cm, 10 cm, 13 cm ve 17 cm bulunur."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Hipotenüsü 20 cm olan 30°-60°-90° üçgeninde aşağıdaki uzunlukları küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "60° karşısındaki kenarın uzunluğu" },
+          { "id": "2", "text": "Hipotenüse ait yükseklik" },
+          { "id": "3", "text": "Hipotenüsün uzunluğu" },
+          { "id": "4", "text": "30° karşısındaki kenarın uzunluğu" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "30° karşısı 10 cm, 60° karşısı 10√3 ≈ 17,3 cm, hipotenüs 20 cm'dir. Yükseklik dik kenarların çarpımının hipotenüse bölümüdür: (10 · 10√3) / 20 = 5√3 ≈ 8,7 cm."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Dik üçgenleri, bilinmeyen dik kenarının uzunluğu küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Hipotenüsü 13 cm, bir dik kenarı 12 cm olan dik üçgen" },
+          { "id": "2", "text": "Hipotenüsü 10 cm, bir dik kenarı 6 cm olan dik üçgen" },
+          { "id": "3", "text": "Hipotenüsü 5 cm, bir dik kenarı 4 cm olan dik üçgen" },
+          { "id": "4", "text": "Hipotenüsü 25 cm, bir dik kenarı 7 cm olan dik üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["3", "1", "2", "4"] },
+      "explanation": "Bilinmeyen dik kenar, hipotenüsün karesinden bilinen dik kenarın karesi çıkarılıp karekök alınarak bulunur: 3 cm, 5 cm, 8 cm ve 24 cm."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "İkizkenar üçgenleri, taban açısının ölçüsü küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Tepe açısı 20° olan ikizkenar üçgen" },
+          { "id": "2", "text": "Tepe açısı 100° olan ikizkenar üçgen" },
+          { "id": "3", "text": "Tepe açısı 60° olan ikizkenar üçgen" },
+          { "id": "4", "text": "Tepe açısı 140° olan ikizkenar üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["4", "2", "3", "1"] },
+      "explanation": "Taban açıları eşit olduğundan her biri (180° - tepe açısı) / 2 olur: 20°, 40°, 60° ve 80°."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Üçgenleri, alanları küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Tabanı 10 cm, bu tabana ait yüksekliği 6 cm olan üçgen" },
+          { "id": "2", "text": "Tabanı 8 cm, bu tabana ait yüksekliği 5 cm olan üçgen" },
+          { "id": "3", "text": "Tabanı 12 cm, bu tabana ait yüksekliği 7 cm olan üçgen" },
+          { "id": "4", "text": "Tabanı 9 cm, bu tabana ait yüksekliği 4 cm olan üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["4", "2", "1", "3"] },
+      "explanation": "Alan, taban ile o tabana ait yüksekliğin çarpımının yarısıdır: 18 cm², 20 cm², 30 cm² ve 42 cm²."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Dik üçgenleri, alanları küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Dik kenarları 7 cm ve 10 cm olan dik üçgen" },
+          { "id": "2", "text": "Dik kenarları 3 cm ve 4 cm olan dik üçgen" },
+          { "id": "3", "text": "Dik kenarları 5 cm ve 12 cm olan dik üçgen" },
+          { "id": "4", "text": "Dik kenarları 6 cm ve 8 cm olan dik üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "3", "1"] },
+      "explanation": "Dik üçgende alan, dik kenarların çarpımının yarısıdır: 6 cm², 24 cm², 30 cm² ve 35 cm²."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Alanı 36 cm² olan üçgenlerde, belirtilen kenara ait yüksekliğin uzunluğunu küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "Bir kenarı 12 cm olan üçgende bu kenara ait yükseklik" },
+          { "id": "2", "text": "Bir kenarı 8 cm olan üçgende bu kenara ait yükseklik" },
+          { "id": "3", "text": "Bir kenarı 6 cm olan üçgende bu kenara ait yükseklik" },
+          { "id": "4", "text": "Bir kenarı 9 cm olan üçgende bu kenara ait yükseklik" }
+        ]
+      },
+      "answer_key": { "order": ["1", "4", "2", "3"] },
+      "explanation": "Alan = (kenar · yükseklik) / 2 olduğundan yükseklik = 72 / kenar olur: 6 cm, 8 cm, 9 cm ve 12 cm. Alan sabitken yükseklik, kenar uzunluğu ile ters orantılıdır."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Üçgenleri, alanları küçükten büyüğe olacak şekilde diz. (√3 ≈ 1,73 alınacaktır.)",
+        "items": [
+          { "id": "1", "text": "Bir kenarı 6 cm olan eşkenar üçgen" },
+          { "id": "2", "text": "Dik kenarları 3 cm ve 4 cm olan dik üçgen" },
+          { "id": "3", "text": "Tabanı 10 cm, bu tabana ait yüksekliği 4 cm olan üçgen" },
+          { "id": "4", "text": "Hipotenüsü 8 cm olan 30°-60°-90° üçgeni" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Alanlar sırasıyla: dik üçgende (3 · 4) / 2 = 6 cm²; 30°-60°-90° üçgeninde dik kenarlar 4 cm ve 4√3 cm olduğundan alan 8√3 ≈ 13,9 cm²; eşkenar üçgende 6² · √3 / 4 = 9√3 ≈ 15,6 cm²; son üçgende (10 · 4) / 2 = 20 cm²."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "İki üçgenin benzerliğinden yararlanarak bilinmeyen bir kenar uzunluğunu bulma adımlarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Kurulan oranı eşitleyip bilinmeyen kenar uzunluğunu çöz" },
+          { "id": "2", "text": "İki üçgende karşılıklı açıların eşit olduğunu göstererek benzerliği kanıtla" },
+          { "id": "3", "text": "Uzunlukları bilinen karşılıklı bir kenar çiftinden benzerlik oranını hesapla" },
+          { "id": "4", "text": "Benzerlik eşlemesine göre hangi kenarın hangi kenarla karşılıklı olduğunu belirle" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "3", "1"] },
+      "explanation": "Önce açı eşitlikleriyle benzerlik gösterilir, sonra karşılıklı kenarlar eşlenir, bilinen kenar çiftinden benzerlik oranı bulunur ve bu oran kullanılarak bilinmeyen kenar hesaplanır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Benzerlik oranı verilen üçgen çiftlerini, alanları oranı küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "Benzerlik oranı 1/3 olan üçgen çifti" },
+          { "id": "2", "text": "Benzerlik oranı 2/3 olan üçgen çifti" },
+          { "id": "3", "text": "Benzerlik oranı 3/4 olan üçgen çifti" },
+          { "id": "4", "text": "Benzerlik oranı 1/2 olan üçgen çifti" }
+        ]
+      },
+      "answer_key": { "order": ["1", "4", "2", "3"] },
+      "explanation": "Benzer üçgenlerde alanlar oranı, benzerlik oranının karesidir: 1/9, 1/4, 4/9 ve 9/16. Ondalık karşılıkları yaklaşık 0,11 < 0,25 < 0,44 < 0,56'dır."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "ABC üçgeninde D noktası [AB] üzerinde, E noktası [AC] üzerinde ve [DE] // [BC] olacak şekilde seçilmiştir. |AD| = 4 cm, |DB| = 2 cm ve |BC| = 9 cm olduğuna göre aşağıdaki uzunlukları küçükten büyüğe diz.",
+        "items": [
+          { "id": "1", "text": "|DE| uzunluğu" },
+          { "id": "2", "text": "|DB| uzunluğu" },
+          { "id": "3", "text": "|BC| uzunluğu" },
+          { "id": "4", "text": "|AD| uzunluğu" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "[DE] // [BC] olduğundan ADE ve ABC üçgenleri benzerdir. |AB| = 4 + 2 = 6 cm olup benzerlik oranı |AD| / |AB| = 4/6 = 2/3'tür. Buna göre |DE| = (2/3) · 9 = 6 cm olur. Sıralama 2 cm < 4 cm < 6 cm < 9 cm'dir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Dik kenarlarının her biri 6 cm olan 45°-45°-90° üçgeninde aşağıdaki uzunlukları küçükten büyüğe diz. (√2 ≈ 1,41 alınacaktır.)",
+        "items": [
+          { "id": "1", "text": "Hipotenüse ait yüksekliğin uzunluğu" },
+          { "id": "2", "text": "Üçgenin çevresi" },
+          { "id": "3", "text": "Hipotenüsün uzunluğu" },
+          { "id": "4", "text": "Bir dik kenarın uzunluğu" }
+        ]
+      },
+      "answer_key": { "order": ["1", "4", "3", "2"] },
+      "explanation": "Hipotenüs 6√2 ≈ 8,5 cm'dir. İkizkenar dik üçgende hipotenüse ait yükseklik hipotenüsün yarısı kadar, yani 3√2 ≈ 4,2 cm'dir. Çevre 6 + 6 + 6√2 ≈ 20,5 cm olur. Sıralama 4,2 < 6 < 8,5 < 20,5'tir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "İki kenarının uzunluğu verilen üçgenleri, üçüncü kenarın alabileceği en büyük tam sayı değeri küçükten büyüğe olacak şekilde diz.",
+        "items": [
+          { "id": "1", "text": "İki kenarı 8 cm ve 9 cm olan üçgen" },
+          { "id": "2", "text": "İki kenarı 5 cm ve 7 cm olan üçgen" },
+          { "id": "3", "text": "İki kenarı 3 cm ve 10 cm olan üçgen" },
+          { "id": "4", "text": "İki kenarı 4 cm ve 6 cm olan üçgen" }
+        ]
+      },
+      "answer_key": { "order": ["4", "2", "3", "1"] },
+      "explanation": "Üçgen eşitsizliğine göre üçüncü kenar, verilen iki kenarın toplamından küçük olmalıdır. En büyük tam sayı değeri toplamın bir eksiğidir: 9 cm, 11 cm, 12 cm ve 16 cm."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": { "statement": "Dik kenarları 9 cm ve 12 cm olan dik üçgende hipotenüse ait yüksekliğin uzunluğu 7,2 cm'dir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Hipotenüs √(81 + 144) = 15 cm'dir. Alan iki yolla yazılırsa 9 · 12 / 2 = 15 · h / 2 olur, buradan h = 108 / 15 = 7,2 cm bulunur."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": { "statement": "Bir kenarı 10 cm, bu kenara ait yüksekliği 6 cm olan üçgenin alanı, bir kenarı 10 cm olan eşkenar üçgenin alanından büyüktür." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İlk üçgenin alanı 10 · 6 / 2 = 30 cm²'dir. Kenarı 10 cm olan eşkenar üçgenin alanı ise 10²√3 / 4 = 25√3 ≈ 43,3 cm²'dir. Yani ilk üçgenin alanı daha küçüktür."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": { "statement": "Bir ABC üçgeninde D ∈ [AB], E ∈ [AC] ve [DE] // [BC] olmak üzere |AD| / |DB| = 2 / 3 ise ADE üçgeninin ABC üçgenine benzerlik oranı 2/5'tir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. |AD| = 2k, |DB| = 3k alınırsa |AB| = 5k olur. Benzerlik oranı |AD| / |AB| = 2k / 5k = 2/5'tir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": { "statement": "Bir üçgende bir dış açının ölçüsü, kendisine komşu olmayan iki iç açının ölçüleri toplamından büyüktür." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Dış açının ölçüsü, komşu olmayan iki iç açının ölçüleri toplamına tam olarak eşittir; büyük değildir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Hipotenüsü 12 cm olan 30°-60°-90° üçgeninin en kısa kenarı {{0}} cm, alanı ise {{1}} cm²'dir.",
+        "choices": ["6", "18√3", "9", "36√3", "12√3", "8"]
+      },
+      "answer_key": { "blanks": ["6", "18√3"] },
+      "explanation": "30°'nin karşısındaki kenar hipotenüsün yarısı, yani 6 cm'dir. 60°'nin karşısındaki kenar 6√3 cm olur. Dik kenarlar bunlar olduğu için alan 6 · 6√3 / 2 = 18√3 cm²'dir."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Çevresi 30 cm, iç teğet çemberinin yarıçapı 4 cm olan bir üçgenin alanı {{0}} cm²'dir.",
+        "choices": ["60", "120", "30", "15"]
+      },
+      "answer_key": { "blanks": ["60"] },
+      "explanation": "Alan = çevrenin yarısı × iç teğet çemberin yarıçapı bağıntısı kullanılır: (30 / 2) · 4 = 15 · 4 = 60 cm²."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Benzer iki üçgenin alanları 18 cm² ve 50 cm² ise bu üçgenlerin benzerlik oranı {{0}}'tir.",
+        "choices": ["3/5", "9/25", "5/3", "18/50"]
+      },
+      "answer_key": { "blanks": ["3/5"] },
+      "explanation": "Alanların oranı benzerlik oranının karesidir: 18/50 = 9/25. Karekök alınırsa benzerlik oranı 3/5 bulunur."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Bir ABC üçgeninde m(B) = 50°, m(C) = 70° ve iç açıortayların kesim noktası I ise m(BIC) = {{0}} derecedir.",
+        "choices": ["120", "110", "130", "90"]
+      },
+      "answer_key": { "blanks": ["120"] },
+      "explanation": "m(A) = 180° − 50° − 70° = 60°'dir. IBC üçgeninde açıortaylardan dolayı açılar 25° ve 35° olur, üçüncü açı 180° − 25° − 35° = 120°'dir. (Genel bağıntı: m(BIC) = 90° + m(A)/2.)"
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "template": "Ağırlık merkezi G olan bir ABC üçgeninin alanı 48 cm² ise GBC üçgeninin alanı {{0}} cm²'dir.",
+        "choices": ["16", "24", "12", "8"]
+      },
+      "answer_key": { "blanks": ["16"] },
+      "explanation": "Ağırlık merkezi, üçgeni köşelere birleştirildiğinde alanları eşit üç üçgene ayırır. Bu nedenle GBC üçgeninin alanı 48 / 3 = 16 cm²'dir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Dik kenarları verilen dik üçgeni, hipotenüse ait yüksekliğinin uzunluğuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Dik kenarları 6 cm ve 8 cm olan dik üçgen" },
+          { "id": "2", "text": "Dik kenarları 3 cm ve 4 cm olan dik üçgen" },
+          { "id": "3", "text": "Dik kenarları 15 cm ve 20 cm olan dik üçgen" },
+          { "id": "4", "text": "Dik kenarları 12 cm ve 16 cm olan dik üçgen" }
+        ],
+        "right": [
+          { "id": "a", "text": "2,4 cm" },
+          { "id": "b", "text": "4,8 cm" },
+          { "id": "c", "text": "9,6 cm" },
+          { "id": "d", "text": "12 cm" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Her üçgende hipotenüs Pisagor ile bulunup alan iki yolla yazılır: h = (dik kenarların çarpımı) / hipotenüs. Sırasıyla 48/10 = 4,8 cm; 12/5 = 2,4 cm; 300/25 = 12 cm; 192/20 = 9,6 cm."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen üçgeni alanıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Hipotenüsü 10 cm olan ikizkenar dik üçgen" },
+          { "id": "2", "text": "Bir kenarı 6 cm olan eşkenar üçgen" },
+          { "id": "3", "text": "Hipotenüsü 8 cm olan 30°-60°-90° üçgeni" },
+          { "id": "4", "text": "Çevresi 36 cm olan eşkenar üçgen" }
+        ],
+        "right": [
+          { "id": "a", "text": "8√3 cm²" },
+          { "id": "b", "text": "25 cm²" },
+          { "id": "c", "text": "36√3 cm²" },
+          { "id": "d", "text": "9√3 cm²" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "İkizkenar dik üçgende dik kenarlar 5√2 cm olur, alan 50/2 = 25 cm²'dir. Kenarı 6 cm eşkenar üçgende 36√3/4 = 9√3 cm². 30°-60°-90° üçgeninde dik kenarlar 4 ve 4√3 cm, alan 8√3 cm². Çevresi 36 cm olan eşkenar üçgenin kenarı 12 cm, alanı 144√3/4 = 36√3 cm²'dir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Bir ABC üçgeninde D ∈ [AB], E ∈ [AC] ve [DE] // [BC] olmak üzere |AD| = 3 cm, |DB| = 5 cm'dir. Verilen oranı değeriyle birleştir.",
+        "left": [
+          { "id": "1", "text": "|AD| / |DB|" },
+          { "id": "2", "text": "|AE| / |AC|" },
+          { "id": "3", "text": "ADE üçgeninin alanı / ABC üçgeninin alanı" },
+          { "id": "4", "text": "DBCE yamuğunun alanı / ABC üçgeninin alanı" }
+        ],
+        "right": [
+          { "id": "a", "text": "9/64" },
+          { "id": "b", "text": "3/5" },
+          { "id": "c", "text": "55/64" },
+          { "id": "d", "text": "3/8" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" }, "partial_credit": true },
+      "explanation": "|AB| = 3 + 5 = 8 cm olduğundan benzerlik oranı 3/8'dir. Thales'ten |AE|/|AC| de 3/8 olur. Alanların oranı benzerlik oranının karesi, yani 9/64'tür. Yamuğun payı ise 1 − 9/64 = 55/64'tür."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen üçgende sorulan açının ölçüsünü hesaplayıp birleştir.",
+        "left": [
+          { "id": "1", "text": "İç açılarından ikisi 40° ve 60° olan üçgenin üçüncü iç açısı" },
+          { "id": "2", "text": "Tepe açısı 40° olan ikizkenar üçgenin bir taban açısı" },
+          { "id": "3", "text": "Bir dar açısı 25° olan dik üçgenin diğer dar açısı" },
+          { "id": "4", "text": "İç açılarından ikisi 50° ve 60° olan üçgende 50°'lik açıya komşu dış açı" }
+        ],
+        "right": [
+          { "id": "a", "text": "70°" },
+          { "id": "b", "text": "130°" },
+          { "id": "c", "text": "80°" },
+          { "id": "d", "text": "65°" }
+        ]
+      },
+      "answer_key": { "pairs": { "1": "c", "2": "a", "3": "d", "4": "b" }, "partial_credit": true },
+      "explanation": "İç açılar toplamı 180°'dir: 180° − 40° − 60° = 80°. İkizkenar üçgende taban açıları eşittir: (180° − 40°) / 2 = 70°. Dik üçgende dar açılar tümlerdir: 90° − 25° = 65°. Bir iç açı ile komşu dış açı bütünlerdir: 180° − 50° = 130°."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek üçgen eşitsizliğini ifade eden cümleyi oluştur.",
+        "words": [
+          { "id": "5", "text": "toplamı" },
+          { "id": "1", "text": "Üçgenin" },
+          { "id": "7", "text": "kenardan" },
+          { "id": "3", "text": "kenar" },
+          { "id": "8", "text": "büyüktür" },
+          { "id": "2", "text": "iki" },
+          { "id": "6", "text": "üçüncü" },
+          { "id": "4", "text": "uzunluğunun" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Cümle \"Üçgenin iki kenar uzunluğunun toplamı üçüncü kenardan büyüktür.\" biçiminde kurulur. Bu ifade üçgen eşitsizliğidir ve bir üçgenin var olup olmadığını belirler."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "6", "text": "teğet" },
+          { "id": "2", "text": "açıortayların" },
+          { "id": "8", "text": "merkezidir" },
+          { "id": "4", "text": "noktası" },
+          { "id": "1", "text": "Üçgende" },
+          { "id": "7", "text": "çemberin" },
+          { "id": "3", "text": "kesim" },
+          { "id": "5", "text": "iç" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7", "8"] },
+      "explanation": "Cümle \"Üçgende açıortayların kesim noktası iç teğet çemberin merkezidir.\" olur. Bu noktanın üç kenara uzaklığı eşit olduğu için iç teğet çemberin merkezidir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "4", "text": "dik" },
+          { "id": "1", "text": "Pisagor" },
+          { "id": "6", "text": "geçerlidir" },
+          { "id": "3", "text": "yalnızca" },
+          { "id": "5", "text": "üçgenlerde" },
+          { "id": "2", "text": "bağıntısı" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Cümle \"Pisagor bağıntısı yalnızca dik üçgenlerde geçerlidir.\" olur. Dik olmayan üçgenlerde hipotenüsün karesi diğer kenarların kareleri toplamına eşit değildir."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek üçgenin alan kuralını ifade eden cümleyi oluştur.",
+        "words": [
+          { "id": "5", "text": "yüksekliğin" },
+          { "id": "2", "text": "alanı" },
+          { "id": "7", "text": "yarısıdır" },
+          { "id": "3", "text": "taban" },
+          { "id": "1", "text": "Üçgenin" },
+          { "id": "6", "text": "çarpımının" },
+          { "id": "4", "text": "ile" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Cümle \"Üçgenin alanı taban ile yüksekliğin çarpımının yarısıdır.\" olur. Yükseklik mutlaka seçilen tabana ait olmalıdır."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          { "id": "4", "text": "alanları" },
+          { "id": "1", "text": "Tabanları" },
+          { "id": "7", "text": "orantılıdır" },
+          { "id": "3", "text": "üçgenlerin" },
+          { "id": "5", "text": "yükseklikleriyle" },
+          { "id": "2", "text": "eşit" },
+          { "id": "6", "text": "doğru" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6", "7"] },
+      "explanation": "Cümle \"Tabanları eşit üçgenlerin alanları yükseklikleriyle doğru orantılıdır.\" olur. Taban sabitken alan yalnızca yüksekliğe bağlı kalır; yükseklik iki katına çıkarsa alan da iki katına çıkar."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek orta taban teoremini ifade eden cümleyi oluştur.",
+        "words": [
+          { "id": "3", "text": "uzunluğu" },
+          { "id": "6", "text": "yarısıdır" },
+          { "id": "1", "text": "Orta" },
+          { "id": "5", "text": "kenarın" },
+          { "id": "2", "text": "tabanın" },
+          { "id": "4", "text": "üçüncü" }
+        ]
+      },
+      "answer_key": { "order": ["1", "2", "3", "4", "5", "6"] },
+      "explanation": "Cümle \"Orta tabanın uzunluğu üçüncü kenarın yarısıdır.\" olur. Orta taban aynı zamanda üçüncü kenara paraleldir ve küçük üçgen ile büyük üçgenin benzerlik oranı 1/2'dir."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Kenar uzunlukları verilen üçgenlerden dik üçgen olanı seç.",
+        "image": "diagrams/ozel-ucgenler.png",
+        "hotspots": [
+          { "id": "1", "text": "5 cm, 6 cm, 7 cm" },
+          { "id": "2", "text": "7 cm, 24 cm, 25 cm" },
+          { "id": "3", "text": "4 cm, 5 cm, 8 cm" },
+          { "id": "4", "text": "6 cm, 7 cm, 10 cm" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "2" },
+      "explanation": "Dik üçgende en uzun kenarın karesi diğer ikisinin kareleri toplamına eşittir. 7² + 24² = 49 + 576 = 625 = 25² olduğu için 7 - 24 - 25 bir dik üçgendir. Diğerlerinde eşitlik sağlanmaz: 61 ≠ 49, 41 ≠ 64, 85 ≠ 100."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen üçlülerden, bir üçgenin kenar uzunlukları olamayacak olanı seç.",
+        "image": "diagrams/ucgen-esitsizligi.png",
+        "hotspots": [
+          { "id": "1", "text": "3 cm, 4 cm, 5 cm" },
+          { "id": "2", "text": "5 cm, 5 cm, 9 cm" },
+          { "id": "3", "text": "2 cm, 3 cm, 6 cm" },
+          { "id": "4", "text": "6 cm, 8 cm, 11 cm" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "3" },
+      "explanation": "Üçgen eşitsizliğine göre iki kenarın toplamı üçüncü kenardan büyük olmalıdır. 2 + 3 = 5 < 6 olduğu için 2 - 3 - 6 üçgen oluşturamaz. Diğerlerinde 3 + 4 > 5, 5 + 5 > 9 ve 6 + 8 > 11 sağlanır."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen üçgenlerden alanı 24 cm² olanı seç.",
+        "image": "diagrams/ucgende-alan.png",
+        "hotspots": [
+          { "id": "1", "text": "Tabanı 10 cm, bu tabana ait yüksekliği 6 cm olan üçgen" },
+          { "id": "2", "text": "Dik kenarları 5 cm ve 8 cm olan dik üçgen" },
+          { "id": "3", "text": "Tabanı 7 cm, bu tabana ait yüksekliği 8 cm olan üçgen" },
+          { "id": "4", "text": "Dik kenarları 6 cm ve 8 cm olan dik üçgen" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "4" },
+      "explanation": "Alanlar sırasıyla 10 · 6 / 2 = 30 cm², 5 · 8 / 2 = 20 cm², 7 · 8 / 2 = 28 cm² ve 6 · 8 / 2 = 24 cm²'dir. İstenen alan son üçgene aittir."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Verilen üçgen çiftlerinden benzer OLMAYAN çifti seç.",
+        "image": "diagrams/ucgende-benzerlik.png",
+        "hotspots": [
+          { "id": "1", "text": "Kenarları 4 - 6 - 8 cm olan üçgen ile kenarları 6 - 9 - 14 cm olan üçgen" },
+          { "id": "2", "text": "Kenarları 3 - 4 - 5 cm olan üçgen ile kenarları 6 - 8 - 10 cm olan üçgen" },
+          { "id": "3", "text": "İç açılarından ikisi 40° ve 60° olan üçgen ile iç açılarından ikisi 60° ve 80° olan üçgen" },
+          { "id": "4", "text": "Kenarları 5 - 7 - 9 cm olan üçgen ile kenarları 10 - 14 - 18 cm olan üçgen" }
+        ]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Birinci çiftte 4/6 = 6/9 = 2/3 iken 8/14 = 4/7'dir; üç kenar orantılı olmadığı için üçgenler benzer değildir. İkinci ve dördüncü çiftlerde oran sabittir (1/2). Üçüncü çiftte iki üçgenin de açıları 40°, 60° ve 80° olduğundan A.A. benzerliği vardır."
+    },
+    {
+      "topic": "ozel_ucgenler",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Her üçgen türünü, kenar uzunluklarının oranıyla etiketle.",
+        "image": "diagrams/ozel-ucgen-oranlari.png",
+        "slots": [
+          { "id": "1", "text": "30°-60°-90° üçgeninin kenarları" },
+          { "id": "2", "text": "45°-45°-90° üçgeninin kenarları" },
+          { "id": "3", "text": "Eşkenar üçgenin kenarları" }
+        ],
+        "labels": ["1 - √3 - 2", "1 - 1 - √2", "1 - 1 - 1", "3 - 4 - 5"]
+      },
+      "answer_key": {
+        "labels": { "1": "1 - √3 - 2", "2": "1 - 1 - √2", "3": "1 - 1 - 1" }
+      },
+      "explanation": "30°-60°-90° üçgeninde kenarlar a, a√3 ve 2a'dır. İkizkenar dik üçgende a, a ve a√2 olur. Eşkenar üçgende üç kenar da eşittir. 3 - 4 - 5 ise özel bir Pisagor üçlüsüdür, açıları 30-60-90 ya da 45-45-90 değildir."
+    },
+    {
+      "topic": "dogruda_ve_ucgende_acilar",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Her üçgende eksik olan üçüncü iç açının ölçüsünü hesaplayıp etiketle.",
+        "image": "diagrams/ucgende-acilar.png",
+        "slots": [
+          { "id": "1", "text": "İç açılarından ikisi 35° ve 75° olan üçgenin üçüncü iç açısı" },
+          { "id": "2", "text": "İç açılarından ikisi 40° ve 90° olan üçgenin üçüncü iç açısı" },
+          { "id": "3", "text": "İç açılarından ikisi 25° ve 30° olan üçgenin üçüncü iç açısı" }
+        ],
+        "labels": ["70°", "50°", "125°", "105°"]
+      },
+      "answer_key": {
+        "labels": { "1": "70°", "2": "50°", "3": "125°" }
+      },
+      "explanation": "Bir üçgenin iç açılarının ölçüleri toplamı 180°'dir. 180° − 35° − 75° = 70°, 180° − 40° − 90° = 50°, 180° − 25° − 30° = 125° bulunur."
+    },
+    {
+      "topic": "ucgende_alan",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Her üçgeni alanıyla etiketle.",
+        "image": "diagrams/ucgen-alanlari.png",
+        "slots": [
+          { "id": "1", "text": "Dik kenarları 9 cm ve 10 cm olan dik üçgen" },
+          { "id": "2", "text": "Bir kenarı 8 cm olan eşkenar üçgen" },
+          { "id": "3", "text": "Tabanı 15 cm, bu tabana ait yüksekliği 4 cm olan üçgen" }
+        ],
+        "labels": ["45 cm²", "16√3 cm²", "30 cm²", "64√3 cm²"]
+      },
+      "answer_key": {
+        "labels": { "1": "45 cm²", "2": "16√3 cm²", "3": "30 cm²" }
+      },
+      "explanation": "Dik üçgenin alanı dik kenarların çarpımının yarısıdır: 9 · 10 / 2 = 45 cm². Eşkenar üçgende a²√3 / 4 = 64√3 / 4 = 16√3 cm². Üçüncüde 15 · 4 / 2 = 30 cm² olur."
+    },
+    {
+      "topic": "ucgende_benzerlik",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["tyt"],
+      "content": {
+        "instruction": "Her benzerlik koşulunu, karşılık geldiği benzerlik ölçütünün kısaltmasıyla etiketle.",
+        "image": "diagrams/benzerlik-olcutleri.png",
+        "slots": [
+          { "id": "1", "text": "İki açının ölçüleri karşılıklı olarak eşittir" },
+          { "id": "2", "text": "Üç kenar karşılıklı olarak orantılıdır" },
+          { "id": "3", "text": "İki kenar orantılı ve bu kenarların arasındaki açıların ölçüleri eşittir" }
+        ],
+        "labels": ["A.A.", "K.K.K.", "K.A.K.", "A.K.A."]
+      },
+      "answer_key": {
+        "labels": { "1": "A.A.", "2": "K.K.K.", "3": "K.A.K." }
+      },
+      "explanation": "İki açısı eşit olan üçgenler A.A. (açı-açı), üç kenarı orantılı olanlar K.K.K. (kenar-kenar-kenar), iki kenarı orantılı ve aradaki açısı eşit olanlar K.A.K. (kenar-açı-kenar) ölçütüyle benzerdir. A.K.A. bir eşlik ölçütüdür, benzerlik ölçütü olarak kullanılmaz."
     }
   ]
 }

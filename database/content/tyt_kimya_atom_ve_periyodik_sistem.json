@@ -1247,6 +1247,2877 @@
       "answer_key": {
         "self_assessed": true
       }
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Elektronun kütlesi protonun kütlesinden çok daha küçüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Elektronun kütlesi protonun yaklaşık 1/1836'sı kadardır; bu yüzden atomun kütlesi hesaplanırken elektronlar ihmal edilir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir elementin kimliğini kütle numarası belirler."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Elementin kimliğini çekirdekteki proton sayısı, yani atom numarası belirler. Aynı elementin izotopları farklı kütle numaralarına sahip olabilir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir atom elektron verdiğinde katyon adı verilen pozitif yüklü iyona dönüşür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Elektron kaybeden atomda proton sayısı elektron sayısından fazla kalır, bu yüzden net yük pozitif olur ve bu iyona katyon denir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir atom iyon hâline geçerken çekirdeğindeki proton sayısı değişir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. İyon oluşumu yalnızca elektron alışverişiyle gerçekleşir; çekirdek değişmediği için proton ve nötron sayıları aynı kalır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Periyodik tabloda aynı grupta bulunan A grubu elementlerinin değerlik elektron sayıları birbirine eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Grup, son katmandaki elektron sayısına göre belirlenir; bu yüzden aynı A grubundaki elementler benzer kimyasal özellikler gösterir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Soy gazların son katmanları elektronla dolu olduğu için bileşik yapma eğilimleri çok düşüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. 8A grubu elementlerinin değerlik katmanı tamamlanmış olduğundan elektron alıp verme eğilimleri yoktur; bu nedenle doğada çoğunlukla tek atomlu hâlde bulunurlar."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Periyodik tabloda bir periyotta soldan sağa gidildikçe elementlerin metalik özelliği artar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Soldan sağa gidildikçe elektron verme eğilimi azalır; metalik özellik azalır, ametalik özellik artar."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bohr atom modeli, elektronların çekirdek çevresinde belirli enerji düzeylerinde dolandığını öne sürer."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bohr, elektronların rastgele değil kuantlaşmış (belirli enerjili) katmanlarda bulunduğunu ve katman değiştirirken enerji alıp verdiğini açıkladı."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Laboratuvarda kimyasal bir maddenin kokusu doğrudan burna yaklaştırılarak koklanmalıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kimyasal maddeler doğrudan koklanmaz; gerekliyse kabın ağzından yayılan buhar el yardımıyla yüze doğru yönlendirilerek uzaktan kontrol edilir."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Simya, deneysel yöntemle sınanan ve kuramsal temeli olan bir bilim dalıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Simya, bilimsel yöntemden yoksun bir uğraştı; deneme yanılmaya dayanıyordu. Yine de geliştirdiği damıtma ve süzme gibi teknikler modern kimyaya katkı sağladı."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kimyasal maddelerin kaplarındaki tehlike uyarı işaretleri, maddenin taşıdığı riski tanımlar."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Yanıcı, aşındırıcı, zehirli gibi standart semboller maddenin riskini dilden bağımsız olarak bildirir ve alınacak önlemi belirler."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kovalent bağda bağı oluşturan atomlar elektronlarını ortaklaşa kullanır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İki ametal atomu arasında elektron aktarımı yerine ortak elektron çiftleri oluşur; bu ortaklık kovalent bağı meydana getirir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "İki özdeş ametal atomu arasında oluşan kovalent bağ polardır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Özdeş atomların elektronegatiflikleri eşit olduğu için ortak elektronlar iki çekirdeğe eşit uzaklıkta kalır; H₂ ve Cl₂ gibi bağlar apolar kovalenttir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Metalik bağ, pozitif metal iyonları ile bunların arasında serbestçe dolaşan elektronlar arasındaki çekimdir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Değerlik elektronlarının ortak bir 'elektron denizi' oluşturması metallerin iyi elektrik ve ısı iletmesini, tel ve levha hâline getirilebilmesini açıklar."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Gaz hâlindeki bir maddenin belirli bir hacmi ve şekli yoktur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Gaz tanecikleri arasındaki çekim çok zayıf olduğundan gazlar bulundukları kabın hacmini ve şeklini alır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Erime olayı sırasında madde çevresinden ısı alır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Erime endotermik bir hâl değişimidir; alınan ısı tanecikleri bir arada tutan çekim kuvvetlerini yenmek için kullanılır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir elementin atom numarası, atomun çekirdeğindeki {{0}} sayısına eşittir.",
+        "choices": [
+          "proton",
+          "nötron",
+          "elektron",
+          "orbital"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "proton"
+        ]
+      },
+      "explanation": "Atom numarası (Z) çekirdekteki proton sayısıdır ve elementin kimliğini belirler."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Elektron alarak negatif yüklü hâle geçen taneciklere {{0}} denir.",
+        "choices": [
+          "anyon",
+          "katyon",
+          "izotop",
+          "molekül"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "anyon"
+        ]
+      },
+      "explanation": "Elektron alan atom negatif yüklenir ve anyon adını alır; elektron veren atom ise katyon olur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Periyodik tablonun en sağındaki 8A grubunda yer alan, kararlı elektron dizilimine sahip elementlere {{0}} denir.",
+        "choices": [
+          "soy gazlar",
+          "halojenler",
+          "alkali metaller",
+          "geçiş metalleri"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "soy gazlar"
+        ]
+      },
+      "explanation": "8A grubu soy gazlardır; son katmanları dolu olduğu için tepkimeye girme eğilimleri çok düşüktür."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "7A grubunda yer alan ve tuz oluşturan elementlere {{0}} adı verilir.",
+        "choices": [
+          "halojenler",
+          "soy gazlar",
+          "aktinitler",
+          "toprak alkali metaller"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "halojenler"
+        ]
+      },
+      "explanation": "F, Cl, Br, I elementlerinin bulunduğu 7A grubuna halojenler denir; adı \"tuz oluşturan\" anlamındadır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Elektronların çekirdek çevresinde bulunma olasılığının yüksek olduğu bölgelere {{0}} denir ve bu bölgelerin her birinde en çok {{1}} elektron bulunur.",
+        "choices": [
+          "orbital",
+          "izotop",
+          "iki",
+          "sekiz",
+          "bir",
+          "katman"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "orbital",
+          "iki"
+        ]
+      },
+      "explanation": "Orbital, elektronun bulunma olasılığının yüksek olduğu bölgedir. Pauli ilkesine göre bir orbitalde zıt spinli en çok 2 elektron bulunur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Atom numaraları farklı olmasına rağmen elektron sayıları aynı olan taneciklere {{0}} tanecikler denir.",
+        "choices": [
+          "izoelektronik",
+          "izotop",
+          "izoton",
+          "allotrop"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "izoelektronik"
+        ]
+      },
+      "explanation": "Na⁺, Mg²⁺ ve F⁻ gibi elektron sayıları eşit (10) olan tanecikler izoelektroniktir. İzotoplarda proton sayısı aynı, nötron sayısı farklıdır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Periyodik tabloyu ilk kez elementlerin artan atom kütlelerine göre düzenleyen ve henüz keşfedilmemiş elementler için boşluk bırakan bilim insanı {{0}} olmuştur.",
+        "choices": [
+          "Mendeleyev",
+          "Moseley",
+          "Dalton",
+          "Lavoisier"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Mendeleyev"
+        ]
+      },
+      "explanation": "Mendeleyev elementleri artan atom kütlesine göre sıraladı ve keşfedilmeyen elementlere yer ayırdı. Moseley ise sıralamayı atom numarası temeline oturttu."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "A gruplarında bir elementin değerlik elektron sayısı, bulunduğu {{0}} numarasına eşittir.",
+        "choices": [
+          "grup",
+          "periyot",
+          "kütle",
+          "blok"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "grup"
+        ]
+      },
+      "explanation": "A gruplarında grup numarası değerlik elektron sayısını verir; periyot numarası ise en yüksek katman numarasını gösterir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir atomun bağdaki ortak elektronları kendine doğru çekme gücüne {{0}} denir ve bu özelliği en büyük olan element {{1}}'dur.",
+        "choices": [
+          "elektronegatiflik",
+          "iyonlaşma enerjisi",
+          "flor",
+          "sezyum",
+          "helyum",
+          "atom yarıçapı"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "elektronegatiflik",
+          "flor"
+        ]
+      },
+      "explanation": "Elektronegatiflik bağ elektronlarını çekme gücüdür; periyodik tabloda en elektronegatif element flordur."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Doğada gözlenen bir olayın değişmez biçimde tekrarlandığını ifade eden genellemelere {{0}} denir.",
+        "choices": [
+          "yasa",
+          "hipotez",
+          "gözlem",
+          "değişken"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "yasa"
+        ]
+      },
+      "explanation": "Yasa, bir olgunun nasıl gerçekleştiğini tekrarlanabilir biçimde ifade eder; teori ise olgunun nedenini açıklar."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İlaç etken maddelerinin tasarlanması ve üretilmesiyle ilgilenen kimya alt alanı {{0}} kimyadır.",
+        "choices": [
+          "ilaç",
+          "analitik",
+          "organik",
+          "fizikokimya"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ilaç"
+        ]
+      },
+      "explanation": "İlaç kimyası etken maddelerin tasarımı ve üretimiyle uğraşır. Analitik kimya ise maddenin bileşimini niteliksel ve niceliksel olarak belirler."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Laboratuvarda bir çözeltinin hacmini duyarlı biçimde hazırlamak için dar boyunlu ve tek çizgili {{0}} kullanılır.",
+        "choices": [
+          "balon joje",
+          "beher",
+          "deney tüpü",
+          "mezür"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "balon joje"
+        ]
+      },
+      "explanation": "Balon joje tek bir hacim çizgisine göre ayarlanmıştır ve belirli derişimde çözelti hazırlamak için kullanılır."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Ametal atomlarının elektronlarını ortaklaşa kullanmasıyla oluşan bağa {{0}} bağ denir.",
+        "choices": [
+          "kovalent",
+          "iyonik",
+          "metalik",
+          "hidrojen"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kovalent"
+        ]
+      },
+      "explanation": "İki ametal arasında elektron aktarımı yerine ortaklaşma olur; bu bağa kovalent bağ denir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "F, O veya N atomuna bağlı hidrojen içeren moleküller arasında görülen güçlü çekim kuvvetine {{0}} denir.",
+        "choices": [
+          "hidrojen bağı",
+          "London kuvvetleri",
+          "iyon-dipol etkileşimi",
+          "metalik bağ"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "hidrojen bağı"
+        ]
+      },
+      "explanation": "Hidrojenin çok elektronegatif F, O, N atomlarına bağlı olduğu moleküller arasında hidrojen bağı oluşur; suyun yüksek kaynama noktasının nedeni budur."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Apolar moleküller arasında anlık kutuplaşmalardan doğan en zayıf etkileşim türü {{0}} kuvvetleridir.",
+        "choices": [
+          "London",
+          "dipol-dipol",
+          "iyonik",
+          "kovalent"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "London"
+        ]
+      },
+      "explanation": "London (indüklenmiş dipol) kuvvetleri tüm moleküllerde bulunur, en zayıf etkileşimdir ve molekül kütlesi arttıkça güçlenir."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir sıvının buhar basıncının dış basınca eşit olduğu sıcaklığa {{0}} noktası denir.",
+        "choices": [
+          "kaynama",
+          "erime",
+          "donma",
+          "kritik"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kaynama"
+        ]
+      },
+      "explanation": "Kaynama, sıvının buhar basıncının dış basınca eşitlendiği sıcaklıkta sıvının her yerinde başlayan buharlaşmadır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Gaz hâlindeki bir maddenin doğrudan katı hâle geçmesine {{0}} denir ve bu olay sırasında madde çevresine ısı {{1}}.",
+        "choices": [
+          "kırağılaşma",
+          "süblimleşme",
+          "verir",
+          "alır",
+          "buharlaşma",
+          "aktarmaz"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kırağılaşma",
+          "verir"
+        ]
+      },
+      "explanation": "Gazdan katıya geçiş kırağılaşmadır; tanecikler düzenli hâle geçtiği için madde çevresine ısı verir (ekzotermik)."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Element adını sembolüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Potasyum"
+          },
+          {
+            "id": "2",
+            "text": "Demir"
+          },
+          {
+            "id": "3",
+            "text": "Kükürt"
+          },
+          {
+            "id": "4",
+            "text": "Bakır"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Fe"
+          },
+          {
+            "id": "b",
+            "text": "Cu"
+          },
+          {
+            "id": "c",
+            "text": "K"
+          },
+          {
+            "id": "d",
+            "text": "S"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Sembollerin bir kısmı elementin Latince adından gelir: Fe (ferrum) demir, Cu (cuprum) bakır, K (kalium) potasyum. Kükürdün sembolü ise Latince sulphur sözcüğünden S'dir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bilim insanını atom yapısına yaptığı katkıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Thomson"
+          },
+          {
+            "id": "2",
+            "text": "Rutherford"
+          },
+          {
+            "id": "3",
+            "text": "Chadwick"
+          },
+          {
+            "id": "4",
+            "text": "Bohr"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Çekirdeği keşfetti; atomun büyük bölümünün boşluk olduğunu gösterdi"
+          },
+          {
+            "id": "b",
+            "text": "Elektronu keşfetti; üzümlü kek benzetmesiyle anlattığı modeli önerdi"
+          },
+          {
+            "id": "c",
+            "text": "Elektronların yalnızca belirli enerji düzeylerinde dolandığını öne sürdü"
+          },
+          {
+            "id": "d",
+            "text": "Çekirdekteki yüksüz taneciği, yani nötronu buldu"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Thomson elektronu (1897), Rutherford çekirdeği (1911), Bohr enerji düzeylerini (1913), Chadwick ise nötronu (1932) ortaya koymuştur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Nötr atomu periyodik tablodaki yeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "₅B"
+          },
+          {
+            "id": "2",
+            "text": "₉F"
+          },
+          {
+            "id": "3",
+            "text": "₁₂Mg"
+          },
+          {
+            "id": "4",
+            "text": "₁₉K"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "2. periyot, 3A grubu"
+          },
+          {
+            "id": "b",
+            "text": "2. periyot, 7A grubu"
+          },
+          {
+            "id": "c",
+            "text": "3. periyot, 2A grubu"
+          },
+          {
+            "id": "d",
+            "text": "4. periyot, 1A grubu"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Periyot numarası katman sayısına, A gruplarında grup numarası değerlik elektron sayısına eşittir. B: 2,3 → 2. periyot 3A; F: 2,7 → 2. periyot 7A; Mg: 2,8,2 → 3. periyot 2A; K: 2,8,8,1 → 4. periyot 1A."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Periyodik özelliği tanımıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "İyonlaşma enerjisi"
+          },
+          {
+            "id": "2",
+            "text": "Elektronegatiflik"
+          },
+          {
+            "id": "3",
+            "text": "Atom yarıçapı"
+          },
+          {
+            "id": "4",
+            "text": "Elektron ilgisi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Atomun bağdaki ortak elektronları kendine çekme gücü"
+          },
+          {
+            "id": "b",
+            "text": "Gaz hâlindeki nötr atomdan elektron koparmak için gereken en az enerji"
+          },
+          {
+            "id": "c",
+            "text": "Gaz hâlindeki nötr atomun elektron alırken açığa çıkardığı enerji"
+          },
+          {
+            "id": "d",
+            "text": "Çekirdek ile en dış katman arasındaki uzaklık"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İyonlaşma enerjisi elektron koparmakla, elektron ilgisi elektron almakla ilgilidir; elektronegatiflik ise bir bağ içindeki çekme gücünü anlatır. Atom yarıçapı ise boyut ölçüsüdür."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bağ türünü onu tanımlayan özellikle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "İyonik bağ"
+          },
+          {
+            "id": "2",
+            "text": "Kovalent bağ"
+          },
+          {
+            "id": "3",
+            "text": "Metalik bağ"
+          },
+          {
+            "id": "4",
+            "text": "Hidrojen bağı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Ametal atomları elektronlarını ortaklaşa kullanır"
+          },
+          {
+            "id": "b",
+            "text": "Metal ile ametal arasında elektron alışverişi olur"
+          },
+          {
+            "id": "c",
+            "text": "F, O veya N'ye bağlı hidrojen içeren moleküller arasında görülür"
+          },
+          {
+            "id": "d",
+            "text": "Pozitif metal iyonları ile serbest elektron denizi arasındaki çekim"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İlk üçü güçlü (kimyasal) bağ, hidrojen bağı ise moleküller arası bir etkileşimdir; bu yüzden hidrojen bağının kopması için gereken enerji diğerlerinden çok daha küçüktür."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Maddeyi tanecikleri arasında etkin olan baskın etkileşimle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "NaCl"
+          },
+          {
+            "id": "2",
+            "text": "H₂O"
+          },
+          {
+            "id": "3",
+            "text": "HCl"
+          },
+          {
+            "id": "4",
+            "text": "CH₄"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Hidrojen bağı"
+          },
+          {
+            "id": "b",
+            "text": "İyonik bağ"
+          },
+          {
+            "id": "c",
+            "text": "London (indüklenmiş dipol) kuvvetleri"
+          },
+          {
+            "id": "d",
+            "text": "Dipol-dipol etkileşimi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "NaCl iyonlardan kurulu bir katıdır. H₂O'da hidrojen doğrudan oksijene bağlı olduğu için hidrojen bağı görülür. HCl polar bir moleküldür, dipol-dipol çeker. CH₄ apolar olduğundan yalnızca London kuvvetleri etkilidir."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Maddenin hâlini tanecik özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Katı"
+          },
+          {
+            "id": "2",
+            "text": "Sıvı"
+          },
+          {
+            "id": "3",
+            "text": "Gaz"
+          },
+          {
+            "id": "4",
+            "text": "Plazma"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Belirli hacmi vardır, bulunduğu kabın şeklini alır"
+          },
+          {
+            "id": "b",
+            "text": "Hem şekli hem hacmi belirlidir, tanecikler titreşim yapar"
+          },
+          {
+            "id": "c",
+            "text": "Tanecikleri iyonlaşmıştır, elektrik akımını iletir"
+          },
+          {
+            "id": "d",
+            "text": "Hem şekli hem hacmi belirsizdir, sıkıştırılabilir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Taneciklerin hareket serbestliği katıdan plazmaya doğru artar; plazma, gazın çok yüksek sıcaklıkta iyonlaşmasıyla oluştuğu için yüklü tanecikler içerir ve elektrik iletir."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Laboratuvar aracını kullanım amacıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Büret"
+          },
+          {
+            "id": "2",
+            "text": "Balon joje"
+          },
+          {
+            "id": "3",
+            "text": "Mezür (dereceli silindir)"
+          },
+          {
+            "id": "4",
+            "text": "Desikatör"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Belirli hacimde çözelti hazırlamak"
+          },
+          {
+            "id": "b",
+            "text": "Titrasyonda sıvıyı damla damla, duyarlı biçimde akıtmak"
+          },
+          {
+            "id": "c",
+            "text": "Maddeyi nemden koruyarak kurutmak"
+          },
+          {
+            "id": "d",
+            "text": "Sıvı hacmini yaklaşık olarak ölçmek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Duyarlı hacim ölçümü büret ve balon joje ile yapılır; mezür yaklaşık ölçüm içindir. Desikatör ise hacim ölçmez, nem çekici madde yardımıyla kurutma yapar."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tehlike uyarı işaretini anlamıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yanıcı"
+          },
+          {
+            "id": "2",
+            "text": "Toksik (zehirli)"
+          },
+          {
+            "id": "3",
+            "text": "Korozif (aşındırıcı)"
+          },
+          {
+            "id": "4",
+            "text": "Oksitleyici"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Az miktarda alındığında bile sağlığa ciddi zarar verir"
+          },
+          {
+            "id": "b",
+            "text": "Kolay tutuşur, alev ve kıvılcımdan uzak tutulmalıdır"
+          },
+          {
+            "id": "c",
+            "text": "Başka maddelerin yanmasını hızlandırır, oksijence zengindir"
+          },
+          {
+            "id": "d",
+            "text": "Deri ve metal gibi yüzeyleri kimyasal olarak tahrip eder"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kap üzerindeki işaretler maddenin riskini önceden bildirir: yanıcılar ateşten, oksitleyiciler yanıcı maddelerden uzak tutulur; korozif ve toksik maddelerde eldiven ve gözlük zorunludur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "2. periyot elementlerini birinci iyonlaşma enerjisi küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "₇N"
+          },
+          {
+            "id": "2",
+            "text": "₃Li"
+          },
+          {
+            "id": "3",
+            "text": "₁₀Ne"
+          },
+          {
+            "id": "4",
+            "text": "₅B"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Aynı periyotta soldan sağa gidildikçe çekirdek yükü artar, yarıçap küçülür ve elektron koparmak zorlaşır. Bu nedenle iyonlaşma enerjisi Li < B < N < Ne sırasında büyür; soy gaz olan Ne'de en büyüktür."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "3. periyot elementlerini atom yarıçapı küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "₁₄Si"
+          },
+          {
+            "id": "2",
+            "text": "₁₇Cl"
+          },
+          {
+            "id": "3",
+            "text": "₁₁Na"
+          },
+          {
+            "id": "4",
+            "text": "₁₆S"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Katman sayısı aynı olduğunda artan çekirdek yükü elektronları daha güçlü çeker ve atom küçülür. Soldan sağa yarıçap azaldığı için büyükten küçüğe Na > Si > S > Cl olur; küçükten büyüğe sıralama bunun tersidir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Elementleri elektronegatiflik değeri küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "₈O"
+          },
+          {
+            "id": "2",
+            "text": "₆C"
+          },
+          {
+            "id": "3",
+            "text": "₉F"
+          },
+          {
+            "id": "4",
+            "text": "₇N"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Elektronegatiflik aynı periyotta soldan sağa artar: C (2,55) < N (3,04) < O (3,44) < F (3,98). Flor, periyodik tablonun en elektronegatif elementidir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Elektron sayıları eşit olan (izoelektronik) bu tanecikleri yarıçapı küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "₉F⁻"
+          },
+          {
+            "id": "2",
+            "text": "₁₂Mg²⁺"
+          },
+          {
+            "id": "3",
+            "text": "₈O²⁻"
+          },
+          {
+            "id": "4",
+            "text": "₁₁Na⁺"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Dört taneciğin de 10 elektronu vardır. Elektron sayısı eşitken proton sayısı büyüdükçe çekirdek elektronları daha güçlü çeker ve tanecik küçülür: Mg²⁺ (12p) < Na⁺ (11p) < F⁻ (9p) < O²⁻ (8p)."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Orbital türlerini alabilecekleri en çok elektron sayısı azdan çoğa olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "d orbitali"
+          },
+          {
+            "id": "2",
+            "text": "s orbitali"
+          },
+          {
+            "id": "3",
+            "text": "f orbitali"
+          },
+          {
+            "id": "4",
+            "text": "p orbitali"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Her orbital en çok 2 elektron alır. s türünde 1 orbital (2 elektron), p türünde 3 orbital (6 elektron), d türünde 5 orbital (10 elektron), f türünde 7 orbital (14 elektron) bulunur."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Atom altı taneciklerin ve çekirdeğin keşfedildiği olayları eskiden yeniye sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Nötronun keşfi (Chadwick)"
+          },
+          {
+            "id": "2",
+            "text": "Elektronun keşfi (Thomson)"
+          },
+          {
+            "id": "3",
+            "text": "Çekirdeğin keşfi (Rutherford'un altın levha deneyi)"
+          },
+          {
+            "id": "4",
+            "text": "Çekirdekteki pozitif taneciğin proton olarak adlandırılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ]
+      },
+      "explanation": "Thomson elektronu 1897'de buldu; Rutherford 1911'de altın levha deneyiyle çekirdeği ortaya koydu ve 1919'da çekirdekteki pozitif taneciği proton diye adlandırdı; Chadwick 1932'de nötronu keşfetti."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Tanecikleri kütlesi küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Nötron"
+          },
+          {
+            "id": "2",
+            "text": "Elektron"
+          },
+          {
+            "id": "3",
+            "text": "Alfa taneciği (helyum çekirdeği)"
+          },
+          {
+            "id": "4",
+            "text": "Proton"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Elektronun kütlesi protonun yaklaşık 1/1836'sı kadardır. Nötron protondan çok az ağırdır. Alfa taneciği 2 proton ve 2 nötrondan oluştuğu için yaklaşık 4 kat daha büyük kütleye sahiptir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "2A grubundaki elementleri metalik özelliği azdan çoğa olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "₂₀Ca"
+          },
+          {
+            "id": "2",
+            "text": "₄Be"
+          },
+          {
+            "id": "3",
+            "text": "₃₈Sr"
+          },
+          {
+            "id": "4",
+            "text": "₁₂Mg"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Aynı grupta aşağı inildikçe katman sayısı arttığı için değerlik elektronu çekirdekten uzaklaşır ve daha kolay verilir; elektron verme eğilimi yani metalik özellik Be < Mg < Ca < Sr sırasında artar."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Periyodik tablonun gelişimindeki çalışmaları eskiden yeniye sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Mendeleyev'in elementleri artan atom kütlesine göre düzenlemesi"
+          },
+          {
+            "id": "2",
+            "text": "Döbereiner'in benzer özellikli elementleri üçlü gruplara ayırması"
+          },
+          {
+            "id": "3",
+            "text": "Moseley'in sıralamayı artan atom numarasına göre yapması"
+          },
+          {
+            "id": "4",
+            "text": "Newlands'ın sekizli (oktav) kuralını önermesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Döbereiner (1829) üçlüler kuralını, Newlands (1865) oktav kuralını önerdi; Mendeleyev (1869) atom kütlesine göre düzenleyip boş yerler bıraktı; Moseley (1913) sıralama ölçütünü atom numarası yaparak bugünkü tabloya ulaştırdı."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bilimsel yöntemin basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hipotez kurma"
+          },
+          {
+            "id": "2",
+            "text": "Gözlem yapma ve problemi belirleme"
+          },
+          {
+            "id": "3",
+            "text": "Verileri değerlendirip sonuca ulaşma"
+          },
+          {
+            "id": "4",
+            "text": "Kontrollü deney tasarlayıp veri toplama"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Bilimsel yöntem gözlemle başlar; gözlenen soruna geçici bir açıklama olan hipotez kurulur, hipotez kontrollü deneyle sınanır ve toplanan veriler değerlendirilerek sonuca varılır."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Katı bir maddeden belirli hacimde çözelti hazırlama basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Çözeltiyi balon jojeye aktarma"
+          },
+          {
+            "id": "2",
+            "text": "Katıyı hassas terazide tartma"
+          },
+          {
+            "id": "3",
+            "text": "Hacim çizgisine kadar saf su ekleyip karıştırma"
+          },
+          {
+            "id": "4",
+            "text": "Tartılan katıyı bir miktar saf suda çözme"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Önce gereken kütle tartılır, katı az miktarda suda çözülür, çözelti balon jojeye aktarılır ve en son çizgiye kadar su tamamlanır. Hacim en sonda tamamlanmazsa istenen derişim tutmaz."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Etkileşim türlerini kopmaları için gereken enerji küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hidrojen bağı"
+          },
+          {
+            "id": "2",
+            "text": "London kuvvetleri"
+          },
+          {
+            "id": "3",
+            "text": "İyonik bağ"
+          },
+          {
+            "id": "4",
+            "text": "Dipol-dipol etkileşimi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "İlk üçü zayıf (moleküller arası) etkileşimdir ve London < dipol-dipol < hidrojen bağı sırasında güçlenir. İyonik bağ ise güçlü bir kimyasal bağ olduğu için hepsinden çok daha fazla enerji gerektirir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Halojen moleküllerini kaynama noktası küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Br₂"
+          },
+          {
+            "id": "2",
+            "text": "Cl₂"
+          },
+          {
+            "id": "3",
+            "text": "I₂"
+          },
+          {
+            "id": "4",
+            "text": "F₂"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Hepsi apolar moleküldür, aralarında yalnızca London kuvvetleri vardır. Molekül kütlesi ve elektron sayısı büyüdükçe bu kuvvetler güçlenir, kaynama noktası yükselir: F₂ < Cl₂ < Br₂ < I₂."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Molekülleri kaynama noktası küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "H₂O"
+          },
+          {
+            "id": "2",
+            "text": "CH₄"
+          },
+          {
+            "id": "3",
+            "text": "H₂S"
+          },
+          {
+            "id": "4",
+            "text": "HCl"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "CH₄ apolardır, yalnızca London kuvvetleri etkilidir (−161 °C). HCl ve H₂S polardır, dipol-dipol çekimi gösterir (−85 °C ve −60 °C). H₂O'da ise hidrojen bağı bulunduğu için kaynama noktası beklenenin çok üstüne, 100 °C'ye çıkar."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "120 °C'deki su buharı sabit hızla soğutulduğunda gerçekleşen aşamaları sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Suyun sıcaklığının 0 °C'ye düşmesi"
+          },
+          {
+            "id": "2",
+            "text": "Su buharının sıcaklığının 100 °C'ye düşmesi"
+          },
+          {
+            "id": "3",
+            "text": "Suyun donması"
+          },
+          {
+            "id": "4",
+            "text": "Su buharının yoğuşması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Soğutma grafiğinde önce gaz hâlde sıcaklık düşer, 100 °C'de yoğuşma sabit sıcaklıkta tamamlanır; ardından sıvının sıcaklığı 0 °C'ye iner ve donma yine sabit sıcaklıkta gerçekleşir."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Maddeleri erime noktası küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Alüminyum (660 °C)"
+          },
+          {
+            "id": "2",
+            "text": "Buz (0 °C)"
+          },
+          {
+            "id": "3",
+            "text": "Demir (1538 °C)"
+          },
+          {
+            "id": "4",
+            "text": "Kurşun (327 °C)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Erime noktası, taneciklerin düzenli yapısını bozmak için gereken enerjinin ölçüsüdür. Metallerdeki metalik bağ su moleküllerini tutan hidrojen bağından çok daha güçlü olduğu için buz 0 °C'de erirken demir 1538 °C'ye kadar katı kalır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Maddeleri normal kaynama noktası küçükten büyüğe olacak şekilde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Etil alkol (78 °C)"
+          },
+          {
+            "id": "2",
+            "text": "Azot (−196 °C)"
+          },
+          {
+            "id": "3",
+            "text": "Su (100 °C)"
+          },
+          {
+            "id": "4",
+            "text": "Helyum (−269 °C)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Tanecikler arası çekim güçlendikçe kaynama noktası yükselir. Helyum atomları arasında yalnızca çok zayıf London kuvvetleri vardır; azot apolar bir moleküldür; etil alkol ve suda hidrojen bağı bulunur ve suda molekül başına daha çok hidrojen bağı kurulduğu için kaynama noktası en yüksektir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir elementin ikinci iyonlaşma enerjisi, birinci iyonlaşma enerjisinden büyüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İlk elektron koparıldıktan sonra tanecik pozitif yüklenir; geri kalan elektronlar çekirdek tarafından daha güçlü çekildiği için ikinci elektronu koparmak daha fazla enerji ister."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir anyonun yarıçapı, oluştuğu nötr atomun yarıçapından büyüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Atom elektron aldığında proton sayısı sabit kalırken elektronlar arası itme artar ve elektron bulutu genişler; bu nedenle anyon yarıçapı nötr atomdan büyüktür."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Periyodik tabloda bir periyot boyunca soldan sağa gidildikçe birinci iyonlaşma enerjisi kesintisiz olarak artar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Genel eğilim artıştır ancak düzensizlikler vardır: örneğin 2. periyotta berilyumun iyonlaşma enerjisi borun, azotun da oksijenin iyonlaşma enerjisinden büyüktür. Dolu ve yarı dolu orbitallerin kararlılığı bu kırılmalara yol açar."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Polar bağ içeren her molekül polar moleküldür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bağların polarlığı molekülün geometrisiyle birlikte değerlendirilir. CO₂ molekülünde C=O bağları polar olmasına rağmen doğrusal geometri bu polarlıkları birbirini götürecek şekilde yerleştirdiği için molekül apolardır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Saf bir sıvının kapalı kaptaki denge buhar basıncı, kaba konulan sıvının miktarına bağlıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Denge buhar basıncı sıvının türüne ve sıcaklığa bağlıdır; sıvının miktarı, yüzey alanı ve kabın hacmi denge değerini değiştirmez."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Gaz hâlindeki nötr bir atomun bir elektron alması sırasında açığa çıkan enerjiye {{0}} denir ve bu değer periyodik tabloda genel olarak soldan sağa doğru {{1}}.",
+        "choices": [
+          "elektron ilgisi",
+          "iyonlaşma enerjisi",
+          "elektronegatiflik",
+          "artar",
+          "azalır",
+          "değişmez"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "elektron ilgisi",
+          "artar"
+        ]
+      },
+      "explanation": "Elektron ilgisi, gaz hâlindeki bir atomun elektron alırken açığa çıkardığı enerjidir. Çekirdek yükü arttıkça alınan elektron daha güçlü çekildiği için elektron ilgisi bir periyotta soldan sağa doğru genel olarak artar."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Elektron dizilimi 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d⁵ olan element periyodik tabloda {{0}} periyodunda ve {{1}} bloğunda bulunur.",
+        "choices": [
+          "3.",
+          "4.",
+          "5.",
+          "s",
+          "p",
+          "d"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "4.",
+          "d"
+        ]
+      },
+      "explanation": "Dizilimdeki en büyük baş kuantum sayısına sahip s orbitali 4s olduğundan element 4. periyottadır. Son elektron 3d orbitaline girdiği için element d bloğunda, yani geçiş metalleri arasındadır (mangan)."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "İki atom arasındaki elektronegatiflik farkı çok büyük olduğunda baskın olarak {{0}} bağ oluşur; fark sıfıra yakın olduğunda ise {{1}} kovalent bağ oluşur.",
+        "choices": [
+          "iyonik",
+          "metalik",
+          "koordine",
+          "apolar",
+          "polar",
+          "hidrojen"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "iyonik",
+          "apolar"
+        ]
+      },
+      "explanation": "Elektronegatiflik farkı büyüdükçe elektron tam olarak bir atoma geçer ve iyonik bağ oluşur. Fark yok denecek kadar azsa ortak elektronlar eşit paylaşılır ve bağ apolar kovalent olur."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Deniz seviyesinden yükseklere çıkıldıkça dış basınç azaldığı için suyun kaynama sıcaklığı {{0}}, bu nedenle yüksek rakımda yemeklerin pişme süresi {{1}}.",
+        "choices": [
+          "düşer",
+          "yükselir",
+          "sabit kalır",
+          "uzar",
+          "kısalır"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "düşer",
+          "uzar"
+        ]
+      },
+      "explanation": "Sıvı, buhar basıncı dış basınca eşit olduğunda kaynar. Dış basınç azalınca bu eşitlik daha düşük sıcaklıkta sağlanır; su daha soğukken kaynadığı için yemek daha yavaş pişer."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir deneyde yalnızca sonucu etkilediği düşünülen etken değiştirilir; bu etkene {{0}} değişken, deney boyunca değişmeden tutulan etkenlere ise {{1}} değişken denir.",
+        "choices": [
+          "bağımsız",
+          "bağımlı",
+          "kontrol edilen",
+          "nitel",
+          "nicel"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "bağımsız",
+          "kontrol edilen"
+        ]
+      },
+      "explanation": "Araştırmacının bilerek değiştirdiği etken bağımsız değişken, ölçülen sonuç bağımlı değişkendir. Sonucu etkileyebilecek ama sabit tutulan diğer etkenler kontrol edilen değişkenlerdir."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Taneciği elektron diziliminden belirlenen periyodik tablo konumuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "₁₇Cl"
+          },
+          {
+            "id": "2",
+            "text": "₂₀Ca"
+          },
+          {
+            "id": "3",
+            "text": "₂₆Fe"
+          },
+          {
+            "id": "4",
+            "text": "₁₅P"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "3. periyot, 7A grubu"
+          },
+          {
+            "id": "b",
+            "text": "4. periyot, 2A grubu"
+          },
+          {
+            "id": "c",
+            "text": "4. periyot, 8B grubu"
+          },
+          {
+            "id": "d",
+            "text": "3. periyot, 5A grubu"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Klorun dizilimi 3s² 3p⁵ ile biter: 3. periyot 7A. Kalsiyum 4s² ile biter: 4. periyot 2A. Demirin son elektronu 3d orbitaline girer; 4s² 3d⁶ dizilimi onu 4. periyot 8B grubuna yerleştirir. Fosfor 3s² 3p³ ile biter: 3. periyot 5A."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her kuantum sayısını belirlediği özellikle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Baş kuantum sayısı (n)"
+          },
+          {
+            "id": "2",
+            "text": "Açısal momentum kuantum sayısı (l)"
+          },
+          {
+            "id": "3",
+            "text": "Manyetik kuantum sayısı (ml)"
+          },
+          {
+            "id": "4",
+            "text": "Spin kuantum sayısı (ms)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Orbitalin türünü, yani biçimini belirler"
+          },
+          {
+            "id": "b",
+            "text": "Elektronun kendi ekseni etrafındaki dönme yönünü belirtir"
+          },
+          {
+            "id": "c",
+            "text": "Katmanın numarasını ve enerji düzeyini gösterir"
+          },
+          {
+            "id": "d",
+            "text": "Orbitalin uzaydaki yönelimini gösterir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "n katmanı ve enerji düzeyini, l orbital türünü (s, p, d, f), ml aynı türdeki orbitallerin uzaydaki yönelimini, ms ise elektronun spin yönünü verir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her maddeyi kaynarken yenilmesi gereken baskın etkileşimle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "HF"
+          },
+          {
+            "id": "2",
+            "text": "HCl"
+          },
+          {
+            "id": "3",
+            "text": "CH₄"
+          },
+          {
+            "id": "4",
+            "text": "Na⁺ ve Cl⁻ iyonlarından oluşan erimiş tuz"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İyon-iyon etkileşimi"
+          },
+          {
+            "id": "b",
+            "text": "Hidrojen bağı"
+          },
+          {
+            "id": "c",
+            "text": "London (indüklenmiş dipol) kuvvetleri"
+          },
+          {
+            "id": "d",
+            "text": "Dipol-dipol etkileşimi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "c",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "HF'de hidrojen çok elektronegatif flora bağlı olduğu için hidrojen bağı kurulur. HCl polar bir moleküldür ama hidrojen bağı yapamaz; dipol-dipol etkileşimi baskındır. CH₄ apolar olduğundan yalnızca London kuvvetleri etkindir. Erimiş tuzda zıt yüklü iyonlar arasındaki iyon-iyon çekimi aşılır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her olguyu onu açıklayan sıvı özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Su damlasının küresel biçim alması"
+          },
+          {
+            "id": "2",
+            "text": "Zeytinyağının sudan daha yavaş akması"
+          },
+          {
+            "id": "3",
+            "text": "Suyun ince cam boruda kendiliğinden yükselmesi"
+          },
+          {
+            "id": "4",
+            "text": "Kolonyanın açık kapta kısa sürede azalması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Kılcallık"
+          },
+          {
+            "id": "b",
+            "text": "Yüzey gerilimi"
+          },
+          {
+            "id": "c",
+            "text": "Yüksek buhar basıncı ve uçuculuk"
+          },
+          {
+            "id": "d",
+            "text": "Yüksek viskozite (akmaya karşı direnç)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Yüzey gerilimi damlayı en küçük yüzeyli biçim olan küreye zorlar. Viskozite akmaya karşı direnci ölçer. Kılcallık, sıvının katı yüzeye yapışmasıyla dar borularda yükselmesidir. Uçucu sıvıların buhar basıncı yüksektir, bu yüzden hızla buharlaşır."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her çalışmayı ait olduğu kimya alt alanıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Bir tepkimenin hızının ve ısı alışverişinin incelenmesi"
+          },
+          {
+            "id": "2",
+            "text": "Bir içme suyu örneğindeki kurşun miktarının belirlenmesi"
+          },
+          {
+            "id": "3",
+            "text": "Karbon iskeletli yeni bir polimerin sentezlenmesi"
+          },
+          {
+            "id": "4",
+            "text": "Hücredeki enzimlerin işleyişinin aydınlatılması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Analitik kimya"
+          },
+          {
+            "id": "b",
+            "text": "Organik kimya"
+          },
+          {
+            "id": "c",
+            "text": "Fizikokimya"
+          },
+          {
+            "id": "d",
+            "text": "Biyokimya"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Fizikokimya tepkime hızı ve enerji alışverişi gibi fiziksel ilkeleri, analitik kimya madde miktarının ve türünün belirlenmesini, organik kimya karbon bileşiklerini, biyokimya ise canlıdaki moleküler süreçleri inceler."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Bir atomun"
+          },
+          {
+            "id": "2",
+            "text": "kütle numarası"
+          },
+          {
+            "id": "3",
+            "text": "çekirdeğindeki"
+          },
+          {
+            "id": "4",
+            "text": "proton ve nötron"
+          },
+          {
+            "id": "5",
+            "text": "sayılarının toplamına"
+          },
+          {
+            "id": "6",
+            "text": "eşittir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      "explanation": "Kütle numarası (A), çekirdekteki proton sayısı ile nötron sayısının toplamıdır. Elektronların kütlesi çok küçük olduğu için bu toplama katılmaz."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "kendine çekme"
+          },
+          {
+            "id": "2",
+            "text": "Bir atomun"
+          },
+          {
+            "id": "3",
+            "text": "elektronegatiflik denir"
+          },
+          {
+            "id": "4",
+            "text": "bağdaki"
+          },
+          {
+            "id": "5",
+            "text": "gücüne"
+          },
+          {
+            "id": "6",
+            "text": "ortak elektronları"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "6",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Elektronegatiflik, bir atomun kovalent bağdaki ortak elektron çiftini kendine doğru çekme gücüdür. Periyodik tabloda soldan sağa artar, yukarıdan aşağıya azalır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "iki elektron"
+          },
+          {
+            "id": "2",
+            "text": "Bir orbitalde"
+          },
+          {
+            "id": "3",
+            "text": "bulunabilir"
+          },
+          {
+            "id": "4",
+            "text": "en çok"
+          },
+          {
+            "id": "5",
+            "text": "zıt spinli"
+          },
+          {
+            "id": "6",
+            "text": "olarak"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Pauli ilkesine göre bir orbitali en çok iki elektron paylaşabilir ve bu iki elektronun spinleri birbirine zıt olmak zorundadır."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "dış basınca"
+          },
+          {
+            "id": "2",
+            "text": "kaynar"
+          },
+          {
+            "id": "3",
+            "text": "Bir sıvı"
+          },
+          {
+            "id": "4",
+            "text": "sıcaklıkta"
+          },
+          {
+            "id": "5",
+            "text": "buhar basıncının"
+          },
+          {
+            "id": "6",
+            "text": "eşit olduğu"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "1",
+          "6",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Kaynama, buhar basıncının dış basınca eşitlendiği sıcaklıkta başlar. Dış basınç düşerse kaynama sıcaklığı da düşer."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "elektron almasıyla"
+          },
+          {
+            "id": "2",
+            "text": "İyonik bağ"
+          },
+          {
+            "id": "3",
+            "text": "oluşur"
+          },
+          {
+            "id": "4",
+            "text": "metal atomunun"
+          },
+          {
+            "id": "5",
+            "text": "ve ametal atomunun"
+          },
+          {
+            "id": "6",
+            "text": "elektron vermesiyle"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "6",
+          "5",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "İyonik bağda metal atomu değerlik elektronlarını vererek katyona, ametal atomu bu elektronları alarak anyona dönüşür; bağ zıt yüklü bu iyonlar arasındaki çekimden doğar."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "kütleleri toplamına"
+          },
+          {
+            "id": "2",
+            "text": "Kapalı bir sistemde"
+          },
+          {
+            "id": "3",
+            "text": "kütleleri toplamı"
+          },
+          {
+            "id": "4",
+            "text": "eşittir"
+          },
+          {
+            "id": "5",
+            "text": "tepkimeye giren maddelerin"
+          },
+          {
+            "id": "6",
+            "text": "oluşan ürünlerin"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "3",
+          "6",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Kütlenin korunumu yasasıdır: kapalı bir sistemde atomlar yok olmadığı için girenlerin toplam kütlesi ürünlerin toplam kütlesine eşit kalır."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Değerlik elektron sayısı 7 olan elementlerin bulunduğu grubu işaretle.",
+        "image": "diagrams/periyodik-tablo-gruplar.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "1A grubu (alkali metaller)"
+          },
+          {
+            "id": "2",
+            "text": "2A grubu (toprak alkali metaller)"
+          },
+          {
+            "id": "3",
+            "text": "7A grubu (halojenler)"
+          },
+          {
+            "id": "4",
+            "text": "8A grubu (soy gazlar)"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "A gruplarında grup numarası değerlik elektron sayısına eşittir. Son katmanında 7 elektron bulunan elementler 7A grubunda, yani halojenlerdedir; bir elektron alarak soy gaz dizilimine ulaşırlar."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Son elektronu d orbitaline yerleşen elementlerin bulunduğu bloğu işaretle.",
+        "image": "diagrams/periyodik-tablo-bloklar.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "s bloğu"
+          },
+          {
+            "id": "2",
+            "text": "p bloğu"
+          },
+          {
+            "id": "3",
+            "text": "d bloğu"
+          },
+          {
+            "id": "4",
+            "text": "f bloğu"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Elementin bloğu son elektronun girdiği orbital türüyle adlandırılır. Son elektronu d orbitaline giren elementler d bloğunda bulunur; bunlar B gruplarındaki geçiş metalleridir."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "İki özdeş hidrojen atomu arasında kurulan bağ türünü işaretle.",
+        "image": "diagrams/bag-turleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Apolar kovalent bağ"
+          },
+          {
+            "id": "2",
+            "text": "Polar kovalent bağ"
+          },
+          {
+            "id": "3",
+            "text": "İyonik bağ"
+          },
+          {
+            "id": "4",
+            "text": "Metalik bağ"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Özdeş iki atomun elektronegatiflikleri eşit olduğu için ortak elektron çifti eşit paylaşılır ve kutuplaşma oluşmaz. Bu nedenle H₂ molekülündeki bağ apolar kovalenttir."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Oda koşullarında (25 °C, 1 atm) sıvı hâlde bulunan ametal elementi işaretle.",
+        "image": "diagrams/elementlerin-halleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Klor"
+          },
+          {
+            "id": "2",
+            "text": "Brom"
+          },
+          {
+            "id": "3",
+            "text": "İyot"
+          },
+          {
+            "id": "4",
+            "text": "Cıva"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Oda koşullarında klor gaz, iyot katıdır. Cıva sıvıdır ancak ametal değil metaldir. Bu koşullarda sıvı hâlde bulunan tek ametal bromdur."
+    },
+    {
+      "topic": "maddenin_halleri",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru hâl değişimi adıyla etiketle.",
+        "image": "diagrams/hal-degisimleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Katı hâlden sıvıya uğramadan doğrudan gaz hâline geçiş"
+          },
+          {
+            "id": "2",
+            "text": "Gaz hâlinden sıvıya uğramadan doğrudan katı hâline geçiş"
+          },
+          {
+            "id": "3",
+            "text": "Buhar basıncının dış basınca eşitlenmesiyle sıvının her yerinde buharlaşma"
+          }
+        ],
+        "labels": [
+          "Süblimleşme",
+          "Kırağılaşma",
+          "Kaynama",
+          "Yoğuşma"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Süblimleşme",
+          "2": "Kırağılaşma",
+          "3": "Kaynama"
+        }
+      },
+      "explanation": "Katıdan gaza doğrudan geçiş süblimleşme, gazdan katıya doğrudan geçiş kırağılaşmadır. Kaynama ise sıvının yalnızca yüzeyinde değil her yerinde buharlaşmanın görüldüğü olaydır. Yoğuşma gazdan sıvıya geçiştir ve bu tanımların hiçbirine karşılık gelmez."
+    },
+    {
+      "topic": "atom_ve_periyodik_sistem",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru tanecik adıyla etiketle.",
+        "image": "diagrams/tanecik-turleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Elektron vererek pozitif yüklü hâle gelmiş tanecik"
+          },
+          {
+            "id": "2",
+            "text": "Elektron alarak negatif yüklü hâle gelmiş tanecik"
+          },
+          {
+            "id": "3",
+            "text": "Proton sayıları aynı, nötron sayıları farklı atomlar"
+          }
+        ],
+        "labels": [
+          "Katyon",
+          "Anyon",
+          "İzotop",
+          "İzoton"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Katyon",
+          "2": "Anyon",
+          "3": "İzotop"
+        }
+      },
+      "explanation": "Elektron veren atom katyona, elektron alan atom anyona dönüşür. Proton sayısı aynı, nötron sayısı farklı atomlar izotoptur. İzotonlarda ise nötron sayıları aynı, proton sayıları farklıdır."
+    },
+    {
+      "topic": "kimya_bilimi",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru bilimsel bilgi türüyle etiketle.",
+        "image": "diagrams/bilimsel-yontem.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Bir gözlemi açıklamak için öne sürülen, deneyle sınanabilir geçici yargı"
+          },
+          {
+            "id": "2",
+            "text": "Doğada belirli koşullarda değişmez biçimde tekrarlanan olgunun ifadesi"
+          },
+          {
+            "id": "3",
+            "text": "Çok sayıda deney ve gözlemle desteklenmiş, olguları açıklayan kapsamlı model"
+          }
+        ],
+        "labels": [
+          "Hipotez",
+          "Yasa",
+          "Teori",
+          "Gözlem"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Hipotez",
+          "2": "Yasa",
+          "3": "Teori"
+        }
+      },
+      "explanation": "Hipotez sınanmak üzere kurulan geçici bir açıklamadır. Yasa olguyu betimler, nedenini açıklamaz. Teori ise geniş bir olgu kümesini açıklayan, güçlü kanıtlarla desteklenen modeldir; yasaya dönüşmez, farklı bir bilgi türüdür."
+    },
+    {
+      "topic": "kimyasal_turler_arasi_etkilesimler",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her tanımı doğru zayıf etkileşim türüyle etiketle.",
+        "image": "diagrams/zayif-etkilesimler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Apolar moleküllerde anlık kutuplaşmalardan doğan, en zayıf çekim"
+          },
+          {
+            "id": "2",
+            "text": "Kalıcı dipolü olan iki molekülün zıt uçları arasındaki çekim"
+          },
+          {
+            "id": "3",
+            "text": "Çözeltide yüklü bir taneciğin polar molekülleri çevresinde toplaması"
+          }
+        ],
+        "labels": [
+          "London kuvvetleri",
+          "Dipol-dipol etkileşimi",
+          "İyon-dipol etkileşimi",
+          "Hidrojen bağı"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "London kuvvetleri",
+          "2": "Dipol-dipol etkileşimi",
+          "3": "İyon-dipol etkileşimi"
+        }
+      },
+      "explanation": "London kuvvetleri anlık dipollerden doğar ve zayıf etkileşimlerin en küçüğüdür. Kalıcı dipoller arasındaki çekim dipol-dipol etkileşimidir. Tuzun suda çözünmesinde olduğu gibi iyonların polar molekülleri çevresine çekmesi iyon-dipol etkileşimidir."
     }
   ]
 }

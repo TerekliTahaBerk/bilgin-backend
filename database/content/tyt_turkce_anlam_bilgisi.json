@@ -12,446 +12,4091 @@
     "status": "published"
   },
   "topics": [
-    { "code": "sozcukte_anlam", "name": "Sözcükte Anlam", "grade_level": 9, "exam_weight": 5 },
-    { "code": "cumlede_anlam", "name": "Cümlede Anlam", "grade_level": 9, "exam_weight": 6 },
-    { "code": "paragrafta_anlam", "name": "Paragrafta Anlam", "grade_level": 9, "exam_weight": 8 }
+    {
+      "code": "sozcukte_anlam",
+      "name": "Sözcükte Anlam",
+      "grade_level": 9,
+      "exam_weight": 5
+    },
+    {
+      "code": "cumlede_anlam",
+      "name": "Cümlede Anlam",
+      "grade_level": 9,
+      "exam_weight": 6
+    },
+    {
+      "code": "paragrafta_anlam",
+      "name": "Paragrafta Anlam",
+      "grade_level": 9,
+      "exam_weight": 8
+    }
   ],
   "exercises": [
     {
-      "topic": "sozcukte_anlam", "type": "multiple_choice", "difficulty": 2, "scopes": ["tyt"],
+      "topic": "sozcukte_anlam",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Çocuğun soğuk bakışları içimi ürpertti.\" cümlesindeki \"soğuk\" sözcüğü hangi anlamda kullanılmıştır?",
         "options": [
-          { "id": "a", "text": "Gerçek anlam" },
-          { "id": "b", "text": "Mecaz anlam" },
-          { "id": "c", "text": "Terim anlam" },
-          { "id": "d", "text": "Yan anlam" }
+          {
+            "id": "a",
+            "text": "Gerçek anlam"
+          },
+          {
+            "id": "b",
+            "text": "Mecaz anlam"
+          },
+          {
+            "id": "c",
+            "text": "Terim anlam"
+          },
+          {
+            "id": "d",
+            "text": "Yan anlam"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "b" },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
       "explanation": "Bakış ısı taşımaz. Sözcük sıcaklık anlamından tamamen uzaklaşıp \"sevimsiz, ilgisiz\" anlamını kazandığı için mecaz anlamdadır."
     },
     {
-      "topic": "sozcukte_anlam", "type": "multiple_choice", "difficulty": 2, "scopes": ["tyt"],
+      "topic": "sozcukte_anlam",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "Aşağıdaki cümlelerin hangisinde altı çizili sözcük terim anlamıyla kullanılmıştır?",
         "options": [
-          { "id": "a", "text": "Şiirin <u>kafiye</u> düzenini inceledik." },
-          { "id": "b", "text": "Bahçedeki <u>gül</u> çok güzel kokuyor." },
-          { "id": "c", "text": "Elindeki <u>çanta</u> yırtılmış." },
-          { "id": "d", "text": "Sabah erkenden <u>yola</u> çıktık." }
+          {
+            "id": "a",
+            "text": "Şiirin <u>kafiye</u> düzenini inceledik."
+          },
+          {
+            "id": "b",
+            "text": "Bahçedeki <u>gül</u> çok güzel kokuyor."
+          },
+          {
+            "id": "c",
+            "text": "Elindeki <u>çanta</u> yırtılmış."
+          },
+          {
+            "id": "d",
+            "text": "Sabah erkenden <u>yola</u> çıktık."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Terim, bir bilim ya da sanat dalına özgü sözcüktür. \"Kafiye\" edebiyat terimidir."
     },
     {
-      "topic": "sozcukte_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "sozcukte_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Masanın ayağı kırılmış.\" cümlesindeki \"ayak\" sözcüğünün anlamı aşağıdakilerden hangisidir?",
         "options": [
-          { "id": "a", "text": "Gerçek anlam" },
-          { "id": "b", "text": "Yan anlam" },
-          { "id": "c", "text": "Mecaz anlam" },
-          { "id": "d", "text": "Terim anlam" }
+          {
+            "id": "a",
+            "text": "Gerçek anlam"
+          },
+          {
+            "id": "b",
+            "text": "Yan anlam"
+          },
+          {
+            "id": "c",
+            "text": "Mecaz anlam"
+          },
+          {
+            "id": "d",
+            "text": "Terim anlam"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "b" },
+      "answer_key": {
+        "correct_option_id": "b"
+      },
       "explanation": "Yan anlam, gerçek anlamla bağını koruyan yeni anlamdır. Masanın ayağı da tıpkı canlının ayağı gibi taşıma ve yere değme işlevindedir."
     },
     {
-      "topic": "sozcukte_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "sozcukte_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "Aşağıdakilerden hangisinde deyim, açıklamasıyla birlikte verilmemiştir?",
         "options": [
-          { "id": "a", "text": "Etekleri zil çalmak: çok sevinmek" },
-          { "id": "b", "text": "Göz yummak: görmezden gelmek" },
-          { "id": "c", "text": "Pabucu dama atılmak: değerini yitirmek" },
-          { "id": "d", "text": "Kitap okumak: bilgi edinmek" }
+          {
+            "id": "a",
+            "text": "Etekleri zil çalmak: çok sevinmek"
+          },
+          {
+            "id": "b",
+            "text": "Göz yummak: görmezden gelmek"
+          },
+          {
+            "id": "c",
+            "text": "Pabucu dama atılmak: değerini yitirmek"
+          },
+          {
+            "id": "d",
+            "text": "Kitap okumak: bilgi edinmek"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "d" },
+      "answer_key": {
+        "correct_option_id": "d"
+      },
       "explanation": "\"Kitap okumak\" bir deyim değil, sözcüklerin gerçek anlamıyla kurulmuş sıradan bir söz öbeğidir."
     },
     {
-      "topic": "sozcukte_anlam", "type": "multiple_choice", "difficulty": 4, "scopes": ["tyt"],
+      "topic": "sozcukte_anlam",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Yüz\" sözcüğü aşağıdaki cümlelerin hangisinde diğerlerinden farklı bir anlamda kullanılmıştır?",
         "options": [
-          { "id": "a", "text": "Sınavdan yüz aldı." },
-          { "id": "b", "text": "Yüzünü yıkadı." },
-          { "id": "c", "text": "Yüzü gülüyordu." },
-          { "id": "d", "text": "Yüzüne bakamadı." }
+          {
+            "id": "a",
+            "text": "Sınavdan yüz aldı."
+          },
+          {
+            "id": "b",
+            "text": "Yüzünü yıkadı."
+          },
+          {
+            "id": "c",
+            "text": "Yüzü gülüyordu."
+          },
+          {
+            "id": "d",
+            "text": "Yüzüne bakamadı."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "A'da \"yüz\" sayı adıdır. Diğerlerinde insanın ön bölümünü, yani sesteş olmayan asıl anlamı karşılar."
     },
     {
-      "topic": "cumlede_anlam", "type": "multiple_choice", "difficulty": 2, "scopes": ["tyt"],
+      "topic": "cumlede_anlam",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Bu kitabı bitirirsem sana veririm.\" cümlesinde aşağıdakilerden hangisi vardır?",
         "options": [
-          { "id": "a", "text": "Koşul" },
-          { "id": "b", "text": "Karşılaştırma" },
-          { "id": "c", "text": "Neden-sonuç" },
-          { "id": "d", "text": "Amaç-sonuç" }
+          {
+            "id": "a",
+            "text": "Koşul"
+          },
+          {
+            "id": "b",
+            "text": "Karşılaştırma"
+          },
+          {
+            "id": "c",
+            "text": "Neden-sonuç"
+          },
+          {
+            "id": "d",
+            "text": "Amaç-sonuç"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"-sa/-se\" eki bir eylemi başka bir eylemin gerçekleşmesine bağlıyor; bu koşul (şart) anlamıdır."
     },
     {
-      "topic": "cumlede_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "cumlede_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?",
         "options": [
-          { "id": "a", "text": "Yağmur yağdığı için maç ertelendi." },
-          { "id": "b", "text": "Sınava girmek için erken kalktı." },
-          { "id": "c", "text": "Kardeşi ondan daha çalışkandı." },
-          { "id": "d", "text": "İzin verirsen ben de geleyim." }
+          {
+            "id": "a",
+            "text": "Yağmur yağdığı için maç ertelendi."
+          },
+          {
+            "id": "b",
+            "text": "Sınava girmek için erken kalktı."
+          },
+          {
+            "id": "c",
+            "text": "Kardeşi ondan daha çalışkandı."
+          },
+          {
+            "id": "d",
+            "text": "İzin verirsen ben de geleyim."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Yağmur gerçekleşmiş bir durumdur ve ertelemeye yol açmıştır. B'de ise eylem henüz gerçekleşmemiş bir istektir; o amaç-sonuçtur."
     },
     {
-      "topic": "cumlede_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "cumlede_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Bu konuyu anlamadığını sanmıyorum.\" cümlesinde anlatılmak istenen nedir?",
         "options": [
-          { "id": "a", "text": "Konuyu anladığı düşünülüyor." },
-          { "id": "b", "text": "Konuyu anlamadığı kesindir." },
-          { "id": "c", "text": "Konuyu anlaması beklenmiyor." },
-          { "id": "d", "text": "Konu hakkında bilgi yoktur." }
+          {
+            "id": "a",
+            "text": "Konuyu anladığı düşünülüyor."
+          },
+          {
+            "id": "b",
+            "text": "Konuyu anlamadığı kesindir."
+          },
+          {
+            "id": "c",
+            "text": "Konuyu anlaması beklenmiyor."
+          },
+          {
+            "id": "d",
+            "text": "Konu hakkında bilgi yoktur."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "İki olumsuzluk birbirini götürür: \"anlamadığını sanmıyorum\" = \"anladığını düşünüyorum\"."
     },
     {
-      "topic": "cumlede_anlam", "type": "multiple_choice", "difficulty": 4, "scopes": ["tyt"],
+      "topic": "cumlede_anlam",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "Aşağıdaki cümlelerin hangisi kesinlik bildirmez?",
         "options": [
-          { "id": "a", "text": "Toplantı saat üçte başlayacak." },
-          { "id": "b", "text": "Sınav sonuçları açıklandı." },
-          { "id": "c", "text": "Galiba bu yolu daha önce kullanmıştık." },
-          { "id": "d", "text": "Bu film 2019 yılında çekildi." }
+          {
+            "id": "a",
+            "text": "Toplantı saat üçte başlayacak."
+          },
+          {
+            "id": "b",
+            "text": "Sınav sonuçları açıklandı."
+          },
+          {
+            "id": "c",
+            "text": "Galiba bu yolu daha önce kullanmıştık."
+          },
+          {
+            "id": "d",
+            "text": "Bu film 2019 yılında çekildi."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "c" },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
       "explanation": "\"Galiba\" olasılık bildirir; konuşan kişi söylediğinden emin değildir."
     },
     {
-      "topic": "cumlede_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "cumlede_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Az konuşur, çok iş yapardı.\" cümlesinde hangi anlam ilişkisi vardır?",
         "options": [
-          { "id": "a", "text": "Karşılaştırma" },
-          { "id": "b", "text": "Koşul" },
-          { "id": "c", "text": "Amaç" },
-          { "id": "d", "text": "Olasılık" }
+          {
+            "id": "a",
+            "text": "Karşılaştırma"
+          },
+          {
+            "id": "b",
+            "text": "Koşul"
+          },
+          {
+            "id": "c",
+            "text": "Amaç"
+          },
+          {
+            "id": "d",
+            "text": "Olasılık"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Aynı kişinin iki özelliği \"az\" ve \"çok\" ile karşı karşıya konmuştur."
     },
     {
-      "topic": "paragrafta_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "paragrafta_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Okumak, başkasının gözüyle dünyaya bakmaktır. Her kitap size sizin olmayan bir hayatı ödünç verir.\" Bu parçada okumanın hangi yönü vurgulanmıştır?",
         "options": [
-          { "id": "a", "text": "Farklı bakış açıları kazandırması" },
-          { "id": "b", "text": "Bilgi birikimini artırması" },
-          { "id": "c", "text": "Dinlendirici olması" },
-          { "id": "d", "text": "Dil becerisini geliştirmesi" }
+          {
+            "id": "a",
+            "text": "Farklı bakış açıları kazandırması"
+          },
+          {
+            "id": "b",
+            "text": "Bilgi birikimini artırması"
+          },
+          {
+            "id": "c",
+            "text": "Dinlendirici olması"
+          },
+          {
+            "id": "d",
+            "text": "Dil becerisini geliştirmesi"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"Başkasının gözüyle bakmak\" ve \"sizin olmayan bir hayat\" ifadeleri, başkalarının bakış açısını edinmeyi anlatır."
     },
     {
-      "topic": "paragrafta_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "paragrafta_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "Bir paragrafın giriş cümlesi için aşağıdakilerden hangisi söylenemez?",
         "options": [
-          { "id": "a", "text": "Konuyu ortaya koyar." },
-          { "id": "b", "text": "Kendisinden önce bir cümle olduğunu sezdirmez." },
-          { "id": "c", "text": "\"Bu nedenle\", \"oysa\" gibi bağlayıcılarla başlar." },
-          { "id": "d", "text": "Genellikle bağımsız bir yargı taşır." }
+          {
+            "id": "a",
+            "text": "Konuyu ortaya koyar."
+          },
+          {
+            "id": "b",
+            "text": "Kendisinden önce bir cümle olduğunu sezdirmez."
+          },
+          {
+            "id": "c",
+            "text": "\"Bu nedenle\", \"oysa\" gibi bağlayıcılarla başlar."
+          },
+          {
+            "id": "d",
+            "text": "Genellikle bağımsız bir yargı taşır."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "c" },
+      "answer_key": {
+        "correct_option_id": "c"
+      },
       "explanation": "Bağlayıcı ifadeler kendilerinden önce bir cümle olduğunu gösterir; bu yüzden giriş cümlesi böyle başlayamaz."
     },
     {
-      "topic": "paragrafta_anlam", "type": "multiple_choice", "difficulty": 4, "scopes": ["tyt"],
+      "topic": "paragrafta_anlam",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Sanatçı, gördüğünü değil gördüğü karşısında duyduğunu anlatır.\" cümlesine anlamca en yakın cümle hangisidir?",
         "options": [
-          { "id": "a", "text": "Sanatta gerçeklik değil, duygusal etki esastır." },
-          { "id": "b", "text": "Sanatçı gözlem yapmaktan kaçınmalıdır." },
-          { "id": "c", "text": "Sanat yapıtı gerçeği birebir yansıtır." },
-          { "id": "d", "text": "Sanatçının duyguları okuru ilgilendirmez." }
+          {
+            "id": "a",
+            "text": "Sanatta gerçeklik değil, duygusal etki esastır."
+          },
+          {
+            "id": "b",
+            "text": "Sanatçı gözlem yapmaktan kaçınmalıdır."
+          },
+          {
+            "id": "c",
+            "text": "Sanat yapıtı gerçeği birebir yansıtır."
+          },
+          {
+            "id": "d",
+            "text": "Sanatçının duyguları okuru ilgilendirmez."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Cümle, aktarılanın nesnel görüntü değil öznel duygu olduğunu söylüyor."
     },
     {
-      "topic": "paragrafta_anlam", "type": "multiple_choice", "difficulty": 4, "scopes": ["tyt"],
+      "topic": "paragrafta_anlam",
+      "type": "multiple_choice",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "Bir paragrafta \"düşünceyi geliştirme yolu\" olarak tanımlama kullanıldığını gösteren ifade hangisidir?",
         "options": [
-          { "id": "a", "text": "\"Roman, olay örgüsüne dayanan uzun bir anlatı türüdür.\"" },
-          { "id": "b", "text": "\"Örneğin Sait Faik'in öyküleri...\"" },
-          { "id": "c", "text": "\"Oysa şiirde durum farklıdır.\"" },
-          { "id": "d", "text": "\"Bir araştırmaya göre okuma oranı düşmüştür.\"" }
+          {
+            "id": "a",
+            "text": "\"Roman, olay örgüsüne dayanan uzun bir anlatı türüdür.\""
+          },
+          {
+            "id": "b",
+            "text": "\"Örneğin Sait Faik'in öyküleri...\""
+          },
+          {
+            "id": "c",
+            "text": "\"Oysa şiirde durum farklıdır.\""
+          },
+          {
+            "id": "d",
+            "text": "\"Bir araştırmaya göre okuma oranı düşmüştür.\""
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Tanımlama \"...nedir?\" sorusuna cevap verir. A seçeneği romanın ne olduğunu açıklıyor."
     },
     {
-      "topic": "paragrafta_anlam", "type": "multiple_choice", "difficulty": 3, "scopes": ["tyt"],
+      "topic": "paragrafta_anlam",
+      "type": "multiple_choice",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Kelimeler ucuzladıkça anlam pahalanır.\" cümlesiyle anlatılmak istenen nedir?",
         "options": [
-          { "id": "a", "text": "Çok konuşmak, söylenenin değerini düşürür." },
-          { "id": "b", "text": "Sözcük dağarcığı geniş olmalıdır." },
-          { "id": "c", "text": "Yazı dili konuşma dilinden üstündür." },
-          { "id": "d", "text": "Anlamı zengin sözcükler seçilmelidir." }
+          {
+            "id": "a",
+            "text": "Çok konuşmak, söylenenin değerini düşürür."
+          },
+          {
+            "id": "b",
+            "text": "Sözcük dağarcığı geniş olmalıdır."
+          },
+          {
+            "id": "c",
+            "text": "Yazı dili konuşma dilinden üstündür."
+          },
+          {
+            "id": "d",
+            "text": "Anlamı zengin sözcükler seçilmelidir."
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "Sözün bollaşması anlamın seyrelmesine yol açar; yani gereksiz çok söz söylemek anlatımı değersizleştirir."
     },
     {
-      "topic": "sozcukte_anlam", "type": "multiple_choice", "difficulty": 2, "scopes": ["tyt"],
+      "topic": "sozcukte_anlam",
+      "type": "multiple_choice",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "stem": "\"Ağzı açık\" deyimi aşağıdakilerden hangisi anlamına gelir?",
         "options": [
-          { "id": "a", "text": "Şaşkın, dikkatsiz" },
-          { "id": "b", "text": "Çok konuşan" },
-          { "id": "c", "text": "Açık sözlü" },
-          { "id": "d", "text": "Aç kalmış" }
+          {
+            "id": "a",
+            "text": "Şaşkın, dikkatsiz"
+          },
+          {
+            "id": "b",
+            "text": "Çok konuşan"
+          },
+          {
+            "id": "c",
+            "text": "Açık sözlü"
+          },
+          {
+            "id": "d",
+            "text": "Aç kalmış"
+          }
         ],
         "shuffle": true
       },
-      "answer_key": { "correct_option_id": "a" },
+      "answer_key": {
+        "correct_option_id": "a"
+      },
       "explanation": "\"Ağzı açık\" deyimi, çevresinde olup biteni fark etmeyen dalgın ve şaşkın kişiler için kullanılır."
     },
-
-    { "topic": "sozcukte_anlam", "type": "true_false", "difficulty": 1, "scopes": ["tyt"],
-      "content": { "statement": "Bir sözcüğün gerçek anlamıyla bağı kalmamışsa mecaz anlamdadır." },
-      "answer_key": { "value": true },
-      "explanation": "Doğru. Gerçek anlamla bağ koparsa mecaz, bağ korunursa yan anlam olur." },
-    { "topic": "sozcukte_anlam", "type": "true_false", "difficulty": 2, "scopes": ["tyt"],
-      "content": { "statement": "Terim anlamlı sözcükler yalnızca fen bilimlerinde bulunur." },
-      "answer_key": { "value": false },
-      "explanation": "Yanlış. Edebiyat, müzik, spor gibi her alanın kendi terimleri vardır: kafiye, nota, faul." },
-    { "topic": "cumlede_anlam", "type": "true_false", "difficulty": 2, "scopes": ["tyt"],
-      "content": { "statement": "\"Çalışmak için değil, öğrenmek için okuyordu.\" cümlesinde amaç anlamı vardır." },
-      "answer_key": { "value": true },
-      "explanation": "Doğru. \"-mek için\" yapısı amaç bildirir." },
-    { "topic": "cumlede_anlam", "type": "true_false", "difficulty": 2, "scopes": ["tyt"],
-      "content": { "statement": "Öznel yargılar kişiden kişiye değişmeyen, kanıtlanabilir ifadelerdir." },
-      "answer_key": { "value": false },
-      "explanation": "Yanlış. Kanıtlanabilir olan nesnel yargıdır; öznel yargı kişisel değerlendirme taşır." },
-    { "topic": "paragrafta_anlam", "type": "true_false", "difficulty": 2, "scopes": ["tyt"],
-      "content": { "statement": "Bir paragrafın ana düşüncesi genellikle tek bir cümleyle özetlenebilir." },
-      "answer_key": { "value": true },
-      "explanation": "Doğru. Ana düşünce, paragrafın tamamını kapsayan tek yargıdır." },
-
-    { "topic": "sozcukte_anlam", "type": "fill_blank", "difficulty": 2, "scopes": ["tyt"],
-      "content": { "template": "Gerçek anlamla bağını koruyan yeni anlama {{0}} anlam denir.", "choices": ["yan", "mecaz", "terim", "soyut"] },
-      "answer_key": { "blanks": ["yan"] },
-      "explanation": "Yan anlam, gerçek anlamdan türeyen ama onunla benzerlik bağını sürdüren anlamdır." },
-    { "topic": "sozcukte_anlam", "type": "fill_blank", "difficulty": 2, "scopes": ["tyt"],
-      "content": { "template": "Yazılışı aynı, anlamı farklı sözcüklere {{0}} sözcük denir.", "choices": ["sesteş", "eş anlamlı", "zıt anlamlı", "türemiş"] },
-      "answer_key": { "blanks": ["sesteş"] },
-      "explanation": "Sesteş (eş sesli) sözcükler aynı yazılır, farklı anlamlar taşır: yüz (sayı) - yüz (surat)." },
-    { "topic": "cumlede_anlam", "type": "fill_blank", "difficulty": 3, "scopes": ["tyt"],
-      "content": { "template": "\"Ders çalışmak {{0}} sınava girdi.\" cümlesinde amaç anlamı vardır.", "choices": ["için", "diye", "ise", "gibi"] },
-      "answer_key": { "blanks": ["için"] },
-      "explanation": "\"-mek için\" yapısı eylemin gerekçesini değil hedefini gösterir; bu amaçtır." },
-    { "topic": "cumlede_anlam", "type": "fill_blank", "difficulty": 3, "scopes": ["tyt"],
-      "content": { "template": "Kanıtlanabilir, kişiden kişiye değişmeyen yargılara {{0}} yargı denir.", "choices": ["nesnel", "öznel", "koşullu", "varsayımsal"] },
-      "answer_key": { "blanks": ["nesnel"] },
-      "explanation": "Nesnel yargılar doğruluğu sınanabilen ifadelerdir." },
-    { "topic": "paragrafta_anlam", "type": "fill_blank", "difficulty": 3, "scopes": ["tyt"],
-      "content": { "template": "Paragrafta yazarın okuru inandırmak için sayı ve oran kullanmasına {{0}} denir.", "choices": ["sayısal verilerden yararlanma", "tanımlama", "örnekleme", "benzetme"] },
-      "answer_key": { "blanks": ["sayısal verilerden yararlanma"] },
-      "explanation": "İstatistik ve oran kullanımı, düşünceyi geliştirme yollarından sayısal verilerden yararlanmadır." },
-
-    { "topic": "sozcukte_anlam", "type": "matching", "difficulty": 3, "scopes": ["tyt"],
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir sözcüğün gerçek anlamıyla bağı kalmamışsa mecaz anlamdadır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Gerçek anlamla bağ koparsa mecaz, bağ korunursa yan anlam olur."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Terim anlamlı sözcükler yalnızca fen bilimlerinde bulunur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Edebiyat, müzik, spor gibi her alanın kendi terimleri vardır: kafiye, nota, faul."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Çalışmak için değil, öğrenmek için okuyordu.\" cümlesinde amaç anlamı vardır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"-mek için\" yapısı amaç bildirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Öznel yargılar kişiden kişiye değişmeyen, kanıtlanabilir ifadelerdir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kanıtlanabilir olan nesnel yargıdır; öznel yargı kişisel değerlendirme taşır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir paragrafın ana düşüncesi genellikle tek bir cümleyle özetlenebilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Ana düşünce, paragrafın tamamını kapsayan tek yargıdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Gerçek anlamla bağını koruyan yeni anlama {{0}} anlam denir.",
+        "choices": [
+          "yan",
+          "mecaz",
+          "terim",
+          "soyut"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "yan"
+        ]
+      },
+      "explanation": "Yan anlam, gerçek anlamdan türeyen ama onunla benzerlik bağını sürdüren anlamdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Yazılışı aynı, anlamı farklı sözcüklere {{0}} sözcük denir.",
+        "choices": [
+          "sesteş",
+          "eş anlamlı",
+          "zıt anlamlı",
+          "türemiş"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "sesteş"
+        ]
+      },
+      "explanation": "Sesteş (eş sesli) sözcükler aynı yazılır, farklı anlamlar taşır: yüz (sayı) - yüz (surat)."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Ders çalışmak {{0}} sınava girdi.\" cümlesinde amaç anlamı vardır.",
+        "choices": [
+          "için",
+          "diye",
+          "ise",
+          "gibi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "için"
+        ]
+      },
+      "explanation": "\"-mek için\" yapısı eylemin gerekçesini değil hedefini gösterir; bu amaçtır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kanıtlanabilir, kişiden kişiye değişmeyen yargılara {{0}} yargı denir.",
+        "choices": [
+          "nesnel",
+          "öznel",
+          "koşullu",
+          "varsayımsal"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "nesnel"
+        ]
+      },
+      "explanation": "Nesnel yargılar doğruluğu sınanabilen ifadelerdir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Paragrafta yazarın okuru inandırmak için sayı ve oran kullanmasına {{0}} denir.",
+        "choices": [
+          "sayısal verilerden yararlanma",
+          "tanımlama",
+          "örnekleme",
+          "benzetme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "sayısal verilerden yararlanma"
+        ]
+      },
+      "explanation": "İstatistik ve oran kullanımı, düşünceyi geliştirme yollarından sayısal verilerden yararlanmadır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Deyimi anlamıyla eşleştir.",
         "left": [
-          { "id": "1", "text": "Etekleri zil çalmak" },
-          { "id": "2", "text": "Göz yummak" },
-          { "id": "3", "text": "Ağzından baklayı çıkarmak" },
-          { "id": "4", "text": "Pabucu dama atılmak" }
+          {
+            "id": "1",
+            "text": "Etekleri zil çalmak"
+          },
+          {
+            "id": "2",
+            "text": "Göz yummak"
+          },
+          {
+            "id": "3",
+            "text": "Ağzından baklayı çıkarmak"
+          },
+          {
+            "id": "4",
+            "text": "Pabucu dama atılmak"
+          }
         ],
         "right": [
-          { "id": "a", "text": "Çok sevinmek" },
-          { "id": "b", "text": "Görmezden gelmek" },
-          { "id": "c", "text": "Sakladığı sırrı söylemek" },
-          { "id": "d", "text": "Değerini yitirmek" }
+          {
+            "id": "a",
+            "text": "Çok sevinmek"
+          },
+          {
+            "id": "b",
+            "text": "Görmezden gelmek"
+          },
+          {
+            "id": "c",
+            "text": "Sakladığı sırrı söylemek"
+          },
+          {
+            "id": "d",
+            "text": "Değerini yitirmek"
+          }
         ]
       },
-      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" }, "partial_credit": true },
-      "explanation": "Deyimler kalıplaşmış sözlerdir; anlamları sözcüklerin toplamından çıkarılamaz." },
-    { "topic": "sozcukte_anlam", "type": "matching", "difficulty": 2, "scopes": ["tyt"],
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Deyimler kalıplaşmış sözlerdir; anlamları sözcüklerin toplamından çıkarılamaz."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Sözcüğü anlam türüyle eşleştir.",
         "left": [
-          { "id": "1", "text": "Gözlük camı kırıldı" },
-          { "id": "2", "text": "Tatlı dilli biriydi" },
-          { "id": "3", "text": "Şiirde redif kullanılmış" },
-          { "id": "4", "text": "Dağın eteğinde kamp kurduk" }
+          {
+            "id": "1",
+            "text": "Gözlük camı kırıldı"
+          },
+          {
+            "id": "2",
+            "text": "Tatlı dilli biriydi"
+          },
+          {
+            "id": "3",
+            "text": "Şiirde redif kullanılmış"
+          },
+          {
+            "id": "4",
+            "text": "Dağın eteğinde kamp kurduk"
+          }
         ],
         "right": [
-          { "id": "a", "text": "Gerçek anlam" },
-          { "id": "b", "text": "Mecaz anlam" },
-          { "id": "c", "text": "Terim anlam" },
-          { "id": "d", "text": "Yan anlam" }
+          {
+            "id": "a",
+            "text": "Gerçek anlam"
+          },
+          {
+            "id": "b",
+            "text": "Mecaz anlam"
+          },
+          {
+            "id": "c",
+            "text": "Terim anlam"
+          },
+          {
+            "id": "d",
+            "text": "Yan anlam"
+          }
         ]
       },
-      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" }, "partial_credit": true },
-      "explanation": "Dağın eteği, giysinin eteğiyle konum benzerliği taşıdığı için yan anlamdır." },
-    { "topic": "cumlede_anlam", "type": "matching", "difficulty": 3, "scopes": ["tyt"],
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dağın eteği, giysinin eteğiyle konum benzerliği taşıdığı için yan anlamdır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Cümleyi taşıdığı anlam ilişkisiyle eşleştir.",
         "left": [
-          { "id": "1", "text": "Hava soğuduğu için içeri girdik." },
-          { "id": "2", "text": "Görmek için gözlük taktı." },
-          { "id": "3", "text": "İstersen sen de gel." },
-          { "id": "4", "text": "Ablası ondan daha uzundu." }
+          {
+            "id": "1",
+            "text": "Hava soğuduğu için içeri girdik."
+          },
+          {
+            "id": "2",
+            "text": "Görmek için gözlük taktı."
+          },
+          {
+            "id": "3",
+            "text": "İstersen sen de gel."
+          },
+          {
+            "id": "4",
+            "text": "Ablası ondan daha uzundu."
+          }
         ],
         "right": [
-          { "id": "a", "text": "Neden-sonuç" },
-          { "id": "b", "text": "Amaç-sonuç" },
-          { "id": "c", "text": "Koşul" },
-          { "id": "d", "text": "Karşılaştırma" }
+          {
+            "id": "a",
+            "text": "Neden-sonuç"
+          },
+          {
+            "id": "b",
+            "text": "Amaç-sonuç"
+          },
+          {
+            "id": "c",
+            "text": "Koşul"
+          },
+          {
+            "id": "d",
+            "text": "Karşılaştırma"
+          }
         ]
       },
-      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" }, "partial_credit": true },
-      "explanation": "Neden-sonuçta ilk eylem gerçekleşmiştir; amaç-sonuçta ikinci eylem henüz bir hedeftir." },
-    { "topic": "paragrafta_anlam", "type": "matching", "difficulty": 4, "scopes": ["tyt"],
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Neden-sonuçta ilk eylem gerçekleşmiştir; amaç-sonuçta ikinci eylem henüz bir hedeftir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "İfadeyi düşünceyi geliştirme yoluyla eşleştir.",
         "left": [
-          { "id": "1", "text": "\"Roman, uzun bir anlatı türüdür.\"" },
-          { "id": "2", "text": "\"Sözgelimi Sait Faik...\"" },
-          { "id": "3", "text": "\"Ünlü eleştirmen şöyle der: ...\"" },
-          { "id": "4", "text": "\"Şiir ile öykü arasındaki fark ise...\"" }
+          {
+            "id": "1",
+            "text": "\"Roman, uzun bir anlatı türüdür.\""
+          },
+          {
+            "id": "2",
+            "text": "\"Sözgelimi Sait Faik...\""
+          },
+          {
+            "id": "3",
+            "text": "\"Ünlü eleştirmen şöyle der: ...\""
+          },
+          {
+            "id": "4",
+            "text": "\"Şiir ile öykü arasındaki fark ise...\""
+          }
         ],
         "right": [
-          { "id": "a", "text": "Tanımlama" },
-          { "id": "b", "text": "Örneklendirme" },
-          { "id": "c", "text": "Tanık gösterme" },
-          { "id": "d", "text": "Karşılaştırma" }
+          {
+            "id": "a",
+            "text": "Tanımlama"
+          },
+          {
+            "id": "b",
+            "text": "Örneklendirme"
+          },
+          {
+            "id": "c",
+            "text": "Tanık gösterme"
+          },
+          {
+            "id": "d",
+            "text": "Karşılaştırma"
+          }
         ]
       },
-      "answer_key": { "pairs": { "1": "a", "2": "b", "3": "c", "4": "d" }, "partial_credit": true },
-      "explanation": "Tanık gösterme, konuda uzman birinin sözüne başvurmaktır." },
-
-    { "topic": "paragrafta_anlam", "type": "ordering", "difficulty": 4, "scopes": ["tyt"],
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Tanık gösterme, konuda uzman birinin sözüne başvurmaktır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Cümleleri anlamlı bir paragraf olacak şekilde sırala.",
         "items": [
-          { "id": "1", "text": "Okumak bir alışkanlıktır." },
-          { "id": "2", "text": "Her alışkanlık gibi o da küçük adımlarla kazanılır." },
-          { "id": "3", "text": "Günde on sayfa, yılda bir rafa dönüşür." },
-          { "id": "4", "text": "Önemli olan hızlı değil, düzenli olmaktır." }
+          {
+            "id": "1",
+            "text": "Okumak bir alışkanlıktır."
+          },
+          {
+            "id": "2",
+            "text": "Her alışkanlık gibi o da küçük adımlarla kazanılır."
+          },
+          {
+            "id": "3",
+            "text": "Günde on sayfa, yılda bir rafa dönüşür."
+          },
+          {
+            "id": "4",
+            "text": "Önemli olan hızlı değil, düzenli olmaktır."
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
-      "explanation": "Genel yargıdan (alışkanlık) somut örneğe (on sayfa), oradan sonuca (düzen) gidilir." },
-    { "topic": "paragrafta_anlam", "type": "ordering", "difficulty": 3, "scopes": ["tyt"],
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Genel yargıdan (alışkanlık) somut örneğe (on sayfa), oradan sonuca (düzen) gidilir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Paragrafın bölümlerini sırala.",
         "items": [
-          { "id": "1", "text": "Giriş" },
-          { "id": "2", "text": "Gelişme" },
-          { "id": "3", "text": "Sonuç" }
+          {
+            "id": "1",
+            "text": "Giriş"
+          },
+          {
+            "id": "2",
+            "text": "Gelişme"
+          },
+          {
+            "id": "3",
+            "text": "Sonuç"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3"] },
-      "explanation": "Paragraf giriş, gelişme ve sonuç bölümlerinden oluşur." },
-    { "topic": "cumlede_anlam", "type": "ordering", "difficulty": 4, "scopes": ["tyt"],
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      "explanation": "Paragraf giriş, gelişme ve sonuç bölümlerinden oluşur."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Kesinlik derecesine göre az kesinden çok kesine sırala.",
         "items": [
-          { "id": "1", "text": "Belki gelir." },
-          { "id": "2", "text": "Sanırım gelecek." },
-          { "id": "3", "text": "Herhâlde gelir." },
-          { "id": "4", "text": "Mutlaka gelecek." }
+          {
+            "id": "1",
+            "text": "Belki gelir."
+          },
+          {
+            "id": "2",
+            "text": "Sanırım gelecek."
+          },
+          {
+            "id": "3",
+            "text": "Herhâlde gelir."
+          },
+          {
+            "id": "4",
+            "text": "Mutlaka gelecek."
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
-      "explanation": "\"Belki\" en zayıf olasılığı, \"mutlaka\" kesinliği bildirir." },
-    { "topic": "sozcukte_anlam", "type": "ordering", "difficulty": 3, "scopes": ["tyt"],
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "\"Belki\" en zayıf olasılığı, \"mutlaka\" kesinliği bildirir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Somuttan soyuta doğru sırala.",
         "items": [
-          { "id": "1", "text": "Taş" },
-          { "id": "2", "text": "Ev" },
-          { "id": "3", "text": "Güven" },
-          { "id": "4", "text": "Özgürlük" }
+          {
+            "id": "1",
+            "text": "Taş"
+          },
+          {
+            "id": "2",
+            "text": "Ev"
+          },
+          {
+            "id": "3",
+            "text": "Güven"
+          },
+          {
+            "id": "4",
+            "text": "Özgürlük"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
-      "explanation": "Taş ve ev duyularla algılanır (somut); güven ve özgürlük algılanamaz (soyut)." },
-
-    { "topic": "sozcukte_anlam", "type": "flashcard", "difficulty": 1, "scopes": ["tyt"],
-      "content": { "front": "Yan anlam", "back": "Gerçek anlamla benzerlik bağını koruyan yeni anlam. Örnek: masanın ayağı." },
-      "answer_key": { "self_assessed": true } },
-    { "topic": "cumlede_anlam", "type": "flashcard", "difficulty": 1, "scopes": ["tyt"],
-      "content": { "front": "Öznel yargı", "back": "Kişiden kişiye değişen, kanıtlanamayan değerlendirme. Örnek: Bu film çok güzeldi." },
-      "answer_key": { "self_assessed": true } },
-    { "topic": "paragrafta_anlam", "type": "flashcard", "difficulty": 1, "scopes": ["tyt"],
-      "content": { "front": "Ana düşünce", "back": "Paragrafın tamamını kapsayan, yazarın okura iletmek istediği temel yargı." },
-      "answer_key": { "self_assessed": true } },
-
-    { "topic": "paragrafta_anlam", "type": "word_order", "difficulty": 3, "scopes": ["tyt"],
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Taş ve ev duyularla algılanır (somut); güven ve özgürlük algılanamaz (soyut)."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Yan anlam",
+        "back": "Gerçek anlamla benzerlik bağını koruyan yeni anlam. Örnek: masanın ayağı."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Öznel yargı",
+        "back": "Kişiden kişiye değişen, kanıtlanamayan değerlendirme. Örnek: Bu film çok güzeldi."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "flashcard",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "front": "Ana düşünce",
+        "back": "Paragrafın tamamını kapsayan, yazarın okura iletmek istediği temel yargı."
+      },
+      "answer_key": {
+        "self_assessed": true
+      }
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Sözcükleri anlamlı bir cümle olacak şekilde sırala.",
         "words": [
-          { "id": "1", "text": "Okumak" },
-          { "id": "2", "text": "insanı" },
-          { "id": "3", "text": "özgürleştirir" }
+          {
+            "id": "1",
+            "text": "Okumak"
+          },
+          {
+            "id": "2",
+            "text": "insanı"
+          },
+          {
+            "id": "3",
+            "text": "özgürleştirir"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3"] } },
-    { "topic": "cumlede_anlam", "type": "word_order", "difficulty": 3, "scopes": ["tyt"],
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "word_order",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
       "content": {
         "instruction": "Sözcükleri kurallı bir cümle olacak şekilde sırala.",
         "words": [
-          { "id": "1", "text": "Öğrenci" },
-          { "id": "2", "text": "sabah" },
-          { "id": "3", "text": "kütüphaneye" },
-          { "id": "4", "text": "gitti" }
+          {
+            "id": "1",
+            "text": "Öğrenci"
+          },
+          {
+            "id": "2",
+            "text": "sabah"
+          },
+          {
+            "id": "3",
+            "text": "kütüphaneye"
+          },
+          {
+            "id": "4",
+            "text": "gitti"
+          }
         ]
       },
-      "answer_key": { "order": ["1", "2", "3", "4"] },
-      "explanation": "Türkçede kurallı cümlede yüklem sondadır." }
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "explanation": "Türkçede kurallı cümlede yüklem sondadır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Soğuk\" sözcüğü \"Soğuk bir karşılama oldu.\" cümlesinde mecaz anlamda kullanılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Burada sıcaklıkla ilgili gerçek anlam yoktur; ilgisiz ve sevgisiz davranış anlatılmıştır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Sevgi\" sözcüğü somut anlamlı bir sözcüktür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"Sevgi\" duyu organlarıyla algılanamayan bir kavramdır; soyut anlamlıdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Deyimlerin anlamı, deyimi oluşturan sözcüklerin tek tek anlamlarından çıkarılabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Deyimler kalıplaşmış söz öbekleridir; anlamları sözcüklerin toplamından farklı, yeni bir anlamdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Kuvvet\" sözcüğü fizik dersinde kullanıldığında terim anlamı kazanır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bir bilim ya da sanat alanında özel ve sınırlı bir kavramı karşılayan sözcükler terim anlamlıdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Yüz\" sözcüğünün \"çehre\" ve \"sayı\" anlamları arasında anlam ilişkisi bulunmadığı için bu sözcük sesteştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Yazılışları aynı, anlamları arasında hiçbir bağ olmayan sözcükler sesteş (eş sesli) sayılır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Yağmur yağarsa maç ertelenir.\" cümlesinde koşul (şart) anlamı vardır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"-sa / -se\" eki birinci yargıyı ikincinin gerçekleşme koşulu yapar."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Bu film, izlediğim en güzel filmdi.\" cümlesi nesnel bir yargı içerir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"En güzel\" değerlendirmesi kişiye göre değişir ve kanıtlanamaz; yargı özneldir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Tatile gittik diyelim, parayı nereden bulacağız?\" cümlesinde varsayım anlamı vardır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"Diyelim ki, tut ki, varsayalım\" gibi sözler gerçekleşmemiş bir durumu olmuş kabul ettirir; bu varsayımdır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Kitabı okudum ama hiçbir şey anlamadım.\" cümlesinde neden-sonuç ilişkisi vardır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. \"Ama\" bağlacı burada karşıtlık (zıtlık) kurar; bir yargı diğerinin nedeni değildir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Keşke biraz daha erken çıksaydık.\" cümlesinde pişmanlık anlamı vardır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"Keşke\" sözcüğü olmuş bitmiş bir durumdan duyulan üzüntüyü, yani pişmanlığı bildirir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Paragrafın konusu \"Yazar neden söz ediyor?\" sorusunun cevabıdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Konu, parçada ele alınan sorundur; ana düşünce ise yazarın bu konuda vermek istediği mesajdır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir paragrafın giriş cümlesi \"bu nedenle, oysa, ayrıca\" gibi bağlayıcı sözlerle başlayabilir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bu sözler kendilerinden önce bir cümle bulunduğunu gösterir; giriş cümlesi bağımsız olmalıdır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Paragrafta anlatımın akışını bozan, konu dışı kalan cümleye \"anlatım bozukluğu\" denir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Konu birliğini bozan cümleye \"konu akışını bozan cümle\" denir; anlatım bozukluğu dil ve mantık yanlışlarıyla ilgilidir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Duyu organlarıyla algılanamayan varlık ve kavramları karşılayan sözcüklere {{0}} anlamlı sözcük denir.",
+        "choices": [
+          "soyut",
+          "somut",
+          "terim",
+          "sesteş"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "soyut"
+        ]
+      },
+      "explanation": "\"Sevgi, özgürlük, akıl\" gibi sözcükler duyularla kavranamaz; bunlar soyut anlamlıdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir sözcüğün akla ilk gelen, herkesçe bilinen anlamına {{0}} anlam denir.",
+        "choices": [
+          "gerçek",
+          "mecaz",
+          "yan",
+          "argo"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "gerçek"
+        ]
+      },
+      "explanation": "Gerçek (temel) anlam, sözcüğün sözlükteki ilk ve asıl anlamıdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Üzüntüsünü belli etmemek için {{0}} bastı.\" sözünde kişinin acısını gizlemesi anlatılmaktadır.",
+        "choices": [
+          "içine attı",
+          "ağzını açtı",
+          "elini çabuk tuttu",
+          "aklını kaçırdı"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "içine attı"
+        ]
+      },
+      "explanation": "\"İçine atmak\" deyimi, üzüntüsünü kimseye söylemeyip kendi içinde yaşamak anlamına gelir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Dağın {{0}} çiçek açmıştı.\" cümlesinde boşluğa gelen sözcük, bir giysi adının yan anlamda kullanılmasına örnektir.",
+        "choices": [
+          "eteğinde",
+          "zirvesinde",
+          "yolunda",
+          "gölgesinde"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "eteğinde"
+        ]
+      },
+      "explanation": "\"Etek\" asıl anlamıyla giysi parçasıdır; dağın alt bölümü için kullanıldığında benzerlik yoluyla yan anlam kazanır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Taze\" sözcüğü \"taze ekmek\" sözünde {{0}} anlamda, \"taze haber\" sözünde ise {{1}} anlamda kullanılmıştır.",
+        "choices": [
+          "gerçek",
+          "mecaz",
+          "yan",
+          "terim",
+          "soyut",
+          "somut"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "gerçek",
+          "mecaz"
+        ]
+      },
+      "explanation": "Ekmek için \"taze\", bayatlamamış demektir ve gerçek anlamdır; haber için kullanıldığında yeni anlamına gelen mecaz anlamdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Birbirine yakın anlamlı sözcüklerin cümlede yerine göre ayırt edilmesine sözcükte {{0}} denir.",
+        "choices": [
+          "anlam ayırtısı",
+          "anlam genişlemesi",
+          "anlam daralması",
+          "anlam kayması"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "anlam ayırtısı"
+        ]
+      },
+      "explanation": "\"Dilek - istek - arzu\" gibi yakın anlamlı sözcükler arasındaki ince anlam farkına anlam ayırtısı (nüans) denir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Çok çalıştı {{0}} başarılı oldu.\" cümlesinde neden-sonuç ilişkisi kurulmuştur.",
+        "choices": [
+          "bu yüzden",
+          "ne yazık ki",
+          "oysa",
+          "sanki"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "bu yüzden"
+        ]
+      },
+      "explanation": "\"Bu yüzden\" bağlayıcısı önündeki yargıyı neden, arkasındakini sonuç durumuna getirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Erken yattı {{0}} sabah yine yorgundu.\" cümlesinde beklenenin gerçekleşmediği, yani karşıtlık anlamı vardır.",
+        "choices": [
+          "ama",
+          "çünkü",
+          "için",
+          "diye"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ama"
+        ]
+      },
+      "explanation": "\"Ama, fakat, oysa, ne var ki\" gibi sözler iki yargı arasında karşıtlık ilişkisi kurar."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Ağabeyi {{0}} çalışkandır.\" cümlesinde iki varlık arasında karşılaştırma yapılmıştır.",
+        "choices": [
+          "kardeşinden daha",
+          "oldukça",
+          "sanırım",
+          "ne yazık ki"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kardeşinden daha"
+        ]
+      },
+      "explanation": "Karşılaştırmada iki varlık bir özellik bakımından ölçülür; \"-den daha\" yapısı bu ilişkiyi kurar."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"{{0}} yarın bu işi bitirmişiz, sonra ne yapacağız?\" cümlesinde varsayım anlamı vardır.",
+        "choices": [
+          "Tut ki",
+          "Madem ki",
+          "Çünkü",
+          "Oysa"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Tut ki"
+        ]
+      },
+      "explanation": "\"Tut ki, diyelim ki, varsayalım\" sözleri gerçekleşmemiş bir durumu olmuş kabul ettirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Toplantı {{0}} iptal edilmiş olabilir.\" cümlesinde {{1}} anlamı vardır.",
+        "choices": [
+          "galiba",
+          "kesinlikle",
+          "olasılık",
+          "kesinlik",
+          "koşul",
+          "varsayım"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "galiba",
+          "olasılık"
+        ]
+      },
+      "explanation": "\"Galiba, belki, sanırım\" gibi sözler ve \"-ebilir\" eki yargının gerçekleşip gerçekleşmediğinden emin olunmadığını, yani olasılığı bildirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Söylenmek isteneni açıkça değil, sezdirerek anlatan cümlelere {{0}} anlatımlı cümle denir.",
+        "choices": [
+          "dolaylı",
+          "doğrudan",
+          "nesnel",
+          "öyküleyici"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "dolaylı"
+        ]
+      },
+      "explanation": "Dolaylı anlatımda yargı üstü kapalı verilir; okur anlamı cümleden kendisi çıkarır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Paragrafın tamamında anlatılanların özeti olan, yazarın vermek istediği temel mesaja {{0}} denir.",
+        "choices": [
+          "ana düşünce",
+          "yardımcı düşünce",
+          "konu",
+          "başlık"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ana düşünce"
+        ]
+      },
+      "explanation": "Ana düşünce yazarın okura iletmek istediği asıl yargıdır; yardımcı düşünceler onu destekler."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir kavramı başka bir kavramla arasındaki benzerlik ya da farklılıklar üzerinden anlatmaya {{0}} denir.",
+        "choices": [
+          "karşılaştırma",
+          "tanık gösterme",
+          "tanımlama",
+          "örneklendirme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "karşılaştırma"
+        ]
+      },
+      "explanation": "Karşılaştırmada iki varlık, kavram ya da durum benzer ve farklı yönleriyle birlikte ele alınır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Yazarın savunduğu görüşü güçlendirmek için alanında yetkin bir kişinin sözünü aktarmasına {{0}} denir.",
+        "choices": [
+          "tanık gösterme",
+          "benzetme",
+          "sayısal verilerden yararlanma",
+          "tanımlama"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tanık gösterme"
+        ]
+      },
+      "explanation": "Tanık gösterme (örnek olarak alıntı yapma), sözü güvenilir bir uzmana dayandırarak inandırıcılığı artırır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Paragrafın giriş bölümünde {{0}} gibi bağlayıcı sözler bulunmaz; çünkü bu bölüm kendinden önceki bir cümleye bağlanmaz.",
+        "choices": [
+          "oysa",
+          "bir gün",
+          "örneğin bir",
+          "insanlar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "oysa"
+        ]
+      },
+      "explanation": "\"Oysa, bu nedenle, ayrıca, kısacası\" gibi sözler önceki cümleye gönderme yapar; giriş cümlesi bağımsız olmalıdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Deyimi anlamıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Burnu havada olmak"
+          },
+          {
+            "id": "2",
+            "text": "Kulak kesilmek"
+          },
+          {
+            "id": "3",
+            "text": "İpe un sermek"
+          },
+          {
+            "id": "4",
+            "text": "Dananın kuyruğu kopmak"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bir işi yapmamak için bahane üretmek"
+          },
+          {
+            "id": "b",
+            "text": "Kendini beğenmiş, kibirli davranmak"
+          },
+          {
+            "id": "c",
+            "text": "Beklenen olayın sonunda çıkması"
+          },
+          {
+            "id": "d",
+            "text": "Büyük bir dikkatle dinlemek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Deyimler kalıplaşmış sözlerdir; anlamları sözcüklerin tek tek anlamlarından çıkarılamaz."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcüğü anlam türüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Masa"
+          },
+          {
+            "id": "2",
+            "text": "Adalet"
+          },
+          {
+            "id": "3",
+            "text": "Üçgen"
+          },
+          {
+            "id": "4",
+            "text": "El atmak"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Geometri alanına ait terim anlamlı sözcük"
+          },
+          {
+            "id": "b",
+            "text": "Duyularla algılanan somut anlamlı sözcük"
+          },
+          {
+            "id": "c",
+            "text": "Duyularla algılanamayan soyut anlamlı sözcük"
+          },
+          {
+            "id": "d",
+            "text": "Kalıplaşmış söz öbeği, yani deyim"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "a",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Masa görülüp dokunulabilir, adalet soyuttur, üçgen geometride özel bir kavramı karşıladığı için terimdir; \"el atmak\" ise kalıplaşmış bir deyimdir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "\"Düşmek\" sözcüğünün kullanımını kazandığı anlamla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Çocuk merdivenden düştü."
+          },
+          {
+            "id": "2",
+            "text": "Ateşi akşama doğru düştü."
+          },
+          {
+            "id": "3",
+            "text": "Bu iş bana düştü."
+          },
+          {
+            "id": "4",
+            "text": "Yolu bize düştü."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bir yerden aşağı doğru inmek (gerçek anlam)"
+          },
+          {
+            "id": "b",
+            "text": "Bir değerin azalması"
+          },
+          {
+            "id": "c",
+            "text": "Bir kimsenin payına ya da görevine gelmek"
+          },
+          {
+            "id": "d",
+            "text": "Yol bir yerin yakınından geçmek"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Çok anlamlı sözcükler gerçek anlamından türeyen birçok yan ve mecaz anlam kazanabilir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcük çiftini aralarındaki anlam ilişkisiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "cevap - yanıt"
+          },
+          {
+            "id": "2",
+            "text": "ucuz - pahalı"
+          },
+          {
+            "id": "3",
+            "text": "kır (saç) - kır (ova)"
+          },
+          {
+            "id": "4",
+            "text": "çiçek - gül"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Eş anlamlılık"
+          },
+          {
+            "id": "b",
+            "text": "Genelden özele doğru anlam ilişkisi"
+          },
+          {
+            "id": "c",
+            "text": "Zıt anlamlılık"
+          },
+          {
+            "id": "d",
+            "text": "Sesteşlik"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "c",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Çiçek gülü de kapsar; bu yüzden ilişki genelden özeledir. Sesteşlerde yazılış aynı, anlamlar arasında bağ yoktur."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleyi taşıdığı anlam özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Keşke o günü bir daha yaşayabilsem."
+          },
+          {
+            "id": "2",
+            "text": "Dünya Güneş'in çevresinde döner."
+          },
+          {
+            "id": "3",
+            "text": "Kitap bence çok sıkıcıydı."
+          },
+          {
+            "id": "4",
+            "text": "Yarın hava yağışlı olabilir."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Kanıtlanabilir nesnel yargı"
+          },
+          {
+            "id": "b",
+            "text": "Pişmanlık ve özlem anlamı"
+          },
+          {
+            "id": "c",
+            "text": "Olasılık (tahmin) anlamı"
+          },
+          {
+            "id": "d",
+            "text": "Kişisel değerlendirme içeren öznel yargı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"Bence\" gibi sözler yargıyı öznel yapar; \"-ebilir\" ve \"olabilir\" olasılık bildirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleyi kurduğu anlam ilişkisiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Yolları kapalı olduğu için köye ulaşamadık."
+          },
+          {
+            "id": "2",
+            "text": "İzin verirsen ben de geleyim."
+          },
+          {
+            "id": "3",
+            "text": "Bu yıl geçen yıldan daha çok kitap okudum."
+          },
+          {
+            "id": "4",
+            "text": "Diyelim ki sınavı kazandın, hangi şehre gidersin?"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Koşul (şart) ilişkisi"
+          },
+          {
+            "id": "b",
+            "text": "Neden-sonuç ilişkisi"
+          },
+          {
+            "id": "c",
+            "text": "Varsayım"
+          },
+          {
+            "id": "d",
+            "text": "Karşılaştırma"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"İçin\" neden, \"-sa/-se\" koşul, \"-den daha çok\" karşılaştırma, \"diyelim ki\" varsayım bildirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleyi anlatım biçimiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Dilenmekten iyidir çalışmak."
+          },
+          {
+            "id": "2",
+            "text": "Bu iş en geç cuma günü bitecek."
+          },
+          {
+            "id": "3",
+            "text": "Söyleyeceklerimi anlamış görünüyordu."
+          },
+          {
+            "id": "4",
+            "text": "Ne olurdu biraz daha sabretseydi."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Kesinlik anlamı"
+          },
+          {
+            "id": "b",
+            "text": "Üstünlük (iki durumdan birini yeğleme)"
+          },
+          {
+            "id": "c",
+            "text": "Yakınma (hayıflanma)"
+          },
+          {
+            "id": "d",
+            "text": "Kuşku (emin olmama)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "\"-den iyidir\" üstünlük, \"en geç\" kesinlik, \"görünüyordu\" kuşku, \"ne olurdu\" yakınma anlamı katar."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Paragraf bölümünü taşıdığı işlevle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Giriş"
+          },
+          {
+            "id": "2",
+            "text": "Gelişme"
+          },
+          {
+            "id": "3",
+            "text": "Sonuç"
+          },
+          {
+            "id": "4",
+            "text": "Başlık"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Konuyu tanıtır, bağlayıcı sözle başlamaz"
+          },
+          {
+            "id": "b",
+            "text": "Ana düşünceyi örnek ve kanıtlarla destekler"
+          },
+          {
+            "id": "c",
+            "text": "Anlatılanları toparlar, yargıyı bağlar"
+          },
+          {
+            "id": "d",
+            "text": "Konuyu en kısa biçimde adlandırır"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Giriş tanıtır, gelişme geliştirir, sonuç bağlar; başlık ise parçanın adıdır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleyi kullanılan düşünceyi geliştirme yoluyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "\"Okuma oranı son beş yılda yüzde 12 arttı.\""
+          },
+          {
+            "id": "2",
+            "text": "\"Şiir, duyguların en yoğun biçimde dile getirildiği türdür.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Zihin, işlenmeyince paslanan bir demir gibidir.\""
+          },
+          {
+            "id": "4",
+            "text": "\"Roman uzun, öykü ise tek olaya dayanan kısa bir anlatıdır.\""
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sayısal verilerden yararlanma"
+          },
+          {
+            "id": "b",
+            "text": "Tanımlama"
+          },
+          {
+            "id": "c",
+            "text": "Benzetme"
+          },
+          {
+            "id": "d",
+            "text": "Karşılaştırma"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Oran verme sayısal veri, \"nedir\" sorusunun cevabı tanımlama, \"gibi\" ile kurulan ilgi benzetme, iki türün farkını verme karşılaştırmadır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Dağınık verilen cümleleri, bağlaç ve göndermeleri izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Oysa bu çeşitlilik son yüzyılda hızla azalmıştır."
+          },
+          {
+            "id": "2",
+            "text": "Anadolu, buğdayın en eski tarım alanlarından biridir."
+          },
+          {
+            "id": "3",
+            "text": "Bu nedenle tohum bankaları eski türleri kayıt altına almaya çalışıyor."
+          },
+          {
+            "id": "4",
+            "text": "Bu topraklarda yüzlerce yerel buğday türü yetişmiştir."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Giriş cümlesi Anadolu'yu adlandırır; \"bu topraklarda\" göndermesi onu izler. \"Oysa bu çeşitlilik\" önceki cümledeki çok sayıda türe karşıt kurar, \"bu nedenle\" ise sonucu bildirir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Söz konusu kayıtlar çoğunlukla kütüphanelerde tutulur."
+          },
+          {
+            "id": "2",
+            "text": "Sonuç olarak yanan her kütüphane, geri alınamayan bir hafıza kaybıdır."
+          },
+          {
+            "id": "3",
+            "text": "Bir şehrin belleği taşlarında değil, kayıtlarında saklıdır."
+          },
+          {
+            "id": "4",
+            "text": "Ancak bu binalar yangında ilk zarar gören yerlerden biridir."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Genel yargı \"kayıtlar\" sözcüğünü ortaya atar; \"söz konusu kayıtlar\" onu alır. \"Bu binalar\" kütüphaneleri gösterdiği için ondan sonra gelir, \"sonuç olarak\" ise paragrafı kapatır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Söz konusu kentlerde kahvehaneler kısa sürede birer sohbet durağına dönüştü."
+          },
+          {
+            "id": "2",
+            "text": "Kahve, Etiyopya'nın yüksek yaylalarında yetişen bir bitkidir."
+          },
+          {
+            "id": "3",
+            "text": "Ancak bu mekânlar bazı dönemlerde kapatılmak istendi."
+          },
+          {
+            "id": "4",
+            "text": "Bu bitki önce Yemen'e, oradan Osmanlı kentlerine taşındı."
+          },
+          {
+            "id": "5",
+            "text": "Sonuç olarak kahve, yalnızca bir içeceğin değil bir toplanma alışkanlığının da adı oldu."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3",
+          "5"
+        ]
+      },
+      "explanation": "\"Bu bitki\" kahveyi, \"söz konusu kentler\" Osmanlı kentlerini, \"bu mekânlar\" ise kahvehaneleri gösterir. Göndermeler zinciri tek bir sıra bırakır; \"sonuç olarak\" en sonda yer alır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir sözcüğün anlam genişlemesini anlatan cümleleri, göndermeleri izleyerek anlamlı bir paragraf olacak biçimde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Böylece iğnenin gözü, çeşmenin gözü gibi kullanımlar doğmuştur."
+          },
+          {
+            "id": "2",
+            "text": "\"Göz\" sözcüğünün temel anlamı, görme organıdır."
+          },
+          {
+            "id": "3",
+            "text": "Bu organın adı zamanla ona benzeyen başka nesnelere de verilmiştir."
+          },
+          {
+            "id": "4",
+            "text": "Ayrıca sözcük, \"göze girmek\" gibi deyimlerde gerçek anlamından tümüyle uzaklaşmıştır."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Önce temel anlam verilir; \"bu organın adı\" göndermesi onu izler. \"Böylece\" benzerlik yoluyla doğan yan anlam örneklerini, \"ayrıca\" ise deyim aşamasını ekler."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, anlattıkları olayların gerçekleşme sırasına göre en önce olandan en sonra olana doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sabah pencereyi açtığımda sokağın bembeyaz olduğunu gördüm."
+          },
+          {
+            "id": "2",
+            "text": "Bu yüzden okul servisleri saatinde gelemedi."
+          },
+          {
+            "id": "3",
+            "text": "Gece boyunca lapa lapa kar yağmıştı."
+          },
+          {
+            "id": "4",
+            "text": "Sonunda dersler bir gün ertelendi."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Kar gece yağmıştır (-mıştı eki önceliği bildirir), kar sabah görülmüştür. \"Bu yüzden\" görülen durumun sonucunu, \"sonunda\" ise zincirin son halkasını verir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, bildirdikleri sıklığın azdan çoğa gidişine göre sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sık sık geç kalır."
+          },
+          {
+            "id": "2",
+            "text": "Hiç geç kalmaz."
+          },
+          {
+            "id": "3",
+            "text": "Her zaman geç kalır."
+          },
+          {
+            "id": "4",
+            "text": "Nadiren geç kalır."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "\"Hiç\" sıklığın yokluğunu, \"nadiren\" seyrekliği, \"sık sık\" yüksek sıklığı, \"her zaman\" ise süreklilik bildirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Ancak bu iki cümle birbirinden farklı iki durumu anlatır."
+          },
+          {
+            "id": "2",
+            "text": "Bir cümlenin anlamı yalnızca sözcüklerinden çıkmaz."
+          },
+          {
+            "id": "3",
+            "text": "Örneğin \"Yalnız o geldi.\" ile \"O yalnız geldi.\" aynı sözcükleri taşır."
+          },
+          {
+            "id": "4",
+            "text": "Bu anlam, sözcüklerin dizilişinden ve vurgudan da doğar."
+          },
+          {
+            "id": "5",
+            "text": "Bu nedenle cümleyi anlamak, sözcük bilmekten fazlasını ister."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1",
+          "5"
+        ]
+      },
+      "explanation": "\"Bu anlam\" giriş cümlesindeki anlamı gösterir; \"örneğin\" dizilişe örnek verir; \"bu iki cümle\" örnekteki cümleleri gösterir; \"bu nedenle\" paragrafı sonuca bağlar."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, kapsadıkları anlam alanının genişliğine göre genelden özele doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Ağaç"
+          },
+          {
+            "id": "2",
+            "text": "Varlık"
+          },
+          {
+            "id": "3",
+            "text": "Çam"
+          },
+          {
+            "id": "4",
+            "text": "Bitki"
+          },
+          {
+            "id": "5",
+            "text": "Canlı"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Her sözcük kendinden sonrakini kapsar: varlık canlıyı, canlı bitkiyi, bitki ağacı, ağaç da çamı içine alır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Ancak bu bilgiyi alan arılar dansı görmez, titreşimlerle sezer."
+          },
+          {
+            "id": "2",
+            "text": "Bal arıları, buldukları çiçeğin yerini birbirlerine dansla anlatır."
+          },
+          {
+            "id": "3",
+            "text": "Bu nedenle kovandaki iletişim, insanınkine benzemeyen bir dile dayanır."
+          },
+          {
+            "id": "4",
+            "text": "Bu dansın yönü çiçeğin bulunduğu doğrultuyu, süresi ise uzaklığı bildirir."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Giriş cümlesi dansı tanıtır; \"bu dansın\" onu gösterir. \"Bu bilgi\" yön ve uzaklık bilgisini karşılar, \"bu nedenle\" ise paragrafı sonuca bağlar."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Bu yollara karşı çıkanlar, taşıt şeridinin daralacağını söylüyor."
+          },
+          {
+            "id": "2",
+            "text": "Bu nedenle tartışma, şerit genişliği üzerinden değil taşınan insan sayısı üzerinden yürütülmelidir."
+          },
+          {
+            "id": "3",
+            "text": "Kent içi bisiklet yolları yıllardır tartışılıyor."
+          },
+          {
+            "id": "4",
+            "text": "Oysa aynı genişlikteki bir şerit, otomobile göre çok daha fazla bisikletliyi taşır."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Konu önce adlandırılır; \"bu yollara\" onu gösterir. \"Oysa\" karşı görüşe karşıtlık kurar, \"bu nedenle\" de yargıyı bağlar."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri, bildirdikleri zaman süresinin kısadan uzuna göre sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Saat"
+          },
+          {
+            "id": "2",
+            "text": "An"
+          },
+          {
+            "id": "3",
+            "text": "Yıl"
+          },
+          {
+            "id": "4",
+            "text": "Dakika"
+          },
+          {
+            "id": "5",
+            "text": "Gün"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "An en kısa süreyi anlatır; dakika, saat, gün ve yıl sırasıyla daha uzun zaman aralıklarını karşılar."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Terim anlamı konu alan cümleleri, göndermeleri izleyerek anlamlı bir paragraf olacak biçimde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Bu dağarcıktaki sözcükler, günlük dilde bambaşka bir anlam taşıyabilir."
+          },
+          {
+            "id": "2",
+            "text": "Her bilim ve sanat alanının kendine özgü bir sözcük dağarcığı vardır."
+          },
+          {
+            "id": "3",
+            "text": "Bu nedenle bir sözcüğün anlamı, kullanıldığı alandan ayrı düşünülemez."
+          },
+          {
+            "id": "4",
+            "text": "Örneğin \"kök\" bahçede bitkinin toprak altındaki bölümü, dil bilgisinde ise sözcüğün anlamlı en küçük parçasıdır."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "\"Bu dağarcıktaki\" giriş cümlesindeki dağarcığı gösterir; \"örneğin\" ondan önce söylenen genel yargıya örnek verir; \"bu nedenle\" sonucu bildirir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, bildirdikleri miktarın azdan çoğa gidişine göre sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Çantasında birkaç kitap vardı."
+          },
+          {
+            "id": "2",
+            "text": "Çantası kitaptan kapanmıyordu."
+          },
+          {
+            "id": "3",
+            "text": "Çantasında neredeyse hiç kitap yoktu."
+          },
+          {
+            "id": "4",
+            "text": "Çantasında bir sürü kitap vardı."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "\"Neredeyse hiç\" yokluğa yakın azlığı, \"birkaç\" sınırlı sayıyı, \"bir sürü\" fazlalığı bildirir; çantanın kapanmaması ise en yüksek miktarı anlatır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Bu nedenle ray uçları arasına küçük boşluklar bırakılır."
+          },
+          {
+            "id": "2",
+            "text": "Tren rayları sıcak havada bir miktar uzar."
+          },
+          {
+            "id": "3",
+            "text": "Böylece tren geçerken duyulan o tıkırtı sesi ortaya çıkar."
+          },
+          {
+            "id": "4",
+            "text": "Bu uzamaya yer bırakılmazsa raylar burkulur."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Giriş cümlesi uzamayı söyler; \"bu uzamaya\" onu gösterir. \"Bu nedenle\" alınan önlemi, \"böylece\" de o önlemin sonucunu bildirir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sesteş sözcükleri konu alan cümleleri, göndermeleri izleyerek anlamlı bir paragraf olacak biçimde sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Oysa bu sözcüklerin anlamları arasında hiçbir bağ yoktur."
+          },
+          {
+            "id": "2",
+            "text": "Bu nedenle sesteş bir sözcüğün anlamı ancak cümle içinde kesinleşir."
+          },
+          {
+            "id": "3",
+            "text": "Sesteş sözcükler yazılışta birbirinin aynıdır."
+          },
+          {
+            "id": "4",
+            "text": "Örneğin \"yüz\" bir sayıyı, bir organı ve bir eylemi karşılayabilir."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Tanım cümlesi konuyu açar; \"bu sözcüklerin\" onu gösterir. \"Oysa\" yazılış benzerliğiyle anlam ayrılığını karşılaştırır, \"örneğin\" örnek verir, \"bu nedenle\" sonuca bağlar."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir sürecin aşamalarını anlatan cümleleri ilk adımdan son adıma doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Dinlenen hamur mayanın etkisiyle kabarır."
+          },
+          {
+            "id": "2",
+            "text": "Ekmek yapımı, unun suyla ve mayayla karıştırılmasıyla başlar."
+          },
+          {
+            "id": "3",
+            "text": "Son olarak kabaran hamur fırına verilir."
+          },
+          {
+            "id": "4",
+            "text": "Bu karışım yoğrulduktan sonra dinlenmeye bırakılır."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "\"Başlar\" ilk adımı, \"bu karışım\" bir önceki adımın ürününü, \"dinlenen hamur\" dinlenme aşamasını, \"son olarak\" ise son adımı gösterir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cümleleri, göndermeleri ve geçiş ifadelerini izleyerek anlamlı bir paragraf olacak biçimde ilk cümleden son cümleye doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Söz konusu kazıklar havasız kaldığı için çürümemiş, zamanla sertleşmiştir."
+          },
+          {
+            "id": "2",
+            "text": "Bu nedenle yapılar, zemine çakılan ahşap kazıkların üzerine oturtulmuştur."
+          },
+          {
+            "id": "3",
+            "text": "Venedik, yüzlerce küçük ada üzerine kurulmuş bir kenttir."
+          },
+          {
+            "id": "4",
+            "text": "Sonuç olarak kenti yüzyıllardır ayakta tutan şey taş duvarlar değil, suyun altındaki bu ormandır."
+          },
+          {
+            "id": "5",
+            "text": "Bu adaların zemini ise yumuşak çamurdan oluşur."
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "2",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Giriş cümlesi kenti adlandırır; \"bu adaların\" onu gösterir. \"Bu nedenle\" yumuşak zeminin sonucunu, \"söz konusu kazıklar\" bir önceki cümledeki kazıkları karşılar; \"sonuç olarak\" paragrafı kapatır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri dizerek temel anlamın tanımını veren kurallı cümleyi kur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "temel"
+          },
+          {
+            "id": "2",
+            "text": "Sözcüğün"
+          },
+          {
+            "id": "3",
+            "text": "denir"
+          },
+          {
+            "id": "4",
+            "text": "gelen"
+          },
+          {
+            "id": "5",
+            "text": "anlam"
+          },
+          {
+            "id": "6",
+            "text": "akla"
+          },
+          {
+            "id": "7",
+            "text": "anlamına"
+          },
+          {
+            "id": "8",
+            "text": "ilk"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "6",
+          "8",
+          "4",
+          "7",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Sözcüğün akla ilk gelen anlamına temel anlam denir. Temel anlam, sözlükte ilk sırada verilen anlamdır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri dizerek yan anlamın tanımını veren kurallı cümleyi kur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "anlama"
+          },
+          {
+            "id": "2",
+            "text": "koruyan"
+          },
+          {
+            "id": "3",
+            "text": "yan"
+          },
+          {
+            "id": "4",
+            "text": "Gerçek"
+          },
+          {
+            "id": "5",
+            "text": "denir"
+          },
+          {
+            "id": "6",
+            "text": "bağını"
+          },
+          {
+            "id": "7",
+            "text": "anlam"
+          },
+          {
+            "id": "8",
+            "text": "anlamla"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "8",
+          "6",
+          "2",
+          "1",
+          "3",
+          "7",
+          "5"
+        ]
+      },
+      "explanation": "Gerçek anlamla bağını koruyan anlama yan anlam denir. Bağ tamamen koptuğunda sözcük mecaz anlam kazanır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri dizerek nesnel yargının tanımını veren kurallı cümleyi kur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "yargı"
+          },
+          {
+            "id": "2",
+            "text": "değişmeyen"
+          },
+          {
+            "id": "3",
+            "text": "Kişiden"
+          },
+          {
+            "id": "4",
+            "text": "nesnel"
+          },
+          {
+            "id": "5",
+            "text": "denir"
+          },
+          {
+            "id": "6",
+            "text": "yargılara"
+          },
+          {
+            "id": "7",
+            "text": "kişiye"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "7",
+          "2",
+          "6",
+          "4",
+          "1",
+          "5"
+        ]
+      },
+      "explanation": "Kişiden kişiye değişmeyen yargılara nesnel yargı denir. Nesnel yargılar kanıtlanabilir niteliktedir."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri dizerek koşul anlamını açıklayan kurallı cümleyi kur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "cümlelerde"
+          },
+          {
+            "id": "2",
+            "text": "bulunur"
+          },
+          {
+            "id": "3",
+            "text": "Gerçekleşmesi"
+          },
+          {
+            "id": "4",
+            "text": "anlamı"
+          },
+          {
+            "id": "5",
+            "text": "şarta"
+          },
+          {
+            "id": "6",
+            "text": "koşul"
+          },
+          {
+            "id": "7",
+            "text": "bağlanan"
+          },
+          {
+            "id": "8",
+            "text": "bir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "8",
+          "5",
+          "7",
+          "1",
+          "6",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Gerçekleşmesi bir şarta bağlanan cümlelerde koşul anlamı bulunur. Koşul çoğunlukla \"-sa / -se\" ekiyle ya da \"-ince, -dıkça\" gibi yapılarla kurulur."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri dizerek ana düşüncenin tanımını veren kurallı cümleyi kur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "çıkarılan"
+          },
+          {
+            "id": "2",
+            "text": "ana"
+          },
+          {
+            "id": "3",
+            "text": "Paragrafta"
+          },
+          {
+            "id": "4",
+            "text": "denir"
+          },
+          {
+            "id": "5",
+            "text": "tamamından"
+          },
+          {
+            "id": "6",
+            "text": "düşünce"
+          },
+          {
+            "id": "7",
+            "text": "anlatılanların"
+          },
+          {
+            "id": "8",
+            "text": "mesaja"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "7",
+          "5",
+          "1",
+          "8",
+          "2",
+          "6",
+          "4"
+        ]
+      },
+      "explanation": "Paragrafta anlatılanların tamamından çıkarılan mesaja ana düşünce denir. Tek bir cümlede geçen ayrıntı ana düşünce olamaz."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sözcükleri dizerek tanık göstermenin tanımını veren kurallı cümleyi kur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "gösterme"
+          },
+          {
+            "id": "2",
+            "text": "sözleriyle"
+          },
+          {
+            "id": "3",
+            "text": "Düşünceyi"
+          },
+          {
+            "id": "4",
+            "text": "denir"
+          },
+          {
+            "id": "5",
+            "text": "kişilerin"
+          },
+          {
+            "id": "6",
+            "text": "tanık"
+          },
+          {
+            "id": "7",
+            "text": "desteklemeye"
+          },
+          {
+            "id": "8",
+            "text": "yetkin"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "8",
+          "5",
+          "2",
+          "7",
+          "6",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Düşünceyi yetkin kişilerin sözleriyle desteklemeye tanık gösterme denir. Sözü aktarılan kişinin alanında otorite olması gerekir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "\"Tartışmanın sonunda ona çok ağır sözler söyledi.\" cümlesinde mecaz anlamıyla kullanılan sözcüğü seç.",
+        "image": "diagrams/sozcukte-anlam-mecaz.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "ağır"
+          },
+          {
+            "id": "2",
+            "text": "sözler"
+          },
+          {
+            "id": "3",
+            "text": "söyledi"
+          },
+          {
+            "id": "4",
+            "text": "sonunda"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "\"Ağır\" sözcüğünün temel anlamı \"tartıda çok çeken\"dir. Burada \"kırıcı, incitici\" anlamında kullanıldığı için ağırlık kavramıyla bağı tamamen kopmuştur; yani mecaz anlamdadır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "\"Deneyde ölçtüğümüz kuvvet, hesapladığımız değerden biraz küçük çıktı.\" cümlesinde terim anlamıyla kullanılan sözcüğü seç.",
+        "image": "diagrams/sozcukte-anlam-terim.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "küçük"
+          },
+          {
+            "id": "2",
+            "text": "kuvvet"
+          },
+          {
+            "id": "3",
+            "text": "çıktı"
+          },
+          {
+            "id": "4",
+            "text": "biraz"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "\"Kuvvet\" günlük dilde \"güç\" demektir; ancak bu cümlede fizik alanına özgü, ölçülebilen bir büyüklüğü karşıladığı için terim anlamıyla kullanılmıştır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "\"Hava birden kapandığı için pikniği yarıda bıraktık.\" cümlesinde neden-sonuç ilişkisini kuran sözcüğü seç.",
+        "image": "diagrams/cumlede-anlam-neden-sonuc.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "birden"
+          },
+          {
+            "id": "2",
+            "text": "yarıda"
+          },
+          {
+            "id": "3",
+            "text": "için"
+          },
+          {
+            "id": "4",
+            "text": "bıraktık"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "İlişkiyi kuran öge \"için\" edatıdır: kendinden önceki bölümü sebep, sonraki bölümü sonuç durumuna getirir. Aynı edat bir eylemle kullanıldığında (\"görmek için\") amaç anlamı verir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "\"Oysa bu görüş, son yıllarda yapılan kazılarla büyük ölçüde çürütülmüştür.\" cümlesinin bir paragrafın giriş cümlesi olamayacağını gösteren sözcüğü seç.",
+        "image": "diagrams/paragrafta-anlam-giris.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Oysa"
+          },
+          {
+            "id": "2",
+            "text": "görüş"
+          },
+          {
+            "id": "3",
+            "text": "kazılarla"
+          },
+          {
+            "id": "4",
+            "text": "çürütülmüştür"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "\"Oysa\" bir karşıtlık bağlayıcısıdır; kendinden önce aktarılmış bir görüşü gerektirir. Giriş cümlesi kendinden önceki bir cümleye bağlanmadığı için böyle bir sözle başlayamaz."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her cümleyi taşıdığı anlam ilişkisiyle etiketle.",
+        "image": "diagrams/cumlede-anlam-iliskiler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "\"Düzenli çalışırsan bu sınavı kazanırsın.\""
+          },
+          {
+            "id": "2",
+            "text": "\"Ablası ondan daha dikkatli bir sürücüydü.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Treni kaçırdığı için toplantıya yetişemedi.\""
+          }
+        ],
+        "labels": [
+          "Koşul",
+          "Karşılaştırma",
+          "Neden-sonuç",
+          "Varsayım"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Koşul",
+          "2": "Karşılaştırma",
+          "3": "Neden-sonuç"
+        }
+      },
+      "explanation": "Birinci cümlede kazanmak \"-sa\" ekiyle bir şarta bağlanmıştır: koşul. İkinci cümlede \"daha\" sözüyle iki kişi aynı nitelik üzerinden kıyaslanmıştır: karşılaştırma. Üçüncü cümlede \"için\" edatı sebep ile sonucu bağlamıştır. Varsayım ise \"diyelim ki, tut ki\" gibi sözlerle kurulur."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her cümleyi taşıdığı anlam özelliğiyle etiketle.",
+        "image": "diagrams/cumlede-anlam-ozellikler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "\"Tut ki bu parayı biriktirdin, sonra ne yapacaksın?\""
+          },
+          {
+            "id": "2",
+            "text": "\"Bu havaya bakılırsa akşam kar yağabilir.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Ah, o kitabı gördüğüm gün alsaydım.\""
+          }
+        ],
+        "labels": [
+          "Varsayım",
+          "Olasılık",
+          "Pişmanlık",
+          "Öneri"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Varsayım",
+          "2": "Olasılık",
+          "3": "Pişmanlık"
+        }
+      },
+      "explanation": "\"Tut ki\" sözü gerçekleşmemiş bir durumu gerçekleşmiş saymaktır: varsayım. \"Yağabilir\" biçimi kesinlik değil ihtimal bildirir: olasılık. Üçüncü cümlede yapılmamış bir eylemden duyulan üzüntü dile getirilmiştir: pişmanlık."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her deyimi taşıdığı anlamla etiketle.",
+        "image": "diagrams/sozcukte-anlam-deyimler.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Bam teline basmak"
+          },
+          {
+            "id": "2",
+            "text": "Kulağına küpe olmak"
+          },
+          {
+            "id": "3",
+            "text": "Pireyi deve yapmak"
+          }
+        ],
+        "labels": [
+          "En duyarlı noktasına dokunup öfkelendirmek",
+          "Unutulmayacak bir ders olmak",
+          "Küçük bir sorunu olduğundan büyük göstermek",
+          "Bir işi yapmamak için sürekli bahane bulmak"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "En duyarlı noktasına dokunup öfkelendirmek",
+          "2": "Unutulmayacak bir ders olmak",
+          "3": "Küçük bir sorunu olduğundan büyük göstermek"
+        }
+      },
+      "explanation": "Deyimlerin anlamı, kendilerini kuran sözcüklerin anlamlarının toplamından çıkarılamaz; kalıplaşmış bütünün kazandığı yeni anlam esastır. Son etiket \"ipe un sermek\" deyiminin anlamıdır."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her parçayı kullanılan anlatım biçimiyle etiketle.",
+        "image": "diagrams/paragrafta-anlam-anlatim-bicimleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "\"Kapıyı yavaşça açtı, içeri süzüldü ve lambayı yaktı.\""
+          },
+          {
+            "id": "2",
+            "text": "\"Oda, tavana kadar kitapla dolu, loş ve tozlu bir yerdi.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Deprem, yer kabuğunda birikmiş enerjinin ani boşalmasıyla oluşur.\""
+          }
+        ],
+        "labels": [
+          "Öyküleyici anlatım",
+          "Betimleyici anlatım",
+          "Açıklayıcı anlatım",
+          "Tartışmacı anlatım"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Öyküleyici anlatım",
+          "2": "Betimleyici anlatım",
+          "3": "Açıklayıcı anlatım"
+        }
+      },
+      "explanation": "Birinci parçada birbirini izleyen eylemler bir olayı aktarır: öyküleyici. İkinci parçada varlığın görünüşü sözle resmedilir: betimleyici. Üçüncü parçada bir olgu hakkında bilgi verilir: açıklayıcı. Tartışmacı anlatımda ise okurun görüşünü değiştirme amacı öne çıkar."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Gözlüğün sapı kırıldı.\" cümlesinde \"sap\" sözcüğü yan anlamıyla kullanılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"Sap\" sözcüğünün temel anlamı bitkinin ince gövdesidir. Gözlüğün kulağa oturan parçası da benzer biçimde uzun ve ince olduğu için bu kullanımda gerçek anlamla bağ korunur; yani yan anlam söz konusudur."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir sözcüğün terim anlam kazanması, o sözcüğün günlük dildeki gerçek anlamını yitirdiğini gösterir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Terim anlam, sözcüğün belli bir bilim, sanat ya da meslek alanındaki özel anlamıdır; bu anlam, sözcüğün günlük dildeki anlamını ortadan kaldırmaz. \"Kök\" sözcüğü dil bilgisinde terim anlamlıdır, ama günlük dilde hâlâ bitkinin toprak altındaki bölümünü karşılar."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Bu saate kadar gelmediyse ödevini bitirmiş olmalı.\" cümlesinde olasılık anlamı vardır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. \"-mış olmalı\" yapısı, konuşanın elindeki belirtilere dayanarak yaptığı güçlü bir tahmini bildirir. Kesin bir bilgi aktarılmadığı için cümlede olasılık anlamı bulunur."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "\"Bu şarkı insana çocukluğunu hatırlatıyor.\" cümlesi kanıtlanabilir olduğu için nesnel bir yargıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bir şarkının kimde hangi duyguyu uyandırdığı kişiden kişiye değişir ve dışarıdan sınanamaz. Bu yüzden cümle öznel bir yargı taşır. Nesnellik için yargının herkes tarafından doğrulanabilir olması gerekir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir paragrafta ana düşünce doğrudan bir cümleyle verilmeyip anlatılanlardan çıkarılabilir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Ana düşünce bazen paragrafta açıkça yazılı bir cümle hâlinde bulunur, bazen de yazar onu söylemeyip okura sezdirir. İkinci durumda ana düşünce, paragrafın bütününden çıkarılır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Araçlar yolun {{0}} park etmişti.\" cümlesinde boşluğa gelen sözcük, bir insan organı adının yan anlamda kullanılmasına örnektir.",
+        "choices": [
+          "ağzına",
+          "kıyısına",
+          "ortasına",
+          "yakınına"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ağzına"
+        ]
+      },
+      "explanation": "\"Ağız\" sözcüğünün temel anlamı bir organdır; \"yolun ağzı\" kullanımında ise giriş bölümü karşılanır. Biçim ve işlev benzerliği sürdüğü için gerçek anlamla bağ kopmamıştır: yan anlam. Diğer seçenekler organ adı değildir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kalıplaşmış oldukları için sözcükleri değiştirilemeyen, anlamları sözcüklerinin tek tek anlamlarından çıkarılamayan söz öbeklerine {{0}} denir ve bunlar en az {{1}} sözcükten oluşur.",
+        "choices": [
+          "deyim",
+          "iki",
+          "atasözü",
+          "üç",
+          "ikileme",
+          "terim"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "deyim",
+          "iki"
+        ]
+      },
+      "explanation": "Deyimler kalıplaşmış söz öbekleridir; \"göz atmak\" yerine \"göz bakmak\" denemez. En az iki sözcükten kurulurlar. Atasözleri ise öğüt verir ve bir yargı bildirir; bu yönüyle deyimden ayrılır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir cümlede yapılması uygun görülenin karşı tarafa bildirilmesine {{0}}, yapılmış ya da yapılmamış bir işten duyulan üzüntünün dile getirilmesine ise {{1}} denir.",
+        "choices": [
+          "öneri",
+          "pişmanlık",
+          "olasılık",
+          "varsayım",
+          "küçümseme",
+          "şaşırma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "öneri",
+          "pişmanlık"
+        ]
+      },
+      "explanation": "\"Bu kitabı da okusan iyi olur.\" cümlesi öneri bildirir. \"Keşke onu dinlemeseydim.\" cümlesi ise geçmişe yönelik bir üzüntüyü, yani pişmanlığı anlatır."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "\"Sütten ağzı yanan yoğurdu üfleyerek yer.\" sözünde, geçmişte yaşanan olumsuz bir deneyimin kişiyi sonraki işlerinde {{0}} davranmaya yönelttiği anlatılmaktadır.",
+        "choices": [
+          "tedbirli",
+          "cömert",
+          "aceleci",
+          "umursamaz"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tedbirli"
+        ]
+      },
+      "explanation": "Söz, bir kez zarar gören kişinin benzer durumlarda fazlasıyla dikkatli, yani tedbirli davrandığını bildirir. Aceleci ve umursamaz davranmak bunun tam karşıtıdır; cömertlik ise sözün anlamıyla ilgisizdir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Soyut bir kavramı okurun zihninde canlandırmak için ona benzeyen somut bir varlıktan yararlanılmasına {{0}} denir.",
+        "choices": [
+          "benzetme",
+          "tanımlama",
+          "örnekleme",
+          "tanık gösterme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "benzetme"
+        ]
+      },
+      "explanation": "\"Zihin, işlenmeyince paslanan bir demire benzer.\" cümlesinde soyut bir kavram somut bir varlıkla anlatılmıştır: benzetme. Tanımlama kavramın ne olduğunu söyler, örnekleme ise tek tek durumlar sıralar."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir paragrafta anlatımın akışını bozan, ana düşünceyle ilgisi bulunmayan cümleye {{0}} cümle denir; böyle bir cümlenin varlığı paragrafta {{1}} eksikliğini gösterir.",
+        "choices": [
+          "konu dışı",
+          "anlam bütünlüğü",
+          "geçiş",
+          "yazım kuralı",
+          "giriş",
+          "noktalama"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "konu dışı",
+          "anlam bütünlüğü"
+        ]
+      },
+      "explanation": "Paragrafın bütün cümleleri aynı ana düşünceye hizmet eder. Bu zinciri kıran cümle konu dışıdır ve paragrafta anlam bütünlüğünü zedeler. Bu bir anlatım bozukluğu ya da yazım hatası değildir; cümlenin kendisi kusursuz olabilir."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "\"Geçmek\" sözcüğünün her kullanımını cümlede kazandığı anlamla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Arabayla köprüden geçti."
+          },
+          {
+            "id": "2",
+            "text": "Günler hiç fark etmeden geçiyor."
+          },
+          {
+            "id": "3",
+            "text": "Baş ağrısı akşama doğru geçti."
+          },
+          {
+            "id": "4",
+            "text": "Sınıfını iyi notlarla geçti."
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Zaman akıp sona ermek"
+          },
+          {
+            "id": "b",
+            "text": "Bir aşamayı başarıyla tamamlamak"
+          },
+          {
+            "id": "c",
+            "text": "Bir yerin bir yanından öte yanına ilerlemek"
+          },
+          {
+            "id": "d",
+            "text": "Etkisi kalmayacak biçimde son bulmak"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Çok anlamlı sözcüklerin hangi anlamda kullanıldığı ancak cümleden anlaşılır. \"Geçmek\" burada sırayla yer değiştirme, zamanın akışı, bir durumun sona ermesi ve bir aşamanın tamamlanması anlamlarını kazanmıştır."
+    },
+    {
+      "topic": "sozcukte_anlam",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her sözü ait olduğu söz varlığı türüyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "\"Göze girmek\""
+          },
+          {
+            "id": "2",
+            "text": "\"Damlaya damlaya göl olur.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Yavaş yavaş yürüdü.\""
+          },
+          {
+            "id": "4",
+            "text": "\"Bilgi güçtür.\" (Francis Bacon)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Özdeyiş: söyleyeni bilinen özlü söz"
+          },
+          {
+            "id": "b",
+            "text": "Deyim: kalıplaşmış, yargı bildirmeyen söz öbeği"
+          },
+          {
+            "id": "c",
+            "text": "Atasözü: toplumun deneyimini yargı hâlinde aktaran söz"
+          },
+          {
+            "id": "d",
+            "text": "İkileme: anlamı pekiştirmek için sözcüğün yinelenmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Deyim bir yargı bildirmez, kavramı anlatır. Atasözü yargı bildirir ve söyleyeni bilinmez. Özdeyişin söyleyeni bellidir. İkileme ise aynı ya da yakın sözcüklerin yan yana yinelenmesiyle kurulur."
+    },
+    {
+      "topic": "cumlede_anlam",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her cümleyi anlamca kendisine en yakın yorumla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "\"Çalışmadan kazanılan hiçbir başarı kalıcı olmaz.\""
+          },
+          {
+            "id": "2",
+            "text": "\"Her okuduğunu doğru sanan, aslında hiçbir şey öğrenmemiştir.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Bir ulusun belleği, dilinde saklıdır.\""
+          },
+          {
+            "id": "4",
+            "text": "\"Bilmediğini bilmek, bilginin başlangıcıdır.\""
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Dil, bir toplumun geçmişini kuşaklara taşır."
+          },
+          {
+            "id": "b",
+            "text": "Kalıcı başarı emek gerektirir."
+          },
+          {
+            "id": "c",
+            "text": "Öğrenme, kişinin eksiğini fark etmesiyle başlar."
+          },
+          {
+            "id": "d",
+            "text": "Öğrenebilmek için okuduğunu sorgulamak gerekir."
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Anlamca yakınlık sorularında cümlenin ileri sürdüğü yargı aranır, ortak sözcükler değil. Örneğin ikinci cümlede okumanın değil, sorgulamadan okumanın eleştirildiği görülmelidir."
+    },
+    {
+      "topic": "paragrafta_anlam",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her cümleyi paragraf içindeki işleviyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "\"Bu nedenle okuma, yalnızca kişisel bir alışkanlık olmaktan çıkar.\""
+          },
+          {
+            "id": "2",
+            "text": "\"Son yıllarda kitap okuma oranları üzerine pek çok şey yazıldı.\""
+          },
+          {
+            "id": "3",
+            "text": "\"Buna karşılık ekrandan okurken dikkat daha çabuk dağılır.\""
+          },
+          {
+            "id": "4",
+            "text": "\"Örneğin bir araştırmada öğrencilerin yarısı kâğıttan okumayı seçmiştir.\""
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Geçiş cümlesi: karşıt bir düşünceye bağlanarak akışı çevirir"
+          },
+          {
+            "id": "b",
+            "text": "Sonuç cümlesi: önceki yargılardan çıkarım yapar"
+          },
+          {
+            "id": "c",
+            "text": "Destekleyici cümle: düşünceyi örnekle pekiştirir"
+          },
+          {
+            "id": "d",
+            "text": "Giriş cümlesi: bağlayıcı söz kullanmadan konuyu tanıtır"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Cümlenin işlevi başındaki bağlayıcı sözden anlaşılır: \"bu nedenle\" çıkarım, \"buna karşılık\" karşıtlık, \"örneğin\" örneklendirme bildirir. Hiçbir bağlayıcı söz taşımayan ve konuyu ilk kez tanıtan cümle ise giriş cümlesidir."
+    }
   ]
 }

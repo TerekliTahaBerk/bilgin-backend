@@ -709,6 +709,3090 @@
         ]
       },
       "explanation": "f'(x) = 2x olduğundan f'(1)=2, f'(2)=4, f'(3)=6."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Türev tanımına göre f'(x) = lim(h→0) [f(x + h) − f(x)] / h eşitliği yazılır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Türev, fark oranının h sıfıra giderkenki limiti olarak tanımlanır."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bir noktada sürekli olan her fonksiyon o noktada türevlenebilirdir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. f(x) = |x| fonksiyonu x = 0'da süreklidir ama türevlenemez. Süreklilik türevlenebilirlik için yeterli değildir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = |x| fonksiyonu x = 0 noktasında türevlenemez."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Soldan türev −1, sağdan türev +1 olduğu için x = 0'da türev yoktur."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "(tan x)' = 1/cos²x eşitliği doğrudur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. tan x = sin x / cos x bölümünün türevi 1/cos²x değerini verir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bir aralıkta f'(x) < 0 ise f fonksiyonu o aralıkta artandır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Negatif türev azalmayı gösterir; fonksiyon o aralıkta azalandır."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f'(a) = 0 olan her a noktası f fonksiyonu için bir yerel ekstremum noktasıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. f(x) = x³ için f'(0) = 0'dır ama x = 0 bir dönüm noktasıdır, ekstremum değildir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f''(x) > 0 olan bir aralıkta fonksiyonun grafiği yukarı doğru bükeydir (konveks)."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Pozitif ikinci türev, eğimin arttığını yani grafiğin yukarı bükey olduğunu gösterir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Konum fonksiyonunun zamana göre türevi hız fonksiyonunu verir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hız, konumun zamana göre anlık değişim hızıdır: v(t) = x'(t)."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İvme, konum fonksiyonunun zamana göre birinci türevidir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Birinci türev hızı verir; ivme konumun ikinci türevidir: a(t) = x''(t)."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f''(x) = 0 olan her nokta mutlaka bir dönüm noktasıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. f(x) = x⁴ için f''(0) = 0'dır ama ikinci türev işaret değiştirmediği için x = 0 dönüm noktası değildir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İki fonksiyonun toplamının türevi, türevlerinin toplamına eşittir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. (u + v)' = u' + v' eşitliği türevin toplamsallık özelliğidir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bölüm kuralına göre (u/v)' türevi u'/v' biçimindedir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bölüm kuralı (u/v)' = (u'·v − u·v') / v² şeklindedir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = sin(3x) fonksiyonunun türevi cos(3x)'tir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Zincir kuralı gereği iç fonksiyonun türevi olan 3 ile çarpılır: f'(x) = 3cos(3x)."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Bir eğriye bir noktada çizilen teğet ile aynı noktadaki normal doğrusu birbirine diktir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Normal, teğete o noktada dik olan doğrudur; eğimleri çarpımı −1'dir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = 1/(x − 2) fonksiyonunun grafiğinin düşey asimptotu x = 2 doğrusudur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. x = 2'de payda sıfır olur ve fonksiyonun limiti sonsuza gider."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = x⁵ fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "5x⁴",
+          "x⁴",
+          "5x⁵",
+          "4x⁵"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "5x⁴"
+        ]
+      },
+      "explanation": "Kuvvet kuralı: üs katsayıya iner, kalan üs bir azalır → 5x⁴."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Sabit çarpan kuralına göre (c·f(x))' = {{0}} biçimindedir.",
+        "choices": [
+          "c·f'(x)",
+          "f'(x)",
+          "c'·f(x)",
+          "c·f(x)"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "c·f'(x)"
+        ]
+      },
+      "explanation": "Sabit çarpan türev işleminin dışına alınabilir."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = cot x fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "−1/sin²x",
+          "1/sin²x",
+          "−1/cos²x",
+          "1/cos²x"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "−1/sin²x"
+        ]
+      },
+      "explanation": "(cot x)' = −1/sin²x. Eksi işareti kotanjantın azalan olmasından gelir."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "a > 0 ve a ≠ 1 için f(x) = aˣ fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "aˣ·ln a",
+          "x·aˣ⁻¹",
+          "aˣ/ln a",
+          "ln a"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "aˣ·ln a"
+        ]
+      },
+      "explanation": "Üstel fonksiyonun türevinde taban korunur ve ln a ile çarpılır. a = e için ln e = 1 olduğundan (eˣ)' = eˣ bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = ln(5x) fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "1/x",
+          "5/x",
+          "1/(5x)",
+          "5"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "1/x"
+        ]
+      },
+      "explanation": "Zincir kuralı: (1/(5x))·5 = 1/x. Çarpan sadeleştiği için sonuç ln x'in türeviyle aynıdır."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Türevin sıfır olduğu ya da türevin tanımsız olduğu noktalara {{0}} nokta denir.",
+        "choices": [
+          "kritik",
+          "dönüm",
+          "asimptot",
+          "kesim"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kritik"
+        ]
+      },
+      "explanation": "Ekstremum araması her zaman kritik noktaların belirlenmesiyle başlar."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "İkinci türevin işaret değiştirdiği, yani grafiğin büküm yönünün değiştiği noktaya {{0}} noktası denir.",
+        "choices": [
+          "dönüm",
+          "kritik",
+          "yerel maksimum",
+          "sabit"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "dönüm"
+        ]
+      },
+      "explanation": "Dönüm (büküm) noktasında konvekslik konkavlığa ya da tersine döner."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f'(x) işareti x = c noktasında pozitiften negatife değişiyorsa f fonksiyonu x = c'de yerel {{0}} yapar.",
+        "choices": [
+          "maksimum",
+          "minimum",
+          "dönüm",
+          "asimptot"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "maksimum"
+        ]
+      },
+      "explanation": "Artıştan azalışa geçiş tepe noktasıdır; yani yerel maksimum."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f'(c) = 0 ve f''(c) > 0 ise f fonksiyonu x = c noktasında yerel {{0}} yapar.",
+        "choices": [
+          "minimum",
+          "maksimum",
+          "dönüm",
+          "sabit"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "minimum"
+        ]
+      },
+      "explanation": "İkinci türev testi: f''(c) > 0 ise grafik yukarı bükeydir, kritik nokta çukur yani yerel minimumdur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = 2x³ − 9x² + 12x fonksiyonunun türevi f'(x) = 6x² − {{0}}x + {{1}} biçimindedir.",
+        "choices": [
+          "18",
+          "12",
+          "9",
+          "6",
+          "24",
+          "3"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "18",
+          "12"
+        ]
+      },
+      "explanation": "Her terim ayrı ayrı türetilir: (2x³)' = 6x², (−9x²)' = −18x, (12x)' = 12."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "y = x² eğrisinin x = 1 noktasındaki teğetinin eğimi {{0}} olur.",
+        "choices": [
+          "2",
+          "1",
+          "3",
+          "1/2"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2"
+        ]
+      },
+      "explanation": "y' = 2x olduğundan x = 1 için eğim 2·1 = 2 bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "y = x² eğrisinin (1, 1) noktasındaki normal doğrusunun eğimi {{0}} olur.",
+        "choices": [
+          "−1/2",
+          "2",
+          "1/2",
+          "−2"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "−1/2"
+        ]
+      },
+      "explanation": "Teğetin eğimi 2'dir. Normal teğete dik olduğundan eğimi −1/2'dir."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Konum fonksiyonu x(t) olan bir hareketlinin ivmesi {{0}} ile bulunur.",
+        "choices": [
+          "x''(t)",
+          "x'(t)",
+          "x(t)",
+          "t·x'(t)"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "x''(t)"
+        ]
+      },
+      "explanation": "Hız konumun birinci, ivme ise ikinci türevidir."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = (x² + 1)³ fonksiyonunun türevi zincir kuralıyla {{0}} bulunur.",
+        "choices": [
+          "6x(x² + 1)²",
+          "3(x² + 1)²",
+          "2x(x² + 1)²",
+          "6x(x² + 1)³"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "6x(x² + 1)²"
+        ]
+      },
+      "explanation": "Dış türev 3(x² + 1)², iç türev 2x; çarpımı 6x(x² + 1)² olur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = x·eˣ fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "eˣ(x + 1)",
+          "eˣ",
+          "x·eˣ",
+          "eˣ(x − 1)"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "eˣ(x + 1)"
+        ]
+      },
+      "explanation": "Çarpım kuralı: 1·eˣ + x·eˣ = eˣ(x + 1)."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = x/(x + 1) fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "1/(x + 1)²",
+          "−1/(x + 1)²",
+          "1/(x + 1)",
+          "(2x + 1)/(x + 1)²"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "1/(x + 1)²"
+        ]
+      },
+      "explanation": "Bölüm kuralı: [1·(x + 1) − x·1]/(x + 1)² = 1/(x + 1)²."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "lim(x→a) f(x) = f(a) koşulu sağlanıyorsa f fonksiyonu x = a noktasında {{0}}",
+        "choices": [
+          "süreklidir.",
+          "türevlenebilirdir.",
+          "artandır.",
+          "sabittir."
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "süreklidir."
+        ]
+      },
+      "explanation": "Bu eşitlik sürekliliğin tanımıdır. Süreklilik türevlenebilirliğin ön koşuludur ama tek başına yeterli değildir."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = (2x + 3)/(x − 1) fonksiyonunun grafiğinin yatay asimptotu y = {{0}} doğrusudur.",
+        "choices": [
+          "2",
+          "3",
+          "−1",
+          "1"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2"
+        ]
+      },
+      "explanation": "Pay ve paydanın dereceleri eşit olduğundan yatay asimptot baş katsayıların oranıdır: 2/1 = 2."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu türeviyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "x⁴"
+          },
+          {
+            "id": "2",
+            "text": "x⁷"
+          },
+          {
+            "id": "3",
+            "text": "5x"
+          },
+          {
+            "id": "4",
+            "text": "−3x²"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "7x⁶"
+          },
+          {
+            "id": "b",
+            "text": "4x³"
+          },
+          {
+            "id": "c",
+            "text": "−6x"
+          },
+          {
+            "id": "d",
+            "text": "5"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kuvvet kuralı her terime ayrı uygulanır; sabit çarpan korunur."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu türeviyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "tan x"
+          },
+          {
+            "id": "2",
+            "text": "cot x"
+          },
+          {
+            "id": "3",
+            "text": "2ˣ"
+          },
+          {
+            "id": "4",
+            "text": "ln(2x)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "−1/sin²x"
+          },
+          {
+            "id": "b",
+            "text": "2ˣ·ln 2"
+          },
+          {
+            "id": "c",
+            "text": "1/cos²x"
+          },
+          {
+            "id": "d",
+            "text": "1/x"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "b",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "ln(2x) türevinde zincir kuralı sonucu 2 sadeleşir ve 1/x kalır."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kavramı tanımıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kritik nokta"
+          },
+          {
+            "id": "2",
+            "text": "Dönüm noktası"
+          },
+          {
+            "id": "3",
+            "text": "Yerel maksimum"
+          },
+          {
+            "id": "4",
+            "text": "f'(a)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Grafiğin büküm yönünün değiştiği nokta"
+          },
+          {
+            "id": "b",
+            "text": "f'(x) = 0 olan ya da türevin tanımsız olduğu nokta"
+          },
+          {
+            "id": "c",
+            "text": "x = a noktasındaki teğetin eğimi"
+          },
+          {
+            "id": "d",
+            "text": "Komşuluğundaki en büyük değerin alındığı nokta"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kritik nokta aday, dönüm noktası büküm değişimi, ekstremum ise sonuçtur."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Türevin işaretini fonksiyonun grafik davranışıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f'(x) > 0"
+          },
+          {
+            "id": "2",
+            "text": "f'(x) < 0"
+          },
+          {
+            "id": "3",
+            "text": "f''(x) > 0"
+          },
+          {
+            "id": "4",
+            "text": "f''(x) < 0"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Azalan"
+          },
+          {
+            "id": "b",
+            "text": "Artan"
+          },
+          {
+            "id": "c",
+            "text": "Aşağı bükey (konkav)"
+          },
+          {
+            "id": "d",
+            "text": "Yukarı bükey (konveks)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Birinci türev artma-azalmayı, ikinci türev bükeyliği belirler."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hareket probleminde türev mertebesini anlamıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "x(t)"
+          },
+          {
+            "id": "2",
+            "text": "x'(t)"
+          },
+          {
+            "id": "3",
+            "text": "x''(t)"
+          },
+          {
+            "id": "4",
+            "text": "x'(t) = 0 olduğu an"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Hız"
+          },
+          {
+            "id": "b",
+            "text": "Konum"
+          },
+          {
+            "id": "c",
+            "text": "Hareketlinin anlık olarak durduğu an"
+          },
+          {
+            "id": "d",
+            "text": "İvme"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hız sıfırlandığı anda hareketli durur ve yön değiştirebilir."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu kritik noktasının x değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = x² − 2x"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = x² − 6x"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = x² + 4x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = x² − 8x"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "x = −2"
+          },
+          {
+            "id": "b",
+            "text": "x = 1"
+          },
+          {
+            "id": "c",
+            "text": "x = 4"
+          },
+          {
+            "id": "d",
+            "text": "x = 3"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her birinde f'(x) = 0 çözülür: 2x − 2 = 0, 2x − 6 = 0, 2x + 4 = 0, 2x − 8 = 0."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu f'(1) değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = x²"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = x³"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = √x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = 1/x"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "3"
+          },
+          {
+            "id": "b",
+            "text": "−1"
+          },
+          {
+            "id": "c",
+            "text": "2"
+          },
+          {
+            "id": "d",
+            "text": "1/2"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Türevler sırasıyla 2x, 3x², 1/(2√x) ve −1/x²; x = 1 konulur."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Türev kuralını, o kuralın gerektiği fonksiyonla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Çarpım kuralı"
+          },
+          {
+            "id": "2",
+            "text": "Bölüm kuralı"
+          },
+          {
+            "id": "3",
+            "text": "Zincir kuralı"
+          },
+          {
+            "id": "4",
+            "text": "Kuvvet kuralı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "f(x) = sin(x²)"
+          },
+          {
+            "id": "b",
+            "text": "f(x) = x·sin x"
+          },
+          {
+            "id": "c",
+            "text": "f(x) = x⁷"
+          },
+          {
+            "id": "d",
+            "text": "f(x) = sin x / x"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hangi kuralın gerektiğini görmek, türev alırken ilk adımdır."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu düşey asimptotunun denklemiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = 1/(x − 3)"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = 1/(x + 1)"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = 1/x²"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = 1/(x − 5)"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "x = −1"
+          },
+          {
+            "id": "b",
+            "text": "x = 5"
+          },
+          {
+            "id": "c",
+            "text": "x = 3"
+          },
+          {
+            "id": "d",
+            "text": "x = 0"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Düşey asimptot, paydayı sıfır yapan ve limitin sonsuz olduğu x değerinde oluşur."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Matematiksel ifadeyi karşılık geldiği kavramla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "lim(h→0) [f(x + h) − f(x)] / h"
+          },
+          {
+            "id": "2",
+            "text": "lim(x→a) [f(x) − f(a)] / (x − a)"
+          },
+          {
+            "id": "3",
+            "text": "f'(x) = 0 denkleminin çözümleri"
+          },
+          {
+            "id": "4",
+            "text": "f''(x) = 0 denkleminin çözümleri"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Dönüm noktası adayları"
+          },
+          {
+            "id": "b",
+            "text": "f'(x) türev fonksiyonu"
+          },
+          {
+            "id": "c",
+            "text": "Kritik noktalar"
+          },
+          {
+            "id": "d",
+            "text": "f'(a) türev değeri"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "c",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İlk iki ifade türevin iki eşdeğer tanımıdır; son ikisi ise nokta aramanın denklemleridir."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Türev tanımını kullanarak f'(x) bulma basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Farkı h'ye böl: [f(x + h) − f(x)] / h"
+          },
+          {
+            "id": "2",
+            "text": "f(x + h) ifadesini yaz"
+          },
+          {
+            "id": "3",
+            "text": "h → 0 limitini al"
+          },
+          {
+            "id": "4",
+            "text": "f(x + h) − f(x) farkını oluştur"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Tanım gereği önce fark oranı kurulur, en sonunda h sıfıra götürülür."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "y = f(x) eğrisinin x = a noktasındaki teğet denklemini bulma basamaklarını sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f(a) değerini hesapla"
+          },
+          {
+            "id": "2",
+            "text": "f'(x) türevini al"
+          },
+          {
+            "id": "3",
+            "text": "y − f(a) = f'(a)·(x − a) denklemini yaz"
+          },
+          {
+            "id": "4",
+            "text": "x = a için f'(a) eğimini bul"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Teğet için eğim ve değme noktası gerekir; ikisi bulunduktan sonra denklem yazılır."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yerel ekstremum noktalarını belirleme basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(x) = 0 denklemini çöz"
+          },
+          {
+            "id": "2",
+            "text": "f'(x) türevini al"
+          },
+          {
+            "id": "3",
+            "text": "İşaret değişimine göre ekstremumun türünü belirle"
+          },
+          {
+            "id": "4",
+            "text": "Kritik noktaları işaret tablosuna yerleştir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Türev → kritik noktalar → işaret tablosu → ekstremum türü."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kapalı bir [a, b] aralığında mutlak maksimumu bulma basamaklarını sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kritik noktalarda ve a ile b uç noktalarında f değerlerini hesapla"
+          },
+          {
+            "id": "2",
+            "text": "f'(x) = 0 denkleminin köklerini bul"
+          },
+          {
+            "id": "3",
+            "text": "Hesaplanan değerlerin en büyüğünü mutlak maksimum olarak al"
+          },
+          {
+            "id": "4",
+            "text": "Köklerden [a, b] aralığına düşenleri seç"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Kapalı aralıkta uç noktalar da aday olduğu için mutlaka hesaba katılır."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Bir maksimum-minimum probleminin çözüm basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hedef büyüklüğü tek değişken cinsinden yaz"
+          },
+          {
+            "id": "2",
+            "text": "Problemdeki değişkenleri tanımla"
+          },
+          {
+            "id": "3",
+            "text": "İkinci türevle bulunan noktanın maksimum olduğunu doğrula"
+          },
+          {
+            "id": "4",
+            "text": "Türevi sıfıra eşitleyip kritik değeri bul"
+          },
+          {
+            "id": "5",
+            "text": "Verilen kısıtı bir denklemle ifade et"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Kısıt, iki değişkenli hedefi tek değişkenli hâle getirmek için kullanılır."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = x³ için verilen türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(2)"
+          },
+          {
+            "id": "2",
+            "text": "f'(0)"
+          },
+          {
+            "id": "3",
+            "text": "f'(3)"
+          },
+          {
+            "id": "4",
+            "text": "f'(1)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "f'(x) = 3x² olduğundan f'(0) = 0, f'(1) = 3, f'(2) = 12, f'(3) = 27."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = eˣ için verilen türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(1)"
+          },
+          {
+            "id": "2",
+            "text": "f'(−1)"
+          },
+          {
+            "id": "3",
+            "text": "f'(2)"
+          },
+          {
+            "id": "4",
+            "text": "f'(0)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "f'(x) = eˣ artan bir fonksiyon olduğundan sıralama x değerleriyle aynıdır."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = sin x için verilen türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(0)"
+          },
+          {
+            "id": "2",
+            "text": "f'(π)"
+          },
+          {
+            "id": "3",
+            "text": "f'(π/3)"
+          },
+          {
+            "id": "4",
+            "text": "f'(π/2)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "f'(x) = cos x; cos π = −1, cos(π/2) = 0, cos(π/3) = 1/2, cos 0 = 1."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = 1/x için verilen türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(3)"
+          },
+          {
+            "id": "2",
+            "text": "f'(1)"
+          },
+          {
+            "id": "3",
+            "text": "f'(4)"
+          },
+          {
+            "id": "4",
+            "text": "f'(2)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "f'(x) = −1/x²; değerler −1, −1/4, −1/9, −1/16 olup negatiflerde büyük mutlak değer daha küçüktür."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = ln x için verilen türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(1)"
+          },
+          {
+            "id": "2",
+            "text": "f'(4)"
+          },
+          {
+            "id": "3",
+            "text": "f'(5)"
+          },
+          {
+            "id": "4",
+            "text": "f'(2)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ]
+      },
+      "explanation": "f'(x) = 1/x azalan olduğundan x büyüdükçe türev küçülür: 1/5 < 1/4 < 1/2 < 1."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki fonksiyonların kritik noktalarının x değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f(x) = x² − 4x"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = x² + 6x"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = x² − 10x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = x² − 2x"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Kritik noktalar sırasıyla x = 2, x = −3, x = 5 ve x = 1'dir."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = x³ − 6x² + 9x fonksiyonunun özel noktalarını x değeri küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Dönüm noktası"
+          },
+          {
+            "id": "2",
+            "text": "Yerel minimum noktası"
+          },
+          {
+            "id": "3",
+            "text": "Yerel maksimum noktası"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "f'(x) = 3(x − 1)(x − 3) → kritik noktalar x = 1 (yerel maksimum) ve x = 3 (yerel minimum); f''(x) = 6x − 12 = 0 → dönüm noktası x = 2."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = x³ − 3x için verilen türev değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "f'(2)"
+          },
+          {
+            "id": "2",
+            "text": "f'(3)"
+          },
+          {
+            "id": "3",
+            "text": "f'(0)"
+          },
+          {
+            "id": "4",
+            "text": "f'(1)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "f'(x) = 3x² − 3; değerler f'(0) = −3, f'(1) = 0, f'(2) = 9, f'(3) = 24."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = (3x + 2)⁴ fonksiyonunun türevini zincir kuralıyla bulma basamaklarını sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "df/du = 4u³ ve du/dx = 3 türevlerini al"
+          },
+          {
+            "id": "2",
+            "text": "İç fonksiyonu belirle: u = 3x + 2"
+          },
+          {
+            "id": "3",
+            "text": "Fonksiyonu u cinsinden yaz: f = u⁴"
+          },
+          {
+            "id": "4",
+            "text": "Türevleri çarp ve u'yu geri koy: 12(3x + 2)³"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Zincir kuralında iç fonksiyon seçilir, iki türev ayrı alınır ve çarpılır."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = (x² + 1)/x fonksiyonunun türevini bölüm kuralıyla bulma basamaklarını sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "(u'·v − u·v') / v² formülüne yerleştir"
+          },
+          {
+            "id": "2",
+            "text": "u = x² + 1 ve v = x olarak belirle"
+          },
+          {
+            "id": "3",
+            "text": "Sonucu sadeleştir: (x² − 1)/x²"
+          },
+          {
+            "id": "4",
+            "text": "u' = 2x ve v' = 1 türevlerini al"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Yerine koyma: (2x·x − (x² + 1)·1)/x² = (x² − 1)/x²."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Bir rasyonel fonksiyonun asimptotlarını bulma basamaklarını ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Paydayı sıfır yapan değerleri düşey asimptot adayı olarak belirle"
+          },
+          {
+            "id": "2",
+            "text": "Fonksiyonun tanım kümesini bul"
+          },
+          {
+            "id": "3",
+            "text": "x → ±∞ limitini alarak yatay asimptotu araştır"
+          },
+          {
+            "id": "4",
+            "text": "Adayların her birinde limitin sonsuz olduğunu doğrula"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Payda sıfır olsa bile limit sonlu çıkabilir; bu yüzden doğrulama adımı atlanmaz."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Konum fonksiyonu verilen bir hareketlinin belirli bir anda ivmesini bulma basamaklarını sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Birinci türevi alarak hız v(t)'yi bul"
+          },
+          {
+            "id": "2",
+            "text": "Konum fonksiyonu x(t)'yi yaz"
+          },
+          {
+            "id": "3",
+            "text": "İstenen t değerini ivme fonksiyonunda yerine koy"
+          },
+          {
+            "id": "4",
+            "text": "İkinci türevi alarak ivme a(t)'yi bul"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "İvme ikinci türev olduğu için önce hız, sonra hızın türevi bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "x(t) = t³ − 6t² + 9t konum fonksiyonu için verilen hız değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "v(0)"
+          },
+          {
+            "id": "2",
+            "text": "v(2)"
+          },
+          {
+            "id": "3",
+            "text": "v(5)"
+          },
+          {
+            "id": "4",
+            "text": "v(1)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "v(t) = 3t² − 12t + 9; v(2) = −3, v(1) = 0, v(0) = 9, v(5) = 24."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f(x) = x⁵ fonksiyonunun ardışık türevlerini birinci türevden dördüncü türeve doğru sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "20x³"
+          },
+          {
+            "id": "2",
+            "text": "60x²"
+          },
+          {
+            "id": "3",
+            "text": "5x⁴"
+          },
+          {
+            "id": "4",
+            "text": "120x"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Her türev alışında üs bir azalır ve katsayı eski üsle çarpılır."
+    },
+    {
+      "topic": "turev",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "y = √x eğrisinin verilen noktalardaki teğet eğimlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "x = 4'teki eğim"
+          },
+          {
+            "id": "2",
+            "text": "x = 16'daki eğim"
+          },
+          {
+            "id": "3",
+            "text": "x = 1'deki eğim"
+          },
+          {
+            "id": "4",
+            "text": "x = 9'daki eğim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "y' = 1/(2√x); eğimler 1/8, 1/6, 1/4 ve 1/2 olup x büyüdükçe eğim küçülür."
+    },
+    {
+      "topic": "turev",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek teğetin eğimini tanımlayan cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "değme"
+          },
+          {
+            "id": "2",
+            "text": "eşittir"
+          },
+          {
+            "id": "3",
+            "text": "Teğetin"
+          },
+          {
+            "id": "4",
+            "text": "türev"
+          },
+          {
+            "id": "5",
+            "text": "noktasındaki"
+          },
+          {
+            "id": "6",
+            "text": "eğimi"
+          },
+          {
+            "id": "7",
+            "text": "değerine"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "1",
+          "5",
+          "4",
+          "7",
+          "2"
+        ]
+      },
+      "explanation": "Teğetin eğimi değme noktasındaki türev değerine eşittir. Yani y = f(x) eğrisinin x = a noktasındaki teğetinin eğimi f'(a) sayısıdır."
+    },
+    {
+      "topic": "turev",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek ivmenin tanımını veren cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "ivmeyi"
+          },
+          {
+            "id": "2",
+            "text": "zamana"
+          },
+          {
+            "id": "3",
+            "text": "Konum"
+          },
+          {
+            "id": "4",
+            "text": "türevi"
+          },
+          {
+            "id": "5",
+            "text": "göre"
+          },
+          {
+            "id": "6",
+            "text": "fonksiyonunun"
+          },
+          {
+            "id": "7",
+            "text": "verir"
+          },
+          {
+            "id": "8",
+            "text": "ikinci"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "2",
+          "5",
+          "8",
+          "4",
+          "1",
+          "7"
+        ]
+      },
+      "explanation": "Konum fonksiyonunun zamana göre ikinci türevi ivmeyi verir. Birinci türev hızı, ikinci türev ise ivmeyi verir."
+    },
+    {
+      "topic": "turev",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek dönüm noktasının tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "noktası"
+          },
+          {
+            "id": "2",
+            "text": "işaret"
+          },
+          {
+            "id": "3",
+            "text": "İkinci"
+          },
+          {
+            "id": "4",
+            "text": "denir"
+          },
+          {
+            "id": "5",
+            "text": "türevin"
+          },
+          {
+            "id": "6",
+            "text": "noktaya"
+          },
+          {
+            "id": "7",
+            "text": "dönüm"
+          },
+          {
+            "id": "8",
+            "text": "değiştirdiği"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "2",
+          "8",
+          "6",
+          "7",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "İkinci türevin işaret değiştirdiği noktaya dönüm noktası denir. f''(x) = 0 olması tek başına yetmez; işaretin gerçekten değişmesi gerekir."
+    },
+    {
+      "topic": "turev",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek artanlık kuralını ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "pozitif"
+          },
+          {
+            "id": "2",
+            "text": "fonksiyon"
+          },
+          {
+            "id": "3",
+            "text": "Türevi"
+          },
+          {
+            "id": "4",
+            "text": "artandır"
+          },
+          {
+            "id": "5",
+            "text": "her"
+          },
+          {
+            "id": "6",
+            "text": "olan"
+          },
+          {
+            "id": "7",
+            "text": "noktada"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "5",
+          "7",
+          "1",
+          "6",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Türevi her noktada pozitif olan fonksiyon artandır. f'(x) > 0 koşulu fonksiyonun o aralıkta artan olduğunu gösterir."
+    },
+    {
+      "topic": "turev",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek normal doğrusunun tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "dik"
+          },
+          {
+            "id": "2",
+            "text": "teğete"
+          },
+          {
+            "id": "3",
+            "text": "Normal"
+          },
+          {
+            "id": "4",
+            "text": "doğrudur"
+          },
+          {
+            "id": "5",
+            "text": "değme"
+          },
+          {
+            "id": "6",
+            "text": "doğrusu"
+          },
+          {
+            "id": "7",
+            "text": "olan"
+          },
+          {
+            "id": "8",
+            "text": "noktasında"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "2",
+          "5",
+          "8",
+          "1",
+          "7",
+          "4"
+        ]
+      },
+      "explanation": "Normal doğrusu teğete değme noktasında dik olan doğrudur. Bu yüzden eğimi, teğet eğiminin ters işaretli çarpmaya göre tersidir: −1/f'(a)."
+    },
+    {
+      "topic": "turev",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek yerel maksimum ölçütünü ifade eden cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "yerel"
+          },
+          {
+            "id": "2",
+            "text": "negatife"
+          },
+          {
+            "id": "3",
+            "text": "Türevin"
+          },
+          {
+            "id": "4",
+            "text": "oluşur"
+          },
+          {
+            "id": "5",
+            "text": "noktada"
+          },
+          {
+            "id": "6",
+            "text": "pozitiften"
+          },
+          {
+            "id": "7",
+            "text": "maksimum"
+          },
+          {
+            "id": "8",
+            "text": "döndüğü"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "2",
+          "8",
+          "5",
+          "1",
+          "7",
+          "4"
+        ]
+      },
+      "explanation": "Türevin pozitiften negatife döndüğü noktada yerel maksimum oluşur. Negatiften pozitife dönüşte ise yerel minimum görülür."
+    },
+    {
+      "topic": "turev",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "f'(c) = 0 olan bir c noktası için her ikinci türev durumunu doğru sonuçla etiketle.",
+        "image": "diagrams/turev-ikinci-turev-testi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "f''(c) < 0"
+          },
+          {
+            "id": "2",
+            "text": "f''(c) > 0"
+          },
+          {
+            "id": "3",
+            "text": "f''(c) = 0 ve f'' işaret değiştiriyor"
+          }
+        ],
+        "labels": [
+          "Yerel maksimum",
+          "Yerel minimum",
+          "Dönüm noktası",
+          "Süreksizlik noktası"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Yerel maksimum",
+          "2": "Yerel minimum",
+          "3": "Dönüm noktası"
+        }
+      },
+      "explanation": "İkinci türev testi: f''(c) < 0 ise grafik aşağı bükeydir ve yerel maksimum, f''(c) > 0 ise yukarı bükeydir ve yerel minimum vardır. f''(c) = 0 olup f'' işaret değiştiriyorsa nokta bir dönüm noktasıdır."
+    },
+    {
+      "topic": "turev",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her limit koşulunu grafiğin karşılık geldiği özelliğiyle etiketle.",
+        "image": "diagrams/turev-asimptot-limitleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "lim(x→3⁺) f(x) = +∞"
+          },
+          {
+            "id": "2",
+            "text": "lim(x→∞) f(x) = 2"
+          },
+          {
+            "id": "3",
+            "text": "f sürekli ve lim(x→0) f'(x) = +∞"
+          }
+        ],
+        "labels": [
+          "x = 3 düşey asimptotu",
+          "y = 2 yatay asimptotu",
+          "x = 0'da düşey teğet",
+          "y = x eğik asimptotu"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "x = 3 düşey asimptotu",
+          "2": "y = 2 yatay asimptotu",
+          "3": "x = 0'da düşey teğet"
+        }
+      },
+      "explanation": "Bir noktada tek yanlı limit sonsuza gidiyorsa orada düşey asimptot, x sonsuza giderken limit sonlu bir sayıya yaklaşıyorsa yatay asimptot vardır. Fonksiyon sürekliyken türevin limiti sonsuz oluyorsa teğet düşeydir."
+    },
+    {
+      "topic": "turev",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her matematiksel ifadeyi doğru yorumuyla etiketle.",
+        "image": "diagrams/turev-degisim-hizi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "[f(b) − f(a)] / (b − a)"
+          },
+          {
+            "id": "2",
+            "text": "lim(h→0) [f(a + h) − f(a)] / h"
+          },
+          {
+            "id": "3",
+            "text": "y = f(a) + f'(a)·(x − a)"
+          }
+        ],
+        "labels": [
+          "Ortalama değişim hızı",
+          "Anlık değişim hızı",
+          "Teğet doğrusunun denklemi",
+          "Normal doğrusunun denklemi"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Ortalama değişim hızı",
+          "2": "Anlık değişim hızı",
+          "3": "Teğet doğrusunun denklemi"
+        }
+      },
+      "explanation": "Birinci ifade [a, b] aralığındaki kesen doğrusunun eğimi, yani ortalama değişim hızıdır. İkincisi türevin tanımı olup anlık değişim hızını verir. Üçüncüsü eğim f'(a) ve (a, f(a)) noktasından geçen teğet denklemidir; normalin eğimi −1/f'(a) olurdu."
+    },
+    {
+      "topic": "turev",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "x = a noktasındaki her durumu türevlenebilirlik açısından doğru yorumla etiketle.",
+        "image": "diagrams/turev-turevlenebilirlik.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "f(x) = |x − a| biçiminde, grafikte köşe var"
+          },
+          {
+            "id": "2",
+            "text": "f, x = a'da sürekli ve f'(a) sonlu bir sayı"
+          },
+          {
+            "id": "3",
+            "text": "f, x = a'da süreksiz"
+          }
+        ],
+        "labels": [
+          "Türev yok, tek yanlı türevler birbirinden farklı",
+          "Türevlenebilir",
+          "Türev yok, süreklilik koşulu sağlanmıyor",
+          "Türev sıfır"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Türev yok, tek yanlı türevler birbirinden farklı",
+          "2": "Türevlenebilir",
+          "3": "Türev yok, süreklilik koşulu sağlanmıyor"
+        }
+      },
+      "explanation": "Köşe noktasında soldan ve sağdan türevler farklı olduğu için türev yoktur. Süreksizlik de türevlenebilirliği bozar, çünkü türevlenebilirlik sürekliliği gerektirir. Sürekli olup sonlu bir türev değeri varsa fonksiyon o noktada türevlenebilirdir."
+    },
+    {
+      "topic": "turev",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki fonksiyonlardan hangisinin türevi alınırken zincir kuralı gerekir? İlgili ifadeyi seç.",
+        "image": "diagrams/turev-zincir-kurali.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "f(x) = 4x + 7"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = sin(x² + 1)"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = x³ − 2x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = x·cos x"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "sin(x² + 1) bir bileşke fonksiyondur; türevi cos(x² + 1)·2x olup zincir kuralı gerektirir. Diğerlerinde sırasıyla sabit çarpan, kuvvet ve çarpım kuralı yeterlidir."
+    },
+    {
+      "topic": "turev",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "x > 0 olmak üzere, aşağıdaki fonksiyonlardan hangisinin türevi bu aralıkta daima negatiftir? İlgili ifadeyi seç.",
+        "image": "diagrams/turev-isaret-karsilastirma.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "f(x) = ln x"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = eˣ"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = 1/x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = x²"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "f(x) = 1/x için f'(x) = −1/x² olup x > 0 iken daima negatiftir. Diğerlerinin türevleri x > 0 için 1/x, eˣ ve 2x olup hepsi pozitiftir."
+    },
+    {
+      "topic": "turev",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki koşullardan hangisi f fonksiyonunun x = c noktasında yerel minimum yaptığını kesin olarak gösterir? İlgili ifadeyi seç.",
+        "image": "diagrams/turev-yerel-minimum-olcutu.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "f'(c) = 0 ve f''(c) < 0"
+          },
+          {
+            "id": "2",
+            "text": "f'(c) = 0 ve f''(c) = 0"
+          },
+          {
+            "id": "3",
+            "text": "f'(c) > 0 ve f''(c) > 0"
+          },
+          {
+            "id": "4",
+            "text": "f'(c) = 0 ve f''(c) > 0"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "4"
+      },
+      "explanation": "İkinci türev testine göre f'(c) = 0 ve f''(c) > 0 ise x = c'de yerel minimum vardır. f''(c) < 0 yerel maksimum verir, f''(c) = 0 durumunda test sonuç vermez, f'(c) > 0 ise nokta kritik nokta bile değildir."
+    },
+    {
+      "topic": "turev",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki fonksiyonlardan hangisinin ikinci türevi her x değeri için sıfırdır? İlgili ifadeyi seç.",
+        "image": "diagrams/turev-ikinci-turev-sifir.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "f(x) = x³"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = 5x − 7"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = x² + 3"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = eˣ"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "f(x) = 5x − 7 için f'(x) = 5 ve f''(x) = 0'dır. Diğerlerinde ikinci türevler sırasıyla 6x, 2 ve eˣ olup her x için sıfır değildir."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = x³ − 3x² + 3x fonksiyonunun türevi hiçbir x değeri için negatif olamaz."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. f'(x) = 3x² − 6x + 3 = 3(x − 1)² olduğundan türev her x için sıfırdan küçük olamaz; yalnızca x = 1'de sıfır olur."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = x³ fonksiyonu x = 0 noktasında yerel ekstremum yapar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. f'(0) = 0 olmasına karşın f'(x) = 3x² türevi x = 0'da işaret değiştirmez; fonksiyon her yerde artandır. x = 0 bir kritik nokta ama aynı zamanda dönüm noktasıdır."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = x·ln x fonksiyonunun türevi f'(x) = ln x + 1'dir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Çarpım kuralıyla f'(x) = 1·ln x + x·(1/x) = ln x + 1 bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = 1/x fonksiyonunun grafiği x = 0 noktasında bir dönüm noktasına sahiptir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. f''(x) = 2/x³ gerçekten x = 0'ın iki yanında işaret değiştirir, ancak x = 0 fonksiyonun tanım kümesinde değildir. Dönüm noktası olabilmek için noktanın grafikte bulunması gerekir; x = 0 burada düşey asimptottur."
+    },
+    {
+      "topic": "turev",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "f(x) = sin x fonksiyonunun dördüncü türevi −sin x'tir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Ardışık türevler cos x, −sin x, −cos x ve sin x'tir; dördüncü türev yeniden sin x olur. −sin x ikinci türevdir."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = x³ − 3x fonksiyonu x = {{0}} noktasında yerel maksimum, x = {{1}} noktasında yerel minimum yapar.",
+        "choices": [
+          "−1",
+          "1",
+          "0",
+          "3",
+          "−3",
+          "2"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "−1",
+          "1"
+        ]
+      },
+      "explanation": "f'(x) = 3x² − 3 = 0 → x = −1 ve x = 1. f''(x) = 6x olduğundan f''(−1) < 0 ile x = −1'de yerel maksimum, f''(1) > 0 ile x = 1'de yerel minimum vardır."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "y = x³ − 2x eğrisinin x = 2 noktasındaki teğetinin eğimi {{0}} olur.",
+        "choices": [
+          "10",
+          "6",
+          "12",
+          "4"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "10"
+        ]
+      },
+      "explanation": "y' = 3x² − 2 olduğundan x = 2 için eğim 3·4 − 2 = 10 bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = ln(x² + 1) fonksiyonunun türevi f'(x) = {{0}} olur.",
+        "choices": [
+          "2x/(x² + 1)",
+          "1/(x² + 1)",
+          "x/(x² + 1)",
+          "2x·ln(x² + 1)"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2x/(x² + 1)"
+        ]
+      },
+      "explanation": "Zincir kuralıyla f'(x) = (1/(x² + 1))·(x² + 1)' = 2x/(x² + 1) bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "x(t) = t³ − 6t² + 9t konum fonksiyonuyla hareket eden cismin ivmesi t = {{0}} saniyede sıfır olur.",
+        "choices": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "2"
+        ]
+      },
+      "explanation": "x'(t) = 3t² − 12t + 9 ve x''(t) = 6t − 12'dir. 6t − 12 = 0 → t = 2 bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "f(x) = e²ˣ·sin x fonksiyonunun türevi {{0}} olur.",
+        "choices": [
+          "e²ˣ·(2sin x + cos x)",
+          "e²ˣ·(sin x + cos x)",
+          "e²ˣ·(2cos x + sin x)",
+          "2e²ˣ·cos x"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "e²ˣ·(2sin x + cos x)"
+        ]
+      },
+      "explanation": "Çarpım kuralıyla f'(x) = 2e²ˣ·sin x + e²ˣ·cos x = e²ˣ·(2sin x + cos x) bulunur."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu ikinci türeviyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = x⁴"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = sin x"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = ln x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = e³ˣ"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "−sin x"
+          },
+          {
+            "id": "b",
+            "text": "9e³ˣ"
+          },
+          {
+            "id": "c",
+            "text": "12x²"
+          },
+          {
+            "id": "d",
+            "text": "−1/x²"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "x⁴ → 4x³ → 12x²; sin x → cos x → −sin x; ln x → 1/x → −1/x²; e³ˣ → 3e³ˣ → 9e³ˣ."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu dönüm noktasının x değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = x³ − 3x²"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = x³ + 6x²"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = x³ − 9x²"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = x³"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "x = 3"
+          },
+          {
+            "id": "b",
+            "text": "x = 0"
+          },
+          {
+            "id": "c",
+            "text": "x = 1"
+          },
+          {
+            "id": "d",
+            "text": "x = −2"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "d",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dönüm noktası f''(x) = 0 çözümüdür: 6x − 6 = 0 → x = 1; 6x + 12 = 0 → x = −2; 6x − 18 = 0 → x = 3; 6x = 0 → x = 0. Her birinde f'' işaret değiştirdiği için noktalar gerçekten dönüm noktasıdır."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu [0, 3] kapalı aralığındaki mutlak maksimum değeriyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = x²"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = 4x − x²"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = x³ − 3x"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = 10 − x"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "18"
+          },
+          {
+            "id": "b",
+            "text": "4"
+          },
+          {
+            "id": "c",
+            "text": "10"
+          },
+          {
+            "id": "d",
+            "text": "9"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "d",
+          "2": "b",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kritik noktalar ve uç noktalar karşılaştırılır. x²: f(3) = 9. 4x − x²: f'(x) = 4 − 2x = 0 → x = 2, f(2) = 4. x³ − 3x: f(3) = 18 (kritik x = 1'de değer −2). 10 − x: azalan olduğundan f(0) = 10."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "x(t) = t² − 6t + 5 konum fonksiyonuyla hareket eden cisim için her durumu doğru değerle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "t = 0 anındaki hız"
+          },
+          {
+            "id": "2",
+            "text": "Cismin anlık olarak durduğu an"
+          },
+          {
+            "id": "3",
+            "text": "Her andaki ivme"
+          },
+          {
+            "id": "4",
+            "text": "t = 5 anındaki hız"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "t = 3 saniye"
+          },
+          {
+            "id": "b",
+            "text": "−6 birim/s"
+          },
+          {
+            "id": "c",
+            "text": "2 birim/s² (sabit)"
+          },
+          {
+            "id": "d",
+            "text": "4 birim/s"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "v(t) = x'(t) = 2t − 6 olduğundan v(0) = −6 ve v(5) = 4'tür. v(t) = 0 → t = 3 anında cisim durur. a(t) = x''(t) = 2 olup sabittir."
+    },
+    {
+      "topic": "turev",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Fonksiyonu türevinin işaretinden çıkan artanlık-azalanlık davranışıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "f(x) = x² − 4x"
+          },
+          {
+            "id": "2",
+            "text": "f(x) = eˣ"
+          },
+          {
+            "id": "3",
+            "text": "f(x) = 1/x, x > 0"
+          },
+          {
+            "id": "4",
+            "text": "f(x) = x³ − 3x"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Tüm reel sayılarda artan"
+          },
+          {
+            "id": "b",
+            "text": "x < 2 için azalan, x > 2 için artan"
+          },
+          {
+            "id": "c",
+            "text": "Tanım aralığının tamamında azalan"
+          },
+          {
+            "id": "d",
+            "text": "Yalnızca −1 < x < 1 aralığında azalan"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "f'(x) = 2x − 4 işareti x = 2'de değişir. (eˣ)' = eˣ > 0 olduğundan fonksiyon her yerde artandır. (1/x)' = −1/x² < 0 olduğundan x > 0 aralığında sürekli azalır. f'(x) = 3x² − 3 ise yalnızca −1 < x < 1 aralığında negatiftir."
     }
   ]
 }

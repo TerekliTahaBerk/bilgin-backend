@@ -713,6 +713,1300 @@
       },
       "answer_key": { "order": ["1", "2", "3", "4", "5"] },
       "explanation": "Ebbinghaus'un unutma eğrisi bunu deneysel olarak göstermiştir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Deneysel yöntem, psikolojide neden-sonuç ilişkisi kurmaya en elverişli yöntemdir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Bağımsız değişken denetlenebildiği için sebep-sonuç çıkarımı yapılabilir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Freud'a göre kişilik id, ego ve süperego olmak üzere üç yapıdan oluşur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. İd hazzı, süperego ahlakı, ego ikisi arasındaki dengeyi temsil eder."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Pavlov'un köpek deneyi edimsel koşullanmaya örnektir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Pavlov'un deneyi klasik koşullanmanın örneğidir; edimsel koşullanma Skinner'a aittir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Duyusal kayıttaki bilgi, dikkat edilmezse çok kısa sürede kaybolur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Duyusal kayıt bilgiyi saniyenin kesirleri kadar tutar; dikkat edilen bilgi kısa süreli belleğe geçer."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "\"Sosyoloji\" terimini ilk kullanan düşünür Auguste Comte'tur."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Comte sosyolojinin kurucusu, İbn Haldun ise öncüsü kabul edilir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Maddi kültür, bir toplumun inanç ve değerlerinden oluşur."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. İnanç ve değerler manevi kültüre girer; maddi kültür araç gereç ve yapılardan oluşur."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Rol, bireyin toplumdaki konumunu ifade eder."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Konumu ifade eden statüdür; rol o konumun gerektirdiği davranış kalıbıdır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Kazanılmış statü, bireyin kendi çabasıyla elde ettiği statüdür."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Öğretmenlik kazanılmış, cinsiyet ise verilmiş (doğuştan) statüdür."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Hümanist yaklaşımın önde gelen temsilcileri Maslow ve Rogers'tır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Hümanist yaklaşım insanı gelişmeye açık, bütüncül bir varlık olarak ele alır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Gözlem yöntemi tek başına değişkenler arasında neden-sonuç ilişkisi kurmayı sağlar."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Gözlem yalnızca birlikte değişmeyi gösterir; neden-sonuç için deney gerekir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Model alarak öğrenme, Bandura'nın çalışmalarıyla açıklanmıştır."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Bandura'ya göre birey, başkasını gözlemleyerek de öğrenebilir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "İleriye ket vurma, yeni öğrenilen bilginin eski bilgiyi hatırlamayı zorlaştırmasıdır."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Bu durum geriye ket vurmadır; ileriye ket vurmada eski öğrenme yeni öğrenmeyi zorlaştırır."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Emile Durkheim, sosyolojiyi bağımsız bir bilim durumuna getiren düşünürlerdendir."
+      },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Durkheim toplumsal olguların kendi başına incelenebileceğini savunmuştur."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Sosyolojinin inceleme alanı bireyin bilinçaltı süreçleridir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Bilinçaltı psikolojinin, özellikle psikanalizin alanıdır; sosyoloji toplumsal olguları inceler."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "statement": "Asimilasyon, iki kültürün etkileşim sonucu birbirini karşılıklı etkilemesidir."
+      },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Karşılıklı etkileşim kültürleşmedir; asimilasyonda bir kültür diğeri içinde erir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bilinçaltı süreçleri davranışın asıl kaynağı sayan yaklaşım {{0}} yaklaşımdır.",
+        "choices": ["psikanalitik", "davranışçı", "hümanist", "biyolojik"]
+      },
+      "answer_key": { "blanks": ["psikanalitik"] },
+      "explanation": "Psikanalizin kurucusu Freud'dur; davranışın kaynağını bilinçaltında arar."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Freud'un kişilik kuramında haz ilkesine göre hareket eden yapıya {{0}} denir.",
+        "choices": ["id", "ego", "süperego", "libido"]
+      },
+      "answer_key": { "blanks": ["id"] },
+      "explanation": "İd hazzı ister, süperego ahlakı temsil eder, ego ikisi arasında denge kurar."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Maslow'un ihtiyaçlar hiyerarşisinin en üst basamağı {{0}} ihtiyacıdır.",
+        "choices": ["kendini gerçekleştirme", "saygınlık", "güvenlik", "ait olma"]
+      },
+      "answer_key": { "blanks": ["kendini gerçekleştirme"] },
+      "explanation": "Piramidin tepesinde bireyin kendi potansiyelini açığa çıkarma isteği bulunur."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Deneyde araştırmacının bilerek değiştirdiği değişken {{0}}, bunun etkisiyle ölçülen değişken ise {{1}} değişkendir.",
+        "choices": ["bağımsız", "bağımlı", "kontrol", "ara", "sürekli"]
+      },
+      "answer_key": { "blanks": ["bağımsız", "bağımlı"] },
+      "explanation": "Bağımsız değişken sebep, bağımlı değişken sonuçtur; diğerleri sabit tutulur."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Zil sesinin tek başına salya tepkisi doğurması {{0}} koşullanmaya örnektir.",
+        "choices": ["klasik", "edimsel", "bitişik", "gizil"]
+      },
+      "answer_key": { "blanks": ["klasik"] },
+      "explanation": "Nötr uyarıcı koşulsuz uyarıcıyla eşleştiği için koşullu tepki ortaya çıkar."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Başkalarını gözlemleyerek öğrenmeyi açıklayan kuramcı {{0}}'dır.",
+        "choices": ["Bandura", "Thorndike", "Pavlov", "Köhler"]
+      },
+      "answer_key": { "blanks": ["Bandura"] },
+      "explanation": "Bandura'nın sosyal öğrenme kuramına göre birey model alarak da öğrenir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bilgi işleme modelinde bilginin ilk uğradığı depo {{0}} kayıttır.",
+        "choices": ["duyusal", "kısa süreli", "uzun süreli", "işleyen"]
+      },
+      "answer_key": { "blanks": ["duyusal"] },
+      "explanation": "Duyusal kayıttaki bilgi dikkat edilmezse saniyenin kesirleri içinde silinir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Eski öğrenmenin yeni öğrenmeyi zorlaştırmasına {{0}} ket vurma, yeni öğrenmenin eskisini hatırlamayı zorlaştırmasına {{1}} ket vurma denir.",
+        "choices": ["ileriye", "geriye", "yanlamasına", "çift yönlü", "karşılıklı"]
+      },
+      "answer_key": { "blanks": ["ileriye", "geriye"] },
+      "explanation": "Yön adı, engelleyen öğrenmenin zaman içindeki konumuna göre verilir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "\"Toplumsal olgu\" kavramını geliştiren ve sosyolojiyi bağımsız bir bilim durumuna getiren düşünür {{0}}'dır.",
+        "choices": ["Durkheim", "Comte", "Weber", "Marx"]
+      },
+      "answer_key": { "blanks": ["Durkheim"] },
+      "explanation": "Durkheim toplumsal olguların bireye indirgenmeden incelenmesi gerektiğini savunur."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "\"Mukaddime\" adlı eseriyle sosyolojinin öncüsü sayılan düşünür {{0}}'dur.",
+        "choices": ["İbn Haldun", "Farabi", "Comte", "Weber"]
+      },
+      "answer_key": { "blanks": ["İbn Haldun"] },
+      "explanation": "İbn Haldun toplumların doğuş, yükselme ve çöküş sürecini incelemiştir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Yüz yüze, samimi ve duygusal bağlara dayanan ilişkilere {{0}} ilişki denir.",
+        "choices": ["birincil", "ikincil", "resmî", "örgütsel"]
+      },
+      "answer_key": { "blanks": ["birincil"] },
+      "explanation": "Aile ve arkadaş grubu birincil, devlet daireleri ikincil ilişkinin örneğidir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Toplumca önemli sayılan genel ilkelere {{0}}, bu ilkelerden türeyen ve uyulması beklenen davranış kurallarına {{1}} denir.",
+        "choices": ["değer", "norm", "statü", "rol", "yaptırım"]
+      },
+      "answer_key": { "blanks": ["değer", "norm"] },
+      "explanation": "\"Dürüstlük\" bir değerdir; \"yalan söylememek\" bu değerden doğan normdur."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bireyin doğuştan sahip olduğu ve kendi çabasıyla değiştiremediği statüye {{0}} statü denir.",
+        "choices": ["verilmiş", "kazanılmış", "anahtar", "çelişen"]
+      },
+      "answer_key": { "blanks": ["verilmiş"] },
+      "explanation": "Cinsiyet ve yaş verilmiş, öğretmenlik ise kazanılmış statüdür."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bireyin ya da grubun bir statüden başka bir statüye geçmesine toplumsal {{0}} denir.",
+        "choices": ["hareketlilik", "değişme", "tabakalaşma", "çözülme"]
+      },
+      "answer_key": { "blanks": ["hareketlilik"] },
+      "explanation": "Dikey hareketlilikte statü düzeyi değişir, yatay hareketlilikte aynı düzeyde kalır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bireyin üstlendiği iki rolün gereklerinin birbiriyle bağdaşmamasına rol {{0}} denir.",
+        "choices": ["çatışması", "pekişmesi", "kümesi", "mesafesi"]
+      },
+      "answer_key": { "blanks": ["çatışması"] },
+      "explanation": "Hem öğrenci hem tam zamanlı çalışan bir kişinin zaman sıkışması buna örnektir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Toplumun gelir, güç ve saygınlık bakımından katmanlara ayrılmasına {{0}}, bu katmanlar arasında yer değiştirmeye ise {{1}} denir.",
+        "choices": ["tabakalaşma", "hareketlilik", "farklılaşma", "bütünleşme", "kurumsallaşma"]
+      },
+      "answer_key": { "blanks": ["tabakalaşma", "hareketlilik"] },
+      "explanation": "Tabakalaşma yapıyı, hareketlilik ise bu yapı içindeki geçişleri anlatır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Psikolojinin alt alanını inceleme konusuyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Gelişim psikolojisi" },
+          { "id": "2", "text": "Klinik psikoloji" },
+          { "id": "3", "text": "Endüstri ve örgüt psikolojisi" },
+          { "id": "4", "text": "Sosyal psikoloji" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bireyin iş yerindeki verimliliği ve doyumu" },
+          { "id": "b", "text": "Doğumdan ölüme kadar yaşanan değişimler" },
+          { "id": "c", "text": "Bireyin grup içindeki davranışı" },
+          { "id": "d", "text": "Ruhsal bozuklukların tanısı ve tedavisi" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Alt alanlar aynı yöntemleri kullanır, ayrıldıkları nokta inceledikleri konudur."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Araştırma yöntemini temel özelliğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Deney" },
+          { "id": "2", "text": "Gözlem" },
+          { "id": "3", "text": "Anket" },
+          { "id": "4", "text": "Vaka incelemesi" }
+        ],
+        "right": [
+          { "id": "a", "text": "Davranışı kendi doğal ortamında izlemek" },
+          { "id": "b", "text": "Değişkenleri denetleyip neden-sonuç kurmak" },
+          { "id": "c", "text": "Tek bir bireyi derinlemesine incelemek" },
+          { "id": "d", "text": "Çok sayıda kişiden hazır sorularla bilgi toplamak" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Yalnızca deney neden-sonuç verir; diğerleri ilişki ve betimleme sağlar."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Koşullanma kavramını tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Genelleme" },
+          { "id": "2", "text": "Ayırt etme" },
+          { "id": "3", "text": "Sönme" },
+          { "id": "4", "text": "Kendiliğinden geri gelme" }
+        ],
+        "right": [
+          { "id": "a", "text": "Benzer uyarıcılara aynı tepkiyi verme" },
+          { "id": "b", "text": "Pekiştirilmeyen tepkinin zamanla kaybolması" },
+          { "id": "c", "text": "Benzer uyarıcılar arasındaki farkı fark edip tepkiyi sınırlama" },
+          { "id": "d", "text": "Kaybolmuş tepkinin bir süre sonra yeniden ortaya çıkması" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "c", "3": "b", "4": "d" },
+        "partial_credit": true
+      },
+      "explanation": "Genelleme ile ayırt etme birbirinin tersi; sönme ile geri gelme aynı sürecin iki ucudur."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bellek türünü içeriğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Anlamsal bellek" },
+          { "id": "2", "text": "Anısal bellek" },
+          { "id": "3", "text": "İşlemsel bellek" },
+          { "id": "4", "text": "Duyusal kayıt" }
+        ],
+        "right": [
+          { "id": "a", "text": "Kişinin yaşadığı olaylar ve o anlara ait ayrıntılar" },
+          { "id": "b", "text": "Kavramlar, kurallar ve genel bilgiler" },
+          { "id": "c", "text": "Duyu organına ulaşan ham izlenimin çok kısa tutulması" },
+          { "id": "d", "text": "Bisiklete binme gibi beceriler" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Anlamsal ve anısal bellek açık (bildirimsel), işlemsel bellek örtük bellektir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kuramcıyı yaptığı çalışmayla birleştir.",
+        "left": [
+          { "id": "1", "text": "Pavlov" },
+          { "id": "2", "text": "Skinner" },
+          { "id": "3", "text": "Thorndike" },
+          { "id": "4", "text": "Köhler" }
+        ],
+        "right": [
+          { "id": "a", "text": "Kafesten çıkmayı denemelerle öğrenen kedi" },
+          { "id": "b", "text": "Zil sesiyle salya salgılayan köpek" },
+          { "id": "c", "text": "Sopayla muzu alma yolunu birden kavrayan şempanze" },
+          { "id": "d", "text": "Kolu ittiğinde yem alan fare" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Thorndike deneme-yanılmayı, Köhler ise kavrayarak öğrenmeyi ortaya koymuştur."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Düşünürü sosyolojiye katkısıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Auguste Comte" },
+          { "id": "2", "text": "İbn Haldun" },
+          { "id": "3", "text": "Emile Durkheim" },
+          { "id": "4", "text": "Max Weber" }
+        ],
+        "right": [
+          { "id": "a", "text": "\"Mukaddime\" ile sosyolojinin öncüsü olmak" },
+          { "id": "b", "text": "\"Sosyoloji\" terimini ilk kez kullanmak" },
+          { "id": "c", "text": "Toplumsal eylemi anlamaya dayanan sosyolojiyi geliştirmek" },
+          { "id": "d", "text": "Toplumsal olgu kavramını ortaya koymak" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Comte kurucu, İbn Haldun öncü sayılır; Durkheim ve Weber yöntem bakımından ayrılır."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Toplumsal kurumu temel işleviyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Aile" },
+          { "id": "2", "text": "Eğitim" },
+          { "id": "3", "text": "Ekonomi" },
+          { "id": "4", "text": "Siyaset" }
+        ],
+        "right": [
+          { "id": "a", "text": "Mal ve hizmetlerin üretimi ile paylaşımı" },
+          { "id": "b", "text": "Bireyin ilk toplumsallaşması ve nüfusun sürekliliği" },
+          { "id": "c", "text": "Toplumda düzenin kurulması ve gücün örgütlenmesi" },
+          { "id": "d", "text": "Bilgi ve kültürün yeni kuşaklara aktarılması" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "d", "3": "a", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Beş temel kurum her toplumda bulunur; biri aksadığında diğerleri de etkilenir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kavramı örneğiyle birleştir.",
+        "left": [
+          { "id": "1", "text": "Verilmiş statü" },
+          { "id": "2", "text": "Kazanılmış statü" },
+          { "id": "3", "text": "Dikey hareketlilik" },
+          { "id": "4", "text": "Yatay hareketlilik" }
+        ],
+        "right": [
+          { "id": "a", "text": "Bir kişinin doğduğunda sahip olduğu cinsiyeti" },
+          { "id": "b", "text": "Bir işçinin yıllar sonra müdür olması" },
+          { "id": "c", "text": "Bir öğretmenin aynı görevle başka bir ile tayin edilmesi" },
+          { "id": "d", "text": "Sınavı kazanıp hekim olmak" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "a", "2": "d", "3": "b", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Dikey hareketlilikte statü düzeyi değişir, yatay hareketlilikte düzey aynı kalır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Toplumsal kural türünü tanımıyla birleştir.",
+        "left": [
+          { "id": "1", "text": "Yasa" },
+          { "id": "2", "text": "Ahlak kuralı" },
+          { "id": "3", "text": "Gelenek" },
+          { "id": "4", "text": "Moda" }
+        ],
+        "right": [
+          { "id": "a", "text": "Vicdani yaptırıma dayanan iyi-kötü ölçütü" },
+          { "id": "b", "text": "Devletin resmî yaptırımıyla desteklenen yazılı kural" },
+          { "id": "c", "text": "Kısa sürede yayılıp hızla değişen beğeni biçimi" },
+          { "id": "d", "text": "Kuşaklar boyu aktarılan, uyulması güçlü biçimde beklenen davranış" }
+        ]
+      },
+      "answer_key": {
+        "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" },
+        "partial_credit": true
+      },
+      "explanation": "Yaptırımın kaynağı değişir: yasada devlet, ahlakta vicdan, gelenekte toplum baskısı."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bilimsel araştırmanın basamaklarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Toplanan verileri çözümleme" },
+          { "id": "2", "text": "Araştırma problemini belirleme" },
+          { "id": "3", "text": "Sonuca ulaşma ve genelleme yapma" },
+          { "id": "4", "text": "Hipotez kurma" },
+          { "id": "5", "text": "Veri toplama" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "5", "1", "3"] },
+      "explanation": "Hipotez veriden önce kurulur; veriyle sınandıktan sonra genellemeye gidilir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Psikoloji tarihindeki gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          { "id": "1", "text": "Watson'ın davranışçı yaklaşımı ortaya koyması (1913)" },
+          { "id": "2", "text": "Wundt'un ilk psikoloji laboratuvarını kurması (1879)" },
+          { "id": "3", "text": "Maslow'un ihtiyaçlar hiyerarşisini yayımlaması (1943)" },
+          { "id": "4", "text": "Freud'un \"Düşlerin Yorumu\" adlı eserini yayımlaması (1900)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Psikolojinin bağımsız bilim olması Wundt'un laboratuvarıyla başlar; sonra psikanaliz, davranışçılık ve hümanizm gelir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Freud'un psikoseksüel gelişim dönemlerini küçük yaştan büyük yaşa doğru diz.",
+        "items": [
+          { "id": "1", "text": "Fallik dönem" },
+          { "id": "2", "text": "Oral dönem" },
+          { "id": "3", "text": "Genital dönem" },
+          { "id": "4", "text": "Anal dönem" },
+          { "id": "5", "text": "Gizil (latans) dönem" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Oral (0-1), anal (1-3), fallik (3-6), gizil (6-12) ve genital (12 yaş sonrası) dönem."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Piaget'in bilişsel gelişim dönemlerini küçük yaştan büyük yaşa doğru diz.",
+        "items": [
+          { "id": "1", "text": "Somut işlemler dönemi" },
+          { "id": "2", "text": "Duyusal-motor dönem" },
+          { "id": "3", "text": "Soyut işlemler dönemi" },
+          { "id": "4", "text": "İşlem öncesi dönem" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Duyusal-motor (0-2), işlem öncesi (2-7), somut işlemler (7-11), soyut işlemler (11 yaş sonrası)."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Yaşam boyu gelişim dönemlerini erken dönemden ileri döneme doğru diz.",
+        "items": [
+          { "id": "1", "text": "Ergenlik" },
+          { "id": "2", "text": "Bebeklik" },
+          { "id": "3", "text": "Yaşlılık" },
+          { "id": "4", "text": "Çocukluk" },
+          { "id": "5", "text": "Yetişkinlik" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "5", "3"] },
+      "explanation": "Gelişim psikolojisi bu dönemlerin tamamını, doğumdan ölüme kadar inceler."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Algılama sürecinin aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Uyarının sinirler yoluyla beyne iletilmesi" },
+          { "id": "2", "text": "Bir uyarıcının duyu organına ulaşması" },
+          { "id": "3", "text": "Bilginin beyinde anlamlandırılması (algı)" },
+          { "id": "4", "text": "Duyu organındaki alıcıların uyarılması (duyum)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Duyum ham veriyi, algı ise bu verinin beyinde yorumlanmasını anlatır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Pavlov'un klasik koşullanma deneyindeki aşamaları ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Zil sesi tek başına verilir, köpek salya salgılamaz" },
+          { "id": "2", "text": "Zil sesi tek başına verildiğinde köpek salya salgılar" },
+          { "id": "3", "text": "Zil sesi ile yiyecek birlikte, art arda verilir" },
+          { "id": "4", "text": "Zil sesi uzun süre yiyecekle eşleştirilmez ve tepki söner" }
+        ]
+      },
+      "answer_key": { "order": ["1", "3", "2", "4"] },
+      "explanation": "Koşullanma öncesi, eşleştirme, koşullu tepki ve sönme; deneyin dört aşamasıdır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bellek süreçlerini bilginin izlediği yola göre ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Bilginin bellekte saklanması (depolama)" },
+          { "id": "2", "text": "Gelen bilgiye dikkat etme" },
+          { "id": "3", "text": "İhtiyaç duyulduğunda bilgiyi geri getirme" },
+          { "id": "4", "text": "Bilgiyi anlamlı biçimde kodlama" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Kodlama olmadan depolama, depolama olmadan geri getirme gerçekleşmez."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Skinner'ın kutu deneyindeki aşamaları ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Fare kola basma davranışını giderek daha sık yapar" },
+          { "id": "2", "text": "Aç fare, içinde kol bulunan kutuya konur" },
+          { "id": "3", "text": "Kola her basıldığında kaba yem düşer" },
+          { "id": "4", "text": "Fare rastgele hareketleri sırasında kola dokunur" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "3", "1"] },
+      "explanation": "Davranışın ardından gelen pekiştireç, o davranışın tekrarlanma olasılığını artırır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Aralıklı tekrar programındaki çalışmaları zaman sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Bir hafta sonra yapılan tekrar" },
+          { "id": "2", "text": "Konunun ilk kez öğrenilmesi" },
+          { "id": "3", "text": "Bir ay sonra yapılan tekrar" },
+          { "id": "4", "text": "Bir gün sonra yapılan tekrar" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Tekrarlar arasındaki süre kademeli olarak uzatıldığında kalıcılık artar."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Toplumsallaşmanın gerçekleştiği ortamları bireyin yaşamında ortaya çıkış sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Okul (çocukluk)" },
+          { "id": "2", "text": "Aile (bebeklik)" },
+          { "id": "3", "text": "İş yeri (yetişkinlik)" },
+          { "id": "4", "text": "Arkadaş grubu (ergenlik)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Toplumsallaşma ailede başlar ve yeni ortamlar eklendikçe hayat boyu sürer."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Sosyolojiye katkıda bulunan düşünürleri yaşadıkları döneme göre eskiden yeniye diz.",
+        "items": [
+          { "id": "1", "text": "Emile Durkheim (1858-1917)" },
+          { "id": "2", "text": "İbn Haldun (1332-1406)" },
+          { "id": "3", "text": "Max Weber (1864-1920)" },
+          { "id": "4", "text": "Auguste Comte (1798-1857)" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "İbn Haldun öncü, Comte kurucu; Durkheim ve Weber ise sosyolojiyi yöntem bakımından geliştirir."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Toplum türlerini tarihsel olarak ortaya çıkış sırasına göre diz.",
+        "items": [
+          { "id": "1", "text": "Sanayi toplumu" },
+          { "id": "2", "text": "Avcı-toplayıcı toplum" },
+          { "id": "3", "text": "Bilgi toplumu" },
+          { "id": "4", "text": "Tarım toplumu" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Her geçişte üretim biçimi değişir: avlanma, toprak, makine ve bilgi öne çıkar."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Anketle yapılan bir sosyoloji araştırmasının adımlarını ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Anketin örnekleme uygulanması" },
+          { "id": "2", "text": "Araştırmanın evreni ve örnekleminin belirlenmesi" },
+          { "id": "3", "text": "Araştırılacak toplumsal sorunun saptanması" },
+          { "id": "4", "text": "Soru formunun hazırlanması" },
+          { "id": "5", "text": "Elde edilen verilerin çözümlenip raporlanması" }
+        ]
+      },
+      "answer_key": { "order": ["3", "2", "4", "1", "5"] },
+      "explanation": "Örneklem kimden veri toplanacağını, soru formu neyin sorulacağını belirler; uygulama ikisinden sonra gelir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kültürel gecikmenin ortaya çıkış sürecini ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Var olan değer ve kuralların yeni duruma yetersiz kalması" },
+          { "id": "2", "text": "Yeni bir teknolojik araç geliştirilmesi" },
+          { "id": "3", "text": "Toplumda yeni kural ve düzenlemelerin oluşturulması" },
+          { "id": "4", "text": "Aracın toplumda hızla yaygınlaşması" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Maddi kültür hızlı, manevi kültür yavaş değişir; arada kalan boşluk kültürel gecikmedir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bir toplumsal kurumun oluşum (kurumsallaşma) sürecini ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Davranış biçiminin norma dönüşmesi" },
+          { "id": "2", "text": "Toplumda ortak bir ihtiyacın doğması" },
+          { "id": "3", "text": "Normların kalıcı bir kurum hâline gelmesi" },
+          { "id": "4", "text": "İhtiyacı karşılayan davranış biçiminin tekrarlanması" }
+        ]
+      },
+      "answer_key": { "order": ["2", "4", "1", "3"] },
+      "explanation": "Kurumlar, tekrarlanan davranışların kurallaşıp kalıcılaşmasıyla ortaya çıkar."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kırdan kente göçle sonuçlanan süreci ilk adımdan son adıma diz.",
+        "items": [
+          { "id": "1", "text": "Kırsalda iş gücüne olan ihtiyacın azalması" },
+          { "id": "2", "text": "Tarımda makineleşmenin yaygınlaşması" },
+          { "id": "3", "text": "Kentlerde konut ve altyapı sorunlarının artması" },
+          { "id": "4", "text": "Nüfusun iş bulmak için kente göç etmesi" }
+        ]
+      },
+      "answer_key": { "order": ["2", "1", "4", "3"] },
+      "explanation": "Göç, kırsalda iten ve kentte çeken etkenlerin birlikte işlemesiyle gerçekleşir."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Eğitim kurumunun basamaklarını alttan üste doğru diz.",
+        "items": [
+          { "id": "1", "text": "Lise" },
+          { "id": "2", "text": "İlkokul" },
+          { "id": "3", "text": "Yükseköğretim" },
+          { "id": "4", "text": "Ortaokul" },
+          { "id": "5", "text": "Okul öncesi eğitim" }
+        ]
+      },
+      "answer_key": { "order": ["5", "2", "4", "1", "3"] },
+      "explanation": "Eğitim kurumu, kültürün kuşaklara aktarılmasını bu basamaklar üzerinden yürütür."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Bir deneyde kontrol grubuna bağımsız değişken uygulanmaz." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Kontrol grubu, bağımsız değişkenin uygulandığı deney grubuyla karşılaştırma yapmak için tutulur; ona işlem uygulanmaz."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "İçgörü yoluyla öğrenmeyi açıklayan Gestalt yaklaşımı, davranışı parçalarına ayırarak incelemeyi savunur." },
+      "answer_key": { "value": false },
+      "explanation": "Yanlış. Gestalt yaklaşımı bütünün parçaların toplamından farklı olduğunu savunur; parçalara ayırarak inceleme yapısalcılığın tutumudur."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Olumsuz pekiştirme, rahatsız edici bir uyarıcının ortadan kaldırılmasıyla davranışın tekrarlanma olasılığını artırır." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Olumsuz pekiştirmede hoşa gitmeyen uyarıcı kaldırılır ve davranış güçlenir; bu yönüyle cezadan ayrılır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Kısa süreli bellekteki bilginin kapasitesi, bilgileri anlamlı öbekler hâlinde gruplamakla artırılabilir." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Öbekleme (gruplama), birim sayısını azalttığı için 7 ± 2 sınırı içinde daha çok bilgi tutulmasını sağlar."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": { "statement": "Sosyolojide örneklem, araştırmanın evrenini temsil edecek biçimde seçilen küçük gruptur." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Evrenin tamamına ulaşmak çoğu kez olanaksız olduğundan, onu temsil eden bir örneklem üzerinde çalışılır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": { "statement": "Toplumsal kurumların işlevlerinin birbirine bağlı olması, bir kurumdaki değişmenin diğer kurumları da etkilemesine yol açar." },
+      "answer_key": { "value": true },
+      "explanation": "Doğru. Kurumlar birbiriyle işlevsel bağ içindedir; örneğin ekonomideki bir değişme aile ve eğitim kurumlarına da yansır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir deneyde araştırmacının işlem uygulamadığı, karşılaştırma ölçütü olarak tuttuğu gruba {{0}} grubu, işlem uyguladığı gruba ise {{1}} grubu denir.",
+        "choices": ["kontrol", "deney", "örneklem", "evren", "denek", "yordam"]
+      },
+      "answer_key": { "blanks": ["kontrol", "deney"] },
+      "explanation": "Bağımsız değişkenin etkisi, deney grubu ile kontrol grubunun karşılaştırılmasıyla ortaya çıkarılır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bütünün, onu oluşturan parçaların toplamından farklı olduğunu ve algının bütüncül olduğunu savunan yaklaşım {{0}} yaklaşımıdır.",
+        "choices": ["Gestalt", "yapısalcı", "işlevselci", "davranışçı"]
+      },
+      "answer_key": { "blanks": ["Gestalt"] },
+      "explanation": "Gestalt (bütüncül) yaklaşım, Wertheimer ve Köhler'in çalışmalarıyla gelişmiş; algıyı ve içgörüyü bütünlük ilkesiyle açıklamıştır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Rahatsız edici bir uyarıcının ortadan kaldırılmasıyla davranışın güçlenmesine {{0}} pekiştirme, hoşa giden bir uyarıcının verilmesiyle güçlenmesine {{1}} pekiştirme denir.",
+        "choices": ["olumsuz", "olumlu", "aralıklı", "sürekli", "ikincil", "birincil"]
+      },
+      "answer_key": { "blanks": ["olumsuz", "olumlu"] },
+      "explanation": "İki durumda da davranış güçlenir; aradaki fark uyarıcının verilmesi ile kaldırılmasıdır. Cezada ise davranış zayıflar."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Kısa süreli bellekteki bilgi birimlerinin anlamlı birlikler hâlinde gruplanarak kapasitenin verimli kullanılmasına {{0}} denir.",
+        "choices": ["öbekleme", "zihinsel tekrar", "kodlama", "genelleme"]
+      },
+      "answer_key": { "blanks": ["öbekleme"] },
+      "explanation": "Öbekleme (gruplama), birim sayısını azaltarak 7 ± 2 sınırı içinde daha çok bilgi tutulmasını sağlar."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir sosyoloji araştırmasında hakkında bilgi toplanmak istenen bütüne {{0}}, bu bütünü temsil edecek biçimde seçilen küçük gruba ise {{1}} denir.",
+        "choices": ["evren", "örneklem", "denek", "hipotez", "veri", "değişken"]
+      },
+      "answer_key": { "blanks": ["evren", "örneklem"] },
+      "explanation": "Evrenin tamamına ulaşmak çoğu kez olanaksızdır; bu nedenle onu temsil eden bir örneklem üzerinde çalışılır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "template": "Bir toplumun kendi iç dinamikleriyle bilinçli ve planlı biçimde daha ileri bir düzeye ulaşmasına toplumsal {{0}}, yapıda yön belirtmeksizin ortaya çıkan her türlü farklılaşmaya ise toplumsal {{1}} denir.",
+        "choices": ["gelişme", "değişme", "çözülme", "hareketlilik", "tabakalaşma", "bütünleşme"]
+      },
+      "answer_key": { "blanks": ["gelişme", "değişme"] },
+      "explanation": "Değişme yönden bağımsız bir farklılaşmadır; gelişme ise olumlu yönde ve nitelikli bir değişmedir."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Deneydeki öğeyi karşılığıyla birleştir.",
+        "left": [{ "id": "1", "text": "Bağımsız değişken" }, { "id": "2", "text": "Bağımlı değişken" },
+                 { "id": "3", "text": "Kontrol grubu" }, { "id": "4", "text": "Denek" }],
+        "right": [{ "id": "a", "text": "Üzerinde araştırma yapılan canlı" }, { "id": "b", "text": "Araştırmacının bilerek değiştirdiği etken" },
+                  { "id": "c", "text": "Karşılaştırma için işlem uygulanmayan grup" }, { "id": "d", "text": "Etkisi ölçülen, sonuç niteliğindeki davranış" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "c", "4": "a" }, "partial_credit": true },
+      "explanation": "Deneyde bağımsız değişken sebep, bağımlı değişken sonuçtur; kontrol grubu ölçüt, denek ise araştırmanın öznesidir."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bellekle ilgili kavramı karşılığıyla birleştir.",
+        "left": [{ "id": "1", "text": "Öbekleme" }, { "id": "2", "text": "Bastırma" },
+                 { "id": "3", "text": "Ket vurma" }, { "id": "4", "text": "Dil ucu olayı" }],
+        "right": [{ "id": "a", "text": "Bilginin varlığı sezildiği hâlde o an hatırlanamaması" }, { "id": "b", "text": "Bilgileri anlamlı birlikler hâlinde gruplayarak kapasiteyi verimli kullanma" },
+                  { "id": "c", "text": "Öğrenmelerin birbirinin hatırlanmasını zorlaştırması" }, { "id": "d", "text": "Kaygı veren anının bilinçten uzak tutulması" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "d", "3": "c", "4": "a" }, "partial_credit": true },
+      "explanation": "Öbekleme bir kodlama stratejisi, bastırma savunma kaynaklı bir unutma, ket vurma karışma kaynaklı bir unutma, dil ucu olayı ise geçici bir geri getirme güçlüğüdür."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Araştırma yöntemini en elverişli olduğu kullanım alanıyla birleştir.",
+        "left": [{ "id": "1", "text": "Anket" }, { "id": "2", "text": "Monografi" },
+                 { "id": "3", "text": "Katılımlı gözlem" }, { "id": "4", "text": "İstatistik yöntem" }],
+        "right": [{ "id": "a", "text": "Tek bir köyün tüm yönleriyle derinlemesine incelenmesi" }, { "id": "b", "text": "Geniş bir kitlenin görüşlerinin kısa sürede toplanması" },
+                  { "id": "c", "text": "Nüfus ve gelir verilerinin sayısal olarak çözümlenmesi" }, { "id": "d", "text": "Araştırmacının incelediği grubun yaşamına katılarak veri toplaması" }]
+      },
+      "answer_key": { "pairs": { "1": "b", "2": "a", "3": "d", "4": "c" }, "partial_credit": true },
+      "explanation": "Her yöntem farklı bir veri türüne elverişlidir: anket genişliğe, monografi derinliğe, katılımlı gözlem iç bakışa, istatistik sayısal çözümlemeye."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Toplumsal kurumu temel işleviyle birleştir.",
+        "left": [{ "id": "1", "text": "Hukuk" }, { "id": "2", "text": "Din" },
+                 { "id": "3", "text": "Boş zaman kurumu" }, { "id": "4", "text": "Sağlık" }],
+        "right": [{ "id": "a", "text": "Kutsala ilişkin inanç ve ibadetleri düzenleme" }, { "id": "b", "text": "Dinlenme ve eğlenme gereksinimini karşılama" },
+                  { "id": "c", "text": "Bedensel ve ruhsal iyiliğin korunmasını örgütleme" }, { "id": "d", "text": "Kuralları yazılı hâle getirip yaptırıma bağlama" }]
+      },
+      "answer_key": { "pairs": { "1": "d", "2": "a", "3": "b", "4": "c" }, "partial_credit": true },
+      "explanation": "Aile, eğitim, ekonomi ve siyasetin yanında hukuk, din, sağlık ve boş zaman da temel toplumsal kurumlar arasında sayılır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{ "id": "1", "text": "elverişli" }, { "id": "2", "text": "Deneysel" },
+                  { "id": "3", "text": "neden-sonuç" }, { "id": "4", "text": "yöntemin" },
+                  { "id": "5", "text": "olmasıdır" }, { "id": "6", "text": "üstünlüğü" },
+                  { "id": "7", "text": "kurmaya" }, { "id": "8", "text": "ilişkisi" }]
+      },
+      "answer_key": { "order": ["2", "4", "6", "3", "8", "7", "1", "5"] },
+      "explanation": "Deneysel yöntemin üstünlüğü neden-sonuç ilişkisi kurmaya elverişli olmasıdır. Gözlem ve anket bu ilişkiyi tek başına kuramaz."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{ "id": "1", "text": "bütünün" }, { "id": "2", "text": "Gestalt" },
+                  { "id": "3", "text": "yaklaşımı" }, { "id": "4", "text": "parçaların" },
+                  { "id": "5", "text": "toplamından" }, { "id": "6", "text": "farklı" },
+                  { "id": "7", "text": "olduğunu" }, { "id": "8", "text": "savunur" }]
+      },
+      "answer_key": { "order": ["2", "3", "1", "4", "5", "6", "7", "8"] },
+      "explanation": "Gestalt yaklaşımı bütünün parçaların toplamından farklı olduğunu savunur; bu nedenle algıyı bütüncül olarak ele alır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{ "id": "1", "text": "uyarıcının" }, { "id": "2", "text": "güçlendirir" },
+                  { "id": "3", "text": "Olumsuz" }, { "id": "4", "text": "rahatsız" },
+                  { "id": "5", "text": "pekiştirmede" }, { "id": "6", "text": "edici" },
+                  { "id": "7", "text": "davranışı" }, { "id": "8", "text": "kaldırılması" }]
+      },
+      "answer_key": { "order": ["3", "5", "4", "6", "1", "8", "7", "2"] },
+      "explanation": "Olumsuz pekiştirmede rahatsız edici uyarıcının kaldırılması davranışı güçlendirir. Cezada ise davranış zayıflar."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{ "id": "1", "text": "kapasitesini" }, { "id": "2", "text": "süreli" },
+                  { "id": "3", "text": "Öbekleme" }, { "id": "4", "text": "sağlar" },
+                  { "id": "5", "text": "kısa" }, { "id": "6", "text": "verimli" },
+                  { "id": "7", "text": "belleğin" }, { "id": "8", "text": "kullanmayı" }]
+      },
+      "answer_key": { "order": ["3", "5", "2", "7", "1", "6", "8", "4"] },
+      "explanation": "Öbekleme kısa süreli belleğin kapasitesini verimli kullanmayı sağlar; birim sayısını azalttığı için 7 ± 2 sınırı içinde daha çok bilgi tutulur."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{ "id": "1", "text": "evrenini" }, { "id": "2", "text": "gruptur" },
+                  { "id": "3", "text": "Örneklem" }, { "id": "4", "text": "temsil" },
+                  { "id": "5", "text": "araştırma" }, { "id": "6", "text": "küçük" },
+                  { "id": "7", "text": "eden" }]
+      },
+      "answer_key": { "order": ["3", "5", "1", "4", "7", "6", "2"] },
+      "explanation": "Örneklem araştırma evrenini temsil eden küçük gruptur; temsil gücü zayıf bir örneklem sonuçları geçersiz kılar."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [{ "id": "1", "text": "ilişkilerin" }, { "id": "2", "text": "Toplumsal" },
+                  { "id": "3", "text": "bütündür" }, { "id": "4", "text": "kurumların" },
+                  { "id": "5", "text": "yapı" }, { "id": "6", "text": "oluşturduğu" },
+                  { "id": "7", "text": "ve" }]
+      },
+      "answer_key": { "order": ["2", "5", "4", "7", "1", "6", "3"] },
+      "explanation": "Toplumsal yapı kurumların ve ilişkilerin oluşturduğu bütündür; bu nedenle bir kurumdaki değişme bütünü etkiler."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İnsanın kendini gerçekleştirme eğilimini ve öznel yaşantısını merkeze alan yaklaşımı seç.",
+        "image": "diagrams/psikoloji-yaklasimlari.png",
+        "hotspots": [{ "id": "1", "text": "Davranışçı yaklaşım" }, { "id": "2", "text": "Psikanalitik yaklaşım" },
+                     { "id": "3", "text": "Hümanist yaklaşım" }, { "id": "4", "text": "Biyolojik yaklaşım" }]
+      },
+      "answer_key": { "hotspot_id": "3" },
+      "explanation": "Maslow ve Rogers'ın temsil ettiği hümanist yaklaşım, insanı kendini gerçekleştirmeye yönelen bir bütün olarak ele alır."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "İş yerinde çalışan verimliliğini ve personel seçimini inceleyen psikoloji alt alanını seç.",
+        "image": "diagrams/psikoloji-alt-alanlari.png",
+        "hotspots": [{ "id": "1", "text": "Endüstri ve örgüt psikolojisi" }, { "id": "2", "text": "Klinik psikoloji" },
+                     { "id": "3", "text": "Gelişim psikolojisi" }, { "id": "4", "text": "Adli psikoloji" }]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Endüstri ve örgüt psikolojisi; personel seçimi, iş doyumu ve verimlilik gibi çalışma yaşamına ilişkin konuları inceler."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Bilgi işleme modelinde bilginin dikkat edilmezse saniyeler içinde yitirildiği ilk aşamayı seç.",
+        "image": "diagrams/bellek-asamalari.png",
+        "hotspots": [{ "id": "1", "text": "Duyusal kayıt" }, { "id": "2", "text": "Kısa süreli bellek" },
+                     { "id": "3", "text": "Uzun süreli bellek" }, { "id": "4", "text": "Geri getirme" }]
+      },
+      "answer_key": { "hotspot_id": "1" },
+      "explanation": "Duyusal kayıt, duyu organlarından gelen bilgiyi çok kısa süre tutar; dikkat edilen bilgi kısa süreli belleğe aktarılır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Mal ve hizmetlerin üretimi, bölüşümü ve tüketimini düzenleyen toplumsal kurumu seç.",
+        "image": "diagrams/toplumsal-kurumlar.png",
+        "hotspots": [{ "id": "1", "text": "Aile" }, { "id": "2", "text": "Ekonomi" },
+                     { "id": "3", "text": "Eğitim" }, { "id": "4", "text": "Siyaset" }]
+      },
+      "answer_key": { "hotspot_id": "2" },
+      "explanation": "Ekonomi kurumu üretim, bölüşüm ve tüketim süreçlerini düzenler; siyaset ise gücün kullanımını ve yönetimi örgütler."
+    },
+    {
+      "topic": "psikolojiye_giris",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her kuramı onu geliştiren kuramcıyla etiketle.",
+        "image": "diagrams/psikoloji-kuramcilari.png",
+        "slots": [{ "id": "1", "text": "Psikanalitik kişilik kuramı" }, { "id": "2", "text": "İhtiyaçlar hiyerarşisi" },
+                  { "id": "3", "text": "Sosyal öğrenme kuramı" }],
+        "labels": ["Freud", "Maslow", "Bandura", "Watson"]
+      },
+      "answer_key": { "labels": { "1": "Freud", "2": "Maslow", "3": "Bandura" } },
+      "explanation": "Freud psikanalizi, Maslow ihtiyaçlar hiyerarşisini, Bandura sosyal öğrenme kuramını geliştirmiştir. Watson davranışçılığın kurucularındandır."
+    },
+    {
+      "topic": "ogrenme_ve_bellek",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her özelliği ait olduğu bellek türüyle etiketle.",
+        "image": "diagrams/bellek-turleri.png",
+        "slots": [{ "id": "1", "text": "Kavram, kural ve genel bilgileri tutar" }, { "id": "2", "text": "Kişinin kendi yaşadığı olayları tutar" },
+                  { "id": "3", "text": "Beceri ve alışkanlıkları tutar" }],
+        "labels": ["Anlamsal bellek", "Anısal bellek", "İşlemsel bellek", "Duyusal kayıt"]
+      },
+      "answer_key": { "labels": { "1": "Anlamsal bellek", "2": "Anısal bellek", "3": "İşlemsel bellek" } },
+      "explanation": "Üçü de uzun süreli belleğin alt türüdür. Duyusal kayıt ise bilgiyi çok kısa süre tutan ilk depo olduğu için buraya girmez."
+    },
+    {
+      "topic": "sosyolojiye_giris",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her kullanım alanını en elverişli araştırma yöntemiyle etiketle.",
+        "image": "diagrams/sosyoloji-yontemleri.png",
+        "slots": [{ "id": "1", "text": "Geniş bir kitlenin görüşlerini kısa sürede toplamak" }, { "id": "2", "text": "Tek bir yerleşim yerini tüm yönleriyle derinlemesine incelemek" },
+                  { "id": "3", "text": "Nüfus ve gelir verilerini sayısal olarak çözümlemek" }],
+        "labels": ["Anket", "Monografi", "İstatistik yöntem", "Görüşme"]
+      },
+      "answer_key": { "labels": { "1": "Anket", "2": "Monografi", "3": "İstatistik yöntem" } },
+      "explanation": "Anket genişliğe, monografi derinliğe, istatistik yöntem sayısal çözümlemeye elverişlidir. Görüşme ise yüz yüze ayrıntılı veri toplamada kullanılır."
+    },
+    {
+      "topic": "toplumsal_yapi_ve_degisme",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": ["ayt"],
+      "content": {
+        "instruction": "Her işlevi onu yerine getiren toplumsal kurumla etiketle.",
+        "image": "diagrams/kurum-islevleri.png",
+        "slots": [{ "id": "1", "text": "Neslin sürmesini ve çocuğun ilk toplumsallaşmasını sağlamak" }, { "id": "2", "text": "Kültürel birikimi planlı biçimde yeni kuşaklara aktarmak" },
+                  { "id": "3", "text": "Toplumdaki gücün kullanımını ve yönetimi düzenlemek" }],
+        "labels": ["Aile", "Eğitim", "Siyaset", "Ekonomi"]
+      },
+      "answer_key": { "labels": { "1": "Aile", "2": "Eğitim", "3": "Siyaset" } },
+      "explanation": "Aile birincil toplumsallaşmayı, eğitim kültürel aktarımı, siyaset yönetimi üstlenir. Ekonomi ise üretim ve bölüşümü düzenler."
     }
   ]
 }

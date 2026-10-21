@@ -1253,6 +1253,2806 @@
       "answer_key": {
         "self_assessed": true
       }
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Alınan yol, yön bilgisi gerektirmeyen skaler bir büyüklüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Yol, hareketlinin izlediği patikanın uzunluğudur ve yalnızca sayı ile birimle ifade edilir. Yön bilgisi gerektiren vektörel karşılığı yer değiştirmedir."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ortalama hız, alınan yolun geçen zamana bölünmesiyle bulunur."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Alınan yolun zamana oranı ortalama sürattir. Ortalama hız, yer değiştirmenin zamana oranıdır. Başladığı noktaya dönen bir hareketlinin ortalama hızı sıfırdır, ortalama sürati ise sıfırdan büyüktür."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Düzgün doğrusal hareket yapan bir cismin ivmesi sıfırdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Düzgün doğrusal harekette hız hem büyüklük hem yön olarak sabittir. İvme hız değişiminin zamana oranı olduğundan (a = Δv/Δt), hız değişmediğinde ivme sıfır olur."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Hava direncinin ihmal edildiği serbest düşmede cismin düşme süresi kütlesine bağlıdır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Serbest düşmede tek ivme çekim ivmesidir ve h = ½·g·t² bağıntısında kütle yer almaz. Aynı yükseklikten bırakılan farklı kütleli cisimler, hava direnci yoksa aynı anda yere düşer."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Eylemsizliğin ölçüsü cismin kütlesidir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Kütle, bir cismin hareket durumunu değiştirmeye karşı gösterdiği direnci ölçer. Kütlesi büyük cisme aynı kuvvetle daha küçük ivme kazandırılabilir."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Dengelenmiş kuvvetlerin etkisindeki bir cisim ivmeli hareket yapar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Kuvvetler dengelenmişse net kuvvet sıfırdır, dolayısıyla ivme de sıfırdır. Cisim ya durur ya da sabit hızla düzgün doğrusal hareketini sürdürür."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Etki ve tepki kuvvetleri aynı cisim üzerine etki eder."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Newton'ın 3. yasasındaki kuvvet çifti iki farklı cisim arasındadır: biri A'nın B'ye, diğeri B'nin A'ya uyguladığı kuvvettir. Farklı cisimlere etki ettikleri için birbirlerini dengelemezler."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Net kuvvet sabit tutulduğunda kütlesi büyüyen bir cismin ivmesi küçülür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. a = F_net/m bağıntısında ivme kütleyle ters orantılıdır. Aynı kuvvet iki katı kütleye uygulandığında ivme yarıya düşer."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Ağırlık bir kuvvet olduğu için SI birimi newton'dur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Ağırlık, Dünya'nın cisme uyguladığı çekim kuvvetidir ve G = m·g ile hesaplanır. Kilogram ise kuvvetin değil, kütlenin birimidir."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Öz kütle, aynı maddeden alınan örneğin miktarına göre değişir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Öz kütle d = m/V oranıdır; madde miktarı artarken kütle ve hacim aynı oranda arttığı için oran sabit kalır. Bu yüzden öz kütle ayırt edici bir özelliktir."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir cismin ağırlığı dinamometre ile ölçülür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Dinamometre yayın uzamasından yararlanarak kuvvet ölçer; ağırlık da bir kuvvet olduğu için newton cinsinden okunur. Kütle ise eşit kollu terazi ile karşılaştırma yapılarak ölçülür."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir cisme kuvvet uygulandığı hâlde cisim yer değiştirmiyorsa kuvvetin yaptığı iş sıfırdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. İş, kuvvetin yer değiştirme doğrultusundaki bileşeni ile yer değiştirmenin çarpımıdır. Yer değiştirme sıfırsa (W = F·0) yapılan iş de sıfır olur; duvarı itip yerinden oynatamayan kişi fiziksel anlamda iş yapmamıştır."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Bir cismin hızı iki katına çıktığında kinetik enerjisi de iki katına çıkar."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. E_k = ½·m·v² bağıntısında hız karesiyle yer alır; hız iki katına çıkarsa kinetik enerji dört katına çıkar. Örneğin 2 m/s'de 2 J olan enerji, 4 m/s'de 8 J olur."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Gücün SI birimi joule'dür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Joule iş ve enerjinin birimidir. Güç işin zamana oranı olduğundan birimi joule/saniye, yani watt'tır (1 W = 1 J/s)."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Kuvvet, SI birim sisteminde türetilmiş bir büyüklüktür."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Kuvvetin birimi temel birimlerden türetilir: 1 N = 1 kg·m/s². Kütle, uzunluk ve zaman ise temel büyüklüklerdir."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Zaman vektörel bir büyüklüktür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Zaman yalnızca sayı ve birimle tam olarak tanımlanır, yönü yoktur; bu nedenle skalerdir. Kuvvet, hız, ivme ve yer değiştirme ise vektörel büyüklüklerdir."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Uluslararası Birim Sistemi'nde (SI) uzunluğun temel birimi {{0}} olarak alınır.",
+        "choices": [
+          "metre",
+          "santimetre",
+          "kilometre",
+          "inç"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "metre"
+        ]
+      },
+      "explanation": "Metre, SI'nın yedi temel biriminden biridir. Santimetre ve kilometre metrenin ast ve kat katlarıdır; inç ise SI dışı bir uzunluk birimidir."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Isı ve sıcaklık olaylarını inceleyen fizik alt dalına {{0}} denir.",
+        "choices": [
+          "termodinamik",
+          "optik",
+          "mekanik",
+          "elektromanyetizma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "termodinamik"
+        ]
+      },
+      "explanation": "Termodinamik ısı alışverişini, sıcaklık değişimlerini ve enerji dönüşümlerini inceler. Optik ışığı, mekanik kuvvet-hareket ilişkisini, elektromanyetizma ise elektrik ve manyetizma olaylarını konu alır."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kuvvet gibi tam olarak tanımlanabilmesi için yön bilgisi de gereken niceliklere {{0}} büyüklük, zaman gibi yalnızca sayı ve birimle tanımlanan niceliklere {{1}} büyüklük denir.",
+        "choices": [
+          "vektörel",
+          "skaler",
+          "temel",
+          "türetilmiş",
+          "ayırt edici"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "vektörel",
+          "skaler"
+        ]
+      },
+      "explanation": "Vektörel büyüklükler büyüklük, doğrultu ve yön ile verilir: kuvvet, hız, ivme, yer değiştirme. Skaler büyüklükler yalnızca büyüklükle verilir: zaman, kütle, sürat, enerji. Temel-türetilmiş ayrımı ise birimin nasıl tanımlandığıyla ilgilidir, yönle değil."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir cismin ağırlığı, kütlesi ile bulunduğu yerin {{0}} çarpımına eşittir.",
+        "choices": [
+          "çekim ivmesinin",
+          "hacminin",
+          "öz kütlesinin",
+          "sıcaklığının"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çekim ivmesinin"
+        ]
+      },
+      "explanation": "G = m·g bağıntısında g, bulunulan yerin çekim ivmesidir. Bu yüzden aynı cismin kütlesi her yerde aynı kalırken ağırlığı Ay'da Dünya'daki değerinin yaklaşık altıda birine düşer."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Madde miktarına bağlı olmayan ve maddeyi tanımaya yarayan özelliklere {{0}} özellik denir.",
+        "choices": [
+          "ayırt edici",
+          "ortak",
+          "geçici",
+          "boyutsal"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "ayırt edici"
+        ]
+      },
+      "explanation": "Öz kütle, erime ve kaynama noktası gibi nicelikler madde miktarı değişse de sabit kaldığı için ayırt edicidir. Kütle, hacim, eylemsizlik ve tanecikli yapı ise bütün maddelerde bulunan ortak özelliklerdir."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Öz kütlesi 2 g/cm³ olan türdeş bir maddenin 40 cm³'lük parçasının kütlesi {{0}} gramdır.",
+        "choices": [
+          "80",
+          "20",
+          "42",
+          "160"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "80"
+        ]
+      },
+      "explanation": "d = m/V bağıntısından m = d·V = 2·40 = 80 g bulunur. 20 değeri bölmenin ters yapılmasından (40/2), 42 ise çarpma yerine toplama yapılmasından gelen hatalardır."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hareketlinin başlangıç ve bitiş konumları arasındaki vektörel değişime {{0}} denir.",
+        "choices": [
+          "yer değiştirme",
+          "alınan yol",
+          "sürat",
+          "ivme"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "yer değiştirme"
+        ]
+      },
+      "explanation": "Yer değiştirme yalnızca iki uç konuma bakar ve yönü vardır. Alınan yol ise izlenen patikanın tamamının uzunluğudur ve skalerdir; bu yüzden geri dönüşlü hareketlerde ikisi farklı çıkar."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Sürati 72 km/h olan bir aracın sürati {{0}} m/s'ye eşittir.",
+        "choices": [
+          "20",
+          "10",
+          "25",
+          "36"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "20"
+        ]
+      },
+      "explanation": "km/h biriminden m/s birimine geçmek için değer 3,6'ya bölünür: 72/3,6 = 20 m/s. Ters yönde dönüşüm için 3,6 ile çarpılır."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Hızı ile ivmesi zıt yönlü olan bir cismin hareketi {{0}} hareketidir.",
+        "choices": [
+          "yavaşlayan",
+          "hızlanan",
+          "düzgün doğrusal",
+          "sabit süratli"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "yavaşlayan"
+        ]
+      },
+      "explanation": "İvme hız değişiminin yönünü gösterir. İvme hızla aynı yönlüyse hızın büyüklüğü artar (hızlanan hareket), zıt yönlüyse azalır (yavaşlayan hareket). İvme sıfırsa hareket düzgün doğrusaldır."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Durgun hâlden 2 m/s² sabit ivmeyle harekete başlayan bir cismin 5. saniyenin sonundaki hızı {{0}} m/s, bu süre boyunca aldığı yol {{1}} metredir.",
+        "choices": [
+          "10",
+          "25",
+          "20",
+          "50",
+          "5",
+          "100"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "10",
+          "25"
+        ]
+      },
+      "explanation": "v = v₀ + a·t = 0 + 2·5 = 10 m/s. Yol ise x = v₀·t + ½·a·t² = 0 + ½·2·25 = 25 m. Hız ile yolun formüllerini karıştırmak 20 ve 50 gibi yanlış değerlere götürür."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir cisme etki eden kuvvetlerin vektörel toplamına {{0}} kuvvet denir.",
+        "choices": [
+          "net",
+          "sürtünme",
+          "normal",
+          "merkezcil"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "net"
+        ]
+      },
+      "explanation": "Net kuvvet (bileşke kuvvet) cismin ivmesini belirleyen tek niceliktir: a = F_net/m. Sürtünme ve normal kuvvet ise bu toplamı oluşturan bileşenlerden yalnızca ikisidir."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir yüzeyin, üzerindeki cisme yüzeye dik olarak uyguladığı tepki kuvvetine {{0}} kuvveti denir.",
+        "choices": [
+          "normal",
+          "sürtünme",
+          "gerilme",
+          "çekim"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "normal"
+        ]
+      },
+      "explanation": "Normal kuvvet daima temas yüzeyine diktir. Sürtünme kuvveti yüzeye paralel, gerilme kuvveti ip boyunca, çekim kuvveti ise yerin merkezine doğrudur."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kütlesi 5 kg olan bir cisme 20 N büyüklüğünde net kuvvet uygulandığında cismin ivmesi {{0}} m/s² olur.",
+        "choices": [
+          "4",
+          "100",
+          "0,25",
+          "15"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "4"
+        ]
+      },
+      "explanation": "a = F_net/m = 20/5 = 4 m/s². 100 değeri kuvvetle kütlenin çarpılmasından, 0,25 ise bölmenin ters yapılmasından doğan hatalardır."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Yüksekte bulunan bir cismin konumundan dolayı sahip olduğu enerjiye {{0}} enerjisi denir.",
+        "choices": [
+          "çekim potansiyel",
+          "kinetik",
+          "esneklik potansiyel",
+          "ısı"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "çekim potansiyel"
+        ]
+      },
+      "explanation": "Çekim potansiyel enerjisi E_p = m·g·h ile hesaplanır ve seçilen referans düzlemine göre ölçülür. Kinetik enerji harekete, esneklik potansiyel enerjisi ise yayın sıkışma veya gerilmesine bağlıdır."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Bir cisme etki eden net kuvvetin yaptığı iş, cismin {{0}} enerjisindeki değişime eşittir.",
+        "choices": [
+          "kinetik",
+          "çekim potansiyel",
+          "ısı",
+          "esneklik potansiyel"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kinetik"
+        ]
+      },
+      "explanation": "İş-kinetik enerji teoremi W_net = ΔE_k biçimindedir. Net kuvvet pozitif iş yapıyorsa cisim hızlanır, negatif iş yapıyorsa yavaşlar."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "600 joule'lük bir işi 30 saniyede yapan makinenin gücü {{0}} watt'tır.",
+        "choices": [
+          "20",
+          "18000",
+          "630",
+          "0,05"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "20"
+        ]
+      },
+      "explanation": "P = W/t = 600/30 = 20 W. 18000 değeri iş ile zamanın çarpılmasından, 0,05 ise bölmenin ters yapılmasından gelir."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Fiziğin alt dalını inceleme alanıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Optik"
+          },
+          {
+            "id": "2",
+            "text": "Termodinamik"
+          },
+          {
+            "id": "3",
+            "text": "Atom fiziği"
+          },
+          {
+            "id": "4",
+            "text": "Mekanik"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Isı alışverişi ve sıcaklık değişimleri"
+          },
+          {
+            "id": "b",
+            "text": "Işığın yansıması ve kırılması"
+          },
+          {
+            "id": "c",
+            "text": "Kuvvet, hareket ve denge"
+          },
+          {
+            "id": "d",
+            "text": "Atomun yapısı ve enerji düzeyleri"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Mekanik, bu ünitenin konusu olan kuvvet-hareket ilişkisini inceler. Optik ışık olaylarını, termodinamik ısı ve sıcaklığı, atom fiziği ise maddenin en küçük yapı taşlarını ele alır."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Temel büyüklüğü SI temel birimiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Uzunluk"
+          },
+          {
+            "id": "2",
+            "text": "Kütle"
+          },
+          {
+            "id": "3",
+            "text": "Zaman"
+          },
+          {
+            "id": "4",
+            "text": "Sıcaklık"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "saniye (s)"
+          },
+          {
+            "id": "b",
+            "text": "kelvin (K)"
+          },
+          {
+            "id": "c",
+            "text": "metre (m)"
+          },
+          {
+            "id": "d",
+            "text": "kilogram (kg)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "d",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Bu dördü SI'nın yedi temel biriminden dördüdür; diğerleri amper, mol ve kandeladır. Newton, joule ve watt gibi birimler ise bu temel birimlerden türetilir."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Ölçme aracını ölçtüğü nicelikle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Dinamometre"
+          },
+          {
+            "id": "2",
+            "text": "Eşit kollu terazi"
+          },
+          {
+            "id": "3",
+            "text": "Kronometre"
+          },
+          {
+            "id": "4",
+            "text": "Dereceli silindir"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Kütle"
+          },
+          {
+            "id": "b",
+            "text": "Sıvı hacmi"
+          },
+          {
+            "id": "c",
+            "text": "Kuvvet"
+          },
+          {
+            "id": "d",
+            "text": "Zaman"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Dinamometre yayın uzamasından kuvvet ölçer, bu nedenle ağırlık ölçümünde kullanılır. Eşit kollu terazi ise bilinen kütlelerle karşılaştırma yaptığı için kütleyi ölçer ve sonucu bulunulan yerin çekim ivmesinden etkilenmez."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Niceliği tanımı ve birimiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kütle"
+          },
+          {
+            "id": "2",
+            "text": "Ağırlık"
+          },
+          {
+            "id": "3",
+            "text": "Öz kütle"
+          },
+          {
+            "id": "4",
+            "text": "Hacim"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Birim hacmin kütlesi — g/cm³"
+          },
+          {
+            "id": "b",
+            "text": "Madde miktarının ölçüsü — kg"
+          },
+          {
+            "id": "c",
+            "text": "Maddenin kapladığı uzay — cm³"
+          },
+          {
+            "id": "d",
+            "text": "Cisme etki eden çekim kuvveti — N"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kütle ve hacim madde miktarıyla değişen ortak özelliklerdir; öz kütle ise bu ikisinin oranı olduğu için madde miktarından bağımsız, ayırt edici bir özelliktir. Ağırlık bir kuvvet olduğundan newton cinsinden ölçülür."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hareket türünü ayırt edici özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Düzgün doğrusal hareket"
+          },
+          {
+            "id": "2",
+            "text": "Sabit ivmeli hızlanan hareket"
+          },
+          {
+            "id": "3",
+            "text": "Sabit ivmeli yavaşlayan hareket"
+          },
+          {
+            "id": "4",
+            "text": "Serbest düşme"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İvme hızla zıt yönlüdür, hız düzgün azalır"
+          },
+          {
+            "id": "b",
+            "text": "İvme sıfırdır, hız büyüklük ve yön olarak sabittir"
+          },
+          {
+            "id": "c",
+            "text": "İlk hız sıfırdır, ivme çekim ivmesine eşittir"
+          },
+          {
+            "id": "d",
+            "text": "İvme hızla aynı yönlüdür, hız düzgün artar"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hareket türünü belirleyen şey ivmenin hıza göre yönüdür: aynı yönlüyse hızlanma, zıt yönlüyse yavaşlama, sıfırsa düzgün doğrusal hareket görülür. Serbest düşme, ilk hızı sıfır olan özel bir hızlanan harekettir."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bağıntıyı hesapladığı nicelikle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "v₀ + a·t"
+          },
+          {
+            "id": "2",
+            "text": "Δv / Δt"
+          },
+          {
+            "id": "3",
+            "text": "½·a·t² (v₀ = 0 için)"
+          },
+          {
+            "id": "4",
+            "text": "Δx / Δt"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "İvme"
+          },
+          {
+            "id": "b",
+            "text": "Sabit ivmeli harekette son hız"
+          },
+          {
+            "id": "c",
+            "text": "Ortalama hız"
+          },
+          {
+            "id": "d",
+            "text": "Sabit ivmeli harekette alınan yol"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hız bağıntısında zaman birinci kuvvetten, yol bağıntısında ikinci kuvvetten girer; bu yüzden süre iki katına çıktığında hız iki, yol dört katına çıkar. Δv/Δt ivmenin, Δx/Δt ise ortalama hızın tanımıdır."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kuvvet türünü doğrultu ve yön özelliğiyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ağırlık"
+          },
+          {
+            "id": "2",
+            "text": "Normal kuvvet"
+          },
+          {
+            "id": "3",
+            "text": "Sürtünme kuvveti"
+          },
+          {
+            "id": "4",
+            "text": "Gerilme kuvveti"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Temas yüzeyine diktir ve yüzeyden cisme doğrudur"
+          },
+          {
+            "id": "b",
+            "text": "İp boyuncadır ve ipi geren yöndedir"
+          },
+          {
+            "id": "c",
+            "text": "Düşeydir ve yerin merkezine doğrudur"
+          },
+          {
+            "id": "d",
+            "text": "Temas yüzeyine paraleldir ve bağıl harekete zıt yöndedir"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Normal kuvvet ile sürtünme kuvveti aynı temas yüzeyinden doğar ama biri yüzeye dik, diğeri paraleldir. Ağırlık temas gerektirmeyen bir alan kuvvetidir; gerilme ise yalnızca gerilmiş ip veya telde ortaya çıkar."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Günlük hayattaki olayı açıkladığı ilkeyle eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Ani fren yapan otobüste ayakta duran yolcuların öne savrulması"
+          },
+          {
+            "id": "2",
+            "text": "Aynı kuvvetle itilen ağır kutunun hafif kutudan daha az ivmelenmesi"
+          },
+          {
+            "id": "3",
+            "text": "Suyu geriye püskürten bir teknenin ileri doğru hareket etmesi"
+          },
+          {
+            "id": "4",
+            "text": "Masada kaydırılan silginin kendiliğinden yavaşlayıp durması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Etki-tepki ilkesi (Newton'ın 3. yasası)"
+          },
+          {
+            "id": "b",
+            "text": "Eylemsizlik ilkesi (Newton'ın 1. yasası)"
+          },
+          {
+            "id": "c",
+            "text": "Sürtünme kuvvetinin harekete zıt yönlü olması"
+          },
+          {
+            "id": "d",
+            "text": "İvmenin kütleyle ters orantılı olması (Newton'ın 2. yasası)"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Yolcu, otobüs yavaşlasa da hareket durumunu korumak istediği için öne savrulur. Tekne, suya uyguladığı kuvvetin tepkisiyle ilerler. Silgi ise net kuvvet sıfır olmadığı, sürtünme etki ettiği için durur."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Niceliği hangi değişkenlere bağlı olduğuyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kinetik enerji"
+          },
+          {
+            "id": "2",
+            "text": "Çekim potansiyel enerjisi"
+          },
+          {
+            "id": "3",
+            "text": "Güç"
+          },
+          {
+            "id": "4",
+            "text": "İş"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Yapılan iş ve bu işin yapıldığı süre"
+          },
+          {
+            "id": "b",
+            "text": "Kütle ve hızın karesi"
+          },
+          {
+            "id": "c",
+            "text": "Kuvvet ve kuvvet doğrultusundaki yer değiştirme"
+          },
+          {
+            "id": "d",
+            "text": "Kütle, çekim ivmesi ve yükseklik"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kinetik enerji yalnızca hareket durumuna, potansiyel enerji yalnızca konuma bağlıdır. İş bir enerji aktarım miktarı, güç ise bu aktarımın hızıdır; bu yüzden gücün tanımında zaman bulunur."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Doğrusal bir yolda yapılan hareketleri, yer değiştirmenin büyüklüğü küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "4 m doğuya, ardından 3 m batıya"
+          },
+          {
+            "id": "2",
+            "text": "6 m doğuya, ardından 2 m batıya"
+          },
+          {
+            "id": "3",
+            "text": "5 m doğuya, ardından 5 m doğuya"
+          },
+          {
+            "id": "4",
+            "text": "8 m batıya, ardından 1 m doğuya"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Zıt yönlü hareketlerde büyüklükler çıkarılır, aynı yönlülerde toplanır: 4 − 3 = 1 m, 6 − 2 = 4 m, 8 − 1 = 7 m, 5 + 5 = 10 m. Sıralama 1 < 4 < 7 < 10 m olur."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen sürat değerlerini küçükten büyüğe sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "18 km/h"
+          },
+          {
+            "id": "2",
+            "text": "9 km/h"
+          },
+          {
+            "id": "3",
+            "text": "6 m/s"
+          },
+          {
+            "id": "4",
+            "text": "4 m/s"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "km/h değerleri 3,6'ya bölünerek m/s'ye çevrilir: 9/3,6 = 2,5 m/s ve 18/3,6 = 5 m/s. Böylece sıralama 2,5 < 4 < 5 < 6 m/s olur."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Durgun hâlden sabit ivmeyle harekete başlayan cisimleri, aldıkları yol kısa olandan uzun olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "4 m/s² ivmeyle 2 saniye"
+          },
+          {
+            "id": "2",
+            "text": "2 m/s² ivmeyle 3 saniye"
+          },
+          {
+            "id": "3",
+            "text": "2 m/s² ivmeyle 2 saniye"
+          },
+          {
+            "id": "4",
+            "text": "1 m/s² ivmeyle 5 saniye"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "İlk hız sıfır olduğu için x = ½·a·t² kullanılır: ½·2·4 = 4 m, ½·4·4 = 8 m, ½·2·9 = 9 m, ½·1·25 = 12,5 m. Zaman karesiyle girdiği için küçük ivmeli ama uzun süreli hareket en çok yolu alır."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hava direncinin ihmal edildiği serbest düşmelerde, verilen yüksekliklerden yere varma süresini kısa olandan uzun olana sırala. (g = 10 m/s²)",
+        "items": [
+          {
+            "id": "1",
+            "text": "45 m yükseklikten bırakılan cisim"
+          },
+          {
+            "id": "2",
+            "text": "5 m yükseklikten bırakılan cisim"
+          },
+          {
+            "id": "3",
+            "text": "80 m yükseklikten bırakılan cisim"
+          },
+          {
+            "id": "4",
+            "text": "20 m yükseklikten bırakılan cisim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "h = ½·g·t² bağıntısından t = √(2h/g) bulunur: 5 m için 1 s, 20 m için 2 s, 45 m için 3 s, 80 m için 4 s. Yükseklik 4 katına çıktığında süre yalnızca 2 katına çıkar."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen hareketleri, ivmenin büyüklüğü küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "10 m/s hızla giderken 2 saniyede duran cisim"
+          },
+          {
+            "id": "2",
+            "text": "Durgun hâlden 4 saniyede 12 m/s hıza ulaşan cisim"
+          },
+          {
+            "id": "3",
+            "text": "20 m/s hızla giderken 5 saniyede duran cisim"
+          },
+          {
+            "id": "4",
+            "text": "Durgun hâlden 2 saniyede 16 m/s hıza ulaşan cisim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "İvmenin büyüklüğü |Δv|/Δt ile bulunur: 12/4 = 3, 20/5 = 4, 10/2 = 5 ve 16/2 = 8 m/s². Yavaşlayan hareketlerde işaret negatif olsa da büyüklük karşılaştırması aynı şekilde yapılır."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "72 km/h büyüklüğündeki bir sürati m/s birimine çevirmek için izlenen adımları ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sayısal değeri 3,6'ya böl"
+          },
+          {
+            "id": "2",
+            "text": "Verilen sürati birimiyle birlikte yaz: 72 km/h"
+          },
+          {
+            "id": "3",
+            "text": "Sonucu yeni birimiyle yaz: 20 m/s"
+          },
+          {
+            "id": "4",
+            "text": "Dönüşüm bağıntısını belirle: 1 m/s = 3,6 km/h"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Birim dönüşümünde önce verilen değer ve birimi netleştirilir, sonra iki birim arasındaki bağıntı yazılır. İşlem ancak bu bağıntı belirlendikten sonra yapılabilir; sonucun birimi de mutlaka belirtilir."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Öz kütlesi ve hacmi verilen türdeş cisimleri, kütlesi küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Öz kütle 0,5 g/cm³, hacim 60 cm³"
+          },
+          {
+            "id": "2",
+            "text": "Öz kütle 4 g/cm³, hacim 2,5 cm³"
+          },
+          {
+            "id": "3",
+            "text": "Öz kütle 1 g/cm³, hacim 50 cm³"
+          },
+          {
+            "id": "4",
+            "text": "Öz kütle 2 g/cm³, hacim 10 cm³"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "m = d·V bağıntısıyla kütleler bulunur: 4·2,5 = 10 g, 2·10 = 20 g, 0,5·60 = 30 g, 1·50 = 50 g. Öz kütlesi en büyük olan cismin kütlesi, hacmi küçük olduğu için en küçüktür."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cisimleri Dünya yüzeyindeki ağırlığı küçük olandan büyük olana sırala. (g = 10 m/s²)",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kütlesi 200 g olan cisim"
+          },
+          {
+            "id": "2",
+            "text": "Kütlesi 3 kg olan cisim"
+          },
+          {
+            "id": "3",
+            "text": "Kütlesi 800 g olan cisim"
+          },
+          {
+            "id": "4",
+            "text": "Kütlesi 1,5 kg olan cisim"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Hesaplamadan önce kütleler kilograma çevrilir: 0,2 kg; 0,8 kg; 1,5 kg; 3 kg. G = m·g bağıntısıyla ağırlıklar 2 N, 8 N, 15 N ve 30 N bulunur. Ağırlık kütleyle doğru orantılı olduğu için sıra kütle sırasıyla aynıdır."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sürtünmesiz ortamdaki cisimleri, kazandıkları ivme küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kütle 5 kg, net kuvvet 20 N"
+          },
+          {
+            "id": "2",
+            "text": "Kütle 10 kg, net kuvvet 20 N"
+          },
+          {
+            "id": "3",
+            "text": "Kütle 4 kg, net kuvvet 40 N"
+          },
+          {
+            "id": "4",
+            "text": "Kütle 2 kg, net kuvvet 12 N"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "a = F_net/m ile ivmeler 20/10 = 2, 20/5 = 4, 12/2 = 6 ve 40/4 = 10 m/s² bulunur. Aynı kuvvet altında kütle iki katına çıktığında ivme yarıya düşer."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sürtünmesiz yatay düzlemde, kuvvet yer değiştirmeyle aynı doğrultuda ve yöndedir. Yapılan işi küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "10 N kuvvet, 2 m yer değiştirme"
+          },
+          {
+            "id": "2",
+            "text": "5 N kuvvet, 6 m yer değiştirme"
+          },
+          {
+            "id": "3",
+            "text": "4 N kuvvet, 2 m yer değiştirme"
+          },
+          {
+            "id": "4",
+            "text": "2 N kuvvet, 25 m yer değiştirme"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "W = F·x bağıntısıyla işler 4·2 = 8 J, 10·2 = 20 J, 5·6 = 30 J ve 2·25 = 50 J bulunur. Küçük kuvvet büyük yer değiştirmeyle birleştiğinde en büyük işi verebilir."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Cisimleri, yer seviyesine göre çekim potansiyel enerjisi küçük olandan büyük olana sırala. (g = 10 m/s²)",
+        "items": [
+          {
+            "id": "1",
+            "text": "2 kg kütleli cisim, 5 m yükseklikte"
+          },
+          {
+            "id": "2",
+            "text": "1 kg kütleli cisim, 8 m yükseklikte"
+          },
+          {
+            "id": "3",
+            "text": "4 kg kütleli cisim, 3 m yükseklikte"
+          },
+          {
+            "id": "4",
+            "text": "0,5 kg kütleli cisim, 12 m yükseklikte"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "E_p = m·g·h ile enerjiler 0,5·10·12 = 60 J, 1·10·8 = 80 J, 2·10·5 = 100 J ve 4·10·3 = 120 J bulunur."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen işleri yapan makineleri, güçleri küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "600 J işi 30 saniyede yapan makine"
+          },
+          {
+            "id": "2",
+            "text": "300 J işi 10 saniyede yapan makine"
+          },
+          {
+            "id": "3",
+            "text": "1200 J işi 80 saniyede yapan makine"
+          },
+          {
+            "id": "4",
+            "text": "150 J işi 3 saniyede yapan makine"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "P = W/t ile güçler 1200/80 = 15 W, 600/30 = 20 W, 300/10 = 30 W ve 150/3 = 50 W bulunur. En çok iş yapan makine en güçlü olmak zorunda değildir; süre de belirleyicidir."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sürtünmesiz ortamda h yükseklikten serbest bırakılan bir cismin yere çarpma hızını enerji korunumuyla bulmak için izlenen adımları ilk adımdan son adıma sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "İki enerjiyi eşitle: m·g·h = ½·m·v²"
+          },
+          {
+            "id": "2",
+            "text": "Başlangıçta cismin yalnızca çekim potansiyel enerjisi olduğunu yaz: E_p = m·g·h"
+          },
+          {
+            "id": "3",
+            "text": "Kütleyi sadeleştirip v = √(2·g·h) bağıntısını elde et"
+          },
+          {
+            "id": "4",
+            "text": "Yere varışta tüm enerjinin kinetik enerjiye dönüştüğünü yaz: E_k = ½·m·v²"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Önce başlangıç enerjisi, sonra bitiş enerjisi yazılır; korunum gereği eşitlenir ve kütle sadeleşir. Sonuçta çarpma hızı kütleden bağımsız olarak v = √(2·g·h) olur."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "SI ön eklerini, temsil ettikleri çarpan küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "kilo (10³)"
+          },
+          {
+            "id": "2",
+            "text": "nano (10⁻⁹)"
+          },
+          {
+            "id": "3",
+            "text": "mega (10⁶)"
+          },
+          {
+            "id": "4",
+            "text": "mili (10⁻³)"
+          },
+          {
+            "id": "5",
+            "text": "mikro (10⁻⁶)"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Çarpanlar sırasıyla 10⁻⁹ < 10⁻⁶ < 10⁻³ < 10³ < 10⁶ olduğundan sıra nano, mikro, mili, kilo, mega biçimindedir."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Bir cisme etki eden kuvvet çiftlerini, bileşke kuvvetin büyüklüğü küçük olandan büyük olana sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Zıt yönde 20 N ve 8 N"
+          },
+          {
+            "id": "2",
+            "text": "Birbirine dik 3 N ve 4 N"
+          },
+          {
+            "id": "3",
+            "text": "Aynı yönde 6 N ve 4 N"
+          },
+          {
+            "id": "4",
+            "text": "Zıt yönde 9 N ve 2 N"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Dik kuvvetlerde bileşke √(3²+4²) = 5 N, zıt yönlü 9 N ve 2 N için 7 N, aynı yönlü 6 N ve 4 N için 10 N, zıt yönlü 20 N ve 8 N için 12 N olur. Sıra 5 N < 7 N < 10 N < 12 N'dir."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Hidroelektrik santralde gerçekleşen enerji dönüşümlerini ilk basamaktan son basamağa sırala.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Türbinin dönmesiyle ortaya çıkan kinetik enerji"
+          },
+          {
+            "id": "2",
+            "text": "Barajda yüksekte tutulan suyun çekim potansiyel enerjisi"
+          },
+          {
+            "id": "3",
+            "text": "Jeneratörde üretilip şebekeye verilen elektrik enerjisi"
+          },
+          {
+            "id": "4",
+            "text": "Kapak açılınca aşağı doğru akan suyun kinetik enerjisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Yüksekteki suyun potansiyel enerjisi, su aşağı akarken kinetik enerjiye dönüşür; bu su türbini döndürür ve türbinin kinetik enerjisi jeneratörde elektrik enerjisine çevrilir."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Yatay düzlemde kayan cisimlere etki eden sürtünme kuvvetini küçük olandan büyük olana sırala. (g = 10 m/s²)",
+        "items": [
+          {
+            "id": "1",
+            "text": "Sürtünme katsayısı 0,4 ; kütle 10 kg"
+          },
+          {
+            "id": "2",
+            "text": "Sürtünme katsayısı 0,2 ; kütle 5 kg"
+          },
+          {
+            "id": "3",
+            "text": "Sürtünme katsayısı 0,5 ; kütle 4 kg"
+          },
+          {
+            "id": "4",
+            "text": "Sürtünme katsayısı 0,1 ; kütle 2 kg"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "4",
+          "2",
+          "3",
+          "1"
+        ]
+      },
+      "explanation": "Yatay düzlemde sürtünme kuvveti f = k·m·g ile bulunur: 0,1·2·10 = 2 N, 0,2·5·10 = 10 N, 0,5·4·10 = 20 N, 0,4·10·10 = 40 N. Sıra 2 N < 10 N < 20 N < 40 N'dir."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Durgun hâlden sabit ivmeyle harekete başlayan bir cismin eşit zaman aralıklarında aldığı yollar birbirine eşittir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Sabit ivmeli harekette yol x = ½·a·t² ile artar; durgun hâlden başlayan cismin eşit zaman aralıklarında aldığı yollar 1, 3, 5, 7 ... oranındadır. Eşit zamanda eşit yol yalnızca düzgün doğrusal harekette alınır."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Öz kütlesi 0,8 g/cm³ olan türdeş bir sıvıdan 250 cm³ alındığında bu miktarın kütlesi 200 gramdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. m = d·V bağıntısından m = 0,8 g/cm³ · 250 cm³ = 200 g bulunur."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Sürtünmesiz eğik düzlemde serbest bırakılan bir cismin kazandığı ivmenin büyüklüğü, cismin kütlesinden bağımsızdır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Eğim açısı α olan sürtünmesiz düzlemde net kuvvet m·g·sinα, ivme ise a = m·g·sinα / m = g·sinα olur; kütle sadeleştiği için ivme yalnızca eğim açısına ve g'ye bağlıdır."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "statement": "Aynı noktaya etki eden iki vektörel büyüklüğün bileşkesinin büyüklüğü, bu iki büyüklüğün toplamına eşittir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bileşkenin büyüklüğü vektörler arasındaki açıya bağlıdır; toplam değere yalnızca iki vektör aynı yönlü olduğunda ulaşılır. Zıt yönlü olduklarında bileşke, büyüklüklerin farkına eşittir."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "20 m/s hızla giden bir araç 4 m/s² büyüklüğünde sabit yavaşlama ivmesiyle frene bastığında, durana kadar {{0}} metre yol alır.",
+        "choices": [
+          "50",
+          "40",
+          "80",
+          "100"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "50"
+        ]
+      },
+      "explanation": "Zamansız bağıntıda v² = v₀² − 2·a·x ve son hız sıfırdır: 0 = 20² − 2·4·x → x = 400 / 8 = 50 m."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kütlesi 4 kg olan bir cisim sürtünmesiz yatay düzlemde 12 N büyüklüğündeki yatay kuvvetle çekildiğinde cismin ivmesi {{0}} m/s², yüzeyin cisme uyguladığı normal kuvvetin büyüklüğü ise {{1}} N olur.",
+        "choices": [
+          "3",
+          "40",
+          "4",
+          "12",
+          "30",
+          "48"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "3",
+          "40"
+        ]
+      },
+      "explanation": "Yatay kuvvet için a = F / m = 12 / 4 = 3 m/s². Kuvvet yatay olduğu için düşey denge bozulmaz: N = m·g = 4 · 10 = 40 N."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Kütlesi 2 kg olan bir cismin hızı 10 m/s'den 20 m/s'ye çıkarıldığında kinetik enerjisindeki artış {{0}} joule olur.",
+        "choices": [
+          "300",
+          "100",
+          "400",
+          "200"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "300"
+        ]
+      },
+      "explanation": "E_k = ½·m·v² olduğundan başlangıçta ½·2·10² = 100 J, sonda ½·2·20² = 400 J'dür. Artış 400 − 100 = 300 J'dür."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Öz kütleleri 2 g/cm³ ve 6 g/cm³ olan, birbiri içinde çözünmeyen iki sıvı eşit hacimlerde karıştırılırsa karışımın öz kütlesi {{0}} g/cm³, eşit kütlelerde karıştırılırsa {{1}} g/cm³ olur.",
+        "choices": [
+          "4",
+          "3",
+          "2",
+          "6",
+          "4,5",
+          "3,5"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "4",
+          "3"
+        ]
+      },
+      "explanation": "Eşit hacim V için d = (2V + 6V) / 2V = 4 g/cm³. Eşit kütle m için hacimler m/2 ve m/6 olur: d = 2m / (m/2 + m/6) = 2m / (2m/3) = 3 g/cm³."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "template": "Gücün SI birimi olan watt, temel birimler cinsinden {{0}} biçiminde yazılır.",
+        "choices": [
+          "kg·m²/s³",
+          "kg·m²/s²",
+          "kg·m/s²",
+          "kg·m²/s"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "kg·m²/s³"
+        ]
+      },
+      "explanation": "Güç = iş / zaman olduğundan 1 W = 1 J / 1 s'dir. Joule kg·m²/s² olduğu için watt kg·m²/s³ olur. kg·m²/s² joule'ün, kg·m/s² ise newton'un temel birim yazımıdır."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her hareket durumunu hesapla ve doğru sonucuyla eşleştir. (g = 10 m/s²)",
+        "left": [
+          {
+            "id": "1",
+            "text": "Durgun hâlden 3 m/s² sabit ivmeyle 4 saniye hızlanan cismin son hızı"
+          },
+          {
+            "id": "2",
+            "text": "Durgun hâlden 2 m/s² sabit ivmeyle 4 saniyede alınan yol"
+          },
+          {
+            "id": "3",
+            "text": "Serbest bırakılan cismin 2. saniyenin sonundaki hızı"
+          },
+          {
+            "id": "4",
+            "text": "20 m/s hızla giden aracın 5 m/s² yavaşlamayla durma süresi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "16 metre"
+          },
+          {
+            "id": "b",
+            "text": "4 saniye"
+          },
+          {
+            "id": "c",
+            "text": "12 m/s"
+          },
+          {
+            "id": "d",
+            "text": "20 m/s"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "v = a·t → 3·4 = 12 m/s. x = ½·a·t² → ½·2·16 = 16 m. Serbest düşmede v = g·t → 10·2 = 20 m/s. Durma süresi t = v / a → 20 / 5 = 4 s."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen durumu hesaplanan değeriyle eşleştir. (g = 10 m/s²)",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kütlesi 3 kg, hızı 4 m/s olan cismin kinetik enerjisi"
+          },
+          {
+            "id": "2",
+            "text": "Kütlesi 2 kg olan cismin 5 metre yükseklikteki çekim potansiyel enerjisi"
+          },
+          {
+            "id": "3",
+            "text": "10 N'luk kuvvetin, kendi doğrultusundaki 6 metrelik yer değiştirmede yaptığı iş"
+          },
+          {
+            "id": "4",
+            "text": "400 joule'lük işi 8 saniyede yapan makinenin gücü"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "60 joule"
+          },
+          {
+            "id": "b",
+            "text": "50 watt"
+          },
+          {
+            "id": "c",
+            "text": "100 joule"
+          },
+          {
+            "id": "d",
+            "text": "24 joule"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "d",
+          "2": "c",
+          "3": "a",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "E_k = ½·3·4² = 24 J. E_p = m·g·h = 2·10·5 = 100 J. W = F·x = 10·6 = 60 J. P = W / t = 400 / 8 = 50 W."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen niceliği hesaplanan sonucuyla eşleştir. (g = 10 m/s²)",
+        "left": [
+          {
+            "id": "1",
+            "text": "Öz kütlesi 2 g/cm³ olan türdeş cismin 30 cm³'lük parçasının kütlesi"
+          },
+          {
+            "id": "2",
+            "text": "Kütlesi 90 g, hacmi 30 cm³ olan türdeş cismin öz kütlesi"
+          },
+          {
+            "id": "3",
+            "text": "Kütlesi 5 kg olan cismin Dünya yüzeyindeki ağırlığı"
+          },
+          {
+            "id": "4",
+            "text": "Hacmi 200 cm³, kütlesi 160 g olan sıvının öz kütlesi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "3 g/cm³"
+          },
+          {
+            "id": "b",
+            "text": "0,8 g/cm³"
+          },
+          {
+            "id": "c",
+            "text": "60 g"
+          },
+          {
+            "id": "d",
+            "text": "50 N"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "c",
+          "2": "a",
+          "3": "d",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "m = d·V = 2·30 = 60 g. d = m/V = 90/30 = 3 g/cm³. G = m·g = 5·10 = 50 N. d = 160/200 = 0,8 g/cm³."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Türetilmiş büyüklüğü, SI temel birimleri cinsinden yazımıyla eşleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Kuvvet"
+          },
+          {
+            "id": "2",
+            "text": "İş"
+          },
+          {
+            "id": "3",
+            "text": "Öz kütle"
+          },
+          {
+            "id": "4",
+            "text": "İvme"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "kg·m²/s²"
+          },
+          {
+            "id": "b",
+            "text": "m/s²"
+          },
+          {
+            "id": "c",
+            "text": "kg/m³"
+          },
+          {
+            "id": "d",
+            "text": "kg·m/s²"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "d",
+          "2": "a",
+          "3": "c",
+          "4": "b"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Kuvvet m·a olduğundan kg·m/s² (newton), iş F·x olduğundan kg·m²/s² (joule), öz kütle m/V olduğundan kg/m³, ivme ise hız değişiminin zamana oranı olduğundan m/s² birimine sahiptir."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek eylemsizlikle ilgili tanımı oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "ölçüsü"
+          },
+          {
+            "id": "2",
+            "text": "Bir"
+          },
+          {
+            "id": "3",
+            "text": "kütlesidir"
+          },
+          {
+            "id": "4",
+            "text": "eylemsizliğinin"
+          },
+          {
+            "id": "5",
+            "text": "cismin"
+          },
+          {
+            "id": "6",
+            "text": "onun"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "1",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Bir cismin eylemsizliğinin ölçüsü onun kütlesidir. Kütlesi büyük olan cismin hareket durumunu değiştirmek daha zordur."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek Newton'ın 2. yasasının sözel ifadesini oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "cismin"
+          },
+          {
+            "id": "2",
+            "text": "Net"
+          },
+          {
+            "id": "3",
+            "text": "oranı"
+          },
+          {
+            "id": "4",
+            "text": "kütleye"
+          },
+          {
+            "id": "5",
+            "text": "ivmesidir"
+          },
+          {
+            "id": "6",
+            "text": "kuvvetin"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "6",
+          "4",
+          "3",
+          "1",
+          "5"
+        ]
+      },
+      "explanation": "Net kuvvetin kütleye oranı cismin ivmesidir; yani a = F_net / m bağıntısının sözel karşılığıdır."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek ortalama sürat tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "zamana"
+          },
+          {
+            "id": "2",
+            "text": "ortalama"
+          },
+          {
+            "id": "3",
+            "text": "Alınan"
+          },
+          {
+            "id": "4",
+            "text": "sürattir"
+          },
+          {
+            "id": "5",
+            "text": "oranı"
+          },
+          {
+            "id": "6",
+            "text": "yolun"
+          },
+          {
+            "id": "7",
+            "text": "geçen"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "7",
+          "1",
+          "5",
+          "2",
+          "4"
+        ]
+      },
+      "explanation": "Alınan yolun geçen zamana oranı ortalama sürattir. Ortalama hız ise yer değiştirmenin zamana oranıdır; bu yüzden ikisi genelde birbirine eşit değildir."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek kinetik enerji bağıntısının sözel hâlini oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "çarpımının"
+          },
+          {
+            "id": "2",
+            "text": "Kinetik"
+          },
+          {
+            "id": "3",
+            "text": "hızın"
+          },
+          {
+            "id": "4",
+            "text": "yarısıdır"
+          },
+          {
+            "id": "5",
+            "text": "kütle"
+          },
+          {
+            "id": "6",
+            "text": "enerji"
+          },
+          {
+            "id": "7",
+            "text": "karesinin"
+          },
+          {
+            "id": "8",
+            "text": "ile"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "6",
+          "5",
+          "8",
+          "3",
+          "7",
+          "1",
+          "4"
+        ]
+      },
+      "explanation": "Kinetik enerji kütle ile hızın karesinin çarpımının yarısıdır: E_k = ½·m·v². Hız iki katına çıktığında kinetik enerji dört katına çıkar."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek öz kütle tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "hacmine"
+          },
+          {
+            "id": "2",
+            "text": "öz"
+          },
+          {
+            "id": "3",
+            "text": "Bir"
+          },
+          {
+            "id": "4",
+            "text": "oranı"
+          },
+          {
+            "id": "5",
+            "text": "kütlesidir"
+          },
+          {
+            "id": "6",
+            "text": "maddenin"
+          },
+          {
+            "id": "7",
+            "text": "onun"
+          },
+          {
+            "id": "8",
+            "text": "kütlesinin"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "6",
+          "8",
+          "1",
+          "4",
+          "7",
+          "2",
+          "5"
+        ]
+      },
+      "explanation": "Bir maddenin kütlesinin hacmine oranı onun öz kütlesidir: d = m / V. Öz kütle madde miktarına bağlı olmayan ayırt edici bir özelliktir."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek fiziksel büyüklük tanımını oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "fiziksel"
+          },
+          {
+            "id": "2",
+            "text": "Fizikte"
+          },
+          {
+            "id": "3",
+            "text": "denir"
+          },
+          {
+            "id": "4",
+            "text": "her"
+          },
+          {
+            "id": "5",
+            "text": "ölçülebilen"
+          },
+          {
+            "id": "6",
+            "text": "büyüklük"
+          },
+          {
+            "id": "7",
+            "text": "niceliğe"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "5",
+          "4",
+          "7",
+          "1",
+          "6",
+          "3"
+        ]
+      },
+      "explanation": "Fizikte ölçülebilen her niceliğe fiziksel büyüklük denir. Fiziksel büyüklükler temel ve türetilmiş olmak üzere ikiye ayrılır."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen büyüklükler arasından vektörel olanı seç.",
+        "image": "diagrams/fiziksel-buyuklukler.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Kütle"
+          },
+          {
+            "id": "2",
+            "text": "Zaman"
+          },
+          {
+            "id": "3",
+            "text": "Ağırlık"
+          },
+          {
+            "id": "4",
+            "text": "Sıcaklık"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Ağırlık bir kuvvettir; yönü yer merkezine doğrudur, bu yüzden vektörel büyüklüktür. Kütle, zaman ve sıcaklık yalnızca sayı ve birimle tanımlandığı için skalerdir."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sürtünmeli yatay düzlemde sabit hızla çekilen bir kutuya etki eden kuvvetlerden, büyüklüğü çekme kuvvetine eşit olanı seç.",
+        "image": "diagrams/yatay-duzlemde-kuvvetler.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Yer çekimi kuvveti (ağırlık)"
+          },
+          {
+            "id": "2",
+            "text": "Sürtünme kuvveti"
+          },
+          {
+            "id": "3",
+            "text": "Normal kuvvet"
+          },
+          {
+            "id": "4",
+            "text": "Gerilme kuvveti"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Sabit hızla hareket eden cisimde net kuvvet sıfırdır. Yatay doğrultuda yalnızca çekme ve sürtünme kuvvetleri bulunduğundan bu ikisi eşit büyüklükte ve zıt yönlüdür. Ağırlık ile normal kuvvet ise düşey doğrultuda dengelenir."
+    },
+    {
+      "topic": "hareket_ve_kuvvet",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Verilen hareketlerden ivmesi sıfır olanı seç.",
+        "image": "diagrams/hareket-turleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Düz yolda sabit hızla giden otomobil"
+          },
+          {
+            "id": "2",
+            "text": "Sabit süratle dönen atlıkarınca sepeti"
+          },
+          {
+            "id": "3",
+            "text": "Serbest bırakılan taş"
+          },
+          {
+            "id": "4",
+            "text": "Frene basıp yavaşlayan otobüs"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "İvme hızdaki değişimi gösterir; hız vektörel olduğu için yön değişimi de ivme demektir. Sabit süratle dönen sepette yön sürekli değiştiğinden ivme sıfır değildir. Yalnızca düz yolda sabit hızla giden otomobilin hem büyüklüğü hem yönü sabittir."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Sürtünmesiz ortamda yüksekten serbest bırakılan bir cismin düşüşü boyunca sürekli artan enerji türünü seç.",
+        "image": "diagrams/enerji-donusumu.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Çekim potansiyel enerjisi"
+          },
+          {
+            "id": "2",
+            "text": "Esneklik potansiyel enerjisi"
+          },
+          {
+            "id": "3",
+            "text": "Kinetik enerji"
+          },
+          {
+            "id": "4",
+            "text": "Toplam mekanik enerji"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Cisim düşerken yüksekliği azaldığı için çekim potansiyel enerjisi azalır, hızı arttığı için kinetik enerjisi artar. Sürtünme olmadığından toplam mekanik enerji sabit kalır."
+    },
+    {
+      "topic": "fizik_bilimine_giris",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her büyüklüğü SI birimiyle etiketle.",
+        "image": "diagrams/si-birimleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Kuvvet"
+          },
+          {
+            "id": "2",
+            "text": "İş"
+          },
+          {
+            "id": "3",
+            "text": "Güç"
+          }
+        ],
+        "labels": [
+          "Newton",
+          "Joule",
+          "Watt",
+          "Pascal"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Newton",
+          "2": "Joule",
+          "3": "Watt"
+        }
+      },
+      "explanation": "Kuvvetin SI birimi newton, işin (ve enerjinin) joule, gücün watt'tır. Pascal ise basıncın birimidir."
+    },
+    {
+      "topic": "madde_ve_ozellikleri",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her büyüklüğü fizikte kullanılan sembolüyle etiketle.",
+        "image": "diagrams/buyukluk-sembolleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Öz kütle"
+          },
+          {
+            "id": "2",
+            "text": "Hacim"
+          },
+          {
+            "id": "3",
+            "text": "Ağırlık"
+          }
+        ],
+        "labels": [
+          "d",
+          "V",
+          "G",
+          "m"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "d",
+          "2": "V",
+          "3": "G"
+        }
+      },
+      "explanation": "Öz kütle d, hacim V, ağırlık G sembolüyle gösterilir. m ise kütlenin sembolüdür ve d = m / V bağıntısında kullanılır."
+    },
+    {
+      "topic": "is_guc_ve_enerji",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her örneği, söz konusu enerji türüyle etiketle.",
+        "image": "diagrams/enerji-turleri.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Baraj gölünde yüksekte tutulan suyun sahip olduğu enerji"
+          },
+          {
+            "id": "2",
+            "text": "Sıkıştırılmış bir yayın depoladığı enerji"
+          },
+          {
+            "id": "3",
+            "text": "Esen rüzgârın sahip olduğu enerji"
+          }
+        ],
+        "labels": [
+          "Çekim potansiyel enerjisi",
+          "Esneklik potansiyel enerjisi",
+          "Kinetik enerji",
+          "Isı enerjisi"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Çekim potansiyel enerjisi",
+          "2": "Esneklik potansiyel enerjisi",
+          "3": "Kinetik enerji"
+        }
+      },
+      "explanation": "Yükseklikten kaynaklanan enerji çekim potansiyel enerjisi, şekil değişiminden kaynaklanan enerji esneklik potansiyel enerjisi, hareketten kaynaklanan enerji ise kinetik enerjidir."
+    },
+    {
+      "topic": "newton_hareket_yasalari",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "tyt"
+      ],
+      "content": {
+        "instruction": "Her durumu hesapladığın değerle etiketle. (g = 10 m/s²)",
+        "image": "diagrams/newton-yasalari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Kütlesi 2 kg olan cisme 10 N net kuvvet etki ettiğinde cismin ivmesi"
+          },
+          {
+            "id": "2",
+            "text": "Kütlesi 5 kg olan cismin Dünya yüzeyindeki ağırlığı"
+          },
+          {
+            "id": "3",
+            "text": "Sürtünmesiz yatay düzlemde duran 4 kg kütleli cisme yüzeyin uyguladığı normal kuvvet"
+          }
+        ],
+        "labels": [
+          "5 m/s²",
+          "50 N",
+          "40 N",
+          "20 N"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "5 m/s²",
+          "2": "50 N",
+          "3": "40 N"
+        }
+      },
+      "explanation": "a = F / m = 10 / 2 = 5 m/s². G = m·g = 5 · 10 = 50 N. Yatay düzlemde düşey denge gereği N = m·g = 4 · 10 = 40 N."
     }
   ]
 }

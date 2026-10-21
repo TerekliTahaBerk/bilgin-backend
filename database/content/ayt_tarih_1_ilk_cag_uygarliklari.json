@@ -1328,6 +1328,2905 @@
         ]
       },
       "explanation": "375 yılı Orta Çağ'ın da başlangıcıdır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Sümerlerde şehir devletlerinin başındaki yöneticiye patesi denirdi."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sümer şehir devletlerine site, bunların başındaki rahip-krallara ise patesi (ensi) adı verilirdi."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Mısır'da ölümden sonra yaşam inancının güçlü olması mumyacılığın gelişmesini sağlamıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Bedenin korunması gerektiği inancı mumyacılığı, dolayısıyla anatomi ve eczacılık bilgisini geliştirmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Mezopotamya'da taş ve ağaç bol bulunduğu için yapılar taştan inşa edilmiştir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bölgede taş ve ağaç kıt olduğu için kerpiç kullanılmıştır; bu yüzden Mezopotamya mimarisinden günümüze az eser kalmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Hammurabi Kanunları, Sümer kanunlarına göre daha ağır cezalar içerir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sümer kanunları fidye (bedel) esasına dayanırken Hammurabi Kanunları kısasa kısas anlayışını benimser."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Yazı, Mısır'da Mezopotamya'dan daha önce icat edilmiştir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Bilinen ilk yazı MÖ 3200'de Sümerlerin bulduğu çivi yazısıdır; Mısır hiyeroglifi bir süre sonra ortaya çıkmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Urartuların başkenti Van Gölü kıyısındaki Tuşpa'dır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Urartular Doğu Anadolu'da kurulmuş, başkentleri bugünkü Van yakınındaki Tuşpa olmuştur."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Friglerde saban kırma ya da öküz kesme gibi tarımla ilgili suçlara ağır cezalar verilmiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Frigler tarım ve hayvancılıkla geçindiği için üretim araçlarına zarar vermek en ağır suçlardan sayılmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Hititler çok tanrılı inancı benimsemediği için Anadolu'ya \"Bin Tanrı Ülkesi\" denmiştir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Tam tersine Hititler fethettikleri yerlerin tanrılarını da benimsediği için Anadolu \"Bin Tanrı Ülkesi\" olarak anılmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Urartular ahiret inancına sahip olmadığı için mezarlarına eşya bırakmamıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Urartular ölümden sonraki yaşama inandığı için mezarlarını oda biçiminde yapmış ve içlerine eşya bırakmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "İyonya'da bilim ve felsefenin gelişmesinde bağımsız şehir devletlerinin sağladığı özgür düşünce ortamı etkili olmuştur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Güçlü bir merkezî baskının ve rahip sınıfının bulunmaması, İyonya'da özgün düşüncenin önünü açmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Sparta'da yönetim ve eğitim askerî bir temele dayanmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sparta'da çocuklar küçük yaştan itibaren asker olarak yetiştirilmiş, bu durum bilim ve sanatın gelişmesini engellemiştir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Roma İmparatorluğu 395 yılında Doğu ve Batı olmak üzere ikiye ayrılmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. I. Theodosius'un ölümünden sonra imparatorluk Doğu Roma (Bizans) ve Batı Roma olarak bölünmüştür."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Roma'da Hristiyanlık, Milano Fermanı'ndan sonra da yasak bir din olmayı sürdürmüştür."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. 313 yılındaki Milano Fermanı ile Hristiyanlık üzerindeki baskı kaldırılmış, din serbest hâle gelmiştir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Roma'da On İki Levha Kanunları, pleblerin hak mücadelesi sonucunda yazılı hâle getirilmiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Patricilerin keyfî yargı kararlarına karşı mücadele eden plebler, hukukun yazılmasını sağlamıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Olimpiyat oyunlarının düzenlenmesi, Yunan şehir devletlerinin siyasi birlik kurduğunu gösterir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Olimpiyatlar ortak bir kültür ve dil birliğinin kanıtıdır; şehir devletleri siyasi olarak bağımsız kalmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Tarihte bilinen ilk yazılı kanunları yapan Sümer kralı {{0}}'dır.",
+        "choices": [
+          "Urgakina",
+          "Hammurabi",
+          "Sargon",
+          "Gılgamış"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Urgakina"
+        ]
+      },
+      "explanation": "Urgakina Kanunları bilinen ilk yazılı kanunlardır; Hammurabi Kanunları ise ilk anayasa niteliğindeki düzenleme sayılır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Mısır'da hem siyasi hem dinî yetkileri elinde toplayan hükümdarlara {{0}} denirdi.",
+        "choices": [
+          "firavun",
+          "patesi",
+          "nomark",
+          "ensi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "firavun"
+        ]
+      },
+      "explanation": "Firavunlar kendilerini tanrı-kral sayarken patesi ve ensi Sümer şehir devleti yöneticilerinin unvanıdır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Sargon önderliğinde tarihte bilinen ilk düzenli orduyu ve imparatorluğu kuran uygarlık {{0}}'dır.",
+        "choices": [
+          "Akadlar",
+          "Sümerler",
+          "Babiller",
+          "Elamlar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Akadlar"
+        ]
+      },
+      "explanation": "Akadlar, Sümer şehir devletlerini tek yönetim altında birleştirerek ilk imparatorluğu kurmuştur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Mısırlılar yazılarını, Nil kıyısında yetişen bir bitkiden elde ettikleri {{0}} üzerine yazmıştır.",
+        "choices": [
+          "papirüs",
+          "parşömen",
+          "kerpiç",
+          "kil tablet"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "papirüs"
+        ]
+      },
+      "explanation": "Mezopotamya'da kil tablet kullanılırken Mısır'da papirüs kullanılmıştır; bu yüzden Mısır'dan daha çok yazılı belge kalmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bir yılı 365 gün olarak hesaplayan ve bugün kullanılan takvimin temelini atan Mısırlıların takvimi {{0}} takvimidir.",
+        "choices": [
+          "güneş yılı",
+          "ay yılı",
+          "on iki hayvanlı",
+          "hicri"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "güneş yılı"
+        ]
+      },
+      "explanation": "Mısırlılar Nil'in taşma zamanını belirlemek için güneş yılı esaslı takvimi geliştirmiştir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Anadolu tarihinin en eski yazılı belgeleri, {{0}} Devleti'nin başkenti {{1}}'da bulunan arşivlerden elde edilmiştir.",
+        "choices": [
+          "Hitit",
+          "Hattuşa",
+          "Urartu",
+          "Tuşpa",
+          "Frig",
+          "Gordion"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Hitit",
+          "Hattuşa"
+        ]
+      },
+      "explanation": "Hattuşa (Boğazköy) arşivlerindeki çivi yazılı tabletler Hitit tarihinin temel kaynağıdır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Anadolu'da tarih çağlarının başlamasını sağlayan ticaret kolonilerini kuran uygarlık {{0}}'dır.",
+        "choices": [
+          "Asurlular",
+          "Fenikeliler",
+          "Akadlar",
+          "Persler"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Asurlular"
+        ]
+      },
+      "explanation": "Asurlular Kayseri yakınlarındaki Kültepe (Kaniş) gibi karumlar kurarak yazıyı Anadolu'ya taşımıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Kral Midas efsanesiyle anılan Friglerin başkenti {{0}}'dur.",
+        "choices": [
+          "Gordion",
+          "Sardes",
+          "Tuşpa",
+          "Hattuşa"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Gordion"
+        ]
+      },
+      "explanation": "Gordion bugünkü Polatlı yakınlarındadır; Sardes Lidya'nın, Tuşpa Urartu'nun, Hattuşa Hitit'in başkentidir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Hititlerde kraliçeye verilen ve dinî törenlerde söz sahibi olduğunu gösteren unvan {{0}}'dır.",
+        "choices": [
+          "tavananna",
+          "tabarna",
+          "pankuş",
+          "gal mešedi"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "tavananna"
+        ]
+      },
+      "explanation": "Tabarna kralın, tavananna ise kraliçenin unvanıdır; tavanannanın varlığı Hitit kadınının yönetimdeki yerini gösterir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Güneş tutulmasını önceden hesaplayan ve geometri alanında çalışmalar yapan İyonyalı bilim insanı {{0}}'tir.",
+        "choices": [
+          "Thales",
+          "Homeros",
+          "Heredot",
+          "Diyojen"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Thales"
+        ]
+      },
+      "explanation": "Miletli Thales matematik ve astronomi çalışmalarıyla tanınır; Heredot tarihçi, Homeros ise destan şairidir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 1,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Antik Yunan'da bağımsız şehir devletlerine {{0}} adı verilirdi.",
+        "choices": [
+          "polis",
+          "nom",
+          "forum",
+          "karum"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "polis"
+        ]
+      },
+      "explanation": "Dağlık coğrafya siyasi birliği engellediği için Yunan'da polis adı verilen çok sayıda bağımsız şehir devleti kurulmuştur."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Roma'da halkın toplandığı meydana {{0}}, Yunan şehir devletlerindeki toplanma meydanına ise {{1}} denirdi.",
+        "choices": [
+          "forum",
+          "agora",
+          "akropol",
+          "nekropol",
+          "polis",
+          "senato"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "forum",
+          "agora"
+        ]
+      },
+      "explanation": "Akropol şehrin yüksek kesimindeki kutsal alan, nekropol ise mezarlık alanıdır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Bugün kullandığımız Latin alfabesi, Romalıların {{0}} alfabesini geliştirmesiyle ortaya çıkmıştır.",
+        "choices": [
+          "Yunan",
+          "hiyeroglif",
+          "çivi yazısı",
+          "Göktürk"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Yunan"
+        ]
+      },
+      "explanation": "Fenike alfabesi Yunan alfabesini, Yunan alfabesi de Latin alfabesini doğurmuştur."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "İskender'in doğu seferleri sonucunda Doğu ve Batı kültürlerinin kaynaşmasıyla doğan uygarlığa {{0}} uygarlığı denir.",
+        "choices": [
+          "Helenistik",
+          "Minos",
+          "Miken",
+          "Etrüsk"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Helenistik"
+        ]
+      },
+      "explanation": "Helenistik dönemin en önemli bilim merkezi İskenderiye olmuştur."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Roma'da soylu sınıf olan patricilere karşı siyasi hak mücadelesi veren halk kesimine {{0}} denir.",
+        "choices": [
+          "plebler",
+          "senatörler",
+          "konsüller",
+          "tribunlar"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "plebler"
+        ]
+      },
+      "explanation": "Pleblerin mücadelesi On İki Levha Kanunları'nın yazılmasıyla sonuçlanmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Atina'da borç köleliğini kaldırarak demokrasinin gelişmesine katkı sağlayan devlet adamı {{0}}'dur.",
+        "choices": [
+          "Solon",
+          "Drakon",
+          "Likurgos",
+          "Perikles"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Solon"
+        ]
+      },
+      "explanation": "Drakon ilk yazılı kanunları hazırlamış, Solon ise borç köleliğini kaldırıp halk meclisinin yetkilerini artırmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Mısır uygarlığına ait kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hiyeroglif"
+          },
+          {
+            "id": "2",
+            "text": "Papirüs"
+          },
+          {
+            "id": "3",
+            "text": "Nom"
+          },
+          {
+            "id": "4",
+            "text": "Mumya"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Bitkiden elde edilen yazı malzemesi"
+          },
+          {
+            "id": "b",
+            "text": "Resim ve sembollerden oluşan yazı"
+          },
+          {
+            "id": "c",
+            "text": "Bozulmaması için işlemden geçirilmiş ceset"
+          },
+          {
+            "id": "d",
+            "text": "Mısır'daki şehir devleti"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Nomların birleşmesiyle Mısır Devleti kurulmuş, mumyacılık ise ahiret inancından doğmuştur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hükümdarı ait olduğu uygarlıkla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hammurabi"
+          },
+          {
+            "id": "2",
+            "text": "Sargon"
+          },
+          {
+            "id": "3",
+            "text": "Urgakina"
+          },
+          {
+            "id": "4",
+            "text": "Keops"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Akadlar"
+          },
+          {
+            "id": "b",
+            "text": "Babiller"
+          },
+          {
+            "id": "c",
+            "text": "Mısırlılar"
+          },
+          {
+            "id": "d",
+            "text": "Sümerler"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hükümdar adını uygarlıkla eşleştirmek, kanun ve mimari eserlerin hangi döneme ait olduğunu hatırlamayı kolaylaştırır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Eseri ya da kurumu ait olduğu uygarlıkla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Gılgamış Destanı"
+          },
+          {
+            "id": "2",
+            "text": "İştar Kapısı"
+          },
+          {
+            "id": "3",
+            "text": "Ölüler Kitabı"
+          },
+          {
+            "id": "4",
+            "text": "Ninova Kütüphanesi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Asurlular"
+          },
+          {
+            "id": "b",
+            "text": "Sümerler"
+          },
+          {
+            "id": "c",
+            "text": "Babiller"
+          },
+          {
+            "id": "d",
+            "text": "Mısırlılar"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "c",
+          "3": "d",
+          "4": "a"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Ninova'daki kütüphane Asur kralı Asurbanipal'in topladığı tabletlerden oluşur."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu uygarlığını başkentiyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hititler"
+          },
+          {
+            "id": "2",
+            "text": "Frigler"
+          },
+          {
+            "id": "3",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "4",
+            "text": "Urartular"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Sardes"
+          },
+          {
+            "id": "b",
+            "text": "Hattuşa"
+          },
+          {
+            "id": "c",
+            "text": "Tuşpa"
+          },
+          {
+            "id": "d",
+            "text": "Gordion"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "d",
+          "3": "a",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Başkentler bugünkü yerleriyle sırasıyla Çorum, Polatlı, Manisa ve Van çevresindedir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu uygarlığını kurulduğu bölgeyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hititler"
+          },
+          {
+            "id": "2",
+            "text": "Urartular"
+          },
+          {
+            "id": "3",
+            "text": "İyonlar"
+          },
+          {
+            "id": "4",
+            "text": "Lidyalılar"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Van Gölü çevresi ve Doğu Anadolu"
+          },
+          {
+            "id": "b",
+            "text": "Kızılırmak yayının içi"
+          },
+          {
+            "id": "c",
+            "text": "Gediz ve Küçük Menderes vadileri"
+          },
+          {
+            "id": "d",
+            "text": "Ege kıyılarındaki liman şehirleri"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Coğrafi konum, uygarlıkların geçim kaynağını belirlemiştir: Urartular'da hayvancılık, İyonlar'da deniz ticareti öne çıkar."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kavramı karşılığıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Anal"
+          },
+          {
+            "id": "2",
+            "text": "Pankuş"
+          },
+          {
+            "id": "3",
+            "text": "Karum"
+          },
+          {
+            "id": "4",
+            "text": "Tümülüs"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Soylulardan oluşan Hitit meclisi"
+          },
+          {
+            "id": "b",
+            "text": "Kralın yıllık olarak tuttuğu kayıt"
+          },
+          {
+            "id": "c",
+            "text": "Üzerine toprak yığılarak yapılan mezar"
+          },
+          {
+            "id": "d",
+            "text": "Asurluların kurduğu ticaret kolonisi"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Tümülüs tipi mezarlar özellikle Frig ve Lidya bölgesinde yaygındır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yönetim birimini ya da görevi işleviyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Senato"
+          },
+          {
+            "id": "2",
+            "text": "Ekklesia"
+          },
+          {
+            "id": "3",
+            "text": "Konsül"
+          },
+          {
+            "id": "4",
+            "text": "Tribun"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Atina'da yurttaşların toplandığı halk meclisi"
+          },
+          {
+            "id": "b",
+            "text": "Roma'da soylulardan oluşan meclis"
+          },
+          {
+            "id": "c",
+            "text": "Plebleri temsil eden ve kararları veto edebilen görevli"
+          },
+          {
+            "id": "d",
+            "text": "Roma Cumhuriyeti'nde bir yıl için seçilen yönetici"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Roma Cumhuriyeti'nde yetki senato, konsüller ve halk temsilcileri arasında paylaşılmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "matching",
+      "difficulty": 2,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kişiyi öne çıktığı alanla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Homeros"
+          },
+          {
+            "id": "2",
+            "text": "Heredot"
+          },
+          {
+            "id": "3",
+            "text": "Hipokrat"
+          },
+          {
+            "id": "4",
+            "text": "Arşimet"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Tarih yazıcılığı"
+          },
+          {
+            "id": "b",
+            "text": "Destan şiiri"
+          },
+          {
+            "id": "c",
+            "text": "Fizik ve matematik"
+          },
+          {
+            "id": "d",
+            "text": "Tıp"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Heredot \"tarihin babası\" sayılır; Hipokrat'ın adı hekimlik yemininde yaşamaya devam eder."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "matching",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Olayı gerçekleştiği yılla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Milano Fermanı"
+          },
+          {
+            "id": "2",
+            "text": "Kavimler Göçü"
+          },
+          {
+            "id": "3",
+            "text": "Roma'nın ikiye ayrılması"
+          },
+          {
+            "id": "4",
+            "text": "Batı Roma'nın yıkılışı"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "375"
+          },
+          {
+            "id": "b",
+            "text": "313"
+          },
+          {
+            "id": "c",
+            "text": "476"
+          },
+          {
+            "id": "d",
+            "text": "395"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "b",
+          "2": "a",
+          "3": "d",
+          "4": "c"
+        },
+        "partial_credit": true
+      },
+      "explanation": "375 İlk Çağ'ın sonu, 476 ise Batı Roma'nın yıkılışıdır; ikisini karıştırmamak sınavda sık sorulan bir ayrımdır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Tarih öncesi devirleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Cilalı Taş (Yeni Taş) Devri"
+          },
+          {
+            "id": "2",
+            "text": "Kaba Taş (Eski Taş) Devri"
+          },
+          {
+            "id": "3",
+            "text": "Demir Devri"
+          },
+          {
+            "id": "4",
+            "text": "Orta Taş Devri"
+          },
+          {
+            "id": "5",
+            "text": "Bakır Devri"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Kaba Taş → Orta Taş → Cilalı Taş → Maden Devri (bakır, tunç, demir) sırası izlenir; devirler kullanılan araç gereçteki gelişmeye göre adlandırılır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Mezopotamya'da bir çivi yazılı tabletin hazırlanma aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kamış kalemle işaretlerin kil üzerine bastırılması"
+          },
+          {
+            "id": "2",
+            "text": "Tabletin arşivde raflara yerleştirilmesi"
+          },
+          {
+            "id": "3",
+            "text": "Islak kilin tablet biçiminde düzleştirilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Yazılan tabletin kurutulup sertleştirilmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Kil ıslakken yazılıp sonra kurutulduğu için tabletler binlerce yıl dayanmış, Mezopotamya tarihinin en önemli kaynağı olmuştur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Mısır'da mumyalama işleminin aşamalarını ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Bedenin keten şeritlerle sarılması"
+          },
+          {
+            "id": "2",
+            "text": "İç organların çıkarılması"
+          },
+          {
+            "id": "3",
+            "text": "Mumyanın lahde yerleştirilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Bedenin tuzla kurutulması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Bu işlemler Mısırlıların anatomi, eczacılık ve tıp bilgisini geliştirmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Yazı malzemelerini tarihte kullanılmaya başlandıkları sıraya göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Parşömen"
+          },
+          {
+            "id": "2",
+            "text": "Kil tablet"
+          },
+          {
+            "id": "3",
+            "text": "Kâğıt"
+          },
+          {
+            "id": "4",
+            "text": "Papirüs"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Kil tablet Mezopotamya'nın, papirüs Mısır'ın, parşömen Bergama'nın, kâğıt ise Çin'in katkısıdır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Mısır'da geometrinin gelişmesine yol açan süreci ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Tarla sınırlarının yeniden ölçülmesi gerekmesi"
+          },
+          {
+            "id": "2",
+            "text": "Nil Nehri'nin her yıl düzenli olarak taşması"
+          },
+          {
+            "id": "3",
+            "text": "Alan hesaplama yöntemlerinin, yani geometrinin gelişmesi"
+          },
+          {
+            "id": "4",
+            "text": "Taşkın sularının tarla sınırlarını silmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "İlk Çağ'da bilimler, somut bir ihtiyacı karşılamak için doğmuştur; Mısır'da geometri de böyle gelişmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Aşağıdaki gelişmeleri tarih sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Hammurabi Kanunları'nın hazırlanması"
+          },
+          {
+            "id": "2",
+            "text": "Çivi yazısının icat edilmesi"
+          },
+          {
+            "id": "3",
+            "text": "Perslerin Mezopotamya'ya egemen olması"
+          },
+          {
+            "id": "4",
+            "text": "Urgakina Kanunları'nın yazılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "MÖ 3200 çivi yazısı → MÖ 2375 Urgakina Kanunları → MÖ 1700'ler Hammurabi Kanunları → MÖ 539 Pers egemenliği."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu tarihindeki gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kadeş Antlaşması'nın imzalanması"
+          },
+          {
+            "id": "2",
+            "text": "Asurluların Anadolu'da ticaret kolonileri kurması"
+          },
+          {
+            "id": "3",
+            "text": "Lidya Krallığı'nın Persler tarafından yıkılması"
+          },
+          {
+            "id": "4",
+            "text": "Hitit Devleti'nin kurulması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "MÖ 2000'ler Asur kolonileri → MÖ 1700 Hitit Devleti → MÖ 1280 Kadeş Antlaşması → MÖ 546 Pers egemenliği."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hitit tarihindeki gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kadeş Savaşı'nın yapılması"
+          },
+          {
+            "id": "2",
+            "text": "Eski Hitit Krallığı'nın kurulması"
+          },
+          {
+            "id": "3",
+            "text": "Ege Göçleri sonucunda devletin yıkılması"
+          },
+          {
+            "id": "4",
+            "text": "İmparatorluk Dönemi'ne geçilmesi"
+          },
+          {
+            "id": "5",
+            "text": "Kadeş Antlaşması'nın imzalanması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "Kuruluş (MÖ 1700) → İmparatorluk Dönemi → Kadeş Savaşı → Kadeş Antlaşması (MÖ 1280) → Ege Göçleri ile yıkılış (MÖ 1200'ler)."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Ticarette yaşanan gelişmeleri ilk aşamadan son aşamaya doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Lidyalıların madeni para (sikke) basması"
+          },
+          {
+            "id": "2",
+            "text": "Malın mal ile değiştirildiği takas yönteminin kullanılması"
+          },
+          {
+            "id": "3",
+            "text": "Paranın yaygınlaşmasıyla ticaret hacminin büyümesi"
+          },
+          {
+            "id": "4",
+            "text": "Değerli madenlerin ağırlıkları ölçülerek ödeme aracı olarak kullanılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Takasın zorlukları önce madenle ödemeye, ardından standart ağırlıkta basılan sikkeye yol açmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu'da egemenlik kuran güçleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Büyük İskender"
+          },
+          {
+            "id": "2",
+            "text": "Lidya Krallığı"
+          },
+          {
+            "id": "3",
+            "text": "Roma İmparatorluğu"
+          },
+          {
+            "id": "4",
+            "text": "Pers İmparatorluğu"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Lidya MÖ 546'da Perslere yenildi; Persler MÖ 334'te İskender'e, Helenistik krallıklar da sonunda Roma'ya yenildi."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Anadolu uygarlıklarını tarih sahnesine çıkış sırasına göre eskiden yeniye diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Frigler"
+          },
+          {
+            "id": "2",
+            "text": "Hititler"
+          },
+          {
+            "id": "3",
+            "text": "Lidyalılar"
+          },
+          {
+            "id": "4",
+            "text": "Urartular"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Hititler MÖ 1700, Urartular MÖ 900, Frigler MÖ 750, Lidyalılar MÖ 700 dolaylarında öne çıkmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Ege Göçleri sonrasında Anadolu'da yaşanan gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Kimmer saldırılarıyla Frig Devleti'nin yıkılması"
+          },
+          {
+            "id": "2",
+            "text": "Ege Göçleri'nin Anadolu'daki siyasi düzeni bozması"
+          },
+          {
+            "id": "3",
+            "text": "Lidya Krallığı'nın Batı Anadolu'da güçlenmesi"
+          },
+          {
+            "id": "4",
+            "text": "Frig Devleti'nin Orta Anadolu'da kurulması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Ege Göçleri (MÖ 1200'ler) Hitit düzenini yıktı; boşlukta Frigler kuruldu, Kimmerlerce yıkıldı ve bölgede Lidya öne çıktı."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Roma tarihindeki dönem ve olayları eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Cumhuriyet Dönemi"
+          },
+          {
+            "id": "2",
+            "text": "Batı Roma'nın yıkılması"
+          },
+          {
+            "id": "3",
+            "text": "Krallık Dönemi"
+          },
+          {
+            "id": "4",
+            "text": "İmparatorluğun Doğu ve Batı olarak ayrılması"
+          },
+          {
+            "id": "5",
+            "text": "İmparatorluk Dönemi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "1",
+          "5",
+          "4",
+          "2"
+        ]
+      },
+      "explanation": "Krallık → Cumhuriyet → İmparatorluk → 395 ikiye ayrılma → 476 Batı Roma'nın yıkılışı."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hukuk alanındaki gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Roma'da On İki Levha Kanunları'nın yazılması"
+          },
+          {
+            "id": "2",
+            "text": "Atina'da Drakon Kanunları'nın hazırlanması"
+          },
+          {
+            "id": "3",
+            "text": "Roma'da Milano Fermanı'nın ilan edilmesi"
+          },
+          {
+            "id": "4",
+            "text": "Atina'da Solon'un borç köleliğini kaldırması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "MÖ 621 Drakon → MÖ 594 Solon → MÖ 450 On İki Levha → MS 313 Milano Fermanı."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Büyük İskender'in seferiyle ilgili gelişmeleri ilk adımdan son adıma diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Pers İmparatorluğu'nun yıkılması"
+          },
+          {
+            "id": "2",
+            "text": "Makedonya'nın Yunan şehir devletlerine egemen olması"
+          },
+          {
+            "id": "3",
+            "text": "İskender'in ölümünden sonra Helenistik krallıkların kurulması"
+          },
+          {
+            "id": "4",
+            "text": "İskender'in ordusuyla Anadolu'ya geçmesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Yunan birliğini sağlayan Makedonya doğuya yöneldi; Pers İmparatorluğu yıkıldı ve İskender'in ölümüyle ülke generaller arasında bölündü."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Roma'da Hristiyanlıkla ilgili gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "İznik Konsili'nin toplanması"
+          },
+          {
+            "id": "2",
+            "text": "Hristiyanlığın Roma'nın resmî dini hâline gelmesi"
+          },
+          {
+            "id": "3",
+            "text": "Hristiyanların baskı görmesi ve dinin yasaklanması"
+          },
+          {
+            "id": "4",
+            "text": "Milano Fermanı ile Hristiyanlığın serbest bırakılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "3",
+          "4",
+          "1",
+          "2"
+        ]
+      },
+      "explanation": "Baskı dönemi → 313 Milano Fermanı → 325 İznik Konsili → 4. yüzyıl sonunda resmî din."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 3,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Alfabenin gelişim zincirini eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Latin alfabesi"
+          },
+          {
+            "id": "2",
+            "text": "Fenike alfabesi"
+          },
+          {
+            "id": "3",
+            "text": "Bugün kullanılan Türk alfabesi"
+          },
+          {
+            "id": "4",
+            "text": "Yunan alfabesi"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "3"
+        ]
+      },
+      "explanation": "Fenikeliler 22 harfli alfabeyi buldu; Yunanlılar geliştirdi, Romalılar Latin alfabesine dönüştürdü ve 1928'de kabul edilen Türk alfabesi de Latin kökenlidir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "ordering",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kavimler Göçü ve sonrasındaki gelişmeleri eskiden yeniye doğru diz.",
+        "items": [
+          {
+            "id": "1",
+            "text": "Roma İmparatorluğu'nun ikiye ayrılması"
+          },
+          {
+            "id": "2",
+            "text": "Hunların batıya ilerleyerek Germen kavimlerini yerinden oynatması"
+          },
+          {
+            "id": "3",
+            "text": "Avrupa'da feodal (derebeylik) düzenin ortaya çıkması"
+          },
+          {
+            "id": "4",
+            "text": "Germen kavimlerinin Roma topraklarına girmesi"
+          },
+          {
+            "id": "5",
+            "text": "Batı Roma İmparatorluğu'nun yıkılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "2",
+          "4",
+          "1",
+          "5",
+          "3"
+        ]
+      },
+      "explanation": "375 Kavimler Göçü → 395 Roma'nın bölünmesi → 476 Batı Roma'nın yıkılışı → merkezî otorite boşluğunda feodalitenin doğuşu."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Hammurabi"
+          },
+          {
+            "id": "2",
+            "text": "Kanunları'nın"
+          },
+          {
+            "id": "3",
+            "text": "en"
+          },
+          {
+            "id": "4",
+            "text": "önemli"
+          },
+          {
+            "id": "5",
+            "text": "özelliği"
+          },
+          {
+            "id": "6",
+            "text": "kısasa"
+          },
+          {
+            "id": "7",
+            "text": "kısas"
+          },
+          {
+            "id": "8",
+            "text": "ilkesidir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Hammurabi Kanunları, Sümer kanunlarındaki fidye (bedel ödeme) anlayışı yerine kısasa kısas ilkesini getirmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Mısır"
+          },
+          {
+            "id": "2",
+            "text": "uygarlığının"
+          },
+          {
+            "id": "3",
+            "text": "uzun"
+          },
+          {
+            "id": "4",
+            "text": "süre"
+          },
+          {
+            "id": "5",
+            "text": "özgün"
+          },
+          {
+            "id": "6",
+            "text": "kalmasının"
+          },
+          {
+            "id": "7",
+            "text": "nedeni"
+          },
+          {
+            "id": "8",
+            "text": "coğrafi"
+          },
+          {
+            "id": "9",
+            "text": "yalıtılmışlığıdır"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      "explanation": "Çöller ve denizlerle çevrili olan Mısır, dış istilalara daha az uğradığı için kültürel özgünlüğünü uzun süre korumuştur."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Pankuş"
+          },
+          {
+            "id": "2",
+            "text": "Meclisi'nin"
+          },
+          {
+            "id": "3",
+            "text": "varlığı"
+          },
+          {
+            "id": "4",
+            "text": "Hitit"
+          },
+          {
+            "id": "5",
+            "text": "krallarının"
+          },
+          {
+            "id": "6",
+            "text": "yetkilerinin"
+          },
+          {
+            "id": "7",
+            "text": "sınırlı"
+          },
+          {
+            "id": "8",
+            "text": "olduğunu"
+          },
+          {
+            "id": "9",
+            "text": "gösterir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      "explanation": "Soylulardan oluşan Pankuş Meclisi kralı yargılayabildiği için Hitit krallarının yetkileri mutlak değildi."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Urartuların"
+          },
+          {
+            "id": "2",
+            "text": "kaya"
+          },
+          {
+            "id": "3",
+            "text": "mezarları"
+          },
+          {
+            "id": "4",
+            "text": "yapmasının"
+          },
+          {
+            "id": "5",
+            "text": "temel"
+          },
+          {
+            "id": "6",
+            "text": "sebebi"
+          },
+          {
+            "id": "7",
+            "text": "ahiret"
+          },
+          {
+            "id": "8",
+            "text": "inancıdır"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Urartular öldükten sonra yaşama inandıkları için mezarlarını ev biçiminde oyup içine eşya bırakmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "word_order",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Yunan"
+          },
+          {
+            "id": "2",
+            "text": "coğrafyasının"
+          },
+          {
+            "id": "3",
+            "text": "dağlık"
+          },
+          {
+            "id": "4",
+            "text": "yapısı"
+          },
+          {
+            "id": "5",
+            "text": "siyasi"
+          },
+          {
+            "id": "6",
+            "text": "birliğin"
+          },
+          {
+            "id": "7",
+            "text": "kurulmasını"
+          },
+          {
+            "id": "8",
+            "text": "engellemiştir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "explanation": "Dağlarla bölünmüş arazi ulaşımı zorlaştırdığı için Yunanistan'da merkezî bir devlet yerine bağımsız polisler doğmuştur."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "word_order",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Kelimeleri doğru sıraya dizerek cümleyi oluştur.",
+        "words": [
+          {
+            "id": "1",
+            "text": "Roma"
+          },
+          {
+            "id": "2",
+            "text": "hukukunun"
+          },
+          {
+            "id": "3",
+            "text": "bugünkü"
+          },
+          {
+            "id": "4",
+            "text": "Avrupa"
+          },
+          {
+            "id": "5",
+            "text": "hukukunun"
+          },
+          {
+            "id": "6",
+            "text": "temelini"
+          },
+          {
+            "id": "7",
+            "text": "oluşturduğu"
+          },
+          {
+            "id": "8",
+            "text": "kabul"
+          },
+          {
+            "id": "9",
+            "text": "edilir"
+          }
+        ]
+      },
+      "answer_key": {
+        "order": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ]
+      },
+      "explanation": "On İki Levha Kanunları'yla başlayan Roma hukuku, kodifikasyon geleneğiyle modern Avrupa hukuk sistemlerinin kaynağı olmuştur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Asurluların, zamanının en büyük kütüphanesini kurduğu başkenti seç.",
+        "image": "maps/mezopotamya-sehirleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Ur"
+          },
+          {
+            "id": "2",
+            "text": "Babil"
+          },
+          {
+            "id": "3",
+            "text": "Ninova"
+          },
+          {
+            "id": "4",
+            "text": "Akad"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "3"
+      },
+      "explanation": "Asur kralı Asurbanipal, başkent Ninova'da binlerce kil tabletin toplandığı ünlü kütüphaneyi kurmuştur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Mısır'da Yeni Krallık Dönemi'nin başkenti olan ve büyük tapınaklarıyla tanınan kenti seç.",
+        "image": "maps/misir-sehirleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Memfis"
+          },
+          {
+            "id": "2",
+            "text": "Teb"
+          },
+          {
+            "id": "3",
+            "text": "Gize"
+          },
+          {
+            "id": "4",
+            "text": "İskenderiye"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Yeni Krallık Dönemi'nde başkent Teb'dir; Karnak ve Luksor tapınakları bu kentte bulunur. Memfis Eski Krallık'ın, İskenderiye ise Helenistik dönemin merkezidir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "image_hotspot",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Hitit Devleti'nin, çivi yazılı tabletlerden oluşan devlet arşivinin bulunduğu başkentini seç.",
+        "image": "maps/anadolu-uygarliklari.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Hattuşa"
+          },
+          {
+            "id": "2",
+            "text": "Gordion"
+          },
+          {
+            "id": "3",
+            "text": "Sardes"
+          },
+          {
+            "id": "4",
+            "text": "Tuşpa"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "1"
+      },
+      "explanation": "Hattuşa (Boğazköy) Hititlerin başkentidir; Anadolu'nun en eski yazılı belgeleri buradaki arşivden çıkmıştır. Gordion Friglerin, Sardes Lidyalıların, Tuşpa Urartuların başkentidir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "image_hotspot",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "İyonya'da doğa felsefesinin doğduğu, Thales ve Anaksimandros'un yaşadığı kenti seç.",
+        "image": "maps/iyonya-sehirleri.png",
+        "hotspots": [
+          {
+            "id": "1",
+            "text": "Efes"
+          },
+          {
+            "id": "2",
+            "text": "Milet"
+          },
+          {
+            "id": "3",
+            "text": "Bergama"
+          },
+          {
+            "id": "4",
+            "text": "Foça"
+          }
+        ]
+      },
+      "answer_key": {
+        "hotspot_id": "2"
+      },
+      "explanation": "Milet, Thales ve Anaksimandros gibi düşünürlerin yetiştiği İyonya kentidir ve ilk doğa felsefesi okulunun merkezi sayılır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her yazı türünü kullanan uygarlıkla etiketle.",
+        "image": "diagrams/ilk-cag-yazilari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Çivi yazısı"
+          },
+          {
+            "id": "2",
+            "text": "Hiyeroglif yazısı"
+          },
+          {
+            "id": "3",
+            "text": "Harf (ses) temelli ilk alfabe"
+          }
+        ],
+        "labels": [
+          "Sümerler",
+          "Mısırlılar",
+          "Fenikeliler",
+          "Asurlular"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Sümerler",
+          "2": "Mısırlılar",
+          "3": "Fenikeliler"
+        }
+      },
+      "explanation": "Çivi yazısını Sümerler, resim temelli hiyeroglifi Mısırlılar bulmuştur; 22 harfli ilk alfabeyi geliştiren uygarlık Fenikelilerdir. Asurlular ise Sümerlerden aldıkları çivi yazısını kullanmıştır."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her katkıyı, onu ilk ortaya koyan uygarlıkla etiketle.",
+        "image": "diagrams/mezopotamya-misir-katkilar.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Tarihte bilinen ilk yazılı kanunlar"
+          },
+          {
+            "id": "2",
+            "text": "Bir yılı 365 gün olarak hesaplayan güneş takvimi"
+          },
+          {
+            "id": "3",
+            "text": "Tarihte bilinen ilk düzenli ordu ve imparatorluk"
+          }
+        ],
+        "labels": [
+          "Sümerler",
+          "Mısırlılar",
+          "Akadlar",
+          "Babiller"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Sümerler",
+          "2": "Mısırlılar",
+          "3": "Akadlar"
+        }
+      },
+      "explanation": "İlk yazılı kanunlar Sümer kralı Urgakina'ya, 365 günlük güneş takvimi Mısırlılara, ilk düzenli ordu ve imparatorluk ise Sargon önderliğindeki Akadlara aittir."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "diagram_label",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her kurumu ya da kavramı ait olduğu uygarlıkla etiketle.",
+        "image": "diagrams/anadolu-kurumlari.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Pankuş Meclisi"
+          },
+          {
+            "id": "2",
+            "text": "Tümülüs adı verilen yığma tepe mezarlar"
+          },
+          {
+            "id": "3",
+            "text": "Madeni paranın (sikkenin) basılması"
+          }
+        ],
+        "labels": [
+          "Hititler",
+          "Frigler",
+          "Lidyalılar",
+          "Urartular"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Hititler",
+          "2": "Frigler",
+          "3": "Lidyalılar"
+        }
+      },
+      "explanation": "Pankuş Meclisi Hititlere, tümülüsler Friglere, ilk madeni para Lidyalılara aittir. Urartular ise kayaya oyulmuş mezarlar yapmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "diagram_label",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her görevi, Roma'da o görevi yürüten kurumla etiketle.",
+        "image": "diagrams/roma-yonetimi.png",
+        "slots": [
+          {
+            "id": "1",
+            "text": "Soylulardan oluşup devlet politikasını belirleyen danışma organı"
+          },
+          {
+            "id": "2",
+            "text": "Bir yıl süreyle seçilip devleti yöneten iki yüksek görevli"
+          },
+          {
+            "id": "3",
+            "text": "Pleblerin haklarını koruyan ve kararları veto edebilen görevli"
+          }
+        ],
+        "labels": [
+          "Senato",
+          "Konsül",
+          "Tribun",
+          "Sensör"
+        ]
+      },
+      "answer_key": {
+        "labels": {
+          "1": "Senato",
+          "2": "Konsül",
+          "3": "Tribun"
+        }
+      },
+      "explanation": "Cumhuriyet Dönemi Roma'sında Senato danışma ve karar organı, iki konsül yürütmenin başı, tribunlar ise pleblerin veto yetkisine sahip temsilcileridir. Sensör nüfus sayımı ve ahlak denetimiyle görevliydi."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Mezopotamya'nın ulaşıma açık bir ova olması, bölgede sık sık siyasi güç değişiminin yaşanmasında etkili olmuştur."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Doğal sınırlardan yoksun olan Mezopotamya göç ve istilalara açıktı; bu yüzden Sümer, Akad, Babil ve Asur gibi birçok siyasi güç birbirini izledi."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Mısır'da hiyeroglif yazısının karmaşık yapısı, okuryazarlığın geniş halk kesimlerine yayılmasını kolaylaştırmıştır."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Yüzlerce işaretten oluşan hiyeroglifi öğrenmek uzun bir eğitim gerektirdiği için okuryazarlık kâtipler ve rahipler gibi küçük bir zümreyle sınırlı kalmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Hititlerin fethettikleri bölgelerin tanrılarını kendi inanç sistemlerine katması, çok tanrılı yapılarının genişlemesine yol açmıştır."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Hititler egemenlik kurdukları halkların tanrılarını da benimsediği için tanrı sayısı artmış ve Anadolu \"Bin Tanrı Ülkesi\" olarak anılmıştır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "true_false",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Urartuların sulama kanalları ve su bentleri yapmasının temel nedeni, denizcilik faaliyetlerini geliştirme isteğidir."
+      },
+      "answer_key": {
+        "value": false
+      },
+      "explanation": "Yanlış. Urartular denize kıyısı olmayan dağlık bir bölgede yaşıyordu; su yapılarını tarımsal sulama ve kentlerin su ihtiyacı için inşa etmiştir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "true_false",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "statement": "Roma'da hukukun yazılı hâle getirilmesi, patricilerin kanunları kendi lehlerine yorumlamasını güçleştirmiştir."
+      },
+      "answer_key": {
+        "value": true
+      },
+      "explanation": "Doğru. Sözlü hukuk soyluların keyfî yorumuna açıktı; On İki Levha Kanunları'nın yazıya geçirilmesi kuralları herkes için denetlenebilir kıldı."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Sümerlerde bilinen ilk yazılı kanunları yapan kral {{0}} iken, bu kanunlardaki bedel ödeme anlayışını kısasa kısas ilkesiyle değiştiren Babil kralı {{1}}'dir.",
+        "choices": [
+          "Urgakina",
+          "Hammurabi",
+          "Sargon",
+          "Asurbanipal",
+          "Nabukadnezar",
+          "Gılgamış"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Urgakina",
+          "Hammurabi"
+        ]
+      },
+      "explanation": "Urgakina Kanunları tarihte bilinen ilk yazılı kanunlardır; Hammurabi ise cezaları ağırlaştırarak kısasa kısas ilkesini getirmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Mısır'da firavunun hem devletin hem de dinin başı sayıldığı yönetim biçimine {{0}} denir ve bu yapı, firavunun kararlarının tanrı buyruğu gibi görülmesine yol açmıştır.",
+        "choices": [
+          "teokratik monarşi",
+          "oligarşi",
+          "aristokrasi",
+          "federasyon"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "teokratik monarşi"
+        ]
+      },
+      "explanation": "Firavun siyasi ve dinî yetkileri tek elde topladığı için Mısır yönetimi teokratik monarşi olarak adlandırılır."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Hititler ile Mısırlılar arasındaki Kadeş Savaşı'nın iki tarafın da kesin üstünlük sağlayamamasıyla sonuçlanması, {{0}} Antlaşması'nın imzalanmasına ve bölgede bir güç dengesinin kurulmasına yol açmıştır.",
+        "choices": [
+          "Kadeş",
+          "Milano",
+          "Sardes",
+          "Ninova"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Kadeş"
+        ]
+      },
+      "explanation": "Kadeş Antlaşması, taraflardan hiçbirinin kesin zafer kazanamaması üzerine imzalanmış ve bilinen ilk yazılı antlaşma olmuştur."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Lidyalıların parayı icat etmesine rağmen güçlü bir devlet kuramamasının temel nedeni, ordularını vatandaşlardan değil {{0}} askerlerden oluşturmasıdır.",
+        "choices": [
+          "paralı (ücretli)",
+          "gönüllü",
+          "soylu",
+          "köle"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "paralı (ücretli)"
+        ]
+      },
+      "explanation": "Paralı askerlere dayanan Lidya ordusu vatan savunması bilincinden yoksun olduğu için Pers saldırıları karşısında kısa sürede dağılmıştır."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "fill_blank",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "template": "Büyük İskender'in doğu seferleri sonucunda Yunan kültürü ile Doğu kültürlerinin kaynaşmasıyla doğan {{0}} uygarlığının en önemli bilim merkezi, Mısır'daki {{1}} kentiydi.",
+        "choices": [
+          "Helenistik",
+          "İskenderiye",
+          "Hellen",
+          "Atina",
+          "Bergama",
+          "Roma"
+        ]
+      },
+      "answer_key": {
+        "blanks": [
+          "Helenistik",
+          "İskenderiye"
+        ]
+      },
+      "explanation": "İskender'in seferleri Helenistik uygarlığı doğurmuş; kütüphanesi ve bilim okuluyla İskenderiye bu dönemin en önemli merkezi olmuştur."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her gelişmeyi, ona yol açan temel ihtiyaçla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Mısır'da geometrinin gelişmesi"
+          },
+          {
+            "id": "2",
+            "text": "Mezopotamya'da yazının icat edilmesi"
+          },
+          {
+            "id": "3",
+            "text": "Mısır'da mumyacılığın gelişmesi"
+          },
+          {
+            "id": "4",
+            "text": "Mezopotamya'da ziggurat yapılması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Taşkınların sildiği tarla sınırlarını yeniden ölçme ihtiyacı"
+          },
+          {
+            "id": "b",
+            "text": "Tapınak ambarına giren ürünü kayda geçirme ihtiyacı"
+          },
+          {
+            "id": "c",
+            "text": "Bedeni öldükten sonraki yaşam için koruma inancı"
+          },
+          {
+            "id": "d",
+            "text": "Taşkın sularından korunan yüksek bir tapınak alanı kurma ihtiyacı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "İlk Çağ'da bilim ve mimarlık, büyük ölçüde coğrafi koşulların doğurduğu somut ihtiyaçlara ve inanç sistemine bağlı olarak gelişmiştir."
+    },
+    {
+      "topic": "mezopotamya_ve_misir_uygarliklari",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her tarihsel kanıtı, kendisinden çıkarılabilecek yargıyla birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hammurabi Kanunları'nda cezaların sınıfa göre değişmesi"
+          },
+          {
+            "id": "2",
+            "text": "Ninova'da büyük bir tablet kütüphanesinin kurulması"
+          },
+          {
+            "id": "3",
+            "text": "Fenikelilerin Akdeniz kıyılarında koloniler kurması"
+          },
+          {
+            "id": "4",
+            "text": "Mısır'da firavun mezarlarına eşya bırakılması"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Toplumda hukuki eşitliğin bulunmadığı"
+          },
+          {
+            "id": "b",
+            "text": "Bilgi birikimini kayıt altına alma geleneğinin olduğu"
+          },
+          {
+            "id": "c",
+            "text": "Deniz ticaretinin ekonomide belirleyici olduğu"
+          },
+          {
+            "id": "d",
+            "text": "Ölümden sonraki yaşama inanıldığı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Her kalıntı ya da belge, ait olduğu toplumun hukuk, ekonomi ve inanç yapısı hakkında doğrudan çıkarım yapmamızı sağlar."
+    },
+    {
+      "topic": "anadolu_uygarliklari",
+      "type": "matching",
+      "difficulty": 4,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her uygarlığın yıkılışını, ona yol açan gelişmeyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Hitit Devleti"
+          },
+          {
+            "id": "2",
+            "text": "Frig Devleti"
+          },
+          {
+            "id": "3",
+            "text": "Lidya Krallığı"
+          },
+          {
+            "id": "4",
+            "text": "Urartu Devleti"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Ege Göçleri sonucunda yıkıldı"
+          },
+          {
+            "id": "b",
+            "text": "Kimmer saldırıları sonucunda yıkıldı"
+          },
+          {
+            "id": "c",
+            "text": "Pers İmparatorluğu tarafından yıkıldı"
+          },
+          {
+            "id": "d",
+            "text": "Medler tarafından yıkıldı"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Hititler Ege Göçleri'yle, Frigler Kimmerlerle, Lidyalılar Perslerle, Urartular ise Medlerin saldırılarıyla tarih sahnesinden çekilmiştir."
+    },
+    {
+      "topic": "yunan_ve_roma_uygarliklari",
+      "type": "matching",
+      "difficulty": 5,
+      "scopes": [
+        "ayt"
+      ],
+      "content": {
+        "instruction": "Her uygulamayı, sonucunda ortaya çıkan siyasi gelişmeyle birleştir.",
+        "left": [
+          {
+            "id": "1",
+            "text": "Atina'da Solon'un borç köleliğini kaldırması"
+          },
+          {
+            "id": "2",
+            "text": "Sparta'da eğitimin askerî temele dayandırılması"
+          },
+          {
+            "id": "3",
+            "text": "Roma'da tribunluk görevinin kurulması"
+          },
+          {
+            "id": "4",
+            "text": "Roma'da Milano Fermanı'nın ilan edilmesi"
+          }
+        ],
+        "right": [
+          {
+            "id": "a",
+            "text": "Halk kesiminin siyasete katılımının genişlemesi"
+          },
+          {
+            "id": "b",
+            "text": "Bilim ve sanat yerine savaşçılığın öne çıkması"
+          },
+          {
+            "id": "c",
+            "text": "Pleblerin kararları veto edebilme hakkı kazanması"
+          },
+          {
+            "id": "d",
+            "text": "Hristiyanlık üzerindeki yasağın kaldırılması"
+          }
+        ]
+      },
+      "answer_key": {
+        "pairs": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d"
+        },
+        "partial_credit": true
+      },
+      "explanation": "Solon'un reformları Atina demokrasisini genişletmiş, Sparta'nın askerî düzeni kültürel gelişmeyi sınırlamış, tribunluk pleblere veto hakkı getirmiş, Milano Fermanı ise Hristiyanlığa serbestlik tanımıştır."
     }
   ]
 }
