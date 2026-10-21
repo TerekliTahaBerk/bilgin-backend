@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use App\Modules\Catalog\Domain\Validation\Validator\DiagramLabelValidator;
 use App\Modules\Catalog\Domain\Validation\Validator\FillBlankValidator;
 use App\Modules\Catalog\Domain\Validation\Validator\MatchingValidator;
 use App\Modules\Catalog\Domain\Validation\Validator\MultipleChoiceValidator;
@@ -199,5 +200,56 @@ describe('sayısal giriş', function (): void {
     it('geçerli soruyu kabul eder', function () use ($validator): void {
         expect($validator->validate(['stem' => 'Kaç?'], ['value' => 375, 'tolerance' => 0])->passes())
             ->toBeTrue();
+    });
+});
+
+describe('şema etiketleme', function (): void {
+    $validator = new DiagramLabelValidator;
+
+    $content = [
+        'instruction' => 'Hücre yapılarını doğru yerlere yerleştir.',
+        'image' => 'diagrams/hucre.png',
+        'slots' => [
+            ['id' => '1', 'text' => 'Enerji üretimi'],
+            ['id' => '2', 'text' => 'Protein sentezi'],
+        ],
+        'labels' => ['Mitokondri', 'Ribozom', 'Lizozom'],
+    ];
+
+    $answer = ['labels' => ['1' => 'Mitokondri', '2' => 'Ribozom']];
+
+    it('geçerli soruyu kabul eder', function () use ($validator, $content, $answer): void {
+        expect($validator->validate($content, $answer)->passes())->toBeTrue();
+    });
+
+    it('seçilecek etiket havuzu YOKSA reddeder', function () use ($validator, $content, $answer): void {
+        /*
+         | Bu testin varlık sebebi gerçek bir kör nokta.
+         |
+         | İstemci yerleştirilecek etiketleri `content.labels`'dan okuyor;
+         | alan boşsa cevap anahtarına düşüyor, ama cevap anahtarı
+         | öğrenciye cevaplamadan ÖNCE gönderilmiyor. Sonuç: şema ve
+         | etiket yerleri görünüyor, sürüklenecek hiçbir şey olmuyor.
+         |
+         | Soru teknik olarak "geçerli" görünüp ekranda çalışmıyor;
+         | şikâyet "soru açılmıyor" diye gelir ve sebebi cevap
+         | anahtarında aranır, oysa eksik olan bir içerik alanıdır.
+        */
+        unset($content['labels']);
+
+        expect($validator->validate($content, $answer)->passes())->toBeFalse();
+    });
+
+    it('havuzda olmayan doğru etiketi reddeder', function () use ($validator, $content): void {
+        // Öğrenci ne yaparsa yanlış: doğru cevap seçenekler arasında yok.
+        $answer = ['labels' => ['1' => 'Kloroplast', '2' => 'Ribozom']];
+
+        expect($validator->validate($content, $answer)->passes())->toBeFalse();
+    });
+
+    it('etiketsiz kalan yeri reddeder', function () use ($validator, $content): void {
+        // Eksik eşleşme, kısmi puanın tavanını kalıcı olarak düşürür.
+        expect($validator->validate($content, ['labels' => ['1' => 'Mitokondri']])->passes())
+            ->toBeFalse();
     });
 });

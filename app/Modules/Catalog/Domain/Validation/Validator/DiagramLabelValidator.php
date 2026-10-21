@@ -42,6 +42,33 @@ final class DiagramLabelValidator implements ExerciseContentValidator
             }
         }
 
+        /*
+         | `content.labels` ZORUNLU — öğrencinin seçeceği etiket havuzu.
+         |
+         | İstemci yerleştirilecek etiketleri buradan okuyor. Alan boşsa
+         | cevap anahtarındaki değerlere düşüyor, ama cevap anahtarı
+         | öğrenciye CEVAPLAMADAN ÖNCE gönderilmiyor (bkz.
+         | SessionResource) — yani seçenek listesi boş kalıyor ve soru
+         | cevaplanamaz hâle geliyor.
+         |
+         | Ekranda şema ve etiket yerleri görünüyor, sürüklenecek hiçbir
+         | şey olmuyor. Şikâyet "soru açılmıyor" diye geliyor ve sebebi
+         | cevap anahtarında değil, eksik bir içerik alanında olduğu için
+         | bulunamıyor. Bu yüzden burada yakalanıyor.
+        */
+        $choices = $content['labels'] ?? null;
+
+        if (! is_array($choices) || $choices === []) {
+            $errors[] = 'Seçilecek etiket havuzu ("content.labels") boş olamaz.';
+        } else {
+            foreach ($labels as $slot => $answer) {
+                if (! in_array($answer, $choices, true)) {
+                    // Havuzda olmayan doğru cevap: öğrenci ne yaparsa yanlış.
+                    $errors[] = "'{$slot}' için doğru etiket '{$answer}' seçenekler arasında yok.";
+                }
+            }
+        }
+
         return $errors === [] ? ContentValidationResult::valid() : ContentValidationResult::invalid($errors);
     }
 }
